@@ -38,4 +38,4 @@ jobs:
         run: |
           curl --fail --silent --show-error -X POST "https://api.indexnow.org/indexnow" \
             -H "Content-Type: application/json; charset=utf-8" \
-            --data '{"host":"elptowalter.github.io","key":"6a34c88f59d8939be9f2b8f504a2334c","keyLocation":"https://elptowalter.github.io/estrecho-de-gibraltar/6a34c88f59d8939be9f2b8f504a2334c.txt","urlList":["https://elptowalter.github.io/estrecho-de-gibraltar/","https://elptowalter.github.io/estrecho-de-gibraltar/sismicidad.html","https://elptowalter.github.io/estrecho-de-gibraltar/en-seismicity.html"]}'
+            --data '{"host":"estrechogibraltar.com","key":"6a34c88f59d8939be9f2b8f504a2334c","keyLocation":"https://estrechogibraltar.com/6a34c88f59d8939be9f2b8f504a2334c.txt","urlList":["https://estrechogibraltar.com/","https://estrechogibraltar.com/sismicidad.html","https://estrechogibraltar.com/en-seismicity.html"]}'

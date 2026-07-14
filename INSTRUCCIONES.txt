@@ -1,13 +1,10 @@
-CORRECCIÓN DEL MAPA SÍSMICO
+Sube estos archivos a la raíz del repositorio Gibraltar-Watch y reemplaza los existentes:
+- styles.css
+- index.html
+- en.html
+- importancia.html
+- en-importance.html
+- trafico.html
+- en-traffic.html
 
-Sube estos tres archivos a la raíz del repositorio y reemplaza los existentes:
-- sismicidad.html
-- en-seismicity.html
-- app.js
-
-No hace falta ejecutar GitHub Actions. Espera 1-2 minutos y recarga con Ctrl+F5.
-
-Correcciones:
-- Hash oficial correcto de Leaflet CSS.
-- Mapa base claro acorde con el diseño editorial.
-- Reajuste de tamaño tras inicializar el mapa.
+No ejecutes GitHub Actions. Espera 1-2 minutos y recarga con Ctrl+F5.

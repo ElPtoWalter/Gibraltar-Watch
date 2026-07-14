@@ -694,3 +694,111 @@ body[data-page="importance"]{--accent:#c55438;--accent-2:#173f58;--accent-soft:#
     margin-bottom:52px;
   }
 }
+
+
+/* =========================================================
+   CONTACTO PROFESIONAL · 2026-07-14
+   ========================================================= */
+.contact-layout{
+  display:grid;
+  grid-template-columns:minmax(0,1.05fr) minmax(300px,.65fr);
+  gap:70px;
+  margin:0 0 110px;
+  align-items:start;
+}
+.contact-primary{
+  border-top:1px solid var(--line);
+  padding-top:34px;
+}
+.contact-primary h2,
+.contact-sidebar h2{
+  font-family:"Newsreader",serif;
+  font-size:clamp(38px,4.5vw,58px);
+  line-height:.96;
+  letter-spacing:-.04em;
+  margin:0 0 20px;
+}
+.contact-primary>p{max-width:68ch;color:var(--muted);font-size:17px}
+.contact-email{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:24px;
+  margin:36px 0 42px;
+  padding:28px 30px;
+  border:1px solid var(--line);
+  border-left:7px solid var(--coral);
+  background:var(--white);
+  box-shadow:var(--shadow-sm);
+}
+.contact-email small{
+  display:block;
+  margin-bottom:8px;
+  font-family:"IBM Plex Mono",monospace;
+  font-size:9px;
+  letter-spacing:.16em;
+  color:var(--muted);
+}
+.contact-email a{
+  font-family:"Newsreader",serif;
+  font-size:clamp(22px,3vw,38px);
+  line-height:1;
+  color:var(--navy);
+  overflow-wrap:anywhere;
+}
+.contact-email .button{flex:0 0 auto}
+.contact-topics{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  border-left:1px solid var(--line);
+  border-top:1px solid var(--line);
+}
+.contact-topics article{
+  min-width:0;
+  padding:28px 24px 30px;
+  border-right:1px solid var(--line);
+  border-bottom:1px solid var(--line);
+  background:var(--white);
+}
+.contact-topics small{
+  font-family:"IBM Plex Mono",monospace;
+  font-size:9px;
+  letter-spacing:.14em;
+  color:var(--coral);
+}
+.contact-topics h3{
+  font-family:"Newsreader",serif;
+  font-size:29px;
+  line-height:1;
+  margin:14px 0 12px;
+}
+.contact-topics p{font-size:13px;color:var(--muted);margin:0 0 18px}
+.contact-topics a{font-family:"IBM Plex Mono",monospace;font-size:10px;color:var(--accent);font-weight:600}
+.contact-sidebar{
+  padding:38px 34px;
+  background:var(--navy);
+  color:#fff;
+}
+.contact-sidebar h2{font-size:40px;color:#fff}
+.contact-sidebar p{color:#c7d2d7}
+.contact-sidebar ul{list-style:none;margin:30px 0 0;padding:0;border-top:1px solid rgba(255,255,255,.2)}
+.contact-sidebar li{padding:16px 0;border-bottom:1px solid rgba(255,255,255,.2);font-size:13px;color:#d9e1e4}
+.contact-sidebar li strong{display:block;margin-bottom:4px;color:#f2b36b;font-family:"IBM Plex Mono",monospace;font-size:9px;letter-spacing:.12em}
+.contact-note{
+  margin:0 0 90px;
+  padding:30px 34px;
+  border-left:5px solid var(--accent);
+  background:#dfe9e7;
+  color:var(--muted);
+}
+.contact-note strong{color:var(--ink)}
+.footer-contact{font-weight:600}
+
+@media(max-width:980px){
+  .contact-layout{grid-template-columns:1fr;gap:34px}
+}
+@media(max-width:780px){
+  .contact-email{align-items:flex-start;flex-direction:column;padding:24px 20px}
+  .contact-topics{grid-template-columns:1fr}
+  .contact-sidebar{padding:30px 24px}
+}

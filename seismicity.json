@@ -1,9 +1,10 @@
 {
-  "checked_at": "2026-07-14T00:00:00Z",
+  "checked_at": "2026-07-14T00:10:58Z",
   "source": "USGS Earthquake Catalog",
-  "status": "PENDING",
-  "data_note_es": "Pendiente de la primera comprobación automática.",
-  "data_note_en": "Waiting for the first automated check.",
+  "source_query": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-06-14T00%3A10%3A58Z&endtime=2026-07-14T00%3A10%3A58Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
+  "status": "OK",
+  "data_note_es": "No se registran eventos M≥1 en el área consultada durante los últimos 30 días.",
+  "data_note_en": "No M≥1 events are present in the queried area during the last 30 days.",
   "periods": {
     "24h": 0,
     "7d": 0,
@@ -12,5 +13,5 @@
   "max_magnitude_30d": null,
   "last_event": null,
   "events": [],
-  "history_updated": false
+  "history_updated": true
 }

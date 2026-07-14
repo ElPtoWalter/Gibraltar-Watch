@@ -1,0 +1,16 @@
+{
+  "name": "Gibraltar Watch",
+  "short_name": "Gibraltar",
+  "description": "Tectónica, sismicidad y tráfico marítimo del Estrecho de Gibraltar.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#06101b",
+  "theme_color": "#07111d",
+  "icons": [
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

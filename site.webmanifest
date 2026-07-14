@@ -2,7 +2,7 @@
   "name": "Gibraltar Watch",
   "short_name": "Gibraltar",
   "description": "Tectónica, sismicidad y tráfico marítimo del Estrecho de Gibraltar.",
-  "start_url": "/Gibraltar-Watch/",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#f3efe5",
   "theme_color": "#f3efe5",
@@ -13,5 +13,5 @@
       "type": "image/png"
     }
   ],
-  "scope": "/Gibraltar-Watch/"
+  "scope": "/"
 }

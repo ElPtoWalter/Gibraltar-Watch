@@ -1,0 +1,7 @@
+MIGRACIÓN A ESTRECHOGIBRALTAR.COM
+
+1. Sube todos los archivos de esta carpeta a la raíz del repositorio Gibraltar-Watch.
+2. Sustituye los archivos existentes y confirma el commit.
+3. Actualiza aparte .github/workflows/update-gibraltar.yml con el archivo facilitado por separado.
+4. Ejecuta el workflow una vez para regenerar feed.xml con datos recientes y avisar a IndexNow.
+5. Comprueba https://estrechogibraltar.com/robots.txt y /sitemap.xml.

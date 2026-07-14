@@ -375,3 +375,126 @@ button,input{font:inherit}
   .geo-timeline,.project-timeline,.scenario-grid,.source-grid,.faq-grid,.method-steps,.indicator-grid{grid-template-columns:1fr}.geo-timeline article,.project-timeline article,.faq-grid details{border-right:0}.faq-grid details:nth-child(even){border-right:0}.tunnel-teaser{padding:30px}.metric-strip,.traffic-stats,.tunnel-metrics{grid-template-columns:1fr 1fr}.metric-strip article:nth-child(even),.traffic-stats article:nth-child(even){border-right:0}.earthquake-map{height:500px}.map-toolbar{align-items:flex-start;flex-direction:column}.quake-row{grid-template-columns:70px 1fr}.quake-row>*:nth-child(n+3){display:none}.marine-map-container{height:510px}.geo-number{border-right:0;border-bottom:1px solid var(--line);padding:0 0 28px}.geo-system-map{min-height:410px}.counter-section>div+div{border-left:0;border-top:1px solid var(--line)}.counter-value b{width:14ch;font-size:clamp(32px,9.6vw,50px)}.answer-mark{border-right:0;border-bottom:1px solid var(--line);padding:0 0 15px}.counterfactual .section-copy{padding:30px}.equation{border-left:0;border-top:1px solid var(--line)}.messinian-bars,.claim-table{grid-template-columns:1fr}.messinian-bars div{border-right:0;border-bottom:1px solid var(--line)}.claim-table div:nth-child(odd){border-right:0}.project-status .status-badge{justify-self:start}.tunnel-profile{height:320px}.profile-land{padding:12px;font-size:10px}.site-footer{grid-template-columns:1fr}.marine-bar{flex-direction:column;gap:8px}.source-grid{gap:14px}.scenario-grid article:nth-child(2){transform:none}
 }
 @media(prefers-reduced-motion:reduce){*{animation-duration:.001ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important}}
+
+/* =========================================================
+   AJUSTE FINAL DE MAQUETACIÓN · 2026-07-14
+   Corrige titulares recortados del panel principal y el
+   bloque de estado del proyecto del túnel.
+   ========================================================= */
+
+/* Evita que los elementos de grid impongan un ancho mínimo
+   y terminen recortando titulares largos. */
+.dashboard > *,
+.status-card > *,
+.project-status > *{
+  min-width:0;
+}
+
+/* Los titulares de las dos tarjetas pequeñas utilizan todo el
+   ancho disponible bajo el icono, en vez de quedar encerrados
+   en una columna demasiado estrecha. */
+.status-card.tectonic,
+.status-card.future{
+  grid-template-columns:46px minmax(0,1fr);
+  grid-template-rows:auto auto auto 1fr;
+  align-content:start;
+}
+.status-card.tectonic h2,
+.status-card.future h2{
+  grid-column:1 / -1;
+  width:100%;
+  max-width:none;
+  margin:22px 0 16px;
+  font-size:clamp(34px,3.15vw,48px);
+  line-height:.92;
+  letter-spacing:-.035em;
+  white-space:normal;
+  overflow-wrap:normal;
+  word-break:normal;
+  text-wrap:balance;
+}
+.status-card.future h2{
+  font-size:clamp(33px,3vw,45px);
+}
+.status-card.tectonic p,
+.status-card.future p,
+.status-card.tectonic a,
+.status-card.future a{
+  grid-column:1 / -1;
+}
+.status-card.tectonic p,
+.status-card.future p{
+  max-width:31ch;
+}
+
+/* Bloque del túnel: abandona la columna fija de 260 px, da
+   espacio real al titular y evita que la insignia se estire
+   como una barra horizontal. */
+.project-status{
+  grid-template-columns:minmax(0,1.35fr) minmax(210px,.65fr);
+  gap:clamp(34px,5vw,72px);
+  align-items:center;
+  min-height:340px;
+  padding:52px 58px;
+}
+.project-status h2{
+  max-width:9ch;
+  margin:10px 0 22px;
+  font-size:clamp(52px,6vw,82px);
+  line-height:.88;
+  letter-spacing:-.045em;
+  white-space:normal;
+  overflow-wrap:normal;
+  word-break:normal;
+  text-wrap:balance;
+}
+.project-status p{
+  max-width:52ch;
+  margin-bottom:0;
+}
+.project-status .status-badge{
+  justify-self:end;
+  align-self:center;
+  width:max-content;
+  min-width:180px;
+  max-width:100%;
+  padding:14px 22px;
+  text-align:center;
+  white-space:nowrap;
+  background:rgba(255,253,248,.58);
+}
+
+@media (max-width:1120px) and (min-width:781px){
+  .project-status{
+    grid-template-columns:minmax(0,1fr) auto;
+    gap:36px;
+    padding:44px;
+  }
+  .project-status h2{
+    max-width:10ch;
+    font-size:clamp(50px,6vw,68px);
+  }
+}
+
+@media (max-width:780px){
+  .status-card.tectonic h2,
+  .status-card.future h2{
+    font-size:clamp(38px,12vw,52px);
+  }
+  .project-status{
+    min-height:0;
+    padding:32px 25px;
+    gap:26px;
+  }
+  .project-status h2{
+    max-width:10ch;
+    font-size:clamp(44px,13vw,64px);
+    line-height:.9;
+  }
+  .project-status .status-badge{
+    justify-self:start;
+    width:auto;
+    min-width:0;
+    white-space:normal;
+  }
+}

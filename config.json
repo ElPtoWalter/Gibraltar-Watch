@@ -1,0 +1,18 @@
+{
+  "site_name": "Gibraltar Watch",
+  "base_url": "https://elptowalter.github.io/estrecho-de-gibraltar/",
+  "repo_name": "estrecho-de-gibraltar",
+  "region": {
+    "min_lat": 34.0,
+    "max_lat": 38.0,
+    "min_lon": -8.0,
+    "max_lon": -1.5
+  },
+  "minimum_magnitude": 1.0,
+  "plate_convergence_mm_year": 4.5,
+  "plate_convergence_uncertainty": 1.0,
+  "narrowest_width_km": 14.0,
+  "indexnow_key": "6a34c88f59d8939be9f2b8f504a2334c",
+  "marine_embed": "https://www.marinetraffic.com/en/ais/embed/zoom:8/centery:35.96/centerx:-5.55/maptype:4/shownames:true/mmsi:0/shipid:0/fleet:/fleet_id:/vtypes:/showmenu:true/remember:false",
+  "marine_full": "https://www.marinetraffic.com/en/ais/home/centerx:-5.55/centery:35.96/zoom:8"
+}

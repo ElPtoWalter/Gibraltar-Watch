@@ -1,0 +1,41 @@
+name: Actualizar Gibraltar Watch
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: update-gibraltar-watch
+  cancel-in-progress: true
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v6
+      - name: Configurar Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Ejecutar pruebas
+        run: python -m unittest -v test_update.py
+      - name: Actualizar sismicidad
+        run: python update_gibraltar.py
+      - name: Guardar cambios
+        run: |
+          if git diff --quiet; then
+            echo "No hay cambios que guardar."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add seismicity.json seismic-history.json feed.xml sitemap.xml
+          git commit -m "Actualizar monitor del Estrecho de Gibraltar"
+          git push
+      - name: Avisar mediante IndexNow
+        continue-on-error: true
+        run: |
+          curl --fail --silent --show-error -X POST "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json; charset=utf-8" \
+            --data '{"host":"elptowalter.github.io","key":"6a34c88f59d8939be9f2b8f504a2334c","keyLocation":"https://elptowalter.github.io/estrecho-de-gibraltar/6a34c88f59d8939be9f2b8f504a2334c.txt","urlList":["https://elptowalter.github.io/estrecho-de-gibraltar/","https://elptowalter.github.io/estrecho-de-gibraltar/sismicidad.html","https://elptowalter.github.io/estrecho-de-gibraltar/en-seismicity.html"]}'

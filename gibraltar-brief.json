@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "date": "2026-07-17",
+  "generated_at": "2026-07-17T00:00:00Z",
+  "source_checked_at": null,
+  "health": "STALE",
+  "health_label_es": "Pendiente de primera ejecución",
+  "health_label_en": "Awaiting first run",
+  "headline_es": "Pendiente de sincronizar con seismicity.json",
+  "headline_en": "Waiting to synchronise with seismicity.json",
+  "short_conclusion_es": "No utilizar este estado inicial como información sísmica actual.",
+  "short_conclusion_en": "Do not use this initial state as current seismic information.",
+  "summary_es": "El workflow sustituirá este contenido al ejecutarse.",
+  "summary_en": "The workflow will replace this content when it runs.",
+  "change_es": "Primera línea base pendiente.",
+  "change_en": "First baseline pending.",
+  "seismic": {
+    "periods": {
+      "24h": 0,
+      "7d": 0,
+      "30d": 0
+    },
+    "max_magnitude_30d": null,
+    "last_event_es": "No disponible.",
+    "last_event_en": "Unavailable."
+  },
+  "interpretation_es": [
+    "Ejecuta el workflow antes de utilizar el parte."
+  ],
+  "interpretation_en": [
+    "Run the workflow before using the brief."
+  ],
+  "watchlist_es": [
+    "Comprobar la primera ejecución."
+  ],
+  "watchlist_en": [
+    "Check the first run."
+  ],
+  "publish_recommended": false,
+  "material_hash": "initial-placeholder"
+}

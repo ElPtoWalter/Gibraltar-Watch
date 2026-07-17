@@ -2,7 +2,7 @@
   "schema_version": 1,
   "date": "2026-07-17",
   "generated_at": "2026-07-17T09:03:02Z",
-  "source_checked_at": "2026-07-17T09:23:05Z",
+  "source_checked_at": "2026-07-17T11:42:47Z",
   "health": "OK",
   "health_label_es": "Observatorio operativo",
   "health_label_en": "Observatory operational",
@@ -16,7 +16,7 @@
   "change_en": "First scientific-brief baseline; this does not by itself represent a new development.",
   "seismic": {
     "source": "USGS Earthquake Catalog",
-    "source_query": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-06-17T09%3A23%3A05Z&endtime=2026-07-17T09%3A23%3A05Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
+    "source_query": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-06-17T11%3A42%3A47Z&endtime=2026-07-17T11%3A42%3A47Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
     "periods": {
       "24h": 0,
       "7d": 0,

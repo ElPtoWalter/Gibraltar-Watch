@@ -1,41 +1,64 @@
 name: Actualizar Gibraltar Watch
+
 on:
   schedule:
     - cron: "17 * * * *"
   workflow_dispatch:
+
 permissions:
   contents: write
+
 concurrency:
   group: update-gibraltar-watch
   cancel-in-progress: true
+
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 12
+
     steps:
       - name: Descargar repositorio
         uses: actions/checkout@v6
+
       - name: Configurar Python
         uses: actions/setup-python@v6
         with:
           python-version: "3.12"
-      - name: Ejecutar pruebas
+
+      - name: Ejecutar pruebas del monitor actual
         run: python -m unittest -v test_update.py
+
+      - name: Ejecutar pruebas de Gibraltar Watch TOP
+        run: python -m unittest -v test_gibraltar_top.py test_install_gibraltar_top.py
+
       - name: Actualizar sismicidad
         run: python update_gibraltar.py
+
+      - name: Instalar y conservar mejoras editoriales
+        run: python install_gibraltar_top.py
+
+      - name: Generar parte científico y archivo
+        run: python generate_gibraltar_brief.py
+
       - name: Guardar cambios
+        id: commit
         run: |
-          if git diff --quiet; then
+          find . -type d -name __pycache__ -prune -exec rm -rf {} +
+          if git diff --quiet && [ -z "$(git status --porcelain)" ]; then
             echo "No hay cambios que guardar."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add seismicity.json seismic-history.json feed.xml sitemap.xml
-          git commit -m "Actualizar monitor del Estrecho de Gibraltar"
+          git add -A
+          git commit -m "Actualizar Gibraltar Watch y parte científico"
           git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
       - name: Avisar mediante IndexNow
+        if: steps.commit.outputs.changed == 'true'
         continue-on-error: true
-        run: |
-          curl --fail --silent --show-error -X POST "https://api.indexnow.org/indexnow" \
-            -H "Content-Type: application/json; charset=utf-8" \
-            --data '{"host":"estrechogibraltar.com","key":"6a34c88f59d8939be9f2b8f504a2334c","keyLocation":"https://estrechogibraltar.com/6a34c88f59d8939be9f2b8f504a2334c.txt","urlList":["https://estrechogibraltar.com/","https://estrechogibraltar.com/sismicidad.html","https://estrechogibraltar.com/en-seismicity.html"]}'
+        run: python submit_gibraltar_indexnow.py

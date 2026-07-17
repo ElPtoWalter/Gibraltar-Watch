@@ -2,42 +2,58 @@
   {
     "schema_version": 1,
     "date": "2026-07-17",
-    "generated_at": "2026-07-17T00:00:00Z",
-    "source_checked_at": null,
-    "health": "STALE",
-    "health_label_es": "Pendiente de primera ejecución",
-    "health_label_en": "Awaiting first run",
-    "headline_es": "Pendiente de sincronizar con seismicity.json",
-    "headline_en": "Waiting to synchronise with seismicity.json",
-    "short_conclusion_es": "No utilizar este estado inicial como información sísmica actual.",
-    "short_conclusion_en": "Do not use this initial state as current seismic information.",
-    "summary_es": "El workflow sustituirá este contenido al ejecutarse.",
-    "summary_en": "The workflow will replace this content when it runs.",
-    "change_es": "Primera línea base pendiente.",
-    "change_en": "First baseline pending.",
+    "generated_at": "2026-07-17T09:03:02Z",
+    "source_checked_at": "2026-07-17T09:03:01Z",
+    "health": "OK",
+    "health_label_es": "Observatorio operativo",
+    "health_label_en": "Observatory operational",
+    "headline_es": "Sin indicios científicos de cierre a escala humana",
+    "headline_en": "No scientific indication of closure on a human timescale",
+    "short_conclusion_es": "No existe una predicción científica de cierre del Estrecho en décadas o siglos.",
+    "short_conclusion_en": "There is no scientific forecast of the Strait closing within decades or centuries.",
+    "summary_es": "El paso oceánico continúa siendo una conexión natural abierta. El catálogo automático registra 0 eventos M≥1 en 30 días. Estos datos describen sismicidad regional y no permiten inferir una tasa de cierre.",
+    "summary_en": "The ocean passage remains a naturally open connection. The automatic catalogue records 0 M≥1 events in 30 days. These data describe regional seismicity and cannot be used to infer a closure rate.",
+    "change_es": "Primera línea base del parte científico; no representa por sí sola una novedad.",
+    "change_en": "First scientific-brief baseline; this does not by itself represent a new development.",
     "seismic": {
+      "source": "USGS Earthquake Catalog",
+      "source_query": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-06-17T09%3A03%3A01Z&endtime=2026-07-17T09%3A03%3A01Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
       "periods": {
         "24h": 0,
         "7d": 0,
         "30d": 0
       },
       "max_magnitude_30d": null,
-      "last_event_es": "No disponible.",
-      "last_event_en": "Unavailable."
+      "last_event_es": "No hay un último evento disponible.",
+      "last_event_en": "No latest event is available.",
+      "data_note_es": "No se registran eventos M≥1 en el área consultada durante los últimos 30 días.",
+      "data_note_en": "No M≥1 events are present in the queried area during the last 30 days."
     },
     "interpretation_es": [
-      "Ejecuta el workflow antes de utilizar el parte."
+      "El catálogo consultado no contiene eventos M≥1 en el área durante los últimos 30 días.",
+      "La sismicidad confirma que la región tectónica está activa, pero no permite calcular una tasa de cierre del canal.",
+      "Un aumento o descenso de eventos pequeños puede depender de la red observadora, revisiones del catálogo y secuencias locales.",
+      "La actividad sísmica no equivale a una predicción de terremotos ni a una interrupción de la navegación."
     ],
     "interpretation_en": [
-      "Run the workflow before using the brief."
+      "The queried catalogue contains no M≥1 events in the area during the last 30 days.",
+      "Seismicity confirms that the tectonic region is active, but it cannot be used to calculate a closure rate for the channel.",
+      "A rise or fall in small events may reflect network coverage, catalogue revisions and local sequences.",
+      "Seismic activity is not an earthquake prediction and does not imply disruption to navigation."
     ],
     "watchlist_es": [
-      "Comprobar la primera ejecución."
+      "Catálogos del IGN y USGS, teniendo en cuenta revisiones y diferencias de completitud.",
+      "Avisos oficiales de protección civil ante eventos relevantes.",
+      "Continuidad del tráfico mediante trayectorias AIS completas y avisos marítimos, no puntos aislados.",
+      "Resultados oficiales de las campañas geológicas del enlace fijo España–Marruecos."
     ],
     "watchlist_en": [
-      "Check the first run."
+      "IGN and USGS catalogues, accounting for revisions and completeness differences.",
+      "Official civil-protection notices following relevant events.",
+      "Traffic continuity through completed AIS tracks and maritime notices, not isolated points.",
+      "Official results from Spain–Morocco fixed-link geological campaigns."
     ],
     "publish_recommended": false,
-    "material_hash": "initial-placeholder"
+    "material_hash": "cb7abded7c7bceaa"
   }
 ]

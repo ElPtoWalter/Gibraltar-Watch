@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-07-27T01:01:55Z",
+  "checked_at": "2026-07-27T04:54:39Z",
   "source": "USGS Earthquake Catalog",
-  "source_query": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-06-27T01%3A01%3A55Z&endtime=2026-07-27T01%3A01%3A55Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
+  "source_query": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-06-27T04%3A54%3A39Z&endtime=2026-07-27T04%3A54%3A39Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
   "status": "OK",
   "data_note_es": "Se han registrado 1 eventos; magnitud máxima 3.1 en 30 días.",
   "data_note_en": "1 events recorded; maximum magnitude 3.1 over 30 days.",
@@ -35,5 +35,5 @@
       "reviewed": true
     }
   ],
-  "history_updated": true
+  "history_updated": false
 }

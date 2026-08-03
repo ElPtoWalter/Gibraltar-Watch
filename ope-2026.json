@@ -1,12 +1,12 @@
 {
   "season": 2026,
   "status": "OK",
-  "checked_at": "2026-08-03T09:58:00Z",
+  "checked_at": "2026-08-03T12:13:44Z",
   "report_date": "2026-08-01",
   "report_label_es": "1 de agosto de 2026",
   "report_label_en": "1 August 2026",
   "source": "Secretaría General de Protección Civil y Emergencias",
-  "source_url": "https://www.proteccioncivil.es/documents/20121/0/20260801_InformeOPE.pdf/49a562ff-675e-78d5-55ff-5f5e692217b6",
+  "source_url": "https://www.proteccioncivil.es/documents/20121/0/20260801_InformeOPE.pdf",
   "campaign_url": "https://www.proteccioncivil.es/coordinacion/campanas/operaci%C3%B3n-paso-del-estrecho",
   "season_start": "2026-06-15",
   "season_end": "2026-09-15",
@@ -35,22 +35,40 @@
         "vehicles": 1929
       },
       {
-        "name": "Algeciras/Ceuta",
-        "rotations": 21,
-        "passengers": 4360,
-        "vehicles": 1035
-      },
-      {
         "name": "Almería/Nador",
         "rotations": 5,
         "passengers": 6014,
         "vehicles": 1801
       },
       {
+        "name": "Algeciras/Ceuta",
+        "rotations": 21,
+        "passengers": 4360,
+        "vehicles": 1035
+      },
+      {
         "name": "Málaga/Melilla",
         "rotations": 2,
         "passengers": 2111,
         "vehicles": 544
+      },
+      {
+        "name": "Valencia/Mostaganem",
+        "rotations": 0,
+        "passengers": 1078,
+        "vehicles": 299
+      },
+      {
+        "name": "Motril/Nador",
+        "rotations": 1,
+        "passengers": 937,
+        "vehicles": 266
+      },
+      {
+        "name": "Almería/Melilla",
+        "rotations": 1,
+        "passengers": 762,
+        "vehicles": 218
       }
     ]
   },
@@ -95,14 +113,26 @@
         "rotations": 2,
         "passengers": 1386,
         "vehicles": 368
+      },
+      {
+        "name": "Mostaganem/Valencia",
+        "rotations": 0,
+        "passengers": 635,
+        "vehicles": 186
+      },
+      {
+        "name": "Melilla/Motril",
+        "rotations": 1,
+        "passengers": 345,
+        "vehicles": 87
+      },
+      {
+        "name": "Melilla/Almería",
+        "rotations": 1,
+        "passengers": 203,
+        "vehicles": 43
       }
     ]
-  },
-  "comparison_2025": {
-    "departure_passengers_pct": -3.0,
-    "departure_vehicles_pct": -2.0,
-    "return_passengers_pct": 2.1,
-    "return_vehicles_pct": 1.2
   },
   "advice_es": "Protección Civil recomienda planificar el viaje y acudir al puerto con billete cerrado adquirido con antelación.",
   "advice_en": "Spanish Civil Protection recommends planning the journey and arriving at the port with a pre-booked closed ticket.",

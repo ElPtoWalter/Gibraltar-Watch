@@ -1,0 +1,13 @@
+GIBRALTAR WATCH · OPTIMIZACIÓN VISUAL FINAL
+
+1. Sube todos los archivos de esta carpeta a la raíz del repositorio.
+2. Sustituye .github/workflows/update-gibraltar.yml por el workflow entregado por separado.
+3. Ejecuta Actions > Actualizar Gibraltar Watch > Run workflow una vez.
+4. Espera al despliegue y recarga https://estrechogibraltar.com/ con Ctrl+F5.
+
+La hoja gibraltar-layout-polish.css se carga en último lugar y corrige:
+- navegación en tablet y móvil;
+- textos largos y titulares;
+- cuadrículas de indicadores, noticias, economía y control;
+- mapas, tablas, correos y botones;
+- adaptación a 320 px, móvil, tablet, portátil y escritorio.

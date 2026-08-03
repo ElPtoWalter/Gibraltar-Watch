@@ -1,0 +1,377 @@
+/* Gibraltar Watch · pulido visual y responsive final · 2026-08-03 */
+
+:root {
+  --gwp-safe-inline: clamp(.9rem, 3vw, 2rem);
+  --gwp-reading: 68ch;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { overflow-x: clip; }
+
+.site-shell,
+.site-header,
+.site-nav,
+main,
+section,
+article,
+aside,
+header,
+footer,
+nav,
+.panel,
+.inner-hero,
+.gwc-home,
+.gwc-footer { min-width: 0; }
+
+img, svg, video, canvas, iframe { display: block; max-width: 100%; }
+iframe { width: 100%; }
+
+table { width: 100%; }
+pre, code { max-width: 100%; overflow-wrap: anywhere; }
+
+h1, h2, h3, h4,
+.gwc-status-grid strong,
+.gwc-economy-metrics strong,
+.gwc-control-grid strong,
+.project-status h2,
+.contact-email,
+a[href^="mailto:"] {
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+h1, h2, h3, h4 { text-wrap: balance; }
+p, li { text-wrap: pretty; }
+
+main [id] { scroll-margin-top: 7rem; }
+
+/* Cabecera: evita que el menú se comprima o se monte sobre la marca. */
+.site-header { width: 100%; }
+.gwc-site-nav { max-width: 100%; }
+.gwc-site-nav > a,
+.gwc-site-nav > details > summary { flex: 0 0 auto; }
+.gwc-nav-menu {
+  max-width: min(22rem, calc(100vw - 2rem));
+  overflow-wrap: anywhere;
+}
+
+/* Portada */
+.gwc-hero-copy,
+.gwc-strategic-card,
+.gwc-status-grid article,
+.gwc-economy-metrics article,
+.gwc-control-grid article,
+.gwc-analysis-grid > a,
+.gwc-territory-grid > a { min-width: 0; }
+
+.gwc-hero h1 {
+  line-height: .9;
+  max-width: 13ch;
+}
+.gwc-strategic-card > strong {
+  line-height: .86;
+  max-width: 7ch;
+}
+.gwc-strait-line span { white-space: nowrap; }
+
+.gwc-status-grid strong,
+.gwc-economy-metrics strong {
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+
+.gwc-news-item h3,
+.gwc-news-item h3 a,
+.gwc-news-item small { min-width: 0; }
+.gwc-news-item b {
+  max-width: 10rem;
+  line-height: 1.25;
+  text-align: right;
+}
+
+.gwc-feature-card h2,
+.gwc-control h2,
+.gwc-territory h2 { max-width: none; }
+.gwc-feature-card li { padding-inline-end: .25rem; }
+
+.gwc-analysis-grid > a { min-height: 15rem; }
+.gwc-analysis-grid h3 { max-width: 22ch; }
+
+.gwc-contact-cta > div { min-width: 0; }
+.gwc-contact-cta .gwc-button {
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+
+.gwc-footer-grid a,
+.gwc-footer-grid p,
+.gwc-footer-bottom { overflow-wrap: anywhere; }
+
+/* Páginas interiores: protección general frente a titulares, cifras y tablas largas. */
+.inner-hero > *,
+.truth-banner > *,
+.split-feature > *,
+.live-grid > *,
+.two-col > *,
+.geology-hero-card > *,
+.answer-card > *,
+.project-status > *,
+.geo-system > *,
+.counter-section > *,
+.counterfactual > *,
+.tunnel-teaser > *,
+.contact-layout > *,
+.strategic-verdict > *,
+.gw-strategy-home > *,
+.gw-relation-matrix > *,
+.gw-control-actors > *,
+.gw-scenario-grid > * { min-width: 0; }
+
+.inner-hero h1,
+.gw-strategy-hero h1,
+.strategic-hero h1,
+.gw-ope-hero h1,
+.gt-shell h1 {
+  line-height: .94;
+  overflow-wrap: anywhere;
+}
+
+.metric-strip > *,
+.traffic-stats > *,
+.scenario-grid > *,
+.indicator-grid > *,
+.source-grid > *,
+.gw-control-actors > *,
+.gw-scenario-grid > * { min-width: 0; }
+
+.metric-strip b,
+.traffic-stats b,
+.gw-big-number,
+.counter-value b,
+.project-status h2 { font-variant-numeric: tabular-nums; }
+
+.map-card,
+.marine-card,
+.earthquake-map,
+.marine-map-container,
+.gw-control-map,
+.lane-diagram,
+.water-diagram,
+.bathymetry { max-width: 100%; }
+
+.map-head,
+.marine-bar,
+.section-heading,
+.calc-readout,
+.note-actions { flex-wrap: wrap; }
+
+.contact-email,
+.contact-email a,
+.contact-primary a,
+.gt-editorial-record a { overflow-wrap: anywhere; }
+
+/* Escritorio compacto y tablet: el menú pasa a modo desplegable antes de comprimirse. */
+@media (max-width: 1180px) {
+  .site-header { flex-wrap: wrap; align-items: center; }
+  .nav-toggle { display: block; margin-left: auto; }
+  .gwc-site-nav {
+    display: none;
+    width: 100%;
+    margin-left: 0;
+    padding: .5rem 0 1rem;
+  }
+  .gwc-site-nav.is-open { display: grid; gap: .2rem; }
+  .gwc-site-nav > a,
+  .gwc-site-nav > details > summary {
+    width: 100%;
+    justify-content: space-between;
+    padding: .82rem .75rem;
+    border-bottom: 1px solid var(--gwc-line, rgba(16,39,51,.18));
+    white-space: normal;
+  }
+  .gwc-site-nav .lang-switch { width: max-content; margin-left: 0; }
+  .gwc-nav-group { width: 100%; }
+  .gwc-nav-menu {
+    position: static;
+    min-width: 0;
+    max-width: none;
+    border: 0;
+    border-left: 3px solid var(--gwc-blue, #0d6278);
+    box-shadow: none;
+    background: rgba(255,255,255,.48);
+  }
+
+  .gwc-status-grid,
+  .gwc-economy-metrics,
+  .gwc-control-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+  .gwc-status-grid article:nth-child(2n),
+  .gwc-economy-metrics article:nth-child(2n),
+  .gwc-control-grid article:nth-child(2n) { border-right: 0; }
+
+  .gwc-current { grid-template-columns: minmax(0, 1fr); }
+  .gwc-news-item { grid-template-columns: 7.5rem minmax(0,1fr); }
+  .gwc-news-item b { grid-column: 2; justify-self: start; max-width: none; text-align: left; }
+
+  .gwc-traffic-intro,
+  .gwc-control > header,
+  .gwc-territory { grid-template-columns: 1fr; }
+
+  .gwc-analysis-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
+  .gwc-analysis-grid > a:nth-child(3) { grid-column: 1 / -1; min-height: 11rem; }
+
+  .gwc-footer-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
+  .gwc-footer-grid section:last-child { grid-column: auto; flex-direction: column; gap: 0; }
+
+  .inner-hero,
+  .truth-banner,
+  .split-feature,
+  .live-grid,
+  .two-col,
+  .geology-hero-card,
+  .answer-card,
+  .project-status,
+  .geo-system,
+  .counter-section,
+  .counterfactual,
+  .tunnel-teaser,
+  .contact-layout,
+  .strategic-verdict,
+  .gw-strategy-home,
+  .gw-relation-matrix { grid-template-columns: 1fr !important; }
+
+  .dashboard { grid-template-columns: repeat(2, minmax(0,1fr)); grid-template-areas: none; }
+  .dashboard > * { grid-area: auto !important; }
+
+  .metric-strip,
+  .traffic-stats,
+  .scenario-grid,
+  .indicator-grid,
+  .source-grid,
+  .gw-control-actors,
+  .gw-scenario-grid { grid-template-columns: repeat(2, minmax(0,1fr)) !important; }
+
+  .geo-timeline,
+  .project-timeline,
+  .gw-timeline,
+  .gw-relations-timeline { grid-template-columns: repeat(2, minmax(0,1fr)) !important; }
+}
+
+@media (max-width: 900px) {
+  .gwc-hero { grid-template-columns: 1fr; }
+  .gwc-hero-copy { padding: clamp(1.8rem, 6vw, 3rem); }
+  .gwc-hero h1 { max-width: 12ch; font-size: clamp(3.1rem, 11vw, 5.3rem); }
+  .gwc-strategic-card { min-height: auto; }
+  .gwc-strategic-card > strong { font-size: clamp(3.6rem, 12vw, 5.4rem); }
+
+  .gwc-two-columns { grid-template-columns: 1fr; }
+  .gwc-section-head { align-items: flex-start; flex-direction: column; gap: .75rem; }
+  .gwc-section-head > p { max-width: var(--gwp-reading); text-align: left; }
+
+  .gwc-contact-cta { align-items: stretch; flex-direction: column; }
+  .gwc-contact-cta .gwc-button { width: 100%; }
+
+  .gw-control-map,
+  .earthquake-map,
+  .marine-map-container { height: clamp(28rem, 70vh, 38rem) !important; }
+
+  .project-status h2 { font-size: clamp(2.7rem, 11vw, 4.8rem) !important; }
+  .counter-value { flex-wrap: wrap; }
+  .counter-value b { width: auto !important; max-width: 100%; font-size: clamp(2.4rem, 10vw, 4.8rem) !important; }
+}
+
+@media (max-width: 640px) {
+  .site-shell { width: min(calc(100% - 1rem), var(--max, 1180px)); }
+  .gwc-home,
+  .gwc-footer { width: min(100% - 1rem, 42rem); }
+
+  .gwc-hero-copy,
+  .gwc-strategic-card { padding-inline: 1.15rem; }
+  .gwc-hero h1 { font-size: clamp(2.85rem, 15vw, 4.05rem); line-height: .92; letter-spacing: -.035em; }
+  .gwc-lead { margin-top: 1.4rem; }
+  .gwc-strategic-card > strong { font-size: clamp(3.4rem, 17vw, 4.5rem); line-height: .9; }
+  .gwc-strait-line { grid-template-columns: minmax(0,auto) 1fr minmax(0,auto); gap: .45rem; font-size: .5rem; }
+
+  .gwc-status-grid,
+  .gwc-economy-metrics,
+  .gwc-control-grid,
+  .gwc-analysis-grid,
+  .gwc-territory-grid,
+  .metric-strip,
+  .traffic-stats,
+  .scenario-grid,
+  .indicator-grid,
+  .source-grid,
+  .gw-control-actors,
+  .gw-scenario-grid,
+  .geo-timeline,
+  .project-timeline,
+  .gw-timeline,
+  .gw-relations-timeline { grid-template-columns: 1fr !important; }
+
+  .gwc-status-grid article,
+  .gwc-economy-metrics article,
+  .gwc-control-grid article { border-right: 0 !important; }
+
+  .gwc-news-item { grid-template-columns: 1fr; gap: .35rem; }
+  .gwc-news-item b { grid-column: auto; }
+
+  .gwc-traffic-economy,
+  .gwc-control { margin-inline: 0; padding: 2rem 1rem; }
+  .gwc-traffic-intro h2,
+  .gwc-control h2,
+  .gwc-territory h2 { font-size: clamp(2.35rem, 12vw, 3.25rem); line-height: .96; }
+
+  .gwc-feature-card,
+  .gwc-epistemic-card,
+  .gwc-analysis-grid > a,
+  .gwc-territory { padding: 1.35rem; }
+  .gwc-analysis-grid > a,
+  .gwc-analysis-grid > a:nth-child(3) { min-height: auto; }
+
+  .gwc-footer-grid { grid-template-columns: 1fr; }
+  .gwc-footer-bottom { flex-direction: column; }
+
+  .inner-hero { grid-template-columns: 1fr !important; gap: 1.1rem; }
+  .inner-hero h1,
+  .gw-strategy-hero h1,
+  .strategic-hero h1,
+  .gw-ope-hero h1,
+  .gt-shell h1 { font-size: clamp(2.55rem, 13vw, 4rem) !important; line-height: .98; }
+
+  .truth-banner,
+  .tunnel-teaser,
+  .project-status,
+  .counterfactual .section-copy,
+  .contact-primary,
+  .contact-sidebar { padding: 1.35rem !important; }
+
+  .dashboard { grid-template-columns: 1fr !important; }
+  .status-card,
+  .status-card.marine,
+  .status-card.seismic { min-height: auto !important; grid-template-columns: 1fr !important; padding: 1.35rem !important; }
+  .status-card .status-icon { grid-row: auto; }
+
+  .map-head,
+  .marine-bar,
+  .section-heading,
+  .calc-readout { align-items: flex-start; flex-direction: column; }
+
+  .earthquake-map,
+  .marine-map-container,
+  .gw-control-map { height: 30rem !important; min-height: 0; }
+
+  .contact-email { font-size: clamp(1.25rem, 7vw, 2rem) !important; }
+}
+
+@media (max-width: 380px) {
+  .gwc-hero h1 { font-size: 2.7rem; }
+  .gwc-strategic-card > strong { font-size: 3.25rem; }
+  .gwc-button, .button { padding-inline: .75rem; }
+  .gwc-kicker, .gwc-eyebrow, .kicker { letter-spacing: .09em; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .gwc-button:hover { transform: none; }
+}

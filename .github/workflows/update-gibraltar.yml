@@ -15,32 +15,52 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 18
     steps:
       - name: Descargar repositorio
         uses: actions/checkout@v6
+
       - name: Configurar Python
         uses: actions/setup-python@v6
         with:
           python-version: "3.12"
+
       - name: Instalar lector PDF para informes OPE
         run: python -m pip install --disable-pip-version-check pypdf
-      - name: Ejecutar pruebas del monitor actual
+
+      - name: Ejecutar pruebas del monitor sísmico
         run: python -m unittest -v test_update.py
-      - name: Ejecutar pruebas de Gibraltar Watch TOP
+
+      - name: Ejecutar pruebas editoriales actuales
         run: python -m unittest -v test_gibraltar_top.py test_install_gibraltar_top.py
+
       - name: Ejecutar pruebas OPE
         run: python -m unittest -v test_update_ope.py
+
+      - name: Ejecutar pruebas del observatorio estratégico
+        run: python -m unittest -v test_update_geopolitics.py test_install_gibraltar_strategy.py
+
       - name: Actualizar sismicidad
         run: python update_gibraltar.py
+
       - name: Actualizar Operación Paso del Estrecho
         run: python update_ope.py
-      - name: Instalar y conservar mejoras editoriales
+
+      - name: Actualizar noticias y situación geopolítica
+        run: python update_geopolitics.py
+
+      - name: Conservar mejoras editoriales TOP
         run: python install_gibraltar_top.py
+
       - name: Generar parte científico y archivo
         run: python generate_gibraltar_brief.py
-      - name: Reaplicar crecimiento de tráfico y logística
+
+      - name: Conservar crecimiento de tráfico y logística
         run: python install_gibraltar_growth.py
+
+      - name: Aplicar observatorio estratégico
+        run: python install_gibraltar_strategy.py
+
       - name: Guardar cambios
         id: commit
         run: |
@@ -53,9 +73,10 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          git commit -m "Actualizar Gibraltar Watch, OPE y tráfico"
+          git commit -m "Actualizar Gibraltar Watch estratégico"
           git push
           echo "changed=true" >> "$GITHUB_OUTPUT"
+
       - name: Avisar mediante IndexNow
         if: steps.commit.outputs.changed == 'true'
         continue-on-error: true

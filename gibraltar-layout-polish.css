@@ -530,3 +530,93 @@ main,
   .gw-live-ledger span,
   .gwc-status-grid article p { max-width: none; }
 }
+
+
+/* Hotfix correctivo · 2026-08-04 v2 */
+.gwc-status-grid,
+.gw-live-ledger { grid-template-columns: repeat(4, minmax(0, 1fr)); align-items: stretch; }
+
+.gwc-status-grid article,
+.gw-live-ledger article {
+  position: relative;
+  overflow: hidden;
+}
+
+.gwc-status-grid strong,
+.gw-live-ledger strong,
+.gw-ope-route strong,
+.gw-inline-metrics b {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  white-space: normal !important;
+  overflow-wrap: anywhere !important;
+  word-break: normal !important;
+  text-wrap: balance;
+}
+
+.gwc-status-grid strong {
+  font-size: clamp(2rem, 3.1vw, 3.3rem) !important;
+  line-height: .88;
+  letter-spacing: -.04em;
+}
+.gwc-status-grid article[data-gwc-status="maritime"] strong { font-size: clamp(1.95rem, 2.95vw, 3.05rem) !important; }
+.gwc-status-grid article[data-gwc-status="bilateral"] strong { font-size: clamp(1.95rem, 2.95vw, 3.05rem) !important; }
+.gwc-status-grid article[data-gwc-status="security"] strong {
+  font-size: clamp(1.55rem, 2.45vw, 2.45rem) !important;
+  line-height: .9;
+}
+.gwc-status-grid article small,
+.gw-live-ledger article small {
+  display: block;
+  margin-bottom: .7rem;
+}
+.gwc-status-grid article p {
+  max-width: none !important;
+  margin-top: 1rem;
+}
+
+.gw-live-ledger article {
+  display: flex;
+  flex-direction: column;
+  gap: .55rem;
+}
+.gw-live-ledger strong {
+  font-size: clamp(1.9rem, 2.5vw, 2.6rem) !important;
+  line-height: .92;
+  letter-spacing: -.035em;
+}
+.gw-live-ledger article:last-child strong {
+  font-size: clamp(1.55rem, 2.05vw, 2.15rem) !important;
+  line-height: .96;
+}
+.gw-live-ledger span {
+  max-width: none !important;
+}
+.gw-ope-route strong {
+  font-size: clamp(2rem, 4.2vw, 3.35rem) !important;
+  line-height: .92;
+}
+
+@media (max-width: 1180px) {
+  .gwc-status-grid,
+  .gw-live-ledger { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+}
+
+@media (max-width: 640px) {
+  .gwc-status-grid,
+  .gw-live-ledger { grid-template-columns: 1fr !important; }
+  .gwc-status-grid strong {
+    font-size: clamp(1.9rem, 10vw, 2.8rem) !important;
+  }
+  .gwc-status-grid article[data-gwc-status="security"] strong {
+    font-size: clamp(1.7rem, 9vw, 2.4rem) !important;
+  }
+  .gw-live-ledger strong,
+  .gw-live-ledger article:last-child strong {
+    font-size: clamp(1.8rem, 9vw, 2.45rem) !important;
+  }
+  .gw-ope-route strong {
+    font-size: clamp(1.8rem, 10vw, 2.8rem) !important;
+  }
+}

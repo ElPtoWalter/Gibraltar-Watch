@@ -43,6 +43,9 @@ jobs:
       - name: Ejecutar pruebas de consolidación final
         run: python -m unittest -v test_install_gibraltar_consolidation.py
 
+      - name: Ejecutar pruebas de pulido visual
+        run: python -m unittest -v test_install_gibraltar_layout_polish.py
+
       - name: Actualizar sismicidad
         run: python update_gibraltar.py
 
@@ -67,6 +70,9 @@ jobs:
       - name: Aplicar consolidación editorial final
         run: python install_gibraltar_consolidation.py
 
+      - name: Aplicar pulido visual y responsive
+        run: python install_gibraltar_layout_polish.py
+
       - name: Guardar cambios
         id: commit
         run: |
@@ -79,7 +85,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          git commit -m "Actualizar Gibraltar Watch consolidado"
+          git commit -m "Actualizar Gibraltar Watch y pulido visual"
           git push
           echo "changed=true" >> "$GITHUB_OUTPUT"
 

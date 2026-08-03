@@ -1,0 +1,111 @@
+{
+  "season": 2026,
+  "status": "OK",
+  "checked_at": "2026-08-03T09:58:00Z",
+  "report_date": "2026-08-01",
+  "report_label_es": "1 de agosto de 2026",
+  "report_label_en": "1 August 2026",
+  "source": "Secretaría General de Protección Civil y Emergencias",
+  "source_url": "https://www.proteccioncivil.es/documents/20121/0/20260801_InformeOPE.pdf/49a562ff-675e-78d5-55ff-5f5e692217b6",
+  "campaign_url": "https://www.proteccioncivil.es/coordinacion/campanas/operaci%C3%B3n-paso-del-estrecho",
+  "season_start": "2026-06-15",
+  "season_end": "2026-09-15",
+  "departure": {
+    "day": {
+      "rotations": 86,
+      "passengers": 49908,
+      "vehicles": 13404
+    },
+    "cumulative": {
+      "rotations": 3635,
+      "passengers": 1287011,
+      "vehicles": 322455
+    },
+    "routes": [
+      {
+        "name": "Algeciras/Tánger-Med",
+        "rotations": 35,
+        "passengers": 25482,
+        "vehicles": 7312
+      },
+      {
+        "name": "Tarifa/Tánger-Ville",
+        "rotations": 21,
+        "passengers": 9164,
+        "vehicles": 1929
+      },
+      {
+        "name": "Algeciras/Ceuta",
+        "rotations": 21,
+        "passengers": 4360,
+        "vehicles": 1035
+      },
+      {
+        "name": "Almería/Nador",
+        "rotations": 5,
+        "passengers": 6014,
+        "vehicles": 1801
+      },
+      {
+        "name": "Málaga/Melilla",
+        "rotations": 2,
+        "passengers": 2111,
+        "vehicles": 544
+      }
+    ]
+  },
+  "return": {
+    "day": {
+      "rotations": 86,
+      "passengers": 20705,
+      "vehicles": 5131
+    },
+    "cumulative": {
+      "rotations": 1512,
+      "passengers": 219697,
+      "vehicles": 57733
+    },
+    "routes": [
+      {
+        "name": "Tánger-Med/Algeciras",
+        "rotations": 32,
+        "passengers": 7096,
+        "vehicles": 2001
+      },
+      {
+        "name": "Tánger-Ville/Tarifa",
+        "rotations": 21,
+        "passengers": 5229,
+        "vehicles": 1096
+      },
+      {
+        "name": "Ceuta/Algeciras",
+        "rotations": 22,
+        "passengers": 2989,
+        "vehicles": 643
+      },
+      {
+        "name": "Nador/Almería",
+        "rotations": 6,
+        "passengers": 2732,
+        "vehicles": 685
+      },
+      {
+        "name": "Melilla/Málaga",
+        "rotations": 2,
+        "passengers": 1386,
+        "vehicles": 368
+      }
+    ]
+  },
+  "comparison_2025": {
+    "departure_passengers_pct": -3.0,
+    "departure_vehicles_pct": -2.0,
+    "return_passengers_pct": 2.1,
+    "return_vehicles_pct": 1.2
+  },
+  "advice_es": "Protección Civil recomienda planificar el viaje y acudir al puerto con billete cerrado adquirido con antelación.",
+  "advice_en": "Spanish Civil Protection recommends planning the journey and arriving at the port with a pre-booked closed ticket.",
+  "data_note_es": "Último informe oficial localizado. No es un contador en tiempo real.",
+  "data_note_en": "Latest official report located. This is not a real-time counter."
+}

@@ -1,0 +1,8 @@
+GIBRALTAR WATCH — CRECIMIENTO TRÁFICO 2026
+
+1. Sube a la raíz del repositorio todos los archivos de este paquete salvo la carpeta .github si GitHub web no te deja subirla.
+2. Sustituye manualmente .github/workflows/update-gibraltar.yml por el contenido de update-gibraltar-growth.yml.
+3. En Actions ejecuta "Actualizar Gibraltar Watch" una vez.
+4. Espera al commit del bot y recarga con Ctrl+F5.
+
+La automatización OPE intenta localizar y leer el último PDF oficial. Si no puede encontrar uno nuevo, conserva el último dato válido y nunca inventa cifras.

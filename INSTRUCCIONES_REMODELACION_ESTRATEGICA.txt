@@ -1,0 +1,58 @@
+GIBRALTAR WATCH · REMODELACIÓN ESTRATÉGICA 2026
+
+OBJETIVO
+Convertir estrechogibraltar.com en un observatorio marítimo, económico y geopolítico. La geología, la sismicidad y el posible cierre futuro se conservan dentro de la web, pero dejan de dominar la portada.
+
+NUEVO EJE
+- Situación actual del Estrecho.
+- Tráfico marítimo y economía.
+- Ceuta y Melilla.
+- Relaciones España–Marruecos.
+- Quién controla realmente el paso.
+- Escenarios estratégicos.
+- Hechos, interpretación y cuestiones no confirmadas claramente separados.
+
+PASO 1 — COPIA DE SEGURIDAD
+En GitHub: Code → Download ZIP.
+
+PASO 2 — SUBIR LOS ARCHIVOS DE LA RAÍZ
+1. Descomprime gibraltar-observatorio-estrategico-raiz.zip.
+2. En GitHub abre Gibraltar-Watch → Code → Add file → Upload files.
+3. Sube TODO el contenido de la carpeta descomprimida.
+4. No borres archivos antiguos: las nuevas páginas se integran con ellos.
+5. Pulsa Commit changes.
+
+PASO 3 — ACTUALIZAR EL WORKFLOW
+1. Abre .github/workflows/update-gibraltar.yml.
+2. Pulsa el lápiz.
+3. Borra todo el contenido.
+4. Copia todo update-gibraltar-strategy.yml.
+5. Haz Commit changes.
+6. Debe quedar un solo workflow horario llamado “Actualizar Gibraltar Watch”.
+
+PASO 4 — EJECUTAR
+Actions → Actualizar Gibraltar Watch → Run workflow.
+Deben terminar en verde las pruebas, actualización sísmica, OPE, noticias geopolíticas, instaladores y guardado.
+
+PASO 5 — COMPROBAR
+- https://estrechogibraltar.com/
+- https://estrechogibraltar.com/situacion-actual.html
+- https://estrechogibraltar.com/ceuta-melilla.html
+- https://estrechogibraltar.com/espana-marruecos.html
+- https://estrechogibraltar.com/quien-controla-estrecho.html
+- https://estrechogibraltar.com/escenarios.html
+- https://estrechogibraltar.com/geopolitics.json
+
+FUNCIONAMIENTO AUTOMÁTICO
+- Cada hora consulta titulares recientes mediante RSS.
+- Solo guarda títulos, fuente, fecha y enlace; no copia artículos.
+- Mantiene el último resultado válido si falla una fuente.
+- Un único titular no puede declarar cerrado el Estrecho.
+- El estado de tráfico solo se eleva ante varias señales fiables y sigue exigiendo confirmación oficial.
+- El historial registra cambios relevantes de los indicadores.
+
+CRITERIO EDITORIAL
+- Hecho: información apoyada por fuentes públicas.
+- Interpretación: inferencia razonable, identificada como tal.
+- Escenario: posibilidad futura, nunca presentada como predicción.
+- No se afirma que Marruecos tenga un plan inmediato para ocupar Ceuta o Melilla sin evidencia concluyente.

@@ -40,6 +40,9 @@ jobs:
       - name: Ejecutar pruebas del observatorio estratégico
         run: python -m unittest -v test_update_geopolitics.py test_install_gibraltar_strategy.py
 
+      - name: Ejecutar pruebas de consolidación final
+        run: python -m unittest -v test_install_gibraltar_consolidation.py
+
       - name: Actualizar sismicidad
         run: python update_gibraltar.py
 
@@ -61,6 +64,9 @@ jobs:
       - name: Aplicar observatorio estratégico
         run: python install_gibraltar_strategy.py
 
+      - name: Aplicar consolidación editorial final
+        run: python install_gibraltar_consolidation.py
+
       - name: Guardar cambios
         id: commit
         run: |
@@ -73,7 +79,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          git commit -m "Actualizar Gibraltar Watch estratégico"
+          git commit -m "Actualizar Gibraltar Watch consolidado"
           git push
           echo "changed=true" >> "$GITHUB_OUTPUT"
 

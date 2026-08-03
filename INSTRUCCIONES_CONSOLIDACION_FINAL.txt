@@ -1,0 +1,45 @@
+GIBRALTAR WATCH · CONSOLIDACIÓN EDITORIAL FINAL
+
+OBJETIVO
+Dejar la web con una única jerarquía editorial, sin duplicidades ni módulos antiguos compitiendo en la portada. El eje principal pasa a ser tráfico, economía, Ceuta y Melilla, relación España–Marruecos y equilibrio estratégico. Geología, sismicidad y túnel se conservan como bloque secundario.
+
+PASO 1 — SUBIR LOS ARCHIVOS DE LA RAÍZ
+1. Abre el repositorio Gibraltar-Watch en GitHub.
+2. Pulsa Code → Add file → Upload files.
+3. Sube todos los archivos de este paquete.
+4. Pulsa Commit changes.
+
+PASO 2 — ACTUALIZAR EL WORKFLOW
+1. Abre .github/workflows/update-gibraltar.yml.
+2. Pulsa el lápiz.
+3. Borra el contenido actual.
+4. Pega todo el contenido de update-gibraltar-consolidated.yml, descargado por separado.
+5. Haz Commit changes.
+
+PASO 3 — PRIMERA EJECUCIÓN
+1. Abre Actions → Actualizar Gibraltar Watch.
+2. Pulsa Run workflow.
+3. Deben terminar en verde las pruebas, los actualizadores y el paso “Aplicar consolidación editorial final”.
+4. Espera también al despliegue de GitHub Pages.
+
+PASO 4 — COMPROBAR
+Recarga con Ctrl+F5:
+- https://estrechogibraltar.com/
+- https://estrechogibraltar.com/en.html
+- https://estrechogibraltar.com/trafico.html
+- https://estrechogibraltar.com/situacion-actual.html
+- https://estrechogibraltar.com/ceuta-melilla.html
+
+QUÉ CAMBIA
+- Portada reconstruida con una sola narrativa.
+- Menú simplificado con dos grupos desplegables.
+- Indicadores con fecha, confianza y motivo.
+- Novedades cargadas desde geopolitics.json.
+- Datos OPE y sismicidad integrados sin duplicar contenido.
+- Geología, sismicidad, cierre y túnel reunidos en “Territorio y futuro”.
+- Pie y navegación unificados en todas las páginas.
+- Sitemap reconstruido de forma válida desde todas las páginas HTML presentes.
+- Diseño validado en escritorio, tablet y móvil.
+
+IMPORTANTE
+No mantengas dos workflows horarios activos. El instalador final se ejecuta el último para impedir que actualizadores anteriores vuelvan a duplicar bloques en la portada.

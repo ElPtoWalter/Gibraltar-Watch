@@ -1,0 +1,24 @@
+GIBRALTAR WATCH — ATRACTIVO Y MONETIZACIÓN
+
+1. Sube todos los archivos de este paquete a la raíz del repositorio.
+2. Sustituye .github/workflows/update-gibraltar.yml por el workflow entregado aparte.
+3. Ejecuta Actions > Actualizar Gibraltar Watch > Run workflow una vez.
+4. La publicidad queda PREPARADA, pero DESACTIVADA. No se ha inventado ningún Publisher ID.
+
+ACTIVAR ADSENSE CUANDO GOOGLE APRUEBE EL SITIO
+- Abre gw-monetization-config.js.
+- Cambia adsense.enabled a true.
+- Introduce el client real, con formato ca-pub-XXXXXXXXXXXXXXXX.
+- Introduce los IDs reales de cada unidad en slots.
+- Copia ads.txt.example a ads.txt y sustituye REEMPLAZAR_CON_TU_ID por el pub- real.
+- Configura en AdSense > Privacidad y mensajes una CMP certificada para EEE, Reino Unido y Suiza.
+
+NEWSLETTER
+- Por ahora el botón abre un correo a contacto@estrechogibraltar.com.
+- Cuando tengas un proveedor, activa newsletter.enabled y añade endpoint en gw-monetization-config.js.
+
+UBICACIONES PREPARADAS
+- Portada: después de actualidad.
+- Tráfico/importancia: después del resumen de 60 segundos.
+- Tráfico, importancia, OPE y servicios: antes de contenidos relacionados/ficha editorial.
+- No se han añadido anuncios a Ceuta y Melilla, situación actual ni indicadores operativos.

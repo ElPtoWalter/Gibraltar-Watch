@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-03T23:28:46.997245+00:00",
+  "generated_at": "2026-08-04T03:41:38.346144+00:00",
   "language_default": "es",
   "status": {
     "maritime_status": {
@@ -12,12 +12,12 @@
       "en": "The corridor remains open; official notices remain authoritative."
     },
     "border_pressure": {
-      "es": "ALTA",
-      "en": "HIGH"
+      "es": "MEDIA",
+      "en": "MEDIUM"
     },
     "border_note": {
-      "es": "Varias fuentes describen una crisis fronteriza o humanitaria grave.",
-      "en": "Several sources describe a serious border or humanitarian crisis."
+      "es": "Existen intentos o presión fronteriza recientes.",
+      "en": "Recent attempts or border pressure are being reported."
     },
     "bilateral_tension": {
       "es": "ESTABLE",
@@ -28,12 +28,12 @@
       "en": "No clear bilateral escalation is detected in recent sources."
     },
     "security_status": {
-      "es": "VIGILANCIA REFORZADA",
-      "en": "REINFORCED MONITORING"
+      "es": "SIN ALERTA ESPECÍFICA",
+      "en": "NO SPECIFIC ALERT"
     },
     "security_note": {
-      "es": "Las fuentes describen medidas adicionales de seguridad o control.",
-      "en": "Sources describe additional security or control measures."
+      "es": "No se detectan señales suficientes para una alerta editorial.",
+      "en": "There are not enough signals for an editorial alert."
     },
     "confidence": {
       "es": "MEDIA",
@@ -41,6 +41,33 @@
     }
   },
   "items": [
+    {
+      "title": "Ceuta leader accuses Morocco over ‘atrocity’ of mass border crossing | Spain",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbEFMTThkejZZd1pCby1BMEJSMWxqWmxuM1FhYlhVV3BsQmRFbFFPSkVILUMtWnVKVlgwWFNqNGlDU2RBTTR3Tjd2QnJSRGJ5Tk14V0VqaTRweGtYTThGRFhESDhUenZHTzZKZF9yTzNWUE5hU3pDZmdFRExqNWJFWTZjckxjcDBOUzdpdklJaVdaZw?oc=5",
+      "published_at": "2026-08-04T01:30:00+00:00",
+      "category": "ceuta",
+      "language": "en",
+      "weight": 3
+    },
+    {
+      "title": "50,000 migrants, 48 hours: How the border crisis in Ceuta reveals divides within Europe",
+      "source": "indianexpress.com",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPcE5aN0J6RkFZYVJPLXNyS0tfYnM0dmpiRU9iSlF2RktfNlNseWt0QWVPbzl5SDQxOGRtVkFyNUx2blhyQ1ZVOVpzMWxENXctd0VSb0RiN1F0dHZVc1J5RnFQbFItcy14Zmt4WHJHUC1wcG5KZnRhbkU4OGNEMmhjZ1ZGVjFHNXF3YVBMRHYxaFphS3hSbkpSR24zdklhYVZodnFQZks1NFBIb1RCSFBGZnZzWjVfWHfSAb4BQVVfeXFMT1VINS1waGJvcFVSTnZ3YjFoOHptVndOMVhKaVExNGlpaDdsMXhJeGVkaDJ1NXhIeDh3WkliRUJjZ0NvSGtPaWx1Zmt5QkdlVWhuckFNWkRHSG5nU0R5d3N6SVlaQXprX2NjeDYwSmNJVm9GTlN5UHZraHhDT1ZpbUFWd2VXSjBQU193bkI5MUl4bnR1LTU3WTFiejlOYlVobkYtMFZCbnJyTnd6MjliZDUtaFpLWjlZY0ZnSnpnUQ?oc=5",
+      "published_at": "2026-08-04T01:00:22+00:00",
+      "category": "ceuta",
+      "language": "en",
+      "weight": 2
+    },
+    {
+      "title": "🔵⚪ La crisis migratoria entre Marruecos y España alcanza un punto crítico. Miles de personas intentaron ingresar a Ceuta en medio de una fuerte presión fronteriza y un despliegue de seguridad sin precedentes. El balance es devastador: decenas de person",
+      "source": "instagram.com",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FNUh1ZzZ3Z0FtNk16bW9peEtCMG9YU3B3OWFLQzBTRFh0NEpCUFloSDZVamxmcl9LZzZkLUV2RGl2MG5rQ21kT29NMXRSOUtCNHhQWklR?oc=5",
+      "published_at": "2026-08-04T00:09:04+00:00",
+      "category": "ceuta",
+      "language": "es",
+      "weight": 2
+    },
     {
       "title": "Marruecos sobre la crisis migratoria en Ceuta - EFE - Agencia de noticias",
       "source": "EFE - Agencia de noticias",
@@ -51,31 +78,22 @@
       "weight": 2
     },
     {
-      "title": "EU calls for strengthening borders after thousands of migrants pour into Spain from Morocco",
+      "title": "Última hora de la crisis migratoria en Ceuta: Marruecos reconoce 40.000 entradas de migrantes y 11 muertos en su territorio",
+      "source": "Onda Cero",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOamlNYTZ5Ync0bnVQaGE3Q1dzN2hacHNWM3ZKNW1SVnJkV1NtbHRyYzRVOGxfS1VWRG85VlkzaTdVOGN5N2lzSkxlRXJEWHNyWFZkbVpQX3ZoaDlKVmU4MThkYThxR0VfYmUtamwyVll3THhsdTMyWFJPUHlfbWFERzBFeFJLcEpmc0kybDN3bFg3ODR6dXhEcEtGX0JMR1hKWDMtWTRoWlpFUWNaRklqSnhKTHJPZWdqVXJuTk1KUWR2QVo1VXdFc2FXWkNMM2NpNkZKM3hGUnNaLXU2UmRybWhFeUs?oc=5",
+      "published_at": "2026-08-03T21:55:36+00:00",
+      "category": "ceuta",
+      "language": "es",
+      "weight": 2
+    },
+    {
+      "title": "EU calls for stronger borders after Ceuta migrant crossings",
       "source": "BBC",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1WSzdRTkdzdDFBQ1VqeDR2SXdZcmhkNnl4d3FXNldyVTkwbTctMW1tdGZ4WWFRRnNjTmVPMG5tMk5YZUdQci1MQ3N3MnIwd09WbmFUZVVGb2FpZw?oc=5",
       "published_at": "2026-08-03T21:43:10+00:00",
       "category": "ceuta",
       "language": "en",
       "weight": 4
-    },
-    {
-      "title": "Spain's Ceuta overwhelmed as thousands remain after migrant border rush",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPa3RUUGplUHRFOElCUjBiQUNPYWgyNDM5MTlLT3ZyVEN2dDBnRk5JOGIyWkkzYWpQdjNGQ253WlZCbk9OeHNWZmo4djllSmRGQVRZbXA4eEQ0TldYMnJFOV95ZzRvODJJb2xySTA5eFNiMFJGc0VnX29MSmRBODZ0QjNuaHpxTVUxcXJXa2FXaFFvdkQtRmdnS0FnTlRWZVhTTGY4QzVrbVV5TkVic0o1UGJaVnhpa1J0SDdv?oc=5",
-      "published_at": "2026-08-03T21:37:30+00:00",
-      "category": "ceuta",
-      "language": "en",
-      "weight": 5
-    },
-    {
-      "title": "Última hora de la crisis migratoria en Ceuta: Marruecos reconoce 40.000 entradas de migrantes y 11 muertos en su territorio",
-      "source": "Onda Cero",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOamlNYTZ5Ync0bnVQaGE3Q1dzN2hacHNWM3ZKNW1SVnJkV1NtbHRyYzRVOGxfS1VWRG85VlkzaTdVOGN5N2lzSkxlRXJEWHNyWFZkbVpQX3ZoaDlKVmU4MThkYThxR0VfYmUtamwyVll3THhsdTMyWFJPUHlfbWFERzBFeFJLcEpmc0kybDN3bFg3ODR6dXhEcEtGX0JMR1hKWDMtWTRoWlpFUWNaRklqSnhKTHJPZWdqVXJuTk1KUWR2QVo1VXdFc2FXWkNMM2NpNkZKM3hGUnNaLXU2UmRybWhFeUvSAeQBQVVfeXFMTzgyTHpZb3VNS0dMZEV0Y1lHRjZXejhGcjZsQVlucVhFeXBLaEMyU1pKQzJYanl6Q1oyQkg3Sko2ak1Gb1M2cG1PUThITW05Y1AybFV4cG9sdmlUQXFnQXZQQlV6Vk0tblZhXzVzVDJockNOYkdaMjNSV1Z3VXh1cWd4SmU0MUE3dnBmN0RMRU5FNEdnM0lGczc0aEMzVERUaFJvY2szandXWE5tX1JuNy1uRC05dDFnVk9sV3ljN1oySnEwaXdqV1FzaXVZb2lPRkZOdEpIQXNJOVp5MjhxUWN1cXBy?oc=5",
-      "published_at": "2026-08-03T21:30:18+00:00",
-      "category": "ceuta",
-      "language": "es",
-      "weight": 2
     },
     {
       "title": "Última hora de la crisis migratoria en Ceuta, en directo | Ceuta trata de recuperar la normalidad tras una entrada masiva de migrantes que deja cerca de 90 muertos",
@@ -115,18 +133,9 @@
     },
     {
       "title": "Stronger EU borders needed after Ceuta crisis, von der Leyen says",
-      "source": "AOL.co.uk",
+      "source": "aol.co.uk",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObHNrSDBRbWpOOEtraWwtRzRic1ljeWdhM0NDeXl0SDVDN3pvMXZ4eEtmRXFNdlMyS2ozdXptS2RCZzY4SWduLXJ3VDB2XzlCUmd1SW1ISk5yLVNyWm1RUXE2QXNOUWN3OE41YXBQcUNzaVF5cHh4cm1LLVltUzVCbjI3R1FLQmpESG9LNw?oc=5",
       "published_at": "2026-08-03T20:41:19+00:00",
-      "category": "ceuta",
-      "language": "en",
-      "weight": 2
-    },
-    {
-      "title": "Hundreds of migrant minors stranded in Ceuta after border crisis",
-      "source": "Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWk16dEExMC1qa19WRV9SUXEtMWJWNFdGUkk1WU43YXZ2UTZqYVo2bGY4WUkxMEZjeUNDSFJ3OWVkczU2MGd0ZnRRelQ3TktzZE9KczAtWjRzd1p3X2JZWldhWXVsSmhkVnVZN1hWbUFpYWFPQ2VQYndPQkc1dGczbUpReXZEUC03bE9WY1M5a0E0d0xmX0lSQ3hvQ0tvNGpjeVgzTURFWdIBrAFBVV95cUxOTkhrd1daYWF1eFR5S05DOVp4aHdfdmpxS3FZZmVQaFFEd2Z2UkNOT3M3QWppYTVHVEI4STBHNDN6Snhrc0dHY2dxWDJQNE51ZklSMEgyLThIbFpkNm54R0g1Tk1HamtJODBXSXFzeXRTbU9aSkhPbkxRT0NBYnFwenBSNG1pRlZYemJEV2RuMkFXVDNrOXM2S2sza09FLTdXUTFhY0l4c1QxMjd6?oc=5",
-      "published_at": "2026-08-03T20:28:08+00:00",
       "category": "ceuta",
       "language": "en",
       "weight": 2
@@ -141,15 +150,6 @@
       "weight": 2
     },
     {
-      "title": "Ceuta leader accuses Morocco over ‘atrocity’ of mass border crossing | Spain",
-      "source": "The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbEFMTThkejZZd1pCby1BMEJSMWxqWmxuM1FhYlhVV3BsQmRFbFFPSkVILUMtWnVKVlgwWFNqNGlDU2RBTTR3Tjd2QnJSRGJ5Tk14V0VqaTRweGtYTThGRFhESDhUenZHTzZKZF9yTzNWUE5hU3pDZmdFRExqNWJFWTZjckxjcDBOUzdpdklJaVdaZw?oc=5",
-      "published_at": "2026-08-03T20:13:00+00:00",
-      "category": "ceuta",
-      "language": "en",
-      "weight": 3
-    },
-    {
       "title": "Los expertos en relaciones internacionales lo tienen claro: \"Marruecos no se hubiera atrevido a actuar como ha actuado ahora en Ceuta si España hubiera aceptado la ayuda de Europa con Frontex\"",
       "source": "COPE",
       "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxNR1Nsd0RjS3NxRExjbHdWc3VxWENUc3dtLVJFd0xhV29RNUZMOGFLUTJCQ29JRGZNX012TUxCSXlfcDZiUW5RZlE1bFI3cVVnaVczZndHTkw1RmxvYzV6eklhRlh0SnNEcFZQM0pBZm1RVGVoTk5NVC1jTENHaXJKS1VQTE1LRWUwTlBlVnlCdFVBZHZ4NVlPdk00ZjNIWWJHZnNOeGlpNTEzNXpzbjJMQ2pHcHBNV2FRWTBlME9qRTdnYm85dlJQaXRGOWhRVUpWcmdPUW1EeHdHVlJSUjUwR2RvVmlqRVdVQ1N0Z29VSTR3UnFYZmYyaG15SFFtcFg3aVVFX3ZUTXpCNjIteEtOQTRZZnk5Z0R5dkUxWEpBZWlDZDlxOXdFa3FQZEEwNzU2RlQzVFh2UlMwWWlnZlBUbnY2R1hBRmfSAcwCQVVfeXFMTkE1UmhGb3JpYjB1Vm9lRVBWNU80QnlXT29DNnlQWlV2Nzc2Qm1RNjJYajM5M3hTNEZJc3pYMmxqbF8weUFuLVh6N1pVZm5NNHphc0F3R2NiNFFTdTZLVkZ6WmtvZjdPQndRM1FWNDVVSHkzRHY0cUttSk9VS0JzeUJIR1U1cVQ2WU1lcS1vd2RiT3hka3FxdzdyQW04REFCTkpEdk00RnY3Vnkxa2REWVZWZkwxU2ZuNFRuLVBTRmcwZ1pibUFPRkFXaFFlVzc5R0dyeXBobGttbGxuWE5fNDZzZUFGaXhINVYtcVFpMnZWUGd6Vk5sNUo3dzVrNEYwVWV6VFhmdDZMZHh3cllPOUpfMkhOMkIwMGtFY2Rnbjd1alpwOUZ0Y2xCY0pzX2lxbHA2QTVKZFFZY0JIWEZxY2lyY0JXWFJIQjBfN2k?oc=5",
@@ -160,7 +160,7 @@
     },
     {
       "title": "Europe Should Not Learn the Wrong Lessons from Ceuta",
-      "source": "meforum.org",
+      "source": "Middle East Forum",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRGQ4bFJRUF92Vnd2OXB1V1pzTEVuT0h6RmRXX2o0RkhNSTM5OWZianMza2kxdjdEdnNKMEt4Rms3RnJvWTNLOV9WSlNWX09kbFFGdkF6LWhkaTZMUHJGU0xXa3l1aEp3T1JWZnNvMVhqSi13cG5jY3dCUmJMaEJuS0V3TG05VDMxR1lZNnFQa3E?oc=5",
       "published_at": "2026-08-03T19:54:25+00:00",
       "category": "ceuta",
@@ -174,15 +174,6 @@
       "published_at": "2026-08-03T19:49:31+00:00",
       "category": "ceuta",
       "language": "en",
-      "weight": 2
-    },
-    {
-      "title": "Última hora de Ceuta y Melilla, en directo | Robles exige a Marruecos investigar la entrada masiva en Ceuta",
-      "source": "El Periódico",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMzV5LVloLUowWjBMMU1BcEkxSFY2c1BfZlNPejM0czNMRjk4YlNETGhoYXhJRVNnVjVCa1p1blg4SzhWa3Y5R0ZLSENnUm9rbERSSlo2MGNFa3J6QmJuUTFMallfbExNc3JSblM0bE1tVGpyS01sMzI1UnBQYjEyVE5pQlZRZnRhSTZ4SW14Q1dBc2tsSG1OVk0zaksxNGxGLWFtd29ZMNIBpwFBVV95cUxPN1A1dm5aSjVUbUREZmNxZTgwRnMyc2UwSW5pVWR3T0lHM0dHcFZrY0NuUmtCa1VQb1pacGExT2xaeVNfdF9DU2diNFBHaW5QaDlCTW1rbTVjdXUwV0tWZFFWbG02WW5yY09IU3NmZVc4YUp0RWFKcjN6XzVNQUNsQnZ4dlUxZ0lCTnF6MGxKdjBqOFRZb1EwcXEwem5ucWVjYUVQeEtQZw?oc=5",
-      "published_at": "2026-08-03T18:48:24+00:00",
-      "category": "melilla",
-      "language": "es",
       "weight": 2
     },
     {
@@ -250,20 +241,29 @@
     },
     {
       "title": "Ceuta explained: How Spain's biggest migration crisis unfolded",
-      "source": "Euronews.com",
+      "source": "Euronews",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOemJWd01rUzNNQW5KN0dfS1ktV25MVUhkV0xrVzBFOG5KaFpaWnp5S1VkalgxZ0IzSWpJUDJ0ZWhiZTJVQTU4ZTBiMG5vd2hVZ0NfTWlTaTNqb0pFT01EUXRweTh3TVp5RmR4cTV5LTdhUjJoR2t3d2FtbFloU2M3TWlVeTVWU1lFMXYzUmRnazNaeHJzdUhGYTdiQ2kxNkk0LXFXQ05mTi1Ndw?oc=5",
       "published_at": "2026-08-03T16:07:11+00:00",
+      "category": "ceuta",
+      "language": "en",
+      "weight": 3
+    },
+    {
+      "title": "Ceuta migrant chaos: Hundreds set up camp on beach as Spain ‘blames Morocco for border surge’",
+      "source": "The Independent",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZUNjSmM4WFlsdHE5Mi1vY2YtRTdVS19fVDJFb0NaTnRNZEZ4YUMtZDFfbERZZndmcmJaNUxaUVJrdTdNX05oc01QRXJwR3hUbzNwRlRubEVyYzNva1JrRzRzOGhrSFlRYUd6blgtejVFMXd4ejlqR0h2UmlaNUtEWVAtSDNxdDA4RmprZ2N6MzRQSm1RMmFhQjFyUzI?oc=5",
+      "published_at": "2026-08-03T15:56:00+00:00",
       "category": "ceuta",
       "language": "en",
       "weight": 2
     },
     {
-      "title": "EU calls emergency meeting over Ceuta border crisis",
-      "source": "CBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9OYTRURkx2bW1HeHdHNk1uemlYSHo5N0ZtdXRmR1hobm5Ed19PN19iemZTU2VFNFVlQm1ycFBHTVFheVBTM1hJeXA2QjRvMWg2WDgtbFVTUjBFQQ?oc=5",
-      "published_at": "2026-08-03T15:53:03+00:00",
+      "title": "Ceuta, al límite: miles de migrantes y más de 860 menores tutelados",
+      "source": "Euronews.com",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQVFZRncwQ181RDdGbUMtdjRzRDlLWFZCdnpfeTVoWU4walVMa1dVRnVFSDFtbGpPSWVXR3VWQXhhVmc0UjdCNzdfVFp4MFRoeTNHaVI2T1BmVWh3bTJEeGhkNDdEck1wbzJRNGU2VkNmTkFyQXVTWS1PNEFmWVI3LUdBVkNiTnAzTGdnQ0hYV2N0cGV1ODF2MXJCOTRja1NxM1VVNFlFZXdtM3Rfa29hOTVEUy1KbGx6TXBQd1pBZXo?oc=5",
+      "published_at": "2026-08-03T15:41:17+00:00",
       "category": "ceuta",
-      "language": "en",
+      "language": "es",
       "weight": 2
     },
     {
@@ -313,7 +313,7 @@
     },
     {
       "title": "China's Strategy in Ceuta and Melilla: How Beijing Could Use the Spain-Morocco Migration Crisis",
-      "source": "Modern Diplomacy",
+      "source": "moderndiplomacy.eu",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOeGpmbjcwUVRWLWR0ekpwcDhwdktYR1Q3bmFNbFBxNXBPMGtkQUlUbVloQmNhTFVVX05Ycm9GU1BDdFQxVDlmdXBXUVpOWks0QmhtbFM5TzVFeGZPWVdFSF9GdXM1U1JCR3FVUkVfRkkzQ1I1SnFvQ3plX0VCdlVuNjBqZTVJUDhqaGpiY2NSUlZiYjQ?oc=5",
       "published_at": "2026-08-03T14:23:20+00:00",
       "category": "ceuta",

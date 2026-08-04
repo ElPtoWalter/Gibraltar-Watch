@@ -3,7 +3,7 @@
     "schema_version": 1,
     "date": "2026-08-04",
     "generated_at": "2026-08-03T22:29:12Z",
-    "source_checked_at": "2026-08-04T19:59:23Z",
+    "source_checked_at": "2026-08-04T21:38:57Z",
     "health": "OK",
     "health_label_es": "Observatorio operativo",
     "health_label_en": "Observatory operational",
@@ -17,7 +17,7 @@
     "change_en": "No material change from the previous daily brief.",
     "seismic": {
       "source": "USGS Earthquake Catalog",
-      "source_query": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-07-05T19%3A59%3A23Z&endtime=2026-08-04T19%3A59%3A23Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
+      "source_query": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-07-05T21%3A38%3A57Z&endtime=2026-08-04T21%3A38%3A57Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
       "periods": {
         "24h": 0,
         "7d": 0,

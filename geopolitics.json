@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-04T19:59:27.883168+00:00",
+  "generated_at": "2026-08-04T21:39:03.239172+00:00",
   "language_default": "es",
   "status": {
     "maritime_status": {
@@ -12,12 +12,12 @@
       "en": "The corridor remains open; official notices remain authoritative."
     },
     "border_pressure": {
-      "es": "MEDIA",
-      "en": "MEDIUM"
+      "es": "BAJA / SIN SEÑALES RECIENTES",
+      "en": "LOW / NO RECENT SIGNALS"
     },
     "border_note": {
-      "es": "Existen intentos o presión fronteriza recientes.",
-      "en": "Recent attempts or border pressure are being reported."
+      "es": "No aparecen señales recientes suficientes para elevar el nivel.",
+      "en": "There are not enough recent signals to raise the level."
     },
     "bilateral_tension": {
       "es": "ESTABLE",
@@ -36,18 +36,36 @@
       "en": "There are not enough signals for an editorial alert."
     },
     "confidence": {
-      "es": "MEDIA",
-      "en": "MEDIUM"
+      "es": "BAJA",
+      "en": "LOW"
     }
   },
   "items": [
     {
-      "title": "Última hora de la crisis migratoria de Ceuta, en directo: Marlaska asegura que han regresado a Marruecos 70.000 de las 72.000 personas que entraron",
+      "title": "Interior cifra en 72.000 los migrantes que entraron en Ceuta y en 70.000 los que ya han regresado a Marruecos",
       "source": "antena3.com",
       "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQRkFBc3lPLTd3dHZaTHlTZFF1WHQzU0VOSWNOZkNvWmstSzk0TzlpYUZmZnhpQXNZdzBQZ1BFQ2U1NmJTdzJjb3ZpUUZxZVpzcDVweEtwUnBmY05zMk9jNEZzalZlV1hEc0ZYX1d4ckVmZkZVWEVTQjZTQml5RXV5SHVyanJxWXJLZUZ1RGxhZ0M1RGRCU3ROVGd3ZFZhN1daTDBBYllYd1dWc09rel9CY1dHSkI1ZENEcHUwbUVMdHI0cWQ3Uk9PaVhwa3E2QlY4MGhPci1BcndzR3VKbjk5MjM3Y0dqWU50X2p0ZGZWVzQ5cGMyR3VUTDRLV0tNT2RR0gGAAkFVX3lxTFBfRzFDbXhELUJpdDF6UkFRUjVxZmQtSjBadTRRSHpKX1BkSDJwRXRNWkNCaWdTRThNS2oyX1prVVNWU0V2WTAza1RHSE9BTldrSVhlRjVzUnZ1V1lHQTBkUVFPazhhcm92YnFTeDFhRGQ3Sy1NWDVheF9YRUVuNE9qNkNSMU9WZ21HdU45UkxFeWpGTlFBNFdpRXlKeWx4V2xuNlNNY1dxc0xkV2hwOGx5azF5bHB0MTZHLVFzMWJnLVpmVnVNQ0Y5REh0THVVZkwtcUtqWlIyMnM4b2JRQlhNdElMMEUxcGkxekQ3M3o3OUtvSHdXTXZteHdfQzJMSEQ?oc=5",
-      "published_at": "2026-08-04T17:30:22+00:00",
+      "published_at": "2026-08-04T20:15:15+00:00",
       "category": "ceuta",
       "language": "es",
+      "weight": 2
+    },
+    {
+      "title": "EU closes ranks after Ceuta migrant crisis as hardliners push for tougher borders",
+      "source": "News24",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNT2ZXT3NfZFFyMU5lMThKaHBUVlNxUkNUeEI2Qmktc3pzZXFiUTdWTDdJZG0zelUzZ0x1RHdubEt3b3VQaWlibElNQTl1N1ZmT0lLVG1kdTI0QlFFc0liaXBwblhzRUM5NjdPQ1U0a0FVbGdtVm1zSURzeERrT0VwR19jb3NKRERfUFFfX2FNTzVkSzVOaFJRdFJxc2UtN1Z6UGVUR2Eyblcwd1RoR3A5ajM2MzFEZndFbGtUQjJnR0FyZw?oc=5",
+      "published_at": "2026-08-04T18:17:21+00:00",
+      "category": "ceuta",
+      "language": "en",
+      "weight": 2
+    },
+    {
+      "title": "Runaway online rumors sparked frantic rush by migrants to the Spanish territory of Ceuta",
+      "source": "NBC News",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZkdmTzU0TVlyQVI2cWJIMWdIWDZQM3gyM1FMZ3hvZHhMRkZWTjd6aDlkNXVqZzk3QnNydnFBbFlPODdmT0xsQ1pkdUhfUjVKUWZjOTc3RHZHZ042T0pSY2ZnV0R5MUQ2S0I5d2owSGtxcDEwVDZ6bGhtQkxIcDJySEFEQUVrOERqS1ZEY0VRaVdxeG0yMXNjSnhB?oc=5",
+      "published_at": "2026-08-04T16:23:08+00:00",
+      "category": "ceuta",
+      "language": "en",
       "weight": 2
     },
     {
@@ -64,6 +82,15 @@
       "source": "Modern Diplomacy",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPYzJ4VE4wRXRkVmw2RXpxcXUwZnVzUG8zWUlMT3h2LUoxUG81SUpKaDlYaTNQaW9NVWstTnh4eEtoOHVtX185VGIxUGxzUzBzU2ttQTQzNTlhZ0EySnZPemtMNUZTcWhhSTZuWnhORFJJSFdiRldhSmlhQ0NXYjYzbm9RWWRkclZRQmpWTA?oc=5",
       "published_at": "2026-08-04T16:00:57+00:00",
+      "category": "ceuta",
+      "language": "en",
+      "weight": 2
+    },
+    {
+      "title": "Ceuta crisis: The elusive search for the origins of the border opening rumor",
+      "source": "Le Monde.fr",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQR0pCekFRVUZJbEdGOU5hR1NVUnNaUTRXOUlWU0hjeVZ3dU5aWjRxRnZBVlFiV1pONDhmSDU2bzMzeGp0cDMyRDBTS1VtQW56NU14YjRXQ0ZaRWNVSHRBMU1yakxYTExQTC1BWHdOTW5uNmJxRDhPUVdQWU5zRHZ0Mk01VHRfeEpGZVJGZ1UxZjBjRzRCdkxzRDFaTkFfcmRyMTRpeXRRUEtmRU91UG8wUGtqR1NSbkJOX0FROTdFRTdRdXMwbXFMWGlWSFozREM4aE9MSWZhbGpsYVk?oc=5",
+      "published_at": "2026-08-04T15:56:07+00:00",
       "category": "ceuta",
       "language": "en",
       "weight": 2
@@ -96,15 +123,6 @@
       "weight": 2
     },
     {
-      "title": "What if I told you Ceuta is an occupation, not migration crisis?",
-      "source": "The New Arab",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNakRWbmd0MjRhcDlDQnREZ09rc3doM20wU09CU0tzV1pIME80Wjhkbk9id0NmZUxnajBSc1QwTkhSLVV2clZJRDNiRUlPc2xTNlg1U3ZRSmRNNl9WVFdPT3hxajNPLXVxTWk5MVIxT256cTh2Nl9MX0VTc0VuSDdaVVROUk90ZXM1Snk4MjVIX083Z9IBlwFBVV95cUxOYW9PQnpaNUdRS1V3dUNUNk5BUTJVVGNYeHdfeEE4RG5seE5mNlZjaEdpN1RSYzVuN1BnTExjVDVZZWhGZlpKenNPWjlKZFdxWUFIZzVXUHZjcm9WZ3JZZmN5MkVCcGV0WWh0bWlOU1pYNFh3Si1tZVhNQ2NTM1dvUk15R2N6T21WMk5MRnQ5Y2dWODluclln?oc=5",
-      "published_at": "2026-08-04T15:16:01+00:00",
-      "category": "ceuta",
-      "language": "en",
-      "weight": 2
-    },
-    {
       "title": "Mike Huckabee discusses Hamas, Iran, Ceuta conspiracy theories with Piers Morgan",
       "source": "The Jerusalem Post",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAzdXAwMXFMTHFobjIxcUw5T0lfMFhfbWx0eXU1VXAzZUo5U2xQYXk5Y3RCTE9fbENsYlFuTWEzZ0RRUjF6QktEYmExd0FDdEMyaDJ2Z05EMmlZRlNVVmJR?oc=5",
@@ -115,18 +133,9 @@
     },
     {
       "title": "Ceuta migrant surge exposes Spain-Morocco tensions as Islamist groups reportedly seek to exploit border crisis",
-      "source": "foxnews.com",
+      "source": "Fox News",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOaGM5eUtOdDE1T0J5TFBZZDNzeEFSbFppMGV5ZXJRVGFORjZZLXo5Q3p2eVNEU3ctNHBmWFRvOGJxbFd2czktejVzTVo4RnpCeFlaZGR1eEdtZzNBNnRpa0FHeEhhY21tTUVwOXl6VVZYTFp0aTZSNGtZZ3N1NG5zc0dLbzA3T2ZfNVlOWUtnUWNyVmFzSzliNzRNTHBRdE1CMHpkRXZLTi10VG5SamJUcDRkdGVLS29XTGVZR3pxQXFPQ2F4eUVNbWxyLVIyVDDSAdQBQVVfeXFMTUpKV3RMcWQzbDdtUWZpRTlKMnN2ejNVQzFEc2JFWG03MnhjaDlXYWppd1p0VG4xNEh4VDNXYklUUU1VeC02aXI3ckVvVzdyRVlTTXo4eVVjMTZ5R1RTTUFYMVI1LVFjVE5nVWlsUkN0WUNMd0NNcnN5eHdzVHBpRUtvSm1tNnprdVoxazNDSk5rN0VJTFFTMXc1VTZCb1BuNnpVV3V4SU9hZGU2VEQ1RnBjbnlWUGZwNDFJT0ZQejNvWS1fSzJ5SkZKQWlCRUdiMnhKVTM?oc=5",
       "published_at": "2026-08-04T14:44:14+00:00",
-      "category": "ceuta",
-      "language": "en",
-      "weight": 2
-    },
-    {
-      "title": "Witnesses and experts have suggested to AFP that an easing of controls by Morocco in the border area of Ceuta contributed to the recent mass influx of migrants into the Spanish enclave. | via ANC 24/7 Link to full story in the comment section.",
-      "source": "facebook.com",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNHhmZ3B1VlpRbW1pUnVsUjJoc3h6NEtDSkZWR0dPaXpjV041Mm01cm5SWmtOblJwV0VzdDktbEFQQ04wUUpMS0hDeDJONHR1QXRaZHBRbFBlb3FWVkh0Q0V2YTdBZ3Z6NXk0aTZJUHNxZGhPN2RyWHBZczZGUDZSX1hrODZVYkszOGgyZDNoQTVMY3dwdk1uV2ZjeFFNQU9LZi12anRZSml6SjJCQ0dlYWl3UHpYNnVyR0stMThOVUlrRkxuUHFVVkdGVkpzTmU4a0dpUGpndw?oc=5",
-      "published_at": "2026-08-04T14:18:04+00:00",
       "category": "ceuta",
       "language": "en",
       "weight": 2
@@ -136,6 +145,15 @@
       "source": "Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSjBMUWVqWm5KTnMyZi1MUENVUk11TU8tOEpjNHA0TFNhS1B3NEFMX0sxam1wSWR4aDkxVnI2LU9fRGVodFZ3RTVzVjlvV0syajR2b0ZEWjA1QW1TUm9UbmNldE5mMWxlRERiTExwWi0zTWRpQmlIUWhsVG04OEZyOWNIcDhaY21SRFhzTm4welZtN0J1RjMteGJUTkNqaDJUWFhRcmQ5Z2dUT0nSAbABQVVfeXFMTkl2RXpzRVluejJoZXpFOFBud0t0RkhVTE9oSERkcjBGa1hxZlh3R2RMaC1HOHhOT1lRTGVKQk9yRDI5RzhIUTZQaTRIamhEcVhQOFA2REY0a29FWVFOVEtVaUNDekgxMDRDcFdmTE9SdUNIRlRRbEQ5cUFTQThYMVU5UXQ1MUNiaC1BMzdGM3VEVVdkSksyVkZfS0Z5bUVOeU8tODEtaG5rUGhLT05XbVo?oc=5",
       "published_at": "2026-08-04T13:59:41+00:00",
+      "category": "ceuta",
+      "language": "en",
+      "weight": 2
+    },
+    {
+      "title": "DW News. . Over 50,000 migrants reached the Spanish exclave of Ceuta from Morocco last week, but the story goes far beyond border security. The latest surge came just days after Spain's prime minister visited Algeria, reviving questions about the fragile rela",
+      "source": "facebook.com",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPRDhPaTlJcVRkcmdvejgyV0xiSDVYYTJSSF8yeFNzaW5RUUpnNEtjOUNPbVMzV2pNdGxsQzFWbzNWWWhTSDlmQnMyZ0dYdlR3OWZlcU1na1p1ZTlSQ3ZocGFfQmVZTldacEIyTGlZZFg0OWxYM1JrUXpzQUNfVkdwRkF6dnFlYzRFUVN3UHVOaXFDQjA2UGh2WF90RXRCY2VxVDNHaHd5dGprVGx6Y1I5a3dtWjdHZ0NCY1BFZ2JjUzYxTG9ZQktIRmVfMElJelFZWG8xWnR1Zm5lR3EyYmsxdzZR?oc=5",
+      "published_at": "2026-08-04T13:52:04+00:00",
       "category": "ceuta",
       "language": "en",
       "weight": 2
@@ -187,7 +205,7 @@
     },
     {
       "title": "Ceuta Border Crisis Draws Israel Into Spain-Morocco Dispute",
-      "source": "themedialine.org",
+      "source": "The Media Line",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcHdxNDdoSEZ2ZEJQQzNOU01xdFFfUGE5VXJUYlFpTU8ybzFva2NWOWliZnJlTFJlaG5XSDVmVHRrdVBBR1JkWHdkVkltZlVWeWtDWEVhVHNWN29ZSS05N0w3V2g2Z3hoTlJHVTF1enp1UTg3SWJ6RDRvdm43YjNZbjk0VS1SYXRraWM2cHlnSl9Xc2FwRlFlLUcwRzVPQjN6Z3JxLWpvOA?oc=5",
       "published_at": "2026-08-04T11:31:33+00:00",
       "category": "ceuta",
@@ -214,7 +232,7 @@
     },
     {
       "title": "European governments panic after mass crossings into Ceuta test Moroccan ties",
-      "source": "The Africa Report",
+      "source": "theafricareport.com",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSDZNcktOVWhudkFjLVBEYkdXRzFWOWxYZmo1Zmt1SnhjWWk5VTFSVDVPTng3RVNKVWswd1BQdkdEX2Vady1NbFV0WFFjZW9ObG9wM3Nxa2tRWG1CYm9LNjJRTDlGLWFJS0tranM3NEVnR2x6THluVWV1X09ISnVfc3NDQzhoY09BQW9lRksta3hjZWtES0xFOV9fNzdUcks5VE1oeXpfNFg0Y0NMY1lEd3l4em1Ga2F6?oc=5",
       "published_at": "2026-08-04T10:30:14+00:00",
       "category": "ceuta",
@@ -241,7 +259,7 @@
     },
     {
       "title": "Social media rumours spark biggest migration crisis between Morocco and Spain in years",
-      "source": "Euronews.com",
+      "source": "euronews.com",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORklRVWE0Y1phTnJ2VnVSOGljZmlZNGlmUW00RmlfU1lYQXRHWG80c1RCN0szbW1QVWRmS0pneHRRdTJQUndXdWpudm81M3J3TzhtX1ZRWE9KcFcxT0tUUjZOcnQ0R2VhTXZWeHl2Z2p0aE9NVDR2ZlZ6MFBjcmlwTDJaQlFCb0xtQUxUUjVad1dIcXFTRFFKYlp3ZGlvU1o4NHpMNjBTcmlBa1oydmVXSGpLalJpaENsRVIwZ2lGWmkwdG1mYURXOXZLQTE?oc=5",
       "published_at": "2026-08-04T08:48:30+00:00",
       "category": "ceuta",
@@ -295,7 +313,7 @@
     },
     {
       "title": "El PP, la Comisión y varios líderes europeos evitan señalar a Marruecos en la crisis de Ceuta",
-      "source": "infoLibre",
+      "source": "infolibre.es",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVnAwN3BZTEhTX2NhZVZwVmJUM3ZkeWUtVU5VazZ2U1k2QXR1eWpoRTYyU3NXSjIzMjhBaDExdk9SY19lMC0zNnhlOTc0SlpKdGVsZzJRVXVhRWVjNzc0M0RRN3dpLXlLckotVHFremJDTG9rc3RqdUNhUk1yYk50eVF0M0RqT0tBU2ZUU1RPR2Naajh1ejFtZTh1OC1rdGJLcm1TOGtRNTN3Vzc0b1JfcWRIbEdDdw?oc=5",
       "published_at": "2026-08-04T04:00:08+00:00",
       "category": "ceuta",
@@ -304,21 +322,12 @@
     },
     {
       "title": "Dispatch from Ceuta: Inside the 48-Hour Migration Crisis",
-      "source": "The Free Press",
+      "source": "thefp.com",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9oalhlZWd1OUUyd1h2VUF3dlA2VXBLbHllU2RoeVY5R01ncG5hZE8yYmJxbUM2UGJUOTFWMHExM3FNaHFBS1MxU3pSa1hrZ0R3MjdycFpIZ2xXa2ZqakVUSGhEUXRrbHow?oc=5",
       "published_at": "2026-08-04T03:50:26+00:00",
       "category": "ceuta",
       "language": "en",
       "weight": 2
-    },
-    {
-      "title": "Ceuta leader accuses Morocco over ‘atrocity’ of mass border crossing | Spain",
-      "source": "The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbEFMTThkejZZd1pCby1BMEJSMWxqWmxuM1FhYlhVV3BsQmRFbFFPSkVILUMtWnVKVlgwWFNqNGlDU2RBTTR3Tjd2QnJSRGJ5Tk14V0VqaTRweGtYTThGRFhESDhUenZHTzZKZF9yTzNWUE5hU3pDZmdFRExqNWJFWTZjckxjcDBOUzdpdklJaVdaZw?oc=5",
-      "published_at": "2026-08-04T01:30:00+00:00",
-      "category": "ceuta",
-      "language": "en",
-      "weight": 3
     },
     {
       "title": "Ceuta: UE apoya a España mientras persiste crisis de marroquíes en la frontera",
@@ -355,15 +364,6 @@
       "category": "ceuta",
       "language": "en",
       "weight": 2
-    },
-    {
-      "title": "Ceuta: EU calls for stronger borders after migrant crossings into Spanish territory",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1WSzdRTkdzdDFBQ1VqeDR2SXdZcmhkNnl4d3FXNldyVTkwbTctMW1tdGZ4WWFRRnNjTmVPMG5tMk5YZUdQci1MQ3N3MnIwd09WbmFUZVVGb2FpZw?oc=5",
-      "published_at": "2026-08-03T21:43:10+00:00",
-      "category": "ceuta",
-      "language": "en",
-      "weight": 4
     }
   ],
   "errors": []

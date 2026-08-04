@@ -46,6 +46,9 @@ jobs:
       - name: Ejecutar pruebas de pulido visual
         run: python -m unittest -v test_install_gibraltar_layout_polish.py
 
+      - name: Ejecutar pruebas de atractivo y monetización
+        run: python -m unittest -v test_install_gibraltar_business.py
+
       - name: Actualizar sismicidad
         run: python update_gibraltar.py
 
@@ -73,6 +76,9 @@ jobs:
       - name: Aplicar pulido visual y responsive
         run: python install_gibraltar_layout_polish.py
 
+      - name: Aplicar atractivo y monetización responsable
+        run: python install_gibraltar_business.py
+
       - name: Guardar cambios
         id: commit
         run: |
@@ -85,7 +91,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          git commit -m "Actualizar Gibraltar Watch y pulido visual"
+          git commit -m "Actualizar Gibraltar Watch, atractivo y monetización"
           git push
           echo "changed=true" >> "$GITHUB_OUTPUT"
 

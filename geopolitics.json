@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-05T12:18:50.216404+00:00",
+  "generated_at": "2026-08-05T15:30:32.636791+00:00",
   "language_default": "es",
   "status": {
     "maritime_status": {
@@ -12,12 +12,12 @@
       "en": "The corridor remains open; official notices remain authoritative."
     },
     "border_pressure": {
-      "es": "BAJA / SIN SEÑALES RECIENTES",
-      "en": "LOW / NO RECENT SIGNALS"
+      "es": "MEDIA",
+      "en": "MEDIUM"
     },
     "border_note": {
-      "es": "No aparecen señales recientes suficientes para elevar el nivel.",
-      "en": "There are not enough recent signals to raise the level."
+      "es": "Existen intentos o presión fronteriza recientes.",
+      "en": "Recent attempts or border pressure are being reported."
     },
     "bilateral_tension": {
       "es": "ESTABLE",
@@ -36,8 +36,8 @@
       "en": "There are not enough signals for an editorial alert."
     },
     "confidence": {
-      "es": "BAJA",
-      "en": "LOW"
+      "es": "MEDIA",
+      "en": "MEDIUM"
     }
   },
   "items": [
@@ -45,9 +45,27 @@
       "title": "Dispatch from Ceuta: Inside the 48-Hour Migration Crisis",
       "source": "The Free Press",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9oalhlZWd1OUUyd1h2VUF3dlA2VXBLbHllU2RoeVY5R01ncG5hZE8yYmJxbUM2UGJUOTFWMHExM3FNaHFBS1MxU3pSa1hrZ0R3MjdycFpIZ2xXa2ZqakVUSGhEUXRrbHow?oc=5",
-      "published_at": "2026-08-05T11:39:46+00:00",
+      "published_at": "2026-08-05T14:36:51+00:00",
       "category": "ceuta",
       "language": "en",
+      "weight": 2
+    },
+    {
+      "title": "'Ceuta crisis' fuels European right's battle against migration",
+      "source": "The New Arab",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNHVKTGVCcGN4andYWTZydDFFY3hXT0xIdGZfNXJYSlRnRTVZWk9MYm8zZEFLR0g3TUxYRkRYTEl2QV82Uk9TTFpHR0dnZ3dScXQyMmxnQ0FVbnctWW51NnZBbENiWm11dGM3cktzLUdIX2lzRm51UU1XWTZpZkVsc3JodzZHSTlMenBwaE5MRHhMUdIBlwFBVV95cUxNZnZoYUdBOWFzUWdQc2tkUzNMb244bWRHb3k5U2RkY0lveTdybTdKR1Y4Y0JLQ2RpQTZhSktVald3Ni1mdV9qU3NqYWFqd2h2OXdVbkU2elpSOGNJZlZlNHN1MlhiWm1iYzlTa1NCMy12UHkyczA5dGVlQ2c0VGlrV3VkZ1psc0oxS1ZPNGQwWTN0bjBOWTlB?oc=5",
+      "published_at": "2026-08-05T13:35:13+00:00",
+      "category": "ceuta",
+      "language": "en",
+      "weight": 2
+    },
+    {
+      "title": "Una ONG cifra en 141 los fallecidos en la crisis de Ceuta, 63 de ellos en Marruecos",
+      "source": "Infobae",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOWlFjcmFSVGZ2cTJXcTE4M1lXUEIweG9qMExYcHBOYTkzVFdqdEZ4b2otVkY2Mml3OEtDdzZCX3Bnb0JYRjA0dmphV3RFbkhUWWFsdDltSGpObVFCMlRXd0gtOS1xQURyNnhGODBjWjdhcXhoWFBfLVRyc0R2SUtLcTdmLTQ5Y2VhdTUwWUt1djI3TzBYVHdGazdDdjVuNnN1eXRseUVKajRVZkVKbFdYM2VrZHFHNnhSUVNucVZxNHd6TUgzZWlxaTZ3S3BsWWQ40gHrAUFVX3lxTE5GeFA4T21ydWl4NEVQUzF6YnpHZW5FeTluenRMR1Z1cGhkVEkzcVdhQjRPV04tbFM1aE52LWVNSXpueGNYTzNpM0JMT2xsM1pZWjFkbEJLZmlYSUtpTmljbnd4cWhURHByUV8tRXdRX0kxLTJCQ2ZkRDJwdldJR0cweGRGVGRkSkw1SU5uTEFSLWNrTE5GdW1uRGVna3hQZTd0bUVGeUxuNW1CV3ozLTAzaG1QeVNVdFdDT2ttb21oYXVxSmNxYnZDd1VmYTdHd1RWY1pfVUo0RkNaMy15ZmtSVGwzMUJCSUhmb0U?oc=5",
+      "published_at": "2026-08-05T12:38:12+00:00",
+      "category": "ceuta",
+      "language": "es",
       "weight": 2
     },
     {
@@ -114,6 +132,15 @@
       "weight": 2
     },
     {
+      "title": "Who is responsible for the Ceuta border surge?",
+      "source": "DW.com",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNW9ZdjBjc085THhOSldEcnVxNFlDcUc2NjMwN0h4V29pU1JmaVQ4NDZDakVoMjVadjF2MF85UTN0V25CVmszV0R1bGJQNTMyOWJ1S2QwZm80VGd0bW94Z1VlTlRDS09GanpoRnBoTE9nbGJuZ2pMakpJTk9xTE01MHQ5dzNDRDJ3Uk5TOVdjWDhWWUhXNm53NVpReWtzN0JMS3otZS1kONIBpwFBVV95cUxNeVFyb1RfQmdvZ01ONkNHdTE2UU5mV3U0bTFQcEh5c0JHX1g3MFo1UmM1QzU5VUdDOTl3ZjhVZFFsYlBxU3c4U3E5ejczQVB4YjR2REJ2QUhfZ3BJUlBjVG84TFZzVEt2Mnh4NHIwUnQ0RllmeGdUc2pGckRvT3hkY2hjODFndXVCVF9ZQVVWek5ReVc5aG1oSGJ6UlQ3RGtJSXI3NmNacw?oc=5",
+      "published_at": "2026-08-05T07:48:22+00:00",
+      "category": "ceuta",
+      "language": "en",
+      "weight": 2
+    },
+    {
       "title": "Imbroda pide que se recupere la “zona neutral” de la frontera con Marruecos y un “buque lanzadera” de Melilla a Nador",
       "source": "Melilla Hoy",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQT001bDdYNnFzcjVBR2M4RU81VDlPNFBnQ3Y5WE1UYjI5empBb0RURnpTNF9ETjhUMTNmYVFVVDc3UU5KOHh1VGVTdFBKaktHU2YzNjFfSElCQXdXS1pKTHc4V0ZZYzRmb2RDeTRQRDBXRXRYRGpEMW9abmlGSWlPN2xRbWhYSTZkRHhCMHItZmVrZmFZS1o3SW9CeHo2UHBfWDVNSDlaUklFWmFlVmV0YXpuRlNoZVVVdWZjdl9md2FJS0tVRTktNW84aVBQa2pHSUHSAdcBQVVfeXFMTmJ3UkFCRnhGTFVpVDUtNkJ2QnRVenhWMEJZY3Y4MEpJU2VzQlVTOEhva3RSQXB0QzlfaDY2bFRFUVhIMW52ODQxVnA5THVHejZQVWxueU9vMnRzeGF2VXJCc2FhUXdzRGtXMkI2Yi1IYWs5WHVNUkJBdW1pWDFBRGpta0psenR3Qk5NOEFLOFB5SXg1TkpsaTF5bWUxZlhxazB1U2s3WWdtd2ZRdklQams1MTVhLUZkR0h0RkQzTjFtcEhHQVJFMXZlVEhUck9rV0JfeHdFRkk?oc=5",
@@ -132,17 +159,8 @@
       "weight": 2
     },
     {
-      "title": "Who is responsible for the Ceuta border surge?",
-      "source": "dw.com",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNW9ZdjBjc085THhOSldEcnVxNFlDcUc2NjMwN0h4V29pU1JmaVQ4NDZDakVoMjVadjF2MF85UTN0V25CVmszV0R1bGJQNTMyOWJ1S2QwZm80VGd0bW94Z1VlTlRDS09GanpoRnBoTE9nbGJuZ2pMakpJTk9xTE01MHQ5dzNDRDJ3Uk5TOVdjWDhWWUhXNm53NVpReWtzN0JMS3otZS1kOA?oc=5",
-      "published_at": "2026-08-05T03:46:54+00:00",
-      "category": "ceuta",
-      "language": "en",
-      "weight": 2
-    },
-    {
       "title": "Ceuta and Melilla: Why Europe’s African border remains a flashpoint",
-      "source": "aljazeera.com",
+      "source": "Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQS09lcm42U1h6eUtGWk1pcnpPemNFcVVzM0kwbVNFSDlXVlMyNzBNb0h5RHAzd2ZyaUxPUmFOTDVOWUJlNE5uYlAwdDJzY0NFNW9vbzRkTlVyOV9JOF84WnRNb0hDZUZJWWRCMUNIYkp0MFdVSHVJYjJ3dFp1Qno4MDJTSnRwT3VBdTdtVjRKZ0FDZ0M0dUZXQlJjdzVfVHdVbUZacTZpRm3SAa4BQVVfeXFMTWd4ZnZ1QWV3LWUzeVotUzh4M21Sd3BleWdPakNlcmYyeGNiNmU4Z3RLTnh0QVJOb1lGOV9uWHpSMVoyWFZNZldLRmdPc3hwazI4YWpYajVRM1lFR21tX0F2cFBFQnFCQkIzX2NEQ0U3WEktaWNCRDZVVTg0ejVUU3R1V0U5Z0YtTXhoLWRlWnZ3YjVjMmZWYk1mSjBYQnhGaDl0V2dSbHJqaUs3Uy1n?oc=5",
       "published_at": "2026-08-05T01:36:19+00:00",
       "category": "ceuta",
@@ -160,7 +178,7 @@
     },
     {
       "title": "Última hora de la crisis migratoria en Ceuta: Tres gobiernos de PP y Vox anuncian que no aceptarán menores procedentes de Ceuta",
-      "source": "Onda Cero",
+      "source": "ondacero.es",
       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOamlNYTZ5Ync0bnVQaGE3Q1dzN2hacHNWM3ZKNW1SVnJkV1NtbHRyYzRVOGxfS1VWRG85VlkzaTdVOGN5N2lzSkxlRXJEWHNyWFZkbVpQX3ZoaDlKVmU4MThkYThxR0VfYmUtamwyVll3THhsdTMyWFJPUHlfbWFERzBFeFJLcEpmc0kybDN3bFg3ODR6dXhEcEtGX0JMR1hKWDMtWTRoWlpFUWNaRklqSnhKTHJPZWdqVXJuTk1KUWR2QVo1VXdFc2FXWkNMM2NpNkZKM3hGUnNaLXU2UmRybWhFeUs?oc=5",
       "published_at": "2026-08-04T20:52:14+00:00",
       "category": "ceuta",
@@ -175,6 +193,15 @@
       "category": "ceuta",
       "language": "es",
       "weight": 2
+    },
+    {
+      "title": "Se eleva a 141 la cifra de migrantes muertos en la tragedia del Tarajal de Ceuta",
+      "source": "Cadena SER",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPUWl4d1FscXZzdXVRQXJSdHBla0FrVWxNamxpLW1hdkZZV1UxUXNZRk1oa05VXzg4b2tsTnU1N2NoYTRTN1Q5NkdseVBieDd5WmllamtqV1FlRnVBbVNWS2JFV0VNSldUMWNwdnVzZjFGUW1sdUw0QTVhNGxtTkY5QmRtOE84STVtaExhZ2dxS0VjdHNoRF9GOW5yOXFfVXhDWC1BUzQ0bXNXRjNMbVFaeVR0VG1VeGNVYWxQVFVHN25jNmN1U2k3VE4wYVU2dkXSAeMBQVVfeXFMTmlEbTd4VjcyazF1MldrOGlrZ2Jyb0J3bkFKNnJpWE14b1NnaFlPN3FfRUc0NzN6STdJN09mTTI1TXBwRExUa0hBeC1seW1fbDY1OHo3bE9BSEt6UzdkM1JDNUtCWHB6eXNqcGhUSG5XcTFpQTU2bnRCemNiYlYzN1Fnb01XVklIV3pNcVJrOGRSamZ5YzRGR2I4TkNlUXdzVU1FWS1WMG1WaFJjYXpZd09RMTY0T05WVlVndHU2LTByR0lBdDNrUEswelhiS05FM2tpM2t5LXpsVFBfYnFkWm5rdUk?oc=5",
+      "published_at": "2026-08-04T20:05:38+00:00",
+      "category": "ceuta",
+      "language": "es",
+      "weight": 3
     },
     {
       "title": "FEATURE | EU seeks to clamp down on people smuggling after Spain border crisis",
@@ -231,15 +258,6 @@
       "weight": 2
     },
     {
-      "title": "Ceuta and Melilla: Why the U.S. and China Are Watching Morocco-Spain Tensions",
-      "source": "Modern Diplomacy",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPYzJ4VE4wRXRkVmw2RXpxcXUwZnVzUG8zWUlMT3h2LUoxUG81SUpKaDlYaTNQaW9NVWstTnh4eEtoOHVtX185VGIxUGxzUzBzU2ttQTQzNTlhZ0EySnZPemtMNUZTcWhhSTZuWnhORFJJSFdiRldhSmlhQ0NXYjYzbm9RWWRkclZRQmpWTA?oc=5",
-      "published_at": "2026-08-04T16:00:57+00:00",
-      "category": "ceuta",
-      "language": "en",
-      "weight": 2
-    },
-    {
       "title": "Ceuta crisis: The elusive search for the origins of the border opening rumor",
       "source": "Le Monde.fr",
       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQR0pCekFRVUZJbEdGOU5hR1NVUnNaUTRXOUlWU0hjeVZ3dU5aWjRxRnZBVlFiV1pONDhmSDU2bzMzeGp0cDMyRDBTS1VtQW56NU14YjRXQ0ZaRWNVSHRBMU1yakxYTExQTC1BWHdOTW5uNmJxRDhPUVdQWU5zRHZ0Mk01VHRfeEpGZVJGZ1UxZjBjRzRCdkxzRDFaTkFfcmRyMTRpeXRRUEtmRU91UG8wUGtqR1NSbkJOX0FROTdFRTdRdXMwbXFMWGlWSFozREM4aE9MSWZhbGpsYVk?oc=5",
@@ -250,12 +268,12 @@
     },
     {
       "title": "EU commends Spain's 'swift response' to Ceuta migrant crisis",
-      "source": "bbc.co.uk",
+      "source": "BBC",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE03bmFELTE1MTJaSlAwM1NWR1h0MlNndDRiVGtTX3JaWXp5Z2M5UHFYSEIwcWVYakNENHRyX3VSWmdsSzNQUVhPcmR2UWQ4R1ptVUtnaExxTkxPUC1q?oc=5",
       "published_at": "2026-08-04T15:36:53+00:00",
       "category": "ceuta",
       "language": "en",
-      "weight": 2
+      "weight": 4
     },
     {
       "title": "What if I told you Ceuta is an occupation, not migration crisis?",
@@ -276,26 +294,8 @@
       "weight": 2
     },
     {
-      "title": "EU ministers back Spain, seeking to calm tensions after Morocco crisis",
-      "source": "Euronews.com",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPa09VdjE4UHZIZEJCNENIMmtlaFkzWUMwNjBMd181YVZMc0lpZ3pJcjRDX3ZuaE1wWF80MHFFaEViQTczNjVadHp5YXBReXg0SGtrR1ozQlAyUWRacUg4MUFEbnh5V0FvSGE0N2l3QkRLS2FiMjRIUGc1MHpoS1czU3FucWJPUEVubVBoNXMzVUFPbzF1SW1CeHd5XzdLMHVHWnBrTXdCRUdhTTRtUUJQVk9nUncxX2ZxdldFeGNqVTB1bFpnWDRTOXdIVzBmUHBaQ1E?oc=5",
-      "published_at": "2026-08-04T14:15:59+00:00",
-      "category": "ceuta",
-      "language": "en",
-      "weight": 2
-    },
-    {
-      "title": "Ceuta crisis exposes Europe's dangerous dependence on Morocco",
-      "source": "Independent Australia",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOd25ZZEVXck1QWkNPVFBncnJ0NjBaSjk3WGIzWTJ2NkFQODFyMHBiTElCeVJuVUh2Zm5yUmRtaFpSUUZwT3pTZThJZ21pQl85a2VoSENYM3I1V1JZaXA0T1ZDcGx0cEJvamVIb0ZmdHUxaHItV3hCX01HeEg3X1pCOGxmd3RCX19oNnZrYnpIalFIVTcyWEdST0Nya3NFWW5TeVlXZ19tX2RPcVBnWWFFRmZPOVRKOXNEcVRkRnMtdFN5WGs?oc=5",
-      "published_at": "2026-08-04T14:02:39+00:00",
-      "category": "ceuta",
-      "language": "en",
-      "weight": 2
-    },
-    {
       "title": "Spanish PM Sanchez faces criticism as EU meets over Ceuta crossings",
-      "source": "aljazeera.com",
+      "source": "Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSjBMUWVqWm5KTnMyZi1MUENVUk11TU8tOEpjNHA0TFNhS1B3NEFMX0sxam1wSWR4aDkxVnI2LU9fRGVodFZ3RTVzVjlvV0syajR2b0ZEWjA1QW1TUm9UbmNldE5mMWxlRERiTExwWi0zTWRpQmlIUWhsVG04OEZyOWNIcDhaY21SRFhzTm4welZtN0J1RjMteGJUTkNqaDJUWFhRcmQ5Z2dUT0nSAbABQVVfeXFMTkl2RXpzRVluejJoZXpFOFBud0t0RkhVTE9oSERkcjBGa1hxZlh3R2RMaC1HOHhOT1lRTGVKQk9yRDI5RzhIUTZQaTRIamhEcVhQOFA2REY0a29FWVFOVEtVaUNDekgxMDRDcFdmTE9SdUNIRlRRbEQ5cUFTQThYMVU5UXQ1MUNiaC1BMzdGM3VEVVdkSksyVkZfS0Z5bUVOeU8tODEtaG5rUGhLT05XbVo?oc=5",
       "published_at": "2026-08-04T13:59:41+00:00",
       "category": "ceuta",
@@ -303,8 +303,17 @@
       "weight": 2
     },
     {
+      "title": "DW News. . Over 50,000 migrants reached the Spanish exclave of Ceuta from Morocco last week, but the story goes far beyond border security. The latest surge came just days after Spain's prime minister visited Algeria, reviving questions about the fragile rela",
+      "source": "facebook.com",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPRDhPaTlJcVRkcmdvejgyV0xiSDVYYTJSSF8yeFNzaW5RUUpnNEtjOUNPbVMzV2pNdGxsQzFWbzNWWWhTSDlmQnMyZ0dYdlR3OWZlcU1na1p1ZTlSQ3ZocGFfQmVZTldacEIyTGlZZFg0OWxYM1JrUXpzQUNfVkdwRkF6dnFlYzRFUVN3UHVOaXFDQjA2UGh2WF90RXRCY2VxVDNHaHd5dGprVGx6Y1I5a3dtWjdHZ0NCY1BFZ2JjUzYxTG9ZQktIRmVfMElJelFZWG8xWnR1Zm5lR3EyYmsxdzZR?oc=5",
+      "published_at": "2026-08-04T13:52:04+00:00",
+      "category": "ceuta",
+      "language": "en",
+      "weight": 2
+    },
+    {
       "title": "Ola migratoria en Ceuta: los 27 intentan cerrar filas en una reunión de emergencia",
-      "source": "rfi.fr",
+      "source": "RFI",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVk9RS2loVWFTOHg0Q0ZON0hzTXBFN3UteHJCRnItMDF2bVgyc3ZfZnJJTDFXbnlmUGZwVTBGay1sUmdmblJSWUNFTUp0Um85VWxsNDFlSnM4Wnl1NG9ncENiTjRFU1pXNzR2SjNPTEN6MDRya2tXOGRPTU9hT21TazdUZ2NsdlNrTTJmN0pEbFY2em9Wemg5RzJNYTUwU1o5MzYyMFl6TEJKemQ5YUIycVNHY29IXzZ0LUlUOTBZdE5Udw?oc=5",
       "published_at": "2026-08-04T13:07:36+00:00",
       "category": "ceuta",
@@ -349,20 +358,11 @@
     },
     {
       "title": "Italy suspends free movement with Spain: Is Schengen in crisis after Ceuta?",
-      "source": "aljazeera.com",
+      "source": "Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRnBlYnpfcEthZDBwVEhKTVZyVUxnQkhua01HUms2LVI5eHlVVTVfTTdabmQ1MDBvYmo3cjRCMHM1MDhDMERUd1NvWGpKSE85OFpnZ0xsanhNeHBsZWlhclZabVBpRDhyRjRRckRQTzJ2OXBHV1hGZDBnNFFTbk9vUDllUGhZYkgyck82dW1IMTRjdEZNUjRSaGFiY01jQzNrNVJMZWZrS3R1NThzRktVZXZVVdIBuAFBVV95cUxQYnFYSkRjZ0g4bW1qUzdERm9mX19ZeHlFSjI2SWhOSXQ0M09QQk41TmI3ZDB2VTgtMlUzbmxxY0FXWFBfOHhIUUVGMzZfTTVjR1NpSGQyQ2o4YXQ0ODVEUUIzNkZwVFV4cXRCSWlnam9qWW9qU3RtbHZRMWlDNVE2V3p5YnBlbTZULTVZUHkwQy04S09rak5pMXNFemNWTXgtdUJGZ3JST3k2SS1MSVhkTjh0UWZad2Ra?oc=5",
       "published_at": "2026-08-04T10:46:20+00:00",
       "category": "ceuta",
       "language": "en",
-      "weight": 2
-    },
-    {
-      "title": "Qué sabe Marruecos sobre Sánchez para actuar con impunidad en Ceuta",
-      "source": "El Distrito",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNLTM3NnRJZXZoWHZBS2dqTmFxUGJsTUp0QkxNOF8tS0xIMGplVmFpa2FaZXJzUVZpNlNOUk1MODlqa3E1WmFpVWVGb0N5cG5DOHJ1QmtlYnRucmhnWVpFZGV1M3NSRGZfT0J3UnJjenJTZTRtNDBzVVNrVmZBUlJ0bnRiNA?oc=5",
-      "published_at": "2026-08-04T10:18:00+00:00",
-      "category": "relations",
-      "language": "es",
       "weight": 2
     }
   ],

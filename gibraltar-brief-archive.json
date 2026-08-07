@@ -1,6 +1,63 @@
 [
   {
     "schema_version": 1,
+    "date": "2026-08-08",
+    "generated_at": "2026-08-07T22:56:45Z",
+    "source_checked_at": "2026-08-07T22:56:36Z",
+    "health": "OK",
+    "health_label_es": "Observatorio operativo",
+    "health_label_en": "Observatory operational",
+    "headline_es": "Sin indicios científicos de cierre a escala humana",
+    "headline_en": "No scientific indication of closure on a human timescale",
+    "short_conclusion_es": "No existe una predicción científica de cierre del Estrecho en décadas o siglos.",
+    "short_conclusion_en": "There is no scientific forecast of the Strait closing within decades or centuries.",
+    "summary_es": "El paso oceánico continúa siendo una conexión natural abierta. El catálogo automático registra 1 eventos M≥1 en 30 días, con una magnitud máxima de M 3.1. Estos datos describen sismicidad regional y no permiten inferir una tasa de cierre.",
+    "summary_en": "The ocean passage remains a naturally open connection. The automatic catalogue records 1 M≥1 events in 30 days, with a maximum magnitude of M 3.1. These data describe regional seismicity and cannot be used to infer a closure rate.",
+    "change_es": "Sin cambio material frente al parte diario anterior.",
+    "change_en": "No material change from the previous daily brief.",
+    "seismic": {
+      "source": "USGS Earthquake Catalog",
+      "source_query": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-07-08T22%3A56%3A36Z&endtime=2026-08-07T22%3A56%3A36Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
+      "periods": {
+        "24h": 0,
+        "7d": 0,
+        "30d": 1
+      },
+      "max_magnitude_30d": 3.1,
+      "last_event_es": "M 3.1 · 2 km N of Armilla, Spain · 26/07/2026 15:39 (hora peninsular)",
+      "last_event_en": "M 3.1 · 2 km N of Armilla, Spain · 26/07/2026 15:39 (Europe/Madrid)",
+      "data_note_es": "Se han registrado 1 eventos; magnitud máxima 3.1 en 30 días.",
+      "data_note_en": "1 events recorded; maximum magnitude 3.1 over 30 days."
+    },
+    "interpretation_es": [
+      "El catálogo registra 0 eventos en 24 h, 0 en 7 días y 1 en 30 días dentro del filtro utilizado.",
+      "La sismicidad confirma que la región tectónica está activa, pero no permite calcular una tasa de cierre del canal.",
+      "Un aumento o descenso de eventos pequeños puede depender de la red observadora, revisiones del catálogo y secuencias locales.",
+      "La actividad sísmica no equivale a una predicción de terremotos ni a una interrupción de la navegación."
+    ],
+    "interpretation_en": [
+      "The catalogue records 0 events in 24 h, 0 in 7 days and 1 in 30 days under the selected filter.",
+      "Seismicity confirms that the tectonic region is active, but it cannot be used to calculate a closure rate for the channel.",
+      "A rise or fall in small events may reflect network coverage, catalogue revisions and local sequences.",
+      "Seismic activity is not an earthquake prediction and does not imply disruption to navigation."
+    ],
+    "watchlist_es": [
+      "Catálogos del IGN y USGS, teniendo en cuenta revisiones y diferencias de completitud.",
+      "Avisos oficiales de protección civil ante eventos relevantes.",
+      "Continuidad del tráfico mediante trayectorias AIS completas y avisos marítimos, no puntos aislados.",
+      "Resultados oficiales de las campañas geológicas del enlace fijo España–Marruecos."
+    ],
+    "watchlist_en": [
+      "IGN and USGS catalogues, accounting for revisions and completeness differences.",
+      "Official civil-protection notices following relevant events.",
+      "Traffic continuity through completed AIS tracks and maritime notices, not isolated points.",
+      "Official results from Spain–Morocco fixed-link geological campaigns."
+    ],
+    "publish_recommended": false,
+    "material_hash": "95cd25e8e7dbb85f"
+  },
+  {
+    "schema_version": 1,
     "date": "2026-08-07",
     "generated_at": "2026-08-07T00:17:28Z",
     "source_checked_at": "2026-08-07T21:57:42Z",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-07T11:59:30.169225+00:00",
+  "generated_at": "2026-08-07T13:41:31.908297+00:00",
   "language_default": "es",
   "status": {
     "maritime_status": {
@@ -12,12 +12,12 @@
       "en": "The corridor remains open; official notices remain authoritative."
     },
     "border_pressure": {
-      "es": "MEDIA",
-      "en": "MEDIUM"
+      "es": "ALTA",
+      "en": "HIGH"
     },
     "border_note": {
-      "es": "Existen intentos o presión fronteriza recientes.",
-      "en": "Recent attempts or border pressure are being reported."
+      "es": "Varias fuentes describen una crisis fronteriza o humanitaria grave.",
+      "en": "Several sources describe a serious border or humanitarian crisis."
     },
     "bilateral_tension": {
       "es": "ESTABLE",
@@ -28,12 +28,12 @@
       "en": "No clear bilateral escalation is detected in recent sources."
     },
     "security_status": {
-      "es": "SIN ALERTA ESPECÍFICA",
-      "en": "NO SPECIFIC ALERT"
+      "es": "VIGILANCIA REFORZADA",
+      "en": "REINFORCED MONITORING"
     },
     "security_note": {
-      "es": "No se detectan señales suficientes para una alerta editorial.",
-      "en": "There are not enough signals for an editorial alert."
+      "es": "Las fuentes describen medidas adicionales de seguridad o control.",
+      "en": "Sources describe additional security or control measures."
     },
     "confidence": {
       "es": "MEDIA",
@@ -42,19 +42,28 @@
   },
   "items": [
     {
-      "title": "Morocco agrees to take back child migrants after Africa-Europe border crisis leaves over 1,100 minors stranded in Spain",
-      "source": "Business Insider Africa",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOemEydzVfM3VKYXhxSXE4bkR0d0QwQlZwUE9RTTFOQmhDVWVNa2syWUg3WnBZSVEwT0NYN2ZtNGR3c0d4VTg0RWFFamxOM0xqVFdQbFA0MkZGaU54Uk5BTlJlMzhSUFFNdmlZQzFBdHR0eFpXZnRsX2JkamJwQU1NNllRWGZ3UEVsMk1XZFoyQUxpM3hoSnZQY2Nxa3RFVllLeTl4dWR3a0tsRGhkMHl5dVRJNG52Q1NRcmpRSDBSc3FaNUs3NnF2QnVkN2NrTjBGYnZUb2ZLQQ?oc=5",
-      "published_at": "2026-08-07T11:42:14+00:00",
+      "title": "Beyond the Border: Four Hypotheses on the Migration Crisis in Ceuta",
+      "source": "Geopolitical Monitor",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRTJMVUtsYTBfdGUyOUhBbmJmX0VNYlNiMnJzTXkyaVJ1T0dsc0MyUWg1SlJzamlMV3BDazVEclRVZEZyWmNaZ3IzTTBOWUpMdkxFcmhwNkRoM2h1VGxtVjMxMmMtT1FsVHQzVVlna2lUWWxCb3VlR2lFdHM3TGpGNV9iYlRYRnFJdDA2UW0zY1U5YVNFblFDeWEzdHVsXy1VRHk0RFJ3?oc=5",
+      "published_at": "2026-08-07T13:19:44+00:00",
       "category": "ceuta",
       "language": "en",
       "weight": 2
     },
     {
-      "title": "Ceuta and Melilla border tensions put Spain's enclave Jews in focus",
+      "title": "Ceuta and Melilla border tensions put local Jews in spotlight",
       "source": "The Jerusalem Post",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1MTy16ZDREZGdoUnJXN0VkeG55UW5VZ0JOZDNYZFdsajRFeUpMNWZsLXVWWmlUN0w1LUxkVHlLQVJ3N2lkOGZXc3A5RlNnVE5Jb0VxeHFzc0c?oc=5",
-      "published_at": "2026-08-07T10:42:25+00:00",
+      "published_at": "2026-08-07T12:04:24+00:00",
+      "category": "ceuta",
+      "language": "en",
+      "weight": 2
+    },
+    {
+      "title": "Morocco agrees to take back child migrants after Africa-Europe border crisis leaves over 1,100 minors stranded in Spain",
+      "source": "Business Insider Africa",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOemEydzVfM3VKYXhxSXE4bkR0d0QwQlZwUE9RTTFOQmhDVWVNa2syWUg3WnBZSVEwT0NYN2ZtNGR3c0d4VTg0RWFFamxOM0xqVFdQbFA0MkZGaU54Uk5BTlJlMzhSUFFNdmlZQzFBdHR0eFpXZnRsX2JkamJwQU1NNllRWGZ3UEVsMk1XZFoyQUxpM3hoSnZQY2Nxa3RFVllLeTl4dWR3a0tsRGhkMHl5dVRJNG52Q1NRcmpRSDBSc3FaNUs3NnF2QnVkN2NrTjBGYnZUb2ZLQQ?oc=5",
+      "published_at": "2026-08-07T11:42:14+00:00",
       "category": "ceuta",
       "language": "en",
       "weight": 2
@@ -69,6 +78,15 @@
       "weight": 2
     },
     {
+      "title": "Spain’s far left and far right unite on rare common ground to oppose Morocco co-hosting the 2030 World Cup after Ceuta crisis",
+      "source": "Business Insider Africa",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPQmhxaEJXUDY1UFVWQl92UzBDZnhNbEFwdVBNTV94QTRPVmxoMUxmMTlPX3RWSVdMRFhESWlxdndGa0xZNk5RQlFVZWZIdExnNnVlNHpkTlNmSkZONVprUGdZcER6Nm9TWjlWNGFBWG9CdWZxTk9OQjJ1TnJNRDY2bS1tWHUxWm96cktuNllNelJnRUhRT29nenJmc2g1VzY2d0tYRWt0SnVGU2tqRjdrSFZXV0NEc05tdEZqOFc3UlNURE9PT1JTcmlVYlpCZWJZUnJB?oc=5",
+      "published_at": "2026-08-07T05:30:00+00:00",
+      "category": "ceuta",
+      "language": "en",
+      "weight": 2
+    },
+    {
       "title": "Marruecos y el coste reputacional de la crisis de Ceuta: ¿intencionalidad o incapacidad?",
       "source": "RTVE.es",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcFNSdFJqdzBQSU5TZE03eUo3SnJrRENKdk84dkpGVVZXb0Z0NUhRZi1PNUxGZldMRFdBUVBrNTRaM2NncHg1WFlJRWl1OEJPY1JzR194b09qN1Y3SkFXVG0zbjJPamhhbFZtOVQxSE5Sd1hFeWI3dGVFTlpvdlRzTEJ1UUZ3aUM5bkRCYXpiZFd2WWRZdTJTdUtzcGJFeWQwd2Y3bEtHQVllbmN5a0tJOHJ2YUF2VmxqbWFnZ2lybw?oc=5",
@@ -76,6 +94,15 @@
       "category": "ceuta",
       "language": "es",
       "weight": 2
+    },
+    {
+      "title": "Cuál es el origen de la histórica alianza entre EE.UU. y Marruecos y qué papel juega en la crisis migratoria en el enclave español de Ceuta",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9IcVNRY3U3NGR1cnd4MmxCSVZ2YUNkWWNxU1BFc1JwbU13V1RVcW1QSUhuTGtNdy16cFBYOGZqeHFSbWZNc1hNSnRtTUJsUVdzamVZRzZEcmYzV3fSAWBBVV95cUxNTXh5YUJWV2I5T0REaFlIRmwwei1ub051ZDV2SnVnUnhNZ01fVjlLMURPa3MxM0h2LWpBQXZLdlA3cnhLVl9zR0YwLXZQTGhrS0RudXRJVEF3SjlwS2NjakY?oc=5",
+      "published_at": "2026-08-07T04:13:20+00:00",
+      "category": "ceuta",
+      "language": "es",
+      "weight": 4
     },
     {
       "title": "La crisis migratoria de Ceuta abre grietas entre los partidos de Marruecos que exigen una investigación por las muertes",
@@ -160,12 +187,12 @@
     },
     {
       "title": "Thousands of migrants still in Ceuta after border crisis, local leader says",
-      "source": "bbc.com",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFByQnZQMUhEaU9rMUx0amJ3WEFkaW9NUlN2TlBpaFA2OEgxbThnSEVrLWRZcnBhYVNIY3NLMTdvbXlOeW9WTHNZWmRmMmVvVjhSaGxQR1kxclZwQQ?oc=5",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE04blRiaWtleDZfX29BcDVOOXlud0hrS212dWNkSzhZWklnMDVBakE2WV9HYzZucHVfMTlqM2NZWGxaejNpeVZyN09fYmZ1Q1Y5S2N3bk80V1BkX29I?oc=5",
       "published_at": "2026-08-06T17:36:07+00:00",
       "category": "ceuta",
       "language": "en",
-      "weight": 2
+      "weight": 4
     },
     {
       "title": "After border crisis, Ceuta's Catholics push dignity over division",
@@ -336,33 +363,6 @@
       "published_at": "2026-08-05T21:00:43+00:00",
       "category": "ceuta",
       "language": "en",
-      "weight": 2
-    },
-    {
-      "title": "Ceuta habilita nuevos espacios para menores migrantes ante la \"extraordinaria presión\" que soporta el sistema",
-      "source": "antena3.com",
-      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQSmFKdWFSTUhPMjMwS3BfTnpJOVNVMHEwYzJRMUNLZ21rX0NSaFFjbU1kMDFWeFFOREh1LXMzbFRMQjk4RzFzVE9GbVVuOW12ZHFhNENsNGxXVXRnSjliY2RqYnhCTnJvc1VxOVRkT25YYUpCTnBYbWR1UXlBREVmbC1CbDY4MnkzLTJPNmpqeFJWRUhOZTgydGx0LUdRaHRZZkZBSFNOYVlOZWNKaUw5SE1RdXZ2dWdraERUSHhsRjBGSGh6YU4xME5UUl9TNndjQTQteUdJRFFjbnJKck5jcEttS28tQmZabmRSZ2xoSkZlbzQtQW9yQS02V1YxSnBwUWRMUXc0TWLSAYgCQVVfeXFMT29KN1NaTU4zVWE1Nmc3c0U3YVNHNzhjUkZCdkZySXU0V3VVMWdwRmFUeEtGWnNQR3IyTjI3LWx1N19WZ1hWdmFnMUNVSWNSOGFxdXFyMFNwNXpxU1FOM3k5QTBnZDJiWnEwdzBNMkJDTWt2Z0xMc1V6Nl90V2xSV0VudzhNNWY3MXdHQlBnTXJDUGZybEVPNTdpSFBFdE4xZlZxZFVuTVhQLXIxYzRZcWFNcHk5cmJLczFaU1UwMWlkQi1EdlZab1A0RkhSTjJvSC1tSVZpMXhpZXluS2R0d3dyOW05bUdEVWkzcnQwZEI2N3pzTFpXU3QySDhEUDNfZDRZSDJ5MWND?oc=5",
-      "published_at": "2026-08-05T20:28:59+00:00",
-      "category": "ceuta",
-      "language": "es",
-      "weight": 2
-    },
-    {
-      "title": "Prohens recibe este jueves al presidente de Ceuta tras la última crisis migratoria",
-      "source": "Ultima Hora",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQZy13Z2toUUNxS1JDSVBnRGRnZ0lENHlQVVZBbDFKamZNd3lfeDRsYnRCSHZqb25aREZabmI2cUFLejhHWGhEaUZFUjRrUGN0UzFSVk5oak5rTXFLdnNtVFF5bWR4ZFdJVnZDWktoQk4zMVVzTGVjU0F2UzdUWlRCQTVHWS05LVMyTXJvME5GRTJRNHFOLWVfcjg2aHJTb0JsMzNXNElnVXFlX0Vhc3ZhY0FLSkRQUzN6ZjZTVXkweWlUakdlVExGZHJXTWFzXy1qaWc2OTJOSlFLcl9jSXZRMTRkYWhhd9IB5gFBVV95cUxPYmVYYjY4aUVYQnJuSHVXeERwN1RmZHdNcDJvUGZpNmx3cUxKSHBCcUdReUdzbml3VGd1ZkR5UElHSW5nRy15UTJsbUc0OFUtSERnZm5vZDNjM0RrQXhVYjdBSVRuT184dTRLaTkxcjhmaVJRZFJHVU1DN1pOX1dlZHNfajNqRWdQdHRPXzNwQ2RLeDQxUzdPRFhEdkxBamg4QU5RU3Y4Q2JCRE8zM2tnZ2x0RTJ2MDZrWnNlaHdYNFdyV2pVQ2VBdTFlNHdlS05PdTl6MkpLYVdfaUZoclZpdlZva1lqUQ?oc=5",
-      "published_at": "2026-08-05T17:03:00+00:00",
-      "category": "ceuta",
-      "language": "es",
-      "weight": 2
-    },
-    {
-      "title": "Gan Pampols, sobre la crisis migratoria en Ceuta: \"Marruecos ha hecho dejación de controlar a su ciudadanía\"",
-      "source": "heraldo.es",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOX3BXbkNlbHRjZ296aHN6SHRvdGF4ZEtodlpzc3JfX2JtTkVhU3JfVGo3Y2dZTlY4ZXBoeUl4R0FKbUpac28ydzEyMGlYbmxuUmg4aHBYTms0dWNfSFdldTVzS1RmZEFiQzlIamRvanF1ZGR4Q1VqU1V1YXlkLTc4SmZJaW5mR0xmWks2X2VoS3hrZlJYa0tqc000NVExT29xak96OEoxaGlsUnZkamEzT1o5T1ZNVTk5dHRBbUxpcGhZOFQ2Y1FvdnM5eGxpcmRQVllENkpHdlo3R1h3VC1KS1gzTjNsVzk1dl9FQzBKVQ?oc=5",
-      "published_at": "2026-08-05T15:59:50+00:00",
-      "category": "ceuta",
-      "language": "es",
       "weight": 2
     }
   ],

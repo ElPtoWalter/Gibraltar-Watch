@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-09T21:50:13.437057+00:00",
+  "generated_at": "2026-08-09T22:52:31.974745+00:00",
   "language_default": "es",
   "status": {
     "maritime_status": {
@@ -12,20 +12,20 @@
       "en": "The corridor remains open; official notices remain authoritative."
     },
     "border_pressure": {
-      "es": "MEDIA",
-      "en": "MEDIUM"
+      "es": "BAJA / SIN SEÑALES RECIENTES",
+      "en": "LOW / NO RECENT SIGNALS"
     },
     "border_note": {
-      "es": "Existen intentos o presión fronteriza recientes.",
-      "en": "Recent attempts or border pressure are being reported."
+      "es": "No aparecen señales recientes suficientes para elevar el nivel.",
+      "en": "There are not enough recent signals to raise the level."
     },
     "bilateral_tension": {
-      "es": "ESTABLE",
-      "en": "STABLE"
+      "es": "VIGILANCIA",
+      "en": "WATCH"
     },
     "bilateral_note": {
-      "es": "No se detecta una escalada bilateral clara en las fuentes recientes.",
-      "en": "No clear bilateral escalation is detected in recent sources."
+      "es": "Hay señales de fricción, sin ruptura de la cooperación.",
+      "en": "There are signs of friction without a breakdown in cooperation."
     },
     "security_status": {
       "es": "SIN ALERTA ESPECÍFICA",
@@ -106,12 +106,12 @@
     },
     {
       "title": "La Marcha Azul de Ceuta descubre brechas en la UE y malestar en Marruecos",
-      "source": "El País",
+      "source": "elpais.com",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOFlRMGFId243emFOSFBKZFNQSzl3WXkwaTNXUEJHMDhZMlotQS1pdWhBcWhrd1hIZEUxLXVCV0w1Qm9SZ2lHaFhuVngwTnhkZDlyblo3clphWU9iN1lrbjZDWVFNSUhDN2lhRWRoLWNVbW5WVDlTMGJSQWZhS2RmeTIwdTdZUjZ0ZWVUbFZUc0lxM0ZoLW1MSGN2dEFGcU9aR1QyLThHci1xbjlveVotNm5OTUhsd9IBygFBVV95cUxOWHJtdzY2Qlg3LWZRNF9IaTJwaFl3RVZFLXFZaVlsMUFUY2xYSnlWcVZhS3M5eG9UcHIyeFFNVGVrRFpBZXFiM3BmWVh5N3ozOFNQVUl2M2lzQXdMd2pqQ0s5VlFBQTY2ZmNoRkJuS3gtUExaLTFWUTlSdDlrcVhwa2lOZVZBRjJQdkd4NXpSMnB6dmI5N1RUUUhxc203RkU2SWRUdm03bTlDRUpLZnBQa3RtdTVUS2swV0g3ejBOdVpfQnIwUVBDQ0J3?oc=5",
       "published_at": "2026-08-09T03:30:01+00:00",
       "category": "ceuta",
       "language": "es",
-      "weight": 3
+      "weight": 2
     },
     {
       "title": "Beyond The Border: Four Hypotheses On The Migration Crisis In Ceuta – Analysis",
@@ -133,7 +133,7 @@
     },
     {
       "title": "Ramón Valdivia convoca una vigilia por la paz tras la crisis migratoria de Ceuta",
-      "source": "vidanuevadigital.com",
+      "source": "Vida Nueva",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNGFmZXB3aHdQVFVkWl9BSk1wSWV4dE0wM1MxeWNRSjE3WmY4YzdER3hhS2JGNkVpRDI4d3BiRnlOQTNNUUFNSExrd2x4SlJfVjc1M3NCSWxpald2UXFjdE5Da244ZEpsUnV2U2RIWW45Ym80QUN4VkF5M0phZXl4SXZ2cVlkUFo0WEN4eG45RER5OGIzaW5PWkRxbVo3RktBQjFEWmt30gGrAUFVX3lxTE94OGpyN1dlY2RDeExCY2Fva0wtV1FLeTR6djN2NE5CQkU5YkIyUXJKaVJwRkJMMzFjem9TYkpKclpSRVV0SC04MzI2b3hGX2ljWWhGVmlhOWlWS3FXbTNmRTI3WjZlYmRqc1FiWHBFeTN5R1N6bDFETFZkQURoYlZRUGdlTUt1Y1hkNVBxRWJDcTV4aUJ2THlPVUVjMWFBZ3dwb0p2bE02VFd0bw?oc=5",
       "published_at": "2026-08-08T23:23:38+00:00",
       "category": "ceuta",
@@ -196,7 +196,7 @@
     },
     {
       "title": "What to know as Spain and Italy escalate border dispute after Ceuta crisis",
-      "source": "inews.co.uk",
+      "source": "The i Paper",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSS10bmpCaFA4YmZqV1JCa001OFNsczZwNmZpNVJmQmRHbG05a1RETF8tRTgtX292ZmducEY2dWkyUG5BY0twUC01YzIwbFV5YmFUZlpiTkhubTlmSFdJcXU0Z29SeDBfZURBQnhwa0cyQlJvSy1wR1YtMXNwdllxVmwyS0dfc3lzOXdWMQ?oc=5",
       "published_at": "2026-08-08T05:00:24+00:00",
       "category": "ceuta",
@@ -214,21 +214,21 @@
     },
     {
       "title": "La crisis de Ceuta cuestiona una frontera en la que Interior ha invertido más de 37 millones desde 2019",
-      "source": "El País",
+      "source": "elpais.com",
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPaEJsV0Z4ekpZeHV3c2ptZlh6WFFTSHNHS0pVaUNVQ2hEWEpQaVRyU0Q0SHJDX3p5Nm40Nm5zeXJwX1M1NG9hVnNleFR1LUdqdWJOSjBKYVdjZ1Zlc2ppNVlhakRHeWJGOEhweHZ0TmlPYmdYalFxcjhJTWNzblpBQnFhOXhSajBYUS1lS3dKcFJ1OVhqRDltOGF3aVhzZE85VDVVcXFzamZSbFlWbFpxM2pmVTlOUmFHOGl1ZEE0M3VQWHM0d1VIX3JFUkluT3ZWRjd6Qkc4RXN5OHI5M0HSAfIBQVVfeXFMTWEtdDh4Q2otVUJHODVQV3ozc1ZHUXRBRXhtWHBZUTN5ZkxSVkRudHktODY5SGEwOTlZdlJtRjJVN091cUQ5dkFkTU4zZzhVRWNUOUlMaWpOR004ekdUa3hXYjNDdk1zbHN6YmtHRHAxdmtvY0xIMWQtbDBoSkNmR0otYTNyclMzS0lUT0M4VWVYOWNSakZYRXRaSk5abEZ0YTdoY3NoNTV5TUVnaV82XzR4QUNmaVlrZGFLOExUbjZXWXdydzFTRUJPcE1GTnJ6QWR4U2c2TjNZNEFidV9ISUxrV2V5S2NqRGN6N05CX2g3Zmc?oc=5",
       "published_at": "2026-08-08T03:30:01+00:00",
       "category": "ceuta",
       "language": "es",
-      "weight": 3
+      "weight": 2
     },
     {
       "title": "La misma crisis en Ceuta en un mundo diferente",
-      "source": "El País",
+      "source": "elpais.com",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQX3c1dndnaHFnTHFxRF9kZXNMS3RYZjNLdzczdlRMbVp1M09SNUxZYXN4ZnF3ZGhVeUJnVExKVndFSEdVaE1FMkJKQWVRQ21rTG9XZ01CaVhzT0I1N3FKSEg5d21SS2YtVi1wY3U5aERVM3pFN0tkRGY0X0NKR3RfUUMxZEdtUldVeWV0RmJoSUg0MEHSAacBQVVfeXFMTTBrYmc1RG11M0M5WG5wS0NON0Y5ak9UM0gtZmRIYW1fX2diSXY4b3RZZkdqalpLeHlBU19fVFl0NmNIOF9VTUFxWHBJMzI2QTFuWGYwOEtfc2tpMU5HTGlzZ3o2YlpocW55MjJKWWxsMTNSSDF3WGk3MGpfWHJWdUNwUlliS2hGa0RUWElndkhJT0RQUDg5OVIza0Q3WlktMExUeVZLSUU?oc=5",
       "published_at": "2026-08-08T03:30:01+00:00",
       "category": "ceuta",
       "language": "es",
-      "weight": 3
+      "weight": 2
     },
     {
       "title": "Tensions in Ceuta Lead to Cancellation of FC Barcelona Match in Morocco",
@@ -277,12 +277,12 @@
     },
     {
       "title": "España impone controles fronterizos a Italia y se agudiza la tensión entre Sánchez y Meloni por la llegada de migrantes a Ceuta",
-      "source": "bbc.com",
+      "source": "BBC",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5FZXhvcDJQZHBzVUN3TTlQV0dpQmppTGQ5SV8zWFlBZk9MTERwZDk1enhQV0N2QWlUNXJBTjRJYzN4ck04MG9Ld2RSSnBiMlBwUll6eWFvaDNFVE3SAWBBVV95cUxNNGJVdWxuVDRuajdJaVF3UTBUeTNOX3BhSGVBS21HREQ0RHVob3hLSURDUjY5WTdqdDVyaXZjbmtja19CcTJ0M202QVBrQzZSRlhoY0xFVEJ2T1REZlR0RG8?oc=5",
       "published_at": "2026-08-07T21:20:47+00:00",
       "category": "ceuta",
       "language": "es",
-      "weight": 2
+      "weight": 4
     },
     {
       "title": "Spain announces new border controls with Italy in migration row",
@@ -349,7 +349,7 @@
     },
     {
       "title": "Spanish authorities monitor social media chatter about another Ceuta mass migrant crossing ahead",
-      "source": "CBS News",
+      "source": "cbsnews.com",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPM2dKYU1tcV9EX010WmdvVmxTVFRaVUZlTkFoNnNEeEk2SGdmczUyeU5acDJSdWhvRWhLMWt1enFIb28waHltT0E2ZWgwWk9mdDhIaWJ5V2VuWHRfM3M3ZmdWSU04dW8wNTQ4eHc5N3czNC1fSF8xY1BqQ3dVNzc2QWdDQW1kdw?oc=5",
       "published_at": "2026-08-07T15:27:00+00:00",
       "category": "ceuta",

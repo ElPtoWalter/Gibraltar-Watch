@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "timezone": "Europe/Madrid",
+  "publish_after_local_hour": 6,
+  "lookback_hours": 36,
+  "extended_lookback_hours": 72,
+  "max_sources": 7,
+  "full_article_min_sources": 3,
+  "full_article_min_score": 18,
+  "ai_mode": "auto",
+  "ai_model": "gpt-5.6-luna",
+  "site_name": "Gibraltar Watch",
+  "section_name": "Diario del Estrecho",
+  "base_url": "https://estrechogibraltar.com"
+}

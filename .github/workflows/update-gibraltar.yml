@@ -25,8 +25,8 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Instalar lector PDF para informes OPE
-        run: python -m pip install --disable-pip-version-check pypdf
+      - name: Instalar dependencias para OPE y Diario del Estrecho
+        run: python -m pip install --disable-pip-version-check pypdf openai
 
       - name: Ejecutar pruebas del monitor sísmico
         run: python -m unittest -v test_update.py
@@ -48,6 +48,9 @@ jobs:
 
       - name: Ejecutar pruebas de atractivo y monetización
         run: python -m unittest -v test_install_gibraltar_business.py
+
+      - name: Ejecutar pruebas del Diario del Estrecho
+        run: python -m unittest -v test_install_diario.py test_generate_diario.py
 
       - name: Actualizar sismicidad
         run: python update_gibraltar.py
@@ -79,6 +82,20 @@ jobs:
       - name: Aplicar atractivo y monetización responsable
         run: python install_gibraltar_business.py
 
+      - name: Instalar Diario del Estrecho
+        run: python install_diario.py
+
+      - name: Publicar edición diaria del Estrecho
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GW_DIARY_OPENAI_MODEL: gpt-5.6-luna
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            python generate_diario.py --allow-early
+          else
+            python generate_diario.py
+          fi
+
       - name: Guardar cambios
         id: commit
         run: |
@@ -91,11 +108,11 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          git commit -m "Actualizar Gibraltar Watch, atractivo y monetización"
+          git commit -m "Actualizar Gibraltar Watch y Diario del Estrecho"
           git push
           echo "changed=true" >> "$GITHUB_OUTPUT"
 
       - name: Avisar mediante IndexNow
         if: steps.commit.outputs.changed == 'true'
         continue-on-error: true
-        run: python submit_gibraltar_indexnow.py
+        run: python submit_gibraltar_inde

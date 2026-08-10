@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-10T08:50:48.171518+00:00",
+  "generated_at": "2026-08-10T08:52:44.744512+00:00",
   "language_default": "es",
   "status": {
     "maritime_status": {
@@ -20,12 +20,12 @@
       "en": "There are not enough recent signals to raise the level."
     },
     "bilateral_tension": {
-      "es": "ESTABLE",
-      "en": "STABLE"
+      "es": "VIGILANCIA",
+      "en": "WATCH"
     },
     "bilateral_note": {
-      "es": "No se detecta una escalada bilateral clara en las fuentes recientes.",
-      "en": "No clear bilateral escalation is detected in recent sources."
+      "es": "Hay señales de fricción, sin ruptura de la cooperación.",
+      "en": "There are signs of friction without a breakdown in cooperation."
     },
     "security_status": {
       "es": "SIN ALERTA ESPECÍFICA",
@@ -213,15 +213,6 @@
       "weight": 2
     },
     {
-      "title": "EU holds talks with big tech over Ceuta misinformation",
-      "source": "DW",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaFFKWGR5b1pPZUFnbmRZeTllT0w3UVk4X2NteWZIc3N1eXVVVlg3VXdiMk5heWhSSS1hRjhEYkdvRzdqOU10bF9iZFlPa1M5Y3VGQ2V5MUJaTkJUaE5WUmJ3RnRDcGk0WGxjVnRuMzV2OVZEajlpSTRJRHpOa1VMOVE5VktxMHFwa0xiN1E3cmVMeXZDUDVyT3BTOHQzZ3BGTUhQbmlod2NJcEdtaVhETHZ6TdIBswFBVV95cUxORlBKUTVyX2RTS2hBOFZLZUNCVlBvY3Z4bndXME1VZWhzQU1nclhPQlg2V0owYWZ1bDQ3RzNfZnM1bTRUTXRkNzdRak12QUNMdjdLLUdlNFd1UXdCa1g1YnpBUzlsMlZHNnAxYU5nRVJMYmJRMFhzOGFPWEtJRVBCb3FrUTFFS2pyR0EtSE9fZEcyRXBZalg3UjBEWlhoMFJQTFdVZFRnZWlmVVYtUzJXZjdsbw?oc=5",
-      "published_at": "2026-08-08T11:37:40+00:00",
-      "category": "ceuta",
-      "language": "en",
-      "weight": 2
-    },
-    {
       "title": "Can Morocco take advantage of the 2027 elections to pressure again on Ceuta and Melilla?",
       "source": "Demócrata",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQeHJvOFFESVNPV1RHbTIzLVlRVEhyYnZFM2l2WElLekJ6b2Q1VXd2RTZianZMOWEzRzFNY2gtaFBlQUpHTjhRU2lMTVB5TXRKOUhIZnpHZXhJNzUwX2pNeDZXcHhzOVdLM2xuT3BpeHpfLVN0TGkwTnpNaEtqTjNzY0ZUdEFXV2lNTFNhRl9Yb0M1UVFSZW5CMER4am5WTXJhU2lPT1Z5djNVbHJzRnZrbmRFMWxheDcxWDBmb2s2bk9INzRGUGVRYmJXaEVtQ2PSAc8BQVVfeXFMUHhybzhRRElTT1dUR20yMy1ZUVRIcmJ2RTNpdlhJS3pCem9kNVV3dkU2Ymp2TDlhM0cxTWNoLWhQZUFKR044UVNpTE1QeU10SjlISGZ6R2V4STc1MF9qTXg2V3B4czlXSzNsbk9waXh6Xy1TdExpME56TWhLak4zc2NGVHRBV1dpTUxTYUZfWG9DNVFRUmVuQjBEeGpuVk1yYVNpT09WeXYzVWxyc0Z2a25kRTFsYXg3MVgwZm9rNm5PSDc0RlBlUWJiV2hFbUNj?oc=5",
@@ -322,12 +313,12 @@
     },
     {
       "title": "España impone controles fronterizos a Italia y se agudiza la tensión entre Sánchez y Meloni por la llegada de migrantes a Ceuta",
-      "source": "bbc.com",
+      "source": "BBC",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5FZXhvcDJQZHBzVUN3TTlQV0dpQmppTGQ5SV8zWFlBZk9MTERwZDk1enhQV0N2QWlUNXJBTjRJYzN4ck04MG9Ld2RSSnBiMlBwUll6eWFvaDNFVE3SAWBBVV95cUxNNGJVdWxuVDRuajdJaVF3UTBUeTNOX3BhSGVBS21HREQ0RHVob3hLSURDUjY5WTdqdDVyaXZjbmtja19CcTJ0M202QVBrQzZSRlhoY0xFVEJ2T1REZlR0RG8?oc=5",
       "published_at": "2026-08-07T21:20:47+00:00",
       "category": "ceuta",
       "language": "es",
-      "weight": 2
+      "weight": 4
     },
     {
       "title": "Spain announces new border controls with Italy in migration row",
@@ -363,6 +354,15 @@
       "published_at": "2026-08-07T16:42:55+00:00",
       "category": "ceuta",
       "language": "en",
+      "weight": 2
+    },
+    {
+      "title": "\"España ha anunciado que el 15 de agosto abren la frontera\": cómo esta desinformación se mueve en los grupos de WhatsApp, entre encuestas y planes para a entrar en Ceuta desde Marruecos",
+      "source": "Maldita.es",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUEFZa0FvOWFPbkZfdmdHZjZTb2JpMk14TVJObU83Z0MxUVRKZmpMVjJMWFBIVmo0M2FrS2lkRlIzMU9ra0ZxRE5sSkJGZWVFb1NSaEU1NGdWQXp2RzFfX3ZObmNhWkctQVM4emU3Ykl6dW9Nb2tXQjNWdWQzUTZORTlxd3FSQktyVFRGZ1FKSE40UFVvZUxyNm1INzJmbVBM?oc=5",
+      "published_at": "2026-08-07T16:02:56+00:00",
+      "category": "melilla",
+      "language": "es",
       "weight": 2
     }
   ],

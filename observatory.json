@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-10T09:51:35Z",
+  "generated_at": "2026-08-10T10:38:07Z",
   "state": {
     "code": "watch",
     "label_es": "VIGILANCIA",
@@ -33,28 +33,28 @@
     }
   },
   "metrics": {
-    "news_24h": 5,
+    "news_24h": 6,
     "news_sources": 27,
     "seismic_24h": 0,
     "seismic_7d": 0,
     "seismic_30d": 1,
     "seismic_max_30d": 3.1,
-    "ope_report_date": "2026-08-08",
-    "ope_passengers_day": 53708,
-    "ope_vehicles_day": 14011,
-    "ope_rotations_day": 165,
+    "ope_report_date": "2026-08-09",
+    "ope_passengers_day": 47527,
+    "ope_vehicles_day": 11940,
+    "ope_rotations_day": 172,
     "diary_date": "2026-08-10",
     "diary_source_count": 7
   },
   "anomalies": [],
   "changes": {
     "state_changed": false,
-    "previous_state_code": null,
+    "previous_state_code": "watch",
     "layer_changes": []
   },
   "health": {
     "overall": "healthy",
-    "generated_at": "2026-08-10T09:51:35Z"
+    "generated_at": "2026-08-10T10:38:07Z"
   },
   "latest_diary": {
     "date": "2026-08-10",
@@ -69,10 +69,10 @@
     "pub_rfc822": "Sun, 09 Aug 2026 22:58:02 +0000"
   },
   "latest_ope": {
-    "report_date": "2026-08-08",
-    "report_label_es": "8 de agosto de 2026",
+    "report_date": "2026-08-09",
+    "report_label_es": "9 de agosto de 2026",
     "source": "Secretaría General de Protección Civil y Emergencias",
-    "source_url": "https://www.proteccioncivil.es/documents/20121/0/20260808_InformeOPE.pdf"
+    "source_url": "https://www.proteccioncivil.es/documents/20121/0/20260809_InformeOPE.pdf"
   },
   "methodology": {
     "principle": "Hechos, interpretación y escenarios se muestran por separado.",

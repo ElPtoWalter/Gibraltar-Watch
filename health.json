@@ -1,23 +1,23 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-10T10:38:07Z",
+  "generated_at": "2026-08-10T12:01:31Z",
   "overall": "healthy",
   "components": [
     {
       "name": "Sismicidad USGS",
       "state": "fresh",
       "label_es": "ACTUALIZADO",
-      "checked_at": "2026-08-10T10:37:55Z",
+      "checked_at": "2026-08-10T12:01:21Z",
       "age_minutes": 0,
       "source": "USGS Earthquake Catalog",
-      "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-07-11T10%3A37%3A55Z&endtime=2026-08-10T10%3A37%3A55Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
+      "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-07-11T12%3A01%3A21Z&endtime=2026-08-10T12%3A01%3A21Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
       "note_es": "Catálogo sísmico regional; no es una herramienta de predicción."
     },
     {
       "name": "Actualidad y geopolítica",
       "state": "fresh",
       "label_es": "ACTUALIZADO",
-      "checked_at": "2026-08-10T10:38:01.404062+00:00",
+      "checked_at": "2026-08-10T12:01:26.325365+00:00",
       "age_minutes": 0,
       "source": "Monitor editorial de fuentes públicas",
       "url": "fuentes.html",
@@ -27,7 +27,7 @@
       "name": "Operación Paso del Estrecho",
       "state": "fresh",
       "label_es": "ACTUALIZADO",
-      "checked_at": "2026-08-10T10:38:01Z",
+      "checked_at": "2026-08-10T12:01:26Z",
       "age_minutes": 0,
       "source": "Secretaría General de Protección Civil y Emergencias",
       "url": "https://www.proteccioncivil.es/documents/20121/0/20260809_InformeOPE.pdf",
@@ -38,7 +38,7 @@
       "state": "fresh",
       "label_es": "ACTUALIZADO",
       "checked_at": "2026-08-09T22:58:02Z",
-      "age_minutes": 700,
+      "age_minutes": 783,
       "source": "Gibraltar Watch",
       "url": "diario/2026-08-10.html",
       "note_es": "Última edición publicada"
@@ -47,16 +47,16 @@
       "name": "Integridad del sitio",
       "state": "fresh",
       "label_es": "CORRECTA",
-      "checked_at": "2026-08-10T10:38:07Z",
+      "checked_at": "2026-08-10T12:01:31Z",
       "age_minutes": 0,
       "source": "Validador local",
       "note_es": "Todos los archivos críticos están presentes."
     }
   ],
   "workflow": {
-    "run_id": "31379957336",
+    "run_id": "31386070852",
     "run_attempt": "1",
-    "sha": "0124c7132cdd",
+    "sha": "05619e64b403",
     "event": "schedule"
   }
 }

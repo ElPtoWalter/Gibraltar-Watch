@@ -1,39 +1,39 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-10T17:11:29Z",
+  "generated_at": "2026-08-10T18:05:58Z",
   "state": {
-    "code": "normal",
-    "label_es": "NORMALIDAD OPERATIVA",
-    "color": "green",
-    "severity": 0,
-    "summary_es": "No aparecen señales suficientes para elevar el nivel general del observatorio.",
+    "code": "reinforced_watch",
+    "label_es": "VIGILANCIA REFORZADA",
+    "color": "orange",
+    "severity": 2,
+    "summary_es": "Existen incidencias o tensión apreciable, sin que ello implique por sí solo una interrupción del Estrecho.",
     "layers": {
       "maritime": {
         "value": "OPERATIVO",
         "severity": 0
       },
       "border": {
-        "value": "BAJA / SIN SEÑALES RECIENTES",
-        "severity": 0
+        "value": "ALTA",
+        "severity": 2
       },
       "bilateral": {
         "value": "ESTABLE",
         "severity": 0
       },
       "security": {
-        "value": "SIN ALERTA ESPECÍFICA",
-        "severity": 0
+        "value": "VIGILANCIA REFORZADA",
+        "severity": 2
       }
     },
     "confidence": "MEDIA",
     "alert_level": {
-      "code": "informational",
-      "label_es": "INFORMATIVO",
-      "meaning_es": "Seguimiento ordinario o cambio menor."
+      "code": "relevant",
+      "label_es": "RELEVANTE",
+      "meaning_es": "Hay una alteración apreciable, sin implicar cierre del corredor."
     }
   },
   "metrics": {
-    "news_24h": 17,
+    "news_24h": 16,
     "news_sources": 29,
     "seismic_24h": 0,
     "seismic_7d": 0,
@@ -48,13 +48,24 @@
   },
   "anomalies": [],
   "changes": {
-    "state_changed": false,
+    "state_changed": true,
     "previous_state_code": "normal",
-    "layer_changes": []
+    "layer_changes": [
+      {
+        "key": "border",
+        "previous": "BAJA / SIN SEÑALES RECIENTES",
+        "current": "ALTA"
+      },
+      {
+        "key": "security",
+        "previous": "SIN ALERTA ESPECÍFICA",
+        "current": "VIGILANCIA REFORZADA"
+      }
+    ]
   },
   "health": {
     "overall": "healthy",
-    "generated_at": "2026-08-10T17:11:29Z"
+    "generated_at": "2026-08-10T18:05:58Z"
   },
   "latest_diary": {
     "date": "2026-08-10",

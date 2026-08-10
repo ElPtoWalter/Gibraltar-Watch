@@ -1,0 +1,50 @@
+name: Auditar Gibraltar Watch
+
+on:
+  schedule:
+    - cron: "47 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: audit-gibraltar-watch
+  cancel-in-progress: true
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v6
+
+      - name: Configurar Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Auditar web publicada
+        id: smoke
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          python smoke_gibraltar.py 2>&1 | tee smoke-gibraltar.log
+
+      - name: Crear o cerrar aviso de auditoría
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ "${{ steps.smoke.outcome }}" = "success" ]; then
+            python manage_github_alert_issue.py audit --status ok
+          else
+            DETAIL="$(tail -n 35 smoke-gibraltar.log | tr '\n' ' ' | cut -c1-5500)"
+            python manage_github_alert_issue.py audit --status fail --detail "$DETAIL"
+          fi
+
+      - name: Marcar la auditoría como fallida si procede
+        if: steps.smoke.outcome != 'success'
+        run: exit 1

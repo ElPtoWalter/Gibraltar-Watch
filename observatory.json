@@ -1,0 +1,91 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-08-10T09:51:35Z",
+  "state": {
+    "code": "watch",
+    "label_es": "VIGILANCIA",
+    "color": "yellow",
+    "severity": 1,
+    "summary_es": "La situación requiere seguimiento, pero no aparecen señales suficientes para elevar el nivel operativo.",
+    "layers": {
+      "maritime": {
+        "value": "OPERATIVO",
+        "severity": 0
+      },
+      "border": {
+        "value": "BAJA / SIN SEÑALES RECIENTES",
+        "severity": 0
+      },
+      "bilateral": {
+        "value": "VIGILANCIA",
+        "severity": 1
+      },
+      "security": {
+        "value": "SIN ALERTA ESPECÍFICA",
+        "severity": 0
+      }
+    },
+    "confidence": "MEDIA",
+    "alert_level": {
+      "code": "informational",
+      "label_es": "INFORMATIVO",
+      "meaning_es": "Seguimiento ordinario o cambio menor."
+    }
+  },
+  "metrics": {
+    "news_24h": 5,
+    "news_sources": 27,
+    "seismic_24h": 0,
+    "seismic_7d": 0,
+    "seismic_30d": 1,
+    "seismic_max_30d": 3.1,
+    "ope_report_date": "2026-08-08",
+    "ope_passengers_day": 53708,
+    "ope_vehicles_day": 14011,
+    "ope_rotations_day": 165,
+    "diary_date": "2026-08-10",
+    "diary_source_count": 7
+  },
+  "anomalies": [],
+  "changes": {
+    "state_changed": false,
+    "previous_state_code": null,
+    "layer_changes": []
+  },
+  "health": {
+    "overall": "healthy",
+    "generated_at": "2026-08-10T09:51:35Z"
+  },
+  "latest_diary": {
+    "date": "2026-08-10",
+    "date_label": "10 de agosto de 2026",
+    "slug": "2026-08-10.html",
+    "headline": "Ceuta sigue marcando la agenda mientras el tráfico del Estrecho permanece operativo",
+    "summary": "La lectura de esta mañana sitúa el tráfico marítimo en operativo, la presión fronteriza en alta y la relación España–Marruecos en estable.",
+    "indexable": true,
+    "source_count": 7,
+    "confidence": "MEDIA",
+    "source_hash": "7c8c51be7f42e510",
+    "pub_rfc822": "Sun, 09 Aug 2026 22:58:02 +0000"
+  },
+  "latest_ope": {
+    "report_date": "2026-08-08",
+    "report_label_es": "8 de agosto de 2026",
+    "source": "Secretaría General de Protección Civil y Emergencias",
+    "source_url": "https://www.proteccioncivil.es/documents/20121/0/20260808_InformeOPE.pdf"
+  },
+  "methodology": {
+    "principle": "Hechos, interpretación y escenarios se muestran por separado.",
+    "operational_note": "El estado editorial no sustituye avisos oficiales de navegación, seguridad o protección civil.",
+    "seismic_note": "La sismicidad regional no se utiliza para predecir terremotos ni para inferir un cierre del Estrecho."
+  },
+  "links": {
+    "status": "situacion-actual.html",
+    "data": "datos.html",
+    "map": "mapa-estrategico.html",
+    "sources": "fuentes.html",
+    "transparency": "transparencia.html",
+    "corrections": "correcciones.html",
+    "diary": "diario/"
+  }
+}

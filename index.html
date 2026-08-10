@@ -16,6 +16,9 @@
 <link rel="stylesheet" href="gw-business.css?v=20260804-1">
 <script defer src="gw-monetization-config.js?v=20260804-1"></script>
 <script defer src="gw-business.js?v=20260804-1"></script>
+<link rel="stylesheet" href="gw-observatory.css?v=20260810-1">
+<script defer src="gw-observatory.js?v=20260810-1"></script>
+<link rel="alternate" type="application/rss+xml" title="Gibraltar Watch · Observatorio" href="observatory-feed.xml">
 </head><body data-page="home" class="gwc-page"><div class="page-glow"></div><div class="site-shell"><header class="site-header"><a aria-label="Gibraltar Watch" class="brand" href="index.html" aria-current="page"><span aria-hidden="true" class="brand-mark"><i></i><i></i></span><span><b>GIBRALTAR</b><small>WATCH</small></span></a><button aria-expanded="false" aria-label="Menu" class="nav-toggle"><span></span><span></span></button><nav aria-label="Navegación principal" class="site-nav gwc-site-nav">
   <a href="index.html">Inicio</a>
   <a href="situacion-actual.html">Situación actual</a>
@@ -57,6 +60,17 @@
       <div class="gwc-strait-line"><span>ATLÁNTICO</span><i></i><span>MEDITERRÁNEO</span></div>
     </aside>
   </section>
+<!-- GWO_LIVE_START -->
+<section class="gwo-livebar gwo-shell" aria-label="Estado resumido del observatorio">
+  <div class="gwo-livebar-inner">
+    <div class="gwo-state" data-gwo-state-box><span class="gwo-state-dot" aria-hidden="true"></span><div class="gwo-state-copy"><small>ESTADO DEL ESTRECHO</small><b data-gwo-state>Cargando…</b><small data-gwo-updated>Consultando última actualización</small></div></div>
+    <div class="gwo-live-metric"><span>Confianza</span><strong data-gwo-confidence>—</strong><em>lectura editorial</em></div>
+    <div class="gwo-live-metric"><span>Noticias · 24 h</span><strong data-gwo-metric="news_24h">—</strong><em>referencias</em></div>
+    <div class="gwo-live-metric"><span>Sismos · 7 d</span><strong data-gwo-metric="seismic_7d">—</strong><em>catálogo regional</em></div>
+    <div class="gwo-live-metric"><span>Fuentes</span><strong class="gwo-chip" data-gwo-health-overall>—</strong><em>frescura e integridad</em></div>
+  </div>
+</section>
+<!-- GWO_LIVE_END -->
 
   <section class="gwc-status" aria-labelledby="gwc-status-title">
     <header class="gwc-section-head"><div><p class="gwc-kicker">PANEL OPERATIVO</p><h2 id="gwc-status-title">Una lectura rápida, con fecha y confianza</h2></div><p id="gwcStatusMeta">Cargando última comprobación…</p></header>
@@ -81,6 +95,12 @@
     </aside>
   </section>
 
+<!-- GWO_TIMELINE_START -->
+<section class="gwo-panel gwo-shell" aria-labelledby="gwo-home-timeline-title">
+  <div class="gwo-panel-head"><div><div class="gwo-kicker">CRONOLOGÍA EDITORIAL</div><h2 id="gwo-home-timeline-title">Qué ha cambiado</h2></div><div><p>Solo registra cambios materiales, nuevos partes, nuevas ediciones y señales estadísticas. No convierte cada titular en una alerta.</p><a href="datos.html">Abrir datos e histórico →</a></div></div>
+  <div class="gwo-timeline" data-gwo-timeline data-limit="5"></div>
+</section>
+<!-- GWO_TIMELINE_END -->
 <!-- GW_DIARY_HOME_START -->
 <section class="gw-diary-home" aria-labelledby="gw-diary-home-title"><div class="gw-diary-home__mast"><small>EDICIÓN · 10 DE AGOSTO DE 2026</small><strong>DIARIO<br>DEL<br>ESTRECHO</strong><span>CRÓNICA DEL DÍA</span></div><div class="gw-diary-home__story"><div class="gw-diary-home__meta"><span>7 fuentes seleccionadas</span><span>Confianza: MEDIA</span></div><h2 id="gw-diary-home-title">Ceuta sigue marcando la agenda mientras el tráfico del Estrecho permanece operativo</h2><p>La lectura de esta mañana sitúa el tráfico marítimo en operativo, la presión fronteriza en alta y la relación España–Marruecos en estable.</p><a class="gw-diary-home__link" href="diario/2026-08-10.html">Leer la edición de hoy →</a></div></section>
 <!-- GW_DIARY_HOME_END -->
@@ -163,5 +183,6 @@
     <section><h2>Contexto</h2><a href="quien-controla-estrecho.html">Quién controla el Estrecho</a><a href="escenarios.html">Escenarios</a><a href="geologia.html">Territorio y futuro</a><a href="metodologia.html">Metodología</a></section>
     <section><h2>Transparencia</h2><a href="fuentes.html">Fuentes</a><a href="privacidad.html">Privacidad</a><a href="contacto.html">Contacto</a><a href="feed.xml">RSS</a></section>
   </div>
-  <div class="gwc-footer-bottom"><span>Gibraltar Watch · 2026</span><span>Hechos, interpretaciones y escenarios se presentan por separado.</span></div>
+  <!-- GWO_FOOTER_LINKS_START --><div class="gwo-footer-links"><a href="datos.html">Datos</a><a href="mapa-estrategico.html">Mapa estratégico</a><a href="transparencia.html">Transparencia</a><a href="correcciones.html">Correcciones</a><a href="boletin.html">Boletín</a><a href="observatory-feed.xml">RSS del observatorio</a></div><!-- GWO_FOOTER_LINKS_END -->
+<div class="gwc-footer-bottom"><span>Gibraltar Watch · 2026</span><span>Hechos, interpretaciones y escenarios se presentan por separado.</span></div>
 <div class="gw-business-footer-links"><a href="publicidad-y-patrocinios.html">Publicidad y patrocinios</a><a href="cookies.html">Cookies</a></div></footer></div></body></html>

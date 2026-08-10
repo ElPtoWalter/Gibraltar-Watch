@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: update-gibraltar-watch
@@ -15,7 +16,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 18
+    timeout-minutes: 25
 
     steps:
       - name: Descargar repositorio
@@ -26,7 +27,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Instalar dependencias para OPE y Diario del Estrecho
+      - name: Instalar dependencias
         run: python -m pip install --disable-pip-version-check pypdf openai
 
       - name: Ejecutar pruebas del monitor sísmico
@@ -52,6 +53,9 @@ jobs:
 
       - name: Ejecutar pruebas del Diario del Estrecho
         run: python -m unittest -v test_install_diario.py test_generate_diario.py
+
+      - name: Ejecutar pruebas Observatory vNext
+        run: python -m unittest -v test_observatory.py
 
       - name: Actualizar sismicidad
         run: python update_gibraltar.py
@@ -97,6 +101,46 @@ jobs:
             python generate_diario.py
           fi
 
+      - name: Instalar Observatory vNext
+        run: python install_gibraltar_observatory.py
+
+      - name: Reforzar trazabilidad del Diario
+        run: python postprocess_diario.py
+
+      - name: Consolidar estado, salud, cronología e histórico
+        run: python update_observatory.py
+
+      - name: Generar boletín diario compacto
+        run: python generate_newsletter.py
+
+      - name: Aplicar presentación editorial profesional
+        run: python install_gibraltar_professional.py
+
+      - name: Limpiar metadatos internos de las salidas públicas
+        run: python sanitize_editorial_metadata.py
+
+      - name: Evaluar nivel de aviso
+        id: observatory_alert
+        run: python emit_observatory_alert.py
+
+      - name: Crear manifiesto de integridad y recuperación
+        run: python build_publication_manifest.py
+
+      - name: Auditar posibles secretos antes de publicar
+        run: python audit_repository_secrets.py
+
+      - name: Validar publicación completa antes del commit
+        run: python validate_gibraltar.py
+
+      - name: Simular artefacto público seguro
+        run: python build_secure_public_site.py
+
+      - name: Auditar exposición pública
+        run: python audit_public_artifact.py
+
+      - name: Limpiar artefacto temporal
+        run: rm -rf _site
+
       - name: Guardar cambios
         id: commit
         run: |
@@ -112,10 +156,15 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add -A
-          git commit -m "Actualizar Gibraltar Watch y Diario del Estrecho"
+          git commit -m "Actualizar Gibraltar Watch · Observatory vNext"
           git push
 
           echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Gestionar aviso editorial de alta prioridad
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python manage_github_alert_issue.py observatory
 
       - name: Avisar mediante IndexNow
         if: steps.commit.outputs.changed == 'true'

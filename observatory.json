@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-10T19:19:17Z",
+  "generated_at": "2026-08-10T21:04:22Z",
   "state": {
     "code": "normal",
     "label_es": "NORMALIDAD OPERATIVA",
@@ -48,24 +48,13 @@
   },
   "anomalies": [],
   "changes": {
-    "state_changed": true,
-    "previous_state_code": "reinforced_watch",
-    "layer_changes": [
-      {
-        "key": "border",
-        "previous": "ALTA",
-        "current": "BAJA / SIN SEÑALES RECIENTES"
-      },
-      {
-        "key": "security",
-        "previous": "VIGILANCIA REFORZADA",
-        "current": "SIN ALERTA ESPECÍFICA"
-      }
-    ]
+    "state_changed": false,
+    "previous_state_code": "normal",
+    "layer_changes": []
   },
   "health": {
     "overall": "healthy",
-    "generated_at": "2026-08-10T19:19:17Z"
+    "generated_at": "2026-08-10T21:04:22Z"
   },
   "latest_diary": {
     "date": "2026-08-10",

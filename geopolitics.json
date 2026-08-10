@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-10T02:36:52.966969+00:00",
+  "generated_at": "2026-08-10T04:57:00.867127+00:00",
   "language_default": "es",
   "status": {
     "maritime_status": {
@@ -12,12 +12,12 @@
       "en": "The corridor remains open; official notices remain authoritative."
     },
     "border_pressure": {
-      "es": "MEDIA",
-      "en": "MEDIUM"
+      "es": "ALTA",
+      "en": "HIGH"
     },
     "border_note": {
-      "es": "Existen intentos o presión fronteriza recientes.",
-      "en": "Recent attempts or border pressure are being reported."
+      "es": "Varias fuentes describen una crisis fronteriza o humanitaria grave.",
+      "en": "Several sources describe a serious border or humanitarian crisis."
     },
     "bilateral_tension": {
       "es": "VIGILANCIA",
@@ -28,12 +28,12 @@
       "en": "There are signs of friction without a breakdown in cooperation."
     },
     "security_status": {
-      "es": "SIN ALERTA ESPECÍFICA",
-      "en": "NO SPECIFIC ALERT"
+      "es": "VIGILANCIA REFORZADA",
+      "en": "REINFORCED MONITORING"
     },
     "security_note": {
-      "es": "No se detectan señales suficientes para una alerta editorial.",
-      "en": "There are not enough signals for an editorial alert."
+      "es": "Las fuentes describen medidas adicionales de seguridad o control.",
+      "en": "Sources describe additional security or control measures."
     },
     "confidence": {
       "es": "MEDIA",
@@ -42,13 +42,22 @@
   },
   "items": [
     {
+      "title": "Spain, Italy suspend Schengen travel arrangements amid migration dispute",
+      "source": "The Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUDZnV0FwY2Z1X3VMWXFzcWFFM2gtazlMNzNaZTFOTGlxMlRxRS1LWXpYQ01oTjM5ZFVFdTNyVXBPZE9FemdxQTM4eGtsZXQzTnMwLWFzTGZlWXFaTHZBREMwalY3ckV5UVdyWUlfWFYtM1BaQ2lNT3ZJNXRvYlJtZi0zdmdDRjBreXdyOU1BQ2dfNnFGeXZ2cG52VXhSc3RLWndZLTc2QklYT0JvdmxEdmlsc29KREFreGlj0gHAAUFVX3lxTE5NRERBV1BsUjYtd1lEajRORnZHM2lrdUY5LXE1S25pamMxTjVScGhfcWdRaC1YMFFRWTBscWhMbUpnQlV4YlVab1NHUTBHNjNNNnlsUEVSZmVFbmtTWE5XVDRjamY3YW5PTXJZT3MxbHhHREVMaEVSSmV0dF9oZ090aDI0TnAzQnFtSzZKbmhraTF5b1V5NXo1QW9oUDdmdzBEWE1rWEZLZlAxVlc0V1BlZjkxei1BMDR4Vldpb1FPeA?oc=5",
+      "published_at": "2026-08-10T04:53:56+00:00",
+      "category": "ceuta",
+      "language": "en",
+      "weight": 2
+    },
+    {
       "title": "'Ceuta is Spain': Hundreds of people protest Spanish government's response efforts over migrant influx crisis",
-      "source": "Euronews.com",
+      "source": "Euronews",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPb1FfdmQ4Z0Y0YmhsZ1I4MHRSNUVfck9PLXVObHoxNFlBOUVFY0pUNWhEbWdvREVTbmdMQ29GQ3hieGY2R09jWUZDcEtwYUVkV2NPR09GeGdiZkh4aTN2UExrOVR2aHhBN1lCVVNUS0ZLYTNVbXVlbGU2SmY1N2pjV0ZRZ3JELXpycVlMOW43M2lMZkJ1eTVvRUM4bEQ5aFJ3ZEdIbXEzSHljamQ4Y0F3?oc=5",
       "published_at": "2026-08-09T19:31:43+00:00",
       "category": "ceuta",
       "language": "en",
-      "weight": 2
+      "weight": 3
     },
     {
       "title": "Spain checks 200 Italian arrivals as countries clash over Moroccan migrant crisis at Ceuta border",
@@ -69,8 +78,17 @@
       "weight": 2
     },
     {
+      "title": "Algeria is moving sub-Saharan migrants toward its border with Morocco under military escort",
+      "source": "Atalayar",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPLWZRUmZ3RmFpYlFtcnJ0M2RSOVlXemV0OU1jYS1pRmhJbUNucUYwMmMyYXA1M0hJMjBlVl9KVXZrbjF6MG9iZmpKLUVYN3o5bHhDRFpXbEJGRE1sVXFtOHI0Zi1uc1N5eVFuSlRpc2hDLUhuSmI0VzZwN0w4R1RrMXFhd2IySmI3TzRlWjNYUWhqbE9ySkZDUXdudmtLYVdQMk1vQ2NCVkEtbTk0NG1yR0JsMUVqc2t2d1diaWZTeGxRM0FzWWhpT0FUWjFkZFVQR0pRNVRObFBWekN5dkQ2bExRbmNtMUp3SXZiY3NyYlEyT0dSM1HSAfsBQVVfeXFMUGFRNWlFVFJHTE1iU2NjTFlHTm9uWHdZb3Y3ZmpzY2haei1PX1R0cWdLTDA0SjFjQlMyb1NPcVB6dERNY2cxdl9oWUx2WXdvQ2JXLUUzN3JkU2VqSXdadmx0UTF0MDdDc3hRSElieWJQSENPS084VTcxTWNuRC1SckJ6ZWR0emVVdmRVWWR2dDgtdGZObTRyNlJqakpIdWxXRDZmVkJPTE9sSnM3dk5tX3VqQnpIRGdHUVJzUk5UMDcwdlpJbUkxa2RLajN0aXNHSm9NRXpzQWlWQ0JUWmdaU09LdE45ZTJIcWRCU1FiaVRhUTAxc2RBYkd3cFE?oc=5",
+      "published_at": "2026-08-09T08:56:51+00:00",
+      "category": "ceuta",
+      "language": "en",
+      "weight": 2
+    },
+    {
       "title": "EU holds talks with big tech over Ceuta misinformation",
-      "source": "dw.com",
+      "source": "DW.com",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaFFKWGR5b1pPZUFnbmRZeTllT0w3UVk4X2NteWZIc3N1eXVVVlg3VXdiMk5heWhSSS1hRjhEYkdvRzdqOU10bF9iZFlPa1M5Y3VGQ2V5MUJaTkJUaE5WUmJ3RnRDcGk0WGxjVnRuMzV2OVZEajlpSTRJRHpOa1VMOVE5VktxMHFwa0xiN1E3cmVMeXZDUDVyT3BTOHQzZ3BGTUhQbmlod2NJcEdtaVhETHZ6TdIBswFBVV95cUxORlBKUTVyX2RTS2hBOFZLZUNCVlBvY3Z4bndXME1VZWhzQU1nclhPQlg2V0owYWZ1bDQ3RzNfZnM1bTRUTXRkNzdRak12QUNMdjdLLUdlNFd1UXdCa1g1YnpBUzlsMlZHNnAxYU5nRVJMYmJRMFhzOGFPWEtJRVBCb3FrUTFFS2pyR0EtSE9fZEcyRXBZalg3UjBEWlhoMFJQTFdVZFRnZWlmVVYtUzJXZjdsbw?oc=5",
       "published_at": "2026-08-09T08:56:26+00:00",
       "category": "ceuta",
@@ -115,7 +133,7 @@
     },
     {
       "title": "Contradicciones. Ceuta: Una crisis migratoria en la frontera entre España y Marruecos. Por Ricardo Monreal Ávila",
-      "source": "Noticia Zavaleta",
+      "source": "noticiazavaleta.info",
       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQLThUSXVWZXRfTkRiaUxtaHFJZ2hWVE5WNFN0TzhhaG5WVFJfOUZsaTFDYVRNUDN0bXdKZVFycmZ2T05CalM3SElySXowQWJ0RG1UcV9MVE41UjhadFJnNE1LTzdKNlJTRmdESHljNk9zbW9jMW1ZZVo3SXQyb3VnMjJYb3BNaUFrRTlkZ1hwbno1bGVkOURDazVKMkFyM0N5aDN4Y2hacTdjTEJCcGtzdU9Pc2ZTaTJPOXR3ekE3WnRQbjN3MVg4bWo4WjZ0SW5uNGYwYjZJcmNhTVE?oc=5",
       "published_at": "2026-08-09T00:19:08+00:00",
       "category": "ceuta",
@@ -168,17 +186,8 @@
       "weight": 2
     },
     {
-      "title": "Blackmailed and exposed: How migration became a weapon against Europe",
-      "source": "Ynetnews",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9fWXpYZ3FZTkhWTkRFbE5keUNzQzJ0RTBCMzFYRUlLN3hPTHBmbFBoRUhOa3hZb1VFR3RzVjdnY3FJemVSdGNwS2VEWXdieXpWSV9XZy1R?oc=5",
-      "published_at": "2026-08-08T16:21:00+00:00",
-      "category": "ceuta",
-      "language": "en",
-      "weight": 2
-    },
-    {
       "title": "Can Morocco take advantage of the 2027 elections to pressure again on Ceuta and Melilla?",
-      "source": "democrata.es",
+      "source": "Demócrata",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQeHJvOFFESVNPV1RHbTIzLVlRVEhyYnZFM2l2WElLekJ6b2Q1VXd2RTZianZMOWEzRzFNY2gtaFBlQUpHTjhRU2lMTVB5TXRKOUhIZnpHZXhJNzUwX2pNeDZXcHhzOVdLM2xuT3BpeHpfLVN0TGkwTnpNaEtqTjNzY0ZUdEFXV2lNTFNhRl9Yb0M1UVFSZW5CMER4am5WTXJhU2lPT1Z5djNVbHJzRnZrbmRFMWxheDcxWDBmb2s2bk9INzRGUGVRYmJXaEVtQ2PSAc8BQVVfeXFMUHhybzhRRElTT1dUR20yMy1ZUVRIcmJ2RTNpdlhJS3pCem9kNVV3dkU2Ymp2TDlhM0cxTWNoLWhQZUFKR044UVNpTE1QeU10SjlISGZ6R2V4STc1MF9qTXg2V3B4czlXSzNsbk9waXh6Xy1TdExpME56TWhLak4zc2NGVHRBV1dpTUxTYUZfWG9DNVFRUmVuQjBEeGpuVk1yYVNpT09WeXYzVWxyc0Z2a25kRTFsYXg3MVgwZm9rNm5PSDc0RlBlUWJiV2hFbUNj?oc=5",
       "published_at": "2026-08-08T09:32:00+00:00",
       "category": "relations",
@@ -196,7 +205,7 @@
     },
     {
       "title": "What to know as Spain and Italy escalate border dispute after Ceuta crisis",
-      "source": "inews.co.uk",
+      "source": "The i Paper",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSS10bmpCaFA4YmZqV1JCa001OFNsczZwNmZpNVJmQmRHbG05a1RETF8tRTgtX292ZmducEY2dWkyUG5BY0twUC01YzIwbFV5YmFUZlpiTkhubTlmSFdJcXU0Z29SeDBfZURBQnhwa0cyQlJvSy1wR1YtMXNwdllxVmwyS0dfc3lzOXdWMQ?oc=5",
       "published_at": "2026-08-08T05:00:24+00:00",
       "category": "ceuta",
@@ -205,12 +214,12 @@
     },
     {
       "title": "‘We have no tents or blankets’: Ceuta migrants struggle to survive brutal heat and freezing nights",
-      "source": "theguardian.com",
+      "source": "The Guardian",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPOVRRS0VlN0NtOTNpaHcteGlnTFlYNEc4NHNfRjhYOEt5TFZkel9KZGZnMTE2Y2ctbGREZmp0UVgtbUQyb2ZPWTRIb29QQ3MxUEJ4dVJuLUpmaDhFa05uVWRES0RuNkdvSF94Z1Vpb1NBRnZCNWMtRGVpTDN5R0pfTHFzWmNKZzlWX2VJb2tSd1dIcjF6MmYyV09jY0k0bk5iSmcxRlBfUG9OWEVDS0prUW50UHp6d2xnT2lBS2ljVHo4bm9kT1RSalRnSTRvSy1laXBsQUM4TlE?oc=5",
       "published_at": "2026-08-08T05:00:00+00:00",
       "category": "ceuta",
       "language": "en",
-      "weight": 2
+      "weight": 3
     },
     {
       "title": "La crisis de Ceuta cuestiona una frontera en la que Interior ha invertido más de 37 millones desde 2019",
@@ -295,7 +304,7 @@
     },
     {
       "title": "Noticias de Israel y del mundo judío en español",
-      "source": "aurora-israel.co.il",
+      "source": "Aurora Israel",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5qa2hST0ZHYlE1OE5DZ09ibzhCWTFWcVdMOFluTmdNR0o5VVIzcmJNOTVVRzB5dXlyZHpSTHh4NmEyampBWUYzbmZsOVV6MEhXeW0tOHo2M0UxZWZLcGR3RWI2UC1YbnFMdmZxbVdvRW9PXy1p?oc=5",
       "published_at": "2026-08-07T20:23:39+00:00",
       "category": "melilla",
@@ -355,15 +364,6 @@
       "category": "ceuta",
       "language": "en",
       "weight": 2
-    },
-    {
-      "title": "Spain to impose border controls against Italy as row over Ceuta migrant influx intensifies",
-      "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9VN192UmlxdFBQZ0V2NnBKaGMyVUozN2xBVTJBMkRIbGZDYXJmNnFHQUFsQURyelozZWZrWGpJWFZIVVdCWmF0clhmbm4yMWxoN1NvMkNXUlZFUkZE?oc=5",
-      "published_at": "2026-08-07T15:25:42+00:00",
-      "category": "ceuta",
-      "language": "en",
-      "weight": 4
     }
   ],
   "errors": []

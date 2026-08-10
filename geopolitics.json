@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-10T06:44:15.621450+00:00",
+  "generated_at": "2026-08-10T08:50:48.171518+00:00",
   "language_default": "es",
   "status": {
     "maritime_status": {
@@ -12,28 +12,28 @@
       "en": "The corridor remains open; official notices remain authoritative."
     },
     "border_pressure": {
-      "es": "ALTA",
-      "en": "HIGH"
+      "es": "BAJA / SIN SEÑALES RECIENTES",
+      "en": "LOW / NO RECENT SIGNALS"
     },
     "border_note": {
-      "es": "Varias fuentes describen una crisis fronteriza o humanitaria grave.",
-      "en": "Several sources describe a serious border or humanitarian crisis."
+      "es": "No aparecen señales recientes suficientes para elevar el nivel.",
+      "en": "There are not enough recent signals to raise the level."
     },
     "bilateral_tension": {
-      "es": "VIGILANCIA",
-      "en": "WATCH"
+      "es": "ESTABLE",
+      "en": "STABLE"
     },
     "bilateral_note": {
-      "es": "Hay señales de fricción, sin ruptura de la cooperación.",
-      "en": "There are signs of friction without a breakdown in cooperation."
+      "es": "No se detecta una escalada bilateral clara en las fuentes recientes.",
+      "en": "No clear bilateral escalation is detected in recent sources."
     },
     "security_status": {
-      "es": "VIGILANCIA REFORZADA",
-      "en": "REINFORCED MONITORING"
+      "es": "SIN ALERTA ESPECÍFICA",
+      "en": "NO SPECIFIC ALERT"
     },
     "security_note": {
-      "es": "Las fuentes describen medidas adicionales de seguridad o control.",
-      "en": "Sources describe additional security or control measures."
+      "es": "No se detectan señales suficientes para una alerta editorial.",
+      "en": "There are not enough signals for an editorial alert."
     },
     "confidence": {
       "es": "MEDIA",
@@ -41,6 +41,15 @@
     }
   },
   "items": [
+    {
+      "title": "Marruecos refuerza la seguridad en torno a Melilla para evitar una \"invasión\" como la de Ceuta",
+      "source": "La Razón",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPZ1VkWVR5R3JheGhMdUxuVTM2cEhabzJwZXZQRmRpUjZnNG5RMm1aT042STJ4Z0tJYnA0Y1diNFZ1dmw5c29teDh3eU9UUWV2SjAzdVFKVTNQUkZNNFo2UTdFMUtBbUZkMnpmZldoSElZMlhINnNKM0RiS09NRTRDWUdvOUczTTNMNV9Jenh4N29EcFdRajZfa2YwaDZsV0RSRzJ4dlU4U3VNajkzUWp3WVJjZzdIbjRCNEg4bjV2ck1ZR0Q1c2hTY2tKUFh5UlpDXzdV0gHnAUFVX3lxTE1ueWN6R3FXRFhJQzkwejRkLWZCWVpGMElKV1pyZlhZY1NLVHVINXNnUWdjazREczRwN2RxVTY4RDJzdTNRSUxyUl9fTl9PaFFGVkxDdi1Dd0x5SlRWVzdfZ0d2ZlZWcUZic3RJM25fUUdCUC1hNXN2VVhDcGlvNlBiZ1Y1dHFSMXh1ZUZTNXlPZHpKVlo5RzUtcTBIVEV4bWg3VzNvOXA2TW96cE5JaDV4YjJ1bW5nWVlXNHFwaUdHSktpa255MFQ5bzlSSFB6cGsxRmhZYS1xZm83Z3NXVHQyUnQ1UVktOA?oc=5",
+      "published_at": "2026-08-10T08:14:00+00:00",
+      "category": "melilla",
+      "language": "es",
+      "weight": 2
+    },
     {
       "title": "Spain, Italy suspend Schengen travel arrangements amid migration dispute",
       "source": "The Business Standard",
@@ -51,13 +60,22 @@
       "weight": 2
     },
     {
+      "title": "‘We have no tents or blankets’: Ceuta migrants struggle to survive brutal heat and freezing nights",
+      "source": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPOVRRS0VlN0NtOTNpaHcteGlnTFlYNEc4NHNfRjhYOEt5TFZkel9KZGZnMTE2Y2ctbGREZmp0UVgtbUQyb2ZPWTRIb29QQ3MxUEJ4dVJuLUpmaDhFa05uVWRES0RuNkdvSF94Z1Vpb1NBRnZCNWMtRGVpTDN5R0pfTHFzWmNKZzlWX2VJb2tSd1dIcjF6MmYyV09jY0k0bk5iSmcxRlBfUG9OWEVDS0prUW50UHp6d2xnT2lBS2ljVHo4bm9kT1RSalRnSTRvSy1laXBsQUM4TlE?oc=5",
+      "published_at": "2026-08-10T01:30:00+00:00",
+      "category": "ceuta",
+      "language": "en",
+      "weight": 3
+    },
+    {
       "title": "'Ceuta is Spain': Hundreds of people protest Spanish government's response efforts over migrant influx crisis",
-      "source": "Euronews",
+      "source": "Euronews.com",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPb1FfdmQ4Z0Y0YmhsZ1I4MHRSNUVfck9PLXVObHoxNFlBOUVFY0pUNWhEbWdvREVTbmdMQ29GQ3hieGY2R09jWUZDcEtwYUVkV2NPR09GeGdiZkh4aTN2UExrOVR2aHhBN1lCVVNUS0ZLYTNVbXVlbGU2SmY1N2pjV0ZRZ3JELXpycVlMOW43M2lMZkJ1eTVvRUM4bEQ5aFJ3ZEdIbXEzSHljamQ4Y0F3?oc=5",
       "published_at": "2026-08-09T19:31:43+00:00",
       "category": "ceuta",
       "language": "en",
-      "weight": 3
+      "weight": 2
     },
     {
       "title": "Spain checks 200 Italian arrivals as countries clash over Moroccan migrant crisis at Ceuta border",
@@ -87,6 +105,15 @@
       "weight": 2
     },
     {
+      "title": "Ceuta en el ojo del huracán",
+      "source": "Ceuta Ahora",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBqbFU2Z1FhcjR3cnZ1YzdkWDJpTXI0Y3l1Y2I3YU5SSHJLbDJxalZaZGdObnlqdkh0T1lwZENIMkZ5WjhNOEFxamNienhQaUxSNlRkN0U3bG5aV1FBRWtxbGlSdDlDNEc2TFBXcQ?oc=5",
+      "published_at": "2026-08-09T07:04:02+00:00",
+      "category": "relations",
+      "language": "es",
+      "weight": 2
+    },
+    {
       "title": "¿Y si Marruecos tampoco se esperaba el aluvión de migrantes hacia Ceuta?",
       "source": "Elplural.com",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNkVKWWxvelJ2QlNfSkdXbWpVOGZybGZSalktTUJleTNvX2FtLUVvd2x4aXA0LTVETmRIa05RVmVTV0phZmdoTUI5SnJ1TnhjVmk3V1VvZ1FJbC1xNlhXLXFTSFEwX2lYbjRkZm1PQ0tBdUY3Sk1nLXE0eVpHZHlDUmNpTVpkSWNfWHJXcE5YckpqcWc4b2VRQzhqS3JvNGtQNnFkUVZPWGgyTUFqREJYbE9R0gG3AUFVX3lxTE9JaGthZ1k0ZUFtVmk3aDJVNEMxNHE5LWJFR1NUUjNnczNjVmQ0dVlYQ3hPNkQwUG5CemRKX1lqYlNmekxfXzNuNUx6aHlfRFRhbVBwRFVJWTdsQWREOFduWklnU3ZvQnV1UGI5emdUc2p2QS1rNFpSMTBEQXFXWDgwVk1ORmc4WndqNEZXM2gydTg3ZVUtNVdLSlhWaHJjUXpaZjZpcktOeVFrMEZjUURyUldLNnBaVQ?oc=5",
@@ -101,6 +128,15 @@
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRkhZYUxpd2FHT3JsbEZpbUM5TmhJd0pDY1pMLTgwU1NJRHJGZU52d2xyd2hmRTVYWlJrRk5qdHFGU21QalgtNTFic0xhamNIajZVTWRWWWtCelpZNk5SZ2l5MlN3RWZYWFNYN1ZBNGtiVVRwNV9HSm50a19lN1ZjYTRXNFlCWUVZWFlnak4tRWJHTi0zLS1MdlBXa1ZUMVRNdlNMZC1CTERodlAzNEkwajFWcG9hX2JsT2fSAb8BQVVfeXFMT0s0bXNzc0lWa1B2UEs4SW45VHVKdmpFeUxtUkNvdzRybVFybGNkMUlRVGNSNFZBSzhmMmpra0o4WjhJdERXaWFoQ19jN1p0RVU0RHVoOHVMUzh2X002UERaVTJueWFoZ0lYSkVTazFWQ1JRajBIVWh6SUtKNG8yNmV3ME5qZ3dGVjZ0c2RMWm5QWThjNFQtSEIwbjZWdFFqN3JhMEZFTkh1QlNrVDNNVEkxWlRKeWdfWmc1X1Fvenc?oc=5",
       "published_at": "2026-08-09T05:02:19+00:00",
       "category": "relations",
+      "language": "es",
+      "weight": 2
+    },
+    {
+      "title": "Noticias de Israel y del mundo judío en español",
+      "source": "Aurora Israel",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5qa2hST0ZHYlE1OE5DZ09ibzhCWTFWcVdMOFluTmdNR0o5VVIzcmJNOTVVRzB5dXlyZHpSTHh4NmEyampBWUYzbmZsOVV6MEhXeW0tOHo2M0UxZWZLcGR3RWI2UC1YbnFMdmZxbVdvRW9PXy1p?oc=5",
+      "published_at": "2026-08-09T04:14:00+00:00",
+      "category": "melilla",
       "language": "es",
       "weight": 2
     },
@@ -178,7 +214,7 @@
     },
     {
       "title": "EU holds talks with big tech over Ceuta misinformation",
-      "source": "dw.com",
+      "source": "DW",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaFFKWGR5b1pPZUFnbmRZeTllT0w3UVk4X2NteWZIc3N1eXVVVlg3VXdiMk5heWhSSS1hRjhEYkdvRzdqOU10bF9iZFlPa1M5Y3VGQ2V5MUJaTkJUaE5WUmJ3RnRDcGk0WGxjVnRuMzV2OVZEajlpSTRJRHpOa1VMOVE5VktxMHFwa0xiN1E3cmVMeXZDUDVyT3BTOHQzZ3BGTUhQbmlod2NJcEdtaVhETHZ6TdIBswFBVV95cUxORlBKUTVyX2RTS2hBOFZLZUNCVlBvY3Z4bndXME1VZWhzQU1nclhPQlg2V0owYWZ1bDQ3RzNfZnM1bTRUTXRkNzdRak12QUNMdjdLLUdlNFd1UXdCa1g1YnpBUzlsMlZHNnAxYU5nRVJMYmJRMFhzOGFPWEtJRVBCb3FrUTFFS2pyR0EtSE9fZEcyRXBZalg3UjBEWlhoMFJQTFdVZFRnZWlmVVYtUzJXZjdsbw?oc=5",
       "published_at": "2026-08-08T11:37:40+00:00",
       "category": "ceuta",
@@ -211,15 +247,6 @@
       "category": "ceuta",
       "language": "en",
       "weight": 2
-    },
-    {
-      "title": "‘We have no tents or blankets’: Ceuta migrants struggle to survive brutal heat and freezing nights",
-      "source": "The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPOVRRS0VlN0NtOTNpaHcteGlnTFlYNEc4NHNfRjhYOEt5TFZkel9KZGZnMTE2Y2ctbGREZmp0UVgtbUQyb2ZPWTRIb29QQ3MxUEJ4dVJuLUpmaDhFa05uVWRES0RuNkdvSF94Z1Vpb1NBRnZCNWMtRGVpTDN5R0pfTHFzWmNKZzlWX2VJb2tSd1dIcjF6MmYyV09jY0k0bk5iSmcxRlBfUG9OWEVDS0prUW50UHp6d2xnT2lBS2ljVHo4bm9kT1RSalRnSTRvSy1laXBsQUM4TlE?oc=5",
-      "published_at": "2026-08-08T05:00:00+00:00",
-      "category": "ceuta",
-      "language": "en",
-      "weight": 3
     },
     {
       "title": "La crisis de Ceuta cuestiona una frontera en la que Interior ha invertido más de 37 millones desde 2019",
@@ -268,7 +295,7 @@
     },
     {
       "title": "La cronología del ajedrez político en cada crisis migratoria España-Marruecos",
-      "source": "elcorreo.com",
+      "source": "El Correo",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPY3hCYnBGLXFqZVNVY1ZBaFZhalp1czhPTGVDUlBGUVV6YWlDcHZNR1AteExTR3FXcTl4M3hVanM1emI0MjJrdXg3Qk5QaGJrS1dEbG02UjZ3RE9ydU95OHh4a3FOU3JPUnV2TkJzcjdmOUMtOS0wZlEyN05uY1BmTGtWZWo2d2RmMWQ0Q3gxa0x4d3lTQXpodEhtV2lMem1aeUFQdmZIeWx0Wm5LT2dnOXo0eHZ4T25RZGZHaA?oc=5",
       "published_at": "2026-08-07T22:05:01+00:00",
       "category": "relations",
@@ -295,12 +322,12 @@
     },
     {
       "title": "España impone controles fronterizos a Italia y se agudiza la tensión entre Sánchez y Meloni por la llegada de migrantes a Ceuta",
-      "source": "BBC",
+      "source": "bbc.com",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5FZXhvcDJQZHBzVUN3TTlQV0dpQmppTGQ5SV8zWFlBZk9MTERwZDk1enhQV0N2QWlUNXJBTjRJYzN4ck04MG9Ld2RSSnBiMlBwUll6eWFvaDNFVE3SAWBBVV95cUxNNGJVdWxuVDRuajdJaVF3UTBUeTNOX3BhSGVBS21HREQ0RHVob3hLSURDUjY5WTdqdDVyaXZjbmtja19CcTJ0M202QVBrQzZSRlhoY0xFVEJ2T1REZlR0RG8?oc=5",
       "published_at": "2026-08-07T21:20:47+00:00",
       "category": "ceuta",
       "language": "es",
-      "weight": 4
+      "weight": 2
     },
     {
       "title": "Spain announces new border controls with Italy in migration row",
@@ -309,15 +336,6 @@
       "published_at": "2026-08-07T20:48:10+00:00",
       "category": "ceuta",
       "language": "en",
-      "weight": 2
-    },
-    {
-      "title": "Noticias de Israel y del mundo judío en español",
-      "source": "Aurora Israel",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5qa2hST0ZHYlE1OE5DZ09ibzhCWTFWcVdMOFluTmdNR0o5VVIzcmJNOTVVRzB5dXlyZHpSTHh4NmEyampBWUYzbmZsOVV6MEhXeW0tOHo2M0UxZWZLcGR3RWI2UC1YbnFMdmZxbVdvRW9PXy1p?oc=5",
-      "published_at": "2026-08-07T20:23:39+00:00",
-      "category": "melilla",
-      "language": "es",
       "weight": 2
     },
     {
@@ -343,24 +361,6 @@
       "source": "The New Arab",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTlUxMzhfc1NVT1ZWR3NZNjhwNFBrNmkwbWZ0alpCcTdQRUgzSHpmdWtuWTdLZV9mYmpTQ0NGVHA2TmhlaHhfZUg3ZXRBQ3VMUTdmZ215eWdYdjN1cU9sbENvZXowNi1FSEtEUVNNdnRDNVNjc2Zna1FDSEVoc1VXeWxETkQzbUNJdVFuX1psVdIBlAFBVV95cUxNN21FdTBYbkFwQVNlZW1qMm0tS2NoMk8yQ0YyWW1tdkxLaGFZU3Q5VjdJSWF6S3Fod18xdjFELVBHRUFhV3AzYzhIbEowLTRZNmctVUhHZVU0T0ZCYVBINlhKeXJFa18yMEE0X01WN3dSNExMdThnNjhhZENySXp0X2xWbHlndDh0Zk9RYWgzYmVzZXdw?oc=5",
       "published_at": "2026-08-07T16:42:55+00:00",
-      "category": "ceuta",
-      "language": "en",
-      "weight": 2
-    },
-    {
-      "title": "\"España ha anunciado que el 15 de agosto abren la frontera\": cómo esta desinformación se mueve en los grupos de WhatsApp, entre encuestas y planes para a entrar en Ceuta desde Marruecos",
-      "source": "Maldita.es",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUEFZa0FvOWFPbkZfdmdHZjZTb2JpMk14TVJObU83Z0MxUVRKZmpMVjJMWFBIVmo0M2FrS2lkRlIzMU9ra0ZxRE5sSkJGZWVFb1NSaEU1NGdWQXp2RzFfX3ZObmNhWkctQVM4emU3Ykl6dW9Nb2tXQjNWdWQzUTZORTlxd3FSQktyVFRGZ1FKSE40UFVvZUxyNm1INzJmbVBM?oc=5",
-      "published_at": "2026-08-07T16:02:56+00:00",
-      "category": "melilla",
-      "language": "es",
-      "weight": 2
-    },
-    {
-      "title": "Italy–Spain Border Controls After the Ceuta Crisis: Are They Legal?",
-      "source": "Diplomacy and Law",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNkxqMEpPLXllbk10c1Zucm41MFhVS1lMUkw5bVoyRy1zUW5yYl83Qm9tdTFvT1Zib2tSVEE2TUtTM1d6OFAwWkVjMnVPa1QyZFJsY25NTjBRVW50UDJmNExwenlDMW05RUQzWnJHZ2d6NlQzdDRnOTJveHI5VnBjMHltbw?oc=5",
-      "published_at": "2026-08-07T15:33:57+00:00",
       "category": "ceuta",
       "language": "en",
       "weight": 2

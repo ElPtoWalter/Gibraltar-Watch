@@ -90,7 +90,6 @@
       if (typeof v === 'number') populateMetric(k, v);
       else qsa(`[data-gwo-metric="${k}"]`).forEach(el => text(el, v));
     });
-    qsa('[data-gwo-diario-generator]').forEach(el => text(el, m.diary_generator || '—'));
   }
 
   function renderTimeline(items) {

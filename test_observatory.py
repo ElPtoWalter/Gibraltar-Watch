@@ -62,7 +62,7 @@ class ObservatoryLogicTests(unittest.TestCase):
         seismic = {"periods": {"24h": 1, "7d": 2, "30d": 4}, "max_magnitude_30d": 3.2}
         geo = {"items": [{"published_at": obs.iso(), "source": "A"}]}
         ope = {"report_date": "2026-08-08", "departure": {"day": {"passengers": 10, "vehicles": 2, "rotations": 1}}, "return": {"day": {"passengers": 20, "vehicles": 3, "rotations": 2}}}
-        latest = {"date": "2026-08-10", "source_count": 7, "generator": "determinista"}
+        latest = {"date": "2026-08-10", "source_count": 7}
         m = obs.metrics(seismic, geo, ope, latest)
         self.assertEqual(m["seismic_7d"], 2)
         self.assertEqual(m["ope_passengers_day"], 30)

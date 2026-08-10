@@ -41,7 +41,7 @@ LIVE = f'''{START_LIVE}
 
 HOME_TIMELINE = f'''{START_TIMELINE}
 <section class="gwo-panel gwo-shell" aria-labelledby="gwo-home-timeline-title">
-  <div class="gwo-panel-head"><div><div class="gwo-kicker">CRONOLOGÍA AUTOMÁTICA</div><h2 id="gwo-home-timeline-title">Qué ha cambiado</h2></div><div><p>Solo registra cambios materiales, nuevos partes, nuevas ediciones y señales estadísticas. No convierte cada titular en una alerta.</p><a href="datos.html">Abrir datos e histórico →</a></div></div>
+  <div class="gwo-panel-head"><div><div class="gwo-kicker">CRONOLOGÍA EDITORIAL</div><h2 id="gwo-home-timeline-title">Qué ha cambiado</h2></div><div><p>Solo registra cambios materiales, nuevos partes, nuevas ediciones y señales estadísticas. No convierte cada titular en una alerta.</p><a href="datos.html">Abrir datos e histórico →</a></div></div>
   <div class="gwo-timeline" data-gwo-timeline data-limit="5"></div>
 </section>
 {END_TIMELINE}'''

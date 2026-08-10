@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Add the Observatory vNext trust layer to Diario del Estrecho pages.
+"""Add the Gibraltar Watch editorial trust layer to Diario del Estrecho pages.
 
-The Diario generator remains the source of editorial content; this postprocessor
-only adds transparency/navigation UI and never rewrites reported facts.
+The Diario content remains untouched; this postprocessor only adds editorial
+standards/navigation UI and never rewrites reported facts.
 """
 from __future__ import annotations
 
@@ -14,7 +14,7 @@ DIARY=ROOT/'diario'
 CSS='<link rel="stylesheet" href="../gw-observatory.css?v=20260810-1">'
 JS='<script defer src="../gw-observatory.js?v=20260810-1"></script>'
 START='<!-- GWO_DIARY_TRUST_START -->'; END='<!-- GWO_DIARY_TRUST_END -->'
-TRUST=f'''{START}<div class="gwo-trust-strip" aria-label="Criterio editorial"><span><b>HECHOS</b> · atribuidos y enlazados</span><span><b>INTERPRETACIÓN</b> · separada</span><span><b>ESCENARIOS</b> · no se publican como hechos</span><span><a href="../transparencia.html">Metodología y automatización →</a></span></div>{END}'''
+TRUST=f'''{START}<div class="gwo-trust-strip" aria-label="Criterio editorial"><span><b>HECHOS</b> · atribuidos y enlazados</span><span><b>INTERPRETACIÓN</b> · separada</span><span><b>ESCENARIOS</b> · no se publican como hechos</span><span><a href="../transparencia.html">Estándares editoriales →</a></span></div>{END}'''
 
 
 def patch(text:str)->str:

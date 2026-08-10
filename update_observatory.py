@@ -251,7 +251,6 @@ def metrics(seismic: dict, geopolitics: dict, ope: dict, diary: dict) -> dict:
         "ope_rotations_day": (departure.get("rotations") or 0) + (returning.get("rotations") or 0),
         "diary_date": diary.get("date"),
         "diary_source_count": diary.get("source_count"),
-        "diary_generator": diary.get("generator"),
     }
 
 
@@ -316,7 +315,7 @@ def build_health(seismic: dict, geopolitics: dict, ope: dict, diary: dict) -> di
             diary_dt = datetime.fromisoformat(str(diary_stamp) + "T06:00:00").replace(tzinfo=MADRID).astimezone(timezone.utc)
         except Exception:
             diary_dt = None
-    components.append(source_health("Diario del Estrecho", iso(diary_dt) if diary_dt else None, "Gibraltar Watch", 36 * 60, 60 * 60, f"Motor: {diary.get('generator') or '—'}", f"diario/{diary.get('slug', '')}" if diary.get("slug") else "diario/"))
+    components.append(source_health("Diario del Estrecho", iso(diary_dt) if diary_dt else None, "Gibraltar Watch", 36 * 60, 60 * 60, "Última edición publicada", f"diario/{diary.get('slug', '')}" if diary.get("slug") else "diario/"))
 
     missing_pages = [x for x in CRITICAL_PAGES if not (ROOT / x).exists()]
     page_state = "fresh" if not missing_pages else "missing"

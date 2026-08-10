@@ -1,37 +1,17 @@
-# Gibraltar Watch · Observatory vNext
+# Instalación · Professional Security v3
 
-Paquete aditivo para dar un salto de calidad sin borrar el trabajo actual.
+1. Copia todo el contenido del paquete en la raíz de `Gibraltar-Watch` y acepta reemplazar archivos.
+2. Haz commit en `main`.
+3. En GitHub ve a **Settings → Pages → Build and deployment → Source → GitHub Actions**.
+4. Ejecuta manualmente **Actions → Desplegar Gibraltar Watch seguro → Run workflow → main**.
+5. Cuando el despliegue sea correcto, comprueba que `https://estrechogibraltar.com/observatory.json` devuelve 404, mientras la web sigue funcionando.
+6. Si tu plan de GitHub permite Pages desde repositorios privados, cambia después el repositorio a **Private**. No lo hagas antes de confirmar que tu plan lo permite.
+7. Si utilizas Cloudflare como proxy, despliega `cloudflare/security-worker.js` sobre la ruta `estrechogibraltar.com/*` para añadir una segunda barrera a rutas técnicas y cabeceras HTTP.
 
-## Cómo instalarlo
+## Resultado esperado
 
-1. Descarga y descomprime el ZIP.
-2. Copia **todo el contenido** de la carpeta sobre la raíz actual del repositorio `Gibraltar-Watch`.
-3. Cuando se pregunte, acepta **reemplazar** `.github/workflows/update-gibraltar.yml`.
-4. No borres los scripts antiguos: vNext está diseñado para ejecutarse **después** de ellos y conservar sus mejoras.
-5. Haz un commit de todos los archivos.
-6. En GitHub: **Actions → Actualizar Gibraltar Watch → Run workflow → main**.
-7. La ejecución correcta termina con `Validar publicación completa antes del commit`, guarda los cambios y ejecuta IndexNow.
-
-El primer ciclo crea automáticamente `observatory.json`, `health.json`, `timeline.json`, `observatory-history.json`, `observatory-feed.xml`, `publication-manifest.json` y `newsletter/latest.*`.
-
-## Qué no debes hacer
-
-- No vuelvas a añadir `continue-on-error: true` al paso de IndexNow.
-- No cambies `submit_gibraltar_indexnow.py` por un nombre abreviado.
-- No edites manualmente los bloques marcados `GWO_*`: el instalador los mantiene de forma idempotente.
-- No publiques una señal del detector de anomalías como prueba de crisis. Son indicadores estadísticos para revisión.
-
-## Comprobación posterior
-
-Tras el primer workflow, comprueba estas rutas:
-
-- `/situacion-actual.html`
-- `/datos.html`
-- `/mapa-estrategico.html`
-- `/transparencia.html`
-- `/correcciones.html`
-- `/boletin.html`
-- `/observatory.json`
-- `/health.json`
-
-También aparecerá una acción independiente **Auditar Gibraltar Watch** que comprueba diariamente la web publicada y abre/cierra un Issue si detecta un fallo.
+- La web continúa siendo pública.
+- El repositorio puede quedar privado.
+- El backend, scripts, tests y workflows no forman parte del artefacto público.
+- Los `.json` no se publican como URLs directas.
+- La web no muestra referencias a IA/OpenAI/modelos/GitHub Actions.

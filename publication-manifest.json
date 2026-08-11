@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-11T11:08:42Z",
+  "generated_at": "2026-08-11T11:59:53Z",
   "git": {
-    "sha_before_commit": "a31cceab60cd537e21794c9882928e77713b6008",
-    "run_id": "31485260771"
+    "sha_before_commit": "ed4dfd10a33834ef2ee3faa4ca8f84bb8e1dd248",
+    "run_id": "31489103710"
   },
   "recovery": {
     "method": "git-history",
@@ -19,8 +19,8 @@
       "bytes": 15204
     },
     "trafico.html": {
-      "sha256": "2332585d1e97768ebb90dc397a4e128527d1a2b98b4088543938fe5abd9d822a",
-      "bytes": 18868
+      "sha256": "90ceef9085f66b4e80608dc976e84010c43f4568696cfd5b1b462bfe4f0844f7",
+      "bytes": 18870
     },
     "sismicidad.html": {
       "sha256": "82ff5d540ec4e995a647684f083fe27f41c2b240312cf153de1c816f471381e3",
@@ -59,11 +59,11 @@
       "bytes": 15318
     },
     "observatory.json": {
-      "sha256": "12d4e194f9f883cacc57bf589df606f22dd06e5ba3aa1d16c4ea33b315717db7",
+      "sha256": "82a84028ef95f632c3613ef90bb26de99e9f713b08a7f84111c3cf6b3e5a1105",
       "bytes": 2867
     },
     "health.json": {
-      "sha256": "1a9e41d1234e1adc4c15bffc375948c0e2d65bc50bcbe5a90f334e57cc40f27f",
+      "sha256": "df950ea6e47c4a54c84775cae0d25d308f2991647a27b54eb18692de2744fe49",
       "bytes": 2181
     },
     "timeline.json": {
@@ -71,7 +71,7 @@
       "bytes": 4095
     },
     "observatory-history.json": {
-      "sha256": "b930410d72e2d1e3cefa1b3c565997686e8240463d08dfbfee30d33c36cfb65a",
+      "sha256": "a313b95d6aab8a5e11c325f54160a21aa583063a7b74193c61e463c738155d42",
       "bytes": 1103
     },
     "observatory-feed.xml": {
@@ -91,11 +91,11 @@
       "bytes": 541
     },
     "newsletter/latest.html": {
-      "sha256": "20fb3eb135da3b115a489901953a9ecd603a61b684c92bb21692024158183942",
+      "sha256": "d6e8f44bba98adefca3bbc6cccfdb4645499deae5396010f947d4fdd47f1df31",
       "bytes": 2161
     },
     "newsletter/latest.txt": {
-      "sha256": "fcdde30460207d0c02a45de4d555d3251efacd8cdaefa93c762e7d8a6438be98",
+      "sha256": "c047cc9ff2a9524cf3162ec42486e2614a34c8f3e283a81bbd5fcb6c6233b8e1",
       "bytes": 791
     },
     "newsletter/latest.json": {

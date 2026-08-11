@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-11T02:30:02Z",
+  "generated_at": "2026-08-11T04:42:46Z",
   "state": {
     "code": "normal",
     "label_es": "NORMALIDAD OPERATIVA",
@@ -33,7 +33,7 @@
     }
   },
   "metrics": {
-    "news_24h": 18,
+    "news_24h": 17,
     "news_sources": 31,
     "seismic_24h": 0,
     "seismic_7d": 0,
@@ -43,7 +43,7 @@
     "ope_passengers_day": 47527,
     "ope_vehicles_day": 11940,
     "ope_rotations_day": 172,
-    "diary_date": "2026-08-10",
+    "diary_date": "2026-08-11",
     "diary_source_count": 7
   },
   "anomalies": [],
@@ -54,19 +54,19 @@
   },
   "health": {
     "overall": "healthy",
-    "generated_at": "2026-08-11T02:30:02Z"
+    "generated_at": "2026-08-11T04:42:46Z"
   },
   "latest_diary": {
-    "date": "2026-08-10",
-    "date_label": "10 de agosto de 2026",
-    "slug": "2026-08-10.html",
+    "date": "2026-08-11",
+    "date_label": "11 de agosto de 2026",
+    "slug": "2026-08-11.html",
     "headline": "Ceuta sigue marcando la agenda mientras el tráfico del Estrecho permanece operativo",
-    "summary": "La lectura de esta mañana sitúa el tráfico marítimo en operativo, la presión fronteriza en alta y la relación España–Marruecos en estable.",
+    "summary": "La lectura de esta mañana sitúa el tráfico marítimo en operativo, la presión fronteriza en baja / sin señales recientes y la relación España–Marruecos en estable.",
     "indexable": true,
     "source_count": 7,
-    "confidence": "MEDIA",
-    "source_hash": "7c8c51be7f42e510",
-    "pub_rfc822": "Sun, 09 Aug 2026 22:58:02 +0000"
+    "confidence": "BAJA",
+    "source_hash": "382e5e9965b8505f",
+    "pub_rfc822": "Tue, 11 Aug 2026 04:42:46 +0000"
   },
   "latest_ope": {
     "report_date": "2026-08-09",

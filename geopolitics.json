@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-12T15:17:10.575244+00:00",
+  "generated_at": "2026-08-12T16:14:14.292884+00:00",
   "language_default": "es",
   "status": {
     "maritime_status": {
@@ -12,20 +12,20 @@
       "en": "The corridor remains open; official notices remain authoritative."
     },
     "border_pressure": {
-      "es": "BAJA / SIN SEÑALES RECIENTES",
-      "en": "LOW / NO RECENT SIGNALS"
+      "es": "MEDIA",
+      "en": "MEDIUM"
     },
     "border_note": {
-      "es": "No aparecen señales recientes suficientes para elevar el nivel.",
-      "en": "There are not enough recent signals to raise the level."
+      "es": "Existen intentos o presión fronteriza recientes.",
+      "en": "Recent attempts or border pressure are being reported."
     },
     "bilateral_tension": {
-      "es": "ESTABLE",
-      "en": "STABLE"
+      "es": "VIGILANCIA",
+      "en": "WATCH"
     },
     "bilateral_note": {
-      "es": "No se detecta una escalada bilateral clara en las fuentes recientes.",
-      "en": "No clear bilateral escalation is detected in recent sources."
+      "es": "Hay señales de fricción, sin ruptura de la cooperación.",
+      "en": "There are signs of friction without a breakdown in cooperation."
     },
     "security_status": {
       "es": "SIN ALERTA ESPECÍFICA",
@@ -43,12 +43,12 @@
   "items": [
     {
       "title": "Spain rejects discussing sovereignty of enclaves with Morocco",
-      "source": "The Mighty 790 KFGO",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNV29uTVg2b1pOOXJBT296OUxjc1BPbXZUMWFWNVY4aWl5Y3FaT2JHbFEyeF9UdXlybmFNX3pJQlltM01IMFpWNUt2UWxJQmxub1ppVy14bDhyd3JOblJOcTZPb0VMUzQtM0RES0J2Q3JRWVIwSGNGdXVodFhBaGxMMzRNSHMtN093ZGtfV2xoU2xKSEpE?oc=5",
-      "published_at": "2026-08-12T15:03:29+00:00",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUW9YV1hRXzRJbmZmejdpLWx5bGl4WHk0VlBJcjJVTDNWaGVDVkhjbkJTNS1GZHp2UlhmYmxXR3cyLXlkaXl5SXBvZ2NMVUVkbEhEWGJpdTBKY0k5OVVGbDI3MGFJS01uRGdVRlNzZUhxLUdmdnMxekRDRXV2RFBEZXJXOG1ibW1pVXR4RGNERkdzV0J6czRDLXZna0hQSENMM29VNGFkcFV1X3M?oc=5",
+      "published_at": "2026-08-12T14:46:27+00:00",
       "category": "ceuta",
       "language": "en",
-      "weight": 2
+      "weight": 5
     },
     {
       "title": "Vecina de Ceuta pide a Robles no abandonar la ciudad ante crisis migratoria",
@@ -70,7 +70,7 @@
     },
     {
       "title": "Debemos dejar de pagar a Marruecos. El Rey de España debe visitar dos ciudades españolas: Melilla y Ceuta.",
-      "source": "Melilla Hoy",
+      "source": "melillahoy.es",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdnBWbFJPNUMwSkpyYXZyZ3dGU01QdmlIazVHalBZbmF2dURPRUFoTXFoZjg2bkdLLWM5dWlhanduNTJDcnZnYUlQSGpqRjVtUmE0a2Nyc2ZPaFpIa3hQVTFROTkwLWxUcVo3TVVYUFF6YkhrZmJrN01VTTRyWTM3V0xLSVotWlYwMUJ0ZHRSR09pc3BNbDExUmllRjRuVlhzSFJ2MEg4N29JRWhDRllrSXBvNURzRTlsWjRjdUVRdkI5OGFf0gHKAUFVX3lxTE9pMTY5Q0RZUGlPUDFrNWxSQmJyZ3ZoRkt1bTJ5c0prRDNqWUtNRmxVNjhucmd3M3JSZHctUDV4c004S2UzVDlMRTdNQUlHdmRWb2VES3RiRE9MSE14d2s0NzZYdW12V2l6anFjLTh6ZS1SckhOMkdZZzVJOE1vdzY5RHU0OEJHNy1yNlE1VHRoUlVhLXR2UWJqSkduUzc5c1M3aFRrcFozRGhDNmdvd0ZsbGc3em1tbDczSGtBekdOOEU0bnc3WWlxWVE?oc=5",
       "published_at": "2026-08-12T12:30:00+00:00",
       "category": "melilla",
@@ -97,7 +97,7 @@
     },
     {
       "title": "Ceuta: el regreso de migrantes indocumentados a Marruecos ante nueva crisis fronteriza",
-      "source": "cadena3.com",
+      "source": "Cadena 3 Argentina",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOSm9BeEYtbnNWV1dTWWlwQUg0dWJzNWhTNjlCbFBpdmtKZG4zU25ta0M0cy14LUp2eHBSZThKWlpCWlI0eFhzODhYaFI5bDl2WFdVOVhZWkpMbk5PZVdsUEdmbm05dTVINFVFRjI5bVo2ZlJJeUg2YnNhaHNYNElCX0lIRDRhMjZyaE1JTFlyX29nSVN3RHM5dDdBTkh1TDhaSEI2SG1pSndxYXNoeHNzc1UyaFZZSjhSNEtwSUJyV1dUUkg1ZFpmc0RxN3BOVXJHQkhQUUpn0gHbAUFVX3lxTE1ZNC15dUZsNDhwOTgxLWw0bE03dlROUFRDN2JJUjBtNjR0cUpubm5FQUlLX0xfSkd3bFpMam5VOVQ0N3B0blVRNU5HelgxRWpqUXJtNFI4NGlPVXQyNzRfNVBVNGR3ai1pMDVVa05ZQjI1a1NwX2REMjJVNUlqY2IxamJjWElBSDZKdVE1eUVMY2JYaWRqa2x2V1N4Ym5lWGg3Q3ZyTGhzMXZoQmdCXzFubUdqR19rczBnZGN2ajJHVVpqRjN1OUcxRXY3R2hIZFFwTjN6eXJNZVJvYw?oc=5",
       "published_at": "2026-08-12T11:17:59+00:00",
       "category": "ceuta",
@@ -124,7 +124,7 @@
     },
     {
       "title": "Robles se planta ante la tibieza de Marlaska con Marruecos: «Ceuta y Melilla no se tocan»",
-      "source": "El Correo",
+      "source": "elcorreo.com",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUElYS0NMLVJ1MG9TLTJVdHlBdGYycm9pTEMwWW1TZUoxNzk3MW1OZW1HeGRTTWNNMUZpSUEzUUltLWhMVkZ2V3NEcWg5Y19pcVoxR2d1RWVkTDgyVkVQVVVGWXhEVVIxa0dHVVZMWEpNNlhkZHlwdm5lZlZUSXoxd0tibmc5WVNXbjVmU3c0TWNkZjVESll5a2pZQnFrRVdzazVONTA1NFRqNkNzUkowQtIBtgFBVV95cUxNYW55SldkQWxjZjQ4a0VmcXo5RnVuQW5JdVZ4RlQtSVJQVm9QbWJicm0zclY0aVJ5aGIwOFpNUW0ySTFvRG5neEtSNDVmemdCMmdOeTMzQllLVkJGbFRabzZfQVVkYl9GU0FtS251S25taWotOGJ0czkzN3doNlBDQjJERFlZc29rU2hibi1QaVRUQUgzeWxTSVZydmkzR2N1T3RzdF9TYl9kejlPR0tDWHkyaUNqUQ?oc=5",
       "published_at": "2026-08-12T10:43:28+00:00",
       "category": "melilla",
@@ -294,19 +294,19 @@
       "weight": 2
     },
     {
-      "title": "Ceuta migrant crisis: Meta, TikTok agree to fact-check border content after nearly 100 deaths",
-      "source": "WION",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNeWkxTVhPMEo3U2VEbXQ2ejNhX2RaTlV2Yk41UEVWWTNWUTRIVXJMYTkyQ3VFLXlOWDBzRWMzcndHUi1ncFZMSTBfeXYwUEdFOU1nU0dsTDJKQ29HS1ptSFNVbk1oWVV4aFFqRV8ydHQ2YlJuRzh5Z21ZcENfd0RZNDVsQ01yUGdKYm9WODJmY29kZzlFTjEzdllacnFCaFZDcjNGdjlSTVdjbDVydGNhOFNONFFnVGdqcXlXcWZVdlhTOUZxS1doRTVZY28xdTFD0gHWAUFVX3lxTE9oSjhyTFJuUDFaTXNVSnNKWjhSbnphbkVsTzRPbFBlTzZYUE8tMnlQY3MxeTRwaFJ5Z21ZYXlEZ3Q5OU5kMlp0NGo4cFhsa3FPM3ZIR215S0xnWVBiVEJTejIyMDhBSjFETWcwRXdjUENsZU16N2E5WkRiMnVUT3N6WlNkRldtaThqTEUxd3F6QjFSbWJCc3VWSjQ3dzRzVmF6UnFIM0FZMFFKejdTOXR2VDNEaVJLWGo3cjc0MU5oV1lHQVgzMzd2a1RaZ3ZfTFEtUzB4dHc?oc=5",
-      "published_at": "2026-08-11T14:40:00+00:00",
+      "title": "Why Rumors About Morocco Followed Spain’s Ceuta Migrant Surge",
+      "source": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPd1BPYlhGWGRkUTNoazI0WUhxUHhNT2p5bnd5dm4wY1NvQWsxMGViR24wQkFBTUhVZ0xVSDUydFYwTURjVzQzQk45aVFjbUtrMEs1YjVQS0gzdkt2Y3dxdF8ydnZqNnJPdVU2SGJDNTdrX2FhMGVTYi1OLXBnOXByUEZfTVRlVnVk?oc=5",
+      "published_at": "2026-08-11T14:44:51+00:00",
       "category": "ceuta",
       "language": "en",
       "weight": 2
     },
     {
-      "title": "How Social Media Sparked a Refugee Crisis Between Spain and Morocco",
-      "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaTExZGhIbmxaT1dmZmRLckwwXzJHdjdYaUxuaFZLcUhtUVdGRUs0UHlKb0lZQVFwMHFETHZmMGdqbndJcFQ3MnlrUUVxckpqM09maXNub2o1eFhDZHNwbFUyWlZ3Y3BsZUhOVlVjRkkxMXJKVkNrMGY1RGVMZ3l4V2J0RVJyTmhUR3lV?oc=5",
-      "published_at": "2026-08-11T13:23:38+00:00",
+      "title": "Ceuta migrant crisis: Meta, TikTok agree to fact-check border content after nearly 100 deaths",
+      "source": "WION",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNeWkxTVhPMEo3U2VEbXQ2ejNhX2RaTlV2Yk41UEVWWTNWUTRIVXJMYTkyQ3VFLXlOWDBzRWMzcndHUi1ncFZMSTBfeXYwUEdFOU1nU0dsTDJKQ29HS1ptSFNVbk1oWVV4aFFqRV8ydHQ2YlJuRzh5Z21ZcENfd0RZNDVsQ01yUGdKYm9WODJmY29kZzlFTjEzdllacnFCaFZDcjNGdjlSTVdjbDVydGNhOFNONFFnVGdqcXlXcWZVdlhTOUZxS1doRTVZY28xdTFD0gHWAUFVX3lxTE9oSjhyTFJuUDFaTXNVSnNKWjhSbnphbkVsTzRPbFBlTzZYUE8tMnlQY3MxeTRwaFJ5Z21ZYXlEZ3Q5OU5kMlp0NGo4cFhsa3FPM3ZIR215S0xnWVBiVEJTejIyMDhBSjFETWcwRXdjUENsZU16N2E5WkRiMnVUT3N6WlNkRldtaThqTEUxd3F6QjFSbWJCc3VWSjQ3dzRzVmF6UnFIM0FZMFFKejdTOXR2VDNEaVJLWGo3cjc0MU5oV1lHQVgzMzd2a1RaZ3ZfTFEtUzB4dHc?oc=5",
+      "published_at": "2026-08-11T14:40:00+00:00",
       "category": "ceuta",
       "language": "en",
       "weight": 2
@@ -321,6 +321,15 @@
       "weight": 2
     },
     {
+      "title": "Meta and TikTok agree to fact-check content on Spain border crossings after deadly rush",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNWl9feWhQdTVlYnFhSjgzSml1UEx5dTFuQ084SVp2UHdxVmIzX3RuU21FQXRFR1Ryeks4bllBRjUxR2g1OWl5OVJkVWE2OUtROVhEOWc4RUFpd1Jxek96aWlqSzV0dy1FcUdVaV9ZX1ZTN0J4VU81cVRuOHljaXVIWHpYQkhCQlZua0ZvZWpwTXV1d05GOElka1JncHRXbHZKRGhlbEU2dDJlSVMwQ0Q3dk9Ya1FubFhkNGdzLQ?oc=5",
+      "published_at": "2026-08-11T12:27:49+00:00",
+      "category": "ceuta",
+      "language": "en",
+      "weight": 5
+    },
+    {
       "title": "https://www.ceutaactualidad.com/articulo/actualidad/juan-vivas-ni-papeles-ni-asilo-retorno-marruecos-crisis-frontera-ceuta/20260811135240279378.html",
       "source": "Ceuta TV",
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNRmpISkN2S28ydzhUZ1NFUml4N0l2LUx0M2JndXdycjhRZVpSd2RDTW5iZm1wd3htbEVCcXFYckt0WG9tWDZKMXF6dGZWZERHb1QwOHppNEN6ZnBfVlNJVzNWZzlQaTlnY0lGTVRQTS01WFFGMXJfbUZ0VUNXTi1nb3JLY3JMaFgzcW9HMVd1X1NDcU1nbXIydHFrMlRvWkwtcGdiQkVZeHR3Wi03aEVENzVPdm1MZ2QteUJ5SXZudzZ6VkNPUDY2eEhwdWtXQ1RxX2RlVEcxN2pIQy1BSC0zLWpBVdIB4wFBVV95cUxNRmpISkN2S28ydzhUZ1NFUml4N0l2LUx0M2JndXdycjhRZVpSd2RDTW5iZm1wd3htbEVCcXFYckt0WG9tWDZKMXF6dGZWZERHb1QwOHppNEN6ZnBfVlNJVzNWZzlQaTlnY0lGTVRQTS01WFFGMXJfbUZ0VUNXTi1nb3JLY3JMaFgzcW9HMVd1X1NDcU1nbXIydHFrMlRvWkwtcGdiQkVZeHR3Wi03aEVENzVPdm1MZ2QteUJ5SXZudzZ6VkNPUDY2eEhwdWtXQ1RxX2RlVEcxN2pIQy1BSC0zLWpBVQ?oc=5",
@@ -330,10 +339,10 @@
       "weight": 2
     },
     {
-      "title": "Why Rumors About Morocco Followed Spain’s Ceuta Migrant Surge",
+      "title": "How Social Media Sparked a Refugee Crisis Between Spain and Morocco",
       "source": "The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPd1BPYlhGWGRkUTNoazI0WUhxUHhNT2p5bnd5dm4wY1NvQWsxMGViR24wQkFBTUhVZ0xVSDUydFYwTURjVzQzQk45aVFjbUtrMEs1YjVQS0gzdkt2Y3dxdF8ydnZqNnJPdVU2SGJDNTdrX2FhMGVTYi1OLXBnOXByUEZfTVRlVnVk?oc=5",
-      "published_at": "2026-08-11T09:03:49+00:00",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaTExZGhIbmxaT1dmZmRLckwwXzJHdjdYaUxuaFZLcUhtUVdGRUs0UHlKb0lZQVFwMHFETHZmMGdqbndJcFQ3MnlrUUVxckpqM09maXNub2o1eFhDZHNwbFUyWlZ3Y3BsZUhOVlVjRkkxMXJKVkNrMGY1RGVMZ3l4V2J0RVJyTmhUR3lV?oc=5",
+      "published_at": "2026-08-11T09:03:41+00:00",
       "category": "ceuta",
       "language": "en",
       "weight": 2
@@ -349,20 +358,11 @@
     },
     {
       "title": "Vox insiste en el cierre de la frontera porque dice que, “hoy por hoy, beneficia sólo a la economía de Marruecos”",
-      "source": "Melilla Hoy",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQS00xQWpONWY0Qnh2S2c2RFlDUWgwYVJQMzYzcE41WDVmaGI4TUJsai1ZRG9Md2RQTXhIcEdkemowbkI2TWk0ZzR1LWhnWGFRdTR2Y1dlTkYyaHNLMzRzVkpDT0RTSGtScElzSmMtcXlkbVNTeHJ6NW80UkpiYU1KNnk4eTFLVFpJS0U2Y1l2U2tKTHJoRHcxaEhIX3pfa3EyU1dWNUZGNTRULUdCbFRTM1NGTTIweDVYYUVUYzNLMUZCZXlST0xWUU5wZU3SAdIBQVVfeXFMTlBWN2tHalZBQUZnSF9EYWlnZEtwckk0UTVsR0twbDE4SldheEtfMWFWRnhKUjhLUVNJbDNOUVZTTGFqME50Q3VEN0s1NDhDUTdMenE3VGlKTmVPcjJRZ0hHSFdFdm83T1hybURDQU52c1lJdThVX0dxXzI0bjBDa3lFWHlRQVVjc3hkMXdTSXc0RTdqQjloNHRQSkJPSlNSYWJTZEFpRnM4bDdSRVpQdGl2cHdYa045T2tNejZWYks2d25HejgyQThKSHAxNUhjV1RB?oc=5",
-      "published_at": "2026-08-11T05:18:00+00:00",
+      "source": "melillahoy.es",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUFY3a0dqVkFBRmdIX0RhaWdkS3BySTRRNWxHS3BsMThKV2F4S18xYVZGeEpSOEtRU0lsM05RVlNMYWowTnRDdUQ3SzU0OENRN0x6cTdUaUpOZU9yMlFnSEdIV0V2bzdPWHJtRENBTnZzWUl1OFVfR3FfMjRuMENreUVYeVFBVWNzeGQxd1NJdzRFN2pCOWg0dFBKQk9KU1JhYlNkQWlGczhsN1JFWlB0aXZwd1hrTjlPa016NlZiSzZ3bkd6ODJBOEpIcDE1SGNXVEHSAdIBQVVfeXFMTlBWN2tHalZBQUZnSF9EYWlnZEtwckk0UTVsR0twbDE4SldheEtfMWFWRnhKUjhLUVNJbDNOUVZTTGFqME50Q3VEN0s1NDhDUTdMenE3VGlKTmVPcjJRZ0hHSFdFdm83T1hybURDQU52c1lJdThVX0dxXzI0bjBDa3lFWHlRQVVjc3hkMXdTSXc0RTdqQjloNHRQSkJPSlNSYWJTZEFpRnM4bDdSRVpQdGl2cHdYa045T2tNejZWYks2d25HejgyQThKSHAxNUhjV1RB?oc=5",
+      "published_at": "2026-08-11T05:18:50+00:00",
       "category": "melilla",
       "language": "es",
-      "weight": 2
-    },
-    {
-      "title": "The Ceuta crisis is about more than migration",
-      "source": "The Korea Times",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNa2Rwb3J0TEh5MWFLa3lhc1ZVNUktLXl5bGFZdDdHLWVCV1V0bjdibzR6T0MxRUtkWHE5Wi11NGg4dDFOOHFBd3FIN1pUcHRxN3hIXzFMd2c4enBCRldPcDJDcnZyYVR0cW5XaTdhRVMxbXkteFE1Wm1YenhoN3lyU1dSaDJPX0l3TUEyZTllUFJJb2Naa1HSAZsBQVVfeXFMTUxUNkVtcnBqYTctby1KSnJXLVhpaWtORnQ2d0VTRFZ0OTFjTTZsUmpWVGdxbFpNeHIxZnM3TWZqbWNIeXV6Rk1teFlfejlfckY4OWJnQm1RWjZPcDVsVG1mbkFyN1ZDaDdwdFBpZVBDUlNBdC1nRjNUbXRxdWNtYm1ITENuUzFURGNaV083NzFfX0l2S2xPOGpuMEE?oc=5",
-      "published_at": "2026-08-11T03:26:03+00:00",
-      "category": "ceuta",
-      "language": "en",
       "weight": 2
     }
   ],

@@ -1,24 +1,24 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-12T18:15:13Z",
+  "generated_at": "2026-08-12T19:29:21Z",
   "overall": "healthy",
   "components": [
     {
       "name": "Sismicidad USGS",
       "state": "fresh",
       "label_es": "ACTUALIZADO",
-      "checked_at": "2026-08-12T18:11:16Z",
-      "age_minutes": 3,
+      "checked_at": "2026-08-12T19:29:11Z",
+      "age_minutes": 0,
       "source": "USGS Earthquake Catalog",
-      "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-07-13T18%3A11%3A16Z&endtime=2026-08-12T18%3A11%3A16Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
+      "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-07-13T19%3A29%3A11Z&endtime=2026-08-12T19%3A29%3A11Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
       "note_es": "Catálogo sísmico regional; no es una herramienta de predicción."
     },
     {
       "name": "Actualidad y geopolítica",
       "state": "fresh",
       "label_es": "ACTUALIZADO",
-      "checked_at": "2026-08-12T17:16:32.431393+00:00",
-      "age_minutes": 58,
+      "checked_at": "2026-08-12T19:29:16.331413+00:00",
+      "age_minutes": 0,
       "source": "Monitor editorial de fuentes públicas",
       "url": "fuentes.html",
       "note_es": "Los titulares se usan como señales y requieren atribución."
@@ -27,8 +27,8 @@
       "name": "Operación Paso del Estrecho",
       "state": "fresh",
       "label_es": "ACTUALIZADO",
-      "checked_at": "2026-08-12T18:11:21Z",
-      "age_minutes": 3,
+      "checked_at": "2026-08-12T19:29:16Z",
+      "age_minutes": 0,
       "source": "Secretaría General de Protección Civil y Emergencias",
       "url": "https://www.proteccioncivil.es/documents/20121/0/20260811_InformeOPE.pdf",
       "note_es": "La frescura de consulta no convierte el parte oficial en un contador en tiempo real."
@@ -38,7 +38,7 @@
       "state": "fresh",
       "label_es": "ACTUALIZADO",
       "checked_at": "2026-08-12T05:07:09Z",
-      "age_minutes": 788,
+      "age_minutes": 862,
       "source": "Gibraltar Watch",
       "url": "diario/2026-08-12.html",
       "note_es": "Última edición publicada"
@@ -47,16 +47,16 @@
       "name": "Integridad del sitio",
       "state": "fresh",
       "label_es": "CORRECTA",
-      "checked_at": "2026-08-12T18:15:13Z",
+      "checked_at": "2026-08-12T19:29:21Z",
       "age_minutes": 0,
       "source": "Validador local",
       "note_es": "Todos los archivos críticos están presentes."
     }
   ],
   "workflow": {
-    "run_id": "31626366748",
+    "run_id": "31632863436",
     "run_attempt": "1",
-    "sha": "53770b72d89f",
+    "sha": "fcfcf0c33f01",
     "event": "schedule"
   }
 }

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-13T21:05:38.324237+00:00",
+  "generated_at": "2026-08-13T22:05:27.738461+00:00",
   "language_default": "es",
   "status": {
     "maritime_status": {
@@ -20,12 +20,12 @@
       "en": "There are not enough recent signals to raise the level."
     },
     "bilateral_tension": {
-      "es": "VIGILANCIA",
-      "en": "WATCH"
+      "es": "ESTABLE",
+      "en": "STABLE"
     },
     "bilateral_note": {
-      "es": "Hay señales de fricción, sin ruptura de la cooperación.",
-      "en": "There are signs of friction without a breakdown in cooperation."
+      "es": "No se detecta una escalada bilateral clara en las fuentes recientes.",
+      "en": "No clear bilateral escalation is detected in recent sources."
     },
     "security_status": {
       "es": "VIGILANCIA",
@@ -41,6 +41,24 @@
     }
   },
   "items": [
+    {
+      "title": "Un ministro de Marruecos cercano al rey culpa a España de la crisis en Ceuta",
+      "source": "Diario Público",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOLXZOb3RFTVAtUUtaUTYzNEE3WEFkaVA1M0F4Snd1RVdKM3A3cmZDV2NwNFlvZzRVVmtBTWI4eVkwWHNKLXJPQW1jRHJ5NndFR0pBUDlrU1dSajJOYmRYMXo1V1Z2X3k2MnZmVDBtcUsyOG5tdkNDRlJwY3JpenFZMmxpUGJhbEJjLVlPX0hfQ3hzalRmUWRoUnVhX0cwQzEtYUo0ejV30gGrAUFVX3lxTE1PZjcwU2Z5dHZWUVZtM0pUUnBOQ1pTd3JERnViM2w3anMxNFpNdTB1UHpzUVNNSktHeEdHLWx5bkYyWjFoX0xGLVExd3ZxcFZDamtpOWNKdThpN1ZZTE5GRS10SDBYdThSZlJNVnAzMWpjX0hfSnFOeG94czY2OWhiTmNqTm5zdlUtYk1MVWRqYlNabmlWck8xSnBOVFUyZ1VObG1fYW8xU1lYYw?oc=5",
+      "published_at": "2026-08-13T20:54:55+00:00",
+      "category": "ceuta",
+      "language": "es",
+      "weight": 2
+    },
+    {
+      "title": "Spain rejects discussing sovereignty of enclaves with Morocco",
+      "source": "CNBC Africa",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPczBIdmRSMWhlMEZmQlppNmpvWVA3OFk5Tm4yUkhud3JNWHFucWlKS3RibzhIU0NTd2NvanVwTlRlSUNYMG9QbW5aSkdtQndTbnZwZ3pFZkxIVnhMZ3pyUFBzbTVocThIcU1JZHpTQ3hWU1djMkRLQW8xaDBYancycFk0STFKVFFSeGRxaklQNkkzZXdWaUx1Mw?oc=5",
+      "published_at": "2026-08-13T15:50:00+00:00",
+      "category": "ceuta",
+      "language": "en",
+      "weight": 2
+    },
     {
       "title": "Marruecos refuerza las fronteras con Ceuta y Melilla y España instala otra barrera por la amenaza del 15A",
       "source": "El Nacional.cat",
@@ -116,8 +134,8 @@
     {
       "title": "Morocco renews Ceuta, Melilla claims after migration crisis",
       "source": "The Arab Weekly",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOVG1VU0FHb3NKZ055VHlRN2hDczFzQ1pmQnVhdXhJR2p5TnozajVGQk9GWEpzalJ1LVhKeGx2OG5UWS16bmpoN1lIbXh5a00wdEg4cTl3NTEyUGRzejJvelFaaFpfVnAwQnJ0RjNLZHNYRjgzTkJNS0Y1TmZqazZiZnNJZG5DalRqczFOZg?oc=5",
-      "published_at": "2026-08-13T09:14:22+00:00",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUHlHd0QtRlJyNDdPRWtYRGN3NjJUeUxKQVRMMjlnN1pHZ0pDNTZpZjd6ZmpzTXRJU2xIWUdaTmMzSkZvalAyVWlSb1UycWQ3NDFuc1BPdmhDWDFFMlZfTDdxUW42SmVJYmRubVFvYVRMYUpCZm9ubGNsekxyR1Vzbmh1SG9Eclh3VU81MGkzMlc?oc=5",
+      "published_at": "2026-08-13T09:25:44+00:00",
       "category": "ceuta",
       "language": "en",
       "weight": 2
@@ -142,18 +160,9 @@
     },
     {
       "title": "Ceuta, bajo vigilancia: Netmaps, un indicador que intenta anticipar otra crisis fronteriza",
-      "source": "Ceuta TV",
+      "source": "ceutatv.com",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZktSNVJ4eWgtcEtfUDFPMWpGck9qcXVFZ1RLQ1VFOHh1c3NYcTdRNHc5M1ZwQlJvZE1uMTU3aHpLZ1JFTWI0VnRWZG9JbE1GcENlZVBNbmh4Q19wV053WktSbGkxOHVtQnVWcWMwT3FVY01XUzZTYWdELWM5S1I2U2pmTXhuYmJjZnJEdmhrR3IzOE45QTBfdE1DT2IwTUNXRXpJWTdJaC1aU1B0VDdERVRQdldsdmJlWGZ4WU9XY2JLc0dZMkQyWDNPV1NjcHdENVhGZm1R0gHbAUFVX3lxTE15cWdWdGU4enpSbzBFTzJHa0dRZGtrQnpOa1E0d2NjZlVBUWV2Q3RLX29fRWY3bWJsSG1zQkF2Mkd2Q2l3ZjFYU2xPSVcwZDVVRGNGRnB1dzNvRl9XanFwY1ZyYWR2ZVlyV2h0blZJY1NvYndYRmthOXBmNEY3aloxd2VtaGZpMUVTU2JJVll4UG9UMHJhOWV1dHR0MHcxLTBhQnREemRRcGZUelJPdVNtNjJGUnUyRHVYTVk0Nk01OURBZll0cUozSXFKM3dfVDRHVXI2elk0YXRSWQ?oc=5",
       "published_at": "2026-08-13T06:35:26+00:00",
-      "category": "ceuta",
-      "language": "es",
-      "weight": 2
-    },
-    {
-      "title": "Un ministro de Marruecos cercano al rey culpa a España de la crisis en Ceuta",
-      "source": "Diario Público",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOLXZOb3RFTVAtUUtaUTYzNEE3WEFkaVA1M0F4Snd1RVdKM3A3cmZDV2NwNFlvZzRVVmtBTWI4eVkwWHNKLXJPQW1jRHJ5NndFR0pBUDlrU1dSajJOYmRYMXo1V1Z2X3k2MnZmVDBtcUsyOG5tdkNDRlJwY3JpenFZMmxpUGJhbEJjLVlPX0hfQ3hzalRmUWRoUnVhX0cwQzEtYUo0ejV30gGrAUFVX3lxTE1PZjcwU2Z5dHZWUVZtM0pUUnBOQ1pTd3JERnViM2w3anMxNFpNdTB1UHpzUVNNSktHeEdHLWx5bkYyWjFoX0xGLVExd3ZxcFZDamtpOWNKdThpN1ZZTE5GRS10SDBYdThSZlJNVnAzMWpjX0hfSnFOeG94czY2OWhiTmNqTm5zdlUtYk1MVWRqYlNabmlWck8xSnBOVFUyZ1VObG1fYW8xU1lYYw?oc=5",
-      "published_at": "2026-08-13T06:22:38+00:00",
       "category": "ceuta",
       "language": "es",
       "weight": 2
@@ -175,15 +184,6 @@
       "category": "ceuta",
       "language": "es",
       "weight": 2
-    },
-    {
-      "title": "Spain rejects discussing sovereignty of enclaves with Morocco",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUW9YV1hRXzRJbmZmejdpLWx5bGl4WHk0VlBJcjJVTDNWaGVDVkhjbkJTNS1GZHp2UlhmYmxXR3cyLXlkaXl5SXBvZ2NMVUVkbEhEWGJpdTBKY0k5OVVGbDI3MGFJS01uRGdVRlNzZUhxLUdmdnMxekRDRXV2RFBEZXJXOG1ibW1pVXR4RGNERkdzV0J6czRDLXZna0hQSENMM29VNGFkcFV1X3M?oc=5",
-      "published_at": "2026-08-12T23:38:32+00:00",
-      "category": "ceuta",
-      "language": "en",
-      "weight": 5
     },
     {
       "title": "Morocco says working to prevent potential new Ceuta crossings surge",
@@ -250,7 +250,7 @@
     },
     {
       "title": "Debemos dejar de pagar a Marruecos. El Rey de España debe visitar dos ciudades españolas: Melilla y Ceuta.",
-      "source": "Melilla Hoy",
+      "source": "melillahoy.es",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdnBWbFJPNUMwSkpyYXZyZ3dGU01QdmlIazVHalBZbmF2dURPRUFoTXFoZjg2bkdLLWM5dWlhanduNTJDcnZnYUlQSGpqRjVtUmE0a2Nyc2ZPaFpIa3hQVTFROTkwLWxUcVo3TVVYUFF6YkhrZmJrN01VTTRyWTM3V0xLSVotWlYwMUJ0ZHRSR09pc3BNbDExUmllRjRuVlhzSFJ2MEg4N29JRWhDRllrSXBvNURzRTlsWjRjdUVRdkI5OGFf0gHKAUFVX3lxTE9pMTY5Q0RZUGlPUDFrNWxSQmJyZ3ZoRkt1bTJ5c0prRDNqWUtNRmxVNjhucmd3M3JSZHctUDV4c004S2UzVDlMRTdNQUlHdmRWb2VES3RiRE9MSE14d2s0NzZYdW12V2l6anFjLTh6ZS1SckhOMkdZZzVJOE1vdzY5RHU0OEJHNy1yNlE1VHRoUlVhLXR2UWJqSkduUzc5c1M3aFRrcFozRGhDNmdvd0ZsbGc3em1tbDczSGtBekdOOEU0bnc3WWlxWVE?oc=5",
       "published_at": "2026-08-12T12:30:00+00:00",
       "category": "melilla",
@@ -303,15 +303,6 @@
       "weight": 2
     },
     {
-      "title": "Robles se planta ante la tibieza de Marlaska con Marruecos: «Ceuta y Melilla no se tocan»",
-      "source": "El Correo",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUElYS0NMLVJ1MG9TLTJVdHlBdGYycm9pTEMwWW1TZUoxNzk3MW1OZW1HeGRTTWNNMUZpSUEzUUltLWhMVkZ2V3NEcWg5Y19pcVoxR2d1RWVkTDgyVkVQVVVGWXhEVVIxa0dHVVZMWEpNNlhkZHlwdm5lZlZUSXoxd0tibmc5WVNXbjVmU3c0TWNkZjVESll5a2pZQnFrRVdzazVONTA1NFRqNkNzUkowQtIBtgFBVV95cUxNYW55SldkQWxjZjQ4a0VmcXo5RnVuQW5JdVZ4RlQtSVJQVm9QbWJicm0zclY0aVJ5aGIwOFpNUW0ySTFvRG5neEtSNDVmemdCMmdOeTMzQllLVkJGbFRabzZfQVVkYl9GU0FtS251S25taWotOGJ0czkzN3doNlBDQjJERFlZc29rU2hibi1QaVRUQUgzeWxTSVZydmkzR2N1T3RzdF9TYl9kejlPR0tDWHkyaUNqUQ?oc=5",
-      "published_at": "2026-08-12T10:43:28+00:00",
-      "category": "melilla",
-      "language": "es",
-      "weight": 2
-    },
-    {
       "title": "El PP señala ahora a Marruecos como \"responsable\" de lo sucedido en Ceuta y avisa: \"España no puede entregarle a Rabat la llave de su frontera\"",
       "source": "El Mundo",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0wTUYwaTZNUzJJNFNRY1ZRb2dxRXI0ZWRMR2FlV3FtcE5lWVBSMF81SXNyWHlHUjVGWUN2M2R0R3RVSEtQaVk0WHllQjZDOUIyS0tGZ095QTNMbHpFZ2M3TEFWS0NNNFVISWE1N3JkeU5EQVZxUTMzZzVR0gF6QVVfeXFMT0tjX2F1OFZXRnZvY2hJbmRDX010andQWUR2MTRFc01NQ2hFTDdIbTRIZllSMXh5RzcyRmFObXFGSUtGdVZacnZDTHd3bFlSTkV0bjZiZzVOV3lxblFyZjcyM2VpN3BLY3dHTFJINXVQck1oRFZsVE9XS3c?oc=5",
@@ -358,10 +349,19 @@
     },
     {
       "title": "El ministro de Justicia de Marruecos desafía al Gobierno con Ceuta y Melilla: \"Nos aferramos a nuestros territorios\"",
-      "source": "larazon.es",
+      "source": "La Razón",
       "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQYzlJeklNeV9tbkJaeHhxTkg4emFvRTN6OGR5ZmszZ3NLeXZTcWFMSUVjTG84WXJIbVR2XzJRS0U2U21QWnI3T0FDalFvVmllaDlCVTA4aVFSN3V5WE0yMk5SV3U3d0hYalZKdjY5U243LW8yRUNNeEhFekFBQ1hjMHV6NTZHR2lzdV9FWHRhbEFmR1JqRnE2R245X3hXX3dDei1xZ1hGazFtdllRNnczV1ozNElwLTlhMmF3T0Z0aG1BTXItUmZnSWtxR01IckFNNERISEUwWVBQSVMtWEhRdERCQXlxaW9GaE9XVDhXSFpMRFXSAYcCQVVfeXFMUDEzM2J1a19QVVd3ZUtIRExzX2pHY01pNWZabFJRSEFDbVJYTUNCVzB1R1ZSbUU4eXhESGZJZHlJQ2xGSGtnOThJbnZ6aHZYS0RPVmtyWUU2U25UaExKNEZHM2xPbklRZGpiYzdpQlF3LUE1c1JGRktsSUpPY1RySTFMZzJyWU5hNUM1SEIweU1zZi03cF90WkZ4d08xUkNPajBNMHFrMjZLRDZscEUwXzNFZjF2UlV5UmtfVWZ5X2t4VE44SzJFMTFhZk0xS0JhVFF3UG5QQmhyWmVPZ25Yd1NlSVdKWUtFR18zSjZQZWQ1VnItWWI1YkFtb09ndlNwcDlwaWp2Nzg?oc=5",
       "published_at": "2026-08-12T07:20:14+00:00",
       "category": "melilla",
+      "language": "es",
+      "weight": 2
+    },
+    {
+      "title": "España no puede devolver a Marruecos a todas las personas que cruzaron a Ceuta porque lo impide la ley",
+      "source": "Diario Público",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSlRiM0Ruak9aaTdXY2NEZ2ZXLWFSZUUzNm1TSy16Tmh0cTVScGVvZlZHLXE3SjM2Sy1IbFo3WU5jUTFiamgtNlE0c1lYLTdLbUNPLTh2eEdqamdiWDlxc0tiYVlQMmtqRzRQVnA2Z0RwbURvVEp0SzJERWtZMGI4WThaTlRhdWhmYTRrQU5PbTNia3lYNGcyTU9acm4xd2JsNHpxSlZOUXZIYjhCbVE?oc=5",
+      "published_at": "2026-08-12T06:53:58+00:00",
+      "category": "ceuta",
       "language": "es",
       "weight": 2
     }

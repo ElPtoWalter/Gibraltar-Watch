@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-12T23:04:02Z",
+  "generated_at": "2026-08-13T00:00:38Z",
   "state": {
-    "code": "normal",
-    "label_es": "NORMALIDAD OPERATIVA",
-    "color": "green",
-    "severity": 0,
-    "summary_es": "No aparecen señales suficientes para elevar el nivel general del observatorio.",
+    "code": "watch",
+    "label_es": "VIGILANCIA",
+    "color": "yellow",
+    "severity": 1,
+    "summary_es": "La situación requiere seguimiento, pero no aparecen señales suficientes para elevar el nivel operativo.",
     "layers": {
       "maritime": {
         "value": "OPERATIVO",
@@ -17,8 +17,8 @@
         "severity": 0
       },
       "bilateral": {
-        "value": "ESTABLE",
-        "severity": 0
+        "value": "VIGILANCIA",
+        "severity": 1
       },
       "security": {
         "value": "SIN ALERTA ESPECÍFICA",
@@ -33,7 +33,7 @@
     }
   },
   "metrics": {
-    "news_24h": 31,
+    "news_24h": 30,
     "news_sources": 32,
     "seismic_24h": 0,
     "seismic_7d": 0,
@@ -49,18 +49,18 @@
   "anomalies": [],
   "changes": {
     "state_changed": true,
-    "previous_state_code": "watch",
+    "previous_state_code": "normal",
     "layer_changes": [
       {
         "key": "bilateral",
-        "previous": "VIGILANCIA",
-        "current": "ESTABLE"
+        "previous": "ESTABLE",
+        "current": "VIGILANCIA"
       }
     ]
   },
   "health": {
     "overall": "healthy",
-    "generated_at": "2026-08-12T23:04:02Z"
+    "generated_at": "2026-08-13T00:00:38Z"
   },
   "latest_diary": {
     "date": "2026-08-12",

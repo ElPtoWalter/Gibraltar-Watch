@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-12T23:03:58.331436+00:00",
+  "generated_at": "2026-08-13T00:00:33.255432+00:00",
   "language_default": "es",
   "status": {
     "maritime_status": {
@@ -20,12 +20,12 @@
       "en": "There are not enough recent signals to raise the level."
     },
     "bilateral_tension": {
-      "es": "ESTABLE",
-      "en": "STABLE"
+      "es": "VIGILANCIA",
+      "en": "WATCH"
     },
     "bilateral_note": {
-      "es": "No se detecta una escalada bilateral clara en las fuentes recientes.",
-      "en": "No clear bilateral escalation is detected in recent sources."
+      "es": "Hay señales de fricción, sin ruptura de la cooperación.",
+      "en": "There are signs of friction without a breakdown in cooperation."
     },
     "security_status": {
       "es": "SIN ALERTA ESPECÍFICA",
@@ -41,6 +41,15 @@
     }
   },
   "items": [
+    {
+      "title": "Spain rejects discussing sovereignty of enclaves with Morocco",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUW9YV1hRXzRJbmZmejdpLWx5bGl4WHk0VlBJcjJVTDNWaGVDVkhjbkJTNS1GZHp2UlhmYmxXR3cyLXlkaXl5SXBvZ2NMVUVkbEhEWGJpdTBKY0k5OVVGbDI3MGFJS01uRGdVRlNzZUhxLUdmdnMxekRDRXV2RFBEZXJXOG1ibW1pVXR4RGNERkdzV0J6czRDLXZna0hQSENMM29VNGFkcFV1X3M?oc=5",
+      "published_at": "2026-08-12T23:38:32+00:00",
+      "category": "ceuta",
+      "language": "en",
+      "weight": 5
+    },
     {
       "title": "Morocco says working to prevent potential new Ceuta crossings surge",
       "source": "Al Jazeera",
@@ -79,7 +88,7 @@
     },
     {
       "title": "Marruecos refuerza la seguridad en Ceuta y Melilla al resurgir llamados a cruces masivos",
-      "source": "Seattle Post-Intelligencer",
+      "source": "seattlepi.com",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPOTNfSGVNazhBTE05UkNSRDk1TzZCOExQckIxYzVINW8xaF9jQ01wLTNpV0NJNTJsY1VnUjdfQUpWVGp4UjFBM3loRFk0WFpKSGQ4d3hXaWp5ZnJZZlowUUVTbUVyMDNpalV3aVR5U1hPblJ6MG0xLUFwYncwUk9nQlpvODJTVktLS0RCdWRrSzIzVUk?oc=5",
       "published_at": "2026-08-12T18:46:46+00:00",
       "category": "melilla",
@@ -91,7 +100,7 @@
       "source": "WION",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONHUzTmJmQ3o5aXg4ZXMxU0djNWlMbmpHNUpCZS1adDJJM2h2QzE5RlBpTDI2MTdwYnk1NjVYUVk5UU9hb2x6eEFqdHVJdWlqeVViYVlObzRWeDBLelZYTGdKYXEtYXRiWVVqY3pXa2Q2ejN3RlVQUXd0Y3puVTVYSlh5MjF5YXN4UmtNZXhGaWlDeVoxRkHSAZsBQVVfeXFMUHJNQ0N1Y1ZoczRMOE1xUE0tdEJOQWJrMlpBNlFLSnNMOU13aXNBUURKa0lGbHlsYU5UdWRrMWVVd0oxS2x1MHBiVEdTNm01dnJtU0NTN2NXc29Wa1kzWnRxOU9vQTVUZWFRZGxGVVdKNW9WUHlDLW4wRWFHOTNzT1lZZWxzQmk1ZWdyMkZncExiaTFLWmo5VGVWVG8?oc=5",
       "published_at": "2026-08-12T18:38:00+00:00",
-      "category": "ceuta",
+      "category": "relations",
       "language": "en",
       "weight": 2
     },
@@ -111,15 +120,6 @@
       "published_at": "2026-08-12T15:18:18+00:00",
       "category": "melilla",
       "language": "es",
-      "weight": 2
-    },
-    {
-      "title": "Spain rejects discussing sovereignty of enclaves with Morocco",
-      "source": "reuters.com",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUW9YV1hRXzRJbmZmejdpLWx5bGl4WHk0VlBJcjJVTDNWaGVDVkhjbkJTNS1GZHp2UlhmYmxXR3cyLXlkaXl5SXBvZ2NMVUVkbEhEWGJpdTBKY0k5OVVGbDI3MGFJS01uRGdVRlNzZUhxLUdmdnMxekRDRXV2RFBEZXJXOG1ibW1pVXR4RGNERkdzV0J6czRDLXZna0hQSENMM29VNGFkcFV1X3M?oc=5",
-      "published_at": "2026-08-12T14:46:27+00:00",
-      "category": "ceuta",
-      "language": "en",
       "weight": 2
     },
     {
@@ -169,7 +169,7 @@
     },
     {
       "title": "El Gobierno calla ante la amenaza de Marruecos sobre Ceuta y Melilla y el PP le acusa de «entregarle la lla...",
-      "source": "okdiario.com",
+      "source": "OkDiario",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQlFvakpydjEtYk1BbUxjcjVTUmhDQkZDVU1ZMVZ5VGR0QU1pZWhfV2g4MmRKdHktQ3JLX184QkplalNOUnlvRzEtT24tZFZvdFg3aVlTR045N08xbGNzOWdlamY0STJMYlRfSEtia0VqYzdxSVpGc0lpTWFKUms1WWRVbTRqczlHYnEyNDdiYklWc0xrZ0RoREwyQVZ4aGNaTVBqM1g4MVdYR2FIRkhCdGU0RDA2Ym16X3lUMGd3eWcxUTJ2M3hZ0gHHAUFVX3lxTE1CUW9qSnJ2MS1iTUFtTGNyNVNSaENCRkNVTVkxVnlUZHRBTWllaF9XaDgyZEp0eS1DcktfXzhCSmVqU05SeW9HMS1Pbi1kVm90WDdpWVNHTjk3TzFsY3M5Z2VqZjRJMkxiVF9IS2JrRWpjN3FJWkZzSWlNYUpSazVZZFVtNGpzOUdicTI0N2JiSVZzTGtnRGhETDJBVnhoY1pNUGozWDgxV1hHYUhGSEJ0ZTREMDZibXpfeVQwZ3d5ZzFRMnYzeFk?oc=5",
       "published_at": "2026-08-12T11:29:26+00:00",
       "category": "melilla",
@@ -205,7 +205,7 @@
     },
     {
       "title": "La ONG Caminando Fronteras eleva a 145 los fallecidos en la crisis de Ceuta, 67 de ellos en Marruecos",
-      "source": "infobae.com",
+      "source": "Infobae",
       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOMDMxdGhKcFVIQTZrSTNZREpDZFB0MzdFNW0xekhELWw4X21Xd053QWN5N1JEUXBHSUZpYzE3MWs4eDgxUFBrMkxwYk1mSTQ1YjA4SnJIY3o5N2xHWWRuRXRBTExTT1FlLVpOMW9PMkFyRHpSMndYQXY2ME9RZGk0RHREWFlIQlBSRk1BNFY2dVFCVGMxTFNqZkpnNEtTWHhsdXhVSFM1RVltTFA1a0wxdWJZWnBmN3ZxWThBMzdZRm8zeU04WFQ4WlROTlBMdm5qN292dTBDeEVBMUXSAfYBQVVfeXFMT0tSMzV3cHR5NkhpVG00dVBjYi1SLTAxMktRdlk4NGhYXzZxbUVsT3BJQkQ2ZFVkT3RKN3Z4YkllSlhZeG9MMkNmYm1oX0t2cFRaRVcxMVdlQ2hycC1SQVZGbVd2aTRJaFdqSF9kam9qaS1HMzloOTVZS2xYMjBMRXM4OGc1S3lKLUhrUm9vM0ZjaEhTcnB0WHI4eDhXRVdhUTQxZkZSRERxRDQyX0tKaXRNb3RWN242SnRfcGRCOWFLV3RLaWQ5SF95TXRqdzVHdFdkMXVseC10bW04ZzdtZ2J1WlQ3RXFzSS02QzJMUF9aSTE2RnZB?oc=5",
       "published_at": "2026-08-12T10:35:20+00:00",
       "category": "ceuta",
@@ -285,17 +285,8 @@
       "weight": 2
     },
     {
-      "title": "Crisis in Ceuta: the open border that only existed on social media",
-      "source": "Diari ARA",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRkZPcGxUQjJTaURiaEFubEdyZUtWODY4U1pzWm1rU0xNcEtabmd2S212cVdOMHNkQUlTeEF4bll6MHVvSWFsc05VcmhnNGQ3c00xeEhKN052VlpPb2x6WS0zWXI5dHdIVE9LV3lKWGEtUGs2ejFGTHRBdXNFNzNSMFZvbXlNczBnYldZdHR0bkh0ZUpGTUNYdmIzNkppV0NGZ1k2bVlXUdIBrAFBVV95cUxNcG9TRldDMnZYRWNOY1pSQ0s1ZWpySEFUM0RkWE9LckVPell5cUtLTDY3LXlNeWUxQVhqS3Q3NmdOeHJieXJFSU9jUW9LSlJjTmJYY2JPc0E0UldtbjhSOTdfczJLTEV2ZTl5eDVDVUlZR29XdWZMSk01eFdYU25mNGV4N29ZUXRiMkc1blFJdXlPZjJGMWFkOEh1dW9kMm1SSHgwS0l1SVIwUkpp?oc=5",
-      "published_at": "2026-08-12T05:02:19+00:00",
-      "category": "ceuta",
-      "language": "en",
-      "weight": 2
-    },
-    {
       "title": "LAS “FRONTERAS DISCUTIDAS” DE CEUTA Y MELILLA",
-      "source": "El Adelantado",
+      "source": "eladelantado.com",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMEJGdl9kbU9XeHFmQkFiX0xkbDhtTGVoYzhkZXI3dVQ2NUpxN1J3dUhETEY5SlhUb1RxNld0azl3c2djaHVwbF9USDBRbWtlSmFYemxHeG51WjNZM3FiN3Jta2lzcS14d19nZlF0LU5zVHRBN2dDajFzQlM0VlNMdWxjZ19wVWRUVG5ESHBzcm9EdDFkeEIyN0d3ekw?oc=5",
       "published_at": "2026-08-12T03:30:39+00:00",
       "category": "melilla",
@@ -322,7 +313,7 @@
     },
     {
       "title": "El ministro de Justicia de Marruecos, sobre Ceuta y Melilla: “Cada vez que nos reunimos con España planteamos la cuestión. Seguimos reivindicando nuestros territorios”",
-      "source": "infobae.com",
+      "source": "Infobae",
       "url": "https://news.google.com/rss/articles/CBMirgJBVV95cUxPRHY2NFo3eVBOTXB3Um81Y0laRURHQkdwaFVMaWE0VW9LQUZwZzVRUUNxWHE2cGM3eTlCLUF2cmxUblhXeVZzaHVzS3hET01NeUtIcnladUdXbHhtTi01OEgwTGFaeTBTMXJZUi11VXNNc2tyaWlULVNiR2d2MjNHRWJhWHN1bUFkQ2tDSEpwRFAyS0c2SmI1eEFCWHU4b0lOTnRvOEJQYmowM1BSR3Q5bjBOQmE5NDRHdGJZdUJwSjBsNDRKaG9JcWhzekNMem9BUE1JQ3F2bHVxd2NXQWhjTTItMUJXWkczMV9TZ1pDNFFaNXQ4cVRTVVJESE1YZ0UwQkpFRDFFNHNhSUlCQTg2YjRvQnBJd3lrOTkxcFZGQkp5WG9hWlZlYUdYUFZQQdIByAJBVV95cUxQRExCQjVEWUpyMDJ5M2xPc2Yyc0hJTUVrNmVneWZITm95UUZhTl9TUHF5dGlFZFYzR2doYkdoTk5lRkx5ZW92ZTdHcVdrb0k1bFUxTFBVTXRYa0tuRHJOMGNuamExVFd6STBDUjZoRm5xc2tzZnh0WlY4MUl4MHdQemJtZGF0d1hKMTNvM2JGN0I3TGZhWVd5eGdsLU5hN05KZG11ZnlBaXRfWG5nNks5M1VvVVd6bkRiSnNGSU5uWThGZjlya200amRJSlJ3eTlYdjZMM1QtUXJrZGJsVFRFelNGbjRUNUVqck5KeDJOYXFFYTk2N1Jkd3NMWjFDVW9jeGRGdGF6OVp4OVBtYWpUZVhnSXBEeVFEMEVkZVZ2V0ZmTllQYm9PVFZWdzd2eXptV2Nrcm52cUtlVTVHVHNhWUVLeEczYkNM?oc=5",
       "published_at": "2026-08-11T22:54:16+00:00",
       "category": "relations",
@@ -361,6 +352,15 @@
       "source": "La Gaceta de Canarias",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPTGIwMFVST2NOaEFqbkRKNnFSRmowVWRkUlZSTE9QMFVkQ1FvSnRDNFdPVVdodjlIUjdJY3hTc0Z5R1BLR1ZNNFYwZVlQVUVNOHRpNnJQMlJ6dlBDTUVjRVlVcHhodHdRUHN1ZWhONklnUWt5S2U5NVhsU3ZsbjV3S0x0WVZMT2VIVnUtT2NKdFhXM09wd1d0clNkaW1URFNFSGxpaFFDUWJtZk5lRG4wU3NOTUhOT2dxdFdyNmZneUxhV0ZkUFViVEhIeEpfa085Ri1qYVNhU00?oc=5",
       "published_at": "2026-08-11T18:00:30+00:00",
+      "category": "melilla",
+      "language": "es",
+      "weight": 2
+    },
+    {
+      "title": "Albares advierte a los migrantes de no cruzar las fronteras de Ceuta y Melilla: \"Que no arriesguen sus vidas, van a ser devueltos\"",
+      "source": "Onda Cero",
+      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQSk12WThlZENkZjRSQUt3Rjc4MUpqZC1XTlF0TmFneHBrWkpRYzdrdmdDemotUjlZNmVxcnlHVzEydkFxYTJSU1pibE9YYnNvc3Ria3pQUkVVcmVTNi1fOEk5VnE0bFk4dFhXWDNFelJjVm1RWE5jZFl0WkxzbWxhc1R0cmQ1dFlaUGZUWHMzTEd5b2JJbXNvbWpEa3hSdHR2MjFaUTVsSW1ldm9ab3AyUWpteEppaTBjdnJQQ0RCR0d3WUVZakR5VGRacmJabGtsQ2dQbFNFWnFiem04cU5ldGxIWVI1bVZYVUlweU1RZ3R4VzhuYkNnYkE0UkFoLUhqLXp4a284Mnk2d9IBigJBVV95cUxQMXJRVDZkaHN4d2lxdExxZVV2U1FBX3FHbDlCTVVXdmxpRHRSd3AzYUdFcThQek1xdWpZaDlJOGhNTlF2d2dBWnJXZDVDS0txZGM3Z2FwbnpaeGtkQktZYWNscUVWcU0yOUQ0NVN6MG42bUNLMXdtTDg4TS1wSktUcFF1RkIxVHFvTWZGTTMwRkUxcXZkWEMybDY5eUtNd29Nb2dhRWxULVNqdUdPbkdfV20tMDFYM3Q5X1NNaDNRX2NxODBVS2RnbWVIUmRDNTZmTG9US1ZjV0lVN2VyMlZZbFdTbi15M2g5OXBZa3d2YnhCY0dob1dGNGxJek96X0t6bTJfb1VfbWMyUQ?oc=5",
+      "published_at": "2026-08-11T16:56:34+00:00",
       "category": "melilla",
       "language": "es",
       "weight": 2

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-13T22:05:27.738461+00:00",
+  "generated_at": "2026-08-13T23:05:19.253718+00:00",
   "language_default": "es",
   "status": {
     "maritime_status": {
@@ -28,12 +28,12 @@
       "en": "No clear bilateral escalation is detected in recent sources."
     },
     "security_status": {
-      "es": "VIGILANCIA",
-      "en": "MONITORING"
+      "es": "SIN ALERTA ESPECÍFICA",
+      "en": "NO SPECIFIC ALERT"
     },
     "security_note": {
-      "es": "Existen medidas o incidentes de seguridad recientes.",
-      "en": "Recent security measures or incidents are reported."
+      "es": "No se detectan señales suficientes para una alerta editorial.",
+      "en": "There are not enough signals for an editorial alert."
     },
     "confidence": {
       "es": "BAJA",
@@ -57,6 +57,15 @@
       "published_at": "2026-08-13T15:50:00+00:00",
       "category": "ceuta",
       "language": "en",
+      "weight": 2
+    },
+    {
+      "title": "Marruecos anuncia que militariza la frontera con Ceuta y comienza a colocar concertinas",
+      "source": "La Voz de Galicia",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPcWZyZ3Q2Y2E3aUwwZGJmRFg4WFJCRHJKX1VnRDN3RXo2MGlsSUdRZVhPS0gwNndxWE04b293R3lkOWNoRnQzMzJ2ZVVLa1JYWVRwWGE5R0ZHTm44RFRLazdSckNVdDFHaEVucEJBRC1mNlpqaERQdFNtOWstVDQ5SkZYMnlkRXNpTHNJVUdrVDJOQmhPaExTSzJqU0RxRzFrVVpNWWZPME0tVXpOTkZidF91a1JXZTJjTGdXVGplckZETDN0LTFBTmd4cGNLSXpxdENhSVVGb1RFRE9TU2VWUGpTdTXSAYACQVVfeXFMTlFMNEZzRnl0eklScTNxSUpRWW5mYjlhSjdETGR5UjIzdHdKdHpJdTJlTlJvM2pISTBiYzhsT2RJT0k4SjZUMS1xSUNnRmlIMF9PWEdTYkJDZFN4T0tPaGliengxX0lvTEx5ZXR5VnJfQmd1NEVoZGRwVXJqYkpGN0k1dkR2Y2doOWMyWUl0bktzSXpCVVFrOUIyMGZ4LUJpMl9HQ0NESHBMMWtPdGdYcEhrNElmaENJWWpOdjBvRWJ6djhQRVFidkxCcFpkSldNeWRWd01xdHE4eUxpakZQUWdWczVrQVV2Y01zZ3p5cXBQeTYwTGF6R1daSWZQZEJ0Mw?oc=5",
+      "published_at": "2026-08-13T14:04:54+00:00",
+      "category": "melilla",
+      "language": "es",
       "weight": 2
     },
     {
@@ -88,7 +97,7 @@
     },
     {
       "title": "¿SABÍAS QUE…? | Ceuta y Melilla no están «geográficamente en Marruecos»: están en África y limitan con Marruecos",
-      "source": "No te olvides del Sahara Occidental",
+      "source": "noteolvidesdelsaharaoccidental.org",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOX0NkQjNxcl9uNm9JZFIwLXNOeEFmQWg3NWNKMTQxRlFURzhybE9sOG9obFU4T1VSTEVFV19uNmpYRV8wanhRN0dKYzlaOGVLN0RTbVVHclZySTJQYTVrdUt1RERFb3ZDMGQwakYtR2hYd0ZuOWJpTkx5RGhTejQtQjNObFJrWUc0dkwzemNvYWZuT2xVazZCOWlnQQ?oc=5",
       "published_at": "2026-08-13T11:33:52+00:00",
       "category": "melilla",
@@ -97,12 +106,12 @@
     },
     {
       "title": "La Guardia Civil instala una nueva barrera marítima en la frontera de Melilla con Marruecos",
-      "source": "Cadena SER",
+      "source": "cadenaser.com",
       "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPQmxhQ1pTdmxUclBBMGZCTW96NzBLQ3BxX1BYYVpONmR4UFFHVzNUeVp2MkEzcVB4M1F1c015MWtUOTNFaGNuMzlMc3FfOVo2c3NDWnA1VzNLS2VmMmtWN09SRG1xRWJWOHZVaVBlSmh4empFQ2dWUEZBMEg5d3ZxMUtUMVpuQWJoNG9scnlvOEd2ZVJFZlNhd3hpZEtFamRPZElpMHE0SVBYcVEzNURaSjVwbGc5WF95SUxJU2JQR2JHWDlMS0l3UVEwX1dvNGFUXzN0WHpGaEJ0SUxOZ1JGLWV0U3FHRlQ0RkFxT1Rjd0Y3UdIB8gFBVV95cUxPQmxhQ1pTdmxUclBBMGZCTW96NzBLQ3BxX1BYYVpONmR4UFFHVzNUeVp2MkEzcVB4M1F1c015MWtUOTNFaGNuMzlMc3FfOVo2c3NDWnA1VzNLS2VmMmtWN09SRG1xRWJWOHZVaVBlSmh4empFQ2dWUEZBMEg5d3ZxMUtUMVpuQWJoNG9scnlvOEd2ZVJFZlNhd3hpZEtFamRPZElpMHE0SVBYcVEzNURaSjVwbGc5WF95SUxJU2JQR2JHWDlMS0l3UVEwX1dvNGFUXzN0WHpGaEJ0SUxOZ1JGLWV0U3FHRlQ0RkFxT1Rjd0Y3UQ?oc=5",
       "published_at": "2026-08-13T11:24:55+00:00",
       "category": "melilla",
       "language": "es",
-      "weight": 3
+      "weight": 2
     },
     {
       "title": "Melilla refuerza sus fronteras con una nueva barrera marítima en el dique sur",
@@ -160,7 +169,7 @@
     },
     {
       "title": "Ceuta, bajo vigilancia: Netmaps, un indicador que intenta anticipar otra crisis fronteriza",
-      "source": "ceutatv.com",
+      "source": "Ceuta TV",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZktSNVJ4eWgtcEtfUDFPMWpGck9qcXVFZ1RLQ1VFOHh1c3NYcTdRNHc5M1ZwQlJvZE1uMTU3aHpLZ1JFTWI0VnRWZG9JbE1GcENlZVBNbmh4Q19wV053WktSbGkxOHVtQnVWcWMwT3FVY01XUzZTYWdELWM5S1I2U2pmTXhuYmJjZnJEdmhrR3IzOE45QTBfdE1DT2IwTUNXRXpJWTdJaC1aU1B0VDdERVRQdldsdmJlWGZ4WU9XY2JLc0dZMkQyWDNPV1NjcHdENVhGZm1R0gHbAUFVX3lxTE15cWdWdGU4enpSbzBFTzJHa0dRZGtrQnpOa1E0d2NjZlVBUWV2Q3RLX29fRWY3bWJsSG1zQkF2Mkd2Q2l3ZjFYU2xPSVcwZDVVRGNGRnB1dzNvRl9XanFwY1ZyYWR2ZVlyV2h0blZJY1NvYndYRmthOXBmNEY3aloxd2VtaGZpMUVTU2JJVll4UG9UMHJhOWV1dHR0MHcxLTBhQnREemRRcGZUelJPdVNtNjJGUnUyRHVYTVk0Nk01OURBZll0cUozSXFKM3dfVDRHVXI2elk0YXRSWQ?oc=5",
       "published_at": "2026-08-13T06:35:26+00:00",
       "category": "ceuta",
@@ -178,7 +187,7 @@
     },
     {
       "title": "Marruecos se retrata en la crisis de Ceuta: ley del silencio, medias verdades, juicios sumarísimos y sin renunciar a la 'conquista'",
-      "source": "El Mundo",
+      "source": "elmundo.es",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4zMDlSMWxKTVo2MTFVamxzR0JBbjA3YjZPM3FUa09zd1gwdFM0UXhRanlDOUJpdDhENmJZQlRMRG8xOThZcHJ4Sk9oX3R5N0hicGdiNzV1VHM4SzUxME90cVlRQnlPbEJweXlfbWwyRG5YdlljSXRJV0530gF6QVVfeXFMTk9qRERCaVN3ZVByQkpNT3BFaWdTMmV3bmFhTTJ1NVlnSDk2RmNNYmRBbmtQRnpnWEpQUXQ4WUl2aTRNZkxMTUpwNFQtX1pJZmZqNlZjekE4THpqUlNLSkl3NkNSakQwNkNzODRNZk50Nk03ZFd4QnlqdHc?oc=5",
       "published_at": "2026-08-12T23:39:00+00:00",
       "category": "ceuta",
@@ -214,7 +223,7 @@
     },
     {
       "title": "Marruecos refuerza la seguridad en Ceuta y Melilla al resurgir llamados a cruces masivos",
-      "source": "seattlepi.com",
+      "source": "Seattle Post-Intelligencer",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPOTNfSGVNazhBTE05UkNSRDk1TzZCOExQckIxYzVINW8xaF9jQ01wLTNpV0NJNTJsY1VnUjdfQUpWVGp4UjFBM3loRFk0WFpKSGQ4d3hXaWp5ZnJZZlowUUVTbUVyMDNpalV3aVR5U1hPblJ6MG0xLUFwYncwUk9nQlpvODJTVktLS0RCdWRrSzIzVUk?oc=5",
       "published_at": "2026-08-12T18:46:46+00:00",
       "category": "melilla",
@@ -250,7 +259,7 @@
     },
     {
       "title": "Debemos dejar de pagar a Marruecos. El Rey de España debe visitar dos ciudades españolas: Melilla y Ceuta.",
-      "source": "melillahoy.es",
+      "source": "Melilla Hoy",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdnBWbFJPNUMwSkpyYXZyZ3dGU01QdmlIazVHalBZbmF2dURPRUFoTXFoZjg2bkdLLWM5dWlhanduNTJDcnZnYUlQSGpqRjVtUmE0a2Nyc2ZPaFpIa3hQVTFROTkwLWxUcVo3TVVYUFF6YkhrZmJrN01VTTRyWTM3V0xLSVotWlYwMUJ0ZHRSR09pc3BNbDExUmllRjRuVlhzSFJ2MEg4N29JRWhDRllrSXBvNURzRTlsWjRjdUVRdkI5OGFf0gHKAUFVX3lxTE9pMTY5Q0RZUGlPUDFrNWxSQmJyZ3ZoRkt1bTJ5c0prRDNqWUtNRmxVNjhucmd3M3JSZHctUDV4c004S2UzVDlMRTdNQUlHdmRWb2VES3RiRE9MSE14d2s0NzZYdW12V2l6anFjLTh6ZS1SckhOMkdZZzVJOE1vdzY5RHU0OEJHNy1yNlE1VHRoUlVhLXR2UWJqSkduUzc5c1M3aFRrcFozRGhDNmdvd0ZsbGc3em1tbDczSGtBekdOOEU0bnc3WWlxWVE?oc=5",
       "published_at": "2026-08-12T12:30:00+00:00",
       "category": "melilla",
@@ -295,7 +304,7 @@
     },
     {
       "title": "Marruecos menea el avispero con Ceuta y Melilla a costa de su españolidad",
-      "source": "El Faro de Ceuta",
+      "source": "elfarodeceuta.es",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMDRHN2RON19lbHNaVG16WmNEdEYxWl9WV0NqdjAwaUgzeWJTSXB1U01JZ2NYVW83bjVUZWh2X2pQaUtEalFVN1lMVVVoYTZ1Mm8xem5IYUY3SVJiNnRMelZRVGdkUFJ2aUlyYk1EM1VvMkVjSXR5YVdWLUdKdUlKWFlfV0lFUWxSTEdsQkZyWdIBjwFBVV95cUxQMDRHN2RON19lbHNaVG16WmNEdEYxWl9WV0NqdjAwaUgzeWJTSXB1U01JZ2NYVW83bjVUZWh2X2pQaUtEalFVN1lMVVVoYTZ1Mm8xem5IYUY3SVJiNnRMelZRVGdkUFJ2aUlyYk1EM1VvMkVjSXR5YVdWLUdKdUlKWFlfV0lFUWxSTEdsQkZyWQ?oc=5",
       "published_at": "2026-08-12T10:48:25+00:00",
       "category": "melilla",
@@ -304,7 +313,7 @@
     },
     {
       "title": "El PP señala ahora a Marruecos como \"responsable\" de lo sucedido en Ceuta y avisa: \"España no puede entregarle a Rabat la llave de su frontera\"",
-      "source": "El Mundo",
+      "source": "elmundo.es",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE0wTUYwaTZNUzJJNFNRY1ZRb2dxRXI0ZWRMR2FlV3FtcE5lWVBSMF81SXNyWHlHUjVGWUN2M2R0R3RVSEtQaVk0WHllQjZDOUIyS0tGZ095QTNMbHpFZ2M3TEFWS0NNNFVISWE1N3JkeU5EQVZxUTMzZzVR0gF6QVVfeXFMT0tjX2F1OFZXRnZvY2hJbmRDX010andQWUR2MTRFc01NQ2hFTDdIbTRIZllSMXh5RzcyRmFObXFGSUtGdVZacnZDTHd3bFlSTkV0bjZiZzVOV3lxblFyZjcyM2VpN3BLY3dHTFJINXVQck1oRFZsVE9XS3c?oc=5",
       "published_at": "2026-08-12T10:00:37+00:00",
       "category": "ceuta",
@@ -353,15 +362,6 @@
       "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQYzlJeklNeV9tbkJaeHhxTkg4emFvRTN6OGR5ZmszZ3NLeXZTcWFMSUVjTG84WXJIbVR2XzJRS0U2U21QWnI3T0FDalFvVmllaDlCVTA4aVFSN3V5WE0yMk5SV3U3d0hYalZKdjY5U243LW8yRUNNeEhFekFBQ1hjMHV6NTZHR2lzdV9FWHRhbEFmR1JqRnE2R245X3hXX3dDei1xZ1hGazFtdllRNnczV1ozNElwLTlhMmF3T0Z0aG1BTXItUmZnSWtxR01IckFNNERISEUwWVBQSVMtWEhRdERCQXlxaW9GaE9XVDhXSFpMRFXSAYcCQVVfeXFMUDEzM2J1a19QVVd3ZUtIRExzX2pHY01pNWZabFJRSEFDbVJYTUNCVzB1R1ZSbUU4eXhESGZJZHlJQ2xGSGtnOThJbnZ6aHZYS0RPVmtyWUU2U25UaExKNEZHM2xPbklRZGpiYzdpQlF3LUE1c1JGRktsSUpPY1RySTFMZzJyWU5hNUM1SEIweU1zZi03cF90WkZ4d08xUkNPajBNMHFrMjZLRDZscEUwXzNFZjF2UlV5UmtfVWZ5X2t4VE44SzJFMTFhZk0xS0JhVFF3UG5QQmhyWmVPZ25Yd1NlSVdKWUtFR18zSjZQZWQ1VnItWWI1YkFtb09ndlNwcDlwaWp2Nzg?oc=5",
       "published_at": "2026-08-12T07:20:14+00:00",
       "category": "melilla",
-      "language": "es",
-      "weight": 2
-    },
-    {
-      "title": "España no puede devolver a Marruecos a todas las personas que cruzaron a Ceuta porque lo impide la ley",
-      "source": "Diario Público",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSlRiM0Ruak9aaTdXY2NEZ2ZXLWFSZUUzNm1TSy16Tmh0cTVScGVvZlZHLXE3SjM2Sy1IbFo3WU5jUTFiamgtNlE0c1lYLTdLbUNPLTh2eEdqamdiWDlxc0tiYVlQMmtqRzRQVnA2Z0RwbURvVEp0SzJERWtZMGI4WThaTlRhdWhmYTRrQU5PbTNia3lYNGcyTU9acm4xd2JsNHpxSlZOUXZIYjhCbVE?oc=5",
-      "published_at": "2026-08-12T06:53:58+00:00",
-      "category": "ceuta",
       "language": "es",
       "weight": 2
     }

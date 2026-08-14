@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-14T11:59:38Z",
+  "generated_at": "2026-08-14T13:46:44Z",
   "state": {
     "code": "watch",
     "label_es": "VIGILANCIA",
@@ -25,7 +25,7 @@
         "severity": 1
       }
     },
-    "confidence": "BAJA",
+    "confidence": "MEDIA",
     "alert_level": {
       "code": "informational",
       "label_es": "INFORMATIVO",
@@ -33,7 +33,7 @@
     }
   },
   "metrics": {
-    "news_24h": 21,
+    "news_24h": 25,
     "news_sources": 30,
     "seismic_24h": 0,
     "seismic_7d": 0,
@@ -54,7 +54,7 @@
   },
   "health": {
     "overall": "healthy",
-    "generated_at": "2026-08-14T11:59:38Z"
+    "generated_at": "2026-08-14T13:46:44Z"
   },
   "latest_diary": {
     "date": "2026-08-14",

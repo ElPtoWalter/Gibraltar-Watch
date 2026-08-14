@@ -1,136 +1,136 @@
 {
   "season": 2026,
   "status": "OK",
-  "checked_at": "2026-08-14T06:45:30Z",
-  "report_date": "2026-08-12",
-  "report_label_es": "12 de agosto de 2026",
-  "report_label_en": "12 August 2026",
+  "checked_at": "2026-08-14T08:39:25Z",
+  "report_date": "2026-08-13",
+  "report_label_es": "13 de agosto de 2026",
+  "report_label_en": "13 August 2026",
   "source": "Secretaría General de Protección Civil y Emergencias",
-  "source_url": "https://www.proteccioncivil.es/documents/20121/0/20260812_InformeOPE.pdf",
+  "source_url": "https://www.proteccioncivil.es/documents/20121/0/20260813_InformeOPE.pdf",
   "campaign_url": "https://www.proteccioncivil.es/coordinacion/campanas/operaci%C3%B3n-paso-del-estrecho",
   "season_start": "2026-06-15",
   "season_end": "2026-09-15",
   "departure": {
     "day": {
-      "rotations": 76,
-      "passengers": 14688,
-      "vehicles": 4042
+      "rotations": 82,
+      "passengers": 14857,
+      "vehicles": 4315
     },
     "cumulative": {
-      "rotations": 4564,
-      "passengers": 1613407,
-      "vehicles": 409540
+      "rotations": 4646,
+      "passengers": 1628537,
+      "vehicles": 413922
     },
     "routes": [
       {
         "name": "Algeciras/Tánger-Med",
-        "rotations": 34,
-        "passengers": 5610,
-        "vehicles": 1843
+        "rotations": 32,
+        "passengers": 4553,
+        "vehicles": 1672
       },
       {
         "name": "Tarifa/Tánger-Ville",
-        "rotations": 14,
-        "passengers": 3541,
-        "vehicles": 585
+        "rotations": 18,
+        "passengers": 3806,
+        "vehicles": 605
       },
       {
         "name": "Algeciras/Ceuta",
-        "rotations": 19,
-        "passengers": 2185,
-        "vehicles": 508
+        "rotations": 21,
+        "passengers": 2787,
+        "vehicles": 838
       },
       {
         "name": "Almería/Nador",
-        "rotations": 4,
-        "passengers": 1418,
-        "vehicles": 453
+        "rotations": 6,
+        "passengers": 1495,
+        "vehicles": 507
       },
       {
-        "name": "Alicante/Argel",
+        "name": "Alicante/Orán",
         "rotations": 1,
-        "passengers": 564,
-        "vehicles": 242
+        "passengers": 672,
+        "vehicles": 182
       },
       {
-        "name": "Almería/Melilla",
+        "name": "Valencia/Mostaganem",
         "rotations": 1,
-        "passengers": 467,
-        "vehicles": 132
+        "passengers": 561,
+        "vehicles": 239
       },
       {
         "name": "Málaga/Melilla",
         "rotations": 1,
-        "passengers": 453,
-        "vehicles": 112
+        "passengers": 443,
+        "vehicles": 107
       },
       {
-        "name": "Almería/Orán",
+        "name": "Motril/Melilla",
         "rotations": 1,
-        "passengers": 353,
-        "vehicles": 127
+        "passengers": 339,
+        "vehicles": 97
       }
     ]
   },
   "return": {
     "day": {
-      "rotations": 80,
-      "passengers": 29172,
-      "vehicles": 6963
+      "rotations": 84,
+      "passengers": 37980,
+      "vehicles": 9039
     },
     "cumulative": {
-      "rotations": 2434,
-      "passengers": 455000,
-      "vehicles": 115768
+      "rotations": 2518,
+      "passengers": 492980,
+      "vehicles": 124807
     },
     "routes": [
       {
         "name": "Tánger-Med/Algeciras",
-        "rotations": 34,
-        "passengers": 11358,
-        "vehicles": 2868
+        "rotations": 33,
+        "passengers": 15143,
+        "vehicles": 3826
       },
       {
         "name": "Tánger-Ville/Tarifa",
-        "rotations": 15,
-        "passengers": 6469,
-        "vehicles": 1255
+        "rotations": 18,
+        "passengers": 7672,
+        "vehicles": 1479
+      },
+      {
+        "name": "Nador/Almería",
+        "rotations": 6,
+        "passengers": 5559,
+        "vehicles": 1313
       },
       {
         "name": "Ceuta/Algeciras",
         "rotations": 22,
-        "passengers": 3645,
-        "vehicles": 810
-      },
-      {
-        "name": "Nador/Almería",
-        "rotations": 4,
-        "passengers": 3530,
-        "vehicles": 843
+        "passengers": 4330,
+        "vehicles": 1040
       },
       {
         "name": "Melilla/Málaga",
-        "rotations": 2,
-        "passengers": 2678,
-        "vehicles": 661
+        "rotations": 1,
+        "passengers": 1603,
+        "vehicles": 383
       },
       {
-        "name": "Melilla/Almería",
-        "rotations": 2,
-        "passengers": 973,
-        "vehicles": 241
+        "name": "Mostaganem/Valencia",
+        "rotations": 1,
+        "passengers": 1054,
+        "vehicles": 295
       },
       {
         "name": "Orán/Alicante",
         "rotations": 1,
-        "passengers": 519,
-        "vehicles": 285
+        "passengers": 976,
+        "vehicles": 273
       },
       {
-        "name": "Alhucemas/Motril",
-        "rotations": 0,
-        "passengers": 0,
-        "vehicles": 0
+        "name": "Nador/Motril",
+        "rotations": 1,
+        "passengers": 905,
+        "vehicles": 226
       }
     ]
   },

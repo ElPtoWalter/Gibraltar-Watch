@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-14T06:45:34Z",
+  "generated_at": "2026-08-14T08:39:30Z",
   "state": {
     "code": "normal",
     "label_es": "NORMALIDAD OPERATIVA",
@@ -33,16 +33,16 @@
     }
   },
   "metrics": {
-    "news_24h": 22,
+    "news_24h": 23,
     "news_sources": 34,
     "seismic_24h": 0,
     "seismic_7d": 0,
     "seismic_30d": 1,
     "seismic_max_30d": 3.1,
-    "ope_report_date": "2026-08-12",
-    "ope_passengers_day": 43860,
-    "ope_vehicles_day": 11005,
-    "ope_rotations_day": 156,
+    "ope_report_date": "2026-08-13",
+    "ope_passengers_day": 52837,
+    "ope_vehicles_day": 13354,
+    "ope_rotations_day": 166,
     "diary_date": "2026-08-14",
     "diary_source_count": 7
   },
@@ -54,7 +54,7 @@
   },
   "health": {
     "overall": "healthy",
-    "generated_at": "2026-08-14T06:45:34Z"
+    "generated_at": "2026-08-14T08:39:30Z"
   },
   "latest_diary": {
     "date": "2026-08-14",
@@ -69,10 +69,10 @@
     "pub_rfc822": "Fri, 14 Aug 2026 05:06:41 +0000"
   },
   "latest_ope": {
-    "report_date": "2026-08-12",
-    "report_label_es": "12 de agosto de 2026",
+    "report_date": "2026-08-13",
+    "report_label_es": "13 de agosto de 2026",
     "source": "Secretaría General de Protección Civil y Emergencias",
-    "source_url": "https://www.proteccioncivil.es/documents/20121/0/20260812_InformeOPE.pdf"
+    "source_url": "https://www.proteccioncivil.es/documents/20121/0/20260813_InformeOPE.pdf"
   },
   "methodology": {
     "principle": "Hechos, interpretación y escenarios se muestran por separado.",

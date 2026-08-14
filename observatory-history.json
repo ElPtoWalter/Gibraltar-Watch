@@ -1,13 +1,13 @@
 [
   {
     "date": "2026-08-14",
-    "generated_at": "2026-08-14T02:52:55Z",
-    "state_code": "watch",
-    "state_label": "VIGILANCIA",
+    "generated_at": "2026-08-14T05:06:41Z",
+    "state_code": "normal",
+    "state_label": "NORMALIDAD OPERATIVA",
     "health": "healthy",
     "metrics": {
-      "news_24h": 15,
-      "news_sources": 31,
+      "news_24h": 20,
+      "news_sources": 34,
       "seismic_24h": 0,
       "seismic_7d": 0,
       "seismic_30d": 1,
@@ -16,7 +16,7 @@
       "ope_passengers_day": 43860,
       "ope_vehicles_day": 11005,
       "ope_rotations_day": 156,
-      "diary_date": "2026-08-13",
+      "diary_date": "2026-08-14",
       "diary_source_count": 7
     }
   },

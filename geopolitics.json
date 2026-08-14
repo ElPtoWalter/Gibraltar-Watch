@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-14T20:48:19.008415+00:00",
+  "generated_at": "2026-08-14T21:43:04.722652+00:00",
   "language_default": "es",
   "status": {
     "maritime_status": {
@@ -12,12 +12,12 @@
       "en": "The corridor remains open; official notices remain authoritative."
     },
     "border_pressure": {
-      "es": "MEDIA",
-      "en": "MEDIUM"
+      "es": "BAJA / SIN SEÑALES RECIENTES",
+      "en": "LOW / NO RECENT SIGNALS"
     },
     "border_note": {
-      "es": "Existen intentos o presión fronteriza recientes.",
-      "en": "Recent attempts or border pressure are being reported."
+      "es": "No aparecen señales recientes suficientes para elevar el nivel.",
+      "en": "There are not enough recent signals to raise the level."
     },
     "bilateral_tension": {
       "es": "ESTABLE",
@@ -28,16 +28,16 @@
       "en": "No clear bilateral escalation is detected in recent sources."
     },
     "security_status": {
-      "es": "VIGILANCIA",
-      "en": "MONITORING"
+      "es": "SIN ALERTA ESPECÍFICA",
+      "en": "NO SPECIFIC ALERT"
     },
     "security_note": {
-      "es": "Existen medidas o incidentes de seguridad recientes.",
-      "en": "Recent security measures or incidents are reported."
+      "es": "No se detectan señales suficientes para una alerta editorial.",
+      "en": "There are not enough signals for an editorial alert."
     },
     "confidence": {
-      "es": "MEDIA",
-      "en": "MEDIUM"
+      "es": "BAJA",
+      "en": "LOW"
     }
   },
   "items": [
@@ -52,9 +52,18 @@
     },
     {
       "title": "Spain Media Highlights Morocco’s Security Boost at Ceuta Border Amid Anti-Moroccan Rhetoric",
-      "source": "moroccoworldnews.com",
+      "source": "Morocco World News",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNSlBFTVNWOWlwQlBKNnhuemVQazJSbjUtZV9WeWtpRkRQMEZZZ0hlTTI1WWE1d0I5Nlg5aE85SWZjWmIwT3VCbE8zczNZTWI2bkR6X1F3ZkZrc2F2endiWTNUMC1XbFZhVTZlV3lSQWVTRThWNnA1ZlFSWlExblZFZHIyWDl4RjhoR2dhZ0dJcGpCdTVsbmZrcTJZbkh4RXlyZjNuSGc0RFBCcWlFUEdILXFVbUlmMEMyVDB0RURfSzFwUmRtYlV2NW92SHVWRGw3ZjRIZ1ln?oc=5",
       "published_at": "2026-08-14T16:02:36+00:00",
+      "category": "ceuta",
+      "language": "en",
+      "weight": 2
+    },
+    {
+      "title": "Morocco emboldened by strong US ties, amid fears of second migrant surge into Spanish enclaves",
+      "source": "EUobserver",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVjVoOS1yZGI3Rk5EY3kxaDZPc3dUNHp6NTh1VkpfS1RRb3JhVmxMTDBSc0duUDlRY1ZETTlSbmY1a2d6MTFpVUN6QU9sdmVOYmo3NVpHN0RDV0lRaEFfNXhZNV9WelNCWFV0Q2hQMEhmQzN0WnNRdk1nazBRY01IVzNiSUJXbzcwNnlsOC1SX0xwRTB5VTVHZV9leGczd1Z4MFEtMHBRWGVyNlF2QWpaeDNYeFlOeU5EdnZnVzdEbkljQQ?oc=5",
+      "published_at": "2026-08-14T15:17:41+00:00",
       "category": "ceuta",
       "language": "en",
       "weight": 2
@@ -73,6 +82,15 @@
       "source": "El Nacional.cat",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNcGc0UXdYUWYyNWRnWEt0ZkpWYWJvWDlJb3VITmJ1a1BSME1YUmEyTFpySE8yMk1vS2dqcngwTUJzTlUyS2s4U0FsM1dMV2RCcGhBZ0Vyd19aaXlRd3BWSnZLWmxXM0tTVF91R1J6TU9BV3VUQzFPUllyYWxaUkV2bmpTMjh4WVBBLWQ2Qm9IV0xvWHpYU0JzSERQVzZpNjVIYmZEemdSVWJWV0JQbWRjT2VBbVQza2kxN2VQOGxBMUZfQnZTQ2ItUW5fc2xMSDZPWXZJ?oc=5",
       "published_at": "2026-08-14T13:17:08+00:00",
+      "category": "melilla",
+      "language": "es",
+      "weight": 2
+    },
+    {
+      "title": "Fuerte despliegue a ambos lados de la frontera con Marruecos ante el riesgo de un nuevo tropel de migrantes",
+      "source": "Canal Sur",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcXBJWDBRaDQ4bms5d1l4Wm0zQmlSZFl1emF2WV9Wek81MFFvd2Y1YS1ta2hjRTdodzV1dDZyQmQ1US1uQ09ILV9neE1TQnJUMDZwdHdFSENFeTllUHFLQzM1R3NFSjJqcS1xa1k0ZENhTVJDT3FmSlVyZUhZYUJCeHI3RjJHSUZxSTJuRnVNczdnQWd3WmtvUmY5cw?oc=5",
+      "published_at": "2026-08-14T12:59:00+00:00",
       "category": "melilla",
       "language": "es",
       "weight": 2
@@ -124,7 +142,7 @@
     },
     {
       "title": "VOX Melilla exige soluciones inmediatas ante la huelga convocada por vigilantes de La Purísima: “No es una situación sobrevenida”",
-      "source": "voxespana.es",
+      "source": "VOX España",
       "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQRXFLWlZNVHZqUW5JN3YtdHZWOG9fUkw1NlRJVTIzZmRYNWtCRjhPSjJvYlg0QUN1b3F0ZWNaRktaYWl3Z3RWM19DS1B1ZmtNckVaaWFfaHFTMy12VkJvXzM3VGkyQTdUdFFxZUlWRlBSUFZMc1g2b2xGNXhhR2oyQnJoZWhhWEdjUnZnaXhSMmIxUWo0c1RlSGJ3azRURFNqTU9IQW9oN2NBRVVHbjUwTWNkVVZCc2ZJRWlrTTlhQ2tic2tJWVFtQ1kzLUJaNFRDVzZSemVzelNzckFfbDVtcld3SGJ2WlJxcG0tQTdQdEdBeUhaZWJqMnZqLWJiM3Jsa2lJSFMxRkJEUdIBjwJBVV95cUxQOXY0dEpuSXNpN3hLTjZ0cTY0QnJmQVpBNGRjeGRETHNfQ05QaVlfdXF4RU40Z0lGM0RhVm9Ba1UtcFNXS1NsX29YVUNscjh6YXg5ZzN6VUgtVWRfdlc3VWxjZW8yeFk0eDg0c1pfdHlCOHRvUXdzY2Z2OW1EX25zVll3cUlYYjVpZ3BTandEbWU5NGY0b2N6Z0dYbnJTWXJZWDN6M1JHUHBPWjNJZEN5U0FpcHBXeVBUQUV4VzRDMlA0LXEwODVPTkN0VDd3VVU0VHZlLXdINkE4TExiZFRCSUozc3Q2cjI1NnRQT1FuV3hkekthczQxd1ZQcFk0Qkszc1RINUo1eVNTQjlLLWFF?oc=5",
       "published_at": "2026-08-14T10:14:33+00:00",
       "category": "melilla",
@@ -214,7 +232,7 @@
     },
     {
       "title": "Marruecos refuerza su frontera con Ceuta ante el llamamiento a un nuevo cruce masivo",
-      "source": "elplural.com",
+      "source": "Elplural.com",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObkNCTTlNUUN6cGxFN2FuOXUxZzN1N1RPZXdnM1pfbjloSjlnSTJHQlJoQ1k2Q2c5V3F0amJ5cDhQUXhzVFM4OF9SelFfU0F5YnRadEpUNm5vdmtHMVdkRnZ1TzRNRXBqZVlDWXdYei1XTlllSU5DTmx6UjNNQlFDekNwaVpjbl9wcmVUaDF1MTJFNnRlRGFnZ2cyVmhDbV9jak1RT0NzWldDaFU0dGgzSzFPWDFJTmlzNk15QkhSWdIBxAFBVV95cUxNX2JsYmtiR3VrR1B1NS1aTEJ3TXVKRHB2YVRBLXZPa2dCc1VvRlZQdDR3b0NSR2g3YkFwSWQzUFZDYXdVSFlRRXNxYW1KRGZOV3FPZFhCbEZQT0pUS1h3ZjAzZUVHamR6QTBxRU5ocFltZTBJc3ptRHRGTFdwcWVYN1BLdUEwWUhkYUtyeXoxLU1jZy1EZ1RZWUxjbU9SQVljaFJ1MWlwY242VndEZ00tUUZGZzdEWmR4QVY1NHg3SW5qeFdY?oc=5",
       "published_at": "2026-08-14T06:05:37+00:00",
       "category": "ceuta",
@@ -232,7 +250,7 @@
     },
     {
       "title": "Los lazos de España con Marruecos avivan las especulaciones sobre los migrantes en Ceuta",
-      "source": "nytimes.com",
+      "source": "The New York Times",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUUJhbGVwVzdNMmhTTERGMlJKNkRWemdNb3lVTFk2ejVHTE9CdVB1b0JSVDdselpMczFOSFJSQk0tbjhnUG5CX0R4dm9SVzhKR2pPYnoyNktYcGVuRXhiVzljWlZsd3p5Q1I1YVBsYU5FZnE3MDVxX2hndk45cGhQOXhHUEd1Z3pJZXpaeHdHVEZtbHJMeVRCUVcxZk9ES3Bs?oc=5",
       "published_at": "2026-08-14T04:01:05+00:00",
       "category": "relations",
@@ -286,7 +304,7 @@
     },
     {
       "title": "Ceuta y Melilla son defendibles, pero no pueden resistir solas",
-      "source": "larazon.es",
+      "source": "La Razón",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZmhYNl92aFZaYTFDbnByMVVFU0Y5VG5Odm5zTXp0bmRYZEdybmw2ZHpyYkY5RThKdGY0V2RNOThmY190c3VRWkM4RUNkRGEyZVN4M3U2V2VOSkxOdmo3SUZXYTNvS0xzTFVEdjNVWHkwY1BLRFFJcU91ZnlXNnNlQ3JMWU4zT3RCT0JENHJOWFQ2d21HR2FsZjZUNG8yc1g0T0FieGpLelg0NmJlTkJkOEdrcFB6SFFBc1hwMmtWVEtOd9IB1gFBVV95cUxPX1dNdjJqcF9aTUU0Z2ZETzBGdDVYSVV3ZGRfUThWaTZqTFpUWkRSQ0lPYUpsbVdURW5WdTMxNmtJdU5CR3JaMjNOaDFjQkRlNzhIblluWUthaXFNVkxWWGFYVkQtVFJhbVNJRGp1UkRTSmJ6clZPaVNoTVgtaUtxbFBJVGNJTmdrMy1HdEVlSzVCYjJMZlpfbmVjWDlBdUZFRDJPYUlVQnlkZ0xwM3dmNjlxZm9VZGFpYmNsTzV4VFZVcWN4WHNQQnJGZ1BJcWVTeW1VbFVR?oc=5",
       "published_at": "2026-08-14T00:08:58+00:00",
       "category": "melilla",
@@ -313,7 +331,7 @@
     },
     {
       "title": "Marruecos anuncia que militariza la frontera con Ceuta y comienza a colocar concertinas",
-      "source": "lavozdegalicia.es",
+      "source": "La Voz de Galicia",
       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPcWZyZ3Q2Y2E3aUwwZGJmRFg4WFJCRHJKX1VnRDN3RXo2MGlsSUdRZVhPS0gwNndxWE04b293R3lkOWNoRnQzMzJ2ZVVLa1JYWVRwWGE5R0ZHTm44RFRLazdSckNVdDFHaEVucEJBRC1mNlpqaERQdFNtOWstVDQ5SkZYMnlkRXNpTHNJVUdrVDJOQmhPaExTSzJqU0RxRzFrVVpNWWZPME0tVXpOTkZidF91a1JXZTJjTGdXVGplckZETDN0LTFBTmd4cGNLSXpxdENhSVVGb1RFRE9TU2VWUGpTdTXSAYACQVVfeXFMTlFMNEZzRnl0eklScTNxSUpRWW5mYjlhSjdETGR5UjIzdHdKdHpJdTJlTlJvM2pISTBiYzhsT2RJT0k4SjZUMS1xSUNnRmlIMF9PWEdTYkJDZFN4T0tPaGliengxX0lvTEx5ZXR5VnJfQmd1NEVoZGRwVXJqYkpGN0k1dkR2Y2doOWMyWUl0bktzSXpCVVFrOUIyMGZ4LUJpMl9HQ0NESHBMMWtPdGdYcEhrNElmaENJWWpOdjBvRWJ6djhQRVFidkxCcFpkSldNeWRWd01xdHE4eUxpakZQUWdWczVrQVV2Y01zZ3p5cXBQeTYwTGF6R1daSWZQZEJ0Mw?oc=5",
       "published_at": "2026-08-13T14:04:54+00:00",
       "category": "melilla",
@@ -340,30 +358,12 @@
     },
     {
       "title": "Personas agrupadas en los montes y cerca de la frontera: Así se encuentra el lado marroquí",
-      "source": "ceutaldia.com",
+      "source": "Ceuta al Día",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPbG1iNzJEYmV3ZUE5c0k2V1kzWm5KNkNDbGdtNlpBNjBBaWZ5ZUxXb0ZnT1p6d0dtVjF6djZhQU4wdUlMR0ZSZ3VxTVpOTnlKLVh6UDBuQ3ZmOHdVWXR6Rjc5X1Y5VUFUXy1sZ2J6T1JOWWVIaDA5VTktV0tpc1JaTDBDaGJaNkF0UHQ2cXRLbkRIWHFHc1BteFJPMEJwRFhMMnlwZ2huV2J1dTNpYzRhZXpKVzdTMkZaaklpTmhocXZPVjczU19rRFJFWEpvMXN2cV9B0gHYAUFVX3lxTE90R1dNdURMa25DZmQ2c3d1VVdnNnVJQXEzQkJ2ZlF3c0lYNEhEQXh3XzNGVXZYdjZnWmtVZ0tINWJvZXRzeVpCMjdpRVdsenJwaHdoSGU0M1lMV2ZadHh0VFZRWmR2QThBWlF0c2E4ekZ2M1VieWdrQkJaY3R3T2xXUWVvYlg3LUdxMU12ZmV5bXZSLWVoZzV3dWVqdmdWSjl3dTBMYTNMRXFjMm4tU2luSzg1YTh1d0ZVRUNqY2RVR3VuUDdLbk9tVGNVNlhKZ3AwUzhYSlhKNQ?oc=5",
       "published_at": "2026-08-13T12:42:16+00:00",
       "category": "ceuta",
       "language": "es",
       "weight": 2
-    },
-    {
-      "title": "¿SABÍAS QUE…? | Ceuta y Melilla no están «geográficamente en Marruecos»: están en África y limitan con Marruecos",
-      "source": "No te olvides del Sahara Occidental",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOX0NkQjNxcl9uNm9JZFIwLXNOeEFmQWg3NWNKMTQxRlFURzhybE9sOG9obFU4T1VSTEVFV19uNmpYRV8wanhRN0dKYzlaOGVLN0RTbVVHclZySTJQYTVrdUt1RERFb3ZDMGQwakYtR2hYd0ZuOWJpTkx5RGhTejQtQjNObFJrWUc0dkwzemNvYWZuT2xVazZCOWlnQQ?oc=5",
-      "published_at": "2026-08-13T11:33:52+00:00",
-      "category": "melilla",
-      "language": "es",
-      "weight": 2
-    },
-    {
-      "title": "La Guardia Civil instala una nueva barrera marítima en la frontera de Melilla con Marruecos",
-      "source": "Cadena SER",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNS1Rob0VkTG5tNzRPQjVSU2tTMnE0SmtsQ0J4QTVkTU94VWV0YkFsNkNicUw1S0kzZ1hJeHZqSE9jT2VfMndJYWZsRFRDNGRhamxEbWQ1U2lPVUJPUm12WEtTMEs1MEpTdzJOUWJjVXVTeGlhemRVNDVkckZPdUd1WktVbjBNanZodTJMVVktSHBtYllUMklpSG5ranI1YW5pLU9tNERFTkxFaEdNSS1mS21ZYWk2YmxSQmItRVVZcHd5ZFdNc1JpSzlXZzFlOG9QVXNsRVNtN0RHb1haa3fSAfIBQVVfeXFMT0JsYUNaU3ZsVHJQQTBmQk1vejcwS0NwcV9QWGFaTjZkeFBRR1czVHladjJBM3FQeDNRdXNNeTFrVDkzRWhjbjM5THNxXzlaNnNzQ1pwNVczS0tlZjJrVjdPUkRtcUViVjh2VWlQZUpoeHpqRUNnVlBGQTBIOXd2cTFLVDFabkFiaDRvbHJ5bzhHdmVSRWZTYXd4aWRLRWpkT2RJaTBxNElQWHFRMzVEWko1cGxnOVhfeUlMSVNiUEdiR1g5TEtJd1FRMF9XbzRhVF8zdFh6RmhCdElMTmdSRi1ldFNxR0ZUNEZBcU9UY3dGN1E?oc=5",
-      "published_at": "2026-08-13T11:24:20+00:00",
-      "category": "melilla",
-      "language": "es",
-      "weight": 3
     }
   ],
   "errors": []

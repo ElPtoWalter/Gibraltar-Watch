@@ -1,28 +1,39 @@
 {
-  "checked_at": "2026-08-14T22:43:02Z",
+  "checked_at": "2026-08-14T23:40:48Z",
   "source": "USGS Earthquake Catalog",
-  "source_query": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-07-15T22%3A43%3A02Z&endtime=2026-08-14T22%3A43%3A02Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
+  "source_query": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-07-15T23%3A40%3A48Z&endtime=2026-08-14T23%3A40%3A48Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
   "status": "OK",
-  "data_note_es": "Se han registrado 1 eventos; magnitud máxima 3.1 en 30 días.",
-  "data_note_en": "1 events recorded; maximum magnitude 3.1 over 30 days.",
+  "data_note_es": "Actividad reciente con un evento máximo de magnitud 5.2. Consulta siempre la información oficial del IGN.",
+  "data_note_en": "Recent activity includes a maximum magnitude 5.2 event. Always consult official seismic authorities.",
   "periods": {
-    "24h": 0,
-    "7d": 0,
-    "30d": 1
+    "24h": 1,
+    "7d": 1,
+    "30d": 2
   },
-  "max_magnitude_30d": 3.1,
+  "max_magnitude_30d": 5.2,
   "last_event": {
-    "id": "us7000t3hl",
-    "time": "2026-07-26T13:39:29Z",
-    "magnitude": 3.1,
-    "place": "2 km N of Armilla, Spain",
-    "longitude": -3.6227,
-    "latitude": 37.1636,
+    "id": "us6000tkv2",
+    "time": "2026-08-14T23:04:40Z",
+    "magnitude": 5.2,
+    "place": "1 km SW of Otura, Spain",
+    "longitude": -3.6486,
+    "latitude": 37.0789,
     "depth_km": 10.0,
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t3hl",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkv2",
     "reviewed": true
   },
   "events": [
+    {
+      "id": "us6000tkv2",
+      "time": "2026-08-14T23:04:40Z",
+      "magnitude": 5.2,
+      "place": "1 km SW of Otura, Spain",
+      "longitude": -3.6486,
+      "latitude": 37.0789,
+      "depth_km": 10.0,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkv2",
+      "reviewed": true
+    },
     {
       "id": "us7000t3hl",
       "time": "2026-07-26T13:39:29Z",

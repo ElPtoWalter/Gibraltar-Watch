@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-14T22:43:15Z",
+  "generated_at": "2026-08-14T23:40:59Z",
   "state": {
     "code": "normal",
     "label_es": "NORMALIDAD OPERATIVA",
@@ -33,12 +33,12 @@
     }
   },
   "metrics": {
-    "news_24h": 31,
-    "news_sources": 31,
-    "seismic_24h": 0,
-    "seismic_7d": 0,
-    "seismic_30d": 1,
-    "seismic_max_30d": 3.1,
+    "news_24h": 32,
+    "news_sources": 32,
+    "seismic_24h": 1,
+    "seismic_7d": 1,
+    "seismic_30d": 2,
+    "seismic_max_30d": 5.2,
     "ope_report_date": "2026-08-13",
     "ope_passengers_day": 52837,
     "ope_vehicles_day": 13354,
@@ -54,7 +54,7 @@
   },
   "health": {
     "overall": "healthy",
-    "generated_at": "2026-08-14T22:43:15Z"
+    "generated_at": "2026-08-14T23:40:59Z"
   },
   "latest_diary": {
     "date": "2026-08-14",

@@ -2171,5 +2171,46 @@
         "en": "LOW"
       }
     }
+  },
+  {
+    "at": "2026-08-14T10:19:18.048248+00:00",
+    "status": {
+      "maritime_status": {
+        "es": "OPERATIVO",
+        "en": "OPERATIONAL"
+      },
+      "maritime_note": {
+        "es": "El corredor permanece abierto; los avisos oficiales prevalecen.",
+        "en": "The corridor remains open; official notices remain authoritative."
+      },
+      "border_pressure": {
+        "es": "MEDIA",
+        "en": "MEDIUM"
+      },
+      "border_note": {
+        "es": "Existen intentos o presión fronteriza recientes.",
+        "en": "Recent attempts or border pressure are being reported."
+      },
+      "bilateral_tension": {
+        "es": "ESTABLE",
+        "en": "STABLE"
+      },
+      "bilateral_note": {
+        "es": "No se detecta una escalada bilateral clara en las fuentes recientes.",
+        "en": "No clear bilateral escalation is detected in recent sources."
+      },
+      "security_status": {
+        "es": "VIGILANCIA",
+        "en": "MONITORING"
+      },
+      "security_note": {
+        "es": "Existen medidas o incidentes de seguridad recientes.",
+        "en": "Recent security measures or incidents are reported."
+      },
+      "confidence": {
+        "es": "BAJA",
+        "en": "LOW"
+      }
+    }
   }
 ]

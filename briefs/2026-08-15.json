@@ -2,7 +2,7 @@
   "schema_version": 1,
   "date": "2026-08-15",
   "generated_at": "2026-08-14T23:40:58Z",
-  "source_checked_at": "2026-08-15T08:47:15Z",
+  "source_checked_at": "2026-08-15T09:43:39Z",
   "health": "OK",
   "health_label_es": "Observatorio operativo",
   "health_label_en": "Observatory operational",
@@ -16,7 +16,7 @@
   "change_en": "Seismic data or source health has changed since the previous brief.",
   "seismic": {
     "source": "USGS Earthquake Catalog",
-    "source_query": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-07-16T08%3A47%3A15Z&endtime=2026-08-15T08%3A47%3A15Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
+    "source_query": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-07-16T09%3A43%3A39Z&endtime=2026-08-15T09%3A43%3A39Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
     "periods": {
       "24h": 1,
       "7d": 1,

@@ -1,0 +1,45 @@
+DIARIO DEL ESTRECHO v2 · INSTALACIÓN
+===================================
+
+QUÉ HACE
+- Publica una edición diaria desde las 07:00 (hora de Madrid).
+- Decide primero si la jornada merece ARTÍCULO COMPLETO o PARTE BREVE.
+- Usa solo el status y las noticias/fuentes que ya ha seleccionado Gibraltar Watch.
+- Actualiza portada, hemeroteca, navegación por días, RSS y sitemap.
+- Un parte tranquilo sin fuentes nuevas se conserva en la hemeroteca, pero queda noindex y fuera del sitemap.
+- No necesita JSON público ni JavaScript para mostrar el diario en la portada.
+- Si hay OPENAI_API_KEY, puede mejorar la redacción. Si no existe o falla, publica con el motor local sin coste adicional.
+
+SUBIDA RECOMENDADA
+1. Descomprime gibraltar-diario-v2-SOLO-CAMBIOS.zip.
+2. Sube su contenido a la RAÍZ del repositorio Gibraltar Watch, conservando la carpeta .github/workflows/.
+3. Acepta reemplazar los archivos que ya existan.
+4. En GitHub abre Actions > Actualizar Gibraltar Watch > Run workflow.
+5. Cuando termine, comprueba:
+   https://estrechogibraltar.com/diario.html
+   https://estrechogibraltar.com/
+
+OPCIONAL · REDACCIÓN CON MODELO
+GitHub > Settings > Secrets and variables > Actions > Secrets > New repository secret
+Nombre: OPENAI_API_KEY
+Valor: tu clave de API.
+
+Variable opcional:
+Settings > Secrets and variables > Actions > Variables > New repository variable
+Nombre: DIARIO_AI_MODEL
+Valor recomendado incluido por defecto en el código: gpt-5.6-terra
+
+Si no configuras OPENAI_API_KEY no pasa nada: el Diario sigue funcionando con reglas y plantillas.
+
+COMPORTAMIENTO EDITORIAL
+- El modelo NO busca noticias por su cuenta.
+- El modelo NO decide qué noticias entran ni si el día es importante.
+- El motor selecciona/deduplica primero las fuentes y limita dominios/categorías.
+- Solo después, de forma opcional, se redacta la pieza sobre ese paquete factual cerrado.
+- Si la salida del modelo no es válida o el servicio no responde, se utiliza el fallback local.
+
+MIGRACIÓN DESDE LA V1
+Si el repositorio conserva diario-index.json / diario-latest.json / diario.js, el generador puede importar la hemeroteca anterior al nuevo estado interno y después retira esos assets públicos obsoletos. El estado editorial pasa a .github/diario-state.json.
+
+IMPORTANTE
+El workflow principal sigue ejecutándose cada hora porque también actualiza el resto de Gibraltar Watch. El Diario no publica antes de las 07:00 y puede refrescar la edición del mismo día si cambian las fuentes o el estado.

@@ -366,5 +366,15 @@
       "weight": 2
     }
   ],
-  "errors": []
+  "errors": [
+    "ceuta: RuntimeError: No se pudo consultar https://news.google.com/rss/search?q=Ceuta+Marruecos+crisis+frontera&hl=es&gl=ES&ceid=ES%3Aes: HTTPError: HTTP Error 503: Service Unavailable",
+    "melilla: RuntimeError: No se pudo consultar https://news.google.com/rss/search?q=Melilla+Marruecos+frontera&hl=es&gl=ES&ceid=ES%3Aes: HTTPError: HTTP Error 503: Service Unavailable",
+    "relations: RuntimeError: No se pudo consultar https://news.google.com/rss/search?q=Espa%C3%B1a+Marruecos+relaciones+Ceuta&hl=es&gl=ES&ceid=ES%3Aes: HTTPError: HTTP Error 503: Service Unavailable",
+    "traffic: RuntimeError: No se pudo consultar https://news.google.com/rss/search?q=Estrecho+de+Gibraltar+tr%C3%A1fico+mar%C3%ADtimo+seguridad&hl=es&gl=ES&ceid=ES%3Aes: HTTPError: HTTP Error 503: Service Unavailable",
+    "ports: RuntimeError: No se pudo consultar https://news.google.com/rss/search?q=Algeciras+Tanger+Med+tr%C3%A1fico+puerto&hl=es&gl=ES&ceid=ES%3Aes: HTTPError: HTTP Error 503: Service Unavailable",
+    "ceuta: RuntimeError: No se pudo consultar https://news.google.com/rss/search?q=Ceuta+Morocco+border+crisis&hl=en&gl=GB&ceid=GB%3Aen: HTTPError: HTTP Error 503: Service Unavailable",
+    "relations: RuntimeError: No se pudo consultar https://news.google.com/rss/search?q=Spain+Morocco+relations+Ceuta+Melilla&hl=en&gl=GB&ceid=GB%3Aen: HTTPError: HTTP Error 503: Service Unavailable",
+    "traffic: RuntimeError: No se pudo consultar https://news.google.com/rss/search?q=Strait+of+Gibraltar+maritime+traffic+security&hl=en&gl=GB&ceid=GB%3Aen: HTTPError: HTTP Error 503: Service Unavailable"
+  ],
+  "last_failed_check": "2026-08-15T03:07:00.417656+00:00"
 }

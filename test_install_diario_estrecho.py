@@ -16,7 +16,7 @@ class InstallerTests(unittest.TestCase):
         once = i.ensure_nav(s)
         twice = i.ensure_nav(once)
         self.assertEqual(once, twice)
-        self.assertEqual(once.count('href="diario.html"'), 1)
+        self.assertEqual(once.count('href="/diario/"'), 1)
 
     def test_english_nav_is_not_modified(self):
         s = '<html lang="en"><nav><a href="en-sources.html">Sources</a></nav></html>'

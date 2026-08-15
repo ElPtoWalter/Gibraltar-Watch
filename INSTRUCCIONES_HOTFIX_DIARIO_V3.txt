@@ -1,0 +1,43 @@
+GIBRALTAR WATCH · DIARIO DEL ESTRECHO v3 · HOTFIX DE RUTA + DISEÑO
+=================================================================
+
+QUÉ CORRIGE
+-----------
+1. Unifica el Diario en la ruta canónica /diario/.
+2. Las ediciones diarias pasan a /diario/AAAA-MM-DD.html.
+3. Todos los CSS y enlaces internos de las páginas del Diario usan rutas absolutas desde la raíz.
+4. La portada enlaza siempre a /diario/ y a la edición diaria dentro de esa carpeta.
+5. diario.html se mantiene solo como redirección compatible hacia /diario/.
+6. El diseño usa las clases gd-* que sí existen en diario.css; no queda una hemeroteca con HTML sin maquetar.
+7. Se mantienen artículo/parte breve, hemeroteca, RSS, sitemap, fuentes, noindex y fallback sin API.
+
+CÓMO SUBIRLO
+------------
+1. Descomprime el ZIP.
+2. Sube a la RAÍZ del repositorio estos archivos, reemplazando los existentes:
+   - generate_diario_estrecho.py
+   - install_diario_estrecho.py
+   - diario.css
+   - test_generate_diario_estrecho.py
+   - test_install_diario_estrecho.py
+3. NO hace falta tocar el workflow si ya ejecuta:
+   python install_diario_estrecho.py
+   python generate_diario_estrecho.py
+4. Ve a GitHub > Actions > Actualizar Gibraltar Watch > Run workflow.
+5. Cuando termine, abre:
+   https://estrechogibraltar.com/diario/
+   y fuerza una recarga con Ctrl+F5.
+
+COMPROBACIONES
+--------------
+- /diario/ debe mostrar la hemeroteca maquetada.
+- /diario/2026-08-15.html debe usar el mismo diseño editorial.
+- Los enlaces Inicio, Situación actual, Tráfico, Fuentes y Correcciones deben volver a la raíz del sitio.
+- La portada debe enlazar a /diario/.
+- /diario.html debe redirigir a /diario/.
+
+PRUEBAS
+-------
+13 tests unitarios superados.
+Se probó también una generación completa en una copia local del sitio: archivo /diario/index.html,
+edición diaria y enlaces absolutos correctos.

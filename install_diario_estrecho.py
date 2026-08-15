@@ -5,7 +5,7 @@ import re
 
 ROOT = Path(__file__).resolve().parent
 HTMLS = list(ROOT.glob("*.html"))
-CSS_TAG = '<link rel="stylesheet" href="diario.css?v=20260815-2">'
+CSS_TAG = '<link rel="stylesheet" href="/diario.css?v=20260815-3">'
 LEGACY_JS_RE = re.compile(r'\s*<script defer src="diario\.js\?v=[^"]+"></script>\s*', re.I)
 HOME_START = '<!-- GW_DIARIO_HOME_START -->'
 HOME_END = '<!-- GW_DIARIO_HOME_END -->'
@@ -16,13 +16,13 @@ HOME_BLOCK = '''<!-- GW_DIARIO_HOME_START -->
     <span class="gd-date">PRÓXIMA EDICIÓN</span>
     <h2 id="gw-diary-title">Diario del Estrecho</h2>
     <p>Una pieza diaria con contexto, fuentes y una lectura de qué importa realmente.</p>
-    <a href="diario.html">Abrir hemeroteca →</a>
+    <a href="/diario/">Abrir hemeroteca →</a>
   </div>
   <div class="gw-diary-side">
     <p class="gw-business-kicker">EN PREPARACIÓN</p>
     <h3>La primera edición se publicará desde las 07:00</h3>
     <p>Los días tranquilos se publica un parte breve; cuando la jornada lo merece, un artículo completo.</p>
-    <a href="diario.html">Ver el diario →</a>
+    <a href="/diario/">Ver el diario →</a>
   </div>
 </section>
 <!-- GW_DIARIO_HOME_END -->'''
@@ -42,9 +42,13 @@ def ensure_head(s: str) -> str:
 
 
 def ensure_nav(s: str) -> str:
-    if is_english(s) or 'href="diario.html"' in s:
+    if is_english(s):
         return s
-    link = '<a href="diario.html">Diario</a>'
+    # Normaliza cualquier enlace antiguo del Diario a la ruta canónica /diario/.
+    s = re.sub(r'href=["\'](?:/?diario(?:\.html)?/?)["\']', 'href="/diario/"', s, flags=re.I)
+    if 'href="/diario/"' in s:
+        return s
+    link = '<a href="/diario/">Diario</a>'
     patterns = [
         r'(<a href="fuentes\.html">Fuentes</a>)',
         r'(<a class="lang-switch" href="en\.html">EN</a>)',
@@ -59,7 +63,7 @@ def ensure_home(s: str) -> str:
     if HOME_START in s and HOME_END in s:
         # No pisa una edición ya generada; solo arregla un bloque incompleto/placeholder.
         block = re.search(re.escape(HOME_START) + r'.*?' + re.escape(HOME_END), s, re.S)
-        if block and 'href="diario-' in block.group(0):
+        if block and ('href="/diario/' in block.group(0) or 'href="diario/' in block.group(0)):
             return s
         return re.sub(re.escape(HOME_START) + r'.*?' + re.escape(HOME_END), HOME_BLOCK, s, count=1, flags=re.S)
     for marker in ('<!-- GW_BUSINESS_HOME_END -->', '<!-- GWC_HOME_END -->'):

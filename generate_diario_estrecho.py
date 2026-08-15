@@ -38,7 +38,9 @@ STATE_DATA = ROOT / ".github" / "diario-state.json"
 LEGACY_STATE_DATA = ROOT / "diario-index.json"
 LEGACY_LATEST_DATA = ROOT / "diario-latest.json"
 LEGACY_DIARIO_JS = ROOT / "diario.js"
-ARCHIVE_PAGE = ROOT / "diario.html"
+ARCHIVE_DIR = ROOT / "diario"
+ARCHIVE_PAGE = ARCHIVE_DIR / "index.html"
+LEGACY_ARCHIVE_PAGE = ROOT / "diario.html"
 RSS = ROOT / "diario-feed.xml"
 SITEMAP = ROOT / "sitemap.xml"
 HOME = ROOT / "index.html"
@@ -531,9 +533,9 @@ def day_nav_html(date: str, entries: list[dict]) -> str:
     idx = next((i for i, e in enumerate(entries_sorted) if e.get("date") == date), None)
     prev_entry = entries_sorted[idx - 1] if idx is not None and idx > 0 else None
     next_entry = entries_sorted[idx + 1] if idx is not None and idx + 1 < len(entries_sorted) else None
-    prev_html = f'<a rel="prev" href="{escape(prev_entry["url"], quote=True)}">← {escape(prev_entry["date"])}</a>' if prev_entry else '<span></span>'
-    next_html = f'<a rel="next" href="{escape(next_entry["url"], quote=True)}">{escape(next_entry["date"])} →</a>' if next_entry else '<span></span>'
-    return f'{NAV_START}<nav class="gd-day-nav" aria-label="Navegación entre ediciones">{prev_html}<a href="diario.html">Archivo completo</a>{next_html}</nav>{NAV_END}'
+    prev_html = f'<a rel="prev" href="/{escape(prev_entry["url"], quote=True)}">← {escape(prev_entry["date"])}</a>' if prev_entry else '<span></span>'
+    next_html = f'<a rel="next" href="/{escape(next_entry["url"], quote=True)}">{escape(next_entry["date"])} →</a>' if next_entry else '<span></span>'
+    return f'{NAV_START}<nav class="gd-day-nav" aria-label="Navegación entre ediciones">{prev_html}<a href="/diario/">Archivo completo</a>{next_html}</nav>{NAV_END}'
 
 
 def article_html(date: str, published_at: str, updated_at: str, status: dict, selected: list[dict], fingerprint: str,
@@ -544,7 +546,7 @@ def article_html(date: str, published_at: str, updated_at: str, status: dict, se
     meaning = "".join(f"<p>{escape(clean_text(p, 2600))}</p>" for p in draft.get("meaning", []) if clean_text(p))
     watch = "".join(f"<li>{escape(clean_text(x, 420))}</li>" for x in draft.get("watch", []) if clean_text(x))
     pretty_date = datetime.fromisoformat(date).strftime("%d · %m · %Y")
-    canonical = f"https://estrechogibraltar.com/diario-{date}.html"
+    canonical = f"https://estrechogibraltar.com/diario/{date}.html"
     robots = "index,follow,max-image-preview:large" if indexable else "noindex,follow"
     type_label = "ARTÍCULO DE JORNADA" if mode == "full" else "PARTE BREVE"
     schema_type = "NewsArticle" if mode == "full" else "Article"
@@ -563,10 +565,10 @@ def article_html(date: str, published_at: str, updated_at: str, status: dict, se
 <meta property="og:type" content="article"><meta property="og:site_name" content="Gibraltar Watch"><meta property="og:title" content="{escape(h, quote=True)}"><meta property="og:description" content="{escape(desc, quote=True)}"><meta property="og:url" content="{canonical}"><meta property="og:image" content="https://estrechogibraltar.com/social-card.png">
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{escape(h, quote=True)}"><meta name="twitter:description" content="{escape(desc, quote=True)}"><meta name="twitter:image" content="https://estrechogibraltar.com/social-card.png">
 <meta name="theme-color" content="#f3efe5">
-<link rel="stylesheet" href="styles.css?v=editorial-20260714-contact-1"><link rel="stylesheet" href="gibraltar-consolidated.css?v=20260803-1"><link rel="stylesheet" href="gibraltar-layout-polish.css?v=20260803-1"><link rel="stylesheet" href="diario.css?v=20260815-2">
+<link rel="stylesheet" href="/styles.css?v=editorial-20260714-contact-1"><link rel="stylesheet" href="/gibraltar-consolidated.css?v=20260803-1"><link rel="stylesheet" href="/gibraltar-layout-polish.css?v=20260803-1"><link rel="stylesheet" href="/diario.css?v=20260815-3">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1713078636060241" crossorigin="anonymous"></script>
 <script type="application/ld+json">{json.dumps({"@context":"https://schema.org","@type":schema_type,"headline":h,"description":desc,"datePublished":published_at,"dateModified":updated_at,"inLanguage":"es","articleSection":section,"keywords":keywords,"isAccessibleForFree":True,"wordCount":word_count,"author":{"@type":"Organization","name":"Equipo editorial de Gibraltar Watch"},"publisher":{"@type":"Organization","name":"Gibraltar Watch"},"mainEntityOfPage":canonical}, ensure_ascii=False)}</script>
-</head><body class="gd-page"><div class="site-shell"><header class="gd-top"><a href="index.html" class="gd-brand"><b>GIBRALTAR</b><span>WATCH</span></a><nav><a href="index.html">Inicio</a><a href="situacion-actual.html">Situación actual</a><a href="trafico.html">Tráfico</a><a href="diario.html" aria-current="page">Diario</a><a href="fuentes.html">Fuentes</a></nav></header>
+</head><body class="gd-page"><div class="site-shell"><header class="gd-top"><a href="/" class="gd-brand"><b>GIBRALTAR</b><span>WATCH</span></a><nav><a href="/">Inicio</a><a href="/situacion-actual.html">Situación actual</a><a href="/trafico.html">Tráfico</a><a href="/diario/" aria-current="page">Diario</a><a href="/fuentes.html">Fuentes</a></nav></header>
 <main class="gd-shell"><article>
 <header class="gd-hero"><p class="gd-kicker">DIARIO DEL ESTRECHO · {pretty_date}</p><div class="gd-edition-row"><span class="gd-edition-type">{type_label}</span><span>{source_count} fuentes recientes · {word_count} palabras</span></div><h1>{escape(h)}</h1><p class="gd-deck">{escape(deck)}</p><div class="gd-meta"><span>Publicado {escape(published_at[11:16])}</span><span>Actualizado {escape(updated_at[11:16])}</span><span>Equipo editorial de Gibraltar Watch</span></div></header>
 <section class="gd-summary"><p class="gd-kicker">LA JORNADA EN UNA FRASE</p><strong>{escape(deck)}</strong></section>
@@ -577,8 +579,8 @@ def article_html(date: str, published_at: str, updated_at: str, status: dict, se
 <section class="gd-source-section"><p class="gd-kicker">FUENTES DE ESTA EDICIÓN</p><h2>Trazabilidad</h2><p>La edición se construye a partir de fuentes públicas seleccionadas por Gibraltar Watch. Los enlaces originales permiten comprobar cada señal; un titular aislado no se convierte por sí solo en un cambio del estado operativo.</p>{source_items_html(selected)}</section>
 <section class="gd-transparency"><p class="gd-kicker">SOBRE ESTE DIARIO</p><p>El Diario del Estrecho utiliza un sistema editorial automatizado para recopilar, ordenar y contrastar fuentes públicas. La selección y las reglas de publicación están definidas por Gibraltar Watch, y la pieza puede corregirse si aparecen datos mejores o una fuente primaria contradice la lectura inicial.</p></section>
 {nav}
-<footer class="gd-article-footer"><p><strong>Gibraltar Watch</strong> · Hechos, interpretación y escenarios se presentan por separado.</p><a href="diario.html">Volver a la hemeroteca</a><a href="contacto.html">Enviar corrección</a></footer>
-</article></main><footer class="gd-site-footer"><a href="privacidad.html">Privacidad</a><a href="cookies.html">Cookies</a><a href="publicidad-y-patrocinios.html">Publicidad</a></footer></div>
+<footer class="gd-article-footer"><p><strong>Gibraltar Watch</strong> · Hechos, interpretación y escenarios se presentan por separado.</p><a href="/diario/">Volver a la hemeroteca</a><a href="/contacto.html">Enviar corrección</a></footer>
+</article></main><footer class="gd-site-footer"><a href="/privacidad.html">Privacidad</a><a href="/cookies.html">Cookies</a><a href="/publicidad-y-patrocinios.html">Publicidad</a></footer></div>
 <!-- fingerprint:{fingerprint};engine:{editor_engine};mode:{mode};indexable:{str(indexable).lower()} --></body></html>'''
 
 
@@ -588,25 +590,29 @@ def archive_html(entries: list[dict]) -> str:
     for e in entries[:500]:
         badge = "ARTÍCULO" if e.get("mode") == "full" else "PARTE BREVE"
         cards.append(
-            f'<a class="gd-archive-card" href="{escape(e["url"], quote=True)}"><div><time>{escape(e["date"])}</time><span class="gd-mini-badge">{badge}</span></div>'
+            f'<a class="gd-archive-card" href="/{escape(e["url"], quote=True)}"><div><time>{escape(e["date"])}</time><span class="gd-mini-badge">{badge}</span></div>'
             f'<h2>{escape(e["headline"])}</h2><p>{escape(e["summary"])}</p><span>Leer edición →</span></a>'
         )
     latest = entries[0] if entries else None
     lead = (
-        f'<a class="gd-latest" href="{escape(latest["url"], quote=True)}"><span>ÚLTIMA EDICIÓN · {escape(latest["date"])}</span><strong>{escape(latest["headline"])}</strong><p>{escape(latest["summary"])}</p><b>Leer el diario de hoy →</b></a>'
+        f'<a class="gd-latest" href="/{escape(latest["url"], quote=True)}"><span>ÚLTIMA EDICIÓN · {escape(latest["date"])}</span><strong>{escape(latest["headline"])}</strong><p>{escape(latest["summary"])}</p><b>Leer el diario de hoy →</b></a>'
         if latest else '<div class="gd-latest"><span>PRÓXIMA EDICIÓN</span><strong>El Diario del Estrecho publicará su primera jornada desde las 07:00.</strong></div>'
     )
-    return f'''<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Diario del Estrecho | Gibraltar Watch</title><meta name="description" content="Hemeroteca del Estrecho de Gibraltar: tráfico, puertos, Ceuta y Melilla, España–Marruecos, economía y seguridad."><link rel="canonical" href="https://estrechogibraltar.com/diario.html"><link rel="alternate" type="application/rss+xml" title="Diario del Estrecho" href="https://estrechogibraltar.com/diario-feed.xml"><link rel="stylesheet" href="styles.css?v=editorial-20260714-contact-1"><link rel="stylesheet" href="gibraltar-consolidated.css?v=20260803-1"><link rel="stylesheet" href="gibraltar-layout-polish.css?v=20260803-1"><link rel="stylesheet" href="diario.css?v=20260815-2"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1713078636060241" crossorigin="anonymous"></script></head><body class="gd-page"><div class="site-shell"><header class="gd-top"><a href="index.html" class="gd-brand"><b>GIBRALTAR</b><span>WATCH</span></a><nav><a href="index.html">Inicio</a><a href="situacion-actual.html">Situación actual</a><a href="trafico.html">Tráfico</a><a href="diario.html" aria-current="page">Diario</a><a href="fuentes.html">Fuentes</a></nav></header><main class="gd-shell"><header class="gd-archive-hero"><p class="gd-kicker">HEMEROTECA</p><h1>Diario del Estrecho</h1><p>La jornada del Estrecho de Gibraltar explicada cada día. Cuando hay acontecimientos de entidad se publica un artículo completo; en días tranquilos, un parte breve y trazable.</p><a href="diario-feed.xml">RSS del diario</a></header>{lead}<section class="gd-archive"><header><p class="gd-kicker">ARCHIVO</p><h2>Ediciones anteriores</h2></header><div class="gd-archive-grid">{''.join(cards)}</div></section></main><footer class="gd-site-footer"><a href="contacto.html">Contacto</a><a href="fuentes.html">Fuentes</a><a href="publicidad-y-patrocinios.html">Publicidad</a></footer></div></body></html>'''
+    return f'''<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Diario del Estrecho | Gibraltar Watch</title><meta name="description" content="Hemeroteca del Estrecho de Gibraltar: tráfico, puertos, Ceuta y Melilla, España–Marruecos, economía y seguridad."><link rel="canonical" href="https://estrechogibraltar.com/diario/"><link rel="alternate" type="application/rss+xml" title="Diario del Estrecho" href="https://estrechogibraltar.com/diario-feed.xml"><link rel="stylesheet" href="/styles.css?v=editorial-20260714-contact-1"><link rel="stylesheet" href="/gibraltar-consolidated.css?v=20260803-1"><link rel="stylesheet" href="/gibraltar-layout-polish.css?v=20260803-1"><link rel="stylesheet" href="/diario.css?v=20260815-3"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1713078636060241" crossorigin="anonymous"></script></head><body class="gd-page"><div class="site-shell"><header class="gd-top"><a href="/" class="gd-brand"><b>GIBRALTAR</b><span>WATCH</span></a><nav><a href="/">Inicio</a><a href="/situacion-actual.html">Situación actual</a><a href="/trafico.html">Tráfico</a><a href="/diario/" aria-current="page">Diario</a><a href="/fuentes.html">Fuentes</a></nav></header><main class="gd-shell"><header class="gd-archive-hero"><p class="gd-kicker">HEMEROTECA</p><h1>Diario del Estrecho</h1><p>La jornada del Estrecho de Gibraltar explicada cada día. Cuando hay acontecimientos de entidad se publica un artículo completo; en días tranquilos, un parte breve y trazable.</p><a href="/diario-feed.xml">RSS del diario</a></header>{lead}<section class="gd-archive"><header><p class="gd-kicker">ARCHIVO</p><h2>Ediciones anteriores</h2></header><div class="gd-archive-grid">{''.join(cards)}</div></section></main><footer class="gd-site-footer"><a href="/contacto.html">Contacto</a><a href="/fuentes.html">Fuentes</a><a href="/publicidad-y-patrocinios.html">Publicidad</a></footer></div></body></html>'''
+
+
+def legacy_archive_redirect_html() -> str:
+    return '''<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Diario del Estrecho | Gibraltar Watch</title><link rel="canonical" href="https://estrechogibraltar.com/diario/"><meta http-equiv="refresh" content="0;url=/diario/"><script>location.replace('/diario/')</script></head><body><p><a href="/diario/">Abrir Diario del Estrecho</a></p></body></html>'''
 
 
 def home_block(entry: dict | None) -> str:
     if not entry:
         return f'''{HOME_START}
-<section class="gw-diary-home" aria-labelledby="gw-diary-title"><div><p class="gw-business-kicker">EL DIARIO · HOY</p><span class="gd-date">PRÓXIMA EDICIÓN</span><h2 id="gw-diary-title">Diario del Estrecho</h2><p>Una pieza diaria con contexto, fuentes y una lectura de qué importa realmente.</p><a href="diario.html">Abrir hemeroteca →</a></div><div class="gw-diary-side"><p class="gw-business-kicker">EN PREPARACIÓN</p><h3>La primera edición se publicará desde las 07:00</h3><p>Los días tranquilos se publica un parte breve; cuando la jornada lo merece, un artículo completo.</p><a href="diario.html">Ver el diario →</a></div></section>
+<section class="gw-diary-home" aria-labelledby="gw-diary-title"><div><p class="gw-business-kicker">EL DIARIO · HOY</p><span class="gd-date">PRÓXIMA EDICIÓN</span><h2 id="gw-diary-title">Diario del Estrecho</h2><p>Una pieza diaria con contexto, fuentes y una lectura de qué importa realmente.</p><a href="/diario/">Abrir hemeroteca →</a></div><div class="gw-diary-side"><p class="gw-business-kicker">EN PREPARACIÓN</p><h3>La primera edición se publicará desde las 07:00</h3><p>Los días tranquilos se publica un parte breve; cuando la jornada lo merece, un artículo completo.</p><a href="/diario/">Ver el diario →</a></div></section>
 {HOME_END}'''
     badge = "ARTÍCULO DE JORNADA" if entry.get("mode") == "full" else "PARTE BREVE"
     return f'''{HOME_START}
-<section class="gw-diary-home" aria-labelledby="gw-diary-title"><div><p class="gw-business-kicker">EL DIARIO · HOY</p><span class="gd-date">{escape(entry["date"])}</span><h2 id="gw-diary-title">Diario del Estrecho</h2><p>Una lectura diaria del tráfico, los puertos, Ceuta y Melilla y la relación España–Marruecos.</p><a href="diario.html">Archivo completo →</a></div><div class="gw-diary-side"><p class="gw-business-kicker">{badge}</p><h3>{escape(entry["headline"])}</h3><p>{escape(entry["summary"])}</p><a href="{escape(entry["url"], quote=True)}">Leer el diario de hoy →</a></div></section>
+<section class="gw-diary-home" aria-labelledby="gw-diary-title"><div><p class="gw-business-kicker">EL DIARIO · HOY</p><span class="gd-date">{escape(entry["date"])}</span><h2 id="gw-diary-title">Diario del Estrecho</h2><p>Una lectura diaria del tráfico, los puertos, Ceuta y Melilla y la relación España–Marruecos.</p><a href="/diario/">Archivo completo →</a></div><div class="gw-diary-side"><p class="gw-business-kicker">{badge}</p><h3>{escape(entry["headline"])}</h3><p>{escape(entry["summary"])}</p><a href="/{escape(entry["url"], quote=True)}">Leer el diario de hoy →</a></div></section>
 {HOME_END}'''
 
 
@@ -636,7 +642,7 @@ def update_rss(entries: list[dict]) -> None:
     updated = format_datetime(NOW)
     xml = (
         '<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel>'
-        '<title>Diario del Estrecho · Gibraltar Watch</title><link>https://estrechogibraltar.com/diario.html</link>'
+        '<title>Diario del Estrecho · Gibraltar Watch</title><link>https://estrechogibraltar.com/diario/</link>'
         '<description>La jornada del Estrecho de Gibraltar explicada cada día.</description><language>es-es</language>'
         f'<lastBuildDate>{escape(updated)}</lastBuildDate>' + ''.join(items) + '</channel></rss>'
     )
@@ -651,7 +657,7 @@ def update_sitemap(entries: list[dict]) -> None:
         root = tree.getroot()
         ns = "{http://www.sitemaps.org/schemas/sitemap/0.9}"
         nodes = {u.findtext(ns + "loc", ""): u for u in root.findall(ns + "url")}
-        wanted = [("https://estrechogibraltar.com/diario.html", NOW.date().isoformat(), "0.9", "daily")]
+        wanted = [("https://estrechogibraltar.com/diario/", NOW.date().isoformat(), "0.9", "daily")]
         wanted += [
             (f'https://estrechogibraltar.com/{e["url"]}', e["date"], "0.7" if e.get("mode") == "full" else "0.5", "never")
             for e in entries if e.get("indexable", True)
@@ -782,7 +788,8 @@ def main() -> int:
     score, reasons = edition_significance(status, selected)
     indexable = seo_indexable(mode, status, selected)
     date = NOW.date().isoformat()
-    page = ROOT / f"diario-{date}.html"
+    ARCHIVE_DIR.mkdir(parents=True, exist_ok=True)
+    page = ARCHIVE_DIR / f"{date}.html"
     fp = fingerprint_payload(status, selected, mode)
 
     old = page.read_text(encoding="utf-8") if page.exists() else ""
@@ -803,7 +810,7 @@ def main() -> int:
         "date": date,
         "headline": headline,
         "summary": summary,
-        "url": f"diario-{date}.html",
+        "url": f"diario/{date}.html",
         "published_at": published,
         "updated_at": updated,
         "published_rfc822": published_rfc822(published),
@@ -826,8 +833,10 @@ def main() -> int:
     )
 
     STATE_DATA.parent.mkdir(parents=True, exist_ok=True)
-    STATE_DATA.write_text(json.dumps({"version": 2, "entries": entries}, ensure_ascii=False, indent=2), encoding="utf-8")
+    STATE_DATA.write_text(json.dumps({"version": 3, "entries": entries}, ensure_ascii=False, indent=2), encoding="utf-8")
+    ARCHIVE_DIR.mkdir(parents=True, exist_ok=True)
     ARCHIVE_PAGE.write_text(archive_html(entries), encoding="utf-8")
+    LEGACY_ARCHIVE_PAGE.write_text(legacy_archive_redirect_html(), encoding="utf-8")
     update_home(entry)
     update_rss(entries)
     update_sitemap(entries)

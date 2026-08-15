@@ -68,10 +68,12 @@ class DiaryTests(unittest.TestCase):
             'meaning': ['Lectura.'],
             'watch': ['Vigilar avisos.'],
         }
-        entries = [{'date': g.NOW.date().isoformat(), 'url': f'diario-{g.NOW.date().isoformat()}.html'}]
+        entries = [{'date': g.NOW.date().isoformat(), 'url': f'diario/{g.NOW.date().isoformat()}.html'}]
         html = g.article_html(g.NOW.date().isoformat(), g.NOW.isoformat(timespec='minutes'), g.NOW.isoformat(timespec='minutes'), {}, [item], 'abc', draft, 'brief', True, entries, 'rules')
         self.assertNotIn('<script>alert(1)</script> noticia', html)
         self.assertIn('&lt;script&gt;', html)
+        self.assertIn('href="/diario.css?v=20260815-3"', html)
+        self.assertIn(f'https://estrechogibraltar.com/diario/{g.NOW.date().isoformat()}.html', html)
 
     def test_build_draft_falls_back_without_api(self):
         with patch.object(g, 'AI_ENABLED', False):

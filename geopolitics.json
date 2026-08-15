@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-15T20:41:52.043333+00:00",
+  "generated_at": "2026-08-15T21:38:05.950132+00:00",
   "language_default": "es",
   "status": {
     "maritime_status": {
@@ -12,12 +12,12 @@
       "en": "The corridor remains open; official notices remain authoritative."
     },
     "border_pressure": {
-      "es": "BAJA / SIN SEÑALES RECIENTES",
-      "en": "LOW / NO RECENT SIGNALS"
+      "es": "ALTA",
+      "en": "HIGH"
     },
     "border_note": {
-      "es": "No aparecen señales recientes suficientes para elevar el nivel.",
-      "en": "There are not enough recent signals to raise the level."
+      "es": "Varias fuentes describen una crisis fronteriza o humanitaria grave.",
+      "en": "Several sources describe a serious border or humanitarian crisis."
     },
     "bilateral_tension": {
       "es": "ESTABLE",
@@ -28,12 +28,12 @@
       "en": "No clear bilateral escalation is detected in recent sources."
     },
     "security_status": {
-      "es": "SIN ALERTA ESPECÍFICA",
-      "en": "NO SPECIFIC ALERT"
+      "es": "VIGILANCIA REFORZADA",
+      "en": "REINFORCED MONITORING"
     },
     "security_note": {
-      "es": "No se detectan señales suficientes para una alerta editorial.",
-      "en": "There are not enough signals for an editorial alert."
+      "es": "Las fuentes describen medidas adicionales de seguridad o control.",
+      "en": "Sources describe additional security or control measures."
     },
     "confidence": {
       "es": "MEDIA",
@@ -70,7 +70,7 @@
     },
     {
       "title": "Hundreds attempt border crossing in second Ceuta migrant rush",
-      "source": "smh.com.au",
+      "source": "SMH.com.au",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdGh3ejZUWkxQcFdrXzE0eVVadU9VR2ZZbTQ1WUQxMTllZW1XMmhudDl1U1NIWFhNTllfaURXR3otRTdiRkxRb2tiMS1GSjhGeDB2Z1FWdlVIcTdhWXI0N2lNUWo0NWdmLVo2d09nWUlJU2ZWV1kyVVFybVVBUjRTeHFxckcyVTRDOG5nOFIxLXZqSWo1anB3eXFQeXVTUzBPeGNyMGstWDZXT1o3bHNORTFzaFc?oc=5",
       "published_at": "2026-08-15T18:16:04+00:00",
       "category": "ceuta",
@@ -114,10 +114,10 @@
       "weight": 2
     },
     {
-      "title": "Marruecos expulsa a EFE y TVE de Castillejos",
-      "source": "El Periódico",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQX3ItNXByam94WTItNTJrMjBaRjNZSHJ4eXM2eElsNEpJZUZRbmdMVnZpeEU0Y1VQQjEzRzlrSlNiY3NqTDRlWExtbXpOSU9YUnNuTU9qWXdJTUtISEwtTUJOS080Y01fdmlkV2dQT2lnak10b3Z4cGhpTUlIZkwzZnVid0d6Vkh2cUxYN3JzTy00MzB2TTNtSzU0SUgtNWgxZjQ0M0YwOTNYQVI1WDRfTElkMEN3aEcybVlZOW9hTlrSAcABQVVfeXFMUHJyYXAyQ2lROVdMczlRTlhFZS1KaDFlVE9PUF8ta2w2eUotT01jRXluRU0wckk3c0FxQkxyajI4b092YmkzVXgxZ0VOR3Jra1hfUEM0S2xvNjdJanVFTER3UXdkU3lidko4TkVtZEdRR2RxU0xvSW41S0lPV1RSTFd0Z0dkdGx0ZTFNQl9CWGdEWHFTamZpcDl1dGt4VjJGTXp0LU1EX01rdEdXQzhIMk15QWx4WWwxNUlVUHRnYVVf?oc=5",
-      "published_at": "2026-08-15T15:05:27+00:00",
+      "title": "Marruecos frena un nuevo intento de salto masivo a Ceuta e intercepta a cientos de migrantes en la frontera",
+      "source": "El Cronista",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQRm9jUkFJV09xbVQwOVNjNG9CUUZ1aENSMHgtdGlmQ2tvaXFDMHMxdXZNRlF1V2YweEs4LWhmX2M2MGRWTVg5SWRqVVJFbVNuV1BYNHBKN2VRWXY4ZzgyOTBhb3ZpTkFfOGRBLS15ZGVqYllORjVfMDVMeHNidEEwTkc2b1BJYVBaeTYyRjdydU1jRU9YV2ppc3lTLVpZczNXeEUxVHYycVN5cEl3LXdBYkliQWk3cWxDSEdRQk52UWsyS0d0TzlPdWdUOGs1cWJYRm9RS1h5VUVfOVBHUjI3blppZ29iZ2vSAYICQVVfeXFMTzNoejN1cWFTUUVsNGliMjVfUWFKWE5pQUdZVHBUdno5b012LVNCSV9DaWttVHpTSF9HclFhU0JLU01FS1ZhMjR6RlFRY0Y2d1Q0U0N6anFQRFhpQWpsaFJoS3pzZUNlZFhScTV5V1dTWV85S2ZTSk8weTdWTjAzand3RHd5Z0xXMGgzTFNQbUNJeTZQc2pzVV9oSzJoV3BySnZxZFoxbnhBdE0yT3FxalZ4V2lRMFFjZkpnT1hNRHlpaGpmNnZJa0tlVWExV0xmc0xrMVVCZ2dJQWQzS2lZSUpDczNQVjd3SVVxSWZ2eVROdjlmTWkzMm02LVVub1I2Qldn?oc=5",
+      "published_at": "2026-08-15T15:29:22+00:00",
       "category": "ceuta",
       "language": "es",
       "weight": 2
@@ -206,15 +206,15 @@
     {
       "title": "Normalidad en las fronteras españolas de Ceuta y Melilla con Marruecos",
       "source": "Infobae",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNU0M4dUh2UjBvaTZMeDY3RUpLMEVjYTVDRFp5RUNDV3oxLVVQcEVXNDJaOVRDOW5oV0czVXhCSEFxeWhwZUxXbmZTbW9XQnZNOWpWU25HMjNaZnFleTNRNmpNU3lENmJVLWhlVVJnMXRaalQ2MHRabTRWaXB1SUpoRUZDVXZJWFZVc1pWN1dFcEJjSFE1YnRHYUNuUUNyM2dPY2RtRlNJY2hoYUxnaDhfdFljTW5DaGZwV2NUSGZ3amPSAdsBQVVfeXFMTlVXcFBmUm55dEFnakE1MkZyWTgwMWw2UEJJWHFuZUEtWWkwZXo4WV9JenY0S0xEc3ZFUFBLR0RHbW4zdlBmcld1U0VBbzBzc0t2UElvRzk1SGpOLVpad0ZodF81aVVYOWZkZzJBTXlYaWRwY18yNFljSkdIaEU1X1dFdEVXYW5xUnVuMWk3OGtlR1lQV2oxY1pteDFSOUloVTFVcUFuUTF1aXpNM2tNODF6ZEM3dmRQSXc2U0g4UzFJMmpaUEdqcnZUYWVSSmZkeER5Rm1rVDloYkRz?oc=5",
-      "published_at": "2026-08-15T09:24:31+00:00",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOVVdwUGZSbnl0QWdqQTUyRnJZODAxbDZQQklYcW5lQS1ZaTBlejhZX0l6djRLTERzdkVQUEtHREdtbjN2UGZyV3VTRUFvMHNzS3ZQSW9HOTVIak4tWlp3Rmh0XzVpVVg5ZmRnMkFNeVhpZHBjXzI0WWNKR0hoRTVfV0V0RVdhbnFSdW4xaTc4a2VHWVBXajFjWm14MVI5SWhVMVVxQW5RMXVpek0za004MXpkQzd2ZFBJdzZTSDhTMUkyalpQR2pydlRhZVJKZmR4RHlGbWtUOWhiRHPSAdsBQVVfeXFMTlVXcFBmUm55dEFnakE1MkZyWTgwMWw2UEJJWHFuZUEtWWkwZXo4WV9JenY0S0xEc3ZFUFBLR0RHbW4zdlBmcld1U0VBbzBzc0t2UElvRzk1SGpOLVpad0ZodF81aVVYOWZkZzJBTXlYaWRwY18yNFljSkdIaEU1X1dFdEVXYW5xUnVuMWk3OGtlR1lQV2oxY1pteDFSOUloVTFVcUFuUTF1aXpNM2tNODF6ZEM3dmRQSXc2U0g4UzFJMmpaUEdqcnZUYWVSSmZkeER5Rm1rVDloYkRz?oc=5",
+      "published_at": "2026-08-15T09:24:38+00:00",
       "category": "melilla",
       "language": "es",
       "weight": 2
     },
     {
-      "title": "Marruecos expulsa a EFE y TVE de Castillejos mientras los migrantes interceptados cerca de la frontera con Ceuta se elevan a 148",
-      "source": "Onda Cero",
+      "title": "Marruecos expulsa a EFE y TVE de Castillejos mientras los migrantes interceptados cerca de la frontera con Ceuta se elevan a 294",
+      "source": "Onda Cero Radio",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOS1VITm1DYk9odnNVNTBucU1weno2STVSRHpNOHdpM2xjN2k2TDlPMGhXT2EyckR6VHVjXzBEQ0lYQ01VNVBKUlZjakl3d1k4eEJ1aWRRamV4NHVpNG5fWFE1SkpjTG1PZVFQTDh3ZEpIVDA3SUFuUGpDdmFnY242eEFVMDJPVGdLYWgxcVREdHc4Skl3NzJST1FaRXZwUEdLaVU5MEhUaG16UFF5eWp4c3h4OTg4UmF1SGtn0gG7AUFVX3lxTE5pMVZCblRCeDRLT2tvaVVtdXpRMWlYVDhoSXhtM2NyQV92dk9uNFhmNjV0NGpOMENjdzRrWFZLQlBWM3ZVNWdtYkJXbE5tWnZGWG5tU3V1UFBmeHhOOEVtMzhoRFduMW5KZGUtelRLOU1fdnZ4OFV5Y0NkTHJMdlFRS2ZEZXRUUjk1NTJ3aVc4a21BR3cxSkQ5clA3QUhSRl85cmhWMDNfY3Npc0Z1Y0U1RkxlLW5Cdm5oT3M?oc=5",
       "published_at": "2026-08-15T08:42:04+00:00",
       "category": "ceuta",
@@ -238,6 +238,15 @@
       "category": "relations",
       "language": "es",
       "weight": 2
+    },
+    {
+      "title": "Spain disregarded Ceuta warnings before migrant rush, say border workers' unions",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZ1JDMTI4SDNkNEZwRUxyTG41ak5GRENmeEhtR05qemczcXZxWWlYTkthSEJva2V4cEVBSWlFTG9JMXpOSFFUX1hHT0tGaUg1bHZ2UzVFWUZZTV9xTDRIa3hZbHB0cHdDRlJLbXVBbGtNdmx6ZVlieHZ2TGJkdWYtM25uTlNJSzAtSm9OVTlFZ0tjNlBGMjRVc2Fjc1NFemxqejVtX1h4YVV0ZXEzdWZuS2NWRDVnX2VxOWp0azVRdjdnRVBBZ0E?oc=5",
+      "published_at": "2026-08-15T07:21:51+00:00",
+      "category": "ceuta",
+      "language": "en",
+      "weight": 5
     },
     {
       "title": "Despliegue militar histórico en Ceuta y Melilla ante otro pulso con Marruecos",
@@ -355,15 +364,6 @@
       "category": "ceuta",
       "language": "en",
       "weight": 4
-    },
-    {
-      "title": "Cómo se ha reforzado la frontera de Ceuta para evitar una nueva entrada masiva?",
-      "source": "Diari ARA",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWkFHd0MxajZYcHlaVTRCVWpYdjRxZ0lvZVgxcWhyU3owNlhYam9sV3pNVHpaSmZjcWNYQkhIaWExMVhSTmVZcWF3cE5sNjhyazRHSFJjM2dreTEzSkI1cmtLY2Z4TzVwOVFzNlBMZExZRVJ0SWVNNmFwNldiUW43UkNERVBSQThUaXB2eGZJcC1IQ1UyNEJ0ZGVVc9IBoAFBVV95cUxOTmdlTFZnNGlDWmpyZkgzdlpEZ0FXZG9rcnpySVAwLWY3dkt3N3RCaExWc21WZjFwdG1QNTc5TkswNjhKRWNnWnFyUGtUSG1hWUNhVkJ2ME9pZzZ2TzdrdUpEM3lWLVA4NHZ5WVgwVVpmcl9TTGhvdk9MaXBMa2F1b0s4a1k0WnQtcFVmSTdwak9HZGhSd0FyVVpEYy1VWk50?oc=5",
-      "published_at": "2026-08-14T12:14:18+00:00",
-      "category": "melilla",
-      "language": "es",
-      "weight": 2
     }
   ],
   "errors": []

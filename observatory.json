@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-15T07:45:53Z",
+  "generated_at": "2026-08-15T08:47:27Z",
   "state": {
     "code": "normal",
     "label_es": "NORMALIDAD OPERATIVA",
@@ -25,7 +25,7 @@
         "severity": 0
       }
     },
-    "confidence": "BAJA",
+    "confidence": "MEDIA",
     "alert_level": {
       "code": "informational",
       "label_es": "INFORMATIVO",
@@ -33,7 +33,7 @@
     }
   },
   "metrics": {
-    "news_24h": 21,
+    "news_24h": 17,
     "news_sources": 30,
     "seismic_24h": 1,
     "seismic_7d": 1,
@@ -54,7 +54,7 @@
   },
   "health": {
     "overall": "healthy",
-    "generated_at": "2026-08-15T07:45:53Z"
+    "generated_at": "2026-08-15T08:47:27Z"
   },
   "latest_diary": {
     "date": "2026-08-15",

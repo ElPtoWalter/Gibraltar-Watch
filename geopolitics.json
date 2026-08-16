@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-16T03:14:33.769657+00:00",
+  "generated_at": "2026-08-16T04:03:21.475220+00:00",
   "language_default": "es",
   "status": {
     "maritime_status": {
@@ -12,12 +12,12 @@
       "en": "The corridor remains open; official notices remain authoritative."
     },
     "border_pressure": {
-      "es": "ALTA",
-      "en": "HIGH"
+      "es": "MEDIA",
+      "en": "MEDIUM"
     },
     "border_note": {
-      "es": "Varias fuentes describen una crisis fronteriza o humanitaria grave.",
-      "en": "Several sources describe a serious border or humanitarian crisis."
+      "es": "Existen intentos o presión fronteriza recientes.",
+      "en": "Recent attempts or border pressure are being reported."
     },
     "bilateral_tension": {
       "es": "ESTABLE",
@@ -28,12 +28,12 @@
       "en": "No clear bilateral escalation is detected in recent sources."
     },
     "security_status": {
-      "es": "VIGILANCIA REFORZADA",
-      "en": "REINFORCED MONITORING"
+      "es": "SIN ALERTA ESPECÍFICA",
+      "en": "NO SPECIFIC ALERT"
     },
     "security_note": {
-      "es": "Las fuentes describen medidas adicionales de seguridad o control.",
-      "en": "Sources describe additional security or control measures."
+      "es": "No se detectan señales suficientes para una alerta editorial.",
+      "en": "There are not enough signals for an editorial alert."
     },
     "confidence": {
       "es": "MEDIA",
@@ -41,6 +41,15 @@
     }
   },
   "items": [
+    {
+      "title": "Ceuta respira tras el operativo de Marruecos, pero la crisis migratoria continúa abierta",
+      "source": "MUNDIARIO",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNNEpoV185N0NFNWU5U3Ntd19zM09jNEFCRThJZldTc1VJZVdHTEdUb2hzSW93cHNUdWhZVldLZzhyeVJrQkI5cFN6SHQyX3JpOHo2RV9aMWZmZ2hxdFo5T1RoNE5wNjZaakFDc2gzY0txWHlUU1NiQmh2aHhCem8zLXduSlZkWVZQUFlxNmFabFBOTW1QNVVoeTUtVnRkOXZkcUNFUnZySXBwWGRtblIxTF9Za19hZnZHVEM4RTNNTWJEWFNDcWpBUWNiVGsxQ3JGNGNmYdIB2gFBVV95cUxOdVB4eU9KU2thRVRBYURERGcyZ0txTVBvRVhjQ2tmUlh5cVcyLVlHSUE4QWZvSGdMWjlJQzhWNFhBalNPdXZ2ZFJEMEd1a19pQmYxQ19jRU8yS0JYREFkWW9JaXdWeHhUbjVxdU1DVzAyUDlRekc4ZDJIS2s2TXRfejctYWczRU9RYWdlNXZYZGt1ckhfa0JfR1AwVzJyY05PQlBIdm5hTUhDRmJDTWo5b2ZJNTBJc21lalk0LVhOTXNDOHpDNVZQM19ta2NndHdXQ09hTWlXVldUQQ?oc=5",
+      "published_at": "2026-08-16T03:54:17+00:00",
+      "category": "ceuta",
+      "language": "es",
+      "weight": 2
+    },
     {
       "title": "Marruecos blinda ahora la frontera pero España mantendrá 'sine die' el refuerzo en Ceuta y Melilla",
       "source": "El Confidencial",
@@ -259,7 +268,7 @@
     },
     {
       "title": "Calma tensa en Ceuta mientras Marruecos anuncia haber frustrado un intento de entrar de cientos de migrantes",
-      "source": "elmundo.es",
+      "source": "El Mundo",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5SRFVCeWhLVElVcGxRUUxuMVRnVFE4aXA5dDBadV8wZkJhSXVaT29lN2xOeDE2dF9YNjg2MHpSTkoxdzAwdUdpbUhPOFdnMU5WOWlhZDVIWlBBUks0S1hzZVhycjlJVnRmM01vSUhsWnJYT1lhdEZITXp30gF6QVVfeXFMUElkRHB4dWVNWWtwVWxCNmVycGRqdXN5dnFpWmlKcXk2aFI1enVjZElGS3AwUC1qVUluNXhxLVlMWWhEYThfbkhPZDJlelROeHlhQ3BmNWFiaHlzdG1abXR0ZHZ2VXhiQmEwLUVrNWVFT0lZRkJQV0NSTXc?oc=5",
       "published_at": "2026-08-15T09:40:20+00:00",
       "category": "ceuta",
@@ -295,9 +304,9 @@
     },
     {
       "title": "Tajani sobre la crisis de Ceuta: España debería preocuparse por Marruecos, no por Italia",
-      "source": "infobae.com",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQUWlqYVd4dXdEM202N3h1ZnhLV3VmNkhta2h3R1otOENleDNBeVFyckg1WU8yQ1FUSTN6aUZjTWVLMEVSVkhaOVR4cTBKWno0U25vUnVJMXNZZVVqWlNRWmVWSU5BTU1QWXlYMXhGT0Y1ZHRLRk52WXR6R01Ecm5TdUVjamNDM3FrQkJTUmhfVW1EUnNvV0ZnY2tTTEZWWEcxdk5vSk1HbzZjc25UeTBrdl91V1dLYmV0RVJTd0ZCSnpCR21tM2hHdkdPQW1LbmFLQjgtU3FQUm9XU0tHREpneG9GbHJQS0xsa1o3YlZ1bWfSAfABQVVfeXFMUFFpamFXeHV3RDNtNjd4dWZ4S1d1ZjZIbWtod0daLThDZXgzQXlRcnJINVlPMkNRVEkzemlGY01lSzBFUlZIWjlUeHEwSlp6NFNub1J1STFzWWVValpTUVplVklOQU1NUFl5WDF4Rk9GNWR0S0ZOdll0ekdNRHJuU3VFY2pjQzNxa0JCU1JoX1VtRFJzb1dGZ2NrU0xGVlhHMXZOb0pNR282Y3NuVHkwa3ZfdVdXS2JldEVSU3dGQkp6QkdtbTNoR3ZHT0FtS25hS0I4LVNxUFJvV1NLR0RKZ3hvRmxyUEtMbGtaN2JWdW1n?oc=5",
-      "published_at": "2026-08-15T07:51:09+00:00",
+      "source": "HolaNews",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYTNFNXg3emlMaHVkdEJud09yOFQ5aEo0R01kTkZyRXBtczd6X2sxWk5YMFo3UDE0RTBKN052eElXUTR0TVVjc3hWampGdXFITmhENmhhUW52Q2lMTU1MWC16cjBYT3c0X3V5dDRyeEc0QzVPcV9DdTBjejFqUmtwNW90YzBxUHhwTjh4ckJZSjloYUh4Q3ZpS0R0RnV6X25UMzlaWElLR2dYVWNT?oc=5",
+      "published_at": "2026-08-15T07:55:56+00:00",
       "category": "relations",
       "language": "es",
       "weight": 2
@@ -331,7 +340,7 @@
     },
     {
       "title": "Moncloa se fía de Marruecos y descarta este sábado otra \"invasión\" en Ceuta",
-      "source": "larazon.es",
+      "source": "La Razón",
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPTWt3ZzJxRG0ybWJ5MEJOQi0xYVY0VXY4bV9aZE1tVzV1emdLMUdna00tbWROaGUtb0ZlY3ZjRXRSWVlBVktYU3QxU0lpZGEwWHdpMkV2T21zYjRYQnhodU5Mc3FRRHl6Z2dkOFhLZXhnbkFldE0xR1hEdG1tZFBVZ2lKZ1dLOVpqNURzS0NtVGZYaGp5ZHBreGtIbFF0Zk5GeTVzdEo1MzZ4bWdVSjM0UFd6dS12TTQwMjZZelRoU0hOUk5pZ0p1clRiQWduRG9GQ016TWNzUkFjSnpXeHfSAd4BQVVfeXFMT01rd2cycURtMm1ieTBCTkItMWFWNFV2OG1fWmRNbVc1dXpnSzFHZ2tNLW1kTmhlLW9GZWN2Y0V0UllZQVZLWFN0MVNJaWRhMFh3aTJFdk9tc2I0WEJ4aHVOTHNxUUR5emdnZDhYS2V4Z25BZXRNMUdYRHRtbWRQVWdpSmdXSzlaajVEc0tDbVRmWGhqeWRwa3hrSGxRdGZORnk1c3RKNTM2eG1nVUozNFBXenUtdk00MDI2WXpUaFNITlJOaWdKdXJUYkFnbkRvRkNNek1jc1JBY0p6V3h3?oc=5",
       "published_at": "2026-08-14T23:22:08+00:00",
       "category": "ceuta",
@@ -355,15 +364,6 @@
       "category": "melilla",
       "language": "es",
       "weight": 2
-    },
-    {
-      "title": "Despliegue policial inédito en Ceuta ante el temor a una nueva entrada masiva: claves de la crisis fronteriza",
-      "source": "El País",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZnY5VnpNOUdpRW5RNHNzOUtQa1FUVlo4Q3l2YzlxcUZieGJYTXc1SDU5S1VuZE1YUXdYZnNxWTNFLVUyckVyN3gxdHlmbEFvem5zQ1R2Tm1BM0R3WmRHemdjdHA3aUxhN1FGY2xmNnA5MHlkdHFtc2dyQzN1VDR4Q0FJNzBwNmlFWHVXMWxmQ0FtZ9IBpgFBVV95cUxQQXNjLUp4Y05NU1I2R25wdXpXQ2JVUDNSNkVBV05JbUI0aGlnNzRIZ2xwMEc5a1NQRml5Zk5aa2szaTh1TS1xR1g2ZXhjNUc1OU9Seldia3ZMOFFuV3BCdlZxc2tRaUJITmx5aER5aWFON3ZfRW8yUjBqSlBSZzNmVFhkOUEwTFhOMFFjMkw2cEdmWkE2RU13TWZWVG1nTFVleU9FRFVn?oc=5",
-      "published_at": "2026-08-14T18:11:37+00:00",
-      "category": "ceuta",
-      "language": "es",
-      "weight": 3
     }
   ],
   "errors": []

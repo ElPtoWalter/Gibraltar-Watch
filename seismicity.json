@@ -1,28 +1,39 @@
 {
-  "checked_at": "2026-08-18T09:51:05Z",
+  "checked_at": "2026-08-18T10:48:57Z",
   "source": "USGS Earthquake Catalog",
-  "source_query": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-07-19T09%3A51%3A05Z&endtime=2026-08-18T09%3A51%3A05Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
+  "source_query": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-07-19T10%3A48%3A57Z&endtime=2026-08-18T10%3A48%3A57Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
   "status": "OK",
   "data_note_es": "Actividad reciente con un evento máximo de magnitud 5.2. Consulta siempre la información oficial del IGN.",
   "data_note_en": "Recent activity includes a maximum magnitude 5.2 event. Always consult official seismic authorities.",
   "periods": {
-    "24h": 1,
-    "7d": 2,
-    "30d": 3
+    "24h": 2,
+    "7d": 3,
+    "30d": 4
   },
   "max_magnitude_30d": 5.2,
   "last_event": {
-    "id": "us6000tllu",
-    "time": "2026-08-18T08:37:44Z",
-    "magnitude": 4.9,
-    "place": "2 km WSW of Granada, Spain",
-    "longitude": -3.6311,
-    "latitude": 37.1786,
+    "id": "us6000tlmc",
+    "time": "2026-08-18T09:34:37Z",
+    "magnitude": 4.6,
+    "place": "5 km ENE of Escúzar, Spain",
+    "longitude": -3.7084,
+    "latitude": 37.0875,
     "depth_km": 10.0,
-    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tllu",
+    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlmc",
     "reviewed": true
   },
   "events": [
+    {
+      "id": "us6000tlmc",
+      "time": "2026-08-18T09:34:37Z",
+      "magnitude": 4.6,
+      "place": "5 km ENE of Escúzar, Spain",
+      "longitude": -3.7084,
+      "latitude": 37.0875,
+      "depth_km": 10.0,
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlmc",
+      "reviewed": true
+    },
     {
       "id": "us6000tllu",
       "time": "2026-08-18T08:37:44Z",

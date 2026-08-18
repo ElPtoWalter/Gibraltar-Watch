@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-18T07:56:09.803711+00:00",
+  "generated_at": "2026-08-18T08:55:30.965185+00:00",
   "language_default": "es",
   "status": {
     "maritime_status": {
@@ -36,8 +36,8 @@
       "en": "There are not enough signals for an editorial alert."
     },
     "confidence": {
-      "es": "MEDIA",
-      "en": "MEDIUM"
+      "es": "BAJA",
+      "en": "LOW"
     }
   },
   "items": [
@@ -46,6 +46,15 @@
       "source": "Teleceuta",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNWlQ1eHVBUGxwazI2TnktRU1MLTVPTG51dno4bm9wREc0b2JqVWVwVWtSRldHYUV5cmRNRW9oSjBQWklUSmd5QlRtNUNOaklIRDlhaFJicDNUc09XdGhlM1F5OWRWbW90U0FybzZEem9WM3l0MGxLc0NsWG5JRDhiVmEyNm5xVmJBc3d1QWp0LVljNVV3NmlGYWhaSVVjWDF2WVBfNWl2VnNYTHpLcjhTaktYVndyaTBncWJhc0ZvSU5PWUlBNjB0a0l3SXpiQQ?oc=5",
       "published_at": "2026-08-18T06:29:33+00:00",
+      "category": "ceuta",
+      "language": "es",
+      "weight": 2
+    },
+    {
+      "title": "Legionarios activados en la crisis de Ceuta: “Una cosa es trabajo, otra explotación”",
+      "source": "El Faro de Ceuta",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNT3JSYXNkQXpkNFhWSDRXeERUQnVzMnpKai01YUhrQl9OcWNaMWxpeURhdmczSHJNYzN2LWd4ZENHZGY4V3pxTFBNMXFQTmRWckJTU3c4QlhBQy1MSlkxeVJoQ2RabU1DaXI1Mnl1dmV6Q0VRUXRpaklXVUVQMHh3WTIwYWJhZDhDTTZNV2hqLWZGRllD0gGaAUFVX3lxTE1uYWlxV0RLZ2dQaWN2M3RfYlNWd2tJTWF6WUlHTGlHRDNQV256b0FibEJoNnhYQlNHUVAyaDdXYzdfUTdsLU9kVUpoUU1QdmdmXzRYaTVCM2tPTEVoZWFCVEJRWXVpdjQxaUpaVGhKYkZvblk5Y0wxdnVsMkhMS0s5aXByVFNhV2pMakZzRDY0dFJUMG1OQWtXdUE?oc=5",
+      "published_at": "2026-08-18T05:39:05+00:00",
       "category": "ceuta",
       "language": "es",
       "weight": 2
@@ -79,7 +88,7 @@
     },
     {
       "title": "Ceuta’s border crisis is about geopolitics, not just migration",
-      "source": "The Conversation",
+      "source": "theconversation.com",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdGtrQ2F3RDVhXzhibnRuRWxfc0c1ZUtfeXEtQTBVT0dfaV9RN01vYURFck5TZUZwVzFYOHBDVHZqQy14c2FELXZPN2pPT2VjQ2F6UlZXblNBR25takNGWVU2aWp4aUNiQ0dZREEtcVNoMDh6VDk4YUNBTS1TQ0ZvWEVYTW45ek5HZlBpWWVieENpb200d2p2NHlqTQ?oc=5",
       "published_at": "2026-08-17T14:14:46+00:00",
       "category": "ceuta",
@@ -106,7 +115,7 @@
     },
     {
       "title": "Moroccan families seek return of minors from Ceuta",
-      "source": "巴士的報",
+      "source": "bastillepost.com",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMFdGajlmamxXRXEwX1A1SUtTTkpITEdHQnM3cVZ1eVptdTEtdWtKbHVjV1dWaG1XeUJVcEE5VlZKdkFFS1NPMnIzRldtOXJ2YzB2Wk55anBzLUlXT3ZJNV8tSWd5aFhiOUVqbVRIYVdfcHUwSW5CcEdYbGtoZ3dFelg5OTM2MzcyZjhRSVhZWWtscDE3ZjBGZE5wU3JSbFk3QUgzaA?oc=5",
       "published_at": "2026-08-17T07:56:00+00:00",
       "category": "ceuta",
@@ -130,15 +139,6 @@
       "category": "relations",
       "language": "es",
       "weight": 2
-    },
-    {
-      "title": "España no pretende cambiar su relación con Marruecos pese a las críticas por la crisis de Ceuta",
-      "source": "El País",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUXNaOE9zdThQcEF0SThBRmZDYWR6VXpUb0pNSXN5T1NZMkVTaGhrTU1Pa0RYNTVPZjlhdmdnT2N5V0lMNFVNTXNpZmh0N3hReGdiQjZxazFITmdROHZ3cWJMZzBHdjd2MXBPVmZxVExUWHZMc1FMMU91Qk1FdTJaOUJyMjFEY2hpWS1DMXJjbjN2bjBndnJ0NHlCaG9OYVdCaV9EdUFyYll3djhiM1hiVEhmLXBIc0lYbXZWckRrM2U5MTFkX2ZUUjd0a2M0aW1XMXBN?oc=5",
-      "published_at": "2026-08-17T05:30:00+00:00",
-      "category": "relations",
-      "language": "es",
-      "weight": 3
     },
     {
       "title": "Imbroda destaca el “excelente” trabajo de las FyCSE en la frontera de Melilla y exige al Gobierno soluciones excepcionales para solventar la situación en Ceuta",
@@ -187,7 +187,7 @@
     },
     {
       "title": "Ceuta migrant crisis worsens as police investigate sexual assault claims",
-      "source": "thetimes.com",
+      "source": "The Times",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPd2xDVXVqV0s4SFNZa1pES3o1MDB1RE0zT2dBVk5WSWNDcl9JTGQtcHNMRFpIN1NXaUs4eC0zajQ0bVZzcnozcjMzSllnV0xrTGo5TEsyQl8xZGdIVkFRaEw4S1lJVHNiX2pRd3JCTXVQbW4yRWxrR3REelVEYVRZWk5uZGtkSTFzcHd0MXpabk1LcU9icmNB?oc=5",
       "published_at": "2026-08-16T20:45:05+00:00",
       "category": "ceuta",
@@ -241,7 +241,7 @@
     },
     {
       "title": "Marruecos refuerza la frontera con España tras el intento de cruce masivo: detiene a casi 300 migrantes",
-      "source": "cronista.com",
+      "source": "El Cronista",
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPNlpBbmtlMFZfNzZ5eHIwMlVJdGpEX3BEWkZyMUM1ZFktc0pzU3dZQ1ZUcGFTYXVsazJycHl5ZTRva1BBVXBWZnNodk5GN21Jd1lyTlhZanRjbjZIeXZZbnktVlpSYy03eDBuUl9CYUhPaGZ5ZTcxb2JMaHVjeTdQclJ0bHh2Z0REZEZYMHdDQjREZGhmOExQajctTnpjNFd6aWNEUkJveHJhV3dyRGRoelpuVkhpMzRPWm9MSWNTV09WODZWc0FMMlFnbzRMOXpsYnFaQWVvSzlZdk8zZ3M4UnQwVdIB_gFBVV95cUxPWnJVLWhhZlI4MXFNUnU2TzVVSzFmbmdEV0liMFlTdEsySmFqekhDYWtqbm1ZNmQ3eUIzMjgxUmJTVjFiSkdyWGt3dFFaM2xxVTUzc0h4SUlxQ1NLN21aaXdaZjFMSHBXRm04NHNQYnRJRHJhV1VVVXRKc1ZaOUNKLXB2QVFKeGNxSl9CdnM1VHpyb0NSc3p2Tlg5dlNIQU56UG4xYXdpSVp1cHpQMlF2b0gySDZDdGVRa0tTRXd6MGpUWlRMSHZGdUxLQnNSXzd3bU1Bd1NHckxpaG55V2xCdkxMU2l2OEhKNTVRd08wd3Ywa2dkSEV2VDlpOGNXdw?oc=5",
       "published_at": "2026-08-16T16:54:17+00:00",
       "category": "melilla",
@@ -268,7 +268,7 @@
     },
     {
       "title": "Las fronteras de Ceuta y de Melilla con Marruecos recuperan la normalidad tras el gran despliegue de Rabat",
-      "source": "lasexta.com",
+      "source": "LaSexta",
       "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQb1Z3US1seGdReW81RmM2dGJDd0JGZ0tLUXc1VXdNbDdPS09kZjcxOVJld2VONHRQeFRCTmtFSXdhRzNxNnlTdW8tUVNHc25UdWRVa203aU4wcW5DX25QTng5VDdCZlBNVm9tZDFaZ2ZWeTlCZmdheDNmQ2pnSmdzemc4NzlNV09falhsY1N0R2swQXFUeHBQRTdLb2tTWW5BUk1VRDlMQWlpOEhxZFlzd0Rab2V3cjY0TjRITFRwQXJ1Mzg3UDVhNTJOMzB1SUxoVDBhMklsdk55OGwtNDdFeDd2OTRaM2xOSUtiONIB7AFBVV95cUxQb1Z3US1seGdReW81RmM2dGJDd0JGZ0tLUXc1VXdNbDdPS09kZjcxOVJld2VONHRQeFRCTmtFSXdhRzNxNnlTdW8tUVNHc25UdWRVa203aU4wcW5DX25QTng5VDdCZlBNVm9tZDFaZ2ZWeTlCZmdheDNmQ2pnSmdzemc4NzlNV09falhsY1N0R2swQXFUeHBQRTdLb2tTWW5BUk1VRDlMQWlpOEhxZFlzd0Rab2V3cjY0TjRITFRwQXJ1Mzg3UDVhNTJOMzB1SUxoVDBhMklsdk55OGwtNDdFeDd2OTRaM2xOSUtiOA?oc=5",
       "published_at": "2026-08-16T15:20:45+00:00",
       "category": "melilla",
@@ -331,7 +331,7 @@
     },
     {
       "title": "Spain border crisis: Morocco arrests 111 after fresh attempt to reach Ceuta",
-      "source": "wionews.com",
+      "source": "WION",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObVI0VFFkQkZGSkItY1d6U09TbUZPVTlTSjhWYTRFTmRsT1hQQTNBQVRGWWFKZC01X2NUOG9nYzRYemdvN1lnNXh1eGVxOXdZQTdHQmprdkhoT3dGUkJHWkVJYjVjbkxkMXRGYmZGcmRLelpiel94ampSRjBVTEJ1LUxoQXd4V1k0Y3ZMV3Y5Z2Q0aFFlb0FGRHg2bGMweVdoa29UcjdfM2VfaWVXQXRQNEt6RGNZb3NUQ29R0gHAAUFVX3lxTE5OOHB5a2F3dUZzRzJ1WDNiRnhmci1lOU8wMUt4YXZDYnJ4TzJRTVN3M1dXRFd6MUI2bmRFQm54MDJEbndSaWFWUVR6X0tnY3RpQmtQSFlhcGlXWnZwakl2MDBUajdiSnZ1dlRRRzRuSVI0M2l2T3dPOHBQQVpQWTBuaFVRaFowaEVJcWVTQkVQc180T1E4b2taWEl1eXc5NTg1MzZzWlMwaFZQdVhReHZCZjFad1pUYzYzdzh0TkVhXw?oc=5",
       "published_at": "2026-08-16T03:31:00+00:00",
       "category": "ceuta",
@@ -358,7 +358,7 @@
     },
     {
       "title": "Police Confirm 15 Rape Cases, Two Suspects Detained in Ceuta since Mass Invasion",
-      "source": "hungarianconservative.com",
+      "source": "Hungarian Conservative",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZVY5N3RrVHlNcmFwMlp2N1l0eERVMGx6SkxCTzZhaDNZSVFkYkdXVmtNMFdpQ3VicXNMOTJ1ZDFvSEtwVDRXdmw2NmRyRTAtbVhOLXZ0aXFyckRheExIbllMbFAzdlc5MjdfZXZaWFQ4WjVQc0FQc2NKVEJ5djR4bXFZajVqa1lkZXpZU3hfaEFWQVJSUHluRXZEZGdpcWNvNC1USkExWUFtVWcwc21wb0RWRzlCLWlQQk9fMA?oc=5",
       "published_at": "2026-08-15T22:27:00+00:00",
       "category": "ceuta",

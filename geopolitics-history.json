@@ -2991,5 +2991,46 @@
         "en": "LOW"
       }
     }
+  },
+  {
+    "at": "2026-08-19T08:56:49.417950+00:00",
+    "status": {
+      "maritime_status": {
+        "es": "OPERATIVO",
+        "en": "OPERATIONAL"
+      },
+      "maritime_note": {
+        "es": "El corredor permanece abierto; los avisos oficiales prevalecen.",
+        "en": "The corridor remains open; official notices remain authoritative."
+      },
+      "border_pressure": {
+        "es": "ALTA",
+        "en": "HIGH"
+      },
+      "border_note": {
+        "es": "Varias fuentes describen una crisis fronteriza o humanitaria grave.",
+        "en": "Several sources describe a serious border or humanitarian crisis."
+      },
+      "bilateral_tension": {
+        "es": "ESTABLE",
+        "en": "STABLE"
+      },
+      "bilateral_note": {
+        "es": "No se detecta una escalada bilateral clara en las fuentes recientes.",
+        "en": "No clear bilateral escalation is detected in recent sources."
+      },
+      "security_status": {
+        "es": "VIGILANCIA REFORZADA",
+        "en": "REINFORCED MONITORING"
+      },
+      "security_note": {
+        "es": "Las fuentes describen medidas adicionales de seguridad o control.",
+        "en": "Sources describe additional security or control measures."
+      },
+      "confidence": {
+        "es": "MEDIA",
+        "en": "MEDIUM"
+      }
+    }
   }
 ]

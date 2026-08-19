@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-19T07:56:08.154007+00:00",
+  "generated_at": "2026-08-19T08:56:49.417950+00:00",
   "language_default": "es",
   "status": {
     "maritime_status": {
@@ -12,12 +12,12 @@
       "en": "The corridor remains open; official notices remain authoritative."
     },
     "border_pressure": {
-      "es": "BAJA / SIN SEÑALES RECIENTES",
-      "en": "LOW / NO RECENT SIGNALS"
+      "es": "ALTA",
+      "en": "HIGH"
     },
     "border_note": {
-      "es": "No aparecen señales recientes suficientes para elevar el nivel.",
-      "en": "There are not enough recent signals to raise the level."
+      "es": "Varias fuentes describen una crisis fronteriza o humanitaria grave.",
+      "en": "Several sources describe a serious border or humanitarian crisis."
     },
     "bilateral_tension": {
       "es": "ESTABLE",
@@ -28,33 +28,42 @@
       "en": "No clear bilateral escalation is detected in recent sources."
     },
     "security_status": {
-      "es": "SIN ALERTA ESPECÍFICA",
-      "en": "NO SPECIFIC ALERT"
+      "es": "VIGILANCIA REFORZADA",
+      "en": "REINFORCED MONITORING"
     },
     "security_note": {
-      "es": "No se detectan señales suficientes para una alerta editorial.",
-      "en": "There are not enough signals for an editorial alert."
+      "es": "Las fuentes describen medidas adicionales de seguridad o control.",
+      "en": "Sources describe additional security or control measures."
     },
     "confidence": {
-      "es": "BAJA",
-      "en": "LOW"
+      "es": "MEDIA",
+      "en": "MEDIUM"
     }
   },
   "items": [
     {
-      "title": "The Tiny Spanish Territory of Ceuta Is Grappling With a New Migrant Crisis",
-      "source": "WSJ",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVnpDbXplemVQbFRQUUhuMFQ1emJpb2xXY1NWaFhJQ3lMVnNMcUdzUHBSVDZ1cmNIcGR3WW4zaGhfcVZpSW50alJsdENtWEpPRHR1Y3FXZUJLSmhZOUthR1E0b1Q3ZlZvMHFJcXU3VnpLMXh3Z1M3dDRGUmxnVVNiZFh2c2hmdkx6dEZfQV9oendwVGx3ZjhZbFo0NkhGbi1iZmhlWmRKc3NFZEFZUDNkdHFybkRVU1E?oc=5",
-      "published_at": "2026-08-18T21:31:39+00:00",
+      "title": "Migrant women tell of sexual harassment in Spain's crisis-hit Ceuta",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVUNlbTZzOFpQWlRwVzBOc21qM0lCME5wWnIzOWxhU0hPNC10NEZrcG0tTVFoQkcwN2k0MUFvcC1CWF9iMHMweUJPZ01CUnFNS1ZZWG5oWE1oZGIxeW9RRUQxdkxBNl80OGdlYndkTTFEbTV0WEV2bHE0QVF4ZjMtNHQyV3FlVnZtdFpESDMxUHlOUUpqSnVZQVJIRmNRLUpqTE02Q1hxSlJMVVJobXc?oc=5",
+      "published_at": "2026-08-18T17:02:46+00:00",
       "category": "ceuta",
       "language": "en",
-      "weight": 2
+      "weight": 5
     },
     {
       "title": "Fortress Europe Outsourced: Externalization, Law, and the Politics of Blame in the Ceuta Migration Crisis",
       "source": "Morocco World News",
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNVEo5clhrb19nN2xsdjZkSFFaajZOY0lRaThDT3ZnempaYUU4M0sxcVhNTkN3SU1obFBEbTE2V3F3MWVlbkV1eS05TGVjZWVnYmJRNUY0MUhicEJOaTBHbmhKb3pJRUM5S25feFhEYmVnU3dPSF9wbHJtWlNiOE91REh1N0UtRllJSnVPRUhMUVlVeU5aa3dQd1FRUXhiSHF6R3F0QzJNRFVFQkJHaW03a2VDUEhxeFFyYkFHak0zZDc1bzZvaTZJR2VXTHM3SnRORFNoUTk4VVRvVGowZm9WLUJDZGYydw?oc=5",
       "published_at": "2026-08-18T16:48:07+00:00",
+      "category": "ceuta",
+      "language": "en",
+      "weight": 2
+    },
+    {
+      "title": "The Tiny Spanish Territory of Ceuta Is Grappling With a New Migrant Crisis",
+      "source": "wsj.com",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVnpDbXplemVQbFRQUUhuMFQ1emJpb2xXY1NWaFhJQ3lMVnNMcUdzUHBSVDZ1cmNIcGR3WW4zaGhfcVZpSW50alJsdENtWEpPRHR1Y3FXZUJLSmhZOUthR1E0b1Q3ZlZvMHFJcXU3VnpLMXh3Z1M3dDRGUmxnVVNiZFh2c2hmdkx6dEZfQV9oendwVGx3ZjhZbFo0NkhGbi1iZmhlWmRKc3NFZEFZUDNkdHFybkRVU1E?oc=5",
+      "published_at": "2026-08-18T15:31:59+00:00",
       "category": "ceuta",
       "language": "en",
       "weight": 2
@@ -79,7 +88,7 @@
     },
     {
       "title": "Frente POLISARIO recuerda que las aguas del Sáhara Occidental son parte inseparable del Territorio y cualquier explotación requiere el consentimiento saharaui",
-      "source": "spsrasd.info",
+      "source": "وكالة الأنباء الصحراوية",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1CZU1FY2lob3B1NGk3bG1HUEs2NE1pakJRZUVHdVRZZzk5MGxOOUlwVVFoM1dRclVoUzJxSHZTTF9wRkV4M0VPbVpxd3pzQ0QwM0NzUzd6T0tZNVNRTHc?oc=5",
       "published_at": "2026-08-18T10:46:02+00:00",
       "category": "relations",
@@ -231,17 +240,8 @@
       "weight": 2
     },
     {
-      "title": "Moroccan security forces arrest nearly 300 migrants trying to reach Spain’s Ceuta",
-      "source": "The New Indian Express",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNLXlmV1VUZnBhV1FPV3ViblJqYlJrZ0tvUG1iUkFpeVItajVtcU5rcjAxU0RLRGh5NFJ6aUp6b2EyWE1vZTlHWXdtblNUejQxczBHZzVDb3dUbnFQd29GWVNkSnhvYjNZd0t6Ti1oREVHZjFJQ296b2dxZHU5eEVSRkxwU1lQd09IbWJ1YmowUGNoajA5aTN4VTM1c2RSVjJwWEp3czVsSDhBRmExcWpVTktsUnZJRUxxZW1BUXM0a2JNUWVGanVCU1RkY9IB2AFBVV95cUxPdEY2OERFcU42R2RnZjNjOVZEUWZLcnFDbnFoM1BiaHFtVTd5MVVhX1ZDaU5kc1l2NmxYSnRPdXJ5aGZSRWp4WjhVclg1Qm5Udm8yXzM0Rm5jc0dFMi11OWdhMEN0ZU9mc3MtVW0tem9kMjNYbnBGbU9qNTgzQjBlZ1FEUmxUSWtrZHEtdVl5TlFiOTh4dzl2WmlBUDREcTZKaExvbEpqY2FhMDBCVTE2SEVlN1VoZGUtVVBxNGxoeXl0T0N1NEFhb0hlLWdhbnpCaTJPVGdDWlA?oc=5",
-      "published_at": "2026-08-17T04:02:36+00:00",
-      "category": "ceuta",
-      "language": "en",
-      "weight": 2
-    },
-    {
       "title": "‘Don’t send us back’ Why migrants from Morocco and beyond are seeking asylum in Spain",
-      "source": "english.mathrubhumi.com",
+      "source": "Mathrubhumi English",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMWM4Z3RRaEdKX01LSkFDSjJCc0pZUm50MnY0OTMyOE5yY0U1LXBnM3dEVzFrWlg3MVNlSk5GOVNXeW1ybjd6YUJfcGtqbGl6bkNWcU45ZGdvODVfY1VYTXVzOUoyMFIzWlVqU2dXUEdTOEdwb2VsXzY0Z3o3QWxfOWpldjhUQTJ3LVpwVWRfQzBwTm9mWS0wMFh3dTdHYV83bHJ2WklWN1JkMUxw0gGsAUFVX3lxTE8xYzhndFFoR0pfTUtKQUNKMkJzSllSbnQydjQ5MzI4TnJjRTUtcGczd0RXMWtaWDcxU2VKTkY5U1d5bXJuN3phQl9wa2psaXpuQ1ZxTjlkZ284NV9jVVhNdXM5SjIwUjNaVWpTZ1dQR1M4R3BvZWxfNjRnejdBbF85amV2OFRBMnctWnBVZF9DMHBOb2ZZLTAwWHd1N0dhXzdscnZaSVY3UmQxTHA?oc=5",
       "published_at": "2026-08-17T03:48:42+00:00",
       "category": "relations",
@@ -277,7 +277,7 @@
     },
     {
       "title": "Ceuta migrant crisis worsens as police investigate sexual assault claims",
-      "source": "thetimes.com",
+      "source": "The Times",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPd2xDVXVqV0s4SFNZa1pES3o1MDB1RE0zT2dBVk5WSWNDcl9JTGQtcHNMRFpIN1NXaUs4eC0zajQ0bVZzcnozcjMzSllnV0xrTGo5TEsyQl8xZGdIVkFRaEw4S1lJVHNiX2pRd3JCTXVQbW4yRWxrR3REelVEYVRZWk5uZGtkSTFzcHd0MXpabk1LcU9icmNB?oc=5",
       "published_at": "2026-08-16T20:45:05+00:00",
       "category": "ceuta",

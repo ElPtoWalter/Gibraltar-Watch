@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "date": "2026-08-19",
-  "generated_at": "2026-08-19T08:56:53Z",
-  "source_checked_at": "2026-08-19T08:56:41Z",
+  "generated_at": "2026-08-19T09:51:44Z",
+  "source_checked_at": "2026-08-19T09:51:29Z",
   "health": "OK",
   "health_label_es": "Observatorio operativo",
   "health_label_en": "Observatory operational",
@@ -16,9 +16,9 @@
   "change_en": "Seismic data or source health has changed since the previous brief.",
   "seismic": {
     "source": "USGS Earthquake Catalog",
-    "source_query": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-07-20T08%3A56%3A41Z&endtime=2026-08-19T08%3A56%3A41Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
+    "source_query": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-07-20T09%3A51%3A29Z&endtime=2026-08-19T09%3A51%3A29Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
     "periods": {
-      "24h": 2,
+      "24h": 1,
       "7d": 4,
       "30d": 5
     },
@@ -53,5 +53,5 @@
     "Official results from Spain–Morocco fixed-link geological campaigns."
   ],
   "publish_recommended": true,
-  "material_hash": "11ff981b7be20032"
+  "material_hash": "7de4258a74f483c3"
 }

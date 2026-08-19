@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-19T13:12:37.820332+00:00",
+  "generated_at": "2026-08-19T13:59:40.787663+00:00",
   "language_default": "es",
   "status": {
     "maritime_status": {
@@ -12,12 +12,12 @@
       "en": "The corridor remains open; official notices remain authoritative."
     },
     "border_pressure": {
-      "es": "BAJA / SIN SEÑALES RECIENTES",
-      "en": "LOW / NO RECENT SIGNALS"
+      "es": "ALTA",
+      "en": "HIGH"
     },
     "border_note": {
-      "es": "No aparecen señales recientes suficientes para elevar el nivel.",
-      "en": "There are not enough recent signals to raise the level."
+      "es": "Varias fuentes describen una crisis fronteriza o humanitaria grave.",
+      "en": "Several sources describe a serious border or humanitarian crisis."
     },
     "bilateral_tension": {
       "es": "ESTABLE",
@@ -28,42 +28,42 @@
       "en": "No clear bilateral escalation is detected in recent sources."
     },
     "security_status": {
-      "es": "SIN ALERTA ESPECÍFICA",
-      "en": "NO SPECIFIC ALERT"
+      "es": "VIGILANCIA REFORZADA",
+      "en": "REINFORCED MONITORING"
     },
     "security_note": {
-      "es": "No se detectan señales suficientes para una alerta editorial.",
-      "en": "There are not enough signals for an editorial alert."
+      "es": "Las fuentes describen medidas adicionales de seguridad o control.",
+      "en": "Sources describe additional security or control measures."
     },
     "confidence": {
-      "es": "BAJA",
-      "en": "LOW"
+      "es": "MEDIA",
+      "en": "MEDIUM"
     }
   },
   "items": [
     {
-      "title": "Dispatch from Ceuta: Inside the 48-Hour Migration Crisis",
-      "source": "The Free Press",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9oalhlZWd1OUUyd1h2VUF3dlA2VXBLbHllU2RoeVY5R01ncG5hZE8yYmJxbUM2UGJUOTFWMHExM3FNaHFBS1MxU3pSa1hrZ0R3MjdycFpIZ2xXa2ZqakVUSGhEUXRrbHow?oc=5",
-      "published_at": "2026-08-18T18:38:06+00:00",
+      "title": "The Tiny Spanish Territory of Ceuta Is Grappling With a New Migrant Crisis",
+      "source": "WSJ",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVnpDbXplemVQbFRQUUhuMFQ1emJpb2xXY1NWaFhJQ3lMVnNMcUdzUHBSVDZ1cmNIcGR3WW4zaGhfcVZpSW50alJsdENtWEpPRHR1Y3FXZUJLSmhZOUthR1E0b1Q3ZlZvMHFJcXU3VnpLMXh3Z1M3dDRGUmxnVVNiZFh2c2hmdkx6dEZfQV9oendwVGx3ZjhZbFo0NkhGbi1iZmhlWmRKc3NFZEFZUDNkdHFybkRVU1E?oc=5",
+      "published_at": "2026-08-19T03:31:39+00:00",
       "category": "ceuta",
       "language": "en",
       "weight": 2
+    },
+    {
+      "title": "Migrant women tell of sexual harassment in Spain's crisis-hit Ceuta",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVUNlbTZzOFpQWlRwVzBOc21qM0lCME5wWnIzOWxhU0hPNC10NEZrcG0tTVFoQkcwN2k0MUFvcC1CWF9iMHMweUJPZ01CUnFNS1ZZWG5oWE1oZGIxeW9RRUQxdkxBNl80OGdlYndkTTFEbTV0WEV2bHE0QVF4ZjMtNHQyV3FlVnZtdFpESDMxUHlOUUpqSnVZQVJIRmNRLUpqTE02Q1hxSlJMVVJobXc?oc=5",
+      "published_at": "2026-08-18T17:02:46+00:00",
+      "category": "ceuta",
+      "language": "en",
+      "weight": 5
     },
     {
       "title": "Fortress Europe Outsourced: Externalization, Law, and the Politics of Blame in the Ceuta Migration Crisis",
       "source": "Morocco World News",
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNVEo5clhrb19nN2xsdjZkSFFaajZOY0lRaThDT3ZnempaYUU4M0sxcVhNTkN3SU1obFBEbTE2V3F3MWVlbkV1eS05TGVjZWVnYmJRNUY0MUhicEJOaTBHbmhKb3pJRUM5S25feFhEYmVnU3dPSF9wbHJtWlNiOE91REh1N0UtRllJSnVPRUhMUVlVeU5aa3dQd1FRUXhiSHF6R3F0QzJNRFVFQkJHaW03a2VDUEhxeFFyYkFHak0zZDc1bzZvaTZJR2VXTHM3SnRORFNoUTk4VVRvVGowZm9WLUJDZGYydw?oc=5",
       "published_at": "2026-08-18T16:48:07+00:00",
-      "category": "ceuta",
-      "language": "en",
-      "weight": 2
-    },
-    {
-      "title": "The Tiny Spanish Territory of Ceuta Is Grappling With a New Migrant Crisis",
-      "source": "WSJ",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVnpDbXplemVQbFRQUUhuMFQ1emJpb2xXY1NWaFhJQ3lMVnNMcUdzUHBSVDZ1cmNIcGR3WW4zaGhfcVZpSW50alJsdENtWEpPRHR1Y3FXZUJLSmhZOUthR1E0b1Q3ZlZvMHFJcXU3VnpLMXh3Z1M3dDRGUmxnVVNiZFh2c2hmdkx6dEZfQV9oendwVGx3ZjhZbFo0NkhGbi1iZmhlWmRKc3NFZEFZUDNkdHFybkRVU1E?oc=5",
-      "published_at": "2026-08-18T15:31:39+00:00",
       "category": "ceuta",
       "language": "en",
       "weight": 2
@@ -79,7 +79,7 @@
     },
     {
       "title": "Spanish journalist says Ceuta residents believe government isn't doing enough to prevent another migrant rush",
-      "source": "Fox News",
+      "source": "foxnews.com",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZnhCVGYwUi03U1pTMF96Tzl3eUt4cTJ3dFNXa0tLdW1jQ3pzbWtUZFN5ZjN0cDZrZTcwYUo3MjRDSnZ2VXREVElUcUw4N05DVW55Yjhua0VjdFJuVWtDdjd1MTNaRUo2bmh0aFFhVnZrTmc2Ty1JVm93RzltdUt6MG5ubFU3eFlpTDVZWXNnQm93M3o2NVA0elBrTzRCVHdNSGlwb0lpd3VfZENwQXBpZEdxaEphd3B6S1VKZ3FZRVVHY053dHdFUFlB0gHPAUFVX3lxTE9HRVlfaGpfMmlTV0pKQkpRVzAtMmV0aUd1T1lXcXhGb2VuSENBdll5dzBZMmRSeENibUd6emhVZHoxS3FRZHQwYldtOEtULU5FbmJRSUpzWG9hUWh0V2JKWXhNNGMyN2IyX3JLZlNmQ1lCTjdtMlZJX21OVngzbExVNllXT0RYQUkxNUdLVWVTeVEyWXhyZ3cwOGVUbXVaSDhFV2xQS0pvLTJrSlVBVXRsdzNIUVk1R2staHNtbU9NNHNBTjFDX0lOUkEtTWU1SQ?oc=5",
       "published_at": "2026-08-18T13:59:23+00:00",
       "category": "ceuta",
@@ -106,7 +106,7 @@
     },
     {
       "title": "Vox se desmarca de la propuesta de Hermann Tertsch para reconocer el Sáhara como marroquí a cambio de Ceuta y Melilla",
-      "source": "Confidencial Digital",
+      "source": "elconfidencialdigital.com",
       "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOZTQzbkxwNkdJTHNha2Q4aFVfMVFTTnY3TnM4SDAwMUNnRzVkS1VYZ0s5d0lLWlh6SGR1ZjlaYVBZRUVTWGhtY3lCV3oyTXRwcnQ2R1VudmMyT2tUM3AwTWRuaEpyOVhRanlSd3Iyb0NrUE1kV0pBNlo4bG5QV3FSVVhQUzhYNHZNejhuR0xGcG9LaXVJS0dIZFFNREpzOUhsc2lpVHhZRzRKZjMwYmxkWkhXbFQwU2VUR1Y1VVRMMGNMS2FWXzJIYVJWdG9MM2ZVRGJFU2dKMEhFSFFrbmFTLUlCS1YxMVVWRE5ZSXhJTVRPelkteE9EdDgzUnQ3LURROWtj0gGIAkFVX3lxTE5XeFRWYjhibnRJMi02N2tQaWxLUFVCbVJaaGU3Zm9YX04wUWhMRGxTWGdhNzZzN3Q3U3pKYlBvYy1SaTZaTktrT3RIc2tMeEpDeDJoWW9aQ2phWkt4VEtFOEdqc1kzUW1wNEpMRlNfUWQ4bWhyclJ0STliNm5rWEpIN25fVzlMNFRBcVI5TlVlYzduY3p5czFBRmhoSVRDUE1vdWxpY1VLSmFtZ19Jb0dDb2FSZHo3OXY5R25QLTRodGpqSGotT19saDROM0l2aHNBVjNPelRyVnFSRjdUdWJaaDJQU29aNTZSeWp6X245M1RZRl9Lb0o3TzltNmVuZF95WGR5TGRRMQ?oc=5",
       "published_at": "2026-08-18T03:00:00+00:00",
       "category": "relations",
@@ -187,7 +187,7 @@
     },
     {
       "title": "Moroccan families seek return of minors from Ceuta",
-      "source": "巴士的報",
+      "source": "bastillepost.com",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMFdGajlmamxXRXEwX1A1SUtTTkpITEdHQnM3cVZ1eVptdTEtdWtKbHVjV1dWaG1XeUJVcEE5VlZKdkFFS1NPMnIzRldtOXJ2YzB2Wk55anBzLUlXT3ZJNV8tSWd5aFhiOUVqbVRIYVdfcHUwSW5CcEdYbGtoZ3dFelg5OTM2MzcyZjhRSVhZWWtscDE3ZjBGZE5wU3JSbFk3QUgzaA?oc=5",
       "published_at": "2026-08-17T07:56:00+00:00",
       "category": "ceuta",
@@ -196,7 +196,7 @@
     },
     {
       "title": "Nueva jornada de calma en la frontera, sin incidentes ni excesiva afluencia para ir a Marruecos",
-      "source": "Melilla Hoy",
+      "source": "melillahoy.es",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMGtPU3dyOU1tX183elBzOTZVWWdVbV9XLWZYdkNhdzBQbWtMN3ZudTRHUXZfbDdPOU9iX05xc3pGLUFIemdoT1JsR1J5d3NSU3pCQkhJdDJyc3ZLaEVWMThwSmp2MjBtM2ZCNk41bDRBWVVzTDF6SnBETEZUYWc5OGt2VkJDME01NmNZNUY1NXIyVF9TV3FfNkNfZkg1SlkzdEd6Q09JY0RQalFLTlFxNThlQzg0MHdx0gG-AUFVX3lxTE5hWURIa1BwNjA4RE80VVYwT1c2RG1nMXdTQWxLaGdIUGRKZW52TVRWdGEwX1F6VjJzcnVuNWhYVVhicU90Y3FRck5HS05ab2d3c0oyOTJXY0JiZUU1SlJKMUNHLV9QNXVVeGtzcFJJOXE4VEt5blpaTmxnV0ZxM1hHdE1ldDE2MVlFTjZoYk5Lb2d2SXFHUk9yMTN0amZaUkttaGdRaXFEWWxva1JTYllycG1PNEpVcUlWRFJaZUE?oc=5",
       "published_at": "2026-08-17T05:58:00+00:00",
       "category": "melilla",
@@ -205,7 +205,7 @@
     },
     {
       "title": "España mantiene su hoja de ruta con Marruecos mientras Rabat estrecha su cooperación militar con EEUU",
-      "source": "elplural.com",
+      "source": "Elplural.com",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOOU1JSHVFZWlPWFRYVDZyNjhWZS1oamRleTk5NHpQUms3WlFkTUh3SFNkVm04NmdLZGhraDVWVFhQOXllR2otYkxfdUt0SFhsdnpFeGdUbUlybzRzb0llVGkzQ2RFSUwwVTdNVGo0ZEhYTURnMG5FR01lNUxNLTNEbUNLb0g5X0thRGQ2SU5XSHI4TlZPZXdNZFN3Vy05Umk5eFBOOXY4cWF1LXlUMDI3OW0xUlFsck83UGlINHhMeG5VNzZyOTlTVVFka2l2T0dC0gHWAUFVX3lxTE1sU3YxWUZUMnltMl9BWGkwS3BCa1dMaDNzakg5eXFpaDcybm5Dck9sMXZzOUdXN2Vmem5nRDJqREJ0LVlzYzFiR29pN1JFYVloM0FZbVlwT1BXdE8tVkNTc0ZlQkZqVGxZOE5hX3pHN19raVJ2dkhFMk5jZG5pYlpEeENLMDYxVkN2QUZpOWVtd2thQTZWQjFkRjVhRTNCZUZucUlZZkZqWmU2Nm1SaGd2R1ZSbE1MakpWSUVHZERlbG9SSWh5Y2V6eEswZHJ2UkhVZTF4bHc?oc=5",
       "published_at": "2026-08-17T05:53:45+00:00",
       "category": "relations",
@@ -214,7 +214,7 @@
     },
     {
       "title": "Imbroda destaca el “excelente” trabajo de las FyCSE en la frontera de Melilla y exige al Gobierno soluciones excepcionales para solventar la situación en Ceuta",
-      "source": "Melilla Hoy",
+      "source": "melillahoy.es",
       "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPcDhXRGZIcmhzRkRMa1FNZ3JSQ0RpTU81SjFzbFNUSmpjem11SlU4c1VteEVCWU81alBzWk5oa2piOXBiX0ZrdVdOanZoY2hSLUxaYTVjY1V5Mlp1dkpJR25oNW1oX2JIX1BRSlVXX1pKMVhCMEJPdXpWTzkwc2hvd0ZwcnI3RGlYbHRzcEpYR3I2dWVMRXB5SlRPWWc4OGVCN2FDbHpkQkoxVDlHNTN2TGZrcThhZ24zbXRwZUVjN3ZNMUVacm5FaFNONVZPQ0pzcGNzX2NreFFleW5XV0dKQ081OUcwTTd5ZUp5amw1OHVJRlA3Q0FNa2tHVnVOVHI1WkV0YmZic2RHZkkx0gGSAkFVX3lxTE9YTzB4VzM0Y0pHa3hqZmhJQTZEbHdySml6dUdtcl9VQkFtZHBOckhNb2t2NWZDUHlSX3lGaDAza0NaQ0Z0SUM3REVxTVo5MXVyc2FoYmRoUGtGVHFkekdUWU4wUjVFdWJDVmVmajFfNDFfdTNVTlJ0WEJRMS1EZU5nNXJ2ZEsyTFlrZkFzelBpSS1PbHR3bTNGcVMxTWJwLU9jMVN1MFRTX0d2aWtNWnQ2N1RXMTNObnZ1Q1ZYWWxlQnhvejlIVHhvR1g4THJXeUJmV1pUWjJVZWpwOUdZSFBya1lPcDhzaDB5YjRITjB3MlBvSGxnMFNWRzdvSDB0cGhxSGVaNTNfOVdOSE1NRVV0c1E?oc=5",
       "published_at": "2026-08-17T05:06:00+00:00",
       "category": "melilla",
@@ -259,7 +259,7 @@
     },
     {
       "title": "Ceuta migrant crisis worsens as police investigate sexual assault claims",
-      "source": "The Times",
+      "source": "thetimes.com",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPd2xDVXVqV0s4SFNZa1pES3o1MDB1RE0zT2dBVk5WSWNDcl9JTGQtcHNMRFpIN1NXaUs4eC0zajQ0bVZzcnozcjMzSllnV0xrTGo5TEsyQl8xZGdIVkFRaEw4S1lJVHNiX2pRd3JCTXVQbW4yRWxrR3REelVEYVRZWk5uZGtkSTFzcHd0MXpabk1LcU9icmNB?oc=5",
       "published_at": "2026-08-16T20:45:05+00:00",
       "category": "ceuta",

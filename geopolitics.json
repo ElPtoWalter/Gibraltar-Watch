@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-19T11:43:20.798162+00:00",
+  "generated_at": "2026-08-19T13:12:37.820332+00:00",
   "language_default": "es",
   "status": {
     "maritime_status": {
@@ -12,12 +12,12 @@
       "en": "The corridor remains open; official notices remain authoritative."
     },
     "border_pressure": {
-      "es": "ALTA",
-      "en": "HIGH"
+      "es": "BAJA / SIN SEÑALES RECIENTES",
+      "en": "LOW / NO RECENT SIGNALS"
     },
     "border_note": {
-      "es": "Varias fuentes describen una crisis fronteriza o humanitaria grave.",
-      "en": "Several sources describe a serious border or humanitarian crisis."
+      "es": "No aparecen señales recientes suficientes para elevar el nivel.",
+      "en": "There are not enough recent signals to raise the level."
     },
     "bilateral_tension": {
       "es": "ESTABLE",
@@ -28,27 +28,27 @@
       "en": "No clear bilateral escalation is detected in recent sources."
     },
     "security_status": {
-      "es": "VIGILANCIA REFORZADA",
-      "en": "REINFORCED MONITORING"
+      "es": "SIN ALERTA ESPECÍFICA",
+      "en": "NO SPECIFIC ALERT"
     },
     "security_note": {
-      "es": "Las fuentes describen medidas adicionales de seguridad o control.",
-      "en": "Sources describe additional security or control measures."
+      "es": "No se detectan señales suficientes para una alerta editorial.",
+      "en": "There are not enough signals for an editorial alert."
     },
     "confidence": {
-      "es": "MEDIA",
-      "en": "MEDIUM"
+      "es": "BAJA",
+      "en": "LOW"
     }
   },
   "items": [
     {
-      "title": "Migrant women tell of sexual harassment in Spain's crisis-hit Ceuta",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVUNlbTZzOFpQWlRwVzBOc21qM0lCME5wWnIzOWxhU0hPNC10NEZrcG0tTVFoQkcwN2k0MUFvcC1CWF9iMHMweUJPZ01CUnFNS1ZZWG5oWE1oZGIxeW9RRUQxdkxBNl80OGdlYndkTTFEbTV0WEV2bHE0QVF4ZjMtNHQyV3FlVnZtdFpESDMxUHlOUUpqSnVZQVJIRmNRLUpqTE02Q1hxSlJMVVJobXc?oc=5",
-      "published_at": "2026-08-18T17:02:46+00:00",
+      "title": "Dispatch from Ceuta: Inside the 48-Hour Migration Crisis",
+      "source": "The Free Press",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9oalhlZWd1OUUyd1h2VUF3dlA2VXBLbHllU2RoeVY5R01ncG5hZE8yYmJxbUM2UGJUOTFWMHExM3FNaHFBS1MxU3pSa1hrZ0R3MjdycFpIZ2xXa2ZqakVUSGhEUXRrbHow?oc=5",
+      "published_at": "2026-08-18T18:38:06+00:00",
       "category": "ceuta",
       "language": "en",
-      "weight": 5
+      "weight": 2
     },
     {
       "title": "Fortress Europe Outsourced: Externalization, Law, and the Politics of Blame in the Ceuta Migration Crisis",
@@ -61,9 +61,9 @@
     },
     {
       "title": "The Tiny Spanish Territory of Ceuta Is Grappling With a New Migrant Crisis",
-      "source": "wsj.com",
+      "source": "WSJ",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVnpDbXplemVQbFRQUUhuMFQ1emJpb2xXY1NWaFhJQ3lMVnNMcUdzUHBSVDZ1cmNIcGR3WW4zaGhfcVZpSW50alJsdENtWEpPRHR1Y3FXZUJLSmhZOUthR1E0b1Q3ZlZvMHFJcXU3VnpLMXh3Z1M3dDRGUmxnVVNiZFh2c2hmdkx6dEZfQV9oendwVGx3ZjhZbFo0NkhGbi1iZmhlWmRKc3NFZEFZUDNkdHFybkRVU1E?oc=5",
-      "published_at": "2026-08-18T15:31:59+00:00",
+      "published_at": "2026-08-18T15:31:39+00:00",
       "category": "ceuta",
       "language": "en",
       "weight": 2
@@ -115,7 +115,7 @@
     },
     {
       "title": "Marruecos abre la caja de los truenos y aprovecha crisis para cobrarse a España",
-      "source": "mundiario.com",
+      "source": "MUNDIARIO",
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOdERVX1J0MTFSZHN0S1p1WnRKNU80Rk1NUzhXeUczaVl4RGRYTW0zekpYY0xEa1FSYUR0UExOVFB1VEpTc0pDLVBuT1lYdUE4Nk5yN1NTUEpkYXY0bjlQOFExeVItMzc5ZjBQbk5sN0NsLVh0cUQzTGhCZUNMSkE5dU1uclhVNnZXSGg1VzAwVF9wV3ZOUW45VThuZEZJMzZzLWNlN2laUkZwcWZfTjBKWFBtTVJROVF1RmRtcTVBUnhUN19MalFJeVYtb1NxRWRsS1ZacFpNbzdjMEc5Qy0w0gHkAUFVX3lxTE44cmJPc3FSUmV5bWEtVjlFYVFZX0pUMzB0bHFjQ21WYlhCajJ6ekwzUzQ0OUZ4VWxYWjNmNHNVMldXNWtNR0RxU3dyd1VYYjZkNGVwYWZhclo0Q2EzZlZ3YkZzTkZmT0xFeUpUWmZXOXlFZjE1OUhNVVFkeGViVHFKYUl6TkJfUGg0bHp3Vi1FT3FwNDRBNW52RTU3T18tRUJEVWRWNG44UzBEbUU3V2QxeUFLTS10YkJ5dGJtVDRkaFVvODA0eGtoY0JaZkkxdi1fbzFwcmhvaTVWVE05eVBVQ2xseA?oc=5",
       "published_at": "2026-08-18T00:11:38+00:00",
       "category": "ceuta",
@@ -169,7 +169,7 @@
     },
     {
       "title": "España mantiene su apuesta por Marruecos pese al terremoto migratorio de Ceuta",
-      "source": "mundiario.com",
+      "source": "MUNDIARIO",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdnhuTnhHUXgxOFpKWnNGSWp0N3dibmVOTjNWc1RKdUZweF9RaHB0Rk51Qkw5Rm1FSlJENXlKcFBSU3ZHNjdWRW50UEprZ1RrVnAwYkI4Ulo5UGFrc3dsTWlGdXdTWV85dmJsRkhzWmFEa1FmYmhoLWhvVmg0U2ViV0Nsb3QyZ1RiMDFVa0ZBdVZFWFZURmNSLXRVZmlLSHRUV3dsTGdrVFhrRkNXc25MN0RBbTFrNFp4eVU4R3hRajRXdF9PXzUtWU0xM0VVdFBM0gHWAUFVX3lxTFBmWEFUdWsya0xZX2Z2TlhLUE9UMW9CaUgzQXB2Tk8wMDVTZE1CT3FFYVlOYzhRSUo5QmVNN0IzWGpNOUJITGJrUkxIWXRYTTZ0NXpZTWk2OWdud25BcmpjVmJXd1hXZnZwNnFnUl9VcW5KNmJDclhUazUyY3hKclQyTHFPQzd1R2M3dXVZaHA3a3owV0I0c2RxZUFfNThlcUJvb3p5cTVRSXllWGl5R3pFR3lyU2tnZWhIUWpwUktGMmwxRkdIazZPMXU3dUx5a2FCMXFYMnc?oc=5",
       "published_at": "2026-08-17T12:41:13+00:00",
       "category": "ceuta",
@@ -205,7 +205,7 @@
     },
     {
       "title": "España mantiene su hoja de ruta con Marruecos mientras Rabat estrecha su cooperación militar con EEUU",
-      "source": "Elplural.com",
+      "source": "elplural.com",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOOU1JSHVFZWlPWFRYVDZyNjhWZS1oamRleTk5NHpQUms3WlFkTUh3SFNkVm04NmdLZGhraDVWVFhQOXllR2otYkxfdUt0SFhsdnpFeGdUbUlybzRzb0llVGkzQ2RFSUwwVTdNVGo0ZEhYTURnMG5FR01lNUxNLTNEbUNLb0g5X0thRGQ2SU5XSHI4TlZPZXdNZFN3Vy05Umk5eFBOOXY4cWF1LXlUMDI3OW0xUlFsck83UGlINHhMeG5VNzZyOTlTVVFka2l2T0dC0gHWAUFVX3lxTE1sU3YxWUZUMnltMl9BWGkwS3BCa1dMaDNzakg5eXFpaDcybm5Dck9sMXZzOUdXN2Vmem5nRDJqREJ0LVlzYzFiR29pN1JFYVloM0FZbVlwT1BXdE8tVkNTc0ZlQkZqVGxZOE5hX3pHN19raVJ2dkhFMk5jZG5pYlpEeENLMDYxVkN2QUZpOWVtd2thQTZWQjFkRjVhRTNCZUZucUlZZkZqWmU2Nm1SaGd2R1ZSbE1MakpWSUVHZERlbG9SSWh5Y2V6eEswZHJ2UkhVZTF4bHc?oc=5",
       "published_at": "2026-08-17T05:53:45+00:00",
       "category": "relations",
@@ -223,7 +223,7 @@
     },
     {
       "title": "‘Don’t send us back’ Why migrants from Morocco and beyond are seeking asylum in Spain",
-      "source": "english.mathrubhumi.com",
+      "source": "Mathrubhumi English",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMWM4Z3RRaEdKX01LSkFDSjJCc0pZUm50MnY0OTMyOE5yY0U1LXBnM3dEVzFrWlg3MVNlSk5GOVNXeW1ybjd6YUJfcGtqbGl6bkNWcU45ZGdvODVfY1VYTXVzOUoyMFIzWlVqU2dXUEdTOEdwb2VsXzY0Z3o3QWxfOWpldjhUQTJ3LVpwVWRfQzBwTm9mWS0wMFh3dTdHYV83bHJ2WklWN1JkMUxw0gGsAUFVX3lxTE8xYzhndFFoR0pfTUtKQUNKMkJzSllSbnQydjQ5MzI4TnJjRTUtcGczd0RXMWtaWDcxU2VKTkY5U1d5bXJuN3phQl9wa2psaXpuQ1ZxTjlkZ284NV9jVVhNdXM5SjIwUjNaVWpTZ1dQR1M4R3BvZWxfNjRnejdBbF85amV2OFRBMnctWnBVZF9DMHBOb2ZZLTAwWHd1N0dhXzdscnZaSVY3UmQxTHA?oc=5",
       "published_at": "2026-08-17T03:48:42+00:00",
       "category": "relations",
@@ -295,7 +295,7 @@
     },
     {
       "title": "Cómo la cooperación con Marruecos apagó el temido asalto del 15 de agosto",
-      "source": "mundiario.com",
+      "source": "MUNDIARIO",
       "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPUGtMbTNoekZoZWpmdHJlMXdNNDZISTJMd1VORzB2bE4yMnhMUnZ6QVJIaWtvbkptQmU3ZmFIc1pPWWhSTnREdG1UQmNXSWZXWElSeTk5TndERlEyU0tnOGwxSEVOTUpzQ1RDRHN4TkVMSGFJaXRUVFJiVGI3Q3dOdEZ2dFkwakFld3QzRm1KUC1Jd3d6WUFuV3Y5OWx4NWQ3YXZyZ0Q3UWpsajNXVXF3ZW9kRjdIME5XRnJJcTJKMi1hejlsNVhuSWc4eHpabW9BR2ZSSlZzT0R0NHN4UjIxMU1tRi0xdWNWb2NGa3dCVdIB9AFBVV95cUxNYnZGQ2pYUXFqeGpNOGFnS1d2THNadmk2RnowX2VFVW1FYjdPSEI2TGV5QTY0TDAyRjA5U2dQN2VET292YVNBbUtNX0wxdDdmNmd0TkVOY2pZMkNsdklvb2I1dzhiZWwtRzdEZTZjV1RYaVl3NmJhWWhKejlCLXBhOUVncnZ0UGl6eGo1MTlQdDZjNkhRdUZUa3RfZ28zaFdONDBtLW5RSjBmMXVxajNuUFIzWTBGOGt4OE1zMjFIV0ZfclphOXB4cVZNeVVzRV95RENDemMtTHVfUkxSVjZQSmVGb1o0ZGtPcU5LVF9NNE5pVWtu?oc=5",
       "published_at": "2026-08-16T18:50:54+00:00",
       "category": "melilla",

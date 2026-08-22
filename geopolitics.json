@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-22T22:41:51.090444+00:00",
+  "generated_at": "2026-08-22T23:38:08.043862+00:00",
   "language_default": "es",
   "status": {
     "maritime_status": {
@@ -12,12 +12,12 @@
       "en": "The corridor remains open; official notices remain authoritative."
     },
     "border_pressure": {
-      "es": "ALTA",
-      "en": "HIGH"
+      "es": "BAJA / SIN SEÑALES RECIENTES",
+      "en": "LOW / NO RECENT SIGNALS"
     },
     "border_note": {
-      "es": "Varias fuentes describen una crisis fronteriza o humanitaria grave.",
-      "en": "Several sources describe a serious border or humanitarian crisis."
+      "es": "No aparecen señales recientes suficientes para elevar el nivel.",
+      "en": "There are not enough recent signals to raise the level."
     },
     "bilateral_tension": {
       "es": "ESTABLE",
@@ -28,19 +28,28 @@
       "en": "No clear bilateral escalation is detected in recent sources."
     },
     "security_status": {
-      "es": "VIGILANCIA REFORZADA",
-      "en": "REINFORCED MONITORING"
+      "es": "SIN ALERTA ESPECÍFICA",
+      "en": "NO SPECIFIC ALERT"
     },
     "security_note": {
-      "es": "Las fuentes describen medidas adicionales de seguridad o control.",
-      "en": "Sources describe additional security or control measures."
+      "es": "No se detectan señales suficientes para una alerta editorial.",
+      "en": "There are not enough signals for an editorial alert."
     },
     "confidence": {
-      "es": "MEDIA",
-      "en": "MEDIUM"
+      "es": "BAJA",
+      "en": "LOW"
     }
   },
   "items": [
+    {
+      "title": "Del Sahara a Ceuta y Melilla, la frontera que Marruecos quiere mover",
+      "source": "ABC",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVGM5SzBpSVJWY294US0zMXVBZEI2S3ZvLVBFS3d0cUZJOF91TGl4bVlwZWhvQlZ1X1NCcnBHRjFsLTk1dUYtOTBBem9XNEgtem9xbWluVC1SSGhRZ2tlSEp0c3ZWb2thT2V4Nm53SFU2NlBaTXNPS1N2V05SOVZfZTlnazZnbVctekVHcTZRU044V19WWmFFb2k5SjZHdzVYbkJR?oc=5",
+      "published_at": "2026-08-22T23:32:46+00:00",
+      "category": "melilla",
+      "language": "es",
+      "weight": 2
+    },
     {
       "title": "Juan Jesús Vivas, el presidente de Ceuta, solicita a los ceutíes actuar con \"templanza, firmeza y seguridad\"",
       "source": "antena3.com",
@@ -355,15 +364,6 @@
       "category": "ceuta",
       "language": "es",
       "weight": 2
-    },
-    {
-      "title": "Thousands of migrants in Ceuta wait in limbo while Spain figures out what to do with them",
-      "source": "AP News",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOYi1FM2hNZzAzeGRENURtN0J3RktQN1hCOEIyMnpkaHZuSDJIbG55VWRSbG1XSlE0RldjNHZNQVhHOGVDYmdiSGVNYmpWNkctVHpWSjdPenZBS25LSDBQVnhpZmdKRUJ3TW1WOFVES0NEQi03NUhwX1h6N2lGc2xsRlhCWGE1YXA1dWoybFdvRy14YTQ?oc=5",
-      "published_at": "2026-08-21T07:48:00+00:00",
-      "category": "ceuta",
-      "language": "en",
-      "weight": 5
     }
   ],
   "errors": []

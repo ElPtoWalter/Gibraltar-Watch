@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-22T21:39:34.052808+00:00",
+  "generated_at": "2026-08-22T22:41:51.090444+00:00",
   "language_default": "es",
   "status": {
     "maritime_status": {
@@ -12,12 +12,12 @@
       "en": "The corridor remains open; official notices remain authoritative."
     },
     "border_pressure": {
-      "es": "BAJA / SIN SEÑALES RECIENTES",
-      "en": "LOW / NO RECENT SIGNALS"
+      "es": "ALTA",
+      "en": "HIGH"
     },
     "border_note": {
-      "es": "No aparecen señales recientes suficientes para elevar el nivel.",
-      "en": "There are not enough recent signals to raise the level."
+      "es": "Varias fuentes describen una crisis fronteriza o humanitaria grave.",
+      "en": "Several sources describe a serious border or humanitarian crisis."
     },
     "bilateral_tension": {
       "es": "ESTABLE",
@@ -28,19 +28,28 @@
       "en": "No clear bilateral escalation is detected in recent sources."
     },
     "security_status": {
-      "es": "SIN ALERTA ESPECÍFICA",
-      "en": "NO SPECIFIC ALERT"
+      "es": "VIGILANCIA REFORZADA",
+      "en": "REINFORCED MONITORING"
     },
     "security_note": {
-      "es": "No se detectan señales suficientes para una alerta editorial.",
-      "en": "There are not enough signals for an editorial alert."
+      "es": "Las fuentes describen medidas adicionales de seguridad o control.",
+      "en": "Sources describe additional security or control measures."
     },
     "confidence": {
-      "es": "BAJA",
-      "en": "LOW"
+      "es": "MEDIA",
+      "en": "MEDIUM"
     }
   },
   "items": [
+    {
+      "title": "Juan Jesús Vivas, el presidente de Ceuta, solicita a los ceutíes actuar con \"templanza, firmeza y seguridad\"",
+      "source": "antena3.com",
+      "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQWE5sR05hdGtBYkdjQlQ2RDhEaDhVUHBRQmtVQkhhTW1YOE1qZWNoSjc0eUViMFRualMxcGNvdEVfVTAwTTByODZkbFB2ZlNKRGpFR1diRldoQXpaME9ac29kczhyUTZocDk3REZVMHZKTW16Y29xYml6RGNTYVNOOEtLN2F4NzRDOXAtMk9UTmNoY095MURrWmlQWlp6dFFwYzhlaXFHSTFZXzZvempiSHZzeWw4ZDF5blVydkJacEZsZVE3akkyUjVldEQxb1ZDWXJTM2NfNFNRNlQ2MFVzVWI3aWJEVWcxeV81c1dpTkRvcFoyc1QyS0VRSWdmNHQ0czNwT1NhZHJ6c0J5OU9wT3pJSFN5MFXSAZcCQVVfeXFMTkJuYS1vSDNrMXFocWVsc1FxMzA1X0tKQlJaUExQWXI3c0JNRVZsWDNkZDlRWnVjaW0wWk90bENrT0N3NE5hakU3VXQ2X0NOMFA3SVpsSkJZQzhPSW5oX0ljN05Sa0NZLUZQSWZMN3BoejYzX21RM0gzRlVJQnRROXVVdXJObDNPcDNUUll5aW9lSVZrQkpFRV9FTW5ud3d5V0t2OGlUVE9heW02dlNiMUtkR0ZHYlFhMkRkWEtwb0VZX3FROUc1TldyV1lrOWdtTXJQS2EtdnBLcUxvTGw4ZXd1MFd4cUotblZxNkNSV3pCUEdJc0UwQkpFeXp3UGltMktYektXUE5vUDd5RkNDNkMzTmV2RTdV?oc=5",
+      "published_at": "2026-08-22T20:21:10+00:00",
+      "category": "ceuta",
+      "language": "es",
+      "weight": 2
+    },
     {
       "title": "La exigencia de Marruecos a España para aceptar los cadáveres de los migrantes muertos tras la entrada masiva en Ceuta",
       "source": "Onda Cero",
@@ -124,21 +133,21 @@
     },
     {
       "title": "Ceuta entierra a 18 inmigrantes muertos en la crisis fronteriza con Marruecos",
-      "source": "Euronews.com",
+      "source": "Euronews",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMFdTVjE3ZlVuaXgzRnozbzkxTWdJMWNFVkJ5UWc5UlVQUzdqNkxHR3UwVHBObmktSmY4WWRRVThIZmJtWDdGMDdoMkFXTGtmTGNZYndrbWZxMjFUTW5tYWV1VTVhdWdYSVFyNmRJbWgzWm9tNEFZRkJwYjQ0S0VJNlpFcnhKV0VEenI2d1lPZi0tWUlTZzF5ZjN4SGNWTl9FSEszcUJkOUFNeUR2UklkQ0Vsb2FLbFhUcWc?oc=5",
       "published_at": "2026-08-22T09:20:06+00:00",
       "category": "ceuta",
       "language": "es",
-      "weight": 2
+      "weight": 3
     },
     {
       "title": "Vídeo. Ceuta entierra a 18 inmigrantes muertos en la crisis fronteriza",
-      "source": "Euronews.com",
+      "source": "Euronews",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcndKMnlLSjg2d19PQTZNVFA5VU5EUFRKcEx0MUVwSUpXZGRKcVJicWtka2cwX2JtWE16eUgzYy1qNDhXNDRuQkVDTERzakdTTTNzbWtweGRjNk9rZjl4Y0ZUckdhY1kzd1I2TFI1U3NReFNXR2VsWmJDZURkNENzQXJWREg0U3NpLS1LRmQzdjVxX25VZWcyaFVpV3NUVC14d0xzcnFzTlc3MGktMWNsM2RjTW0?oc=5",
       "published_at": "2026-08-22T09:20:06+00:00",
       "category": "ceuta",
       "language": "es",
-      "weight": 2
+      "weight": 3
     },
     {
       "title": "Marruecos pide negociar Ceuta y Melilla y España rechaza discutir su soberanía",
@@ -147,15 +156,6 @@
       "published_at": "2026-08-22T08:18:22+00:00",
       "category": "melilla",
       "language": "es",
-      "weight": 2
-    },
-    {
-      "title": "Spain rejects Morocco's call for talks on Ceuta and Melilla sovereignty",
-      "source": "inkl",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOaEhQY1RDREpjQUEzRHRMYXNFY0phOWQxVDl1WTZGa1lQazVESzd2VHpNaWVUWU1JYXRxNmJlODZGUjNOSGR0cVkxTmd0VGVHbnhQOE1GS0FhSDVjUEJ3aV8tVUh0d2x3M2NLc0JaRl9ydWZpRXRvTUNlUTJrV1pHMUg5aGdyTEFlb0w0aUE1MXJ2YUU4cXVnNlRZMC0?oc=5",
-      "published_at": "2026-08-22T08:15:24+00:00",
-      "category": "ceuta",
-      "language": "en",
       "weight": 2
     },
     {

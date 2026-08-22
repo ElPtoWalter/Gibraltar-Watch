@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-22T08:50:20.075746+00:00",
+  "generated_at": "2026-08-22T09:45:18.651102+00:00",
   "language_default": "es",
   "status": {
     "maritime_status": {
@@ -12,12 +12,12 @@
       "en": "The corridor remains open; official notices remain authoritative."
     },
     "border_pressure": {
-      "es": "BAJA / SIN SEÑALES RECIENTES",
-      "en": "LOW / NO RECENT SIGNALS"
+      "es": "ALTA",
+      "en": "HIGH"
     },
     "border_note": {
-      "es": "No aparecen señales recientes suficientes para elevar el nivel.",
-      "en": "There are not enough recent signals to raise the level."
+      "es": "Varias fuentes describen una crisis fronteriza o humanitaria grave.",
+      "en": "Several sources describe a serious border or humanitarian crisis."
     },
     "bilateral_tension": {
       "es": "ESTABLE",
@@ -28,27 +28,45 @@
       "en": "No clear bilateral escalation is detected in recent sources."
     },
     "security_status": {
-      "es": "SIN ALERTA ESPECÍFICA",
-      "en": "NO SPECIFIC ALERT"
+      "es": "VIGILANCIA REFORZADA",
+      "en": "REINFORCED MONITORING"
     },
     "security_note": {
-      "es": "No se detectan señales suficientes para una alerta editorial.",
-      "en": "There are not enough signals for an editorial alert."
+      "es": "Las fuentes describen medidas adicionales de seguridad o control.",
+      "en": "Sources describe additional security or control measures."
     },
     "confidence": {
-      "es": "BAJA",
-      "en": "LOW"
+      "es": "MEDIA",
+      "en": "MEDIUM"
     }
   },
   "items": [
     {
       "title": "España marca una línea roja ante Marruecos por Ceuta y Melilla: “Son ciudades españolas”",
-      "source": "CatalunyaPress",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNbVNoVzNrZ0RsZnRqaWdhak1nc0lnVUNnRUVGVjJXNVh1SlE0QkZOcldfY3FHQWhFMFJGZ0MzREh3SFp2WjFMYm1uR1FVX1g3SXFKOFZZUXNZQkMxN3J2NEFZbjMzenhwLWJ1X0Q4NDhHdm1uWDZ3czhDblVLTVdnSHpSM1ZDTVBsUVlJYTlvcEtBU2hpUDFlcjBIVkZWUTRNSENOeU9vN2hkWkp1UG8xWkFPVUxtWUF1aW8tbVRDT0JybDdzMEtXdzRQd2ViMF9YMXdOSFhUSEliM2ItbHR3Zw?oc=5",
-      "published_at": "2026-08-22T08:37:00+00:00",
+      "source": "GaliciaPress",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxObjVnTmExclB3WUN6YXpiczFseFI2Tk0yaVJlSDR3czd0ZDF2ZXdyNmxxcVZ1TzR0QWJmS2RBWVllbHBKcEdZSEljTWxwYklPenZtR25Ec2tta1NWSUFnb2pmNEpNM2ZTaVV2eXg3aXlZc3pVXzl4YnBfR01ORkdUWklyV25lcmN4Z19qOG9Ia1NDSm1SRDNWeGt6bENFbXN4bDh2dmxlNUdack1DNzU5VXFVd0NyQVh1QmZqZW9PVVlISFRTUW9vZVdLdkZFUHVoYmc?oc=5",
+      "published_at": "2026-08-22T09:28:00+00:00",
       "category": "relations",
       "language": "es",
       "weight": 2
+    },
+    {
+      "title": "Ceuta buries 18 unidentified migrants after border crisis with Morocco",
+      "source": "Euronews.com",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNaUZRQm11aHBGVGtDOHlNODFzengwa1V0bUhnZGNBcDdHZnRSV0N4Sy1jb1BfTm9YMmhwSU83NWVod0l0NzR4TEdKTldHSDBaMWg4TjhwdDVPaFZmQ3VWd3dGaEkzR1FkQ0hFQ09XS3Q1MkF5UG5mVE1LTGVwQkZiMVJzdWJPQ2ctaEFzQy1oZHNTemFkUHFPMVNFVWVtTlVGUWNDMUR1M2xaQV9VQmVJSXd2U1hJbGM?oc=5",
+      "published_at": "2026-08-22T09:24:09+00:00",
+      "category": "ceuta",
+      "language": "en",
+      "weight": 2
+    },
+    {
+      "title": "Tumbas marcadas solo con números: Ceuta entierra a 18 inmigrantes",
+      "source": "Euronews",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMFdTVjE3ZlVuaXgzRnozbzkxTWdJMWNFVkJ5UWc5UlVQUzdqNkxHR3UwVHBObmktSmY4WWRRVThIZmJtWDdGMDdoMkFXTGtmTGNZYndrbWZxMjFUTW5tYWV1VTVhdWdYSVFyNmRJbWgzWm9tNEFZRkJwYjQ0S0VJNlpFcnhKV0VEenI2d1lPZi0tWUlTZzF5ZjN4SGNWTl9FSEszcUJkOUFNeUR2UklkQ0Vsb2FLbFhUcWc?oc=5",
+      "published_at": "2026-08-22T09:20:06+00:00",
+      "category": "ceuta",
+      "language": "es",
+      "weight": 3
     },
     {
       "title": "Marruecos pide negociar Ceuta y Melilla y España rechaza discutir su soberanía",
@@ -277,12 +295,12 @@
     },
     {
       "title": "Exclusiva: La UE dará más fondos a Marruecos tras la crisis en Ceuta",
-      "source": "Euronews.com",
+      "source": "Euronews",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbmlKMmYtaHJYeEtxSEFjQTlFMjNuMnFXbTR1U0Y2aUhqWHFVX0lncXIyUjdYdE5CTU5iOWdGNnRxbTRpQ3VSTFFwdURVdkNTeHQ5QzV5M0t2WW83ak15QjNNS1RNWkdUR3daRnA3ZWRYaWZXLVRDQTl2LWtZSXB0N0VtdGM2cHMwV1JTR2dzendGVFZEZGs3RkY2Qlk?oc=5",
       "published_at": "2026-08-20T15:33:11+00:00",
       "category": "ceuta",
       "language": "es",
-      "weight": 2
+      "weight": 3
     },
     {
       "title": "Hundreds of migrants relocated to temporary shelters following Ceuta border crisis",
@@ -343,24 +361,6 @@
       "source": "WSJ",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOV3FPVDk2Rl8zTm81Rm83Q1d1VFhINmozRDhrcTByeC1YalphdDFKbkRPd19OTkJQclY5MG1PaXFzaWVZb0NzOC14OUd3R2Jtd2NqaHFmSFpVUmFON3E4MTE3N2ZlaUJpVno5cVJCQWcySW5GRkxkWk1VTjhiSWVrX0ZmbEZLZURScUpaQU9INzlxZlduWm45UmVqaU5Mc3cyWFBSQ2QwWGRabVhxQVE?oc=5",
       "published_at": "2026-08-19T20:57:00+00:00",
-      "category": "ceuta",
-      "language": "en",
-      "weight": 2
-    },
-    {
-      "title": "Feijóo pide mando único en Ceuta, retorno o expulsión de migrantes, y \"reciprocidad\" en la relación con Marruecos",
-      "source": "PressDigital",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPZUVaMlVLelhqaVZGTTQxUEpXMDN0VjVvT1VFdERQMTdsSnZTaWdsMEhjZVZTUjhlRFZ0R3BvbTAwak1QejN4WE5NLWlYVkl5ZlE2cW5JaGJKUzQ0TVI0LXJXaXBBTTdYdmhzaTJIRzMxS29tQ19aOUR0cTdHN0Z0QVYxTElzSV9FbE9pNnRIU21mMGxWUXlTeFJIZFZuRnpCTlIwUFlmcWFTcG42bjVMNEttbGR6SGJZN00xY3IzcEsxZ2pGSlVZQlNSMHZudWZ2My11a0xWOWdsRHg5WEUwN1BtYmdtYXRtY0E?oc=5",
-      "published_at": "2026-08-19T18:26:00+00:00",
-      "category": "relations",
-      "language": "es",
-      "weight": 2
-    },
-    {
-      "title": "Ceuta in turmoil: Disinformation-driven migrant crisis fuels more disinformation",
-      "source": "theins.press",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBCMHBwZjY2LWd6VklDNUFvNDhaeUZnRVBLZS1sS2xKZU9BQTl0bERSZk9zY1lDcHNSQnNLaElCeExqcnlsX1Y3cDdDM2FTX2IxeFBKR3d3TUlsNnlDU0J4aU9STGxUQQ?oc=5",
-      "published_at": "2026-08-19T15:09:39+00:00",
       "category": "ceuta",
       "language": "en",
       "weight": 2

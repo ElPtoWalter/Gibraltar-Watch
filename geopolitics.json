@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-22T07:48:02.479198+00:00",
+  "generated_at": "2026-08-22T08:50:20.075746+00:00",
   "language_default": "es",
   "status": {
     "maritime_status": {
@@ -12,12 +12,12 @@
       "en": "The corridor remains open; official notices remain authoritative."
     },
     "border_pressure": {
-      "es": "ALTA",
-      "en": "HIGH"
+      "es": "BAJA / SIN SEÑALES RECIENTES",
+      "en": "LOW / NO RECENT SIGNALS"
     },
     "border_note": {
-      "es": "Varias fuentes describen una crisis fronteriza o humanitaria grave.",
-      "en": "Several sources describe a serious border or humanitarian crisis."
+      "es": "No aparecen señales recientes suficientes para elevar el nivel.",
+      "en": "There are not enough recent signals to raise the level."
     },
     "bilateral_tension": {
       "es": "ESTABLE",
@@ -28,12 +28,12 @@
       "en": "No clear bilateral escalation is detected in recent sources."
     },
     "security_status": {
-      "es": "VIGILANCIA REFORZADA",
-      "en": "REINFORCED MONITORING"
+      "es": "SIN ALERTA ESPECÍFICA",
+      "en": "NO SPECIFIC ALERT"
     },
     "security_note": {
-      "es": "Las fuentes describen medidas adicionales de seguridad o control.",
-      "en": "Sources describe additional security or control measures."
+      "es": "No se detectan señales suficientes para una alerta editorial.",
+      "en": "There are not enough signals for an editorial alert."
     },
     "confidence": {
       "es": "BAJA",
@@ -41,6 +41,24 @@
     }
   },
   "items": [
+    {
+      "title": "España marca una línea roja ante Marruecos por Ceuta y Melilla: “Son ciudades españolas”",
+      "source": "CatalunyaPress",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNbVNoVzNrZ0RsZnRqaWdhak1nc0lnVUNnRUVGVjJXNVh1SlE0QkZOcldfY3FHQWhFMFJGZ0MzREh3SFp2WjFMYm1uR1FVX1g3SXFKOFZZUXNZQkMxN3J2NEFZbjMzenhwLWJ1X0Q4NDhHdm1uWDZ3czhDblVLTVdnSHpSM1ZDTVBsUVlJYTlvcEtBU2hpUDFlcjBIVkZWUTRNSENOeU9vN2hkWkp1UG8xWkFPVUxtWUF1aW8tbVRDT0JybDdzMEtXdzRQd2ViMF9YMXdOSFhUSEliM2ItbHR3Zw?oc=5",
+      "published_at": "2026-08-22T08:37:00+00:00",
+      "category": "relations",
+      "language": "es",
+      "weight": 2
+    },
+    {
+      "title": "Marruecos pide negociar Ceuta y Melilla y España rechaza discutir su soberanía",
+      "source": "El Boletín",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRTRIQ01ibF80UU4zeGVDM0Z6MVVKd3VIWExlalQtLVlSdXc3Zk03SnVyWGFOMmRrT0FVYXFqdVhlVmE5dGF6aTJXc3VjREdfdlc0NzhETHZYNUp2TWZWTERGNFFxTnoxTXoyRlFVRTlORjlEeV9URk05ZmE4OHJVTUZXVmt2bWYyMGMyV1p2SHI4T2JraFJsaVhDT1lIU3NjNHB2bEY1UDjSAa4BQVVfeXFMTzRJc3U0Y2ItRjBGRWhYbk1yUWFmOTFWRWlGZkxSZmpWTTVLa3h5b3RicDZMSThhc1p5S3pGeWI5MktGS1pocEdWLXJweXBOVnhzZUJqUDh3SHBHWlgxa3A3X09NNXZGemRfeTFuNEozZGh1TW9XejZTUTlaN04tTDZrb003d3JfcVN6QTNBNjk5NEl6UHprNHhubWZvLVJ4Q0FsRGhPckJUVDZfY0FR?oc=5",
+      "published_at": "2026-08-22T08:18:22+00:00",
+      "category": "melilla",
+      "language": "es",
+      "weight": 2
+    },
     {
       "title": "España traslada a Marruecos su \"rechazo tajante\" a las pretensiones sobre Ceuta y Melilla: \"Son ciudades españolas frontera de España y de la UE\"",
       "source": "Onda Cero",
@@ -51,11 +69,29 @@
       "weight": 2
     },
     {
+      "title": "España responde a Marruecos: Ceuta y Melilla “forman parte de la integridad territorial”",
+      "source": "La Vanguardia",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOc1JMUTN1VWpDT2VGWF9yZ2FGWkRPWXhPbFBJUG5xZG11d09qTUtGOUZwczZjN2lCMThtRUtrcWRwUENQY1dZMTZyWWVwWFFNcF9zR1NhdHlQWGlVOUItTzdHS295b3VTQU9Mc09lckxoQ1ktbm5jRURKNzlONG01Mm9EaF94eDNVUm9iVndNNEh0NUN5UGxLZk0zWEcxbWoxY2M4NTdKbm1vV0FzeWZocnRyZVdfd055dl9pQ2xGVlBicWVKaDZmSE1kdkZSZEJPbWfSAdcBQVVfeXFMTmFzMldKLXlseHF2M1F2NGVxek53dV9BR2w4OE9taVF6NTZhOWVBazZoWXA4YkpETFhwT1NuLWRaRUh4Yko0ZUxUSzd1OTQzaFc4TV9VaTVOYU56NUtOOHlUakMxczkxM2ZKWkxfa2Y4dDlPV1ZOVm52OUZCZThTZVJlQnhKQ0tndzlLZnYxWU14Y1ZSeXVFRlF5b2RSaUpiYnNBR09wRlBVdmZqYlR1d2pmTzZIcllvMy1EUnR1NWdHRWpvQUg3Tk9rdVdYUng5bHd2dGIyVzg?oc=5",
+      "published_at": "2026-08-22T06:50:06+00:00",
+      "category": "melilla",
+      "language": "es",
+      "weight": 2
+    },
+    {
       "title": "Ceuta begins burials for migrants who died attempting to cross into the Spanish territory",
       "source": "The New Indian Express",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNUFZKMVExQWJmQW92dVhuQXVYY2RPazU0LUpoYWlzSDF0eV9UME9BUWlCN0ZjcHdibl9YcFdndE5ZM3lXZmR3UEI2bDdhRS15STRObUpYZy03WTItOE1xcFlQZ0UyVktUM1dmWGNObUpHNjRtTlJyZkx2aGI3NnZWU3AzUG9Jc25nMlBtWU40dlZORGFPMVNqaExVQlJjM2FIZ0xrZm9UTENJTHJLVURTcEFDMGhOaUE2QXF3MWdZUWtwWlJ1STRDRVl6RVZrVDB4eS12dXZUSdIB5AFBVV95cUxNUVo2V04tM0xTaTRZZTRzOHpHQTgweGpHbzFHc2JXT3N0djdBb05FRXhpSmtyRUpFdFQ3MWFGT0tQaGFTRHNBVS1LMGJUeVRGUUpKangtQVVFZW0tSTBCaEZ3S0dHUzJRdmpMMkdqSWV4VmJTNnByczh1VGdxWTJwYWxoRklMMFNqY2FmaVplM1d4OEVWYVU5eHVzejdXZlNnWGdCNmIzUXdDdjBmTkhuTzVLbGVtV0xMQlp0N256NnpxQ2JFZXc1eGJGSlVMbmdsVE9xa0dXMm52RkhaMDc4OE5HNzg?oc=5",
       "published_at": "2026-08-22T05:37:54+00:00",
       "category": "ceuta",
+      "language": "en",
+      "weight": 2
+    },
+    {
+      "title": "Spanish government “categorically” rejects any questioning of Spanish sovereignty over Ceuta and Melilla",
+      "source": "thediplomatinspain.com",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOam5yV09KY21RN1ZpWUNncWw2N1ZxV0o1LVh4R3dZcEJBQWYta0x4a2lnUnNEWF9wU3VCSWJWa1Y2SkdBemlocm9XYlp6a2tfb2NUU3Z3and5WHRfWmhCRDN1TVUwQmdlRGozWlhhSmFNZFktcEZoc0E4RXRYTGxHRV9HNjZqS1p5S2FoTEpoTVE1SjhQTUN3d3JtSGVOUGFFOWYxb21PS3ljVkpPa3FUZE9UYUNSRUR1X3VNNG44SGNMMW9Xb3l6emplNzBqU2VHU3VFN1c2N3puZkpvbEFsWjJn?oc=5",
+      "published_at": "2026-08-22T05:10:03+00:00",
+      "category": "relations",
       "language": "en",
       "weight": 2
     },
@@ -133,7 +169,7 @@
     },
     {
       "title": "Marruecos vuelve a reivindicar su \"derecho histórico y geográfico\" sobre Ceuta y Melilla y pide abordar la \"cuestión\" con España",
-      "source": "20Minutos",
+      "source": "20minutos.es",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNNHFJNU0wVFJSYTNCNllfVDdsTDNRN2d5X1IyNll6S1VzbFlvN1F6R3dtc2ZaMXJiSnY4a1hYZnpGMGMwRXgxcUFKMWdZV1JVT2YwLVl2WlBYX0FKRWdiazdlcS1aRF9Fa3BQUUJKblh0WV91S21ieEExcm9wanliMlk1a3NTSDN1bmdKby1IbDBwamxGa2p6OVB2a3M5enh2MlY4TXo3N0padUFVMTNGZjVpc3RoSk5CaWRYUUsySmNDQ21CUW85OFp6M1FRc3NMcXNwUtIB1AFBVV95cUxNNHFJNU0wVFJSYTNCNllfVDdsTDNRN2d5X1IyNll6S1VzbFlvN1F6R3dtc2ZaMXJiSnY4a1hYZnpGMGMwRXgxcUFKMWdZV1JVT2YwLVl2WlBYX0FKRWdiazdlcS1aRF9Fa3BQUUJKblh0WV91S21ieEExcm9wanliMlk1a3NTSDN1bmdKby1IbDBwamxGa2p6OVB2a3M5enh2MlY4TXo3N0padUFVMTNGZjVpc3RoSk5CaWRYUUsySmNDQ21CUW85OFp6M1FRc3NMcXNwUg?oc=5",
       "published_at": "2026-08-21T19:16:34+00:00",
       "category": "melilla",
@@ -328,42 +364,6 @@
       "category": "ceuta",
       "language": "en",
       "weight": 2
-    },
-    {
-      "title": "La UGR avala el llamamiento de su rector para “cambiar el relato” sobre Melilla y Ceuta más allá de la",
-      "source": "El Faro de Melilla",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOYXRUQjh6VU5QajFCd0FGVENhZXAyRHkxbGJHX21aaXB5VllCakRkWHk1ZDloY01lV29vN0xTa1RXcVlMZERfVHR5RkhLSzJLU2NuVnlPbXRhUWpTeU1QZ1J2ZkdsbzB1N3RXOHRuY3g2dkZZMzVUX25tVmJ5a2ZfT2RBcUduNGYwS2drQ1JpRVF3Vi1GVi1JSWZzN24xby1FV1l4M0NJWHRWRm5vbFpDQUFRd0R2ZDhPZDJTclNyck1rT3dQMllkY2hkSl9QcEw4ZF8w0gHYAUFVX3lxTE9CSERERVJvMWxjOFZnZkEtZUlxLWhSNkFHQzdBQ2Vna3Bmc29hUDZ0bUdHeFF5ZHI5Rm1HbThMbld6aEpWdU9LMVFfOFh3b2Utb1ZyMWRiSzByb3F5eTBVUTNoX2o5alBUaWlfQmRIcHZrWjc3TXZEa3V3S0RaWHdoM2Vtbzd3dE5UY2pNOVpLSG5tTGxxUUdFcHJVSTNDR3hVMTlYWDlFZzVBV0dRMEpPQkpXbUtfMjVwWUZXUkE5SkIxUUdsUVFiTE1DUnhlTllFSjcwcGNQcA?oc=5",
-      "published_at": "2026-08-19T12:19:42+00:00",
-      "category": "melilla",
-      "language": "es",
-      "weight": 2
-    },
-    {
-      "title": "Who's behind viral online posts fuelling a crisis over migration in Europe?",
-      "source": "CBC",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5ib2R2YURfZk0xYUttZDY3Z1p6TzU3eC16eGMxMVhDWXhFRWQ3NHdoRE1OOGxLeWdYV1d6dEE3bkU3MnA3elh5U3J1OEhyV0xqV05lZVhRWXQyQmo1TENveFRvZnJtc0hyOHBiMVZFcE5EMGhZ?oc=5",
-      "published_at": "2026-08-19T08:00:00+00:00",
-      "category": "ceuta",
-      "language": "en",
-      "weight": 2
-    },
-    {
-      "title": "The Spain-Morocco Ceuta Crisis: Through the Lens of Information Operations (IO)",
-      "source": "Catholic Stand",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNR3pwamFuRGQ1OEpZTUE0ZzVNcm5obGh4SHNyRHM0SGlhYmtOZGpxeV9SUjduSXg2SDVwTVNiQTlOSjRNUFliT3o3MjRHeUpONnBwZTNwX1gxTGFPVXFxN0Q1aXNpWWpiWGJyYXVPRm1DQkVIU0tianp5ajhNYUhHSzN2UXBTM0s1NnFmYVFnM1EwT2R3QmgzYXVaQzdpdkIxamRYR2FR?oc=5",
-      "published_at": "2026-08-19T07:10:40+00:00",
-      "category": "ceuta",
-      "language": "en",
-      "weight": 2
-    },
-    {
-      "title": "Migrant women tell of sexual harassment in Spain's crisis-hit Ceuta",
-      "source": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVUNlbTZzOFpQWlRwVzBOc21qM0lCME5wWnIzOWxhU0hPNC10NEZrcG0tTVFoQkcwN2k0MUFvcC1CWF9iMHMweUJPZ01CUnFNS1ZZWG5oWE1oZGIxeW9RRUQxdkxBNl80OGdlYndkTTFEbTV0WEV2bHE0QVF4ZjMtNHQyV3FlVnZtdFpESDMxUHlOUUpqSnVZQVJIRmNRLUpqTE02Q1hxSlJMVVJobXc?oc=5",
-      "published_at": "2026-08-18T17:02:46+00:00",
-      "category": "ceuta",
-      "language": "en",
-      "weight": 5
     }
   ],
   "errors": []

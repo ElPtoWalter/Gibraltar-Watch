@@ -1,40 +1,40 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-29T18:34:54Z",
+  "generated_at": "2026-08-29T21:47:02Z",
   "state": {
-    "code": "reinforced_watch",
-    "label_es": "VIGILANCIA REFORZADA",
-    "color": "orange",
-    "severity": 2,
-    "summary_es": "Existen incidencias o tensión apreciable, sin que ello implique por sí solo una interrupción del Estrecho. Parte de las fuentes necesita actualización, por lo que la lectura debe interpretarse con cautela.",
+    "code": "normal",
+    "label_es": "NORMALIDAD OPERATIVA",
+    "color": "green",
+    "severity": 0,
+    "summary_es": "No aparecen señales suficientes para elevar el nivel general del observatorio. Parte de las fuentes necesita actualización, por lo que la lectura debe interpretarse con cautela.",
     "layers": {
       "maritime": {
         "value": "OPERATIVO",
         "severity": 0
       },
       "border": {
-        "value": "ALTA",
-        "severity": 2
+        "value": "BAJA / SIN SEÑALES RECIENTES",
+        "severity": 0
       },
       "bilateral": {
         "value": "ESTABLE",
         "severity": 0
       },
       "security": {
-        "value": "VIGILANCIA REFORZADA",
-        "severity": 2
+        "value": "SIN ALERTA ESPECÍFICA",
+        "severity": 0
       }
     },
     "confidence": "BAJA",
     "alert_level": {
-      "code": "relevant",
-      "label_es": "RELEVANTE",
-      "meaning_es": "Hay una alteración apreciable, sin implicar cierre del corredor."
+      "code": "informational",
+      "label_es": "INFORMATIVO",
+      "meaning_es": "Seguimiento ordinario o cambio menor."
     }
   },
   "metrics": {
-    "news_24h": 1,
-    "news_sources": 26,
+    "news_24h": 2,
+    "news_sources": 27,
     "seismic_24h": 0,
     "seismic_7d": 0,
     "seismic_30d": 5,
@@ -48,13 +48,24 @@
   },
   "anomalies": [],
   "changes": {
-    "state_changed": false,
+    "state_changed": true,
     "previous_state_code": "reinforced_watch",
-    "layer_changes": []
+    "layer_changes": [
+      {
+        "key": "border",
+        "previous": "ALTA",
+        "current": "BAJA / SIN SEÑALES RECIENTES"
+      },
+      {
+        "key": "security",
+        "previous": "VIGILANCIA REFORZADA",
+        "current": "SIN ALERTA ESPECÍFICA"
+      }
+    ]
   },
   "health": {
     "overall": "stale",
-    "generated_at": "2026-08-29T18:34:54Z"
+    "generated_at": "2026-08-29T21:47:02Z"
   },
   "latest_diary": {
     "date": "2026-08-15",

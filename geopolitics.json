@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-29T02:14:54.455152+00:00",
+  "generated_at": "2026-08-29T09:10:04.168301+00:00",
   "language_default": "es",
   "status": {
     "maritime_status": {
@@ -12,12 +12,12 @@
       "en": "The corridor remains open; official notices remain authoritative."
     },
     "border_pressure": {
-      "es": "BAJA / SIN SEÑALES RECIENTES",
-      "en": "LOW / NO RECENT SIGNALS"
+      "es": "ALTA",
+      "en": "HIGH"
     },
     "border_note": {
-      "es": "No aparecen señales recientes suficientes para elevar el nivel.",
-      "en": "There are not enough recent signals to raise the level."
+      "es": "Varias fuentes describen una crisis fronteriza o humanitaria grave.",
+      "en": "Several sources describe a serious border or humanitarian crisis."
     },
     "bilateral_tension": {
       "es": "ESTABLE",
@@ -28,12 +28,12 @@
       "en": "No clear bilateral escalation is detected in recent sources."
     },
     "security_status": {
-      "es": "SIN ALERTA ESPECÍFICA",
-      "en": "NO SPECIFIC ALERT"
+      "es": "VIGILANCIA REFORZADA",
+      "en": "REINFORCED MONITORING"
     },
     "security_note": {
-      "es": "No se detectan señales suficientes para una alerta editorial.",
-      "en": "There are not enough signals for an editorial alert."
+      "es": "Las fuentes describen medidas adicionales de seguridad o control.",
+      "en": "Sources describe additional security or control measures."
     },
     "confidence": {
       "es": "BAJA",
@@ -41,6 +41,15 @@
     }
   },
   "items": [
+    {
+      "title": "Ceuta crisis survey: 90% see Morocco behind and 84% reject sharing the 2030 World Cup, according to Sigma Dos",
+      "source": "Demócrata",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPdHoyZW5FSE1QNmg2RFZzeTQ1M3RTU0laSklzdnZHQkJRZnBxM0JaOHMyWVZuRmdUNGJ6NjhiWHRESUYtV2I5d2NQUTU5VVdIdmRpTVhrV2MzeHVZM0lqUlpXUFR6Y0h6Q2NzSm9kVGhOMmdlUEtWcUtVN2JqYk9aZGZtbE9MZ25ibHNQZkhwejRabFhzeXdWelBUNzlVV3hYOTFHcGxnS1IycWJnOHJMLTdhQzAyVmhWSVVpVC1pZmNLY0VRQkFNa0JDaGoyQTRmN042MzVFWktxYnUzbFVXblhvSWxIWU5rME5yNHRHYlFWV3AzOEgwNU42NkQyMWNmSlHSAYcCQVVfeXFMT04wcVJ1RWNBSjhOdVMyUFZqcl9rdkY1QmM1MmVsanRGUmJZQmFXR2c3dWdKdzNJbEtMZHpWdzF6NXRSWW5FYkt0WTRRTy1zOG5TU2k4NlBydUZDTTdYZzRRNkF1X1Nfb1p0MWpiOEpBOGR3VGNQdW1va1pMd0I5S09JMWlRRjlyaUpYRzQzWlhleVdOUGVLaFFWOUxFRTEyMjIwelc3VW1PdThKVFdHMWVBVUR4b1BPeXVGWkxUWGhHOHFncHRVU2VyU2xkTS1TMEViUm1XbThWTUlaNW14ZXBCVGpramhLN3VLZmxSZ1FySHh4b0N1dk80ZTI0cjZQUnktRVF0UEU?oc=5",
+      "published_at": "2026-08-29T05:58:31+00:00",
+      "category": "ceuta",
+      "language": "en",
+      "weight": 2
+    },
     {
       "title": "Alerta máxima en Ceuta: España despliega drones, barreras marítimas y dispositivos submarinos en la frontera con Marruecos",
       "source": "El Cronista",
@@ -62,11 +71,20 @@
     {
       "title": "Albares defiende la cooperación con Marruecos y rechaza cualquier negociación sobre Ceuta y Melilla",
       "source": "thediplomatinspain.com",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQaTgzMFdSRmZWUmh6Ym5sVUJHZ0tER3J0a0hFN3ZNd0ZESkhLQjBtNTBfanRTMG4tcDRieE04TmI4dVR4UkRPbjVWcV9LdnZ6NExJa21LNUdPQWt0UHp5dnBJTWstVU9OZWREMUxoODhSeEJEQ2xzTjZNU3dDdlVXS3d1TWh4SW0zV0JoZTZVX0FJQUc3ZE1lckVwclZXUkZnWWM3aTN6dUhTajJEUjQxbnJBTGhISnRwRkdXZVBVM0dYcGp0cUgtOGpfaUZkOUZjMjZUWFNwNFV0WFVMdEthUEtR0gHiAUFVX3lxTFBpODMwV1JGZlZSaHpibmxVQkdnS0RHcnRrSEU3dk13RkRKSEtCMG01MF9qdFMwbi1wNGJ4TThOYjh1VHhSRE9uNVZxX0t2dno0TElrbUs1R09Ba3RQenl2cElNay1VT05lZEQxTGg4OFJ4QkRDbHNONk1Td0N2VVdLd3VNaHhJbTNXQmhlNlVfQUlBRzdkTWVyRXByVldSRmdZYzdpM3p1SFNqMkRSNDFuckFMaEhKdHBGR1dlUFUzR1hwanRxSC04al9pRmQ5RmMyNlRYU3A0VXRYVUx0S2FQS1E?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUENMaV9SakxVQlhiN2MzSHZiNzZzNHlWUDVmTVhkaDdvMS1qRjE2c2lLX3Y1MnhYNERXOHRaMF9mZldDYXFCMFFFWjdmNHRIMGhGZk5Ob2kwN3B2YlpNV1VIVVVOUUVVVzdFMjZQZWdta21iYmRjUFQwMTRqZnduM2dfRzc3XzR3RGNYV0l0bzhXWHFNaDRaVTE3bzE0Tnh4Z01UR3RhLV9xU0tOU1RjbGhneGVwNE0tRE43YWlDWmhzSmNteWxMdUNnSVl3RmhqTlE2RmJtclk3QdIB2gFBVV95cUxQUENMaV9SakxVQlhiN2MzSHZiNzZzNHlWUDVmTVhkaDdvMS1qRjE2c2lLX3Y1MnhYNERXOHRaMF9mZldDYXFCMFFFWjdmNHRIMGhGZk5Ob2kwN3B2YlpNV1VIVVVOUUVVVzdFMjZQZWdta21iYmRjUFQwMTRqZnduM2dfRzc3XzR3RGNYV0l0bzhXWHFNaDRaVTE3bzE0Tnh4Z01UR3RhLV9xU0tOU1RjbGhneGVwNE0tRE43YWlDWmhzSmNteWxMdUNnSVl3RmhqTlE2RmJtclk3QQ?oc=5",
       "published_at": "2026-08-28T16:31:30+00:00",
       "category": "melilla",
       "language": "es",
       "weight": 2
+    },
+    {
+      "title": "Violence breaks out in Ceuta as migrant crisis continues",
+      "source": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1GZGVQQk9aNVpzeFJEWTAtR1JVUzBRV3VvbmlPeEVmT1ctUGNfRnZtOWJWT0QtNFY0ME1IUkhHOFhfdDJZM2habno4NVFWYlZ0SXZseEliMnNZQQ?oc=5",
+      "published_at": "2026-08-28T16:30:59+00:00",
+      "category": "ceuta",
+      "language": "en",
+      "weight": 4
     },
     {
       "title": "La crisis de Ceuta puede hacer peligrar un proyecto ferroviario, compartido por España y Marruecos, que empezó a estudiarse hace 50 años",
@@ -92,6 +110,15 @@
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNMUNYQUhmUnlJandaUlQ0Y0xrSldUVzN6OVpjRjF0TGQzVHg1cWdheUlkNF9lN1JnOWpiY1g2SVJObTdvN20ybVZKMDUxdElpWjd5UkVzcTFtSmxEUlYxbVFSY2YyeHc0N3dXWXVjU05kTVJleXNJTVFDVW1SSTBnNHczSjZRV2EwLVlkNWZ4cnh6NmFlX0gza0U5LTFNdVZSTHg0R0hCYUE0cm9wUjlzNTRUbXB3V2ZhX2JfR1ZFbV8yeUJPa0tZTDk0QXI?oc=5",
       "published_at": "2026-08-28T11:17:29+00:00",
       "category": "ports",
+      "language": "es",
+      "weight": 2
+    },
+    {
+      "title": "Albares defiende la soberanía española sobre Ceuta y Melilla y culpa de la crisis de Ceuta a los \"bulos\"",
+      "source": "RTVE.es",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRzNtOWMtNUl0ME1yYmMtQkpQY2I0VEExeXUwQzBibTI0Qkl1aTkwQ1VicnFKWVBDMEliaHlEY212TW9OeXB6LWNPTFh5b0N3RFY5NThaX0xrbzlPTk5PcXcxcE45TUVybE5RTXlzY1RLZXlEY1lnZDA2N1A4TXhoemJPUUJ0a3RTUE1ocExualpkRzI0NWVrV1g2SDBSc0lPOHBXTkVXR1hvc3dJOF9JUFpR?oc=5",
+      "published_at": "2026-08-28T10:43:32+00:00",
+      "category": "ceuta",
       "language": "es",
       "weight": 2
     },
@@ -177,21 +204,21 @@
       "weight": 2
     },
     {
-      "title": "Spain declares national security crisis in Ceuta. Israel can help Morocco make the enclaves costly",
-      "source": "Ynetnews",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBYUmZXSXZwVEtTQ3pERWxPUG9LMjVWcXlvaXQ0ZVpDWV90aldib3FBVWlhSnJqR0Z0bGp1OTg3YlV1aTdiZHBsc1V1N0JTcUNvc0pjU1lldWRuQ3d6UEJrOThudEwyTk41WktXQTNB?oc=5",
-      "published_at": "2026-08-27T04:57:50+00:00",
-      "category": "ceuta",
-      "language": "en",
-      "weight": 2
-    },
-    {
       "title": "Análisis | Ceuta y Melilla vuelven al tablero: Marruecos reabre la batalla territorial con España",
       "source": "thediplomatinspain.com",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVV90eXlFYVVRRTFiZUVKbThPSGpXUi1WMkR6RkJHQ0J5WTRtSWpWbWZlWHFuaFhQd05CU2ZOUDJHUkZKeDRncnBQMGxLcTNQTThDSVh2U0ZXWk42NWh0QmZURHRDNzJZYkt2cnBvX1pLZmw5QWtjR1lpZVo1ellQMTB2a25Rem83WXFtY0J1dkRJVGJ3WXkzTWZoNlp1NVJpYVpNLUJ4ZnI1eTY2Q1lDRUxuV182WmpUWnp4cXZNVWhLb19pbHFoTzZFeG80UkZ5azhJ0gHTAUFVX3lxTE1VX3R5eUVhVVFFMWJlRUptOE9IaldSLVYyRHpGQkdDQnlZNG1JalZtZmVYcW5oWFB3TkJTZk5QMkdSRkp4NGdycFAwbEtxM1BNOENJWHZTRldaTjY1aHRCZlREdEM3MlliS3ZycG9fWktmbDlBa2NHWWllWjV6WVAxMHZrblF6bzdZcW1jQnV2RElUYndZeTNNZmg2WnU1UmlhWk0tQnhmcjV5NjZDWUNFTG5XXzZaalRaenhxdk1VaEtvX2lscWhPNkV4bzRSRnlrOEk?oc=5",
       "published_at": "2026-08-27T04:26:36+00:00",
       "category": "relations",
       "language": "es",
+      "weight": 2
+    },
+    {
+      "title": "Spain declares national security crisis in Ceuta. Israel can help Morocco make the enclaves costly",
+      "source": "Ynetnews",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBYUmZXSXZwVEtTQ3pERWxPUG9LMjVWcXlvaXQ0ZVpDWV90aldib3FBVWlhSnJqR0Z0bGp1OTg3YlV1aTdiZHBsc1V1N0JTcUNvc0pjU1lldWRuQ3d6UEJrOThudEwyTk41WktXQTNB?oc=5",
+      "published_at": "2026-08-26T18:57:00+00:00",
+      "category": "ceuta",
+      "language": "en",
       "weight": 2
     },
     {
@@ -260,7 +287,7 @@
     {
       "title": "Spanish government says sorry to people of Ceuta for migrant crisis",
       "source": "BBC",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA1dnlSWE4zU09CVTJQQ2g2UVFaVEJrMHVpZm1LUjNOSXc1Q2RYQnFZaGVial9GdnJYVEZ5eFBMMkdoNGZkSDY4alNNQnFMQ0pfd2xXNGRwY3JpU1BV?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ZNV93cG1IZ3NMalZQV21zaXo0REotN2FWaDl6dkQ0VkFydk01TzJlTFN6dW1ibWZlNjcweEctWEZmRjR3RTNEY0xCME9Ya1VRX0xoc0VCNEw4dw?oc=5",
       "published_at": "2026-08-25T19:11:40+00:00",
       "category": "ceuta",
       "language": "en",
@@ -303,6 +330,15 @@
       "weight": 2
     },
     {
+      "title": "Marruecos tensa la relación con España con alusiones a la soberanía de Ceuta y Melilla",
+      "source": "Canal Sur",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQTBYMzVYWVh5Y0VEMGFlbmxBU0M4TVZMOGtjNXZrU3NILXlfemtDSEpHZFVrVjBxVTFMUGxudGFiZkhwTzNnTDhVYmlWakh5c2cxeW0zOHhJeVpGR2FCLWtjSnVfUzNyOEM1blp1UmpLVnBmT2pFeUM1Y212Y1NqaVJFdkpDcERnY1d4OEt4cTQyblNGSDJkdV8yRWk?oc=5",
+      "published_at": "2026-08-25T12:50:00+00:00",
+      "category": "relations",
+      "language": "es",
+      "weight": 2
+    },
+    {
       "title": "Bennis: Morocco Sends Spain a ‘Tacit but Forceful’ Warning Over Ceuta and Melilla",
       "source": "Morocco World News",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPM19Pal9naGh3UURJcE9WZ1F5S3RpTmVTckRib2JGTERwcG8zWGNlVGdXdHc1NzBHcmxWYjlzcjVsN3NMajFpNWYxblVBcW03QmYtQ3haWmFJNW4zZ0tIbjFwcFh4OUlCb1NyMW1nakN3UW9ta0RWSU00ckN4MVNDXzZlcVhKNzE5X3JLZ1RvVmtKeXFKYU94YVNXekxBNEpDWUUtbWE0OHBkNnJ1aVZFeG85M1otQVI2RkRxZXVRdmFMZmFGaVE?oc=5",
@@ -326,42 +362,6 @@
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNY25WSG1zV1JGUDFQOVJzazJ4WUo1T3d2YjBEZHY5NHdYMmNfMnFNTDZubHVFaWNSZkVYZU5nZW14VUljQVVsMXFfOE1qcW1xNHpGZ0t1OXBCakV6VGo1ODhzTVNibUg1ZXdLNDNEb1ZFUmlzSlFnUVQzNHhZdHJJWE42YU9pdGJoZnpYdUdvM1UxZmNMcnZZSkhpTDdIWmxTekMwa3A4V0M0R1FNc2VKSXZ6NmozMmNsU29rTllaS1MyS29hOHpQbmNR0gHeAUFVX3lxTE1xcHVNMEZXWGRWMk9vWXJjekhTQUFxUEJUcWFNaDl0dGtIcGlBR2s5UkFYT2NLODdoem1KYWdtcjYtZGlMc0l1SjU5QnVqU0x2eDYyNHYxTXljUkpRd3JjWHNmdjFDbmFGZmtTU2l6TnlyTUs3THA4aFk1WUFoMUtYN1V1NHhJb2xMNTZWNEhtS3VjQjJLS1UtZ0ZyY2QtamVRQk9jbTZmVHJmSERoc3V6WW9Uc1M1b2ZHLVVobHgzdFlkOGhqVm82aGZPSHlmS09zcDFnN0pib3FxbTdvdw?oc=5",
       "published_at": "2026-08-25T12:10:45+00:00",
       "category": "relations",
-      "language": "es",
-      "weight": 2
-    },
-    {
-      "title": "Spain Declares National Security Situation Over Ceuta Migration Crisis",
-      "source": "Morocco World News",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMUROX1VPMDdvUXp4aUN2WmJZdFRiQ2pJVEFNZHVHY3ZEWllNT0l3Y1FGLWlMdHhBNlhDdWxtTzRvNjlxQlI1dkthQmk2T25ubXQxZHVVQm9Yd0xMRTYwdTBORmxZbU9uZThsSy1xaWhMYWVQZlFjamxhbXNfU1BDeldRbGlrZjlSaEdITkd3TEYxSVpvMXZlU1kycjFqdklCZEhaVXVhTDMtaHJwVGhkaVFrbHYxUU1IYUxz?oc=5",
-      "published_at": "2026-08-25T12:04:49+00:00",
-      "category": "ceuta",
-      "language": "en",
-      "weight": 2
-    },
-    {
-      "title": "Robles pide perdón y confronta a Marruecos: \"Ceuta y Melilla son españolísimas\"",
-      "source": "Elplural.com",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQS09OZXh3M3YzMU9ZMWhNU0ZFMU9aUGRENmQ3YjJVRmV6VnFYMUc5RzUyQnZwVDNaQTNIMWZyLWdPOEVmYm9MYU93aUJTaFA1WHhZRmhDc21Vei16YlVIMFlIRG5uUTV2Yy0teV9LYjJvR3lVczNldkUtLUtOTzAydVU5NktOT0dhdzdHV2d3aDN1RlUzR2FUclp1SHBJdi1SY3JWazVMY0t4TU5TNlFpbDhKN1dGOTlu0gG-AUFVX3lxTFBqX3YwUjBtc2pJUmtYQlBjWThHWHhNTzlZeTctRUZjUVVzNTJDZDVSVksyLU5NR1JPLXhESnNHSUxXUWNvVThaRGlRODQyWGprZ0FmaUNGYkxNMnFhTUQ3VFBCOVVCNmtvclEwSmozZHpXUmstYTdJTzg0a3E2T1poVFkwaTZ3WTRBVW9rZnAtQ29ESGIwcV9tS25hLW1Ob1lPWDE1eWdOVVhtMFJlVTJ1NEZLM1VGdmxjeFhCMGc?oc=5",
-      "published_at": "2026-08-25T10:57:00+00:00",
-      "category": "ceuta",
-      "language": "es",
-      "weight": 2
-    },
-    {
-      "title": "Jorge Dezcallar, tras la filtración a España de datos de agentes marroquíes vinculados con la crisis de Ceuta: \"Marruecos, o ha mirado para otro lado o ha habido connivencia\"",
-      "source": "antena3.com",
-      "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxPc21mTlJiSnVLMXJzRTJuY20zOVpwNmY0azRvd2RFNFJnakJLTl9xZEw4ekkzcFZqTzJTNGgwNjJzdXEwYy1DaFNTbWZKajJJNDFiNTJzLWxYZHhGYUJSakNzcWRkNVozU2wtWXlmNFJHeDZfb3BlZi1kOTk0TzdybWFNanl1YlhMLWVlaXBwcmkzU1pISlVUWlVxV003R0NsLWZvSEczbHVBdVAtVXIwVktmODJsbExBQ084VlFtUWNndmhSUEwzRUUxN1ZtT0pFWGF6ZjJBVldFX3Z1OGhUNVMwQzJFbzlGT3V5dUl3S1lzMXY0NFZtX0ViaENxRU8xakRkYllWREh4Mm5xbFplaXlHMzhfNFh6MndRSEwtUEswZ3RQVmFXd2szcGVXc3BiUGhOVmFwZXhYblV1c1ZpZGZ1ZE9xbW_SAccCQVVfeXFMTkZEQTRtZnR5WUNoR3FXdHFGWm9WMjVtdE5xT2NrYjV2NC1OZ1YyeXZ3MEdDMlhSVXFtVEV6WVNGZnV0RFJVNWp5TlMwc0k5TEFTNzBIUmE1UEg4X0h5TDB3ZktkWmxXWjN6cWdlM1lXTm42OEZmYjVaejN5QzhILXFiVTdJZUFFS2VYY21VbjlqSXF1V25XODVKNVRiM2RLX3NtYkNXNlpPaU1PX09CMG0yNmlSN2VRY3kwSHU1Sm9IUmFkSG9hVG1LMF9JOXo5dHpXRjdnMEFwdGViUEdvb0JDNnBEdnVqWFBZNGJxaGFBNmE0MmFYMFpEOFI5eXpNa1BUcFgwRnRqVGEyVUlEdmMyLXpfcnpubVhnck8tR1pIMUtmcW1jU3pNVGdRT25EM1BsY1duemVsalJINkJWSVljRWdMa3JF?oc=5",
-      "published_at": "2026-08-25T10:33:32+00:00",
-      "category": "ceuta",
-      "language": "es",
-      "weight": 2
-    },
-    {
-      "title": "Imbroda exige \"firmeza\" al Gobierno y que se \"haga respetar\" por Marruecos - El Faro de",
-      "source": "El Faro de Melilla",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNmxfQ2VNblhkUklwSWt0TVpIRV8yZDZ1b1hZVUd6SElYbFVUdDVYSi04RXZEMDJpYjRRaE1oUUwxc1NhVkRPc051R3IxQzdtdldXZzFrVTBPTVRXTExJMEpDVnpwSVY0R3NXYXM3NlVHZ1ctaHJ6LWpPT2JtMFZuSEVPYkRTNzBubzAwdS0yQVJQeWVXbklJTlRKOU5vZzDSAaQBQVVfeXFMTjBranIxM19kYVMxb2IyVGlPZnV2X3A1a3NxOXhvSkVFSXMwUmxTZnV4S2NLRGpGWjZ4NHpHZTMwanpZY0xScUtoYXNyc0VVM2V0S2ZhRVpaNjkzend3S2Y1aFdoSVpMRXZxQ243UTBMZjdEMG9OTFRGWlVjSGhIRFZaYThxR1ZmaXZmV0F4c0RBOWx4bWQyaWZ4NEZnMXRuMHZRdkU?oc=5",
-      "published_at": "2026-08-25T09:14:16+00:00",
-      "category": "melilla",
       "language": "es",
       "weight": 2
     }

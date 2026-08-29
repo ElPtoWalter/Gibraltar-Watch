@@ -91,6 +91,9 @@ jobs:
           DIARIO_AI_MODEL: ${{ vars.DIARIO_AI_MODEL }}
         run: python generate_diario_estrecho.py
 
+      - name: Actualizar lectura consolidada y salud pública
+        run: python update_observatory.py
+
       - name: Guardar cambios
         id: commit
         run: |

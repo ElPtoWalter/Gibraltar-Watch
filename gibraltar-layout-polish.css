@@ -48,6 +48,15 @@ p, li {
   text-wrap: pretty;
 }
 
+/* Supera la regla histórica de portada sin permitir cortes dentro de palabras. */
+.gwc-home h1,
+.gwc-home h2,
+.gwc-home h3,
+.gwc-home p {
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
 main [id] { scroll-margin-top: 7rem; }
 
 /* Cabecera: evita que el menú se comprima o se monte sobre la marca. */

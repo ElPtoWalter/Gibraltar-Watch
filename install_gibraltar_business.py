@@ -5,8 +5,8 @@ import re
 from pathlib import Path
 from xml.etree import ElementTree as ET
 
-VERSION = "20260804-1"
-TODAY = "2026-08-04"
+VERSION = "20260829-1"
+TODAY = "2026-08-29"
 ROOT = Path(__file__).resolve().parent
 FRAGMENTS = json.loads((ROOT / "gw-business-fragments.json").read_text(encoding="utf-8"))
 

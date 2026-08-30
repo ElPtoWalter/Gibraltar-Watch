@@ -6,7 +6,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-LINK = '<link rel="stylesheet" href="gibraltar-layout-polish.css?v=20260803-1">'
+LINK = '<link rel="stylesheet" href="gibraltar-layout-polish.css?v=20260829-1">'
 PATTERN = re.compile(r'\s*<link[^>]+href=["\']gibraltar-layout-polish\.css(?:\?[^"\']*)?["\'][^>]*>\s*', re.I)
 
 

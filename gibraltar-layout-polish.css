@@ -1,4 +1,4 @@
-/* Gibraltar Watch · pulido visual y responsive final · 2026-08-03 */
+/* Gibraltar Watch · pulido visual y responsive final · 2026-08-29 */
 
 :root {
   --gwp-safe-inline: clamp(.9rem, 3vw, 2rem);
@@ -27,22 +27,26 @@ nav,
 img, svg, video, canvas, iframe { display: block; max-width: 100%; }
 iframe { width: 100%; }
 
-table { width: 100%; }
+table { width: 100%; max-width: 100%; }
 pre, code { max-width: 100%; overflow-wrap: anywhere; }
 
 h1, h2, h3, h4,
 .gwc-status-grid strong,
+.gw-status-grid strong,
 .gwc-economy-metrics strong,
 .gwc-control-grid strong,
-.project-status h2,
-.contact-email,
-a[href^="mailto:"] {
-  overflow-wrap: anywhere;
+.project-status h2 {
+  overflow-wrap: normal;
   word-break: normal;
+  hyphens: manual;
 }
 
 h1, h2, h3, h4 { text-wrap: balance; }
-p, li { text-wrap: pretty; }
+p, li {
+  overflow-wrap: normal;
+  word-break: normal;
+  text-wrap: pretty;
+}
 
 main [id] { scroll-margin-top: 7rem; }
 
@@ -53,7 +57,7 @@ main [id] { scroll-margin-top: 7rem; }
 .gwc-site-nav > details > summary { flex: 0 0 auto; }
 .gwc-nav-menu {
   max-width: min(22rem, calc(100vw - 2rem));
-  overflow-wrap: anywhere;
+  overflow-wrap: normal;
 }
 
 /* Portada */
@@ -80,6 +84,11 @@ main [id] { scroll-margin-top: 7rem; }
   font-variant-numeric: tabular-nums;
   line-height: 1;
 }
+.gw-status-grid strong {
+  max-width: 100%;
+  font-size: clamp(1.65rem, 2.45vw, 2.2rem);
+  line-height: .98;
+}
 
 .gwc-news-item h3,
 .gwc-news-item h3 a,
@@ -101,12 +110,29 @@ main [id] { scroll-margin-top: 7rem; }
 .gwc-contact-cta > div { min-width: 0; }
 .gwc-contact-cta .gwc-button {
   max-width: 100%;
-  overflow-wrap: anywhere;
+  overflow-wrap: normal;
+  word-break: normal;
 }
 
 .gwc-footer-grid a,
 .gwc-footer-grid p,
-.gwc-footer-bottom { overflow-wrap: anywhere; }
+.gwc-footer-bottom {
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
+/* El pie nuevo no debe heredar la antigua cuadrícula de .site-footer. */
+.site-footer.gwc-footer {
+  display: block !important;
+}
+.gwc-footer-grid {
+  width: 100%;
+}
+.gwc-footer-brand {
+  max-width: 100%;
+  overflow-wrap: normal !important;
+  word-break: normal !important;
+}
 
 /* Páginas interiores: protección general frente a titulares, cifras y tablas largas. */
 .inner-hero > *,
@@ -134,7 +160,8 @@ main [id] { scroll-margin-top: 7rem; }
 .gw-ope-hero h1,
 .gt-shell h1 {
   line-height: .94;
-  overflow-wrap: anywhere;
+  overflow-wrap: normal;
+  word-break: normal;
 }
 
 .metric-strip > *,
@@ -168,8 +195,26 @@ main [id] { scroll-margin-top: 7rem; }
 
 .contact-email,
 .contact-email a,
-.contact-primary a,
-.gt-editorial-record a { overflow-wrap: anywhere; }
+.contact-primary a {
+  overflow-wrap: normal;
+  word-break: normal;
+}
+.contact-email a {
+  font-size: clamp(1.5rem, 2.5vw, 2rem) !important;
+}
+.gt-editorial-record a,
+.gt-source-list a,
+.strategic-sources a {
+  overflow-wrap: anywhere;
+}
+
+/* Los enlaces de correo de las llamadas a la acción caben sin cortar el dominio. */
+.gwc-contact-cta .gwc-button[href^="mailto:"] {
+  padding-inline: .85rem;
+  font-size: clamp(.66rem, .85vw, .74rem);
+  letter-spacing: 0;
+  white-space: nowrap;
+}
 
 /* Escritorio compacto y tablet: el menú pasa a modo desplegable antes de comprimirse. */
 @media (max-width: 1180px) {
@@ -363,6 +408,17 @@ main [id] { scroll-margin-top: 7rem; }
   .gw-control-map { height: 30rem !important; min-height: 0; }
 
   .contact-email { font-size: clamp(1.25rem, 7vw, 2rem) !important; }
+
+  .gwc-contact-cta .gwc-button[href^="mailto:"] {
+    width: 100%;
+    font-size: clamp(.64rem, 3.15vw, .76rem);
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
 }
 
 @media (max-width: 380px) {

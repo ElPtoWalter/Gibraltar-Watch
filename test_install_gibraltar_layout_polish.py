@@ -26,7 +26,7 @@ class LayoutPolishInstallerTests(unittest.TestCase):
             )
             self.assertTrue(polish.update_html(page))
             text = page.read_text(encoding="utf-8")
-            self.assertIn("v=20260803-1", text)
+            self.assertIn("v=20260829-1", text)
             self.assertEqual(text.count("gibraltar-layout-polish.css"), 1)
 
 

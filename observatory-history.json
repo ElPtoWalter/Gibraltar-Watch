@@ -1,5 +1,26 @@
 [
   {
+    "date": "2026-08-31",
+    "generated_at": "2026-08-30T23:33:50Z",
+    "state_code": "normal",
+    "state_label": "NORMALIDAD OPERATIVA",
+    "health": "stale",
+    "metrics": {
+      "news_24h": 3,
+      "news_sources": 29,
+      "seismic_24h": 0,
+      "seismic_7d": 0,
+      "seismic_30d": 5,
+      "seismic_max_30d": 5.2,
+      "ope_report_date": "2026-08-15",
+      "ope_passengers_day": 59877,
+      "ope_vehicles_day": 15464,
+      "ope_rotations_day": 179,
+      "diary_date": "2026-08-15",
+      "diary_source_count": 7
+    }
+  },
+  {
     "date": "2026-08-30",
     "generated_at": "2026-08-30T21:11:22Z",
     "state_code": "normal",

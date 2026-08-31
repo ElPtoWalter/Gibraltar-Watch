@@ -1,13 +1,11 @@
 #!/usr/bin/env python3
-"""Diario del Estrecho · motor editorial híbrido para Gibraltar Watch.
+"""Diario del Estrecho · cuaderno editorial de Gibraltar Watch.
 
 Principios:
 - Nunca publica sin una base factual local (geopolitics.json).
 - Distingue artículo completo de parte breve según la relevancia real de la jornada.
-- Si OPENAI_API_KEY está disponible, usa una única generación editorial estructurada
-  sobre las fuentes YA seleccionadas. El modelo no navega ni añade fuentes.
-- Si no hay clave, falla la API o la salida no supera controles básicos, usa un
-  redactor determinista local. La publicación nunca depende de un servicio de pago.
+- La edición ordinaria se redacta con un motor editorial local y reproducible.
+- La publicación no depende de APIs, cuotas ni servicios de pago.
 - Evita páginas SEO vacías: los partes sin fuentes recientes se publican para la
   hemeroteca, pero se marcan noindex y no entran en el sitemap.
 - La portada se actualiza de forma estática; no necesita JSON público ni JavaScript.
@@ -50,7 +48,9 @@ MAX_ITEMS = 9
 MAX_PER_CATEGORY = 3
 MAX_PER_DOMAIN = 2
 AI_MODEL = os.getenv("DIARIO_AI_MODEL", "gpt-5.6-terra").strip() or "gpt-5.6-terra"
-AI_ENABLED = bool(os.getenv("OPENAI_API_KEY", "").strip()) and os.getenv("DIARIO_AI_DISABLED", "0") != "1"
+# El modelo remoto queda como compatibilidad manual, nunca como dependencia del diario.
+AI_ENABLED = os.getenv("DIARIO_AI_OPT_IN", "0") == "1" and bool(os.getenv("OPENAI_API_KEY", "").strip())
+EDITORIAL_VERSION = "cuaderno-1"
 
 HOME_START = "<!-- GW_DIARIO_HOME_START -->"
 HOME_END = "<!-- GW_DIARIO_HOME_END -->"
@@ -92,6 +92,22 @@ HIGH_ALERT_WORDS = (
     "CRITIC", "CRÍTIC", "TENSIÓN", "TENSION", "VIGILANCIA", "RESTRING",
 )
 NORMAL_WORDS = ("OPERATIVO", "NORMAL", "ESTABLE", "BAJA", "SIN INCIDEN")
+
+EDITION_IDENTITIES = {
+    "traffic": ("Cuaderno de navegación", "navigation"),
+    "ports": ("Cuaderno portuario", "ports"),
+    "ceuta": ("Cuaderno de las dos orillas", "shores"),
+    "melilla": ("Cuaderno de las dos orillas", "shores"),
+    "relations": ("Cuaderno diplomático", "relations"),
+    "security": ("Cuaderno estratégico", "security"),
+    "defence": ("Cuaderno estratégico", "security"),
+    "defense": ("Cuaderno estratégico", "security"),
+    "economy": ("Cuaderno económico", "economy"),
+    "energy": ("Cuaderno económico", "economy"),
+    "tunnel": ("Cuaderno de infraestructuras", "infrastructure"),
+    "ope": ("Cuaderno de movilidad", "mobility"),
+    "other": ("Cuaderno del Estrecho", "general"),
+}
 
 
 def load_json(path: Path, fallback):
@@ -191,6 +207,100 @@ def select_items(items: list[dict], hours: int = 36) -> list[dict]:
     return picked
 
 
+def stable_pick(options: tuple[str, ...], seed: str) -> str:
+    """Elige una variante estable para que una misma edición no cambie en cada ejecución."""
+    if not options:
+        return ""
+    digest = hashlib.sha256(seed.encode("utf-8")).digest()
+    return options[int.from_bytes(digest[:2], "big") % len(options)]
+
+
+def dominant_category(selected: list[dict]) -> str:
+    if not selected:
+        return "other"
+    weighted: Counter[str] = Counter()
+    for item in selected:
+        category = str(item.get("category", "other")).lower()
+        weighted[category] += max(1, round(item_score(item)))
+    return weighted.most_common(1)[0][0]
+
+
+def source_geography(item: dict) -> str:
+    haystack = " ".join(
+        (str(item.get("title", "")), str(item.get("source", "")), item_domain(item))
+    ).lower()
+    if any(word in haystack for word in ("gibraltar", "gibchronicle", "the rock")):
+        return "Gibraltar"
+    if any(word in haystack for word in ("marruecos", "morocco", "maroc", "tánger", "tanger", "tangier", "tetuán", "tetouan")):
+        return "orilla sur"
+    if any(word in haystack for word in ("españa", "spain", "algeciras", "tarifa", "cádiz", "cadiz", "ceuta", "melilla")):
+        return "orilla norte"
+    return "ámbito regional"
+
+
+def editorial_profile(date: str, selected: list[dict], entries: list[dict]) -> dict:
+    """Construye la identidad visual y el pulso propio de la edición sin inferir hechos."""
+    category = dominant_category(selected)
+    label, slug = EDITION_IDENTITIES.get(category, EDITION_IDENTITIES["other"])
+    recent = [e for e in entries if e.get("date") != date and isinstance(e.get("source_count"), int)][:7]
+    average = sum(e["source_count"] for e in recent) / len(recent) if recent else 0.0
+    current = len(selected)
+    if not recent:
+        pulse = "Primera referencia comparable"
+    elif current >= average + 1.5:
+        pulse = "Agenda más cargada que la última semana"
+    elif current <= max(0, average - 1.5):
+        pulse = "Agenda más ligera que la última semana"
+    else:
+        pulse = "Agenda en línea con la última semana"
+
+    geographies = list(dict.fromkeys(source_geography(item) for item in selected))
+    domains = {item_domain(item) or str(item.get("source", "")).lower() for item in selected}
+    topic = CATEGORY_LABELS.get(category, "Actualidad regional")
+    signal = selected[0] if selected else None
+    if not selected:
+        limitation = "No hay señales recientes suficientes para afirmar un cambio de tendencia. La edición conserva únicamente la lectura operativa disponible."
+    elif len(domains) < 2:
+        limitation = "La señal principal no cuenta todavía con contraste entre dominios independientes; se mantiene como pista informativa, no como cambio confirmado."
+    elif not any(str(item.get("category", "")).lower() in {"traffic", "ports"} for item in selected):
+        limitation = "Esta edición no incorpora una señal marítima nueva suficiente para modificar por sí sola la lectura del tráfico."
+    else:
+        limitation = "Los titulares describen la agenda informativa; por sí solos no prueban variaciones de tráfico, capacidad portuaria o riesgo operativo."
+
+    return {
+        "label": label,
+        "slug": slug,
+        "topic": topic,
+        "source_count": current,
+        "recent_average": average,
+        "pulse": pulse,
+        "geographies": geographies,
+        "domain_count": len(domains),
+        "signal": signal,
+        "limitation": limitation,
+    }
+
+
+def editorial_dashboard_html(profile: dict) -> str:
+    signal = profile.get("signal")
+    if signal:
+        signal_html = (
+            f'<a href="{escape(safe_external_url(str(signal.get("url", "#"))), quote=True)}" target="_blank" '
+            f'rel="noopener noreferrer nofollow"><strong>{escape(clean_text(signal.get("title", ""), 300))}</strong>'
+            f'<span>{escape(clean_text(signal.get("source", "Fuente"), 100))} · abrir fuente ↗</span></a>'
+        )
+    else:
+        signal_html = '<strong>Sin una señal nueva dominante</strong><span>La continuidad también forma parte del registro.</span>'
+    average = profile.get("recent_average", 0.0)
+    average_text = f"{average:.1f}" if average else "—"
+    geography = ", ".join(profile.get("geographies") or []) or "sin mapa informativo nuevo"
+    return f'''<section class="gd-dashboard" aria-label="Mesa de edición">
+<article class="gd-signal"><p class="gd-kicker">LA SEÑAL DEL DÍA</p>{signal_html}</article>
+<article><p class="gd-kicker">PULSO DEL ARCHIVO</p><strong>{profile.get('source_count', 0)} señales</strong><span>Media de 7 ediciones: {average_text} · {escape(str(profile.get('pulse', '')))}</span></article>
+<article><p class="gd-kicker">MAPA DE LA AGENDA</p><strong>{escape(str(profile.get('topic', 'Actualidad regional')))}</strong><span>{escape(geography)} · {profile.get('domain_count', 0)} dominios</span></article>
+</section>'''
+
+
 def alert_score(status: dict) -> int:
     fields = (
         "maritime_status", "security_status", "border_pressure", "bilateral_tension",
@@ -265,12 +375,24 @@ def fallback_headline(status: dict, selected: list[dict], mode: str) -> str:
     if any(w in bilateral for w in ("ELEVAD", "TENS", "VIGILANCIA")):
         return "España y Marruecos marcan el pulso político del Estrecho"
     if dominant == "Tráfico marítimo" or dominant == "Puertos y logística":
-        return "Tráfico, puertos y logística marcan la jornada del Estrecho"
+        return stable_pick((
+            "Tráfico, puertos y logística marcan la jornada del Estrecho",
+            "El pulso portuario coloca la navegación en el centro de la jornada",
+            "La agenda del Estrecho se mueve hoy entre tráfico y actividad portuaria",
+        ), NOW.date().isoformat() + dominant)
     if dominant == "Ceuta y Melilla":
         return "Ceuta y Melilla concentran la actualidad del Estrecho"
     if mode == "brief":
-        return "Parte del Estrecho: actividad estable y vigilancia de las señales clave"
-    return "El Estrecho cruza tráfico, economía y geopolítica en una jornada activa"
+        return stable_pick((
+            "Parte del Estrecho: continuidad y vigilancia de las señales clave",
+            "Una jornada de continuidad, contada sin forzar novedades",
+            "El Estrecho mantiene el rumbo mientras la agenda informativa se modera",
+        ), NOW.date().isoformat() + maritime + border)
+    return stable_pick((
+        "El Estrecho cruza tráfico, economía y geopolítica en una jornada activa",
+        "Una jornada de varias capas en el corredor entre el Atlántico y el Mediterráneo",
+        "Puertos, fronteras y diplomacia componen el mapa del día en el Estrecho",
+    ), NOW.date().isoformat() + dominant)
 
 
 def fallback_deck(status: dict, selected: list[dict], mode: str) -> str:
@@ -556,6 +678,8 @@ def article_html(date: str, published_at: str, updated_at: str, status: dict, se
     nav = day_nav_html(date, entries)
     word_count = words_in_draft(draft)
     source_count = len(selected)
+    profile = editorial_profile(date, selected, entries)
+    dashboard = editorial_dashboard_html(profile)
 
     return f'''<!DOCTYPE html>
 <html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -565,23 +689,25 @@ def article_html(date: str, published_at: str, updated_at: str, status: dict, se
 <meta property="og:type" content="article"><meta property="og:site_name" content="Gibraltar Watch"><meta property="og:title" content="{escape(h, quote=True)}"><meta property="og:description" content="{escape(desc, quote=True)}"><meta property="og:url" content="{canonical}"><meta property="og:image" content="https://estrechogibraltar.com/social-card.png">
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{escape(h, quote=True)}"><meta name="twitter:description" content="{escape(desc, quote=True)}"><meta name="twitter:image" content="https://estrechogibraltar.com/social-card.png">
 <meta name="theme-color" content="#f3efe5">
-<link rel="stylesheet" href="/styles.css?v=editorial-20260714-contact-1"><link rel="stylesheet" href="/gibraltar-consolidated.css?v=20260803-1"><link rel="stylesheet" href="/gibraltar-layout-polish.css?v=20260829-1"><link rel="stylesheet" href="/diario.css?v=20260815-3">
+<link rel="stylesheet" href="/styles.css?v=editorial-20260714-contact-1"><link rel="stylesheet" href="/gibraltar-consolidated.css?v=20260803-1"><link rel="stylesheet" href="/gibraltar-layout-polish.css?v=20260829-1"><link rel="stylesheet" href="/diario.css?v=20260831-4">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1713078636060241" crossorigin="anonymous"></script>
 <script type="application/ld+json">{json.dumps({"@context":"https://schema.org","@type":schema_type,"headline":h,"description":desc,"datePublished":published_at,"dateModified":updated_at,"inLanguage":"es","articleSection":section,"keywords":keywords,"isAccessibleForFree":True,"wordCount":word_count,"author":{"@type":"Organization","name":"Equipo editorial de Gibraltar Watch"},"publisher":{"@type":"Organization","name":"Gibraltar Watch"},"mainEntityOfPage":canonical}, ensure_ascii=False)}</script>
-</head><body class="gd-page"><div class="site-shell"><header class="gd-top"><a href="/" class="gd-brand"><b>GIBRALTAR</b><span>WATCH</span></a><nav><a href="/">Inicio</a><a href="/situacion-actual.html">Situación actual</a><a href="/trafico.html">Tráfico</a><a href="/diario/" aria-current="page">Diario</a><a href="/fuentes.html">Fuentes</a></nav></header>
+</head><body class="gd-page gd-page--{escape(str(profile['slug']))}"><div class="site-shell"><header class="gd-top"><a href="/" class="gd-brand"><b>GIBRALTAR</b><span>WATCH</span></a><nav><a href="/">Inicio</a><a href="/situacion-actual.html">Situación actual</a><a href="/trafico.html">Tráfico</a><a href="/diario/" aria-current="page">Diario</a><a href="/fuentes.html">Fuentes</a></nav></header>
 <main class="gd-shell"><article>
-<header class="gd-hero"><p class="gd-kicker">DIARIO DEL ESTRECHO · {pretty_date}</p><div class="gd-edition-row"><span class="gd-edition-type">{type_label}</span><span>{source_count} fuentes recientes · {word_count} palabras</span></div><h1>{escape(h)}</h1><p class="gd-deck">{escape(deck)}</p><div class="gd-meta"><span>Publicado {escape(published_at[11:16])}</span><span>Actualizado {escape(updated_at[11:16])}</span><span>Equipo editorial de Gibraltar Watch</span></div></header>
+<header class="gd-hero"><p class="gd-kicker">{escape(str(profile['label']).upper())} · {pretty_date}</p><div class="gd-edition-row"><span class="gd-edition-type">{type_label}</span><span>{source_count} fuentes recientes · {word_count} palabras</span></div><h1>{escape(h)}</h1><p class="gd-deck">{escape(deck)}</p><div class="gd-meta"><span>Publicado {escape(published_at[11:16])}</span><span>Actualizado {escape(updated_at[11:16])}</span><span>Equipo editorial de Gibraltar Watch</span></div></header>
+{dashboard}
 <section class="gd-summary"><p class="gd-kicker">LA JORNADA EN UNA FRASE</p><strong>{escape(deck)}</strong></section>
 <section class="gd-prose"><p class="gd-kicker">LA SITUACIÓN</p><h2>{'Qué deja la jornada' if mode == 'full' else 'Parte de situación'}</h2>{situation}</section>
 {sections_html(draft, selected)}
 <section class="gd-prose gd-meaning"><p class="gd-kicker">QUÉ SIGNIFICA</p><h2>La lectura del Estrecho</h2>{meaning}</section>
+<aside class="gd-limit"><p class="gd-kicker">EL LÍMITE DE LA LECTURA</p><h2>Lo que hoy no puede afirmarse</h2><p>{escape(str(profile['limitation']))}</p></aside>
 <section class="gd-watch"><p class="gd-kicker">QUÉ VIGILAMOS</p><h2>Las próximas horas</h2><ul>{watch}</ul></section>
 <section class="gd-source-section"><p class="gd-kicker">FUENTES DE ESTA EDICIÓN</p><h2>Trazabilidad</h2><p>La edición se construye a partir de fuentes públicas seleccionadas por Gibraltar Watch. Los enlaces originales permiten comprobar cada señal; un titular aislado no se convierte por sí solo en un cambio del estado operativo.</p>{source_items_html(selected)}</section>
-<section class="gd-transparency"><p class="gd-kicker">SOBRE ESTE DIARIO</p><p>El Diario del Estrecho utiliza un sistema editorial automatizado para recopilar, ordenar y contrastar fuentes públicas. La selección y las reglas de publicación están definidas por Gibraltar Watch, y la pieza puede corregirse si aparecen datos mejores o una fuente primaria contradice la lectura inicial.</p></section>
+<section class="gd-transparency"><p class="gd-kicker">SOBRE ESTE DIARIO</p><p>El Equipo editorial de Gibraltar Watch aplica un protocolo estable para seleccionar, ordenar y contrastar fuentes públicas. Cada edición distingue hechos, interpretación y límites de la evidencia, y puede corregirse si aparece una fuente primaria mejor o cambia la lectura operativa.</p></section>
 {nav}
 <footer class="gd-article-footer"><p><strong>Gibraltar Watch</strong> · Hechos, interpretación y escenarios se presentan por separado.</p><a href="/diario/">Volver a la hemeroteca</a><a href="/contacto.html">Enviar corrección</a></footer>
 </article></main><footer class="gd-site-footer"><a href="/privacidad.html">Privacidad</a><a href="/cookies.html">Cookies</a><a href="/publicidad-y-patrocinios.html">Publicidad</a></footer></div>
-<!-- fingerprint:{fingerprint};engine:{editor_engine};mode:{mode};indexable:{str(indexable).lower()} --></body></html>'''
+<!-- fingerprint:{fingerprint};edition:{EDITORIAL_VERSION};mode:{mode};indexable:{str(indexable).lower()} --></body></html>'''
 
 
 def archive_html(entries: list[dict]) -> str:
@@ -589,16 +715,17 @@ def archive_html(entries: list[dict]) -> str:
     cards = []
     for e in entries[:500]:
         badge = "ARTÍCULO" if e.get("mode") == "full" else "PARTE BREVE"
+        identity = e.get("edition_label") or "Cuaderno del Estrecho"
         cards.append(
             f'<a class="gd-archive-card" href="/{escape(e["url"], quote=True)}"><div><time>{escape(e["date"])}</time><span class="gd-mini-badge">{badge}</span></div>'
-            f'<h2>{escape(e["headline"])}</h2><p>{escape(e["summary"])}</p><span>Leer edición →</span></a>'
+            f'<small>{escape(str(identity))}</small><h2>{escape(e["headline"])}</h2><p>{escape(e["summary"])}</p><span>Leer edición →</span></a>'
         )
     latest = entries[0] if entries else None
     lead = (
         f'<a class="gd-latest" href="/{escape(latest["url"], quote=True)}"><span>ÚLTIMA EDICIÓN · {escape(latest["date"])}</span><strong>{escape(latest["headline"])}</strong><p>{escape(latest["summary"])}</p><b>Leer el diario de hoy →</b></a>'
         if latest else '<div class="gd-latest"><span>PRÓXIMA EDICIÓN</span><strong>El Diario del Estrecho publicará su primera jornada desde las 07:00.</strong></div>'
     )
-    return f'''<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Diario del Estrecho | Gibraltar Watch</title><meta name="description" content="Hemeroteca del Estrecho de Gibraltar: tráfico, puertos, Ceuta y Melilla, España–Marruecos, economía y seguridad."><link rel="canonical" href="https://estrechogibraltar.com/diario/"><link rel="alternate" type="application/rss+xml" title="Diario del Estrecho" href="https://estrechogibraltar.com/diario-feed.xml"><link rel="stylesheet" href="/styles.css?v=editorial-20260714-contact-1"><link rel="stylesheet" href="/gibraltar-consolidated.css?v=20260803-1"><link rel="stylesheet" href="/gibraltar-layout-polish.css?v=20260829-1"><link rel="stylesheet" href="/diario.css?v=20260815-3"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1713078636060241" crossorigin="anonymous"></script></head><body class="gd-page"><div class="site-shell"><header class="gd-top"><a href="/" class="gd-brand"><b>GIBRALTAR</b><span>WATCH</span></a><nav><a href="/">Inicio</a><a href="/situacion-actual.html">Situación actual</a><a href="/trafico.html">Tráfico</a><a href="/diario/" aria-current="page">Diario</a><a href="/fuentes.html">Fuentes</a></nav></header><main class="gd-shell"><header class="gd-archive-hero"><p class="gd-kicker">HEMEROTECA</p><h1>Diario del Estrecho</h1><p>La jornada del Estrecho de Gibraltar explicada cada día. Cuando hay acontecimientos de entidad se publica un artículo completo; en días tranquilos, un parte breve y trazable.</p><a href="/diario-feed.xml">RSS del diario</a></header>{lead}<section class="gd-archive"><header><p class="gd-kicker">ARCHIVO</p><h2>Ediciones anteriores</h2></header><div class="gd-archive-grid">{''.join(cards)}</div></section></main><footer class="gd-site-footer"><a href="/contacto.html">Contacto</a><a href="/fuentes.html">Fuentes</a><a href="/publicidad-y-patrocinios.html">Publicidad</a></footer></div></body></html>'''
+    return f'''<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Diario del Estrecho | Gibraltar Watch</title><meta name="description" content="Hemeroteca del Estrecho de Gibraltar: tráfico, puertos, Ceuta y Melilla, España–Marruecos, economía y seguridad."><link rel="canonical" href="https://estrechogibraltar.com/diario/"><link rel="alternate" type="application/rss+xml" title="Diario del Estrecho" href="https://estrechogibraltar.com/diario-feed.xml"><link rel="stylesheet" href="/styles.css?v=editorial-20260714-contact-1"><link rel="stylesheet" href="/gibraltar-consolidated.css?v=20260803-1"><link rel="stylesheet" href="/gibraltar-layout-polish.css?v=20260829-1"><link rel="stylesheet" href="/diario.css?v=20260831-4"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1713078636060241" crossorigin="anonymous"></script></head><body class="gd-page"><div class="site-shell"><header class="gd-top"><a href="/" class="gd-brand"><b>GIBRALTAR</b><span>WATCH</span></a><nav><a href="/">Inicio</a><a href="/situacion-actual.html">Situación actual</a><a href="/trafico.html">Tráfico</a><a href="/diario/" aria-current="page">Diario</a><a href="/fuentes.html">Fuentes</a></nav></header><main class="gd-shell"><header class="gd-archive-hero"><p class="gd-kicker">HEMEROTECA · CUADERNOS DEL ESTRECHO</p><h1>Diario del Estrecho</h1><p>Cada jornada adopta el formato que pide la información: navegación, puertos, fronteras, diplomacia, economía o seguridad. Los días tranquilos también quedan registrados, sin fabricar una noticia que no existe.</p><a href="/diario-feed.xml">RSS del diario</a></header>{lead}<section class="gd-archive"><header><p class="gd-kicker">ARCHIVO</p><h2>Ediciones anteriores</h2></header><div class="gd-archive-grid">{''.join(cards)}</div></section></main><footer class="gd-site-footer"><a href="/contacto.html">Contacto</a><a href="/fuentes.html">Fuentes</a><a href="/publicidad-y-patrocinios.html">Publicidad</a></footer></div></body></html>'''
 
 
 def legacy_archive_redirect_html() -> str:
@@ -610,7 +737,7 @@ def home_block(entry: dict | None) -> str:
         return f'''{HOME_START}
 <section class="gw-diary-home" aria-labelledby="gw-diary-title"><div><p class="gw-business-kicker">EL DIARIO · HOY</p><span class="gd-date">PRÓXIMA EDICIÓN</span><h2 id="gw-diary-title">Diario del Estrecho</h2><p>Una pieza diaria con contexto, fuentes y una lectura de qué importa realmente.</p><a href="/diario/">Abrir hemeroteca →</a></div><div class="gw-diary-side"><p class="gw-business-kicker">EN PREPARACIÓN</p><h3>La primera edición se publicará desde las 07:00</h3><p>Los días tranquilos se publica un parte breve; cuando la jornada lo merece, un artículo completo.</p><a href="/diario/">Ver el diario →</a></div></section>
 {HOME_END}'''
-    badge = "ARTÍCULO DE JORNADA" if entry.get("mode") == "full" else "PARTE BREVE"
+    badge = entry.get("edition_label") or ("ARTÍCULO DE JORNADA" if entry.get("mode") == "full" else "PARTE BREVE")
     return f'''{HOME_START}
 <section class="gw-diary-home" aria-labelledby="gw-diary-title"><div><p class="gw-business-kicker">EL DIARIO · HOY</p><span class="gd-date">{escape(entry["date"])}</span><h2 id="gw-diary-title">Diario del Estrecho</h2><p>Una lectura diaria del tráfico, los puertos, Ceuta y Melilla y la relación España–Marruecos.</p><a href="/diario/">Archivo completo →</a></div><div class="gw-diary-side"><p class="gw-business-kicker">{badge}</p><h3>{escape(entry["headline"])}</h3><p>{escape(entry["summary"])}</p><a href="/{escape(entry["url"], quote=True)}">Leer el diario de hoy →</a></div></section>
 {HOME_END}'''
@@ -711,6 +838,7 @@ def refresh_day_navigation(entries: list[dict]) -> None:
 
 def fingerprint_payload(status: dict, selected: list[dict], mode: str) -> str:
     data = {
+        "editorial_version": EDITORIAL_VERSION,
         "mode": mode,
         "status": status,
         "items": [
@@ -805,6 +933,7 @@ def main() -> int:
     draft, engine = build_draft(status, selected, mode)
     headline = clean_text(draft.get("headline"), 180) or fallback_headline(status, selected, mode)
     summary = clean_text(draft.get("deck"), 500) or fallback_deck(status, selected, mode)
+    profile = editorial_profile(date, selected, entries)
 
     entry = {
         "date": date,
@@ -821,6 +950,8 @@ def main() -> int:
         "significance_reasons": reasons,
         "indexable": indexable,
         "editor_engine": engine,
+        "edition_label": profile["label"],
+        "edition_slug": profile["slug"],
     }
     entries = [e for e in entries if e.get("date") != date]
     entries.append(entry)

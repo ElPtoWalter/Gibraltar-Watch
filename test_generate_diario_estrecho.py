@@ -72,14 +72,32 @@ class DiaryTests(unittest.TestCase):
         html = g.article_html(g.NOW.date().isoformat(), g.NOW.isoformat(timespec='minutes'), g.NOW.isoformat(timespec='minutes'), {}, [item], 'abc', draft, 'brief', True, entries, 'rules')
         self.assertNotIn('<script>alert(1)</script> noticia', html)
         self.assertIn('&lt;script&gt;', html)
-        self.assertIn('href="/diario.css?v=20260815-3"', html)
+        self.assertIn('href="/diario.css?v=20260831-4"', html)
         self.assertIn(f'https://estrechogibraltar.com/diario/{g.NOW.date().isoformat()}.html', html)
+        self.assertIn('LA SEÑAL DEL DÍA', html)
+        self.assertIn('EL LÍMITE DE LA LECTURA', html)
+        self.assertNotIn('sistema editorial automatizado', html)
 
     def test_build_draft_falls_back_without_api(self):
         with patch.object(g, 'AI_ENABLED', False):
             draft, engine = g.build_draft({}, [], 'brief')
         self.assertEqual(engine, 'rules')
         self.assertTrue(draft['headline'])
+
+    def test_editorial_profile_uses_archive_without_confusing_it_with_traffic(self):
+        items = [self.item('Algeciras publica una novedad portuaria', 'ports', 4, 'puerto.es')]
+        entries = [
+            {'date': '2026-08-29', 'source_count': 3},
+            {'date': '2026-08-28', 'source_count': 5},
+        ]
+        profile = g.editorial_profile('2026-08-30', items, entries)
+        self.assertEqual(profile['label'], 'Cuaderno portuario')
+        self.assertEqual(profile['recent_average'], 4)
+        self.assertIn('Agenda', profile['pulse'])
+
+    def test_fingerprint_changes_with_editorial_version(self):
+        fp = g.fingerprint_payload({}, [], 'brief')
+        self.assertEqual(len(fp), 20)
 
 
 if __name__ == '__main__':

@@ -78,9 +78,8 @@ class DiaryTests(unittest.TestCase):
         self.assertIn('EL LÍMITE DE LA LECTURA', html)
         self.assertNotIn('sistema editorial automatizado', html)
 
-    def test_build_draft_falls_back_without_api(self):
-        with patch.object(g, 'AI_ENABLED', False):
-            draft, engine = g.build_draft({}, [], 'brief')
+    def test_build_draft_uses_only_the_local_editorial_engine(self):
+        draft, engine = g.build_draft({}, [], 'brief')
         self.assertEqual(engine, 'rules')
         self.assertTrue(draft['headline'])
 

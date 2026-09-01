@@ -309,7 +309,11 @@ def build_health(seismic: dict, geopolitics: dict, ope: dict, diary: dict) -> di
         source_health("Operación Paso del Estrecho", ope.get("checked_at"), ope.get("source", "Protección Civil"), 360, 1440, "La frescura de consulta no convierte el parte oficial en un contador en tiempo real.", ope.get("source_url", "")),
     ]
     diary_stamp = diary.get("date")
-    diary_dt = parse_dt(diary.get("pub_rfc822"))
+    report_dt = parse_dt(ope.get("report_date"))
+    if report_dt and (NOW - report_dt).total_seconds() > 7 * 86400:
+        components[2].update(state="stale", label_es="PARTE ANTIGUO", report_date=ope.get("report_date"),
+                             note_es=f'Último parte localizado: {ope.get("report_date")}. Una consulta reciente no actualiza la fecha de sus datos.')
+    diary_dt = parse_dt(diary.get("updated_at") or diary.get("published_at") or diary.get("pub_rfc822"))
     if diary_dt is None and diary_stamp:
         try:
             diary_dt = datetime.fromisoformat(str(diary_stamp) + "T06:00:00").replace(tzinfo=MADRID).astimezone(timezone.utc)

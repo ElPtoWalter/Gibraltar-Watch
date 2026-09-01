@@ -21,7 +21,6 @@ from urllib.parse import urlparse
 from zoneinfo import ZoneInfo
 import hashlib
 import json
-import os
 import re
 import xml.etree.ElementTree as ET
 
@@ -47,9 +46,7 @@ MIN_HOUR_LOCAL = 7
 MAX_ITEMS = 9
 MAX_PER_CATEGORY = 3
 MAX_PER_DOMAIN = 2
-AI_MODEL = os.getenv("DIARIO_AI_MODEL", "gpt-5.6-terra").strip() or "gpt-5.6-terra"
-# El modelo remoto queda como compatibilidad manual, nunca como dependencia del diario.
-AI_ENABLED = os.getenv("DIARIO_AI_OPT_IN", "0") == "1" and bool(os.getenv("OPENAI_API_KEY", "").strip())
+# La redacción es exclusivamente local: no se admiten llamadas de pago.
 EDITORIAL_VERSION = "cuaderno-1"
 
 HOME_START = "<!-- GW_DIARIO_HOME_START -->"
@@ -493,92 +490,8 @@ def groups_for_items(selected: list[dict]) -> dict[str, list[dict]]:
     return groups
 
 
-def source_payload(selected: list[dict]) -> list[dict]:
-    out = []
-    for i, item in enumerate(selected, 1):
-        out.append({
-            "id": i,
-            "title": str(item.get("title", ""))[:240],
-            "source": str(item.get("source", "Fuente"))[:120],
-            "category": CATEGORY_LABELS.get(str(item.get("category", "")).lower(), "Otras señales"),
-            "published_at": str(item.get("published_at", "")),
-            "weight": item.get("weight", 2),
-            "url": str(item.get("url", "")),
-        })
-    return out
-
-
-def ai_editorial_draft(status: dict, selected: list[dict], mode: str) -> dict | None:
-    """Una sola llamada opcional. Devuelve None ante cualquier problema."""
-    if not AI_ENABLED:
-        return None
-    try:
-        from openai import OpenAI
-        from pydantic import BaseModel, Field
-
-        class SectionDraft(BaseModel):
-            title: str
-            paragraph: str
-
-        class DiaryDraft(BaseModel):
-            headline: str = Field(min_length=20, max_length=150)
-            deck: str = Field(min_length=50, max_length=420)
-            situation: list[str]
-            sections: list[SectionDraft]
-            meaning: list[str]
-            watch: list[str]
-
-        score, reasons = edition_significance(status, selected)
-        facts = {
-            "edition_mode": mode,
-            "significance_score": score,
-            "significance_reasons": reasons,
-            "status": status,
-            "sources": source_payload(selected),
-        }
-        length_rule = (
-            "Escribe una pieza periodística de aproximadamente 650-950 palabras en total. Usa 3-5 párrafos en situation, "
-            "1 párrafo contextual por cada sección con fuentes, 2-3 párrafos en meaning y 2-4 puntos en watch."
-            if mode == "full" else
-            "Escribe un parte breve de aproximadamente 170-300 palabras en total. Usa 2 párrafos en situation, como máximo "
-            "1 párrafo por sección imprescindible, 1 párrafo en meaning y 2-3 puntos en watch."
-        )
-        instructions = (
-            "Eres el equipo editorial de Gibraltar Watch. Redacta en español de España con tono de periodista especializado: "
-            "sobrio, claro, narrativo y preciso. NO navegues, NO uses conocimiento externo y NO añadas hechos, cifras, nombres, "
-            "causas, fechas o consecuencias que no estén en el JSON suministrado. Los titulares de las fuentes son pistas, no hechos "
-            "confirmados por sí solos: atribuye cuando corresponda y evita convertir una noticia en un cambio operativo sin respaldo del status. "
-            "Parafrasea; no copies frases largas de las fuentes. Separa hechos de interpretación. No menciones IA, modelos, prompts ni automatización. "
-            "No uses lenguaje sensacionalista. Si faltan datos, dilo de forma natural. 'Qué significa' debe aportar contexto causal prudente, no repetir titulares. "
-            "En sections usa únicamente títulos de categoría presentes en sources y omite categorías sin material. " + length_rule
-        )
-        client = OpenAI()
-        response = client.responses.parse(
-            model=AI_MODEL,
-            instructions=instructions,
-            input=json.dumps(facts, ensure_ascii=False),
-            text_format=DiaryDraft,
-        )
-        parsed = response.output_parsed
-        if not parsed:
-            return None
-        data = parsed.model_dump()
-        if len(data.get("situation", [])) < 1 or len(data.get("meaning", [])) < 1:
-            return None
-        return data
-    except Exception as exc:
-        print(f"Diario: redacción IA no disponible ({type(exc).__name__}: {exc}). Se usa fallback local.")
-        return None
-
-
 def build_draft(status: dict, selected: list[dict], mode: str) -> tuple[dict, str]:
-    ai = ai_editorial_draft(status, selected, mode)
-    if ai:
-        # Limita las secciones a categorías realmente presentes.
-        allowed = set(groups_for_items(selected))
-        ai["sections"] = [s for s in ai.get("sections", []) if str(s.get("title", "")) in allowed]
-        ai["watch"] = ai.get("watch", [])[:4]
-        return ai, "model"
+    """Redactar solo con las fuentes locales, sin APIs ni consumo facturable."""
 
     groups = groups_for_items(selected)
     return {
@@ -900,6 +813,21 @@ def cleanup_legacy_public_assets() -> None:
             print(f"Aviso: no se pudo retirar {path.name}: {exc}")
 
 
+def sync_latest_metadata(entry: dict) -> None:
+    """Keep the observatory/newsletter contract in sync with the current diary."""
+    if not entry or not entry.get("date"):
+        return
+    payload = {key: entry[key] for key in (
+        "date", "headline", "summary", "published_at", "updated_at", "source_count",
+        "indexable", "edition_label", "edition_slug", "fingerprint",
+    ) if key in entry}
+    payload.update(date_label=entry["date"], slug=f'{entry["date"]}.html')
+    path = ARCHIVE_DIR / "latest.json"
+    encoded = json.dumps(payload, ensure_ascii=False, indent=2) + "\n"
+    if not path.exists() or path.read_text(encoding="utf-8") != encoded:
+        path.write_text(encoded, encoding="utf-8")
+
+
 def main() -> int:
     if NOW.hour < MIN_HOUR_LOCAL:
         print(f"Diario: son las {NOW:%H:%M} en Madrid; se espera hasta las 07:00.")
@@ -922,6 +850,7 @@ def main() -> int:
 
     old = page.read_text(encoding="utf-8") if page.exists() else ""
     if f"fingerprint:{fp}" in old:
+        sync_latest_metadata(next((entry for entry in load_state_entries() if entry.get("date") == date), {}))
         print(f"Diario: la edición de hoy ya está al día ({mode}, relevancia {score}/100).")
         return 0
 
@@ -965,6 +894,7 @@ def main() -> int:
 
     STATE_DATA.parent.mkdir(parents=True, exist_ok=True)
     STATE_DATA.write_text(json.dumps({"version": 3, "entries": entries}, ensure_ascii=False, indent=2), encoding="utf-8")
+    sync_latest_metadata(entry)
     ARCHIVE_DIR.mkdir(parents=True, exist_ok=True)
     ARCHIVE_PAGE.write_text(archive_html(entries), encoding="utf-8")
     LEGACY_ARCHIVE_PAGE.write_text(legacy_archive_redirect_html(), encoding="utf-8")

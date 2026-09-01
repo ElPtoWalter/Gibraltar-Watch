@@ -1,62 +1,63 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-01T05:16:11Z",
+  "generated_at": "2026-09-01T09:14:43Z",
   "overall": "stale",
   "components": [
     {
       "name": "Sismicidad USGS",
-      "state": "fresh",
-      "label_es": "ACTUALIZADO",
+      "state": "aging",
+      "label_es": "REVISAR FRESCURA",
       "checked_at": "2026-09-01T05:15:50Z",
-      "age_minutes": 0,
+      "age_minutes": 238,
       "source": "USGS Earthquake Catalog",
       "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-08-02T05%3A15%3A50Z&endtime=2026-09-01T05%3A15%3A50Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
       "note_es": "Catálogo sísmico regional; no es una herramienta de predicción."
     },
     {
       "name": "Actualidad y geopolítica",
-      "state": "fresh",
-      "label_es": "ACTUALIZADO",
+      "state": "aging",
+      "label_es": "REVISAR FRESCURA",
       "checked_at": "2026-09-01T05:16:06.609468+00:00",
-      "age_minutes": 0,
+      "age_minutes": 238,
       "source": "Monitor editorial de fuentes públicas",
       "url": "fuentes.html",
       "note_es": "Los titulares se usan como señales y requieren atribución."
     },
     {
       "name": "Operación Paso del Estrecho",
-      "state": "fresh",
-      "label_es": "ACTUALIZADO",
+      "state": "stale",
+      "label_es": "PARTE ANTIGUO",
       "checked_at": "2026-09-01T05:16:06Z",
-      "age_minutes": 0,
+      "age_minutes": 238,
       "source": "Secretaría General de Protección Civil y Emergencias",
       "url": "https://www.proteccioncivil.es/documents/20121/0/20260815_InformeOPE.pdf",
-      "note_es": "La frescura de consulta no convierte el parte oficial en un contador en tiempo real."
+      "note_es": "Último parte localizado: 2026-08-15. Una consulta reciente no actualiza la fecha de sus datos.",
+      "report_date": "2026-08-15"
     },
     {
       "name": "Diario del Estrecho",
-      "state": "stale",
-      "label_es": "DESACTUALIZADO",
-      "checked_at": "2026-08-15T04:49:41Z",
-      "age_minutes": 24506,
+      "state": "fresh",
+      "label_es": "ACTUALIZADO",
+      "checked_at": "2026-09-01T05:16:00Z",
+      "age_minutes": 238,
       "source": "Gibraltar Watch",
-      "url": "diario/2026-08-15.html",
+      "url": "diario/2026-09-01.html",
       "note_es": "Última edición publicada"
     },
     {
       "name": "Integridad del sitio",
       "state": "fresh",
       "label_es": "CORRECTA",
-      "checked_at": "2026-09-01T05:16:11Z",
+      "checked_at": "2026-09-01T09:14:43Z",
       "age_minutes": 0,
       "source": "Validador local",
       "note_es": "Todos los archivos críticos están presentes."
     }
   ],
   "workflow": {
-    "run_id": "33472910031",
+    "run_id": "local",
     "run_attempt": "1",
-    "sha": "2075e3ca4f64",
-    "event": "schedule"
+    "sha": "local",
+    "event": "local"
   }
 }

@@ -66,6 +66,8 @@ def is_skipped(path: Path) -> bool:
         return True
     if path.suffix.lower() == ".json":
         return True
+    if path.name == "site.webmanifest":
+        return False
     low = path.name.lower()
     if any(part in low for part in SENSITIVE_NAME_PARTS) and path.suffix.lower() not in {".html", ".css", ".js"}:
         return True
@@ -162,13 +164,13 @@ def copy_public(runtime_src: str) -> int:
         allowed = path.suffix.lower() in {
             ".html", ".htm", ".css", ".js", ".mjs", ".xml", ".svg", ".png", ".jpg",
             ".jpeg", ".webp", ".gif", ".ico", ".woff", ".woff2", ".ttf", ".otf", ".pdf",
-            ".txt",
+            ".txt", ".webmanifest",
         } or path.name == "CNAME"
         if not allowed:
             continue
         if path.suffix.lower() == ".txt":
             # Public text files limited to web standards / IndexNow keys.
-            if path.name not in {"robots.txt", "ads.txt", "humans.txt"} and not re.fullmatch(r"[0-9a-fA-F]{20,64}\.txt", path.name):
+            if rr != "newsletter/latest.txt" and path.name not in {"robots.txt", "ads.txt", "humans.txt"} and not re.fullmatch(r"[0-9a-fA-F]{20,64}\.txt", path.name):
                 continue
 
         dest = OUT / rr

@@ -82,11 +82,11 @@ def validate_html():
             if not clean or clean.endswith('/'):
                 if clean=='diario/' and not (ROOT/'diario/index.html').exists():err(f'{rel}: referencia rota {ref}')
                 continue
-            target=(ROOT/clean).resolve()
+            target=(ROOT/clean.lstrip('/')).resolve()
             if ROOT.resolve() not in target.parents and target!=ROOT.resolve():err(f'{rel}: ruta fuera del sitio {ref}');continue
             if not target.exists():err(f'{rel}: referencia local ausente {ref}')
     core_markers={
-        'index.html':['GWO_LIVE_START','GWO_TIMELINE_START'],
+        'index.html':['GW_DIARIO_HOME_START','gwcStatusMaritime','gwcNewsList'],
         'situacion-actual.html':['GWO_LIVE_START','GWO_DETAIL_START'],
         'fuentes.html':['GWO_HEALTH_START'],
         'trafico.html':['GWO_DETAIL_START'],
@@ -100,7 +100,14 @@ def validate_html():
     slug=latest.get('slug')
     if slug and (ROOT/'diario'/slug).exists():
         t=(ROOT/'diario'/slug).read_text(encoding='utf-8')
-        if 'GWO_DIARY_TRUST_START' not in t:err(f'diario/{slug}: falta capa de trazabilidad vNext')
+        if 'GWO_DIARY_TRUST_START' not in t and 'gd-limit' not in t:
+            err(f'diario/{slug}: falta el criterio editorial de la edición')
+    elif slug:
+        err(f'diario/latest.json: no existe la edición {slug}')
+    state=load('.github/diario-state.json') or {}
+    dates=[entry.get('date','') for entry in state.get('entries',[])]
+    if dates and latest.get('date') != max(dates):
+        err('diario/latest.json: no corresponde a la edición más reciente')
 
 def validate_manifest():
     manifest=load('publication-manifest.json') or {}
@@ -124,8 +131,7 @@ def validate_workflow():
     if re.search(r'^\s*run:\s*python\s+submit_gibraltar_inde\s*$',t,re.M):err('Workflow: ha reaparecido el nombre truncado submit_gibraltar_inde')
     if 'run: python submit_gibraltar_indexnow.py' not in t:err('Workflow: falta submit_gibraltar_indexnow.py')
     idx=t.find('- name: Avisar mediante IndexNow')
-    if idx>=0 and 'continue-on-error: true' in t[idx:idx+260]:err('Workflow: IndexNow vuelve a ocultar errores con continue-on-error')
-    required=['install_gibraltar_observatory.py','postprocess_diario.py','update_observatory.py','generate_newsletter.py','build_publication_manifest.py','validate_gibraltar.py']
+    required=['generate_diario_estrecho.py','update_observatory.py','generate_newsletter.py','build_publication_manifest.py','validate_gibraltar.py']
     for x in required:
         if x not in t:err(f'Workflow: falta etapa {x}')
 

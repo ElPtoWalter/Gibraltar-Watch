@@ -1,39 +1,39 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-01T14:57:36Z",
+  "generated_at": "2026-09-01T18:35:40Z",
   "state": {
-    "code": "reinforced_watch",
-    "label_es": "VIGILANCIA REFORZADA",
-    "color": "orange",
-    "severity": 2,
-    "summary_es": "Existen incidencias o tensión apreciable, sin que ello implique por sí solo una interrupción del Estrecho. Parte de las fuentes necesita actualización, por lo que la lectura debe interpretarse con cautela.",
+    "code": "watch",
+    "label_es": "VIGILANCIA",
+    "color": "yellow",
+    "severity": 1,
+    "summary_es": "La situación requiere seguimiento, pero no aparecen señales suficientes para elevar el nivel operativo. Parte de las fuentes necesita actualización, por lo que la lectura debe interpretarse con cautela.",
     "layers": {
       "maritime": {
         "value": "OPERATIVO",
         "severity": 0
       },
       "border": {
-        "value": "ALTA",
-        "severity": 2
+        "value": "BAJA / SIN SEÑALES RECIENTES",
+        "severity": 0
       },
       "bilateral": {
         "value": "VIGILANCIA",
         "severity": 1
       },
       "security": {
-        "value": "VIGILANCIA REFORZADA",
-        "severity": 2
+        "value": "SIN ALERTA ESPECÍFICA",
+        "severity": 0
       }
     },
     "confidence": "BAJA",
     "alert_level": {
-      "code": "relevant",
-      "label_es": "RELEVANTE",
-      "meaning_es": "Hay una alteración apreciable, sin implicar cierre del corredor."
+      "code": "informational",
+      "label_es": "INFORMATIVO",
+      "meaning_es": "Seguimiento ordinario o cambio menor."
     }
   },
   "metrics": {
-    "news_24h": 15,
+    "news_24h": 17,
     "news_sources": 32,
     "seismic_24h": 0,
     "seismic_7d": 0,
@@ -49,35 +49,35 @@
   "anomalies": [],
   "changes": {
     "state_changed": true,
-    "previous_state_code": "watch",
+    "previous_state_code": "reinforced_watch",
     "layer_changes": [
       {
         "key": "border",
-        "previous": "BAJA / SIN SEÑALES RECIENTES",
-        "current": "ALTA"
+        "previous": "ALTA",
+        "current": "BAJA / SIN SEÑALES RECIENTES"
       },
       {
         "key": "security",
-        "previous": "SIN ALERTA ESPECÍFICA",
-        "current": "VIGILANCIA REFORZADA"
+        "previous": "VIGILANCIA REFORZADA",
+        "current": "SIN ALERTA ESPECÍFICA"
       }
     ]
   },
   "health": {
     "overall": "stale",
-    "generated_at": "2026-09-01T14:57:36Z"
+    "generated_at": "2026-09-01T18:35:40Z"
   },
   "latest_diary": {
     "date": "2026-09-01",
-    "headline": "Ceuta y la presión fronteriza concentran la atención de la jornada",
-    "summary": "El corredor figura como operativo; la presión fronteriza, alta; y la relación España–Marruecos, vigilancia. La edición contrasta 2 señales recientes antes de extraer conclusiones.",
+    "headline": "España y Marruecos marcan el pulso político del Estrecho",
+    "summary": "El corredor figura como operativo; la presión fronteriza, baja / sin señales recientes; y la relación España–Marruecos, vigilancia. La edición contrasta 2 señales recientes antes de extraer conclusiones.",
     "published_at": "2026-09-01T07:16+02:00",
-    "updated_at": "2026-09-01T16:57+02:00",
+    "updated_at": "2026-09-01T20:35+02:00",
     "source_count": 2,
     "indexable": true,
     "edition_label": "Cuaderno de las dos orillas",
     "edition_slug": "shores",
-    "fingerprint": "3e421586d9170bc3b6c7",
+    "fingerprint": "a712e786d385aab3ad15",
     "date_label": "2026-09-01",
     "slug": "2026-09-01.html"
   },

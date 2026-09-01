@@ -5,6 +5,10 @@ on:
     branches:
       - main
   workflow_dispatch:
+  workflow_run:
+    workflows: ["Actualizar Gibraltar Watch"]
+    branches: [main]
+    types: [completed]
 
 permissions:
   contents: read
@@ -17,6 +21,7 @@ concurrency:
 
 jobs:
   build:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     timeout-minutes: 12
     steps:
@@ -27,6 +32,9 @@ jobs:
         uses: actions/setup-python@v6
         with:
           python-version: "3.12"
+
+      - name: Probar contratos de publicación
+        run: python -m unittest -v test_publication.py
 
       - name: Aplicar presentación editorial profesional
         run: python install_gibraltar_professional.py
@@ -41,7 +49,9 @@ jobs:
         run: python build_secure_public_site.py
 
       - name: Auditar artefacto público
-        run: python audit_public_artifact.py
+        run: |
+          python audit_public_artifact.py
+          python check_public_links.py _site
 
       - name: Configurar GitHub Pages
         uses: actions/configure-pages@v5

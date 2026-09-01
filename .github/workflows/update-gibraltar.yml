@@ -26,7 +26,7 @@ jobs:
           python-version: "3.12"
 
       - name: Instalar dependencias editoriales
-        run: python -m pip install --disable-pip-version-check pypdf openai
+        run: python -m pip install --disable-pip-version-check pypdf
 
       - name: Ejecutar pruebas del monitor sísmico
         run: python -m unittest -v test_update.py
@@ -50,7 +50,7 @@ jobs:
         run: python -m unittest -v test_install_gibraltar_business.py
 
       - name: Ejecutar pruebas del Diario del Estrecho
-        run: python -m unittest -v test_generate_diario_estrecho.py test_install_diario_estrecho.py
+        run: python -m unittest -v test_generate_diario_estrecho.py test_install_diario_estrecho.py test_publication.py
 
       - name: Actualizar sismicidad
         run: python update_gibraltar.py
@@ -86,13 +86,16 @@ jobs:
         run: python install_diario_estrecho.py
 
       - name: Generar edición diaria del Estrecho
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          DIARIO_AI_MODEL: ${{ vars.DIARIO_AI_MODEL }}
         run: python generate_diario_estrecho.py
 
       - name: Actualizar lectura consolidada y salud pública
         run: python update_observatory.py
+
+      - name: Actualizar boletín y validar publicación
+        run: |
+          python generate_newsletter.py
+          python build_publication_manifest.py
+          python validate_gibraltar.py
 
       - name: Guardar cambios
         id: commit

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-31T23:54:04Z",
+  "generated_at": "2026-09-01T05:16:11Z",
   "state": {
     "code": "watch",
     "label_es": "VIGILANCIA",
@@ -13,8 +13,8 @@
         "severity": 0
       },
       "border": {
-        "value": "BAJA / SIN SEÑALES RECIENTES",
-        "severity": 0
+        "value": "MEDIA",
+        "severity": 1
       },
       "bilateral": {
         "value": "VIGILANCIA",
@@ -33,8 +33,8 @@
     }
   },
   "metrics": {
-    "news_24h": 13,
-    "news_sources": 33,
+    "news_24h": 18,
+    "news_sources": 35,
     "seismic_24h": 0,
     "seismic_7d": 0,
     "seismic_30d": 5,
@@ -53,14 +53,14 @@
     "layer_changes": [
       {
         "key": "border",
-        "previous": "MEDIA",
-        "current": "BAJA / SIN SEÑALES RECIENTES"
+        "previous": "BAJA / SIN SEÑALES RECIENTES",
+        "current": "MEDIA"
       }
     ]
   },
   "health": {
     "overall": "stale",
-    "generated_at": "2026-08-31T23:54:04Z"
+    "generated_at": "2026-09-01T05:16:11Z"
   },
   "latest_diary": {
     "date": "2026-08-15",

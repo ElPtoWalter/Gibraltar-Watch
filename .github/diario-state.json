@@ -5,7 +5,7 @@
     "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
     "summary": "Selección automática de 9 referencias de 8 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
     "url": "diario/2026-09-02.html",
-    "material_archive": false,
+    "material_archive": true,
     "status_snapshot": {
       "maritime_status": {
         "es": "OPERATIVO",
@@ -16,8 +16,8 @@
         "en": "LOW / NO RECENT SIGNALS"
       },
       "bilateral_tension": {
-        "es": "ESTABLE",
-        "en": "STABLE"
+        "es": "VIGILANCIA",
+        "en": "WATCH"
       },
       "security_status": {
         "es": "SIN ALERTA ESPECÍFICA",
@@ -25,26 +25,27 @@
       }
     },
     "source_keys": [
-      "0183e46369bffe6c0432",
-      "0a6d8682cf296cf9cd09",
-      "524015713a8f34d6ea00",
-      "72252b4b829165b8e23f",
+      "7ccb3a0266822611f7e1",
       "7de7df66ca0f5a0d7461",
       "7e18a2b58b46f48e363a",
-      "9c37f8df127c1a5e9f3a",
-      "fb629d119f8336b0f607",
-      "ffa1814b0b7378da85d7"
+      "bb2ab45acef14dc2c58f",
+      "bf56fa4b8e4faea7eb5d",
+      "c9422ad44f47876865fc",
+      "db72b5a4aaeccc5e597a",
+      "dd65eefaa21b9d58746c",
+      "ed4757cdfb783d355add"
     ],
     "published_at": "2026-09-02T07:52+02:00",
-    "updated_at": "2026-09-02T13:27+02:00",
+    "updated_at": "2026-09-02T18:38+02:00",
     "published_rfc822": "Wed, 02 Sep 2026 07:52:00 +0200",
     "source_count": 9,
-    "fingerprint": "b00b2f3b9339c0c846be",
+    "fingerprint": "cfe57e2941ab35f73730",
     "mode": "full",
-    "significance": 63,
+    "significance": 71,
     "significance_reasons": [
       "actualidad repartida en tres o más ámbitos",
-      "volumen informativo relevante"
+      "volumen informativo relevante",
+      "indicadores operativos o geopolíticos fuera de la normalidad"
     ],
     "indexable": false,
     "editor_engine": "rules",
@@ -57,7 +58,7 @@
       "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
       "summary": "Selección automática de 9 referencias de 8 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
       "url": "diario/2026-09-02.html",
-      "material_archive": false,
+      "material_archive": true,
       "status_snapshot": {
         "maritime_status": {
           "es": "OPERATIVO",
@@ -68,8 +69,8 @@
           "en": "LOW / NO RECENT SIGNALS"
         },
         "bilateral_tension": {
-          "es": "ESTABLE",
-          "en": "STABLE"
+          "es": "VIGILANCIA",
+          "en": "WATCH"
         },
         "security_status": {
           "es": "SIN ALERTA ESPECÍFICA",
@@ -77,26 +78,27 @@
         }
       },
       "source_keys": [
-        "0183e46369bffe6c0432",
-        "0a6d8682cf296cf9cd09",
-        "524015713a8f34d6ea00",
-        "72252b4b829165b8e23f",
+        "7ccb3a0266822611f7e1",
         "7de7df66ca0f5a0d7461",
         "7e18a2b58b46f48e363a",
-        "9c37f8df127c1a5e9f3a",
-        "fb629d119f8336b0f607",
-        "ffa1814b0b7378da85d7"
+        "bb2ab45acef14dc2c58f",
+        "bf56fa4b8e4faea7eb5d",
+        "c9422ad44f47876865fc",
+        "db72b5a4aaeccc5e597a",
+        "dd65eefaa21b9d58746c",
+        "ed4757cdfb783d355add"
       ],
       "published_at": "2026-09-02T07:52+02:00",
-      "updated_at": "2026-09-02T13:27+02:00",
+      "updated_at": "2026-09-02T18:38+02:00",
       "published_rfc822": "Wed, 02 Sep 2026 07:52:00 +0200",
       "source_count": 9,
-      "fingerprint": "b00b2f3b9339c0c846be",
+      "fingerprint": "cfe57e2941ab35f73730",
       "mode": "full",
-      "significance": 63,
+      "significance": 71,
       "significance_reasons": [
         "actualidad repartida en tres o más ámbitos",
-        "volumen informativo relevante"
+        "volumen informativo relevante",
+        "indicadores operativos o geopolíticos fuera de la normalidad"
       ],
       "indexable": false,
       "editor_engine": "rules",

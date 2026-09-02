@@ -3934,5 +3934,46 @@
         "en": "MEDIUM"
       }
     }
+  },
+  {
+    "at": "2026-09-02T16:38:48.148983+00:00",
+    "status": {
+      "maritime_status": {
+        "es": "OPERATIVO",
+        "en": "OPERATIONAL"
+      },
+      "maritime_note": {
+        "es": "El corredor permanece abierto; los avisos oficiales prevalecen.",
+        "en": "The corridor remains open; official notices remain authoritative."
+      },
+      "border_pressure": {
+        "es": "BAJA / SIN SEÑALES RECIENTES",
+        "en": "LOW / NO RECENT SIGNALS"
+      },
+      "border_note": {
+        "es": "No aparecen señales recientes suficientes para elevar el nivel.",
+        "en": "There are not enough recent signals to raise the level."
+      },
+      "bilateral_tension": {
+        "es": "VIGILANCIA",
+        "en": "WATCH"
+      },
+      "bilateral_note": {
+        "es": "Hay señales de fricción, sin ruptura de la cooperación.",
+        "en": "There are signs of friction without a breakdown in cooperation."
+      },
+      "security_status": {
+        "es": "SIN ALERTA ESPECÍFICA",
+        "en": "NO SPECIFIC ALERT"
+      },
+      "security_note": {
+        "es": "No se detectan señales suficientes para una alerta editorial.",
+        "en": "There are not enough signals for an editorial alert."
+      },
+      "confidence": {
+        "es": "MEDIA",
+        "en": "MEDIUM"
+      }
+    }
   }
 ]

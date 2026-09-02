@@ -50,7 +50,7 @@ jobs:
         run: python -m unittest -v test_install_gibraltar_business.py
 
       - name: Ejecutar pruebas del Diario del Estrecho
-        run: python -m unittest -v test_generate_diario_estrecho.py test_install_diario_estrecho.py test_publication.py
+        run: python -m unittest -v test_generate_diario_estrecho.py test_install_diario_estrecho.py test_publication.py test_editorial_quality.py
 
       - name: Actualizar sismicidad
         run: python update_gibraltar.py

@@ -12,6 +12,8 @@ import json
 import re
 import shutil
 from pathlib import Path
+from publication_quality import apply_policy
+from ope_analysis import build_report
 
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "_site"
@@ -165,7 +167,7 @@ def copy_public(runtime_src: str) -> int:
             ".html", ".htm", ".css", ".js", ".mjs", ".xml", ".svg", ".png", ".jpg",
             ".jpeg", ".webp", ".gif", ".ico", ".woff", ".woff2", ".ttf", ".otf", ".pdf",
             ".txt", ".webmanifest",
-        } or path.name == "CNAME"
+        } or path.name == "CNAME" or rr == "ope-audit.csv"
         if not allowed:
             continue
         if path.suffix.lower() == ".txt":
@@ -177,7 +179,7 @@ def copy_public(runtime_src: str) -> int:
         dest.parent.mkdir(parents=True, exist_ok=True)
         if path.suffix.lower() in {".html", ".htm"}:
             text = path.read_text(encoding="utf-8")
-            dest.write_text(harden_html(text, runtime_src), encoding="utf-8")
+            dest.write_text(apply_policy(harden_html(text, runtime_src), rr), encoding="utf-8")
         elif path.suffix.lower() in {".js", ".mjs", ".css"}:
             text = path.read_text(encoding="utf-8")
             text = re.sub(r"(?:/\*#|//#)\s*sourceMappingURL=.*?(?:\*/)?\s*$", "", text, flags=re.M)
@@ -191,11 +193,23 @@ def copy_public(runtime_src: str) -> int:
 
 
 def main() -> int:
+    build_report(ROOT)
     if OUT.exists():
         shutil.rmtree(OUT)
     OUT.mkdir(parents=True)
     runtime_src, data = build_runtime_bundle()
     copied = copy_public(runtime_src)
+    # Rebuild the actual public inventory from final robots directives.
+    import xml.etree.ElementTree as ET
+    namespace = "http://www.sitemaps.org/schemas/sitemap/0.9"
+    ET.register_namespace("", namespace)
+    sitemap = ET.Element("{" + namespace + "}urlset")
+    for page in sorted(OUT.rglob("*.html")):
+        if page.name == "404.html" or re.search(r'<meta\b[^>]*noindex', page.read_text(), re.I):
+            continue
+        node = ET.SubElement(sitemap, "{" + namespace + "}url")
+        ET.SubElement(node, "{" + namespace + "}loc").text = "https://estrechogibraltar.com/" + page.relative_to(OUT).as_posix()
+    ET.ElementTree(sitemap).write(OUT / "sitemap.xml", encoding="utf-8", xml_declaration=True)
     print(f"Build público seguro: {copied} archivos · {len(data)} conjuntos de datos encapsulados · 0 JSON públicos.")
     return 0
 

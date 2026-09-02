@@ -91,6 +91,7 @@
   }
 
   function loadAdSense(client) {
+    if (qs('meta[name="publisher-ads"][content="disabled"]')) return;
     if (qs('script[data-gw-adsense]')) return;
     const script = document.createElement('script');
     script.async = true;
@@ -101,6 +102,10 @@
   }
 
   function initAds() {
+    if (qs('meta[name="publisher-ads"][content="disabled"]')) {
+      qsa('[data-gw-ad]').forEach(container => { container.hidden = true; });
+      return;
+    }
     const adCfg = cfg.adsense || {};
     const slots = adCfg.slots || {};
     qsa('[data-gw-ad]').forEach(container => {

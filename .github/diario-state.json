@@ -1,22 +1,104 @@
 {
-  "version": 3,
+  "version": 4,
+  "latest_entry": {
+    "date": "2026-09-02",
+    "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
+    "summary": "Selección automática de 9 referencias de 8 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "url": "diario/2026-09-02.html",
+    "material_archive": false,
+    "status_snapshot": {
+      "maritime_status": {
+        "es": "OPERATIVO",
+        "en": "OPERATIONAL"
+      },
+      "border_pressure": {
+        "es": "BAJA / SIN SEÑALES RECIENTES",
+        "en": "LOW / NO RECENT SIGNALS"
+      },
+      "bilateral_tension": {
+        "es": "ESTABLE",
+        "en": "STABLE"
+      },
+      "security_status": {
+        "es": "SIN ALERTA ESPECÍFICA",
+        "en": "NO SPECIFIC ALERT"
+      }
+    },
+    "source_keys": [
+      "0183e46369bffe6c0432",
+      "0a6d8682cf296cf9cd09",
+      "524015713a8f34d6ea00",
+      "72252b4b829165b8e23f",
+      "7de7df66ca0f5a0d7461",
+      "7e18a2b58b46f48e363a",
+      "9c37f8df127c1a5e9f3a",
+      "fb629d119f8336b0f607",
+      "ffa1814b0b7378da85d7"
+    ],
+    "published_at": "2026-09-02T07:52+02:00",
+    "updated_at": "2026-09-02T13:27+02:00",
+    "published_rfc822": "Wed, 02 Sep 2026 07:52:00 +0200",
+    "source_count": 9,
+    "fingerprint": "b00b2f3b9339c0c846be",
+    "mode": "full",
+    "significance": 63,
+    "significance_reasons": [
+      "actualidad repartida en tres o más ámbitos",
+      "volumen informativo relevante"
+    ],
+    "indexable": false,
+    "editor_engine": "rules",
+    "edition_label": "Cuaderno de las dos orillas",
+    "edition_slug": "shores"
+  },
   "entries": [
     {
       "date": "2026-09-02",
-      "headline": "Ceuta y la presión fronteriza concentran la atención de la jornada",
-      "summary": "El corredor figura como operativo; la presión fronteriza, alta; y la relación España–Marruecos, vigilancia. La edición contrasta 2 señales recientes antes de extraer conclusiones.",
+      "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
+      "summary": "Selección automática de 9 referencias de 8 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
       "url": "diario/2026-09-02.html",
-      "published_at": "2026-09-02T07:52+02:00",
-      "updated_at": "2026-09-02T07:52+02:00",
-      "published_rfc822": "Wed, 02 Sep 2026 07:52:00 +0200",
-      "source_count": 2,
-      "fingerprint": "1a1134ddb1f59fbe44c3",
-      "mode": "brief",
-      "significance": 42,
-      "significance_reasons": [
-        "indicadores operativos o geopolíticos fuera de la normalidad"
+      "material_archive": false,
+      "status_snapshot": {
+        "maritime_status": {
+          "es": "OPERATIVO",
+          "en": "OPERATIONAL"
+        },
+        "border_pressure": {
+          "es": "BAJA / SIN SEÑALES RECIENTES",
+          "en": "LOW / NO RECENT SIGNALS"
+        },
+        "bilateral_tension": {
+          "es": "ESTABLE",
+          "en": "STABLE"
+        },
+        "security_status": {
+          "es": "SIN ALERTA ESPECÍFICA",
+          "en": "NO SPECIFIC ALERT"
+        }
+      },
+      "source_keys": [
+        "0183e46369bffe6c0432",
+        "0a6d8682cf296cf9cd09",
+        "524015713a8f34d6ea00",
+        "72252b4b829165b8e23f",
+        "7de7df66ca0f5a0d7461",
+        "7e18a2b58b46f48e363a",
+        "9c37f8df127c1a5e9f3a",
+        "fb629d119f8336b0f607",
+        "ffa1814b0b7378da85d7"
       ],
-      "indexable": true,
+      "published_at": "2026-09-02T07:52+02:00",
+      "updated_at": "2026-09-02T13:27+02:00",
+      "published_rfc822": "Wed, 02 Sep 2026 07:52:00 +0200",
+      "source_count": 9,
+      "fingerprint": "b00b2f3b9339c0c846be",
+      "mode": "full",
+      "significance": 63,
+      "significance_reasons": [
+        "actualidad repartida en tres o más ámbitos",
+        "volumen informativo relevante"
+      ],
+      "indexable": false,
       "editor_engine": "rules",
       "edition_label": "Cuaderno de las dos orillas",
       "edition_slug": "shores"

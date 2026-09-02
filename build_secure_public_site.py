@@ -14,6 +14,7 @@ import shutil
 from pathlib import Path
 from publication_quality import apply_policy
 from ope_analysis import build_report
+from own_projects import add_promotions
 
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "_site"
@@ -179,7 +180,7 @@ def copy_public(runtime_src: str) -> int:
         dest.parent.mkdir(parents=True, exist_ok=True)
         if path.suffix.lower() in {".html", ".htm"}:
             text = path.read_text(encoding="utf-8")
-            dest.write_text(apply_policy(harden_html(text, runtime_src), rr), encoding="utf-8")
+            dest.write_text(add_promotions(apply_policy(harden_html(text, runtime_src), rr), rr, "gibraltar"), encoding="utf-8")
         elif path.suffix.lower() in {".js", ".mjs", ".css"}:
             text = path.read_text(encoding="utf-8")
             text = re.sub(r"(?:/\*#|//#)\s*sourceMappingURL=.*?(?:\*/)?\s*$", "", text, flags=re.M)

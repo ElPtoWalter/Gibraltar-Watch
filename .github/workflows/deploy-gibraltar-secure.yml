@@ -34,7 +34,7 @@ jobs:
           python-version: "3.12"
 
       - name: Probar contratos de publicación
-        run: python -m unittest -v test_publication.py test_generate_diario_estrecho.py test_editorial_quality.py
+        run: python -m unittest -v test_publication.py test_generate_diario_estrecho.py test_editorial_quality.py test_own_projects.py
 
       - name: Aplicar presentación editorial profesional
         run: python install_gibraltar_professional.py

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-02T00:18:13Z",
+  "generated_at": "2026-09-02T05:52:49Z",
   "state": {
     "code": "reinforced_watch",
     "label_es": "VIGILANCIA REFORZADA",
@@ -33,7 +33,7 @@
     }
   },
   "metrics": {
-    "news_24h": 12,
+    "news_24h": 13,
     "news_sources": 33,
     "seismic_24h": 0,
     "seismic_7d": 0,
@@ -43,43 +43,32 @@
     "ope_passengers_day": 59877,
     "ope_vehicles_day": 15464,
     "ope_rotations_day": 179,
-    "diary_date": "2026-09-01",
+    "diary_date": "2026-09-02",
     "diary_source_count": 2
   },
   "anomalies": [],
   "changes": {
-    "state_changed": true,
-    "previous_state_code": "watch",
-    "layer_changes": [
-      {
-        "key": "border",
-        "previous": "BAJA / SIN SEÑALES RECIENTES",
-        "current": "ALTA"
-      },
-      {
-        "key": "security",
-        "previous": "SIN ALERTA ESPECÍFICA",
-        "current": "VIGILANCIA REFORZADA"
-      }
-    ]
+    "state_changed": false,
+    "previous_state_code": "reinforced_watch",
+    "layer_changes": []
   },
   "health": {
     "overall": "stale",
-    "generated_at": "2026-09-02T00:18:13Z"
+    "generated_at": "2026-09-02T05:52:49Z"
   },
   "latest_diary": {
-    "date": "2026-09-01",
-    "headline": "España y Marruecos marcan el pulso político del Estrecho",
-    "summary": "El corredor figura como operativo; la presión fronteriza, baja / sin señales recientes; y la relación España–Marruecos, vigilancia. La edición contrasta 2 señales recientes antes de extraer conclusiones.",
-    "published_at": "2026-09-01T07:16+02:00",
-    "updated_at": "2026-09-01T23:50+02:00",
+    "date": "2026-09-02",
+    "headline": "Ceuta y la presión fronteriza concentran la atención de la jornada",
+    "summary": "El corredor figura como operativo; la presión fronteriza, alta; y la relación España–Marruecos, vigilancia. La edición contrasta 2 señales recientes antes de extraer conclusiones.",
+    "published_at": "2026-09-02T07:52+02:00",
+    "updated_at": "2026-09-02T07:52+02:00",
     "source_count": 2,
     "indexable": true,
     "edition_label": "Cuaderno de las dos orillas",
     "edition_slug": "shores",
-    "fingerprint": "8baa08132c2afc33f0f1",
-    "date_label": "2026-09-01",
-    "slug": "2026-09-01.html"
+    "fingerprint": "1a1134ddb1f59fbe44c3",
+    "date_label": "2026-09-02",
+    "slug": "2026-09-02.html"
   },
   "latest_ope": {
     "report_date": "2026-08-15",

@@ -34,7 +34,7 @@ jobs:
           python-version: "3.12"
 
       - name: Probar contratos de publicación
-        run: python -m unittest -v test_publication.py
+        run: python -m unittest -v test_publication.py test_generate_diario_estrecho.py test_editorial_quality.py
 
       - name: Aplicar presentación editorial profesional
         run: python install_gibraltar_professional.py
@@ -46,7 +46,10 @@ jobs:
         run: python sanitize_editorial_metadata.py
 
       - name: Construir artefacto público endurecido
-        run: python build_secure_public_site.py
+        run: |
+          python generate_diario_estrecho.py
+          python generate_newsletter.py
+          python build_secure_public_site.py
 
       - name: Auditar artefacto público
         run: |

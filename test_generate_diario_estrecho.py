@@ -54,9 +54,9 @@ class DiaryTests(unittest.TestCase):
     def test_zero_source_brief_is_noindex(self):
         self.assertFalse(g.seo_indexable('brief', {}, []))
 
-    def test_alert_can_make_zero_source_brief_indexable(self):
+    def test_alert_does_not_make_unreviewed_brief_indexable(self):
         status = {'maritime_status': {'es': 'INCIDENCIA'}}
-        self.assertTrue(g.seo_indexable('brief', status, []))
+        self.assertFalse(g.seo_indexable('brief', status, []))
 
     def test_article_escapes_source_title(self):
         item = self.item('<script>alert(1)</script> noticia', 'traffic', 3)

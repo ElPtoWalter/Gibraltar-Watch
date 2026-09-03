@@ -3,9 +3,9 @@
   "latest_entry": {
     "date": "2026-09-03",
     "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
-    "summary": "Selección automática de 6 referencias de 5 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "summary": "Selección automática de 8 referencias de 7 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
     "url": "diario/2026-09-03.html",
-    "material_archive": false,
+    "material_archive": true,
     "status_snapshot": {
       "maritime_status": {
         "es": "OPERATIVO",
@@ -16,8 +16,8 @@
         "en": "HIGH"
       },
       "bilateral_tension": {
-        "es": "VIGILANCIA",
-        "en": "WATCH"
+        "es": "ESTABLE",
+        "en": "STABLE"
       },
       "security_status": {
         "es": "VIGILANCIA REFORZADA",
@@ -25,24 +25,25 @@
       }
     },
     "source_keys": [
-      "14e1ef4c63f40538d725",
+      "455640bddfdc2af8c7e5",
+      "5591aa9da1b8e4724c61",
       "55c517254494979d55b5",
-      "8763d682ea4dfd98bd70",
+      "ada2d5b533d00165e0fb",
       "adf59ff77744b7a3e712",
-      "bf56fa4b8e4faea7eb5d",
-      "f071dfd4bdb4940612c2"
+      "b83973c1bd4391af6e0a",
+      "e939febc1065114cb345",
+      "facbc825b1e5f0b671a4"
     ],
     "published_at": "2026-09-03T07:52+02:00",
-    "updated_at": "2026-09-03T13:21+02:00",
+    "updated_at": "2026-09-03T18:29+02:00",
     "published_rfc822": "Thu, 03 Sep 2026 07:52:00 +0200",
-    "source_count": 6,
-    "fingerprint": "d8efa7c8e16e6671fae9",
+    "source_count": 8,
+    "fingerprint": "feaea00da1fd223d055a",
     "mode": "full",
-    "significance": 86,
+    "significance": 79,
     "significance_reasons": [
       "actualidad repartida en tres o más ámbitos",
       "volumen informativo relevante",
-      "al menos una señal de prioridad alta",
       "indicadores operativos o geopolíticos fuera de la normalidad"
     ],
     "indexable": false,
@@ -54,9 +55,9 @@
     {
       "date": "2026-09-03",
       "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
-      "summary": "Selección automática de 6 referencias de 5 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+      "summary": "Selección automática de 8 referencias de 7 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
       "url": "diario/2026-09-03.html",
-      "material_archive": false,
+      "material_archive": true,
       "status_snapshot": {
         "maritime_status": {
           "es": "OPERATIVO",
@@ -67,8 +68,8 @@
           "en": "HIGH"
         },
         "bilateral_tension": {
-          "es": "VIGILANCIA",
-          "en": "WATCH"
+          "es": "ESTABLE",
+          "en": "STABLE"
         },
         "security_status": {
           "es": "VIGILANCIA REFORZADA",
@@ -76,24 +77,25 @@
         }
       },
       "source_keys": [
-        "14e1ef4c63f40538d725",
+        "455640bddfdc2af8c7e5",
+        "5591aa9da1b8e4724c61",
         "55c517254494979d55b5",
-        "8763d682ea4dfd98bd70",
+        "ada2d5b533d00165e0fb",
         "adf59ff77744b7a3e712",
-        "bf56fa4b8e4faea7eb5d",
-        "f071dfd4bdb4940612c2"
+        "b83973c1bd4391af6e0a",
+        "e939febc1065114cb345",
+        "facbc825b1e5f0b671a4"
       ],
       "published_at": "2026-09-03T07:52+02:00",
-      "updated_at": "2026-09-03T13:21+02:00",
+      "updated_at": "2026-09-03T18:29+02:00",
       "published_rfc822": "Thu, 03 Sep 2026 07:52:00 +0200",
-      "source_count": 6,
-      "fingerprint": "d8efa7c8e16e6671fae9",
+      "source_count": 8,
+      "fingerprint": "feaea00da1fd223d055a",
       "mode": "full",
-      "significance": 86,
+      "significance": 79,
       "significance_reasons": [
         "actualidad repartida en tres o más ámbitos",
         "volumen informativo relevante",
-        "al menos una señal de prioridad alta",
         "indicadores operativos o geopolíticos fuera de la normalidad"
       ],
       "indexable": false,

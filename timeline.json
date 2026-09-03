@@ -1,5 +1,37 @@
 [
   {
+    "key": "state-reinforced_watch-2026-09-03",
+    "at": "2026-09-03T01:08:53Z",
+    "level": "alert",
+    "title_es": "Cambio de nivel del observatorio",
+    "detail_es": "El nivel general pasa a VIGILANCIA REFORZADA. Existen incidencias o tensión apreciable, sin que ello implique por sí solo una interrupción del Estrecho. Parte de las fuentes necesita actualización, por lo que la lectura debe interpretarse con cautela.",
+    "href": "situacion-actual.html"
+  },
+  {
+    "key": "layer-border-ALTA-2026-09-03",
+    "at": "2026-09-03T01:08:53Z",
+    "level": "info",
+    "title_es": "Actualización: Ceuta y Melilla",
+    "detail_es": "El indicador editorial pasa a «ALTA».",
+    "href": "situacion-actual.html"
+  },
+  {
+    "key": "layer-bilateral-VIGILANCIA-2026-09-03",
+    "at": "2026-09-03T01:08:53Z",
+    "level": "info",
+    "title_es": "Actualización: España–Marruecos",
+    "detail_es": "El indicador editorial pasa a «VIGILANCIA».",
+    "href": "situacion-actual.html"
+  },
+  {
+    "key": "layer-security-VIGILANCIA REFORZADA-2026-09-03",
+    "at": "2026-09-03T01:08:53Z",
+    "level": "info",
+    "title_es": "Actualización: Seguridad",
+    "detail_es": "El indicador editorial pasa a «VIGILANCIA REFORZADA».",
+    "href": "situacion-actual.html"
+  },
+  {
     "key": "state-normal-2026-09-03",
     "at": "2026-09-02T22:41:35Z",
     "level": "info",

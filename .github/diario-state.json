@@ -3,7 +3,7 @@
   "latest_entry": {
     "date": "2026-09-03",
     "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
-    "summary": "Selección automática de 8 referencias de 7 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "summary": "Selección automática de 7 referencias de 7 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
     "url": "diario/2026-09-03.html",
     "material_archive": true,
     "status_snapshot": {
@@ -12,39 +12,38 @@
         "en": "OPERATIONAL"
       },
       "border_pressure": {
-        "es": "ALTA",
-        "en": "HIGH"
+        "es": "MEDIA",
+        "en": "MEDIUM"
       },
       "bilateral_tension": {
         "es": "ESTABLE",
         "en": "STABLE"
       },
       "security_status": {
-        "es": "VIGILANCIA REFORZADA",
-        "en": "REINFORCED MONITORING"
+        "es": "SIN ALERTA ESPECÍFICA",
+        "en": "NO SPECIFIC ALERT"
       }
     },
     "source_keys": [
+      "14e1ef4c63f40538d725",
+      "4478ad2457ebcaa68f79",
       "455640bddfdc2af8c7e5",
-      "5591aa9da1b8e4724c61",
-      "55c517254494979d55b5",
-      "ada2d5b533d00165e0fb",
-      "adf59ff77744b7a3e712",
-      "b83973c1bd4391af6e0a",
-      "e939febc1065114cb345",
-      "facbc825b1e5f0b671a4"
+      "8763d682ea4dfd98bd70",
+      "8c51eb9bfbea15d25ebd",
+      "8dd46b5a9b96975d79a9",
+      "ada2d5b533d00165e0fb"
     ],
     "published_at": "2026-09-03T07:52+02:00",
-    "updated_at": "2026-09-03T18:29+02:00",
+    "updated_at": "2026-09-03T21:53+02:00",
     "published_rfc822": "Thu, 03 Sep 2026 07:52:00 +0200",
-    "source_count": 8,
-    "fingerprint": "feaea00da1fd223d055a",
+    "source_count": 7,
+    "fingerprint": "6dab181ba32c31484f90",
     "mode": "full",
-    "significance": 79,
+    "significance": 77,
     "significance_reasons": [
       "actualidad repartida en tres o más ámbitos",
       "volumen informativo relevante",
-      "indicadores operativos o geopolíticos fuera de la normalidad"
+      "al menos una señal de prioridad alta"
     ],
     "indexable": false,
     "editor_engine": "rules",
@@ -55,7 +54,7 @@
     {
       "date": "2026-09-03",
       "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
-      "summary": "Selección automática de 8 referencias de 7 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+      "summary": "Selección automática de 7 referencias de 7 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
       "url": "diario/2026-09-03.html",
       "material_archive": true,
       "status_snapshot": {
@@ -64,39 +63,38 @@
           "en": "OPERATIONAL"
         },
         "border_pressure": {
-          "es": "ALTA",
-          "en": "HIGH"
+          "es": "MEDIA",
+          "en": "MEDIUM"
         },
         "bilateral_tension": {
           "es": "ESTABLE",
           "en": "STABLE"
         },
         "security_status": {
-          "es": "VIGILANCIA REFORZADA",
-          "en": "REINFORCED MONITORING"
+          "es": "SIN ALERTA ESPECÍFICA",
+          "en": "NO SPECIFIC ALERT"
         }
       },
       "source_keys": [
+        "14e1ef4c63f40538d725",
+        "4478ad2457ebcaa68f79",
         "455640bddfdc2af8c7e5",
-        "5591aa9da1b8e4724c61",
-        "55c517254494979d55b5",
-        "ada2d5b533d00165e0fb",
-        "adf59ff77744b7a3e712",
-        "b83973c1bd4391af6e0a",
-        "e939febc1065114cb345",
-        "facbc825b1e5f0b671a4"
+        "8763d682ea4dfd98bd70",
+        "8c51eb9bfbea15d25ebd",
+        "8dd46b5a9b96975d79a9",
+        "ada2d5b533d00165e0fb"
       ],
       "published_at": "2026-09-03T07:52+02:00",
-      "updated_at": "2026-09-03T18:29+02:00",
+      "updated_at": "2026-09-03T21:53+02:00",
       "published_rfc822": "Thu, 03 Sep 2026 07:52:00 +0200",
-      "source_count": 8,
-      "fingerprint": "feaea00da1fd223d055a",
+      "source_count": 7,
+      "fingerprint": "6dab181ba32c31484f90",
       "mode": "full",
-      "significance": 79,
+      "significance": 77,
       "significance_reasons": [
         "actualidad repartida en tres o más ámbitos",
         "volumen informativo relevante",
-        "indicadores operativos o geopolíticos fuera de la normalidad"
+        "al menos una señal de prioridad alta"
       ],
       "indexable": false,
       "editor_engine": "rules",

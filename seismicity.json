@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-09-04T01:01:36Z",
+  "checked_at": "2026-09-04T05:58:03Z",
   "source": "USGS Earthquake Catalog",
-  "source_query": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-08-05T01%3A01%3A36Z&endtime=2026-09-04T01%3A01%3A36Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
+  "source_query": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-08-05T05%3A58%3A03Z&endtime=2026-09-04T05%3A58%3A03Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
   "status": "OK",
   "data_note_es": "Actividad reciente con un evento máximo de magnitud 5.2. Consulta siempre la información oficial del IGN.",
   "data_note_en": "Recent activity includes a maximum magnitude 5.2 event. Always consult official seismic authorities.",
@@ -58,11 +58,11 @@
     },
     {
       "id": "us6000tkv2",
-      "time": "2026-08-14T23:04:40Z",
+      "time": "2026-08-14T23:04:41Z",
       "magnitude": 5.2,
-      "place": "1 km SW of Otura, Spain",
-      "longitude": -3.6486,
-      "latitude": 37.0789,
+      "place": "2 km W of Las Gabias, Spain",
+      "longitude": -3.6964,
+      "latitude": 37.136,
       "depth_km": 10.0,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkv2",
       "reviewed": true
@@ -79,5 +79,5 @@
       "reviewed": true
     }
   ],
-  "history_updated": true
+  "history_updated": false
 }

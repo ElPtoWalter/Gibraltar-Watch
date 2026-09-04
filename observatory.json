@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-03T22:38:06Z",
+  "generated_at": "2026-09-04T01:02:03Z",
   "state": {
     "code": "watch",
     "label_es": "VIGILANCIA",
@@ -34,7 +34,7 @@
   },
   "metrics": {
     "news_24h": 36,
-    "news_sources": 33,
+    "news_sources": 35,
     "seismic_24h": 0,
     "seismic_7d": 0,
     "seismic_30d": 5,
@@ -51,7 +51,7 @@
       "key": "news-volume",
       "level": "info",
       "title_es": "Volumen informativo superior al patrón reciente",
-      "detail_es": "Se detectan 36 referencias en 24 h frente a una mediana reciente de 16. Es una señal de atención, no una prueba de crisis."
+      "detail_es": "Se detectan 36 referencias en 24 h frente a una mediana reciente de 17. Es una señal de atención, no una prueba de crisis."
     }
   ],
   "changes": {
@@ -61,7 +61,7 @@
   },
   "health": {
     "overall": "stale",
-    "generated_at": "2026-09-03T22:38:06Z"
+    "generated_at": "2026-09-04T01:02:03Z"
   },
   "latest_diary": {
     "date": "2026-09-03",

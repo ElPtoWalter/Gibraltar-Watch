@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-04T11:24:22Z",
+  "generated_at": "2026-09-04T16:25:53Z",
   "state": {
     "code": "normal",
     "label_es": "NORMALIDAD OPERATIVA",
@@ -33,8 +33,8 @@
     }
   },
   "metrics": {
-    "news_24h": 33,
-    "news_sources": 34,
+    "news_24h": 18,
+    "news_sources": 30,
     "seismic_24h": 0,
     "seismic_7d": 0,
     "seismic_30d": 5,
@@ -46,14 +46,7 @@
     "diary_date": "2026-09-04",
     "diary_source_count": 7
   },
-  "anomalies": [
-    {
-      "key": "news-volume",
-      "level": "info",
-      "title_es": "Volumen informativo superior al patrón reciente",
-      "detail_es": "Se detectan 33 referencias en 24 h frente a una mediana reciente de 17. Es una señal de atención, no una prueba de crisis."
-    }
-  ],
+  "anomalies": [],
   "changes": {
     "state_changed": false,
     "previous_state_code": "normal",
@@ -61,19 +54,19 @@
   },
   "health": {
     "overall": "stale",
-    "generated_at": "2026-09-04T11:24:22Z"
+    "generated_at": "2026-09-04T16:25:53Z"
   },
   "latest_diary": {
     "date": "2026-09-04",
-    "headline": "España–Marruecos: qué aportan los titulares y qué falta comprobar",
-    "summary": "Selección automática de 7 referencias de 6 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
+    "summary": "Selección automática de 7 referencias de 5 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
     "published_at": "2026-09-04T07:58+02:00",
-    "updated_at": "2026-09-04T13:24+02:00",
+    "updated_at": "2026-09-04T18:25+02:00",
     "source_count": 7,
     "indexable": false,
-    "edition_label": "Cuaderno diplomático",
-    "edition_slug": "relations",
-    "fingerprint": "bd1fe7dacd29d2233a7b",
+    "edition_label": "Cuaderno de las dos orillas",
+    "edition_slug": "shores",
+    "fingerprint": "6c0c639aa9f763630e32",
     "date_label": "2026-09-04",
     "slug": "2026-09-04.html"
   },

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-07T16:30:45Z",
+  "generated_at": "2026-09-07T20:37:17Z",
   "state": {
     "code": "normal",
     "label_es": "NORMALIDAD OPERATIVA",
@@ -33,7 +33,7 @@
     }
   },
   "metrics": {
-    "news_24h": 16,
+    "news_24h": 19,
     "news_sources": 26,
     "seismic_24h": 0,
     "seismic_7d": 0,
@@ -44,7 +44,7 @@
     "ope_vehicles_day": 15464,
     "ope_rotations_day": 179,
     "diary_date": "2026-09-07",
-    "diary_source_count": 8
+    "diary_source_count": 9
   },
   "anomalies": [],
   "changes": {
@@ -54,19 +54,19 @@
   },
   "health": {
     "overall": "stale",
-    "generated_at": "2026-09-07T16:30:45Z"
+    "generated_at": "2026-09-07T20:37:17Z"
   },
   "latest_diary": {
     "date": "2026-09-07",
-    "headline": "España–Marruecos: qué aportan los titulares y qué falta comprobar",
-    "summary": "Selección automática de 8 referencias de 7 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
-    "published_at": "2026-09-07T18:30+02:00",
-    "updated_at": "2026-09-07T18:30+02:00",
-    "source_count": 8,
+    "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
+    "summary": "Selección automática de 9 referencias de 8 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "published_at": "2026-09-07T22:37+02:00",
+    "updated_at": "2026-09-07T22:37+02:00",
+    "source_count": 9,
     "indexable": false,
-    "edition_label": "Cuaderno diplomático",
-    "edition_slug": "relations",
-    "fingerprint": "24ecc63eae57485627ae",
+    "edition_label": "Cuaderno de las dos orillas",
+    "edition_slug": "shores",
+    "fingerprint": "3186b652a4f971ae67bb",
     "editor_engine": "rules",
     "editor_assistant_status": "no-key",
     "date_label": "2026-09-07",

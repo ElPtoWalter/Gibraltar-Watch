@@ -92,7 +92,7 @@
 
   function loadAdSense(client) {
     if (qs('meta[name="publisher-ads"][content="disabled"]')) return;
-    if (qs('script[data-gw-adsense]')) return;
+    if (qs('script[data-gw-adsense], script[src*="pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"]')) return;
     const script = document.createElement('script');
     script.async = true;
     script.crossOrigin = 'anonymous';

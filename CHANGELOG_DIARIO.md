@@ -9,6 +9,7 @@
 - RSS propio en `/diario/feed.xml`.
 - Actualización automática de portada y sitemap.
 - Redacción gratuita mediante reglas editoriales.
-- Redacción IA opcional mediante `OPENAI_API_KEY`, con fallback automático si falla.
+- El generador v1 queda limitado a reglas locales y no puede iniciar llamadas facturables.
+- La ruta mantenida (`generate_diario_estrecho.py`) admite una asistencia gratuita opcional con fallback y validación local.
 - Guardrails editoriales: no inventar hechos, no atribuir intenciones, no convertir rumores en hechos y no inferir cierres marítimos sin confirmación.
 - Instalador idempotente para menú, portada y pie de página.

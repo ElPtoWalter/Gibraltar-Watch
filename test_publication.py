@@ -7,10 +7,19 @@ from unittest.mock import patch
 import build_secure_public_site as build
 import generate_diario_estrecho as diary
 import update_observatory as observatory
+import validate_gibraltar as validator
 from datetime import datetime, timezone
 
 
 class PublicationTests(unittest.TestCase):
+    def test_current_non_archived_diary_can_be_newer_than_archive(self):
+        state = {
+            "latest_entry": {"date": "2026-09-07"},
+            "entries": [{"date": "2026-09-06"}, {"date": "2026-09-04"}],
+        }
+        self.assertTrue(validator.latest_date_is_consistent({"date": "2026-09-07"}, state))
+        self.assertFalse(validator.latest_date_is_consistent({"date": "2026-09-04"}, state))
+
     def test_recent_check_does_not_make_old_ope_report_fresh(self):
         now = datetime(2026, 9, 1, 12, tzinfo=timezone.utc)
         with patch.object(observatory, "NOW", now):
@@ -23,11 +32,14 @@ class PublicationTests(unittest.TestCase):
 
     def test_diary_metadata_tracks_current_editorial_engine(self):
         with tempfile.TemporaryDirectory() as folder, patch.object(diary, "ARCHIVE_DIR", Path(folder)):
-            entry = {"date": "2026-09-01", "headline": "La edición vigente", "summary": "Resumen", "source_count": 2}
+            entry = {"date": "2026-09-01", "headline": "La edición vigente", "summary": "Resumen", "source_count": 2, "editor_engine": "openrouter-free", "editor_assistant_status": "ok"}
             diary.sync_latest_metadata(entry)
             path = Path(folder) / "latest.json"
             content = path.read_text()
-            self.assertEqual(json.loads(content)["slug"], "2026-09-01.html")
+            metadata = json.loads(content)
+            self.assertEqual(metadata["slug"], "2026-09-01.html")
+            self.assertEqual(metadata["editor_engine"], "openrouter-free")
+            self.assertEqual(metadata["editor_assistant_status"], "ok")
             diary.sync_latest_metadata(entry)
             self.assertEqual(content, path.read_text())
 
@@ -55,9 +67,16 @@ class PublicationTests(unittest.TestCase):
         self.assertIn("python generate_newsletter.py", update)
         self.assertIn("python validate_gibraltar.py", update)
 
+    def test_public_source_pages_do_not_link_to_private_json(self):
+        root = Path(__file__).resolve().parent
+        strategy = (root / "install_gibraltar_strategy.py").read_text(encoding="utf-8")
+        llms = (root / "llms.txt").read_text(encoding="utf-8")
+        self.assertNotIn("geopolitics-sources.json", strategy)
+        self.assertNotIn("estrechogibraltar.com/geopolitics.json", llms)
+
     def test_no_paid_editorial_client_or_credentials(self):
         root = Path(__file__).resolve().parent
-        engine = (root / "generate_diario_estrecho.py").read_text()
+        engine = (root / "generate_diario_estrecho.py").read_text() + (root / "generate_diario.py").read_text()
         workflow = (root / ".github/workflows/update-gibraltar.yml").read_text()
         for forbidden in ("OPENAI_API_KEY", "DIARIO_AI", "from openai", "responses.parse"):
             self.assertNotIn(forbidden, engine + workflow)

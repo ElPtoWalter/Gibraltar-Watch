@@ -33,6 +33,15 @@ def load(path):
     try:return json.loads(read(path))
     except Exception as e:err(f'{path}: JSON inválido ({e})');return None
 
+def latest_date_is_consistent(latest, state):
+    latest_date = str((latest or {}).get('date') or '')
+    current_date = str(((state or {}).get('latest_entry') or {}).get('date') or '')
+    archived_dates = [str(entry.get('date') or '') for entry in (state or {}).get('entries', [])]
+    archived_dates = [date for date in archived_dates if date]
+    if current_date and latest_date != current_date:
+        return False
+    return not archived_dates or latest_date >= max(archived_dates)
+
 def validate_files():
     for rel in CRITICAL:
         p=ROOT/rel
@@ -105,8 +114,7 @@ def validate_html():
     elif slug:
         err(f'diario/latest.json: no existe la edición {slug}')
     state=load('.github/diario-state.json') or {}
-    dates=[entry.get('date','') for entry in state.get('entries',[])]
-    if dates and latest.get('date') != max(dates):
+    if not latest_date_is_consistent(latest, state):
         err('diario/latest.json: no corresponde a la edición más reciente')
 
 def validate_manifest():

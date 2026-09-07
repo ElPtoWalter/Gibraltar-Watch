@@ -5,7 +5,6 @@ import argparse
 import hashlib
 import html
 import json
-import os
 import re
 import sys
 import textwrap
@@ -83,7 +82,7 @@ def config() -> dict:
         "timezone": "Europe/Madrid", "publish_after_local_hour": 6,
         "lookback_hours": 36, "extended_lookback_hours": 72, "max_sources": 7,
         "full_article_min_sources": 3, "full_article_min_score": 18,
-        "ai_mode": "auto", "ai_model": "gpt-5.6-luna",
+        "ai_mode": "off",
         "site_name": "Gibraltar Watch", "section_name": "Diario del Estrecho",
         "base_url": "https://estrechogibraltar.com",
     }
@@ -285,45 +284,13 @@ def fallback_story(items: list[Item], status: dict, ope: dict, full: bool, local
 
 
 def ai_story(items: list[Item], status: dict, ope: dict, full: bool, local_now: datetime, cfg: dict) -> dict | None:
-    key = os.getenv("OPENAI_API_KEY", "").strip()
-    mode = str(cfg.get("ai_mode", "auto")).lower()
-    if mode == "off" or not key:
-        return None
-    try:
-        from openai import OpenAI
-        client = OpenAI(api_key=key)
-        context = {
-            "date_local": local_now.isoformat(), "article_type": "full" if full else "brief",
-            "status": status, "ope": ope, "sources": [asdict(x) for x in items],
-        }
-        instructions = """
-Eres la redacción de Gibraltar Watch, un observatorio independiente del Estrecho de Gibraltar. Redacta en español con tono periodístico sobrio, claro y humano, sin sonar a texto promocional ni a resumen de IA.
-REGLAS OBLIGATORIAS:
-- Usa exclusivamente los hechos presentes en el JSON de entrada. No añadas datos, cifras, causas, citas ni antecedentes no proporcionados.
-- Los títulos de noticias son señales de lo publicado por cada fuente: atribuye la información a la fuente cuando proceda y no conviertas el titular en una certeza más amplia.
-- Distingue hecho, declaración, interpretación y escenario. No atribuyas a Marruecos, España u otro actor intenciones no demostradas.
-- No afirmes cierre del Estrecho salvo que los datos de entrada lo confirmen explícitamente.
-- No copies frases largas de ninguna fuente; parafrasea.
-- Si hay poca novedad, escribe un parte breve y dilo con naturalidad.
-- Devuelve SOLO JSON válido, sin markdown.
-Estructura JSON: {"headline":"...","dek":"...","lead":"...","sections":[{"heading":"...","paragraphs":["...","..."]}],"watch":["..."],"summary":"..."}.
-Para artículo completo busca 650-900 palabras. Para parte breve 220-350 palabras. Incluye siempre una sección final "Qué significa" y una lista "watch" con 2-4 puntos concretos.
-""".strip()
-        response = client.responses.create(
-            model=os.getenv("GW_DIARY_OPENAI_MODEL", str(cfg.get("ai_model","gpt-5.6-luna"))),
-            reasoning={"effort":"low"},
-            instructions=instructions,
-            input=json.dumps(context, ensure_ascii=False),
-        )
-        raw = response.output_text.strip()
-        raw = re.sub(r"^```(?:json)?\s*|\s*```$", "", raw, flags=re.S)
-        obj = json.loads(raw)
-        if not all(k in obj for k in ("headline","dek","lead","sections","watch","summary")):
-            raise ValueError("JSON incompleto")
-        return obj
-    except Exception as exc:
-        print(f"Aviso: IA no disponible o respuesta inválida ({type(exc).__name__}: {exc}). Se usa redacción determinista.", file=sys.stderr)
-        return None
+    """The legacy generator remains deterministic and cannot trigger paid calls.
+
+    The maintained generator is ``generate_diario_estrecho.py``; its optional
+    free route has stricter attribution and numeric validation than this v1
+    format can provide.
+    """
+    return None
 
 
 def iso_local_date(local_now: datetime) -> str:
@@ -442,7 +409,7 @@ def generate(root: Path = ROOT, now: datetime | None = None, force=False, allow_
     full = source_count >= int(cfg["full_article_min_sources"]) and score >= int(cfg["full_article_min_score"])
     ope = ope_context()
     story = None if disable_ai else ai_story(selected, status, ope, full, local_now, cfg)
-    generator = "OpenAI + reglas editoriales" if story else "reglas editoriales deterministas"
+    generator = "asistencia externa" if story else "reglas editoriales deterministas"
     story = story or fallback_story(selected, status, ope, full, local_now)
     article_path.write_text(article_html(story, selected, status, ope, local_now, full, generator, cfg), encoding="utf-8")
     source_hash = hashlib.sha256(json.dumps([asdict(x) for x in selected],ensure_ascii=False,sort_keys=True).encode()).hexdigest()[:16]

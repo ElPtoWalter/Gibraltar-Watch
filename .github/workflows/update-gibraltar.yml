@@ -50,7 +50,7 @@ jobs:
         run: python -m unittest -v test_install_gibraltar_business.py
 
       - name: Ejecutar pruebas del Diario del Estrecho
-        run: python -m unittest -v test_generate_diario_estrecho.py test_install_diario_estrecho.py test_publication.py test_editorial_quality.py
+        run: python -m unittest -v test_generate_diario_estrecho.py test_free_editorial_ai.py test_install_diario_estrecho.py test_publication.py test_editorial_quality.py
 
       - name: Actualizar sismicidad
         run: python update_gibraltar.py
@@ -86,6 +86,9 @@ jobs:
         run: python install_diario_estrecho.py
 
       - name: Generar edición diaria del Estrecho
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          DIARIO_FREE_AI_MODEL: ${{ vars.DIARIO_FREE_AI_MODEL }}
         run: python generate_diario_estrecho.py
 
       - name: Actualizar lectura consolidada y salud pública

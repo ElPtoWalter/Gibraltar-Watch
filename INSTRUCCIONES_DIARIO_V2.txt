@@ -8,7 +8,7 @@ QUÉ HACE
 - Actualiza portada, hemeroteca, navegación por días, RSS y sitemap.
 - Un parte tranquilo sin fuentes nuevas se conserva en la hemeroteca, pero queda noindex y fuera del sitemap.
 - No necesita JSON público ni JavaScript para mostrar el diario en la portada.
-- Si hay OPENAI_API_KEY, puede mejorar la redacción. Si no existe o falla, publica con el motor local sin coste adicional.
+- Si hay OPENROUTER_API_KEY, puede pulir la redacción mediante una ruta gratuita. Si no existe, se agota la cuota o la salida no pasa la validación, publica el borrador local.
 
 SUBIDA RECOMENDADA
 1. Descomprime gibraltar-diario-v2-SOLO-CAMBIOS.zip.
@@ -19,24 +19,25 @@ SUBIDA RECOMENDADA
    https://estrechogibraltar.com/diario.html
    https://estrechogibraltar.com/
 
-OPCIONAL · REDACCIÓN CON MODELO
+OPCIONAL · REDACCIÓN GRATUITA
 GitHub > Settings > Secrets and variables > Actions > Secrets > New repository secret
-Nombre: OPENAI_API_KEY
-Valor: tu clave de API.
+Nombre: OPENROUTER_API_KEY
+Valor: una clave creada en https://openrouter.ai/keys para este repositorio.
 
 Variable opcional:
 Settings > Secrets and variables > Actions > Variables > New repository variable
-Nombre: DIARIO_AI_MODEL
-Valor recomendado incluido por defecto en el código: gpt-5.6-terra
+Nombre: DIARIO_FREE_AI_MODEL
+Valor recomendado: openrouter/free
 
-Si no configuras OPENAI_API_KEY no pasa nada: el Diario sigue funcionando con reglas y plantillas.
+El código rechaza cualquier nombre de modelo que no sea openrouter/free o termine en :free. No hay reintentos ni cambio automático a un modelo de pago. Si no configuras la clave, el Diario sigue funcionando con reglas y plantillas.
 
 COMPORTAMIENTO EDITORIAL
-- El modelo NO busca noticias por su cuenta.
-- El modelo NO decide qué noticias entran ni si el día es importante.
+- La asistencia externa NO busca noticias por su cuenta.
+- La asistencia externa NO decide qué noticias entran ni si el día es importante.
 - El motor selecciona/deduplica primero las fuentes y limita dominios/categorías.
-- Solo después, de forma opcional, se redacta la pieza sobre ese paquete factual cerrado.
-- Si la salida del modelo no es válida o el servicio no responde, se utiliza el fallback local.
+- Solo después, de forma opcional y con al menos dos fuentes independientes, se propone una redacción sobre ese paquete factual cerrado.
+- La respuesta debe conservar las secciones, mencionar fuentes admitidas y no puede introducir cifras nuevas.
+- Si la salida no es válida o el servicio no responde, se utiliza el fallback local completo.
 
 MIGRACIÓN DESDE LA V1
 Si el repositorio conserva diario-index.json / diario-latest.json / diario.js, el generador puede importar la hemeroteca anterior al nuevo estado interno y después retira esos assets públicos obsoletos. El estado editorial pasa a .github/diario-state.json.

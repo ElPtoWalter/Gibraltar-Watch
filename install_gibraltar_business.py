@@ -17,6 +17,21 @@ ASSETS = (
     f'<script defer src="gw-business.js?v={VERSION}"></script>\n'
 )
 
+LEGAL_COPY = {
+    "En esta versión no instala herramientas de analítica propia ni cookies publicitarias.":
+        "No instala analítica propia. El código base de AdSense puede cargarse para verificar el sitio; las ubicaciones manuales permanecen desactivadas hasta contar con aprobación y consentimiento adecuado.",
+    "This version installs no first-party analytics or advertising cookies.":
+        "It installs no first-party analytics. The base AdSense code may load to verify the site; manual placements remain disabled until approval and an appropriate consent setup are in place.",
+    "<h2>Publicidad o analítica futuras</h2><p>Antes de incorporar publicidad o analítica que requieran consentimiento se añadirá un sistema adecuado para los visitantes del Espacio Económico Europeo y se actualizará esta política.</p>":
+        "<h2>Publicidad y consentimiento</h2><p>Antes de servir anuncios que requieran consentimiento se configurará una plataforma certificada para los visitantes del Espacio Económico Europeo, Reino Unido y Suiza, y se mantendrá actualizada esta política.</p>",
+    "<h2>Future advertising or analytics</h2><p>Before adding advertising or analytics that require consent, an appropriate mechanism will be introduced for European Economic Area visitors and this policy will be updated.</p>":
+        "<h2>Advertising and consent</h2><p>Before serving ads that require consent, a certified platform will be configured for visitors in the European Economic Area, the United Kingdom and Switzerland, and this policy will be kept up to date.</p>",
+    "La infraestructura de anuncios permanece desactivada hasta introducir un identificador real y configurar el consentimiento correspondiente.":
+        "El identificador de editor está configurado, pero las ubicaciones manuales permanecen desactivadas hasta que AdSense apruebe el sitio y se configure el consentimiento correspondiente.",
+    "Advertising infrastructure remains disabled until a real publisher identifier is entered and the appropriate consent setup is configured.":
+        "The publisher identifier is configured, but manual placements remain disabled until AdSense approves the site and the appropriate consent setup is configured.",
+}
+
 
 def remove_block(text: str, start: str, end: str) -> str:
     pattern = (
@@ -71,6 +86,8 @@ def patch_base(path: Path) -> str:
 
 
 def patch_content(path: Path, text: str) -> str:
+    for old, new in LEGAL_COPY.items():
+        text = text.replace(old, new)
     name = path.name
     if name in {'index.html', 'en.html'}:
         text = remove_block(text, '<!-- GW_BUSINESS_HOME_START -->', '<!-- GW_BUSINESS_HOME_END -->')

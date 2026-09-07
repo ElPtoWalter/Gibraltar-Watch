@@ -1,7 +1,7 @@
 window.GW_BUSINESS_CONFIG = {
   adsense: {
     enabled: false,
-    client: "",
+    client: "ca-pub-1713078636060241",
     slots: {
       home_mid: "",
       article_mid: "",

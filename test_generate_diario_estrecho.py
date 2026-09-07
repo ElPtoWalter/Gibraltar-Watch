@@ -79,9 +79,20 @@ class DiaryTests(unittest.TestCase):
         self.assertNotIn('sistema editorial automatizado', html)
 
     def test_build_draft_uses_only_the_local_editorial_engine(self):
-        draft, engine = g.build_draft({}, [], 'brief')
+        draft, engine, status = g.build_draft({}, [], 'brief')
         self.assertEqual(engine, 'rules')
+        self.assertEqual(status, 'insufficient-sources')
         self.assertTrue(draft['headline'])
+
+    def test_build_draft_falls_back_when_the_optional_key_is_absent(self):
+        selected = [
+            self.item('Algeciras publica una novedad portuaria', 'ports', 4, 'puerto.es'),
+            self.item('El corredor mantiene otra señal marítima', 'traffic', 4, 'agencia.es'),
+        ]
+        with patch.dict(os.environ, {'OPENROUTER_API_KEY': ''}):
+            draft, engine, status = g.build_draft({}, selected, 'brief')
+        self.assertEqual((engine, status), ('rules', 'no-key'))
+        self.assertTrue(draft['sections'])
 
     def test_editorial_profile_uses_archive_without_confusing_it_with_traffic(self):
         items = [self.item('Algeciras publica una novedad portuaria', 'ports', 4, 'puerto.es')]

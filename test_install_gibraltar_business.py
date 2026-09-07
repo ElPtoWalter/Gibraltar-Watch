@@ -6,6 +6,27 @@ import install_gibraltar_business as installer
 
 
 class TestBusinessInstaller(unittest.TestCase):
+    def test_adsense_identity_is_ready_without_enabling_empty_slots(self):
+        root = Path(__file__).resolve().parent
+        config = (root / "gw-monetization-config.js").read_text(encoding="utf-8")
+        business = (root / "gw-business.js").read_text(encoding="utf-8")
+        ads_txt = (root / "ads.txt").read_text(encoding="utf-8")
+        archive = (root / "generate_diario_estrecho.py").read_text(encoding="utf-8")
+
+        self.assertIn('client: "ca-pub-1713078636060241"', config)
+        self.assertIn("enabled: false", config)
+        self.assertIn("pub-1713078636060241", ads_txt)
+        self.assertIn('script[src*="pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"]', business)
+        self.assertNotIn('pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=', archive)
+
+    def test_legal_copy_matches_the_prepared_but_inactive_state(self):
+        root = Path(__file__).resolve().parent
+        privacy = (root / "privacidad.html").read_text(encoding="utf-8")
+        cookies = (root / "cookies.html").read_text(encoding="utf-8")
+        self.assertIn("El código base de AdSense puede cargarse para verificar el sitio", privacy)
+        self.assertIn("El identificador de editor está configurado", cookies)
+        self.assertNotIn("hasta introducir un identificador real", cookies)
+
     def test_assets_are_exactly_idempotent_and_old_fix_is_removed(self):
         with tempfile.TemporaryDirectory() as td:
             p = Path(td) / 'sample.html'

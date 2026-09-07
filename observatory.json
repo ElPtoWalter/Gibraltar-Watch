@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-07T04:49:13Z",
+  "generated_at": "2026-09-07T16:30:45Z",
   "state": {
     "code": "normal",
     "label_es": "NORMALIDAD OPERATIVA",
@@ -33,8 +33,8 @@
     }
   },
   "metrics": {
-    "news_24h": 8,
-    "news_sources": 30,
+    "news_24h": 16,
+    "news_sources": 26,
     "seismic_24h": 0,
     "seismic_7d": 0,
     "seismic_30d": 5,
@@ -43,8 +43,8 @@
     "ope_passengers_day": 59877,
     "ope_vehicles_day": 15464,
     "ope_rotations_day": 179,
-    "diary_date": "2026-09-06",
-    "diary_source_count": 6
+    "diary_date": "2026-09-07",
+    "diary_source_count": 8
   },
   "anomalies": [],
   "changes": {
@@ -54,21 +54,23 @@
   },
   "health": {
     "overall": "stale",
-    "generated_at": "2026-09-07T04:49:13Z"
+    "generated_at": "2026-09-07T16:30:45Z"
   },
   "latest_diary": {
-    "date": "2026-09-06",
-    "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
-    "summary": "Selección automática de 6 referencias de 6 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
-    "published_at": "2026-09-06T11:29+02:00",
-    "updated_at": "2026-09-06T21:15+02:00",
-    "source_count": 6,
+    "date": "2026-09-07",
+    "headline": "España–Marruecos: qué aportan los titulares y qué falta comprobar",
+    "summary": "Selección automática de 8 referencias de 7 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "published_at": "2026-09-07T18:30+02:00",
+    "updated_at": "2026-09-07T18:30+02:00",
+    "source_count": 8,
     "indexable": false,
-    "edition_label": "Cuaderno de las dos orillas",
-    "edition_slug": "shores",
-    "fingerprint": "5589a31598aa51113afa",
-    "date_label": "2026-09-06",
-    "slug": "2026-09-06.html"
+    "edition_label": "Cuaderno diplomático",
+    "edition_slug": "relations",
+    "fingerprint": "24ecc63eae57485627ae",
+    "editor_engine": "rules",
+    "editor_assistant_status": "no-key",
+    "date_label": "2026-09-07",
+    "slug": "actual.html"
   },
   "latest_ope": {
     "report_date": "2026-08-15",

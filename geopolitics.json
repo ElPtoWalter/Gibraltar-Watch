@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-09T19:49:14.606260+00:00",
+  "generated_at": "2026-09-09T22:35:50.405871+00:00",
   "language_default": "es",
   "status": {
     "maritime_status": {
@@ -12,12 +12,12 @@
       "en": "The corridor remains open; official notices remain authoritative."
     },
     "border_pressure": {
-      "es": "BAJA / SIN SEÑALES RECIENTES",
-      "en": "LOW / NO RECENT SIGNALS"
+      "es": "MEDIA",
+      "en": "MEDIUM"
     },
     "border_note": {
-      "es": "No aparecen señales recientes suficientes para elevar el nivel.",
-      "en": "There are not enough recent signals to raise the level."
+      "es": "Existen intentos o presión fronteriza recientes.",
+      "en": "Recent attempts or border pressure are being reported."
     },
     "bilateral_tension": {
       "es": "ESTABLE",
@@ -42,13 +42,31 @@
   },
   "items": [
     {
-      "title": "Spain's intelligence agency issued several warnings about plans to breach border before Ceuta crisis",
-      "source": "winnipegfreepress.com",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQWGFTbWw2bVE3alVaMlUyMHhhMnZtSkktRkJpMmRiX1hwZmFlcmtPUlUxVXEtaUJzR0RZMUpsNTBIRDBLbzZ0N2g1bU5nX3BuSnplcU1NWjR4bDFCemJYa19uSlBJelVqRWdkZjBFcDJ3UTVlaVpqaURxOTNLbmEyNEZVQTVJNUFacXdUMGNUc0Mzal9zOGRsN3pXNG9zakpLM1VpNzd4dVBhbFhSUHdaMlgxUmhRQm1mZmZEa25kV1RVcmpJdnNKSmpEbm43R1VyZGU5Y0V3Rzd2NjhLR2ExUVlPUjI?oc=5",
-      "published_at": "2026-09-09T19:12:10+00:00",
+      "title": "Spain's spy agency warned of Ceuta border breach plans before crisis, declassified files show",
+      "source": "The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOWEdTSExYM1RfM3dZcTRCS2FYWmxZMEo3VEVDZFBJNEpzREM3NEZCR0VzdW1rcU5mM1JOQ21MNTBjUGlmVlJ2WlBzRnB2OF9xSjlyV0x2ZDg4NjhkTHhfZXRJNUFxMlJ3MTFDUkNVTVU2dVpVRkVwRGlmcndtODBFYURPOW5HVXBMOVd1bW9pVmROcXhyZFNuUW5zZ3p5YXVDcDEyVE5rV3lmcnV6alNfdTJ0RHVjOHRRVTJzWjJiemdxLU13c252bkxXVDVKTDBlNDV6TlpwWGt2WVhGanhZX2tB?oc=5",
+      "published_at": "2026-09-09T22:19:44+00:00",
       "category": "ceuta",
       "language": "en",
       "weight": 2
+    },
+    {
+      "title": "Crisis migratoria en Ceuta: una frontera en manos de Marruecos",
+      "source": "elliberal.cat",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOaGdXMllWY3NjbGdPXzJsN0xXTlpvdW8yd2tja1lvWU10WDFheXppSm9ua2d4a0s1X0lxUE1May1hM090OTlNbEdsWkVDeUw1OW1IQmlfZlJ5TFgtaEtrcC1nbHJDa2VYTnJiSHJjWVpPbU92d0N2QkFHRF8xcUwxcnd6Q2Q1NEE?oc=5",
+      "published_at": "2026-09-09T20:49:40+00:00",
+      "category": "ceuta",
+      "language": "es",
+      "weight": 2
+    },
+    {
+      "title": "Spain's intelligence agency issued several warnings about plans to breach border before Ceuta crisis",
+      "source": "AP News",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSG1xalNRRklfcmVZRHBKMkNFMFhJcEh2TnpuM0Y2Zi00THByM0czUU5JMzB3ODJMdDFnQlMtcEM2eUNzVnFKdlhGaWsyVER6cmV3Uk5rb3g5SXNocUZ1bEdxV254aGRjX3pHV3RtdUo3bjVhVUxNR1RVMTA1RkVFR0lwR01yQWlnTjNPd3A1SUZpUnFuN0tNRDltR1JtclpGbENQRzV2a3JTSzZESkdzdWpR?oc=5",
+      "published_at": "2026-09-09T19:10:00+00:00",
+      "category": "ceuta",
+      "language": "en",
+      "weight": 5
     },
     {
       "title": "Spain Declassifies Warning to Morocco About Migrant Crossing Plans",
@@ -57,15 +75,6 @@
       "published_at": "2026-09-09T18:56:11+00:00",
       "category": "ceuta",
       "language": "en",
-      "weight": 2
-    },
-    {
-      "title": "Última hora de la crisis en Ceuta | La Guardia Civil señaló de \"extrema gravedad\" un aumento del \"837%\" de las entradas a Ceuta en julio antes de la masiva",
-      "source": "LaSexta",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPU2tsaDZmYjFhbFpHc1NEbktNdEJMMVlheU9hTXFhMUNFWFdvYkJ0Y24wMklvcDNGV1lOdUluMjZ6dW5HLWx2ZEdJTHlIak5YbHlYZFdfODNiZ2tSaFdFMzZqVW5pd2J6VzlwMkNNYnpOS3RCZ1dESC1ianQ0OGJwYXlLQnFoRno3R2ZqQ1FTaFJzT1ZSNmtjeTJHZGVzQXl1SC1nS0ZfYlPSAagBQVVfeXFMTzlOdEtHMnUwajVJeEJDUWp5OFJzdDlNeGxaa19ab3dGeklYTHNvcDNGLXA1NUdHUGNZTGNKSm9ubTMtWXlCTU5mejlUd3k5LVlqZmJCVkJjd3NTekhmdDYwZnEwVHA2MGR2dlktTDYyX0RHanp3bnV1SUN0QTVrNGFST1lZUXB4OEtfNkpCeGUybTBLX3BDOWtCZDVGSXdHRkJCTnFVTUdF?oc=5",
-      "published_at": "2026-09-09T18:39:34+00:00",
-      "category": "ceuta",
-      "language": "es",
       "weight": 2
     },
     {
@@ -79,7 +88,7 @@
     },
     {
       "title": "The military intelligence saw Morocco as \"negligent and passive\" and warned that it \"will try to exploit\" the crisis in Ceuta.",
-      "source": "Demócrata",
+      "source": "democrata.es",
       "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNX3dVcFhkcWFOVFVpYVdsTDl3QjQ3SHl1MkstSXNiSDFwSjN5bGVpcHhnc2lDLXhVNWFPNWZmbU1BRUVucmdlemUtNElGWVNxdlJNR2hSY3NnMmZzTXVWdm03dEhhdndSNEdsYXRId2RIQWl6ejhwRDh6enQ0eW1lLWhmdHFJbm5UZ1RsSTBOOWdwVndOOXhrV1NKUUJPQmtZWWpucElpRWpVZ2VDQ1RlU1VoVUhJdENNeXdOSGU1djFON3c1ZlRzb3dodWJhbzhicFVZRVlweVo5ejVWNHdBbWFfR3pKUWhTcFp3NFU0NTjSAfYBQVVfeXFMT2MzNGlZWTRwajRJVHVDMEVQU2hIZ015QmloOXFfQ3g5b0JySG5Hd1R5d0JaSzJwajhKR1ZhTlpTS0Qtb0JfT1NKUnE4bmZvQS1rTHFLNUxRR3AzWFczak4wVzhHS2VOeXVKd1hvV1JEUVF3SWhUdEdBSHdLek9nazV3Q2ZxWVA5X3ctYjlUbHdHakdudzlkQXM5THJrVVRxVmRaVi1jTkl1YzdjTUdEMjNCa2RrcFdLTHFqVWlFejdfTUJpMXVtV1FvU2ctLTJHcFJYazZmaDNRSXloT3ZoV3NGQjYzSFNaZUphVHFDVnVKOVcxLWd3?oc=5",
       "published_at": "2026-09-09T17:22:39+00:00",
       "category": "ceuta",
@@ -88,7 +97,7 @@
     },
     {
       "title": "From Chronicle to Hostility: Dismantling the Moroccan Complex of ‘Abdel Haq Vázquez’ or Ignacio Cembrero",
-      "source": "moroccoworldnews.com",
+      "source": "Morocco World News",
       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNTmZiTTVTblNYTVZzaWwzdDdFeHNoSmxhaEdCQmwyaWJxWUhiWjJVMmNoMTg2c0RUZXdkb3BIT3lvOTFjU194UkstTEg0REpTR1hEU2txdXI1Nzk1cVBTS0F2VW45T0swbElJaXdCcGRkd2pOTHFGZzAyYVg1VTBWOFV4Z0RGa0hYb3Z2cHF1cUh3WW85dWtsMEVNSDFPTDVpYTJGaDFObTA3WGp1N1hOM3JVTlZhTFc3U3pudHpKQ25IMHVjeDZqXzVYNUlHakdXSFp6eXJmQ1FXRTBjb0FVZlJva3M?oc=5",
       "published_at": "2026-09-09T17:09:38+00:00",
       "category": "ceuta",
@@ -115,7 +124,7 @@
     },
     {
       "title": "Ex-Spain Intelligence Chief Urges Turkiye-Style EU Funding for Morocco on Migration",
-      "source": "moroccoworldnews.com",
+      "source": "Morocco World News",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdndXSm9ZUWFyUXFWMEwySTB4VGRKNklOWVFFaTdBczd2VlBmVDlLQ1RQeWJPR0dlTEpKSDlqVFVobExPZHBtbzF1QW1rNUNaSTVTSG5mcERTRkJQcUJieDk1UHVNV0F1MzQ2V3JMSnItNjJiWTI1eVRIQ0ZSMFh1VVN3NlNTOFNSUE1RYTFfTHhrTDNHczI3MjFCRzJuQzdNeUpCUUd6S2ZaR0Z4N2RzUHVMa1FuN2ZxZGljSjlLa1czYUNNRXB6X1VNLVQ?oc=5",
       "published_at": "2026-09-09T15:31:01+00:00",
       "category": "ceuta",
@@ -133,7 +142,7 @@
     },
     {
       "title": "Ceuta mayor urges EU to take firmer stance towards Morocco - Over migrant crisis",
-      "source": "caliber.az",
+      "source": "Caliber.Az",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcjRGcGNJd0M3U2NTV2YzVHVMTlpfRmdVUzQ4UkdJOERfVldrUjlyM1NCdlprelFtYW9CeWdiSmdnUlotNEVNTktFTVc5UlRkZ2NsMHEzVGt6VzlrN3ZyN3AxVjgzbm5PUUtCa3Y2TjdnUTBtZnBPc3FjLTlUYk5KVFptX2hNaU04WmlCdGFB?oc=5",
       "published_at": "2026-09-09T06:31:27+00:00",
       "category": "ceuta",
@@ -151,7 +160,7 @@
     },
     {
       "title": "The Spanish Navy is monitoring a Russian military vessel in the Strait of Gibraltar.",
-      "source": "Demócrata",
+      "source": "democrata.es",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNS0ZBVXNZSWVNYmlDU1VLVDRfVkU4NXJqbGV6S3JSOXlib2l2QW4tLTNnRGZFX0lidk0zRGlzZjEwN3pFNXRDb245bmd4ZHBjWU1ZM1YzeWFpUUtVeGVrVjN3ZGdOQU00ZjAyaE9nZnhZR05HME92SGJBTzhUYjR4VjhKTTMxRnF0RGQwVXphTk5LUzd4NG81eVpzWXA1TjdfZzVkX1QtN1FIMl9HZnNGYmh2bWE4ZG9wSjFaeXBtNklsQnR2YUHSAcsBQVVfeXFMUGlwZHRkcTZ5Rmh6anFyUVpNVG5oUmtfUHBUNldFSlRUenZNM045VzlxMGlFYkw1cVpTY3hOeWNnUlhwTVFpUlVITGNlLVM2d1VCc1RyYzVCM1VQVk1FMUhpWkUtUERRcWJJYUoxbGhHMHRJX2RPXzdCczRLdy1oempBOFUwRTdfN3ZvTEhkRUxaMzJWYVRBSXoyaUQ0RWc1WTN5SWFmdW82dDNTVVZZSDVsalBNTklCdmlKdk5tRE4yc2FUTHp0bkYxcms?oc=5",
       "published_at": "2026-09-08T14:17:01+00:00",
       "category": "traffic",
@@ -205,7 +214,7 @@
     },
     {
       "title": "Albares Warns Moroccan Ceuta, Melilla Claims Could Strain Spain-Morocco Ties",
-      "source": "moroccoworldnews.com",
+      "source": "Morocco World News",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbkR4RmpzMlZVY0hNdFR0T2VXYXZ6VnJUVzY2Rk96eVpUaHcycHlGWHdHeHM5WXlNQm9JREZaUkhUTjlJWUFSWlp2cWhOdGsxbTU4Nlg2Q3BjT21Yak5QQWxJUGgzUlplRGlfVnV2S2VveU5zZTNZRktqUkVfbjQ1aEtXbTNpZ3B4RGpoZFFPeEdpd2NFeXIwRFlIaFFUUVU2WEtWeXdsbXJ2QVpGbWVWN2g0a1hBZFZScV9uZHEyZjUyUQ?oc=5",
       "published_at": "2026-09-08T10:25:33+00:00",
       "category": "relations",
@@ -232,7 +241,7 @@
     },
     {
       "title": "El papel de la justicia en la crisis de Ceuta",
-      "source": "es.ara.cat",
+      "source": "Diari ARA",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5SVXBSbW03dVNaaklBTUtnSU4tTmJET1M2YVBKWWFLQTFPQm9vRld6eWdNc1RIcmg0MHdlZklSRUt6UXNkYWgxemVYdlFGaTZ2b3Y4LW9uV3laWDhFQlpQdjd2LTFkUC10NDIxdFdyVGNCWlVaRmtFdXhSUlRsZ9IBgwFBVV95cUxPX3JuU215eC1fZ3MxaV9CRlE2SGZnbjFaX1A3ZzZIU1JnQ2xkcUtHWEVlRDBHRW8tM09yZVQ5ckxzQzdyUGF5Y0ctVFB2Tk5pVHNjYzQ4LXpUSjBxUTRsWTJEeXdNUjRmVjVQQUNud3ZwT256VUVuYzd5UkUxRzZGRWIwaw?oc=5",
       "published_at": "2026-09-08T07:27:16+00:00",
       "category": "ceuta",
@@ -259,7 +268,7 @@
     },
     {
       "title": "Spain Identifies 2,000 Minors Who Entered Ceuta During July Border Crisis",
-      "source": "moroccoworldnews.com",
+      "source": "Morocco World News",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZFozYlREUkQxVWlEVzhqT0NhSTY3V2c5eHpHbUZyNjhUemxUTW14SUlHSUp1NDRDQUxLVXMzWURZRW1sSTlTbUV3LThoZEZmaFVoNHhMLTNDcDZyOVRTQ3hTZlNTT3pQUXFWSmRyQ2I1NkxJQTJrcVB0MnZIUUl3cElGUGpoYnlwaEdlN2QtS21wQldnRmtnUXJ5V1ZNWDhTaWRJcW9KZF9qQXJiRlFWZ05WSklIU2JveS1JZnB3?oc=5",
       "published_at": "2026-09-07T19:16:41+00:00",
       "category": "ceuta",
@@ -304,7 +313,7 @@
     },
     {
       "title": "Nearly 90% of Spaniards Blame Morocco for Ceuta Migration Crisis, Poll Finds",
-      "source": "moroccoworldnews.com",
+      "source": "Morocco World News",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQV0lDZGRFTzdrUkIyazVkemVTaWdFSG4ycnNjdTFOTXMwVjVqRGxwVnlqNW4wSmFxYUNoa2NFU3Z4RndyU1o3NXdBeFFmOGtnS1I2eHE3cldyMFA4Zi12WndoQWIyLWM3dUdibGhia3B0ZWNRZlE1LUJkYXRVajFjX3JxWjk3TE1BYnFQREdLNWltbERZa1o2UTVpQVRpSTE5c20tNkpXdVRmZFZsQzRDeDZNTU5CdDB2NXJGelNha1A?oc=5",
       "published_at": "2026-09-07T15:56:37+00:00",
       "category": "ceuta",
@@ -352,15 +361,6 @@
       "source": "Yabiladi.com",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZzJDSEo3QXJleE01aU9ybE1rMHR4M0J6WVNsSGJuMG82QVdtUlZ2Y2hEMWJDTklYVXdQVVFWeGQzY2R6NTM0YTVPUlU1end1U2xWZEUyYjVueUFOZXQtd3IzRGwzZHhxem1NcWRXV0dYeW9vaU1xZXo5LXRYbWFKcm1qbEo1eXdLSDg3R0NHbTNUQk14bkE?oc=5",
       "published_at": "2026-09-07T11:23:58+00:00",
-      "category": "ceuta",
-      "language": "en",
-      "weight": 2
-    },
-    {
-      "title": "Ceuta on high alert over new mass border march from Morocco",
-      "source": "Olive Press News Spain",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9wU01ubS0waGkzNm82OHhaOHIzTVI3N1B3SVdkS3F3TjFwNG0yX3JObUxjaWVGUklWOTJoQkVTUVRhZDZSZEIwQ1lPc3F0dDJSSkM4NUJyQ0xMXzBqRlJRWjZpMUFiZUxCUHVWSU4tQkxhUjBtR1JBTVRMNjRoWTg?oc=5",
-      "published_at": "2026-09-07T11:21:00+00:00",
       "category": "ceuta",
       "language": "en",
       "weight": 2

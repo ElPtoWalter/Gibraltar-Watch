@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-09-09T16:42:28Z",
+  "checked_at": "2026-09-09T19:48:53Z",
   "source": "USGS Earthquake Catalog",
-  "source_query": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-08-10T16%3A42%3A28Z&endtime=2026-09-09T16%3A42%3A28Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
+  "source_query": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-08-10T19%3A48%3A53Z&endtime=2026-09-09T19%3A48%3A53Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
   "status": "OK",
   "data_note_es": "Actividad reciente con un evento máximo de magnitud 5.2. Consulta siempre la información oficial del IGN.",
   "data_note_en": "Recent activity includes a maximum magnitude 5.2 event. Always consult official seismic authorities.",
@@ -14,10 +14,10 @@
   "last_event": {
     "id": "us6000tlmq",
     "time": "2026-08-18T10:39:43Z",
-    "magnitude": 4.7,
+    "magnitude": 4.4,
     "place": "1 km WSW of Alhendín, Spain",
-    "longitude": -3.6598,
-    "latitude": 37.1061,
+    "longitude": -3.6657,
+    "latitude": 37.1044,
     "depth_km": 10.0,
     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlmq",
     "reviewed": true
@@ -26,10 +26,10 @@
     {
       "id": "us6000tlmq",
       "time": "2026-08-18T10:39:43Z",
-      "magnitude": 4.7,
+      "magnitude": 4.4,
       "place": "1 km WSW of Alhendín, Spain",
-      "longitude": -3.6598,
-      "latitude": 37.1061,
+      "longitude": -3.6657,
+      "latitude": 37.1044,
       "depth_km": 10.0,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlmq",
       "reviewed": true
@@ -38,9 +38,9 @@
       "id": "us6000tlmc",
       "time": "2026-08-18T09:34:37Z",
       "magnitude": 4.6,
-      "place": "5 km ENE of Escúzar, Spain",
-      "longitude": -3.7084,
-      "latitude": 37.0875,
+      "place": "4 km NE of Escúzar, Spain",
+      "longitude": -3.7294,
+      "latitude": 37.098,
       "depth_km": 10.0,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tlmc",
       "reviewed": true

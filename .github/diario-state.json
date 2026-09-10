@@ -3,7 +3,7 @@
   "latest_entry": {
     "date": "2026-09-10",
     "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
-    "summary": "Selección automática de 6 referencias de 6 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "summary": "Selección automática de 7 referencias de 7 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
     "url": "diario/2026-09-10.html",
     "material_archive": true,
     "status_snapshot": {
@@ -12,8 +12,8 @@
         "en": "OPERATIONAL"
       },
       "border_pressure": {
-        "es": "BAJA / SIN SEÑALES RECIENTES",
-        "en": "LOW / NO RECENT SIGNALS"
+        "es": "MEDIA",
+        "en": "MEDIUM"
       },
       "bilateral_tension": {
         "es": "ESTABLE",
@@ -29,19 +29,21 @@
       "4080b7c4b6ced9066051",
       "8e63b4a5f0759323b0e6",
       "91e04665c3c704822885",
-      "c628eace590febeddecb",
-      "ff6b9323bbed024bdeeb"
+      "982e284bcb53d2beeb46",
+      "a38468f00096c6622ef1",
+      "cb345e7dea38ca1a7be1"
     ],
     "published_at": "2026-09-10T08:01+02:00",
-    "updated_at": "2026-09-10T13:26+02:00",
+    "updated_at": "2026-09-10T18:28+02:00",
     "published_rfc822": "Thu, 10 Sep 2026 08:01:00 +0200",
-    "source_count": 6,
-    "fingerprint": "ffcb9ae55d2a45a104e7",
+    "source_count": 7,
+    "fingerprint": "393922e804ed5d97c256",
     "mode": "full",
-    "significance": 63,
+    "significance": 70,
     "significance_reasons": [
       "actualidad repartida en tres o más ámbitos",
-      "volumen informativo relevante"
+      "volumen informativo relevante",
+      "al menos una señal de prioridad alta"
     ],
     "indexable": false,
     "editor_engine": "rules",
@@ -53,7 +55,7 @@
     {
       "date": "2026-09-10",
       "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
-      "summary": "Selección automática de 6 referencias de 6 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+      "summary": "Selección automática de 7 referencias de 7 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
       "url": "diario/2026-09-10.html",
       "material_archive": true,
       "status_snapshot": {
@@ -62,8 +64,8 @@
           "en": "OPERATIONAL"
         },
         "border_pressure": {
-          "es": "BAJA / SIN SEÑALES RECIENTES",
-          "en": "LOW / NO RECENT SIGNALS"
+          "es": "MEDIA",
+          "en": "MEDIUM"
         },
         "bilateral_tension": {
           "es": "ESTABLE",
@@ -79,19 +81,21 @@
         "4080b7c4b6ced9066051",
         "8e63b4a5f0759323b0e6",
         "91e04665c3c704822885",
-        "c628eace590febeddecb",
-        "ff6b9323bbed024bdeeb"
+        "982e284bcb53d2beeb46",
+        "a38468f00096c6622ef1",
+        "cb345e7dea38ca1a7be1"
       ],
       "published_at": "2026-09-10T08:01+02:00",
-      "updated_at": "2026-09-10T13:26+02:00",
+      "updated_at": "2026-09-10T18:28+02:00",
       "published_rfc822": "Thu, 10 Sep 2026 08:01:00 +0200",
-      "source_count": 6,
-      "fingerprint": "ffcb9ae55d2a45a104e7",
+      "source_count": 7,
+      "fingerprint": "393922e804ed5d97c256",
       "mode": "full",
-      "significance": 63,
+      "significance": 70,
       "significance_reasons": [
         "actualidad repartida en tres o más ámbitos",
-        "volumen informativo relevante"
+        "volumen informativo relevante",
+        "al menos una señal de prioridad alta"
       ],
       "indexable": false,
       "editor_engine": "rules",

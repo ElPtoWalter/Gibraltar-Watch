@@ -1,20 +1,20 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-10T11:26:45Z",
+  "generated_at": "2026-09-10T16:28:46Z",
   "state": {
-    "code": "normal",
-    "label_es": "NORMALIDAD OPERATIVA",
-    "color": "green",
-    "severity": 0,
-    "summary_es": "No aparecen señales suficientes para elevar el nivel general del observatorio. Parte de las fuentes necesita actualización, por lo que la lectura debe interpretarse con cautela.",
+    "code": "watch",
+    "label_es": "VIGILANCIA",
+    "color": "yellow",
+    "severity": 1,
+    "summary_es": "La situación requiere seguimiento, pero no aparecen señales suficientes para elevar el nivel operativo. Parte de las fuentes necesita actualización, por lo que la lectura debe interpretarse con cautela.",
     "layers": {
       "maritime": {
         "value": "OPERATIVO",
         "severity": 0
       },
       "border": {
-        "value": "BAJA / SIN SEÑALES RECIENTES",
-        "severity": 0
+        "value": "MEDIA",
+        "severity": 1
       },
       "bilateral": {
         "value": "ESTABLE",
@@ -33,8 +33,8 @@
     }
   },
   "metrics": {
-    "news_24h": 22,
-    "news_sources": 29,
+    "news_24h": 21,
+    "news_sources": 28,
     "seismic_24h": 0,
     "seismic_7d": 0,
     "seismic_30d": 5,
@@ -44,40 +44,35 @@
     "ope_vehicles_day": 15464,
     "ope_rotations_day": 179,
     "diary_date": "2026-09-10",
-    "diary_source_count": 6
+    "diary_source_count": 7
   },
   "anomalies": [],
   "changes": {
     "state_changed": true,
-    "previous_state_code": "reinforced_watch",
+    "previous_state_code": "normal",
     "layer_changes": [
       {
         "key": "border",
-        "previous": "ALTA",
-        "current": "BAJA / SIN SEÑALES RECIENTES"
-      },
-      {
-        "key": "security",
-        "previous": "VIGILANCIA REFORZADA",
-        "current": "SIN ALERTA ESPECÍFICA"
+        "previous": "BAJA / SIN SEÑALES RECIENTES",
+        "current": "MEDIA"
       }
     ]
   },
   "health": {
     "overall": "stale",
-    "generated_at": "2026-09-10T11:26:45Z"
+    "generated_at": "2026-09-10T16:28:46Z"
   },
   "latest_diary": {
     "date": "2026-09-10",
     "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
-    "summary": "Selección automática de 6 referencias de 6 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "summary": "Selección automática de 7 referencias de 7 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
     "published_at": "2026-09-10T08:01+02:00",
-    "updated_at": "2026-09-10T13:26+02:00",
-    "source_count": 6,
+    "updated_at": "2026-09-10T18:28+02:00",
+    "source_count": 7,
     "indexable": false,
     "edition_label": "Cuaderno de las dos orillas",
     "edition_slug": "shores",
-    "fingerprint": "ffcb9ae55d2a45a104e7",
+    "fingerprint": "393922e804ed5d97c256",
     "editor_engine": "rules",
     "editor_assistant_status": "no-key",
     "date_label": "2026-09-10",

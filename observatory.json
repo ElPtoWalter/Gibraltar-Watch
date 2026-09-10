@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-10T01:07:48Z",
+  "generated_at": "2026-09-10T06:01:43Z",
   "state": {
     "code": "reinforced_watch",
     "label_es": "VIGILANCIA REFORZADA",
@@ -33,8 +33,8 @@
     }
   },
   "metrics": {
-    "news_24h": 14,
-    "news_sources": 28,
+    "news_24h": 15,
+    "news_sources": 29,
     "seismic_24h": 0,
     "seismic_7d": 0,
     "seismic_30d": 5,
@@ -43,45 +43,34 @@
     "ope_passengers_day": 59877,
     "ope_vehicles_day": 15464,
     "ope_rotations_day": 179,
-    "diary_date": "2026-09-09",
-    "diary_source_count": 9
+    "diary_date": "2026-09-10",
+    "diary_source_count": 3
   },
   "anomalies": [],
   "changes": {
-    "state_changed": true,
-    "previous_state_code": "watch",
-    "layer_changes": [
-      {
-        "key": "border",
-        "previous": "MEDIA",
-        "current": "ALTA"
-      },
-      {
-        "key": "security",
-        "previous": "SIN ALERTA ESPECÍFICA",
-        "current": "VIGILANCIA REFORZADA"
-      }
-    ]
+    "state_changed": false,
+    "previous_state_code": "reinforced_watch",
+    "layer_changes": []
   },
   "health": {
     "overall": "stale",
-    "generated_at": "2026-09-10T01:07:48Z"
+    "generated_at": "2026-09-10T06:01:43Z"
   },
   "latest_diary": {
-    "date": "2026-09-09",
+    "date": "2026-09-10",
     "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
-    "summary": "Selección automática de 9 referencias de 9 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
-    "published_at": "2026-09-09T21:49+02:00",
-    "updated_at": "2026-09-09T21:49+02:00",
-    "source_count": 9,
+    "summary": "Selección automática de 3 referencias de 3 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "published_at": "2026-09-10T08:01+02:00",
+    "updated_at": "2026-09-10T08:01+02:00",
+    "source_count": 3,
     "indexable": false,
     "edition_label": "Cuaderno de las dos orillas",
     "edition_slug": "shores",
-    "fingerprint": "a1272a3f4b226f7eb82c",
+    "fingerprint": "6c4dd8ec42c685fa79d1",
     "editor_engine": "rules",
     "editor_assistant_status": "no-key",
-    "date_label": "2026-09-09",
-    "slug": "actual.html"
+    "date_label": "2026-09-10",
+    "slug": "2026-09-10.html"
   },
   "latest_ope": {
     "report_date": "2026-08-15",

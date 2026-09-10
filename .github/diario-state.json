@@ -3,7 +3,7 @@
   "latest_entry": {
     "date": "2026-09-10",
     "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
-    "summary": "Selección automática de 3 referencias de 3 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "summary": "Selección automática de 6 referencias de 6 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
     "url": "diario/2026-09-10.html",
     "material_archive": true,
     "status_snapshot": {
@@ -12,33 +12,36 @@
         "en": "OPERATIONAL"
       },
       "border_pressure": {
-        "es": "ALTA",
-        "en": "HIGH"
+        "es": "BAJA / SIN SEÑALES RECIENTES",
+        "en": "LOW / NO RECENT SIGNALS"
       },
       "bilateral_tension": {
         "es": "ESTABLE",
         "en": "STABLE"
       },
       "security_status": {
-        "es": "VIGILANCIA REFORZADA",
-        "en": "REINFORCED MONITORING"
+        "es": "SIN ALERTA ESPECÍFICA",
+        "en": "NO SPECIFIC ALERT"
       }
     },
     "source_keys": [
-      "65fad5acc9520ad5f040",
-      "a38468f00096c6622ef1",
-      "c628eace590febeddecb"
+      "1d46e3c8a0cbd3b76ee8",
+      "4080b7c4b6ced9066051",
+      "8e63b4a5f0759323b0e6",
+      "91e04665c3c704822885",
+      "c628eace590febeddecb",
+      "ff6b9323bbed024bdeeb"
     ],
     "published_at": "2026-09-10T08:01+02:00",
-    "updated_at": "2026-09-10T08:01+02:00",
+    "updated_at": "2026-09-10T13:26+02:00",
     "published_rfc822": "Thu, 10 Sep 2026 08:01:00 +0200",
-    "source_count": 3,
-    "fingerprint": "6c4dd8ec42c685fa79d1",
+    "source_count": 6,
+    "fingerprint": "ffcb9ae55d2a45a104e7",
     "mode": "full",
-    "significance": 65,
+    "significance": 63,
     "significance_reasons": [
-      "al menos una señal de prioridad alta",
-      "indicadores operativos o geopolíticos fuera de la normalidad"
+      "actualidad repartida en tres o más ámbitos",
+      "volumen informativo relevante"
     ],
     "indexable": false,
     "editor_engine": "rules",
@@ -50,7 +53,7 @@
     {
       "date": "2026-09-10",
       "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
-      "summary": "Selección automática de 3 referencias de 3 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+      "summary": "Selección automática de 6 referencias de 6 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
       "url": "diario/2026-09-10.html",
       "material_archive": true,
       "status_snapshot": {
@@ -59,33 +62,36 @@
           "en": "OPERATIONAL"
         },
         "border_pressure": {
-          "es": "ALTA",
-          "en": "HIGH"
+          "es": "BAJA / SIN SEÑALES RECIENTES",
+          "en": "LOW / NO RECENT SIGNALS"
         },
         "bilateral_tension": {
           "es": "ESTABLE",
           "en": "STABLE"
         },
         "security_status": {
-          "es": "VIGILANCIA REFORZADA",
-          "en": "REINFORCED MONITORING"
+          "es": "SIN ALERTA ESPECÍFICA",
+          "en": "NO SPECIFIC ALERT"
         }
       },
       "source_keys": [
-        "65fad5acc9520ad5f040",
-        "a38468f00096c6622ef1",
-        "c628eace590febeddecb"
+        "1d46e3c8a0cbd3b76ee8",
+        "4080b7c4b6ced9066051",
+        "8e63b4a5f0759323b0e6",
+        "91e04665c3c704822885",
+        "c628eace590febeddecb",
+        "ff6b9323bbed024bdeeb"
       ],
       "published_at": "2026-09-10T08:01+02:00",
-      "updated_at": "2026-09-10T08:01+02:00",
+      "updated_at": "2026-09-10T13:26+02:00",
       "published_rfc822": "Thu, 10 Sep 2026 08:01:00 +0200",
-      "source_count": 3,
-      "fingerprint": "6c4dd8ec42c685fa79d1",
+      "source_count": 6,
+      "fingerprint": "ffcb9ae55d2a45a104e7",
       "mode": "full",
-      "significance": 65,
+      "significance": 63,
       "significance_reasons": [
-        "al menos una señal de prioridad alta",
-        "indicadores operativos o geopolíticos fuera de la normalidad"
+        "actualidad repartida en tres o más ámbitos",
+        "volumen informativo relevante"
       ],
       "indexable": false,
       "editor_engine": "rules",

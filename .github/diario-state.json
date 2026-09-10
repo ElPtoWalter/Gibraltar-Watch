@@ -12,38 +12,39 @@
         "en": "OPERATIONAL"
       },
       "border_pressure": {
-        "es": "MEDIA",
-        "en": "MEDIUM"
+        "es": "ALTA",
+        "en": "HIGH"
       },
       "bilateral_tension": {
         "es": "ESTABLE",
         "en": "STABLE"
       },
       "security_status": {
-        "es": "SIN ALERTA ESPECÍFICA",
-        "en": "NO SPECIFIC ALERT"
+        "es": "VIGILANCIA REFORZADA",
+        "en": "REINFORCED MONITORING"
       }
     },
     "source_keys": [
+      "04c62a76fdffd78f9f9f",
       "1d46e3c8a0cbd3b76ee8",
-      "4080b7c4b6ced9066051",
-      "8e63b4a5f0759323b0e6",
-      "91e04665c3c704822885",
-      "982e284bcb53d2beeb46",
-      "a38468f00096c6622ef1",
-      "cb345e7dea38ca1a7be1"
+      "61f50648808201f61305",
+      "9c3b35151ecdfa5a0ba2",
+      "cb345e7dea38ca1a7be1",
+      "ea834964e4ff6b85b0b3",
+      "f48712df32bfd1849482"
     ],
     "published_at": "2026-09-10T08:01+02:00",
-    "updated_at": "2026-09-10T18:28+02:00",
+    "updated_at": "2026-09-10T21:45+02:00",
     "published_rfc822": "Thu, 10 Sep 2026 08:01:00 +0200",
     "source_count": 7,
-    "fingerprint": "393922e804ed5d97c256",
+    "fingerprint": "1c5335b47603061398c1",
     "mode": "full",
-    "significance": 70,
+    "significance": 86,
     "significance_reasons": [
       "actualidad repartida en tres o más ámbitos",
       "volumen informativo relevante",
-      "al menos una señal de prioridad alta"
+      "al menos una señal de prioridad alta",
+      "indicadores operativos o geopolíticos fuera de la normalidad"
     ],
     "indexable": false,
     "editor_engine": "rules",
@@ -64,38 +65,39 @@
           "en": "OPERATIONAL"
         },
         "border_pressure": {
-          "es": "MEDIA",
-          "en": "MEDIUM"
+          "es": "ALTA",
+          "en": "HIGH"
         },
         "bilateral_tension": {
           "es": "ESTABLE",
           "en": "STABLE"
         },
         "security_status": {
-          "es": "SIN ALERTA ESPECÍFICA",
-          "en": "NO SPECIFIC ALERT"
+          "es": "VIGILANCIA REFORZADA",
+          "en": "REINFORCED MONITORING"
         }
       },
       "source_keys": [
+        "04c62a76fdffd78f9f9f",
         "1d46e3c8a0cbd3b76ee8",
-        "4080b7c4b6ced9066051",
-        "8e63b4a5f0759323b0e6",
-        "91e04665c3c704822885",
-        "982e284bcb53d2beeb46",
-        "a38468f00096c6622ef1",
-        "cb345e7dea38ca1a7be1"
+        "61f50648808201f61305",
+        "9c3b35151ecdfa5a0ba2",
+        "cb345e7dea38ca1a7be1",
+        "ea834964e4ff6b85b0b3",
+        "f48712df32bfd1849482"
       ],
       "published_at": "2026-09-10T08:01+02:00",
-      "updated_at": "2026-09-10T18:28+02:00",
+      "updated_at": "2026-09-10T21:45+02:00",
       "published_rfc822": "Thu, 10 Sep 2026 08:01:00 +0200",
       "source_count": 7,
-      "fingerprint": "393922e804ed5d97c256",
+      "fingerprint": "1c5335b47603061398c1",
       "mode": "full",
-      "significance": 70,
+      "significance": 86,
       "significance_reasons": [
         "actualidad repartida en tres o más ámbitos",
         "volumen informativo relevante",
-        "al menos una señal de prioridad alta"
+        "al menos una señal de prioridad alta",
+        "indicadores operativos o geopolíticos fuera de la normalidad"
       ],
       "indexable": false,
       "editor_engine": "rules",

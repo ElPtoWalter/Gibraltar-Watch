@@ -1,23 +1,23 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-12T19:26:37Z",
+  "generated_at": "2026-09-12T22:23:28Z",
   "overall": "stale",
   "components": [
     {
       "name": "Sismicidad USGS",
       "state": "fresh",
       "label_es": "ACTUALIZADO",
-      "checked_at": "2026-09-12T19:26:11Z",
-      "age_minutes": 0,
+      "checked_at": "2026-09-12T22:22:23Z",
+      "age_minutes": 1,
       "source": "USGS Earthquake Catalog",
-      "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-08-13T19%3A26%3A11Z&endtime=2026-09-12T19%3A26%3A11Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
+      "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-08-13T22%3A22%3A23Z&endtime=2026-09-12T22%3A22%3A23Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
       "note_es": "Catálogo sísmico regional; no es una herramienta de predicción."
     },
     {
       "name": "Actualidad y geopolítica",
       "state": "fresh",
       "label_es": "ACTUALIZADO",
-      "checked_at": "2026-09-12T19:26:31.391754+00:00",
+      "checked_at": "2026-09-12T22:23:24.019422+00:00",
       "age_minutes": 0,
       "source": "Monitor editorial de fuentes públicas",
       "url": "fuentes.html",
@@ -28,7 +28,7 @@
       "state": "stale",
       "label_es": "PARTE ANTIGUO",
       "checked_at": "2026-09-12T19:26:31Z",
-      "age_minutes": 0,
+      "age_minutes": 176,
       "source": "Secretaría General de Protección Civil y Emergencias",
       "url": "https://www.proteccioncivil.es/documents/20121/0/20260815_InformeOPE.pdf",
       "note_es": "Último parte localizado: 2026-08-15. Una consulta reciente no actualiza la fecha de sus datos.",
@@ -39,7 +39,7 @@
       "state": "fresh",
       "label_es": "ACTUALIZADO",
       "checked_at": "2026-09-12T19:26:00Z",
-      "age_minutes": 0,
+      "age_minutes": 177,
       "source": "Gibraltar Watch",
       "url": "diario/actual.html",
       "note_es": "Última edición publicada"
@@ -48,16 +48,16 @@
       "name": "Integridad del sitio",
       "state": "fresh",
       "label_es": "CORRECTA",
-      "checked_at": "2026-09-12T19:26:37Z",
+      "checked_at": "2026-09-12T22:23:28Z",
       "age_minutes": 0,
       "source": "Validador local",
       "note_es": "Todos los archivos críticos están presentes."
     }
   ],
   "workflow": {
-    "run_id": "34714159592",
+    "run_id": "34722509670",
     "run_attempt": "1",
-    "sha": "be09e2f5650c",
+    "sha": "faf5bfb61d90",
     "event": "schedule"
   }
 }

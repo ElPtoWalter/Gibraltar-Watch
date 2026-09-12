@@ -1,14 +1,14 @@
 {
-  "checked_at": "2026-09-12T17:14:07Z",
+  "checked_at": "2026-09-12T19:26:11Z",
   "source": "USGS Earthquake Catalog",
-  "source_query": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-08-13T17%3A14%3A07Z&endtime=2026-09-12T17%3A14%3A07Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
+  "source_query": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-08-13T19%3A26%3A11Z&endtime=2026-09-12T19%3A26%3A11Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
   "status": "OK",
   "data_note_es": "Actividad reciente con un evento máximo de magnitud 5.2. Consulta siempre la información oficial del IGN.",
   "data_note_en": "Recent activity includes a maximum magnitude 5.2 event. Always consult official seismic authorities.",
   "periods": {
     "24h": 0,
     "7d": 0,
-    "30d": 5
+    "30d": 4
   },
   "max_magnitude_30d": 5.2,
   "last_event": {
@@ -65,17 +65,6 @@
       "latitude": 37.136,
       "depth_km": 10.0,
       "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkv2",
-      "reviewed": true
-    },
-    {
-      "id": "us6000tklb",
-      "time": "2026-08-13T18:53:23Z",
-      "magnitude": 3.0,
-      "place": "3 km NE of Zurgena, Spain",
-      "longitude": -2.0107,
-      "latitude": 37.3638,
-      "depth_km": 10.0,
-      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tklb",
       "reviewed": true
     }
   ],

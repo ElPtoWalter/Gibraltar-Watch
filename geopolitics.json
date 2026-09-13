@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-13T12:04:34.210460+00:00",
+  "generated_at": "2026-09-13T16:23:52.877221+00:00",
   "language_default": "es",
   "status": {
     "maritime_status": {
@@ -12,12 +12,12 @@
       "en": "The corridor remains open; official notices remain authoritative."
     },
     "border_pressure": {
-      "es": "BAJA / SIN SEÑALES RECIENTES",
-      "en": "LOW / NO RECENT SIGNALS"
+      "es": "MEDIA",
+      "en": "MEDIUM"
     },
     "border_note": {
-      "es": "No aparecen señales recientes suficientes para elevar el nivel.",
-      "en": "There are not enough recent signals to raise the level."
+      "es": "Existen intentos o presión fronteriza recientes.",
+      "en": "Recent attempts or border pressure are being reported."
     },
     "bilateral_tension": {
       "es": "ESTABLE",
@@ -41,6 +41,15 @@
     }
   },
   "items": [
+    {
+      "title": "El PP lleva al Senado un plan de actuación para \"garantizar la seguridad y el futuro de Ceuta\"",
+      "source": "El Faro de Ceuta",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWmxnT0J6d1JhYjNaMEFrYm1oX3ZWY2MyeUt3a0tDdzVsTExxU2dWR1hQS3RkQWxyMXV5RjhsdndPc09yLW9VcHFjY2xxNUV2UTZieEtlZmFTTHdsU25xVnVRN0QwaEJoS2tlR1doZjNHWFRuYVF2Q1cxOE5CME5ZVGJpSU9uYmZUYzV1WEhha1BkWWd10gGaAUFVX3lxTE9sUG5XaW1RaWJrYW9BOGYwaHpuQWR6NlQ2OWhuM0JZTDZSakRDUHMySmJvNk9tV3c0Qm5yTkVQX1NPTnd1eW9ueUlIOUxJQkNCN0xkNGRFM1kxcllnUVRUVDloUVVheTdLaXlFOUZuQnhXYWNYNG1SRmRiSlVGME1TbkFtQjl3elJmdzlLeE5IWjFKbkVZaHV1dGc?oc=5",
+      "published_at": "2026-09-13T13:21:32+00:00",
+      "category": "ceuta",
+      "language": "es",
+      "weight": 2
+    },
     {
       "title": "Tánger Med destrona al Puerto de Algeciras como señor del Estrecho",
       "source": "El Correo",
@@ -70,7 +79,7 @@
     },
     {
       "title": "Ceuta, el expediente de un “ataque híbrido” sin autor confirmado: qué haría falta para confirmar si Marruecos estuvo detrás o no",
-      "source": "Infobae",
+      "source": "infobae.com",
       "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOWXhpTGpsc3kxS0pOc2d3MjVXZ3dvekZQaVZDdzhTMW1XNnV3bER6MTZmUlowc0tmNVVzbW9nMHBOdkhXcWhpNlZ3cFNxcnVOZjBOc05RVmFweXZITkZQcTlCUlVTcjkzaVNpajhNWlJJdjNCeEdwUi1sVWxaUzJTb2RiTEJ3VzJMRDhMTmloOTBLeFAwVUhfSzRDbVJvWXpoeVpfNjROVVFmSlRTdnlmUzBzVVBIMW83NzZnckY0dWVqenhXdG5wdGlFM0w0Y3M4RlBFVFYwQ3Y1dzFQaTlDbXllQnh3RldqLThaWmRPOU94XzhLaEx4cEIwSdIBlgJBVV95cUxQZV9UU0xNNGZGcnhMWHZ1Z2ZzWlktbVdIV3M4b2VEcWdIUDdCZjZmTTZrLV9HSXRtaFhmVzZrWnF1RFYwZFJWRVBlUlhqazFYZG9OdkxodzFWaFkxQkxqdVVKeUo1TzZjd1VjdENhYmJidWxfN2JqZTd2ekdVYkNpWDRCVnRMeWVRXzVITXpzbVBQWHh1NWxDZVo3aUttYmQ5NjFoVTRrRTdVV29QaWZ2ZkVJLVNKMUo4MjlEbjhkNUdFNUlEbFJBVTFiSzlGSXUxYWU4M3dRMnRuZnBBRHJydXplVUdDMVU4VU45dklPSXJnRzhIVzlROGFQVkx5NFlDSjV1Vzg0eU5ab25zZHZoWDI4LVlqZw?oc=5",
       "published_at": "2026-09-12T05:18:03+00:00",
       "category": "relations",
@@ -178,7 +187,7 @@
     },
     {
       "title": "El PP no se achanta tras el duro comunicado de Marruecos: le culpa de la “invasión” y le recuerda que “Ceuta y Melilla son España”",
-      "source": "Infobae",
+      "source": "infobae.com",
       "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNRzZSc3lNRnVfMmFzczZvT3ljMFJaQWJ4SFhNODZySGJVQjFJOEkwcHNaZVJheUFRcm5WWmpVZ1JwSkV0QnJBUUY0Z3ZYdXg0Sjg4cnBVd0VPMVRWX0UwZ2VfWHp5dk5WejNlR3FuZTlPVVVpNEJoWmpsbnpWNkFMckxMcDVtT3FTeFFoZmwyMkZXY0M1cV9iampGaUhXVjIwQkwtU2N6a3NVMWtUV3lNZmlaVHN4dXRGOTdReXNDMGlIaGhTY3BrU2hNYmJoRnFjYUlPeTVYTnU5QU9pb2dwQ2VRZnpxTmxLdm5qaERMLUxRckxabWfSAZACQVVfeXFMTVh4bHc5T3pVdkt2SE5ud3Z1NkZyQVp4ZjRCa0FFZ202M2c3V2FZWGdrcm9WRGViSzA1TEpqVXR5SW1TaXJid2wxUWN6SVdxekIxQURMaktpcTQzdVladXFjQjk4YVFaY2pHUjFSa2hOa18wX282TEVWOEZPQXByZV9RdndOT29xU0NfNFhLeGI5YmtJQ0pQUXgtRnlLWmJfemRsUGlfelpVOXN6ZlFNMHp4Yk1mdVEwMlV2TjBtM0NHaS14eU9OZWphQmZNZzFXZkg0dWJfdnE2T0wwUFN5YndHRS04ajR5VERySmM2NXUxQmJPSmMtVG9ZRTEyYkJpMWxUWW9IbkRNYklvYkhKWGQ?oc=5",
       "published_at": "2026-09-11T08:33:00+00:00",
       "category": "relations",
@@ -197,7 +206,7 @@
     {
       "title": "Marruecos rompe su silencio sobre el 30 de julio y señala a quienes ya habían dictado sentencia",
       "source": "Ceuta Actualidad",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOWlRGTGNJMTV2M3BKQzVyQkpEU2lyejdJWm5iRlJ4NlZhODRDYlQ1dGxka1h2c1pSNjRsSHJkbTJrRExuSVVrU3NFYWVPNWwwRmdvRWo5UjFvQ24zNzlHTTk5d0poTW5RTmlSdHhVOWlrRU4za1JlbWNydUFseFU5Tk0wSk5qbVdIY2RKUnJidzFkMTRDSml1dU9uTFBwcWZEM2lybnRpS3ZkalhhQWE4UkJqZmdoakFWY2xXbXNrcjZSMWJ3X3RfMWhqZUxYOWsxQkoxcFdR0gHWAUFVX3lxTE5aVEZMY0kxNXYzcEpDNXJCSkRTaXJ6N0labmJGUng2VmE4NENiVDV0bGRrWHZzWlI2NGxIcmRtMmtETG5JVWtTc0VhZU81bDBGZ29FajlSMW9DbjM3OUdNOTl3SmhNblFOaVJ0eFU5aWtFTjNrUmVtY3J1QWx4VTlOTTBKTmptV0hjZEpScmJ3MWQxNENKaXV1T25MUHBxZkQzaXJudGlLdmRqWGFBYThSQmpmZ2hqQVZjbFdtc2tyNlIxYndfdF8xaGplTFg5azFCSjFwV1E?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPc25jeW5HMDlzOGNYTU9taU1WeEdKSkJrLV83RFVWMUpYNXppY0ZjclZhOVdRa0ZXeWhEVWtLdnFTbncyZjU0Ym9HZU0xQ3NubjZ1MTJwZllUdHI3czFmVVl2QVRIZmRVdmtMaWVnU1JZQ2FGd3FXZE52ZEpmZ1VGNGZsRE5xVjdrekdZWGdMZzVrdEdhSXNSbTRnVEVxMjJQbUV4Y2lMYmMwQ0Y4a0xnLXh4MUV5ampoRjA5eGZUQnJWbHJobEdkbFR4VFJoWW9t0gHWAUFVX3lxTE5aVEZMY0kxNXYzcEpDNXJCSkRTaXJ6N0labmJGUng2VmE4NENiVDV0bGRrWHZzWlI2NGxIcmRtMmtETG5JVWtTc0VhZU81bDBGZ29FajlSMW9DbjM3OUdNOTl3SmhNblFOaVJ0eFU5aWtFTjNrUmVtY3J1QWx4VTlOTTBKTmptV0hjZEpScmJ3MWQxNENKaXV1T25MUHBxZkQzaXJudGlLdmRqWGFBYThSQmpmZ2hqQVZjbFdtc2tyNlIxYndfdF8xaGplTFg5azFCSjFwV1E?oc=5",
       "published_at": "2026-09-11T07:23:12+00:00",
       "category": "ceuta",
       "language": "es",
@@ -205,7 +214,7 @@
     },
     {
       "title": "Marruecos bendice la versión del Gobierno sobre Ceuta y señala al PP, que deberá coser las relaciones si llega a Moncloa",
-      "source": "Infobae",
+      "source": "infobae.com",
       "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOMlBleWpIY0ZBeDlfaUVRM2YwSTNEejIzd2hjWEZvN1VjZXhGMUZTcTBvOTRMRmo2b09oc3J3NXFqMy1oSVFFTTB4UkZ4Zmp2WkVEZ29VR2ZsUS1YVGxlTC1pVW80eUlpNVc4cmVkRVlNWElpRlVRMDNDUnRDSW1CdnBpNEJaNkxKVHBSVS1JTWtqSXZSd05kZ0JHTU9FZ2c1QkFIRE4zc1gyY1k1dTd6bTN5M1A2V2dzeV9fM05SWF9Uc3FZZHZEQXNnT0ZMWW15NTFkTFp5Q3h2RzFXdWtkY0c0QWdFNE9ldzB6RFl0Zk1vVzVo0gGPAkFVX3lxTE9ZcWxROERyQ3dFQTNndGtudFlDZ0wwN2phQTA5b2N6dDNuY0FJTGNiaUYyeDNERm5wMVhBT1NqTG1EWUxsOVBla0dDYThsNFFtR1VUakRmYnRNOWFQMmtVbS1ZZUdzVUxJRVRJS1pOZGhWVkJ6LWw0Q1A1VzNGY3ZDaG9oU0JhQXRHSl9MbWJ3QnZ3ZFE2UWd6cWgybWJIUXVaVUhqSVVEN0NHb2lQNDcyc0Y1S3REY0J5XzMtZUxHTHhwMXRkYlF1N0swRTl5LTlFX2tQeGpaZUZSeFM3N1JOdENRcExuN2hrcTlnbGpKVnQtX1ZYMDltTHlVUEdra0VUSEktUjhITF9BTFAtbjQ?oc=5",
       "published_at": "2026-09-11T06:41:00+00:00",
       "category": "relations",
@@ -238,6 +247,15 @@
       "category": "relations",
       "language": "es",
       "weight": 2
+    },
+    {
+      "title": "Spain's spy agency warned of plans to storm Ceuta before mass migrant crossing, documents show",
+      "source": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQaXJKcGdWeU1GNjFJb0RrQ2FOUmJyY0Q1NWtGLVJVdEJsNUlheFdneDliMU5NOHhZRGFPY3VWSXFOcVVjbk04a2dneVB0T0FhRWdhN2FNUjhPTmk2ZjdLZlNYRnRTM3FDYU1fTmZMWW15NkluSWpsSER4UjlyZFMtV2lwNzcyODhlc0U5TUlxWWpnRjV6RklIYmRjN0RLcjJnZXVNcVI2WUVjMi0xMVhScDB5U1ZpZVhxRHlUaw?oc=5",
+      "published_at": "2026-09-10T21:53:57+00:00",
+      "category": "ceuta",
+      "language": "en",
+      "weight": 5
     },
     {
       "title": "Marruecos defiende su relación con España y cuestiona las acusaciones sobre su gestión migratoria",
@@ -304,7 +322,7 @@
     },
     {
       "title": "Marruecos amenaza a España con «tensiones recurrentes» por la crisis de Ceuta y carga contra el PP",
-      "source": "lavozdegalicia.es",
+      "source": "La Voz de Galicia",
       "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOVGQzQTRqa0hKZ2NuQzE0RE1mRGZuNDM5dXRfbHZGSXNqam8zZjA3Q3Zab3dDeHZlbHV6OTZFUFE3UTFCbmZjOHBTSEhLMEpPQXFtZHY4WmFZRWdlSGlqS2VaYUhGZ1dqUDJDb0pXOEN4M24zQjlmS21HWUotTVlsYkNhbmhJaVBCS0F6YzlnUDVxY2lPV3o3VVdLZS1fY2pSMjVsN254NWoxOWItRl84ODJ6ODhhczdqUmZNcGFuTXBKNlMzYmRJcFBjYjBLSTdXYm5INGw0bnQ1N3A0amxxSmVKQWlLQ0E5dDZLSmpFa0fSAYwCQVVfeXFMUG1WVG5QTExoblV3cXBuS1RxbG54QVh6Z0ZocENmVTFYUVNpLVc1UFc3QVBleTZ6UzBvT1FCMWRDNlJzV0k1emdSX2liWkh6RHdfWTVwaUZaOTlldEtqLVlVWXNkUEhYeEJuYmUzbFo3V3FpMEc4dkRiTUl0ci02Wmp4elZRNGVxQ05JYXBFeFVwOFk0M1pVTllWMm5UTnF4Qk81ZE1nVG5PdGVUdWNNb2tXSEJ1T1QtTTNsVUhCMjFFU0JKRG9NZjVhVjZGalg4M01ZM0NTa3g5YmxMc01FbEg5V1pfSGxPS0VGSmh1aTlBZGVuX0lhR3piVURrSWdteGtGMzMtOVNYci0tTg?oc=5",
       "published_at": "2026-09-10T18:03:31+00:00",
       "category": "ceuta",
@@ -345,24 +363,6 @@
       "published_at": "2026-09-10T16:01:08+00:00",
       "category": "ceuta",
       "language": "en",
-      "weight": 2
-    },
-    {
-      "title": "Pedro Sánchez has let Ceuta turn into a crisis",
-      "source": "The Economist",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQURKa3pBcWl0bVdZZjVWUklWM1dlWEJHWVFydURqQzNMZ29Jb00zbEI2WnFYeG5tUmFHM2l4MDdiNHN0aXB2cW14NURRVXl0eGxMd2xsck56NmRTODJkNmZhcDBzWWpCN0lEZmExMjc2a2xGS1hCRUVSb0MyVDBhNGhuVlYxTGRzVXJWWHdva242MEls?oc=5",
-      "published_at": "2026-09-10T14:20:21+00:00",
-      "category": "ceuta",
-      "language": "en",
-      "weight": 2
-    },
-    {
-      "title": "Aznar reclama recuperar la relación con Israel, aliado de Marruecos",
-      "source": "El Faro de Ceuta",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTEpGZnVXcTRfbmFjRUpEamxCUmNhLVQxdkg5SnFFTzFqQzhZbi1ZU2dScnlvXzRuR2Rjc05zOV9rbUsxRGJ5TlExV0RKTlU5UUxCSDlhZ1I2d2NfSEl2U19qc1UydVh1VXBJV0tYdXFmVW9uN1R3UVVqelRyMEc4S2Y5elVXVGdrSUHSAY8BQVVfeXFMTmxmNVgwRTRKWUcyVzF1Y3Vkb0FiZzlRbldENzh5SFpHWWlFZGRMdV9WV3pHMzhhOXBtcktLY213ekNlZWZsX3dxWEc3b1ZGN1p6Y2lic0x2d1JSWTFBUEZLYTNvZWVEZWN1akRQM2wzSjF3Q1JRTjA5dzdQY0J4X1ljOWVQU0JYUGxuS0xwTmc?oc=5",
-      "published_at": "2026-09-10T11:43:35+00:00",
-      "category": "relations",
-      "language": "es",
       "weight": 2
     }
   ],

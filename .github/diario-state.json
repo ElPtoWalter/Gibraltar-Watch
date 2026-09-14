@@ -3,9 +3,9 @@
   "latest_entry": {
     "date": "2026-09-14",
     "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
-    "summary": "Selección automática de 4 referencias de 4 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "summary": "Selección automática de 6 referencias de 6 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
     "url": "diario/2026-09-14.html",
-    "material_archive": true,
+    "material_archive": false,
     "status_snapshot": {
       "maritime_status": {
         "es": "OPERATIVO",
@@ -25,20 +25,23 @@
       }
     },
     "source_keys": [
+      "13110575aa3d1b4f7e0c",
       "19af7bb488132e1a2357",
       "1ecd1caece96213b4ce0",
-      "bc3182020ebec5e9c5f3",
+      "35be90f0741aed51fe17",
+      "dfe9ebd97512d6bdf4b8",
       "e76543d2bd79577cc1ed"
     ],
     "published_at": "2026-09-14T08:23+02:00",
-    "updated_at": "2026-09-14T08:23+02:00",
+    "updated_at": "2026-09-14T16:09+02:00",
     "published_rfc822": "Mon, 14 Sep 2026 08:23:00 +0200",
-    "source_count": 4,
-    "fingerprint": "147d1e6ee0e222b99b87",
+    "source_count": 6,
+    "fingerprint": "6aa4138e00a4112bca0e",
     "mode": "full",
-    "significance": 46,
+    "significance": 63,
     "significance_reasons": [
-      "actualidad repartida en tres o más ámbitos"
+      "actualidad repartida en tres o más ámbitos",
+      "volumen informativo relevante"
     ],
     "indexable": false,
     "editor_engine": "rules",
@@ -50,9 +53,9 @@
     {
       "date": "2026-09-14",
       "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
-      "summary": "Selección automática de 4 referencias de 4 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+      "summary": "Selección automática de 6 referencias de 6 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
       "url": "diario/2026-09-14.html",
-      "material_archive": true,
+      "material_archive": false,
       "status_snapshot": {
         "maritime_status": {
           "es": "OPERATIVO",
@@ -72,20 +75,23 @@
         }
       },
       "source_keys": [
+        "13110575aa3d1b4f7e0c",
         "19af7bb488132e1a2357",
         "1ecd1caece96213b4ce0",
-        "bc3182020ebec5e9c5f3",
+        "35be90f0741aed51fe17",
+        "dfe9ebd97512d6bdf4b8",
         "e76543d2bd79577cc1ed"
       ],
       "published_at": "2026-09-14T08:23+02:00",
-      "updated_at": "2026-09-14T08:23+02:00",
+      "updated_at": "2026-09-14T16:09+02:00",
       "published_rfc822": "Mon, 14 Sep 2026 08:23:00 +0200",
-      "source_count": 4,
-      "fingerprint": "147d1e6ee0e222b99b87",
+      "source_count": 6,
+      "fingerprint": "6aa4138e00a4112bca0e",
       "mode": "full",
-      "significance": 46,
+      "significance": 63,
       "significance_reasons": [
-        "actualidad repartida en tres o más ámbitos"
+        "actualidad repartida en tres o más ámbitos",
+        "volumen informativo relevante"
       ],
       "indexable": false,
       "editor_engine": "rules",

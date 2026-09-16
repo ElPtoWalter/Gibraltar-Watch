@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-09-15T21:28:58Z",
+  "checked_at": "2026-09-16T00:25:32Z",
   "source": "USGS Earthquake Catalog",
-  "source_query": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-08-16T21%3A28%3A58Z&endtime=2026-09-15T21%3A28%3A58Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
+  "source_query": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-08-17T00%3A25%3A32Z&endtime=2026-09-16T00%3A25%3A32Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
   "status": "OK",
   "data_note_es": "Actividad reciente con un evento máximo de magnitud 4.9. Consulta siempre la información oficial del IGN.",
   "data_note_en": "Recent activity includes a maximum magnitude 4.9 event. Always consult official seismic authorities.",
@@ -57,5 +57,5 @@
       "reviewed": true
     }
   ],
-  "history_updated": false
+  "history_updated": true
 }

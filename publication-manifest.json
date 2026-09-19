@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T11:06:48Z",
+  "generated_at": "2026-09-19T14:28:45Z",
   "git": {
-    "sha_before_commit": "27b4f1daaef0deff0d0ead98cfcee6fc98793c01",
-    "run_id": "35439185098"
+    "sha_before_commit": "506a6fd8d69d7d84b3520abd05fca33386264abd",
+    "run_id": "35448827536"
   },
   "recovery": {
     "method": "git-history",
@@ -19,8 +19,8 @@
       "bytes": 14860
     },
     "trafico.html": {
-      "sha256": "b79aef4efe3daa67463ec7165580f7ccaf7e7ef0dc7b7ac20068c5d40f86a5ac",
-      "bytes": 19410
+      "sha256": "99ebe2d809ac90f46d3d693066c6928fdae9b4e312061cc932293719c17fd588",
+      "bytes": 19412
     },
     "sismicidad.html": {
       "sha256": "0f4857ef4ec19bf6842c296de536a573e176afe1afa6d5925122dfa09cede322",
@@ -59,11 +59,11 @@
       "bytes": 15318
     },
     "observatory.json": {
-      "sha256": "470b595d1e80ab867ac28be68e5ba1f7c5df64c4cf8fb44d2083a007dee74424",
-      "bytes": 3222
+      "sha256": "efd69570775d46da0a63f2a9f5ba5e9de4d159bd151a984f51c5718c5554281a",
+      "bytes": 3096
     },
     "health.json": {
-      "sha256": "303c9da421018574a17238a1818669028d7f81c123fed64ff6b606dab00170eb",
+      "sha256": "5a6dbe5e5f1890a793cf7e1dc5ca6fa35441caca39720eaad9fe36030b973a6d",
       "bytes": 2225
     },
     "timeline.json": {
@@ -71,7 +71,7 @@
       "bytes": 38526
     },
     "observatory-history.json": {
-      "sha256": "e3fdd8a58c23aceab6761cb79e336c45a2e671bbddfe3b29f163b386939aafe8",
+      "sha256": "7b93dca3bdad4a25a0147ff6bfc35db93e3bb587fb5f8cfad8703ab41a901031",
       "bytes": 15274
     },
     "observatory-feed.xml": {
@@ -87,15 +87,15 @@
       "bytes": 15714
     },
     "diario/latest.json": {
-      "sha256": "31849a01f59d9503606b0c03290c817c4382291b16ffdadebc621f756f81927d",
+      "sha256": "aadcfa5621ac460e38e1e7d5040639c29fea2ac1fe66d240ab960c7e9ca5e261",
       "bytes": 661
     },
     "newsletter/latest.html": {
-      "sha256": "e059c8be1bc1000521aa5f6646a59985d39a49ce1464b7277db4b0b0f1c89b81",
+      "sha256": "bf98f76aae9da84acacbe182484350ccd9435ee3c0e5656a2c44876fe74cd10b",
       "bytes": 2124
     },
     "newsletter/latest.txt": {
-      "sha256": "ae76c0b68ac3cd56f239baea0960731c858f143d4f32a54537d0db78d401babb",
+      "sha256": "93d12da8dec61931fa9e2a093c103aaf6d0045f179968941a2bb54bf35084163",
       "bytes": 739
     },
     "newsletter/latest.json": {

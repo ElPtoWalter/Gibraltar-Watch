@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-19T14:28:39.809481+00:00",
+  "generated_at": "2026-09-19T18:04:44.508853+00:00",
   "language_default": "es",
   "status": {
     "maritime_status": {
@@ -28,19 +28,28 @@
       "en": "No clear bilateral escalation is detected in recent sources."
     },
     "security_status": {
-      "es": "VIGILANCIA",
-      "en": "MONITORING"
+      "es": "SIN ALERTA ESPECÍFICA",
+      "en": "NO SPECIFIC ALERT"
     },
     "security_note": {
-      "es": "Existen medidas o incidentes de seguridad recientes.",
-      "en": "Recent security measures or incidents are reported."
+      "es": "No se detectan señales suficientes para una alerta editorial.",
+      "en": "There are not enough signals for an editorial alert."
     },
     "confidence": {
-      "es": "MEDIA",
-      "en": "MEDIUM"
+      "es": "BAJA",
+      "en": "LOW"
     }
   },
   "items": [
+    {
+      "title": "Bourita: Morocco Sees Gibraltar as a Responsibility, Not a Tool for Blackmail",
+      "source": "Morocco World News",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMGEwcEdmeHdBX0F2Ymx2cjZaRHl6M0VtaU1KZlVCM1ZGMnUzXy0xTVRQZDlFNzBTc3pMWEk1Zk9vcDRhaHFJVUxndTN2RC03V054NE5zWFh1NHJiVXRqTlVsNUl2MFN2cFloV2NuaEgxVEU4LTFBTjdkOTBWR1BhSFBLcFFoZGVmUzJNcWxlLTVraXRzamt0Z01KX09lTmhNek5yTk1FeE00REZvNnN0RnlfNUtyWWd0OFE2MFJBeHlkUQ?oc=5",
+      "published_at": "2026-09-19T16:50:42+00:00",
+      "category": "traffic",
+      "language": "en",
+      "weight": 2
+    },
     {
       "title": "Interior envía 60 guardias civiles a Melilla ante la amenaza de otra invasión mientras Marruecos no refuerza...",
       "source": "gaceta.es",
@@ -52,7 +61,7 @@
     },
     {
       "title": "\"Here is a spy from Morocco\": the crisis of European Ceuta seen from Europe",
-      "source": "Diari ARA",
+      "source": "en.ara.cat",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSmVWUzRJWHB4T1Q2dTBTZ0ZMVkxnR2RmX0ZoRzJXMEthcmJzR1J1T19qUFJiTm9mTW80RVE0aGljbGwyMUptQ3dKQXZiZkNMU2VxVlFTNWtTN05kLUVLQVhmWkZrdnJCNHZlWGZxanZaa19JU2FybmhpS0lIcXUxVlpIS3ZPMS1kTG9nbW43OVl4Y0c4bVExeDM3LV9ST3pYWnp5SEl0c2tJaGdobHFWU1kwUkpXbjZJa1HSAb8BQVVfeXFMT2xCOGozQTcyTlZoUWw2SEFvczE4Y2RrT2dpZ3FNVUlBZEtWd0p1aXlGOUw2SXhsb2c4RE5ybnF1eDZKN3hNLWVTamxKbXd5T3JLdjRldWF3VjFwMDAzMFpBMzhCUGFwMEtSTzN2dmFYakFJNlJZUlRFSTJCQUZHY3VXSm1pZ0xoLXFyenNCdDZwOWx2X2dFbVRNUnhzWkFPdEFxb3duTjRSbm53NE9Rc0VXRjdEdm1ULXI2QXF1RmM?oc=5",
       "published_at": "2026-09-19T06:02:16+00:00",
       "category": "ceuta",
@@ -106,12 +115,12 @@
     },
     {
       "title": "Police begin operation to move migrants from Ceuta beaches",
-      "source": "BBC",
+      "source": "bbc.com",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE41SUdCUlRSZHh4TC1tUk91X0tUbk5UTDFrb2FseWxJYmRPNE1UbXhXQXp1QjNad2VkQjUxZVV0eV9KRHlKb2s3dWdWTml0aHJ1dm9uU0J0ck9lQkk?oc=5",
       "published_at": "2026-09-18T11:59:42+00:00",
       "category": "ceuta",
       "language": "en",
-      "weight": 4
+      "weight": 2
     },
     {
       "title": "La invasión de Ceuta y el futuro de las relaciones con Marruecos: el coloquio exclusivo del Club LD",
@@ -150,15 +159,6 @@
       "weight": 2
     },
     {
-      "title": "Vicente Vallés, claro con los planes del Gobierno en Ceuta: \"El parlamento europeo señala a Marruecos como responsable del asalto a la frontera, y califica lo ocurrido como \"invasión\" y ya van 49 días de crisis\"",
-      "source": "La Razón",
-      "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxNY3hwYjEzbFBKRnZ5aEJhVWZKcGpDS0FiQ2d6TkhiZ1pLZXhZWFhFUHR0RXhiWUxZWUhtcEhrWUIzQUFzUkt1aktLRVJVNFpuR0lBZU1pRDhMLWxsMHNFZW1TOTVFbFJWY3l4YkVPNWZrdTVZeFFtVXlaUGotMXlaZlRqaWIzRDIydVBVUG51YnZtbXBSUnFfOXp6QVJEakpNdmdFemZnYVV4NzdmcEQ3b0dueTVod0ZrUWlwdVVobVVKdUlya0hHTm45ZmF3cGxxOUlvVEtBXy1adS1Ua2xqUlBIckZxdllKVTdsa280TFY1UzFJSlRWbjc2SmpIZjFzcGJuUjk0MmRUVTRuR3ZNSzVFM1FhSV84OWtnUzM0OHNjLW5RRDdPdjRJeU5pb0d3aDY1YkQ2a1JkN0VtQUNfd25xRjnSAdgCQVVfeXFMT2xPMi1RNzZWbU40RmJHZ3l5Y2NtQzVoUVpYM0J3ODNmT2FSbW5HU2R5cjBQdlk0SDhjb2xiVmQ1R2hBNkV4dHkwMExvbjd4ZGUzbVZ1X250MzFNMG1JOWpKR2FiazBGWlFiV2gzSWRxVllYUVNjUG1xZXNGOE53ZjhTMXFuaGFNSng3VFdNa3M5NGVXMnU2OFJrYU0wbU1OQkRpQk9EUmFxTi1pdFd1TG4zVWUxcFlqem1tQ1FlWV9VN2VVTzluUFNhZW5hMGVnem80TWktaURMVEpFWkZZdTkyNUVNWGx6M1l2cFlqQ2MwanpTcG5KVEF5b2ZlbXpGMzdsUHVMeDQ3NW53SVNjeFNNRDdQM1lWOGxzMmhodFUybTBxVHphQnF3UUxkbUU2S3lwcXd1Rl9rRDhIdW42ME1kMEM2VkE0VllmR19yWTFRbWlHc2hlNGQ?oc=5",
-      "published_at": "2026-09-18T08:30:17+00:00",
-      "category": "ceuta",
-      "language": "es",
-      "weight": 2
-    },
-    {
       "title": "Ceuta afronta una nueva fase de la crisis mientras Marruecos refuerza la vigilancia en la frontera",
       "source": "Marruecom.com",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbVdZSUFvdU9Nb2gyWkxiRXpxSjE1Vlg4YlZ3TjlkR2NxQ1BXYWU3TWtKUHgtUk9ablJJWVoxamwxRkhiYkNqS3liNGRmb1hMZXJ5RE9HVWxtZmpDSEgwNHhab0NnTlA5cm5LX2s1bnlKblJqM015eDdZd09Pd3FTS1otRThtVjN1TUoxT2M1TTJNcnppcVEtV2s4RTRWbHlKc2NXSlExX25DMmdTelJNRW80c3dtTldlX296NTdsZy1yUEtNWWpCOVRLQTc?oc=5",
@@ -178,7 +178,7 @@
     },
     {
       "title": "EU Parliament calls for stronger border controls after Ceuta crisis",
-      "source": "Helsinki Times",
+      "source": "helsinkitimes.fi",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbTdlak0yUmhVMTNVenZsU3RabTZxakRiS2kxRmlrM0MtRF92UzJOWWxIdmlNWndUbmxxN0JLZkNXM3l6cDJtamozN3VuMXBVd09OZjB0VVhQSU1QR1dneEo1cHJWUUhZRWJJZ2UtT180dWluTXhrdFVqYk9rYmZNY3lvZDJ1aktfR3RkR0FXVVY1ekdwRHVmWUttVm81VE1vRmdmUEw3LTRuQWpjNEFLZkprNWNqQ09J?oc=5",
       "published_at": "2026-09-18T07:30:24+00:00",
       "category": "ceuta",
@@ -200,6 +200,15 @@
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9kZEUtVE5KZ2ZWZlRxQVl0OWw3bkdTSndmT1dxRUIwMnR2YlFqRlo5NGpQOVpRNmF1bnR2NmZrYjhudmFwdWtEaUQzejZEdVlFWEh3VWZ4cHhPckNackhsSWd2c2lfM19I?oc=5",
       "published_at": "2026-09-18T03:59:25+00:00",
       "category": "ceuta",
+      "language": "en",
+      "weight": 2
+    },
+    {
+      "title": "New York: Morocco Stresses that Management of Straits is a Responsibility, Not Ownership, Calls for Code of Conduct for Littoral States",
+      "source": "diplomatie.ma",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNTEdPQmNuWEdQTnRHelBOZGY0d3JEUmM1U2llcHkzRVBqTDByVTZ2czNSMnJrTHlzNkU2NzhuSklZUXRuNkdtR0VUWk01aWlIM21tQXRqMFN5d1N6cEhQeDByR3VaNmtmLWZtQzRZNUl3WlVVRDI2WFpVVW9GUTRGdmxKeEstLXZqU0lxQnA5dEQwUnlQZEZwclg5QmZyMFJxYTllTWk3R1c0SFRTYnFRQ3Y0S2NYOW5OOEo2ZEZxYXVJZmZlWkFqMkJQRFpQUQ?oc=5",
+      "published_at": "2026-09-18T03:24:13+00:00",
+      "category": "traffic",
       "language": "en",
       "weight": 2
     },
@@ -331,7 +340,7 @@
     },
     {
       "title": "EE.UU estrecha relaciones diplomáticas y militares con Marruecos en medio de la crisis en Ceuta",
-      "source": "nuevarevolucion.es",
+      "source": "NR | Periodismo alternativo",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeHJRZUhLZjZqRzR1WlFqMzJ4eTdBMFJSbkR1UVFDZl9Bdl9DWmxqMFBNRThPcXNHXzBudElucHRaWG9BRGxrY0VhS3BUWTFkRDA5WE1LeHQ1aWpOQnUxVHI3VUlodnJOVHVVYmlTTlhUOTVnQk43eGhsWE8yODB4VDhZQ001Z2E1Z3B0ejRsdUdUMHNlei1MWTF0ckFHUklKaHZMb29lNnhPNzg4MjhXT1BmTVdhY0JtUU16bGtYS2I?oc=5",
       "published_at": "2026-09-17T05:42:32+00:00",
       "category": "ceuta",
@@ -340,7 +349,7 @@
     },
     {
       "title": "La Capitanía Marítima de Algeciras hace balance de una OPE 2026 sin incidencias reseñables en el tráfico marítimo",
-      "source": "elestrechodigital.com",
+      "source": "El Estrecho Digital",
       "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPbEJfeXdBa0pGczdrdklhTGJwNmJKXzZPV01Ybzl0YndBdGxzYmNoLWNsN3BQMTdrZGhBX3dnV1VrM1h4OE8ySEV5b25GYWZKbVFNeDJIbVZFYkZCOW9HOFNpaGNxSzBnckFkcWlCVG53ZVBadkJHSjVHUExBbEdUamN4UTRWNmFma2JIcGNSb2p3UVRxdFhUZ2FGOWpjY0FyMFoxaUxJczFXcXBIRjlVang3TmpVZnJZOFZaTTc4b3BUVkptTTdLeXJGMkJYZW9xeEFyZ3BHM0pRQTVZTjljTExtaFczNkxsWkkwMm01dw?oc=5",
       "published_at": "2026-09-17T05:30:00+00:00",
       "category": "ports",
@@ -353,15 +362,6 @@
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONXNSdmFQaHVyWnFwdENVcXdhSUhoYmh1T1NEcWFhOHlZV3ROckJ0LXZyZUN0ZUxOcUlwUlFhaGhNVUFwYkk3QkN6dF9fOHFIUkhQY01FU1JwNEloQmxva3ZURlJvYnoyaVBqZkpadDFVRXVINE9xV0lqZlJqbjdMVlZ1VTFPQmRVLTZMYTJydDZOcHg0OTlmNnNjRkRBcmd4NWdHNnBsQ1RXd1lTaEl3eVRvT24wZ9IBuwFBVV95cUxQNl91RW9SOHc0Ukc4UHBPejllci1IN2oyRGo0Mkc4b3NFTnhnRDR0NHVyMF9zSU05OUxYdFJWTGdpeVc4aUFXRHFYV1lpX3NFdWgyanhFWHAzaV93aWJfQVo1UFB0SWFWbTdxWnhJTFNubzUzLXZoLXZJenJ5VHRpeFZwdGk1X2Nob1dHb3dkYUswOGFuaWJfT0VGR1NVUGJHeU9GNFY2cS1aR3lXNTh3bHZqWjl5UHgyamdn?oc=5",
       "published_at": "2026-09-17T02:01:18+00:00",
       "category": "traffic",
-      "language": "es",
-      "weight": 2
-    },
-    {
-      "title": "El tráfico puerto de Algeciras-Ceuta desciende un 20% por la crisis",
-      "source": "Economía Digital",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObTE1d1pfeHJUSTg1LWEtSkdsZkR6cHBZa0VLWG9KRzd5SEJSMzZLV1dtbHVsZGtrN2NLaWViU2hORmdDb2VKV3UzS2pJc21ocGJTbGR2Q1VFQVhTQ2tIQk5hcXgxaFo0aFVpQm56YlBKa1R6cmE3ZkJWTktwY2xsLVl4YjNjUXhlTnVYY3dqdkNYcGZZeEdsQjlGa1BDOFhYaVBoLWRVNllweGctWkhQc1Brc1ZNdnc?oc=5",
-      "published_at": "2026-09-16T15:41:20+00:00",
-      "category": "ports",
       "language": "es",
       "weight": 2
     }

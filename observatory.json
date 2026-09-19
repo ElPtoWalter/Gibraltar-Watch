@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-19T14:28:45Z",
+  "generated_at": "2026-09-19T18:04:49Z",
   "state": {
-    "code": "watch",
-    "label_es": "VIGILANCIA",
-    "color": "yellow",
-    "severity": 1,
-    "summary_es": "La situación requiere seguimiento, pero no aparecen señales suficientes para elevar el nivel operativo. Parte de las fuentes necesita actualización, por lo que la lectura debe interpretarse con cautela.",
+    "code": "normal",
+    "label_es": "NORMALIDAD OPERATIVA",
+    "color": "green",
+    "severity": 0,
+    "summary_es": "No aparecen señales suficientes para elevar el nivel general del observatorio. Parte de las fuentes necesita actualización, por lo que la lectura debe interpretarse con cautela.",
     "layers": {
       "maritime": {
         "value": "OPERATIVO",
@@ -21,8 +21,8 @@
         "severity": 0
       },
       "security": {
-        "value": "VIGILANCIA",
-        "severity": 1
+        "value": "SIN ALERTA ESPECÍFICA",
+        "severity": 0
       }
     },
     "confidence": "BAJA",
@@ -33,7 +33,7 @@
     }
   },
   "metrics": {
-    "news_24h": 5,
+    "news_24h": 6,
     "news_sources": 30,
     "seismic_24h": 0,
     "seismic_7d": 0,
@@ -48,25 +48,31 @@
   },
   "anomalies": [],
   "changes": {
-    "state_changed": false,
+    "state_changed": true,
     "previous_state_code": "watch",
-    "layer_changes": []
+    "layer_changes": [
+      {
+        "key": "security",
+        "previous": "VIGILANCIA",
+        "current": "SIN ALERTA ESPECÍFICA"
+      }
+    ]
   },
   "health": {
     "overall": "stale",
-    "generated_at": "2026-09-19T14:28:45Z"
+    "generated_at": "2026-09-19T18:04:49Z"
   },
   "latest_diary": {
     "date": "2026-09-19",
     "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
-    "summary": "Selección automática de 9 referencias de 9 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "summary": "Selección automática de 9 referencias de 8 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
     "published_at": "2026-09-19T13:06+02:00",
-    "updated_at": "2026-09-19T16:28+02:00",
+    "updated_at": "2026-09-19T20:04+02:00",
     "source_count": 9,
     "indexable": false,
     "edition_label": "Cuaderno de las dos orillas",
     "edition_slug": "shores",
-    "fingerprint": "7363e0eec02bf799d272",
+    "fingerprint": "c7dc4fd087b513fdd671",
     "editor_engine": "rules",
     "editor_assistant_status": "no-key",
     "date_label": "2026-09-19",

@@ -3,9 +3,9 @@
   "latest_entry": {
     "date": "2026-09-19",
     "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
-    "summary": "Selección automática de 9 referencias de 9 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "summary": "Selección automática de 9 referencias de 8 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
     "url": "diario/2026-09-19.html",
-    "material_archive": false,
+    "material_archive": true,
     "status_snapshot": {
       "maritime_status": {
         "es": "OPERATIVO",
@@ -20,32 +20,31 @@
         "en": "STABLE"
       },
       "security_status": {
-        "es": "VIGILANCIA",
-        "en": "MONITORING"
+        "es": "SIN ALERTA ESPECÍFICA",
+        "en": "NO SPECIFIC ALERT"
       }
     },
     "source_keys": [
       "0eeefaed09ffff66f632",
       "1e8df986cec185827440",
-      "81c2fcb14b29bea44357",
+      "a97526a41b69e42738b6",
       "b5995c5fc989c132aa0b",
+      "d23ac54b32b00645fc4b",
       "d79bce302a725542fc45",
       "e28ad0298c801ef22026",
-      "eeb74f55c711c99f3e50",
       "f4d14a6f92371c8d437c",
       "fa488a0a0646bf4cb652"
     ],
     "published_at": "2026-09-19T13:06+02:00",
-    "updated_at": "2026-09-19T16:28+02:00",
+    "updated_at": "2026-09-19T20:04+02:00",
     "published_rfc822": "Sat, 19 Sep 2026 13:06:00 +0200",
     "source_count": 9,
-    "fingerprint": "7363e0eec02bf799d272",
+    "fingerprint": "c7dc4fd087b513fdd671",
     "mode": "full",
-    "significance": 79,
+    "significance": 62,
     "significance_reasons": [
       "actualidad repartida en tres o más ámbitos",
-      "volumen informativo relevante",
-      "indicadores operativos o geopolíticos fuera de la normalidad"
+      "volumen informativo relevante"
     ],
     "indexable": false,
     "editor_engine": "rules",
@@ -57,9 +56,9 @@
     {
       "date": "2026-09-19",
       "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
-      "summary": "Selección automática de 9 referencias de 9 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+      "summary": "Selección automática de 9 referencias de 8 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
       "url": "diario/2026-09-19.html",
-      "material_archive": false,
+      "material_archive": true,
       "status_snapshot": {
         "maritime_status": {
           "es": "OPERATIVO",
@@ -74,32 +73,31 @@
           "en": "STABLE"
         },
         "security_status": {
-          "es": "VIGILANCIA",
-          "en": "MONITORING"
+          "es": "SIN ALERTA ESPECÍFICA",
+          "en": "NO SPECIFIC ALERT"
         }
       },
       "source_keys": [
         "0eeefaed09ffff66f632",
         "1e8df986cec185827440",
-        "81c2fcb14b29bea44357",
+        "a97526a41b69e42738b6",
         "b5995c5fc989c132aa0b",
+        "d23ac54b32b00645fc4b",
         "d79bce302a725542fc45",
         "e28ad0298c801ef22026",
-        "eeb74f55c711c99f3e50",
         "f4d14a6f92371c8d437c",
         "fa488a0a0646bf4cb652"
       ],
       "published_at": "2026-09-19T13:06+02:00",
-      "updated_at": "2026-09-19T16:28+02:00",
+      "updated_at": "2026-09-19T20:04+02:00",
       "published_rfc822": "Sat, 19 Sep 2026 13:06:00 +0200",
       "source_count": 9,
-      "fingerprint": "7363e0eec02bf799d272",
+      "fingerprint": "c7dc4fd087b513fdd671",
       "mode": "full",
-      "significance": 79,
+      "significance": 62,
       "significance_reasons": [
         "actualidad repartida en tres o más ámbitos",
-        "volumen informativo relevante",
-        "indicadores operativos o geopolíticos fuera de la normalidad"
+        "volumen informativo relevante"
       ],
       "indexable": false,
       "editor_engine": "rules",

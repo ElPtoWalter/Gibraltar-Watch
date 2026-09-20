@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-20T16:51:55Z",
+  "generated_at": "2026-09-20T19:30:26Z",
   "state": {
     "code": "watch",
     "label_es": "VIGILANCIA",
@@ -33,8 +33,8 @@
     }
   },
   "metrics": {
-    "news_24h": 5,
-    "news_sources": 29,
+    "news_24h": 7,
+    "news_sources": 31,
     "seismic_24h": 0,
     "seismic_7d": 0,
     "seismic_30d": 0,
@@ -54,19 +54,19 @@
   },
   "health": {
     "overall": "stale",
-    "generated_at": "2026-09-20T16:51:55Z"
+    "generated_at": "2026-09-20T19:30:26Z"
   },
   "latest_diary": {
     "date": "2026-09-20",
     "headline": "España–Marruecos: qué aportan los titulares y qué falta comprobar",
     "summary": "Selección automática de 7 referencias de 7 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
-    "published_at": "2026-09-20T18:51+02:00",
-    "updated_at": "2026-09-20T18:51+02:00",
+    "published_at": "2026-09-20T21:30+02:00",
+    "updated_at": "2026-09-20T21:30+02:00",
     "source_count": 7,
     "indexable": false,
     "edition_label": "Cuaderno diplomático",
     "edition_slug": "relations",
-    "fingerprint": "12235c466f49c40eb380",
+    "fingerprint": "62ee3a849ce71ca782ab",
     "editor_engine": "rules",
     "editor_assistant_status": "no-key",
     "date_label": "2026-09-20",

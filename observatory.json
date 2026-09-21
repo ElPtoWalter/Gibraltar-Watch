@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-21T01:10:33Z",
+  "generated_at": "2026-09-21T06:26:24Z",
   "state": {
     "code": "watch",
     "label_es": "VIGILANCIA",
@@ -33,8 +33,8 @@
     }
   },
   "metrics": {
-    "news_24h": 8,
-    "news_sources": 32,
+    "news_24h": 15,
+    "news_sources": 31,
     "seismic_24h": 0,
     "seismic_7d": 0,
     "seismic_30d": 0,
@@ -43,8 +43,8 @@
     "ope_passengers_day": 59877,
     "ope_vehicles_day": 15464,
     "ope_rotations_day": 179,
-    "diary_date": "2026-09-20",
-    "diary_source_count": 7
+    "diary_date": "2026-09-21",
+    "diary_source_count": 9
   },
   "anomalies": [],
   "changes": {
@@ -54,23 +54,23 @@
   },
   "health": {
     "overall": "stale",
-    "generated_at": "2026-09-21T01:10:33Z"
+    "generated_at": "2026-09-21T06:26:24Z"
   },
   "latest_diary": {
-    "date": "2026-09-20",
-    "headline": "España–Marruecos: qué aportan los titulares y qué falta comprobar",
-    "summary": "Selección automática de 7 referencias de 7 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
-    "published_at": "2026-09-20T21:30+02:00",
-    "updated_at": "2026-09-20T21:30+02:00",
-    "source_count": 7,
+    "date": "2026-09-21",
+    "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
+    "summary": "Selección automática de 9 referencias de 9 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "published_at": "2026-09-21T08:26+02:00",
+    "updated_at": "2026-09-21T08:26+02:00",
+    "source_count": 9,
     "indexable": false,
-    "edition_label": "Cuaderno diplomático",
-    "edition_slug": "relations",
-    "fingerprint": "62ee3a849ce71ca782ab",
+    "edition_label": "Cuaderno de las dos orillas",
+    "edition_slug": "shores",
+    "fingerprint": "8ff8b14f6c2d3f5b1ed7",
     "editor_engine": "rules",
     "editor_assistant_status": "no-key",
-    "date_label": "2026-09-20",
-    "slug": "actual.html"
+    "date_label": "2026-09-21",
+    "slug": "2026-09-21.html"
   },
   "latest_ope": {
     "report_date": "2026-08-15",

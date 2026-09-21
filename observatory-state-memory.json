@@ -1,14 +1,16 @@
 {
-  "updated_at": "2026-09-21T14:16:33Z",
-  "state_code": "reinforced_watch",
+  "updated_at": "2026-09-21T19:34:20Z",
+  "state_code": "watch",
   "layers": {
     "maritime": "OPERATIVO",
-    "border": "ALTA",
+    "border": "MEDIA",
     "bilateral": "ESTABLE",
-    "security": "VIGILANCIA REFORZADA"
+    "security": "VIGILANCIA"
   },
   "diary_date": "2026-09-21",
   "ope_report_date": "2026-08-15",
   "seismic_event_id": null,
-  "anomaly_keys": []
+  "anomaly_keys": [
+    "news-volume"
+  ]
 }

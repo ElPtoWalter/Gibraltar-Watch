@@ -1,5 +1,29 @@
 [
   {
+    "key": "state-watch-2026-09-21",
+    "at": "2026-09-21T19:34:20Z",
+    "level": "info",
+    "title_es": "Cambio de nivel del observatorio",
+    "detail_es": "El nivel general pasa a VIGILANCIA. La situación requiere seguimiento, pero no aparecen señales suficientes para elevar el nivel operativo. Parte de las fuentes necesita actualización, por lo que la lectura debe interpretarse con cautela.",
+    "href": "situacion-actual.html"
+  },
+  {
+    "key": "layer-security-VIGILANCIA-2026-09-21",
+    "at": "2026-09-21T19:34:20Z",
+    "level": "info",
+    "title_es": "Actualización: Seguridad",
+    "detail_es": "El indicador editorial pasa a «VIGILANCIA».",
+    "href": "situacion-actual.html"
+  },
+  {
+    "key": "anomaly-news-volume-2026-09-21",
+    "at": "2026-09-21T19:34:20Z",
+    "level": "data",
+    "title_es": "Volumen informativo superior al patrón reciente",
+    "detail_es": "Se detectan 17 referencias en 24 h frente a una mediana reciente de 9. Es una señal de atención, no una prueba de crisis.",
+    "href": "datos.html"
+  },
+  {
     "key": "state-reinforced_watch-2026-09-21",
     "at": "2026-09-21T14:16:33Z",
     "level": "alert",

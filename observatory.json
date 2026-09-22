@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-21T23:20:30Z",
+  "generated_at": "2026-09-22T05:05:42Z",
   "state": {
     "code": "reinforced_watch",
     "label_es": "VIGILANCIA REFORZADA",
@@ -33,8 +33,8 @@
     }
   },
   "metrics": {
-    "news_24h": 16,
-    "news_sources": 30,
+    "news_24h": 12,
+    "news_sources": 31,
     "seismic_24h": 0,
     "seismic_7d": 0,
     "seismic_30d": 0,
@@ -43,45 +43,34 @@
     "ope_passengers_day": 59877,
     "ope_vehicles_day": 15464,
     "ope_rotations_day": 179,
-    "diary_date": "2026-09-21",
+    "diary_date": "2026-09-22",
     "diary_source_count": 9
   },
   "anomalies": [],
   "changes": {
-    "state_changed": true,
-    "previous_state_code": "watch",
-    "layer_changes": [
-      {
-        "key": "border",
-        "previous": "MEDIA",
-        "current": "ALTA"
-      },
-      {
-        "key": "security",
-        "previous": "VIGILANCIA",
-        "current": "VIGILANCIA REFORZADA"
-      }
-    ]
+    "state_changed": false,
+    "previous_state_code": "reinforced_watch",
+    "layer_changes": []
   },
   "health": {
     "overall": "stale",
-    "generated_at": "2026-09-21T23:20:30Z"
+    "generated_at": "2026-09-22T05:05:42Z"
   },
   "latest_diary": {
-    "date": "2026-09-21",
+    "date": "2026-09-22",
     "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
-    "summary": "Selección automática de 9 referencias de 9 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
-    "published_at": "2026-09-21T08:26+02:00",
-    "updated_at": "2026-09-21T21:34+02:00",
+    "summary": "Selección automática de 9 referencias de 8 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "published_at": "2026-09-22T07:05+02:00",
+    "updated_at": "2026-09-22T07:05+02:00",
     "source_count": 9,
     "indexable": false,
     "edition_label": "Cuaderno de las dos orillas",
     "edition_slug": "shores",
-    "fingerprint": "3e985a065ac6c3316043",
+    "fingerprint": "ab8c5137020c0c6824fa",
     "editor_engine": "rules",
     "editor_assistant_status": "no-key",
-    "date_label": "2026-09-21",
-    "slug": "2026-09-21.html"
+    "date_label": "2026-09-22",
+    "slug": "2026-09-22.html"
   },
   "latest_ope": {
     "report_date": "2026-08-15",

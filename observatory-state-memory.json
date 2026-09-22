@@ -1,14 +1,16 @@
 {
-  "updated_at": "2026-09-22T18:58:16Z",
-  "state_code": "watch",
+  "updated_at": "2026-09-22T22:14:51Z",
+  "state_code": "normal",
   "layers": {
     "maritime": "OPERATIVO",
-    "border": "MEDIA",
+    "border": "BAJA / SIN SEÑALES RECIENTES",
     "bilateral": "ESTABLE",
-    "security": "VIGILANCIA"
+    "security": "SIN ALERTA ESPECÍFICA"
   },
   "diary_date": "2026-09-22",
   "ope_report_date": "2026-08-15",
   "seismic_event_id": null,
-  "anomaly_keys": []
+  "anomaly_keys": [
+    "news-volume"
+  ]
 }

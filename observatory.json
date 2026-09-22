@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-22T05:05:42Z",
+  "generated_at": "2026-09-22T10:03:32Z",
   "state": {
     "code": "reinforced_watch",
     "label_es": "VIGILANCIA REFORZADA",
@@ -33,7 +33,7 @@
     }
   },
   "metrics": {
-    "news_24h": 12,
+    "news_24h": 11,
     "news_sources": 31,
     "seismic_24h": 0,
     "seismic_7d": 0,
@@ -54,19 +54,19 @@
   },
   "health": {
     "overall": "stale",
-    "generated_at": "2026-09-22T05:05:42Z"
+    "generated_at": "2026-09-22T10:03:32Z"
   },
   "latest_diary": {
     "date": "2026-09-22",
     "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
     "summary": "Selección automática de 9 referencias de 8 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
     "published_at": "2026-09-22T07:05+02:00",
-    "updated_at": "2026-09-22T07:05+02:00",
+    "updated_at": "2026-09-22T12:03+02:00",
     "source_count": 9,
     "indexable": false,
     "edition_label": "Cuaderno de las dos orillas",
     "edition_slug": "shores",
-    "fingerprint": "ab8c5137020c0c6824fa",
+    "fingerprint": "031b82c07c73a664dda7",
     "editor_engine": "rules",
     "editor_assistant_status": "no-key",
     "date_label": "2026-09-22",

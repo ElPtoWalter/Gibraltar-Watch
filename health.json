@@ -1,23 +1,23 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-23T00:40:54Z",
+  "generated_at": "2026-09-23T06:02:36Z",
   "overall": "stale",
   "components": [
     {
       "name": "Sismicidad USGS",
       "state": "fresh",
       "label_es": "ACTUALIZADO",
-      "checked_at": "2026-09-23T00:40:30Z",
+      "checked_at": "2026-09-23T06:02:14Z",
       "age_minutes": 0,
       "source": "USGS Earthquake Catalog",
-      "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-08-24T00%3A40%3A30Z&endtime=2026-09-23T00%3A40%3A30Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
+      "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-08-24T06%3A02%3A14Z&endtime=2026-09-23T06%3A02%3A14Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
       "note_es": "Catálogo sísmico regional; no es una herramienta de predicción."
     },
     {
       "name": "Actualidad y geopolítica",
       "state": "fresh",
       "label_es": "ACTUALIZADO",
-      "checked_at": "2026-09-23T00:40:47.791172+00:00",
+      "checked_at": "2026-09-23T06:02:31.063613+00:00",
       "age_minutes": 0,
       "source": "Monitor editorial de fuentes públicas",
       "url": "fuentes.html",
@@ -27,7 +27,7 @@
       "name": "Operación Paso del Estrecho",
       "state": "stale",
       "label_es": "PARTE ANTIGUO",
-      "checked_at": "2026-09-23T00:40:47Z",
+      "checked_at": "2026-09-23T06:02:30Z",
       "age_minutes": 0,
       "source": "Secretaría General de Protección Civil y Emergencias",
       "url": "https://www.proteccioncivil.es/documents/20121/0/20260815_InformeOPE.pdf",
@@ -38,26 +38,26 @@
       "name": "Diario del Estrecho",
       "state": "fresh",
       "label_es": "ACTUALIZADO",
-      "checked_at": "2026-09-22T18:58:00Z",
-      "age_minutes": 342,
+      "checked_at": "2026-09-23T06:02:00Z",
+      "age_minutes": 0,
       "source": "Gibraltar Watch",
-      "url": "diario/2026-09-22.html",
+      "url": "diario/2026-09-23.html",
       "note_es": "Última edición publicada"
     },
     {
       "name": "Integridad del sitio",
       "state": "fresh",
       "label_es": "CORRECTA",
-      "checked_at": "2026-09-23T00:40:54Z",
+      "checked_at": "2026-09-23T06:02:36Z",
       "age_minutes": 0,
       "source": "Validador local",
       "note_es": "Todos los archivos críticos están presentes."
     }
   ],
   "workflow": {
-    "run_id": "35803072332",
+    "run_id": "35824910203",
     "run_attempt": "1",
-    "sha": "8797a3269f0a",
+    "sha": "85c07a46027a",
     "event": "schedule"
   }
 }

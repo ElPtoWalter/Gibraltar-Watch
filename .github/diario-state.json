@@ -1,51 +1,50 @@
 {
   "version": 4,
   "latest_entry": {
-    "date": "2026-09-22",
+    "date": "2026-09-23",
     "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
-    "summary": "Selección automática de 9 referencias de 9 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
-    "url": "diario/2026-09-22.html",
-    "material_archive": false,
+    "summary": "Selección automática de 9 referencias de 8 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "url": "diario/2026-09-23.html",
+    "material_archive": true,
     "status_snapshot": {
       "maritime_status": {
         "es": "OPERATIVO",
         "en": "OPERATIONAL"
       },
       "border_pressure": {
-        "es": "MEDIA",
-        "en": "MEDIUM"
+        "es": "BAJA / SIN SEÑALES RECIENTES",
+        "en": "LOW / NO RECENT SIGNALS"
       },
       "bilateral_tension": {
         "es": "ESTABLE",
         "en": "STABLE"
       },
       "security_status": {
-        "es": "VIGILANCIA",
-        "en": "MONITORING"
+        "es": "SIN ALERTA ESPECÍFICA",
+        "en": "NO SPECIFIC ALERT"
       }
     },
     "source_keys": [
-      "47ffbde042dc2aa0a688",
-      "4a6ab76f5ede91c74d41",
-      "4dcf1ae11c294f290e59",
-      "6fa1236e89ad08bc32a7",
+      "140dfa45c39bce9a62f7",
+      "18f223e2de7bb18374a8",
+      "1d28e373b867cf979730",
+      "74df80712896d898017c",
+      "7b0286a0da12a5306f8d",
+      "ae6bafccec0a36b3e80a",
+      "aea5e22d8a6a6c63d1bf",
       "b1e47c17c1e6e0851432",
-      "cc10f7e79016f587a810",
-      "d039722f1aa2944445ee",
-      "d2255a399ef6e60748d7",
-      "f2891d0d849e24589146"
+      "d039722f1aa2944445ee"
     ],
-    "published_at": "2026-09-22T07:05+02:00",
-    "updated_at": "2026-09-22T20:58+02:00",
-    "published_rfc822": "Tue, 22 Sep 2026 07:05:00 +0200",
+    "published_at": "2026-09-23T08:02+02:00",
+    "updated_at": "2026-09-23T08:02+02:00",
+    "published_rfc822": "Wed, 23 Sep 2026 08:02:00 +0200",
     "source_count": 9,
-    "fingerprint": "150ce00ecfee36055bbd",
+    "fingerprint": "c082f58a82d94bafc148",
     "mode": "full",
-    "significance": 79,
+    "significance": 63,
     "significance_reasons": [
       "actualidad repartida en tres o más ámbitos",
-      "volumen informativo relevante",
-      "indicadores operativos o geopolíticos fuera de la normalidad"
+      "volumen informativo relevante"
     ],
     "indexable": false,
     "editor_engine": "rules",
@@ -54,6 +53,58 @@
     "edition_slug": "shores"
   },
   "entries": [
+    {
+      "date": "2026-09-23",
+      "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
+      "summary": "Selección automática de 9 referencias de 8 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+      "url": "diario/2026-09-23.html",
+      "material_archive": true,
+      "status_snapshot": {
+        "maritime_status": {
+          "es": "OPERATIVO",
+          "en": "OPERATIONAL"
+        },
+        "border_pressure": {
+          "es": "BAJA / SIN SEÑALES RECIENTES",
+          "en": "LOW / NO RECENT SIGNALS"
+        },
+        "bilateral_tension": {
+          "es": "ESTABLE",
+          "en": "STABLE"
+        },
+        "security_status": {
+          "es": "SIN ALERTA ESPECÍFICA",
+          "en": "NO SPECIFIC ALERT"
+        }
+      },
+      "source_keys": [
+        "140dfa45c39bce9a62f7",
+        "18f223e2de7bb18374a8",
+        "1d28e373b867cf979730",
+        "74df80712896d898017c",
+        "7b0286a0da12a5306f8d",
+        "ae6bafccec0a36b3e80a",
+        "aea5e22d8a6a6c63d1bf",
+        "b1e47c17c1e6e0851432",
+        "d039722f1aa2944445ee"
+      ],
+      "published_at": "2026-09-23T08:02+02:00",
+      "updated_at": "2026-09-23T08:02+02:00",
+      "published_rfc822": "Wed, 23 Sep 2026 08:02:00 +0200",
+      "source_count": 9,
+      "fingerprint": "c082f58a82d94bafc148",
+      "mode": "full",
+      "significance": 63,
+      "significance_reasons": [
+        "actualidad repartida en tres o más ámbitos",
+        "volumen informativo relevante"
+      ],
+      "indexable": false,
+      "editor_engine": "rules",
+      "editor_assistant_status": "no-key",
+      "edition_label": "Cuaderno de las dos orillas",
+      "edition_slug": "shores"
+    },
     {
       "date": "2026-09-22",
       "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",

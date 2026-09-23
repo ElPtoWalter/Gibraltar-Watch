@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-23T11:44:59Z",
+  "generated_at": "2026-09-23T17:09:31Z",
   "state": {
     "code": "normal",
     "label_es": "NORMALIDAD OPERATIVA",
@@ -34,7 +34,7 @@
   },
   "metrics": {
     "news_24h": 36,
-    "news_sources": 31,
+    "news_sources": 33,
     "seismic_24h": 0,
     "seismic_7d": 0,
     "seismic_30d": 0,
@@ -61,19 +61,19 @@
   },
   "health": {
     "overall": "stale",
-    "generated_at": "2026-09-23T11:44:59Z"
+    "generated_at": "2026-09-23T17:09:31Z"
   },
   "latest_diary": {
     "date": "2026-09-23",
     "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
     "summary": "Selección automática de 9 referencias de 9 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
     "published_at": "2026-09-23T08:02+02:00",
-    "updated_at": "2026-09-23T13:44+02:00",
+    "updated_at": "2026-09-23T19:09+02:00",
     "source_count": 9,
     "indexable": false,
     "edition_label": "Cuaderno de las dos orillas",
     "edition_slug": "shores",
-    "fingerprint": "db02c127abe78ca5adb1",
+    "fingerprint": "480a5e906113e946ab4d",
     "editor_engine": "rules",
     "editor_assistant_status": "no-key",
     "date_label": "2026-09-23",

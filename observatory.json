@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-23T23:45:24Z",
+  "generated_at": "2026-09-24T05:01:12Z",
   "state": {
     "code": "normal",
     "label_es": "NORMALIDAD OPERATIVA",
@@ -33,7 +33,7 @@
     }
   },
   "metrics": {
-    "news_24h": 36,
+    "news_24h": 33,
     "news_sources": 31,
     "seismic_24h": 0,
     "seismic_7d": 0,
@@ -43,7 +43,7 @@
     "ope_passengers_day": 59877,
     "ope_vehicles_day": 15464,
     "ope_rotations_day": 179,
-    "diary_date": "2026-09-23",
+    "diary_date": "2026-09-24",
     "diary_source_count": 9
   },
   "anomalies": [
@@ -51,7 +51,7 @@
       "key": "news-volume",
       "level": "info",
       "title_es": "Volumen informativo superior al patrón reciente",
-      "detail_es": "Se detectan 36 referencias en 24 h frente a una mediana reciente de 9. Es una señal de atención, no una prueba de crisis."
+      "detail_es": "Se detectan 33 referencias en 24 h frente a una mediana reciente de 9. Es una señal de atención, no una prueba de crisis."
     }
   ],
   "changes": {
@@ -61,23 +61,23 @@
   },
   "health": {
     "overall": "stale",
-    "generated_at": "2026-09-23T23:45:24Z"
+    "generated_at": "2026-09-24T05:01:12Z"
   },
   "latest_diary": {
-    "date": "2026-09-23",
+    "date": "2026-09-24",
     "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
     "summary": "Selección automática de 9 referencias de 9 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
-    "published_at": "2026-09-23T08:02+02:00",
-    "updated_at": "2026-09-23T22:27+02:00",
+    "published_at": "2026-09-24T07:01+02:00",
+    "updated_at": "2026-09-24T07:01+02:00",
     "source_count": 9,
     "indexable": false,
     "edition_label": "Cuaderno de las dos orillas",
     "edition_slug": "shores",
-    "fingerprint": "ae8bd207a62b6605ca11",
+    "fingerprint": "d2defb6c02abfe5019d8",
     "editor_engine": "rules",
     "editor_assistant_status": "no-key",
-    "date_label": "2026-09-23",
-    "slug": "2026-09-23.html"
+    "date_label": "2026-09-24",
+    "slug": "actual.html"
   },
   "latest_ope": {
     "report_date": "2026-08-15",

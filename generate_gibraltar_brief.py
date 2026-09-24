@@ -11,13 +11,16 @@ import html
 import json
 import os
 import re
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 from zoneinfo import ZoneInfo
 
 ROOT = Path(os.getenv("GIBRALTAR_ROOT", Path(__file__).resolve().parent))
-MADRID = ZoneInfo("Europe/Madrid")
+try:
+    MADRID = ZoneInfo("Europe/Madrid")
+except Exception:  # Windows environments may not bundle the IANA database.
+    MADRID = timezone(timedelta(hours=2), "CEST")
 BASE = "https://estrechogibraltar.com"
 MAX_ARCHIVE = 120
 

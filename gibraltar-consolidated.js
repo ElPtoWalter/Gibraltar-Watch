@@ -22,10 +22,10 @@
     const date = new Date(value);
     if (Number.isNaN(date.getTime())) return '—';
     return new Intl.DateTimeFormat(locale, {
-      dateStyle: 'medium',
-      timeStyle: 'short',
+      day: '2-digit', month: 'short', year: 'numeric',
+      hour: '2-digit', minute: '2-digit', timeZoneName: 'short',
       timeZone: tz,
-    }).format(date) + (lang === 'en' ? ' UTC' : '');
+    }).format(date);
   }
 
   function formatNumber(value) {
@@ -136,16 +136,21 @@
 
   async function loadGeopolitics() {
     try {
-      const data = await getJSON('geopolitics.json');
+      const [data, observatory] = await Promise.all([
+        getJSON('geopolitics.json'),
+        getJSON('observatory.json').catch(() => ({})),
+      ]);
       const status = data.status || {};
       const pick = entry => entry?.[lang] || entry?.es || entry?.en || '—';
       setStatus('maritime', 'gwcStatusMaritime', 'gwcNoteMaritime', pick(status.maritime_status), pick(status.maritime_note));
       setStatus('border', 'gwcStatusBorder', 'gwcNoteBorder', pick(status.border_pressure), pick(status.border_note));
       setStatus('bilateral', 'gwcStatusBilateral', 'gwcNoteBilateral', pick(status.bilateral_tension), pick(status.bilateral_note));
       setStatus('security', 'gwcStatusSecurity', 'gwcNoteSecurity', pick(status.security_status), pick(status.security_note));
-      const confidence = pick(status.confidence);
+      const confidence = observatory?.state?.confidence || pick(status.confidence);
       const meta = byId('gwcStatusMeta');
-      if (meta) meta.textContent = `${t('Actualizado', 'Updated')}: ${formatDate(data.generated_at)} · ${t('Confianza', 'Confidence')}: ${confidence}`;
+      if (meta) meta.textContent = `${t('Actualizado', 'Updated')}: ${formatDate(observatory.generated_at || data.generated_at)} · ${t('Confianza', 'Confidence')}: ${confidence}`;
+      const confidenceNote = byId('gwcConfidenceNote');
+      if (confidenceNote) confidenceNote.textContent = observatory?.state?.confidence_explanation_es || '';
       renderNews(data.items);
     } catch (error) {
       console.warn('Gibraltar Watch geopolitics:', error);

@@ -6,7 +6,8 @@
     const d = new Date(iso);
     if (Number.isNaN(d.getTime())) return iso;
     return new Intl.DateTimeFormat(lang === 'es' ? 'es-ES' : 'en-GB', {
-      dateStyle: 'medium', timeStyle: 'short'
+      day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit',
+      timeZone: lang === 'es' ? 'Europe/Madrid' : 'UTC', timeZoneName: 'short'
     }).format(d);
   };
   const levelFor = (key, value) => {
@@ -36,14 +37,15 @@
       }).join('');
     });
   };
-  const apply = (data) => {
+  const apply = (data, observatory) => {
     const s = data.status || {};
     const pairs = [
       ['maritime_status', localized(s.maritime_status)], ['maritime_note', localized(s.maritime_note)],
       ['border_pressure', localized(s.border_pressure)], ['border_note', localized(s.border_note)],
       ['bilateral_tension', localized(s.bilateral_tension)], ['bilateral_note', localized(s.bilateral_note)],
       ['security_status', localized(s.security_status)], ['security_note', localized(s.security_note)],
-      ['confidence', localized(s.confidence)], ['generated_at', fmtDate(data.generated_at)]
+      ['confidence', observatory?.state?.confidence || localized(s.confidence)],
+      ['generated_at', fmtDate(observatory?.generated_at || data.generated_at)]
     ];
     pairs.forEach(([k,v]) => setText(k,v));
     const cards = {
@@ -55,8 +57,10 @@
     });
     renderNews(data.items);
   };
-  fetch(`geopolitics.json?v=${Date.now()}`, {cache:'no-store'})
-    .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
-    .then(apply)
+  Promise.all([
+    fetch(`geopolitics.json?v=${Date.now()}`, {cache:'no-store'}).then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); }),
+    fetch(`observatory.json?v=${Date.now()}`, {cache:'no-store'}).then(r => r.ok ? r.json() : {})
+  ])
+    .then(([data, observatory]) => apply(data, observatory))
     .catch(() => renderNews([]));
 })();

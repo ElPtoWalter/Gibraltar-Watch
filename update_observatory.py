@@ -10,7 +10,7 @@ from __future__ import annotations
 import json
 import os
 import statistics
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from email.utils import format_datetime, parsedate_to_datetime
 from zoneinfo import ZoneInfo
 from pathlib import Path
@@ -18,7 +18,10 @@ from xml.sax.saxutils import escape as xml_escape
 
 ROOT = Path(__file__).resolve().parent
 NOW = datetime.now(timezone.utc)
-MADRID = ZoneInfo("Europe/Madrid")
+try:
+    MADRID = ZoneInfo("Europe/Madrid")
+except Exception:  # Windows environments may not bundle the IANA database.
+    MADRID = timezone(timedelta(hours=2), "CEST")
 LOCAL_TODAY = NOW.astimezone(MADRID).date()
 
 SEISMIC = ROOT / "seismicity.json"
@@ -226,6 +229,28 @@ def confidence(status: dict, health_state: str) -> str:
     return ("BAJA", "MEDIA", "ALTA")[rank]
 
 
+def confidence_context(level: str, health: dict) -> tuple[str, list[str]]:
+    components = health.get("components", []) if isinstance(health, dict) else []
+    pending = [
+        str(item.get("name"))
+        for item in components
+        if isinstance(item, dict) and item.get("state") in {"aging", "stale", "missing"}
+    ]
+    if pending:
+        joined = ", ".join(pending)
+        detail = (
+            f"Confianza {level.lower()} porque necesitan actualización o revisión: {joined}. "
+            "El estado operativo se mantiene separado de la frescura de esas fuentes."
+        )
+    elif level == "ALTA":
+        detail = "Confianza alta: las fuentes esenciales respondieron recientemente y son coherentes entre sí."
+    elif level == "MEDIA":
+        detail = "Confianza media: la lectura es coherente, pero aún faltan corroboraciones independientes para elevarla."
+    else:
+        detail = "Confianza baja: la información disponible no permite una corroboración reciente suficiente."
+    return detail, pending
+
+
 def metrics(seismic: dict, geopolitics: dict, ope: dict, diary: dict) -> dict:
     items = geopolitics.get("items", []) if isinstance(geopolitics, dict) else []
     recent_24 = 0
@@ -365,6 +390,37 @@ def make_snapshot(state: dict, metrics_data: dict, health: dict) -> dict:
     }
 
 
+def change_since_yesterday(state: dict, metrics_data: dict, history: list[dict]) -> dict:
+    previous = next(
+        (item for item in history if isinstance(item, dict) and item.get("date") < LOCAL_TODAY.isoformat()),
+        None,
+    )
+    if not previous:
+        return {
+            "reference_date": None,
+            "summary_es": "Aún no hay una referencia diaria anterior comparable.",
+        }
+
+    parts = []
+    previous_label = str(previous.get("state_label") or "").strip()
+    if previous_label and previous_label != state.get("label_es"):
+        parts.append(f"El nivel general pasa de {previous_label} a {state.get('label_es')}.")
+    else:
+        parts.append(f"El nivel general se mantiene en {state.get('label_es')}.")
+
+    previous_metrics = previous.get("metrics") if isinstance(previous.get("metrics"), dict) else {}
+    previous_news = previous_metrics.get("news_24h")
+    current_news = metrics_data.get("news_24h")
+    if isinstance(previous_news, (int, float)) and isinstance(current_news, (int, float)):
+        delta = int(current_news - previous_news)
+        if delta:
+            direction = "más" if delta > 0 else "menos"
+            parts.append(f"El monitor recoge {abs(delta)} referencias {direction} en la ventana de 24 horas.")
+        else:
+            parts.append("El volumen de referencias de las últimas 24 horas no cambia.")
+    return {"reference_date": previous.get("date"), "summary_es": " ".join(parts)}
+
+
 def update_history(snapshot: dict) -> list[dict]:
     history = load_json(HISTORY, [])
     if not isinstance(history, list):
@@ -465,8 +521,14 @@ def main() -> int:
     status = geopolitics.get("status", {}) if isinstance(geopolitics, dict) else {}
     state = overall_state(status, health["overall"])
     state["confidence"] = confidence(status, health["overall"])
+    state["confidence_explanation_es"], state["sources_pending"] = confidence_context(state["confidence"], health)
     current_metrics = metrics(seismic, geopolitics, ope, diary)
     previous_history = load_json(HISTORY, [])
+    since_yesterday = change_since_yesterday(
+        state,
+        current_metrics,
+        previous_history if isinstance(previous_history, list) else [],
+    )
     anomalies = detect_anomalies(current_metrics, previous_history if isinstance(previous_history, list) else [])
     snapshot = make_snapshot(state, current_metrics, health)
     history = update_history(snapshot)
@@ -480,6 +542,7 @@ def main() -> int:
         "metrics": current_metrics,
         "anomalies": anomalies,
         "changes": changes,
+        "since_yesterday": since_yesterday,
         "health": {"overall": health["overall"], "generated_at": health["generated_at"]},
         "latest_diary": diary,
         "latest_ope": {

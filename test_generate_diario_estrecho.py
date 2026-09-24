@@ -75,8 +75,27 @@ class DiaryTests(unittest.TestCase):
         self.assertIn('href="/diario.css?v=20260831-4"', html)
         self.assertIn(f'https://estrechogibraltar.com/diario/{g.NOW.date().isoformat()}.html', html)
         self.assertIn('LA SEÑAL DEL DÍA', html)
+        self.assertIn('CONCLUSIÓN EDITORIAL', html)
+        self.assertIn('QUÉ HA CAMBIADO DESDE AYER', html)
+        self.assertIn('CIFRAS OPERATIVAS DISPONIBLES', html)
         self.assertIn('EL LÍMITE DE LA LECTURA', html)
         self.assertNotIn('sistema editorial automatizado', html)
+
+    def test_editorial_conclusion_keeps_preventive_watch_visible(self):
+        status = {
+            'maritime_status': {'es': 'OPERATIVO'},
+            'border_pressure': {'es': 'VIGILANCIA PREVENTIVA'},
+            'bilateral_tension': {'es': 'ESTABLE'},
+        }
+        conclusion = g.editorial_conclusion(status)
+        self.assertIn('mantener la vigilancia', conclusion)
+        self.assertIn('vigilancia preventiva', conclusion)
+
+    def test_operational_figures_are_explicitly_not_realtime(self):
+        html = g.operational_figures_html()
+        self.assertIn('59.877 pasajeros', html)
+        self.assertIn('179 rotaciones', html)
+        self.assertIn('no un contador en tiempo real', html)
 
     def test_build_draft_uses_only_the_local_editorial_engine(self):
         draft, engine, status = g.build_draft({}, [], 'brief')

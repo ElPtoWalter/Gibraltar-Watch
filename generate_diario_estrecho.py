@@ -28,12 +28,16 @@ import re
 import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parent
-TZ = ZoneInfo("Europe/Madrid")
+try:
+    TZ = ZoneInfo("Europe/Madrid")
+except Exception:  # Windows environments may not bundle the IANA database.
+    TZ = timezone(timedelta(hours=2), "CEST")
 NOW_UTC = datetime.now(timezone.utc)
 NOW = NOW_UTC.astimezone(TZ)
 
 GEOPOLITICS = ROOT / "geopolitics.json"
 OPE = ROOT / "ope-2026.json"
+OBSERVATORY_HISTORY = ROOT / "observatory-history.json"
 STATE_DATA = ROOT / ".github" / "diario-state.json"
 LEGACY_STATE_DATA = ROOT / "diario-index.json"
 LEGACY_LATEST_DATA = ROOT / "diario-latest.json"
@@ -50,7 +54,7 @@ MAX_ITEMS = 9
 MAX_PER_CATEGORY = 3
 MAX_PER_DOMAIN = 2
 # La ruta remota es opcional y solo admite modelos marcados expresamente como gratuitos.
-EDITORIAL_VERSION = "evidence-3-free-editor"
+EDITORIAL_VERSION = "evidence-4-daily-context"
 
 HOME_START = "<!-- GW_DIARIO_HOME_START -->"
 HOME_END = "<!-- GW_DIARIO_HOME_END -->"
@@ -482,6 +486,87 @@ def source_items_html(selected: list[dict]) -> str:
     return '<ol class="gd-sources">' + "".join(lis) + "</ol>"
 
 
+def editorial_conclusion(status: dict) -> str:
+    maritime = status_text(status, "maritime_status", fallback="SIN DATOS").lower()
+    border = status_text(status, "border_pressure", fallback="SIN DATOS").lower()
+    bilateral = status_text(status, "bilateral_tension", fallback="SIN DATOS").lower()
+    if any(word in maritime.upper() for word in ("INTERRUMP", "CIERRE", "RESTRING", "INCIDEN")):
+        return (
+            f"El corredor exige cautela: el tráfico figura {maritime}, mientras la frontera se mantiene "
+            f"{border} y la relación bilateral {bilateral}."
+        )
+    if any(word in border.upper() for word in ("VIGILANCIA", "MEDIA", "ALTA", "ELEVAD")):
+        return (
+            f"El tráfico continúa {maritime}, pero la lectura prudente es mantener la vigilancia: "
+            f"la presión fronteriza figura {border} y el marco bilateral {bilateral}."
+        )
+    return (
+        f"La jornada conserva un perfil estable: tráfico {maritime}, presión fronteriza {border} "
+        f"y relación bilateral {bilateral}, sin que eso sustituya los avisos oficiales."
+    )
+
+
+def change_since_yesterday_html(date: str, status: dict, selected: list[dict]) -> str:
+    history = load_json(OBSERVATORY_HISTORY, [])
+    previous = next(
+        (item for item in history if isinstance(item, dict) and str(item.get("date", "")) < date),
+        None,
+    )
+    maritime = status_text(status, "maritime_status", fallback="sin datos").lower()
+    border = status_text(status, "border_pressure", fallback="sin datos").lower()
+    if not previous:
+        text = (
+            f"No hay todavía un cierre diario anterior comparable. Hoy el tráfico figura {maritime} "
+            f"y la presión fronteriza {border}."
+        )
+    else:
+        previous_metrics = previous.get("metrics", {}) if isinstance(previous.get("metrics"), dict) else {}
+        try:
+            previous_news = int(previous_metrics.get("news_24h"))
+        except (TypeError, ValueError):
+            previous_news = None
+        news_phrase = (
+            f"La selección de hoy reúne {len(selected)} referencias; el observatorio contabilizó "
+            f"{previous_news} en la ventana de 24 horas del cierre anterior."
+            if previous_news is not None
+            else f"La selección de hoy reúne {len(selected)} referencias recientes."
+        )
+        text = (
+            f"Frente al cierre del {previous.get('date')}, que quedó en "
+            f"{str(previous.get('state_label') or 'sin clasificación').lower()}, hoy el tráfico figura "
+            f"{maritime} y la presión fronteriza {border}. {news_phrase}"
+        )
+    return (
+        '<section class="gd-prose gd-change"><p class="gd-kicker">QUÉ HA CAMBIADO DESDE AYER</p>'
+        f'<h2>La variación diaria</h2><p>{escape(text)}</p></section>'
+    )
+
+
+def operational_figures_html() -> str:
+    ope = load_json(OPE, {})
+    departure = ope.get("departure", {}).get("day", {}) if isinstance(ope.get("departure"), dict) else {}
+    returning = ope.get("return", {}).get("day", {}) if isinstance(ope.get("return"), dict) else {}
+    if not departure or not returning:
+        return ""
+
+    def total(key: str) -> int:
+        try:
+            return int(departure.get(key, 0)) + int(returning.get(key, 0))
+        except (TypeError, ValueError):
+            return 0
+
+    report = clean_text(ope.get("report_label_es") or ope.get("report_date") or "fecha no disponible", 80)
+    passengers, vehicles, rotations = total("passengers"), total("vehicles"), total("rotations")
+    number = lambda value: f"{value:,}".replace(",", ".")
+    return (
+        '<section class="gd-prose gd-figures"><p class="gd-kicker">CIFRAS OPERATIVAS DISPONIBLES</p>'
+        '<h2>Último parte oficial localizado</h2>'
+        f'<p><strong>{number(passengers)} pasajeros · {number(vehicles)} vehículos · {number(rotations)} rotaciones</strong></p>'
+        f'<p>Totales de salida y retorno del {escape(report)}. Son cifras de aquel parte de la OPE, '
+        'no un contador en tiempo real.</p></section>'
+    )
+
+
 def sections_html(draft: dict, selected: list[dict]) -> str:
     groups = groups_for_items(selected)
     prose_by_title = {clean_text(s.get("title")): clean_text(s.get("paragraph"), 1800) for s in draft.get("sections", []) if isinstance(s, dict)}
@@ -569,7 +654,9 @@ def article_html(date: str, published_at: str, updated_at: str, status: dict, se
 <header class="gd-hero"><p class="gd-kicker">{escape(str(profile['label']).upper())} · {pretty_date}</p><div class="gd-edition-row"><span class="gd-edition-type">{type_label}</span><span>{source_count} fuentes recientes · {word_count} palabras</span></div><h1>{escape(h)}</h1><p class="gd-deck">{escape(deck)}</p><div class="gd-meta"><span>Publicado {escape(published_at[11:16])}</span><span>Actualizado {escape(updated_at[11:16])}</span><span>Gibraltar Watch · selección automática</span></div></header>
 {dashboard}
 <p><a href="/auditoria-datos-ope.html">Análisis propio: qué dicen los datos de la OPE y qué falta en el desglose</a></p>
-<section class="gd-summary"><p class="gd-kicker">LA JORNADA EN UNA FRASE</p><strong>{escape(deck)}</strong></section>
+<section class="gd-summary"><p class="gd-kicker">CONCLUSIÓN EDITORIAL</p><strong>{escape(editorial_conclusion(status))}</strong></section>
+{change_since_yesterday_html(date, status, selected)}
+{operational_figures_html()}
 <section class="gd-prose"><p class="gd-kicker">LA SITUACIÓN</p><h2>{'Qué deja la jornada' if mode == 'full' else 'Parte de situación'}</h2>{situation}</section>
 {sections_html(draft, selected)}
 <section class="gd-prose gd-meaning"><p class="gd-kicker">QUÉ SIGNIFICA</p><h2>La lectura del Estrecho</h2>{meaning}</section>

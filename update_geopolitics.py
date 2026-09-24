@@ -59,6 +59,12 @@ SOURCE_ALIASES = {
 
 BORDER_HIGH = re.compile(r"\b(mass|massive|thousands|50,?000|emergency|overwhelm|rush|dead|death|drown|crisis|entrada masiva|miles|emergencia|desbord|muert|ahog|avalancha)\b", re.I)
 BORDER_MED = re.compile(r"\b(attempt|crossing|migrant|border|fence|swim|cruce|frontera|migrante|valla|nado|menores)\b", re.I)
+BORDER_PREVENTIVE = re.compile(
+    r"\b(reinforc\w*|deployment|heightened|preventive|alert|call(?:s|ing)? to cross|"
+    r"refuerz\w*|despliegue|blindad\w*|preventiv\w*|alerta|llamamiento\w*|asalto)\b",
+    re.I,
+)
+BORDER_WATCH_HOURS = 48
 TENSION = re.compile(r"\b(tension|accus|critic|blame|sovereignty|claim|spat|pressure|instrumentali|tensión|acus|crític|culp|soberan|reivindic|presión|instrumentaliz)\b", re.I)
 SECURITY = re.compile(r"\b(military|army|police|barrier|reinforce|security|patrol|naval|militar|ejército|polic|barrera|refuerzo|seguridad|patrulla|naval)\b", re.I)
 MARITIME_DISRUPTION = re.compile(r"\b(strait.*closed|shipping.*halt|navigation.*suspend\w*|port.*clos\w*|estrecho.*cerrad\w*|tráfico.*deten\w*|navegación.*suspend\w*|puerto.*cerrad\w*)\b", re.I)
@@ -166,6 +172,35 @@ def classify(items: list[NewsItem], previous: dict | None = None) -> dict:
     security_score = sum(i.weight for i in trusted if SECURITY.search(i.title))
     disruption = [i for i in trusted if i.category in {"traffic", "ports"} and MARITIME_DISRUPTION.search(i.title)]
     restrictions = [i for i in trusted if i.category in {"traffic", "ports"} and MARITIME_RESTRICT.search(i.title)]
+    preventive = [
+        i for i in rec
+        if i.category in {"ceuta", "melilla"}
+        and i.weight >= 2
+        and BORDER_PREVENTIVE.search(i.title)
+    ]
+    preventive_sources = {i.source for i in preventive}
+
+    previous_payload = previous if isinstance(previous, dict) else {}
+    previous_status = previous_payload.get("status") if isinstance(previous_payload.get("status"), dict) else previous_payload
+    previous_watch = previous_status.get("border_watch") if isinstance(previous_status.get("border_watch"), dict) else {}
+    previous_last_signal = previous_watch.get("last_signal_at") or previous_payload.get("generated_at")
+    try:
+        previous_last_signal_dt = datetime.fromisoformat(str(previous_last_signal).replace("Z", "+00:00"))
+        if previous_last_signal_dt.tzinfo is None:
+            previous_last_signal_dt = previous_last_signal_dt.replace(tzinfo=timezone.utc)
+        previous_last_signal_dt = previous_last_signal_dt.astimezone(timezone.utc)
+    except (TypeError, ValueError):
+        previous_last_signal_dt = None
+    previous_border = str((previous_status.get("border_pressure") or {}).get("es") or "").upper()
+    prior_watch_active = (
+        previous_last_signal_dt is not None
+        and NOW - previous_last_signal_dt <= timedelta(hours=BORDER_WATCH_HOURS)
+        and any(label in previous_border for label in ("ALTA", "MEDIA", "VIGILANCIA"))
+    )
+    current_last_signal = max(
+        (datetime.fromisoformat(i.published_at).astimezone(timezone.utc) for i in preventive),
+        default=None,
+    )
 
     if len({i.source for i in disruption}) >= 2:
         maritime_es, maritime_en = "INTERRUPCIÓN POSIBLE", "POSSIBLE DISRUPTION"
@@ -188,10 +223,26 @@ def classify(items: list[NewsItem], previous: dict | None = None) -> dict:
         border_es, border_en = "MEDIA", "MEDIUM"
         border_note_es = "Existen intentos o presión fronteriza recientes."
         border_note_en = "Recent attempts or border pressure are being reported."
+    elif len(preventive_sources) >= 2 or any(i.weight >= 4 for i in preventive):
+        border_es, border_en = "VIGILANCIA PREVENTIVA", "PREVENTIVE WATCH"
+        border_note_es = "Se mantienen medidas preventivas o alertas recientes; el nivel no baja todavía a normalidad."
+        border_note_en = "Recent preventive measures or alerts remain in place; the level has not yet returned to normal."
+    elif prior_watch_active:
+        border_es, border_en = "VIGILANCIA PREVENTIVA", "PREVENTIVE WATCH"
+        border_note_es = "Se conserva la vigilancia durante 48 horas desde la última señal preventiva antes de reducir el nivel."
+        border_note_en = "Monitoring is retained for 48 hours after the latest preventive signal before lowering the level."
     else:
         border_es, border_en = "BAJA / SIN SEÑALES RECIENTES", "LOW / NO RECENT SIGNALS"
         border_note_es = "No aparecen señales recientes suficientes para elevar el nivel."
         border_note_en = "There are not enough recent signals to raise the level."
+
+    watch_last_signal = current_last_signal or (previous_last_signal_dt if prior_watch_active else None)
+    border_watch = {
+        "last_signal_at": watch_last_signal.isoformat() if watch_last_signal else None,
+        "hold_until": (watch_last_signal + timedelta(hours=BORDER_WATCH_HOURS)).isoformat() if watch_last_signal else None,
+        "signal_sources": len(preventive_sources),
+        "hold_hours": BORDER_WATCH_HOURS,
+    }
 
     if tension_score >= 8:
         relation_es, relation_en = "ELEVADA", "ELEVATED"
@@ -225,6 +276,7 @@ def classify(items: list[NewsItem], previous: dict | None = None) -> dict:
         "maritime_note": {"es": maritime_note_es, "en": maritime_note_en},
         "border_pressure": {"es": border_es, "en": border_en},
         "border_note": {"es": border_note_es, "en": border_note_en},
+        "border_watch": border_watch,
         "bilateral_tension": {"es": relation_es, "en": relation_en},
         "bilateral_note": {"es": relation_note_es, "en": relation_note_en},
         "security_status": {"es": sec_es, "en": sec_en},
@@ -263,7 +315,7 @@ def main() -> int:
     items = dedupe(items)
     selected = [i for i in items if i.weight >= 2][:36]
     if selected:
-        status = classify(selected, previous.get("status"))
+        status = classify(selected, previous)
         payload = {
             "version": 1,
             "generated_at": NOW.isoformat(),

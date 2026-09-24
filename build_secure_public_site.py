@@ -8,10 +8,13 @@ fetch() calls keep working without publishing standalone .json resources.
 from __future__ import annotations
 
 import hashlib
+import html
 import json
 import re
 import shutil
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo
 from publication_quality import apply_policy
 from ope_analysis import build_report
 from own_projects import add_promotions
@@ -45,6 +48,10 @@ DROP_META_KEYS = {
     "provider", "engine", "prompt", "prompt_version", "openai", "openai_model",
     "ai_model", "diary_generator",
 }
+try:
+    MADRID = ZoneInfo("Europe/Madrid")
+except Exception:  # Windows runners without the optional tzdata package.
+    MADRID = timezone(timedelta(hours=2), "CEST")
 
 
 def clean_obj(value):
@@ -53,6 +60,217 @@ def clean_obj(value):
     if isinstance(value, list):
         return [clean_obj(v) for v in value]
     return value
+
+
+def parse_dt(value):
+    try:
+        parsed = datetime.fromisoformat(str(value or "").replace("Z", "+00:00"))
+        if parsed.tzinfo is None:
+            parsed = parsed.replace(tzinfo=timezone.utc)
+        return parsed.astimezone(timezone.utc)
+    except (TypeError, ValueError):
+        return None
+
+
+def format_checked_at(value) -> str:
+    parsed = parse_dt(value)
+    if not parsed:
+        return "Sin fecha disponible"
+    return parsed.astimezone(MADRID).strftime("%d/%m/%Y · %H:%M") + " (hora peninsular)"
+
+
+def format_news_date(value) -> str:
+    parsed = parse_dt(value)
+    if not parsed:
+        return "Sin fecha"
+    return parsed.astimezone(MADRID).strftime("%d/%m/%Y · %H:%M")
+
+
+def _replace_matches(document: str, opening_pattern: re.Pattern[str], content) -> str:
+    """Replace matching element contents while respecting nested tags."""
+    cursor = 0
+    while True:
+        match = opening_pattern.search(document, cursor)
+        if not match:
+            return document
+        tag = match.group("tag")
+        depth = 1
+        close_end = None
+        for token in re.finditer(
+            rf"<{re.escape(tag)}\b[^>]*>|</{re.escape(tag)}\s*>",
+            document[match.end():],
+            re.I | re.S,
+        ):
+            raw = token.group(0)
+            if raw.lower().startswith(f"</{tag.lower()}"):
+                depth -= 1
+                if depth == 0:
+                    close_start = match.end() + token.start()
+                    close_end = match.end() + token.end()
+                    break
+            elif not raw.rstrip().endswith("/>"):
+                depth += 1
+        if close_end is None:
+            return document
+        replacement = content(match) if callable(content) else content
+        document = document[:match.end()] + replacement + document[close_start:]
+        cursor = match.end() + len(replacement) + (close_end - close_start)
+
+
+def replace_id(document: str, element_id: str, content: str) -> str:
+    pattern = re.compile(
+        rf'<(?P<tag>[A-Za-z0-9]+)\b[^>]*\bid=["\']{re.escape(element_id)}["\'][^>]*>',
+        re.I | re.S,
+    )
+    match = pattern.search(document)
+    if not match:
+        return document
+    # Restrict the generic helper to the first match for an id.
+    return _replace_matches(document[:match.start()] + document[match.start():], pattern, content)
+
+
+def replace_attr(document: str, attr: str, value: str, content: str) -> str:
+    pattern = re.compile(
+        rf'<(?P<tag>[A-Za-z0-9]+)\b[^>]*\b{re.escape(attr)}=["\']{re.escape(value)}["\'][^>]*>',
+        re.I | re.S,
+    )
+    return _replace_matches(document, pattern, content)
+
+
+def localized(value, lang: str = "es", fallback: str = "—") -> str:
+    if isinstance(value, dict):
+        return str(value.get(lang) or value.get("es") or value.get("en") or fallback)
+    return str(value if value not in (None, "") else fallback)
+
+
+def render_home_news(items) -> str:
+    rows = []
+    valid = [item for item in items if isinstance(item, dict)] if isinstance(items, list) else []
+    valid.sort(key=lambda item: parse_dt(item.get("published_at")) or datetime.min.replace(tzinfo=timezone.utc), reverse=True)
+    labels = {
+        "ceuta": "Ceuta y frontera", "melilla": "Melilla y frontera",
+        "relations": "España–Marruecos", "traffic": "Tráfico marítimo",
+        "ports": "Economía y puertos", "security": "Seguridad",
+    }
+    for item in valid[:5]:
+        url = html.escape(str(item.get("url") or "#"), quote=True)
+        title = html.escape(str(item.get("title") or "Novedad sin título"))
+        source = html.escape(str(item.get("source") or "Fuente no indicada"))
+        category = html.escape(labels.get(str(item.get("category") or ""), "Actualidad"))
+        date = html.escape(format_news_date(item.get("published_at")))
+        rows.append(
+            f'<article class="gwc-news-item"><time>{date}</time><div><h3><a href="{url}" target="_blank" '
+            f'rel="noopener noreferrer">{title}</a></h3><small>{source}</small></div><b>{category}</b></article>'
+        )
+    return "".join(rows) or '<p class="gwc-empty">No hay novedades verificadas en el último ciclo.</p>'
+
+
+def render_strategy_news(items) -> str:
+    rows = []
+    valid = [item for item in items if isinstance(item, dict)] if isinstance(items, list) else []
+    valid.sort(key=lambda item: parse_dt(item.get("published_at")) or datetime.min.replace(tzinfo=timezone.utc), reverse=True)
+    for item in valid[:9]:
+        url = html.escape(str(item.get("url") or "#"), quote=True)
+        title = html.escape(str(item.get("title") or "Novedad sin título"))
+        source = html.escape(str(item.get("source") or "Fuente"))
+        category = html.escape(str(item.get("category") or "actualidad"))
+        date = html.escape(format_news_date(item.get("published_at")))
+        rows.append(
+            f'<a class="gw-news-card" href="{url}" target="_blank" rel="noopener noreferrer">'
+            f'<small>{category}</small><h3>{title}</h3><footer><span>{source}</span><time>{date}</time></footer></a>'
+        )
+    return "".join(rows) or '<article class="gw-news-placeholder">No hay titulares recientes disponibles.</article>'
+
+
+def render_timeline(items, limit: int = 12) -> str:
+    rows = []
+    for item in (items if isinstance(items, list) else [])[:limit]:
+        if not isinstance(item, dict):
+            continue
+        rows.append(
+            f'<article class="gwo-event" data-level="{html.escape(str(item.get("level") or "info"), quote=True)}">'
+            f'<time>{html.escape(format_news_date(item.get("at")))}</time>'
+            f'<h3>{html.escape(str(item.get("title_es") or "Actualización"))}</h3>'
+            f'<p>{html.escape(str(item.get("detail_es") or ""))}</p></article>'
+        )
+    return "".join(rows) or '<div class="gwo-empty">Aún no hay cambios registrados en la cronología.</div>'
+
+
+def prerender_html(text: str, relative_path: str, data: dict[str, object]) -> str:
+    """Write current public state into HTML before JavaScript enhancement."""
+    geopolitics = data.get("geopolitics.json") if isinstance(data.get("geopolitics.json"), dict) else {}
+    observatory = data.get("observatory.json") if isinstance(data.get("observatory.json"), dict) else {}
+    health = data.get("health.json") if isinstance(data.get("health.json"), dict) else {}
+    timeline = data.get("timeline.json") if isinstance(data.get("timeline.json"), list) else []
+    status = geopolitics.get("status") if isinstance(geopolitics.get("status"), dict) else {}
+    state = observatory.get("state") if isinstance(observatory.get("state"), dict) else {}
+    checked = observatory.get("generated_at") or geopolitics.get("generated_at")
+    confidence = str(state.get("confidence") or localized(status.get("confidence")))
+    confidence_note = str(state.get("confidence_explanation_es") or "La confianza depende de la frescura y cobertura de las fuentes consultadas.")
+
+    if relative_path == "index.html":
+        text = replace_id(text, "gwcStatusMeta", html.escape(f"Actualizado: {format_checked_at(checked)} · Confianza: {confidence}"))
+        text = replace_id(text, "gwcConfidenceNote", html.escape(confidence_note))
+        pairs = {
+            "gwcStatusMaritime": localized(status.get("maritime_status")),
+            "gwcNoteMaritime": localized(status.get("maritime_note"), fallback=""),
+            "gwcStatusBorder": localized(status.get("border_pressure")),
+            "gwcNoteBorder": localized(status.get("border_note"), fallback=""),
+            "gwcStatusBilateral": localized(status.get("bilateral_tension")),
+            "gwcNoteBilateral": localized(status.get("bilateral_note"), fallback=""),
+            "gwcStatusSecurity": localized(status.get("security_status")),
+            "gwcNoteSecurity": localized(status.get("security_note"), fallback=""),
+        }
+        for element_id, value in pairs.items():
+            text = replace_id(text, element_id, html.escape(value))
+        text = replace_id(text, "gwcNewsList", render_home_news(geopolitics.get("items")))
+
+    if relative_path in {"situacion-actual.html", "en-current-situation.html"}:
+        geo_pairs = {
+            "maritime_status": localized(status.get("maritime_status")),
+            "maritime_note": localized(status.get("maritime_note"), fallback=""),
+            "border_pressure": localized(status.get("border_pressure")),
+            "border_note": localized(status.get("border_note"), fallback=""),
+            "bilateral_tension": localized(status.get("bilateral_tension")),
+            "bilateral_note": localized(status.get("bilateral_note"), fallback=""),
+            "security_status": localized(status.get("security_status")),
+            "security_note": localized(status.get("security_note"), fallback=""),
+            "confidence": confidence,
+            "generated_at": format_checked_at(checked),
+        }
+        for key, value in geo_pairs.items():
+            text = replace_attr(text, "data-strat", key, html.escape(value))
+        text = replace_attr(text, "data-news-feed", "", render_strategy_news(geopolitics.get("items"))) if 'data-news-feed=""' in text else text
+        # Boolean data-news-feed attributes need their own pattern.
+        text = _replace_matches(text, re.compile(r'<(?P<tag>[A-Za-z0-9]+)\b[^>]*\bdata-news-feed(?=\s|>)[^>]*>', re.I | re.S), render_strategy_news(geopolitics.get("items")))
+        text = replace_attr(text, "data-gwo-state", "", html.escape(str(state.get("label_es") or "Sin datos todavía"))) if 'data-gwo-state=""' in text else text
+        text = _replace_matches(text, re.compile(r'<(?P<tag>[A-Za-z0-9]+)\b[^>]*\bdata-gwo-state(?=\s|>)[^>]*>', re.I | re.S), html.escape(str(state.get("label_es") or "Sin datos todavía")))
+        text = _replace_matches(text, re.compile(r'<(?P<tag>[A-Za-z0-9]+)\b[^>]*\bdata-gwo-updated(?=\s|>)[^>]*>', re.I | re.S), html.escape(format_checked_at(checked)))
+        text = _replace_matches(text, re.compile(r'<(?P<tag>[A-Za-z0-9]+)\b[^>]*\bdata-gwo-confidence(?=\s|>)[^>]*>', re.I | re.S), html.escape(confidence))
+        text = _replace_matches(text, re.compile(r'<(?P<tag>[A-Za-z0-9]+)\b[^>]*\bdata-gwo-confidence-note(?=\s|>)[^>]*>', re.I | re.S), html.escape(confidence_note))
+        text = _replace_matches(text, re.compile(r'<(?P<tag>[A-Za-z0-9]+)\b[^>]*\bdata-gwo-summary(?=\s|>)[^>]*>', re.I | re.S), html.escape(str(state.get("summary_es") or "")))
+        alert = state.get("alert_level") if isinstance(state.get("alert_level"), dict) else {}
+        text = _replace_matches(text, re.compile(r'<(?P<tag>[A-Za-z0-9]+)\b[^>]*\bdata-gwo-alert-level(?=\s|>)[^>]*>', re.I | re.S), html.escape(str(alert.get("label_es") or "INFORMATIVO")))
+        health_label = {"healthy": "SALUD CORRECTA", "degraded": "FRESCURA PARCIAL", "stale": "REVISAR FUENTES"}.get(str(health.get("overall")), "SIN DATOS")
+        text = _replace_matches(text, re.compile(r'<(?P<tag>[A-Za-z0-9]+)\b[^>]*\bdata-gwo-health-overall(?=\s|>)[^>]*>', re.I | re.S), health_label)
+        metrics = observatory.get("metrics") if isinstance(observatory.get("metrics"), dict) else {}
+        for key, value in metrics.items():
+            text = replace_attr(text, "data-gwo-metric", str(key), html.escape(str(value if value is not None else "—")))
+        layers = state.get("layers") if isinstance(state.get("layers"), dict) else {}
+        for key, item in layers.items():
+            if not isinstance(item, dict):
+                continue
+            parent = re.compile(rf'<(?P<tag>[A-Za-z0-9]+)\b[^>]*\bdata-gwo-layer=["\']{re.escape(str(key))}["\'][^>]*>', re.I | re.S)
+            match = parent.search(text)
+            if match:
+                # Replace the first layer-value after the matched parent.
+                prefix, suffix = text[:match.end()], text[match.end():]
+                suffix = _replace_matches(suffix, re.compile(r'<(?P<tag>[A-Za-z0-9]+)\b[^>]*\bdata-gwo-layer-value(?=\s|>)[^>]*>', re.I | re.S), html.escape(str(item.get("value") or "—")))
+                text = prefix + suffix
+        since = observatory.get("since_yesterday") if isinstance(observatory.get("since_yesterday"), dict) else {}
+        text = _replace_matches(text, re.compile(r'<(?P<tag>[A-Za-z0-9]+)\b[^>]*\bdata-gwo-since-yesterday(?=\s|>)[^>]*>', re.I | re.S), html.escape(str(since.get("summary_es") or "Aún no hay una referencia diaria anterior comparable.")))
+        text = _replace_matches(text, re.compile(r'<(?P<tag>[A-Za-z0-9]+)\b[^>]*\bdata-gwo-timeline(?=\s|>)[^>]*>', re.I | re.S), render_timeline(timeline))
+    return text
 
 
 def rel(path: Path) -> str:
@@ -155,7 +373,8 @@ def harden_xml(text: str) -> str:
     )
     return text
 
-def copy_public(runtime_src: str) -> int:
+def copy_public(runtime_src: str, data: dict[str, object] | None = None) -> int:
+    data = data or {}
     copied = 0
     for path in ROOT.rglob("*"):
         if not path.is_file() or is_skipped(path):
@@ -180,6 +399,7 @@ def copy_public(runtime_src: str) -> int:
         dest.parent.mkdir(parents=True, exist_ok=True)
         if path.suffix.lower() in {".html", ".htm"}:
             text = path.read_text(encoding="utf-8")
+            text = prerender_html(text, rr, data)
             dest.write_text(add_promotions(apply_policy(harden_html(text, runtime_src), rr), rr, "gibraltar"), encoding="utf-8")
         elif path.suffix.lower() in {".js", ".mjs", ".css"}:
             text = path.read_text(encoding="utf-8")
@@ -199,7 +419,7 @@ def main() -> int:
         shutil.rmtree(OUT)
     OUT.mkdir(parents=True)
     runtime_src, data = build_runtime_bundle()
-    copied = copy_public(runtime_src)
+    copied = copy_public(runtime_src, data)
     # Rebuild the actual public inventory from final robots directives.
     import xml.etree.ElementTree as ET
     namespace = "http://www.sitemaps.org/schemas/sitemap/0.9"

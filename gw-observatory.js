@@ -29,7 +29,10 @@
   };
   const dateTime = iso => {
     const d = new Date(iso); if (Number.isNaN(d.getTime())) return '—';
-    return d.toLocaleString('es-ES', { day:'2-digit', month:'short', hour:'2-digit', minute:'2-digit' });
+    return d.toLocaleString('es-ES', {
+      day:'2-digit', month:'short', year:'numeric', hour:'2-digit', minute:'2-digit',
+      timeZone:'Europe/Madrid', timeZoneName:'short'
+    });
   };
 
   function setupBrowserAlerts(initial) {
@@ -72,8 +75,10 @@
     qsa('[data-gwo-state]').forEach(el => text(el, state.label_es));
     qsa('[data-gwo-summary]').forEach(el => text(el, state.summary_es));
     qsa('[data-gwo-confidence]').forEach(el => text(el, state.confidence));
+    qsa('[data-gwo-confidence-note]').forEach(el => text(el, state.confidence_explanation_es));
     qsa('[data-gwo-alert-level]').forEach(el => text(el, state.alert_level?.label_es || 'INFORMATIVO'));
-    qsa('[data-gwo-updated]').forEach(el => text(el, ago(data.generated_at)));
+    qsa('[data-gwo-updated]').forEach(el => text(el, dateTime(data.generated_at)));
+    qsa('[data-gwo-since-yesterday]').forEach(el => text(el, data.since_yesterday?.summary_es));
     qsa('[data-gwo-state-box]').forEach(el => el.dataset.level = state.code || 'unknown');
     qsa('[data-gwo-health-overall]').forEach(el => {
       const label = {healthy:'SALUD CORRECTA',degraded:'FRESCURA PARCIAL',stale:'REVISAR FUENTES'}[health?.overall] || 'SIN DATOS';

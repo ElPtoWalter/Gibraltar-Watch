@@ -1,5 +1,6 @@
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 import unittest
+from unittest.mock import patch
 
 import update_geopolitics as u
 
@@ -36,6 +37,34 @@ class GeopoliticsTests(unittest.TestCase):
         ]
         status = u.classify(items)
         self.assertEqual(status["maritime_status"]["en"], "POSSIBLE DISRUPTION")
+
+    def test_preventive_border_measures_do_not_drop_directly_to_low(self):
+        now = datetime.now(timezone.utc).isoformat()
+        items = [
+            u.NewsItem("Gobierno refuerza la frontera de Ceuta", "RTVE", "x", now, "ceuta", "es", 4),
+            u.NewsItem("Despliegue preventivo ante nuevos llamamientos", "El País", "y", now, "melilla", "es", 3),
+        ]
+        status = u.classify(items)
+        self.assertEqual(status["border_pressure"]["es"], "VIGILANCIA PREVENTIVA")
+        self.assertEqual(status["border_watch"]["signal_sources"], 2)
+
+    def test_preventive_watch_is_held_for_48_hours_and_then_expires(self):
+        fixed_now = datetime(2026, 9, 24, 12, tzinfo=timezone.utc)
+        previous = {
+            "generated_at": (fixed_now - timedelta(hours=24)).isoformat(),
+            "status": {
+                "border_pressure": {"es": "VIGILANCIA PREVENTIVA"},
+                "border_watch": {"last_signal_at": (fixed_now - timedelta(hours=24)).isoformat()},
+            },
+        }
+        with patch.object(u, "NOW", fixed_now):
+            held = u.classify([], previous)
+        self.assertEqual(held["border_pressure"]["es"], "VIGILANCIA PREVENTIVA")
+
+        previous["status"]["border_watch"]["last_signal_at"] = (fixed_now - timedelta(hours=49)).isoformat()
+        with patch.object(u, "NOW", fixed_now):
+            expired = u.classify([], previous)
+        self.assertEqual(expired["border_pressure"]["es"], "BAJA / SIN SEÑALES RECIENTES")
 
 
 if __name__ == "__main__":

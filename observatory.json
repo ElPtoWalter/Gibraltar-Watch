@@ -1,20 +1,20 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-24T15:11:40Z",
+  "generated_at": "2026-09-24T19:01:22Z",
   "state": {
-    "code": "normal",
-    "label_es": "NORMALIDAD OPERATIVA",
-    "color": "green",
-    "severity": 0,
-    "summary_es": "No aparecen señales suficientes para elevar el nivel general del observatorio. Parte de las fuentes necesita actualización, por lo que la lectura debe interpretarse con cautela.",
+    "code": "watch",
+    "label_es": "VIGILANCIA",
+    "color": "yellow",
+    "severity": 1,
+    "summary_es": "La situación requiere seguimiento, pero no aparecen señales suficientes para elevar el nivel operativo. Parte de las fuentes necesita actualización, por lo que la lectura debe interpretarse con cautela.",
     "layers": {
       "maritime": {
         "value": "OPERATIVO",
         "severity": 0
       },
       "border": {
-        "value": "BAJA / SIN SEÑALES RECIENTES",
-        "severity": 0
+        "value": "VIGILANCIA PREVENTIVA",
+        "severity": 1
       },
       "bilateral": {
         "value": "ESTABLE",
@@ -26,6 +26,10 @@
       }
     },
     "confidence": "BAJA",
+    "confidence_explanation_es": "Confianza baja porque necesitan actualización o revisión: Operación Paso del Estrecho. El estado operativo se mantiene separado de la frescura de esas fuentes.",
+    "sources_pending": [
+      "Operación Paso del Estrecho"
+    ],
     "alert_level": {
       "code": "informational",
       "label_es": "INFORMATIVO",
@@ -33,8 +37,8 @@
     }
   },
   "metrics": {
-    "news_24h": 13,
-    "news_sources": 29,
+    "news_24h": 8,
+    "news_sources": 30,
     "seismic_24h": 0,
     "seismic_7d": 0,
     "seismic_30d": 0,
@@ -48,29 +52,39 @@
   },
   "anomalies": [],
   "changes": {
-    "state_changed": false,
+    "state_changed": true,
     "previous_state_code": "normal",
-    "layer_changes": []
+    "layer_changes": [
+      {
+        "key": "border",
+        "previous": "BAJA / SIN SEÑALES RECIENTES",
+        "current": "VIGILANCIA PREVENTIVA"
+      }
+    ]
+  },
+  "since_yesterday": {
+    "reference_date": "2026-09-23",
+    "summary_es": "El nivel general pasa de NORMALIDAD OPERATIVA a VIGILANCIA. El monitor recoge 28 referencias menos en la ventana de 24 horas."
   },
   "health": {
     "overall": "stale",
-    "generated_at": "2026-09-24T15:11:40Z"
+    "generated_at": "2026-09-24T19:01:22Z"
   },
   "latest_diary": {
     "date": "2026-09-24",
     "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
-    "summary": "Selección automática de 8 referencias de 8 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
-    "published_at": "2026-09-24T17:11+02:00",
-    "updated_at": "2026-09-24T17:11+02:00",
+    "summary": "Selección automática de 8 referencias de 7 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "published_at": "2026-09-24T21:01+02:00",
+    "updated_at": "2026-09-24T21:01+02:00",
     "source_count": 8,
     "indexable": false,
     "edition_label": "Cuaderno de las dos orillas",
     "edition_slug": "shores",
-    "fingerprint": "10aee7a4b6946c9f508a",
+    "fingerprint": "793cfcf379420c62af9e",
     "editor_engine": "rules",
     "editor_assistant_status": "no-key",
     "date_label": "2026-09-24",
-    "slug": "actual.html"
+    "slug": "2026-09-24.html"
   },
   "latest_ope": {
     "report_date": "2026-08-15",

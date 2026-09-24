@@ -1,23 +1,23 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-24T15:11:40Z",
+  "generated_at": "2026-09-24T19:01:22Z",
   "overall": "stale",
   "components": [
     {
       "name": "Sismicidad USGS",
       "state": "fresh",
       "label_es": "ACTUALIZADO",
-      "checked_at": "2026-09-24T15:11:16Z",
+      "checked_at": "2026-09-24T19:00:59Z",
       "age_minutes": 0,
       "source": "USGS Earthquake Catalog",
-      "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-08-25T15%3A11%3A16Z&endtime=2026-09-24T15%3A11%3A16Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
+      "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-08-25T19%3A00%3A59Z&endtime=2026-09-24T19%3A00%3A59Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
       "note_es": "Catálogo sísmico regional; no es una herramienta de predicción."
     },
     {
       "name": "Actualidad y geopolítica",
       "state": "fresh",
       "label_es": "ACTUALIZADO",
-      "checked_at": "2026-09-24T15:11:33.942454+00:00",
+      "checked_at": "2026-09-24T19:01:16.179692+00:00",
       "age_minutes": 0,
       "source": "Monitor editorial de fuentes públicas",
       "url": "fuentes.html",
@@ -27,7 +27,7 @@
       "name": "Operación Paso del Estrecho",
       "state": "stale",
       "label_es": "PARTE ANTIGUO",
-      "checked_at": "2026-09-24T15:11:33Z",
+      "checked_at": "2026-09-24T19:01:16Z",
       "age_minutes": 0,
       "source": "Secretaría General de Protección Civil y Emergencias",
       "url": "https://www.proteccioncivil.es/documents/20121/0/20260815_InformeOPE.pdf",
@@ -38,26 +38,26 @@
       "name": "Diario del Estrecho",
       "state": "fresh",
       "label_es": "ACTUALIZADO",
-      "checked_at": "2026-09-24T15:11:00Z",
+      "checked_at": "2026-09-24T19:01:00Z",
       "age_minutes": 0,
       "source": "Gibraltar Watch",
-      "url": "diario/actual.html",
+      "url": "diario/2026-09-24.html",
       "note_es": "Última edición publicada"
     },
     {
       "name": "Integridad del sitio",
       "state": "fresh",
       "label_es": "CORRECTA",
-      "checked_at": "2026-09-24T15:11:40Z",
+      "checked_at": "2026-09-24T19:01:22Z",
       "age_minutes": 0,
       "source": "Validador local",
       "note_es": "Todos los archivos críticos están presentes."
     }
   ],
   "workflow": {
-    "run_id": "36018279956",
+    "run_id": "36045206772",
     "run_attempt": "1",
-    "sha": "8c92cba4e63e",
-    "event": "schedule"
+    "sha": "24e1387c57c1",
+    "event": "workflow_dispatch"
   }
 }

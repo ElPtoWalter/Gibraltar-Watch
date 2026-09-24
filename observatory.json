@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-24T19:01:22Z",
+  "generated_at": "2026-09-24T19:14:27Z",
   "state": {
     "code": "watch",
     "label_es": "VIGILANCIA",
@@ -37,7 +37,7 @@
     }
   },
   "metrics": {
-    "news_24h": 8,
+    "news_24h": 9,
     "news_sources": 30,
     "seismic_24h": 0,
     "seismic_7d": 0,
@@ -52,35 +52,29 @@
   },
   "anomalies": [],
   "changes": {
-    "state_changed": true,
-    "previous_state_code": "normal",
-    "layer_changes": [
-      {
-        "key": "border",
-        "previous": "BAJA / SIN SEÑALES RECIENTES",
-        "current": "VIGILANCIA PREVENTIVA"
-      }
-    ]
+    "state_changed": false,
+    "previous_state_code": "watch",
+    "layer_changes": []
   },
   "since_yesterday": {
     "reference_date": "2026-09-23",
-    "summary_es": "El nivel general pasa de NORMALIDAD OPERATIVA a VIGILANCIA. El monitor recoge 28 referencias menos en la ventana de 24 horas."
+    "summary_es": "El nivel general pasa de NORMALIDAD OPERATIVA a VIGILANCIA. El monitor recoge 27 referencias menos en la ventana de 24 horas."
   },
   "health": {
     "overall": "stale",
-    "generated_at": "2026-09-24T19:01:22Z"
+    "generated_at": "2026-09-24T19:14:27Z"
   },
   "latest_diary": {
     "date": "2026-09-24",
     "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
     "summary": "Selección automática de 8 referencias de 7 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
     "published_at": "2026-09-24T21:01+02:00",
-    "updated_at": "2026-09-24T21:01+02:00",
+    "updated_at": "2026-09-24T21:14+02:00",
     "source_count": 8,
     "indexable": false,
     "edition_label": "Cuaderno de las dos orillas",
     "edition_slug": "shores",
-    "fingerprint": "793cfcf379420c62af9e",
+    "fingerprint": "f252be6625607ca3a2e2",
     "editor_engine": "rules",
     "editor_assistant_status": "no-key",
     "date_label": "2026-09-24",

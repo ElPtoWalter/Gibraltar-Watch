@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-24T10:06:33Z",
+  "generated_at": "2026-09-24T15:11:40Z",
   "state": {
     "code": "normal",
     "label_es": "NORMALIDAD OPERATIVA",
@@ -33,8 +33,8 @@
     }
   },
   "metrics": {
-    "news_24h": 18,
-    "news_sources": 31,
+    "news_24h": 13,
+    "news_sources": 29,
     "seismic_24h": 0,
     "seismic_7d": 0,
     "seismic_30d": 0,
@@ -44,16 +44,9 @@
     "ope_vehicles_day": 15464,
     "ope_rotations_day": 179,
     "diary_date": "2026-09-24",
-    "diary_source_count": 9
+    "diary_source_count": 8
   },
-  "anomalies": [
-    {
-      "key": "news-volume",
-      "level": "info",
-      "title_es": "Volumen informativo superior al patrón reciente",
-      "detail_es": "Se detectan 18 referencias en 24 h frente a una mediana reciente de 9. Es una señal de atención, no una prueba de crisis."
-    }
-  ],
+  "anomalies": [],
   "changes": {
     "state_changed": false,
     "previous_state_code": "normal",
@@ -61,19 +54,19 @@
   },
   "health": {
     "overall": "stale",
-    "generated_at": "2026-09-24T10:06:33Z"
+    "generated_at": "2026-09-24T15:11:40Z"
   },
   "latest_diary": {
     "date": "2026-09-24",
     "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
-    "summary": "Selección automática de 9 referencias de 9 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
-    "published_at": "2026-09-24T12:06+02:00",
-    "updated_at": "2026-09-24T12:06+02:00",
-    "source_count": 9,
+    "summary": "Selección automática de 8 referencias de 8 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "published_at": "2026-09-24T17:11+02:00",
+    "updated_at": "2026-09-24T17:11+02:00",
+    "source_count": 8,
     "indexable": false,
     "edition_label": "Cuaderno de las dos orillas",
     "edition_slug": "shores",
-    "fingerprint": "47a5dd5bdafccffd1d18",
+    "fingerprint": "10aee7a4b6946c9f508a",
     "editor_engine": "rules",
     "editor_assistant_status": "no-key",
     "date_label": "2026-09-24",

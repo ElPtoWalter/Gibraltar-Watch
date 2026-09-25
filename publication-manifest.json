@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-25T18:41:05Z",
+  "generated_at": "2026-09-25T22:25:55Z",
   "git": {
-    "sha_before_commit": "f8e50a479ff22e007194b35de50aee9cff915909",
-    "run_id": "36174928998"
+    "sha_before_commit": "e9915246a68bdd3c037858c4ed6884a1baa1eb0a",
+    "run_id": "36196634081"
   },
   "recovery": {
     "method": "git-history",
@@ -19,8 +19,8 @@
       "bytes": 15294
     },
     "trafico.html": {
-      "sha256": "91175713e2a916f3f746a91ba1f3095be85deda5172462b49e1d5c28669d6c59",
-      "bytes": 19482
+      "sha256": "16bb024b9bb33c550e328571f3080db9ab93e3712df6a9b94a697e1d532dec69",
+      "bytes": 19484
     },
     "sismicidad.html": {
       "sha256": "0f4857ef4ec19bf6842c296de536a573e176afe1afa6d5925122dfa09cede322",
@@ -59,11 +59,11 @@
       "bytes": 15812
     },
     "observatory.json": {
-      "sha256": "dfd3be7389bdebca4178e56a4c14e288aadac4f2f93afe9bcd4d2506ce764bb9",
-      "bytes": 3558
+      "sha256": "727eb808356e2ec2acdc795d47e0341b951fde1fa9e5c5cab63cbadfc9eabf27",
+      "bytes": 3557
     },
     "health.json": {
-      "sha256": "3c5bef87389073d21fda9e474e9b81fa2b3db0645ffd53f938b494914931ee12",
+      "sha256": "795114fc0a40ac19e71121570d0807a62029865c9623aa1bc40a4f0131f4cd66",
       "bytes": 2223
     },
     "timeline.json": {
@@ -71,8 +71,8 @@
       "bytes": 47323
     },
     "observatory-history.json": {
-      "sha256": "6256b69a31032badcae8d32a079eb7a163dc95b175e764ec768e2fb3a1eb42b9",
-      "bytes": 18510
+      "sha256": "09b0298ac59b9648856be920645d56653a7ed092aabf74ad111285c86a817ea1",
+      "bytes": 19047
     },
     "observatory-feed.xml": {
       "sha256": "b543e8f0b34119f83aad4c3f124cb2dbd97d4257d1abfd47d9df154b1067166c",
@@ -91,11 +91,11 @@
       "bytes": 658
     },
     "newsletter/latest.html": {
-      "sha256": "b19ad6fedb8a750241305b0c008c474da83329d015bc820f056cd56528111721",
+      "sha256": "e594adbe8f65bdeeb229cfdd1d14045fe04f36594cd046b519201d6ae053c29b",
       "bytes": 2128
     },
     "newsletter/latest.txt": {
-      "sha256": "e699cc5982b37710cff0f9254a7373d767041dfa6502bba72b240ec59b7597de",
+      "sha256": "d6d9bc940920ef01b05029b63a122e5be64607783226679e3c8c5f4a5c9aa1b1",
       "bytes": 739
     },
     "newsletter/latest.json": {

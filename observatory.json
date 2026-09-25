@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-25T01:35:48Z",
+  "generated_at": "2026-09-25T07:54:43Z",
   "state": {
     "code": "watch",
     "label_es": "VIGILANCIA",
@@ -37,8 +37,8 @@
     }
   },
   "metrics": {
-    "news_24h": 5,
-    "news_sources": 30,
+    "news_24h": 8,
+    "news_sources": 32,
     "seismic_24h": 0,
     "seismic_7d": 0,
     "seismic_30d": 0,
@@ -47,7 +47,7 @@
     "ope_passengers_day": 59877,
     "ope_vehicles_day": 15464,
     "ope_rotations_day": 179,
-    "diary_date": "2026-09-24",
+    "diary_date": "2026-09-25",
     "diary_source_count": 8
   },
   "anomalies": [],
@@ -58,27 +58,27 @@
   },
   "since_yesterday": {
     "reference_date": "2026-09-24",
-    "summary_es": "El nivel general se mantiene en VIGILANCIA. El monitor recoge 4 referencias menos en la ventana de 24 horas."
+    "summary_es": "El nivel general se mantiene en VIGILANCIA. El monitor recoge 1 referencias menos en la ventana de 24 horas."
   },
   "health": {
     "overall": "stale",
-    "generated_at": "2026-09-25T01:35:48Z"
+    "generated_at": "2026-09-25T07:54:43Z"
   },
   "latest_diary": {
-    "date": "2026-09-24",
+    "date": "2026-09-25",
     "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
-    "summary": "Selección automática de 8 referencias de 7 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
-    "published_at": "2026-09-24T21:01+02:00",
-    "updated_at": "2026-09-24T21:14+02:00",
+    "summary": "Selección automática de 8 referencias de 8 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "published_at": "2026-09-25T09:54+02:00",
+    "updated_at": "2026-09-25T09:54+02:00",
     "source_count": 8,
     "indexable": false,
     "edition_label": "Cuaderno de las dos orillas",
     "edition_slug": "shores",
-    "fingerprint": "f252be6625607ca3a2e2",
+    "fingerprint": "40704e8af8e9381b366f",
     "editor_engine": "rules",
     "editor_assistant_status": "no-key",
-    "date_label": "2026-09-24",
-    "slug": "2026-09-24.html"
+    "date_label": "2026-09-25",
+    "slug": "actual.html"
   },
   "latest_ope": {
     "report_date": "2026-08-15",

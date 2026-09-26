@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-26T13:09:57Z",
+  "generated_at": "2026-09-26T17:14:20Z",
   "state": {
     "code": "watch",
     "label_es": "VIGILANCIA",
@@ -48,7 +48,7 @@
     "ope_vehicles_day": 15464,
     "ope_rotations_day": 179,
     "diary_date": "2026-09-26",
-    "diary_source_count": 8
+    "diary_source_count": 6
   },
   "anomalies": [],
   "changes": {
@@ -62,19 +62,19 @@
   },
   "health": {
     "overall": "stale",
-    "generated_at": "2026-09-26T13:09:57Z"
+    "generated_at": "2026-09-26T17:14:20Z"
   },
   "latest_diary": {
     "date": "2026-09-26",
     "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
-    "summary": "Selección automática de 8 referencias de 8 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
-    "published_at": "2026-09-26T15:09+02:00",
-    "updated_at": "2026-09-26T15:09+02:00",
-    "source_count": 8,
+    "summary": "Selección automática de 6 referencias de 6 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "published_at": "2026-09-26T19:14+02:00",
+    "updated_at": "2026-09-26T19:14+02:00",
+    "source_count": 6,
     "indexable": false,
     "edition_label": "Cuaderno de las dos orillas",
     "edition_slug": "shores",
-    "fingerprint": "92c4939a11ead847282a",
+    "fingerprint": "e83cdc188b495bd0f052",
     "editor_engine": "rules",
     "editor_assistant_status": "no-key",
     "date_label": "2026-09-26",

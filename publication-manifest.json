@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-26T17:14:20Z",
+  "generated_at": "2026-09-26T19:55:33Z",
   "git": {
-    "sha_before_commit": "789c0d5f43be21faedaab1a3483a4841fb32b8cf",
-    "run_id": "36258267442"
+    "sha_before_commit": "f2a5dec6816c05175c8b05ac2824fc51b26371f1",
+    "run_id": "36267696750"
   },
   "recovery": {
     "method": "git-history",
@@ -11,16 +11,16 @@
   },
   "files": {
     "index.html": {
-      "sha256": "755faf5aa04a5dbf4ed05ff0910618acfe349ba0ba3cb132cef73ab496f491ac",
-      "bytes": 19325
+      "sha256": "9af40519f82482db6f908294df0c46c464a344597e5ec5bb21594034709fa79d",
+      "bytes": 19264
     },
     "situacion-actual.html": {
       "sha256": "5ed247b8f6e292761d853d125d76c79f46cf884e58ff2cb71829a431e27e2918",
       "bytes": 15294
     },
     "trafico.html": {
-      "sha256": "3ad71cff97fcf1255c64ea08611fb4bf9b469a251be12d9bae05688b1ff3c7d3",
-      "bytes": 19492
+      "sha256": "ac711d23ad01f041ccc78d544313eff4d0170c2b24781837caca4bf06c1fbf23",
+      "bytes": 19494
     },
     "sismicidad.html": {
       "sha256": "0f4857ef4ec19bf6842c296de536a573e176afe1afa6d5925122dfa09cede322",
@@ -59,19 +59,19 @@
       "bytes": 15812
     },
     "observatory.json": {
-      "sha256": "d43a0d79051eefe6ae9dbe74961ee4bf34852d70ac31b07d88319dac4bab06c0",
+      "sha256": "2d45a95934d622470ac6162a6f32e917e5b05e14ba0881eb3e3016d051746c68",
       "bytes": 3557
     },
     "health.json": {
-      "sha256": "18390487ba3e38ea2b4c1b08caa3be321103fc17bf4f7aef50781a9688d89f2c",
-      "bytes": 2221
+      "sha256": "73415a61c6c76d5a96683398c30fdcd43ce11df091c4089c8c76dca3d614b32c",
+      "bytes": 2223
     },
     "timeline.json": {
       "sha256": "4f925c520dd3e08a061c080752d4f5f4273c93206dc26e8a60fc0cb7e433a86e",
       "bytes": 47600
     },
     "observatory-history.json": {
-      "sha256": "2792ebcc78ea7a99a9f19822a135dfb6b9e5c574587df2618c0504e119cfcbc0",
+      "sha256": "96f3c77eb278a0d90bcf6cb04dfda98ae2c1a815a8e2436cc37dcc96519c2c92",
       "bytes": 19047
     },
     "observatory-feed.xml": {
@@ -79,8 +79,8 @@
       "bytes": 9808
     },
     "sitemap.xml": {
-      "sha256": "6a01ca924f9e6339eb0b3bc03e379daabb121d1444a58a2d6754b2ec875ddcb7",
-      "bytes": 13030
+      "sha256": "ecbf212fec8ea296cb1efa67e3b3e8b2db702b527e93c31812db6d148890d6ed",
+      "bytes": 10062
     },
     "diario/index.html": {
       "sha256": "a6e7158908c0353caadbd58f1315b102cf52662499e203ab0b00e22a38ddeba8",

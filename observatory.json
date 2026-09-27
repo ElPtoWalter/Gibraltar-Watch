@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-27T01:31:41Z",
+  "generated_at": "2026-09-27T08:17:26Z",
   "state": {
     "code": "watch",
     "label_es": "VIGILANCIA",
@@ -37,8 +37,8 @@
     }
   },
   "metrics": {
-    "news_24h": 2,
-    "news_sources": 30,
+    "news_24h": 4,
+    "news_sources": 29,
     "seismic_24h": 0,
     "seismic_7d": 0,
     "seismic_30d": 0,
@@ -47,8 +47,8 @@
     "ope_passengers_day": 59877,
     "ope_vehicles_day": 15464,
     "ope_rotations_day": 179,
-    "diary_date": "2026-09-26",
-    "diary_source_count": 6
+    "diary_date": "2026-09-27",
+    "diary_source_count": 4
   },
   "anomalies": [],
   "changes": {
@@ -58,26 +58,26 @@
   },
   "since_yesterday": {
     "reference_date": "2026-09-26",
-    "summary_es": "El nivel general se mantiene en VIGILANCIA. El monitor recoge 1 referencias menos en la ventana de 24 horas."
+    "summary_es": "El nivel general se mantiene en VIGILANCIA. El monitor recoge 1 referencias más en la ventana de 24 horas."
   },
   "health": {
     "overall": "stale",
-    "generated_at": "2026-09-27T01:31:41Z"
+    "generated_at": "2026-09-27T08:17:26Z"
   },
   "latest_diary": {
-    "date": "2026-09-26",
+    "date": "2026-09-27",
     "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
-    "summary": "Selección automática de 6 referencias de 6 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
-    "published_at": "2026-09-26T19:14+02:00",
-    "updated_at": "2026-09-26T19:14+02:00",
-    "source_count": 6,
+    "summary": "Selección automática de 4 referencias de 4 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "published_at": "2026-09-27T10:17+02:00",
+    "updated_at": "2026-09-27T10:17+02:00",
+    "source_count": 4,
     "indexable": false,
     "edition_label": "Cuaderno de las dos orillas",
     "edition_slug": "shores",
-    "fingerprint": "e83cdc188b495bd0f052",
+    "fingerprint": "ad667541f358feef1b5b",
     "editor_engine": "rules",
     "editor_assistant_status": "no-key",
-    "date_label": "2026-09-26",
+    "date_label": "2026-09-27",
     "slug": "actual.html"
   },
   "latest_ope": {

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-27T08:17:26Z",
+  "generated_at": "2026-09-27T14:06:01Z",
   "state": {
     "code": "watch",
     "label_es": "VIGILANCIA",
@@ -37,7 +37,7 @@
     }
   },
   "metrics": {
-    "news_24h": 4,
+    "news_24h": 2,
     "news_sources": 29,
     "seismic_24h": 0,
     "seismic_7d": 0,
@@ -48,7 +48,7 @@
     "ope_vehicles_day": 15464,
     "ope_rotations_day": 179,
     "diary_date": "2026-09-27",
-    "diary_source_count": 4
+    "diary_source_count": 3
   },
   "anomalies": [],
   "changes": {
@@ -58,23 +58,23 @@
   },
   "since_yesterday": {
     "reference_date": "2026-09-26",
-    "summary_es": "El nivel general se mantiene en VIGILANCIA. El monitor recoge 1 referencias más en la ventana de 24 horas."
+    "summary_es": "El nivel general se mantiene en VIGILANCIA. El monitor recoge 1 referencias menos en la ventana de 24 horas."
   },
   "health": {
     "overall": "stale",
-    "generated_at": "2026-09-27T08:17:26Z"
+    "generated_at": "2026-09-27T14:06:01Z"
   },
   "latest_diary": {
     "date": "2026-09-27",
     "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
-    "summary": "Selección automática de 4 referencias de 4 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
-    "published_at": "2026-09-27T10:17+02:00",
-    "updated_at": "2026-09-27T10:17+02:00",
-    "source_count": 4,
+    "summary": "Selección automática de 3 referencias de 3 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "published_at": "2026-09-27T16:06+02:00",
+    "updated_at": "2026-09-27T16:06+02:00",
+    "source_count": 3,
     "indexable": false,
     "edition_label": "Cuaderno de las dos orillas",
     "edition_slug": "shores",
-    "fingerprint": "ad667541f358feef1b5b",
+    "fingerprint": "43af5115a67e09584200",
     "editor_engine": "rules",
     "editor_assistant_status": "no-key",
     "date_label": "2026-09-27",

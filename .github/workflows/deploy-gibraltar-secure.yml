@@ -60,10 +60,10 @@ jobs:
           python check_public_links.py _site
 
       - name: Configurar GitHub Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
 
       - name: Subir artefacto público
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v5
         with:
           path: ./_site
 
@@ -77,4 +77,4 @@ jobs:
     steps:
       - name: Publicar en GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

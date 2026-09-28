@@ -24,7 +24,7 @@ def build_report(root):
     path = root / "ope-2026.json"
     if not path.exists():
         return
-    data = json.loads(path.read_text())
+    data = json.loads(path.read_text(encoding="utf-8"))
     rows = audit(data)
     report_date = str(data.get("report_date") or "")
     try:

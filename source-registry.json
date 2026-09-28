@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {"source_id":"salvamento_maritimo","canonical_name":"Salvamento Marítimo","aliases":["Salvamento Marítimo","SASEMAR","radioavisos.salvamentomaritimo.es"],"domain":"salvamentomaritimo.es","domains":["salvamentomaritimo.es","radioavisos.salvamentomaritimo.es"],"tier":5,"official":true,"weight":5.0},
+    {"source_id":"apba","canonical_name":"Autoridad Portuaria de la Bahía de Algeciras","aliases":["APBA","Autoridad Portuaria de la Bahía de Algeciras","Puerto de Algeciras"],"domain":"apba.es","domains":["apba.es"],"tier":5,"official":true,"weight":5.0},
+    {"source_id":"gibraltar_port","canonical_name":"Gibraltar Port Authority","aliases":["Gibraltar Port Authority","Port of Gibraltar"],"domain":"gibraltarport.com","domains":["gibraltarport.com"],"tier":5,"official":true,"weight":5.0},
+    {"source_id":"tanger_med","canonical_name":"Tanger Med","aliases":["Tanger Med","Tánger Med","Tangier Med"],"domain":"tangermed.ma","domains":["tangermed.ma"],"tier":5,"official":true,"weight":5.0},
+    {"source_id":"proteccion_civil_es","canonical_name":"Protección Civil España","aliases":["Protección Civil","Protección Civil España","Secretaría General de Protección Civil y Emergencias"],"domain":"proteccioncivil.es","domains":["proteccioncivil.es"],"tier":5,"official":true,"weight":5.0},
+    {"source_id":"interior_es","canonical_name":"Ministerio del Interior","aliases":["Ministerio del Interior","Interior"],"domain":"interior.gob.es","domains":["interior.gob.es"],"tier":5,"official":true,"weight":5.0},
+    {"source_id":"exteriores_es","canonical_name":"Ministerio de Asuntos Exteriores","aliases":["Ministerio de Asuntos Exteriores","MAEC","Exteriores"],"domain":"exteriores.gob.es","domains":["exteriores.gob.es"],"tier":5,"official":true,"weight":5.0},
+    {"source_id":"lamoncloa","canonical_name":"La Moncloa","aliases":["La Moncloa","Gobierno de España"],"domain":"lamoncloa.gob.es","domains":["lamoncloa.gob.es"],"tier":5,"official":true,"weight":5.0},
+    {"source_id":"imo","canonical_name":"IMO","aliases":["IMO","International Maritime Organization"],"domain":"imo.org","domains":["imo.org"],"tier":5,"official":true,"weight":5.0},
+    {"source_id":"european_commission","canonical_name":"European Commission","aliases":["European Commission","Comisión Europea","European Union"],"domain":"ec.europa.eu","domains":["ec.europa.eu","europa.eu"],"tier":5,"official":true,"weight":5.0},
+    {"source_id":"eu_council","canonical_name":"Council of the EU","aliases":["Council of the EU","Consejo de la UE"],"domain":"consilium.europa.eu","domains":["consilium.europa.eu"],"tier":5,"official":true,"weight":5.0},
+    {"source_id":"nato","canonical_name":"NATO","aliases":["NATO","OTAN"],"domain":"nato.int","domains":["nato.int"],"tier":5,"official":true,"weight":5.0},
+    {"source_id":"usgs","canonical_name":"USGS","aliases":["USGS","U.S. Geological Survey"],"domain":"usgs.gov","domains":["usgs.gov","earthquake.usgs.gov"],"tier":5,"official":true,"weight":5.0},
+    {"source_id":"ign_es","canonical_name":"Instituto Geográfico Nacional","aliases":["Instituto Geográfico Nacional","IGN"],"domain":"ign.es","domains":["ign.es"],"tier":5,"official":true,"weight":5.0},
+    {"source_id":"reuters","canonical_name":"Reuters","aliases":["Reuters","Reuters.com","reuters.com"],"domain":"reuters.com","domains":["reuters.com"],"tier":4,"official":false,"weight":4.0},
+    {"source_id":"ap","canonical_name":"Associated Press","aliases":["Associated Press","The Associated Press","AP","AP News"],"domain":"apnews.com","domains":["apnews.com"],"tier":4,"official":false,"weight":4.0},
+    {"source_id":"efe","canonical_name":"EFE","aliases":["EFE","Agencia EFE"],"domain":"efe.com","domains":["efe.com"],"tier":4,"official":false,"weight":4.0},
+    {"source_id":"rtve","canonical_name":"RTVE","aliases":["RTVE","Radio Televisión Española"],"domain":"rtve.es","domains":["rtve.es"],"tier":4,"official":false,"weight":4.0},
+    {"source_id":"bbc","canonical_name":"BBC","aliases":["BBC","BBC News","BBC.com"],"domain":"bbc.com","domains":["bbc.com","bbc.co.uk"],"tier":4,"official":false,"weight":4.0},
+    {"source_id":"ft","canonical_name":"Financial Times","aliases":["Financial Times","FT"],"domain":"ft.com","domains":["ft.com"],"tier":4,"official":false,"weight":4.0},
+    {"source_id":"elpais","canonical_name":"El País","aliases":["El País","EL PAÍS","elpais.com"],"domain":"elpais.com","domains":["elpais.com"],"tier":3,"official":false,"weight":3.0},
+    {"source_id":"cadena_ser","canonical_name":"Cadena SER","aliases":["Cadena SER","SER"],"domain":"cadenaser.com","domains":["cadenaser.com"],"tier":3,"official":false,"weight":3.0},
+    {"source_id":"guardian","canonical_name":"The Guardian","aliases":["The Guardian","Guardian"],"domain":"theguardian.com","domains":["theguardian.com"],"tier":3,"official":false,"weight":3.0},
+    {"source_id":"politico","canonical_name":"Politico","aliases":["Politico","POLITICO Europe"],"domain":"politico.eu","domains":["politico.eu","politico.com"],"tier":3,"official":false,"weight":3.0},
+    {"source_id":"euronews","canonical_name":"Euronews","aliases":["Euronews","Euronews.com"],"domain":"euronews.com","domains":["euronews.com"],"tier":3,"official":false,"weight":3.0},
+    {"source_id":"gibraltar_chronicle","canonical_name":"Gibraltar Chronicle","aliases":["Gibraltar Chronicle","gibraltarchronicle.gi"],"domain":"gibraltarchronicle.gi","domains":["gibraltarchronicle.gi"],"tier":3,"official":false,"weight":3.0}
+  ]
+}

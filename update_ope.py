@@ -13,10 +13,38 @@ OUT=ROOT/'ope-2026.json';HISTORY=ROOT/'ope-history.json';SOURCES=ROOT/'ope-sourc
 MONTHS={'enero':1,'febrero':2,'marzo':3,'abril':4,'mayo':5,'junio':6,'julio':7,'agosto':8,'septiembre':9,'octubre':10,'noviembre':11,'diciembre':12}
 UA='GibraltarWatch/3.0 (+https://estrechogibraltar.com/contacto.html)'
 CAMPAIGN='https://www.proteccioncivil.es/coordinacion/campanas/operaci%C3%B3n-paso-del-estrecho'
+SEASON_START='2026-06-15';SEASON_END='2026-09-15';FRESH_REPORT_DAYS=7
 def load(p,d):
     try:return json.loads(p.read_text(encoding='utf-8'))
     except Exception:return d
 def iso(dt):return dt.astimezone(timezone.utc).replace(microsecond=0).isoformat().replace('+00:00','Z')
+def apply_lifecycle(data,now=None):
+    """Attach the OPE season lifecycle without rewriting its historical figures."""
+    payload=dict(data or {});today=(now or datetime.now(timezone.utc)).date()
+    try:start=datetime.fromisoformat(str(payload.get('season_start') or SEASON_START)).date()
+    except ValueError:start=datetime.fromisoformat(SEASON_START).date()
+    try:end=datetime.fromisoformat(str(payload.get('season_end') or SEASON_END)).date()
+    except ValueError:end=datetime.fromisoformat(SEASON_END).date()
+    try:report=datetime.fromisoformat(str(payload.get('report_date'))).date()
+    except (TypeError,ValueError):report=None
+    if today>end:
+        state='SEASON_COMPLETE';historical=True
+        note_es='Temporada finalizada · últimos datos oficiales archivados.'
+        note_en='Season complete · latest official figures archived.'
+    elif today<start:
+        state='UNAVAILABLE';historical=True
+        note_es='La campaña aún no está activa; se conservan los datos históricos disponibles.'
+        note_en='The campaign is not active yet; available historical figures are preserved.'
+    elif report is None or (today-report).days>FRESH_REPORT_DAYS:
+        state='STALE';historical=False
+        note_es='Campaña activa, pero falta un parte oficial reciente.'
+        note_en='The campaign is active, but a recent official report is missing.'
+    else:
+        state='ACTIVE';historical=False
+        note_es='Campaña activa · parte oficial reciente.'
+        note_en='Active season · recent official report.'
+    payload.update(lifecycle=state,historical=historical,lifecycle_note_es=note_es,lifecycle_note_en=note_en)
+    return payload
 def fetch_bytes(url,timeout=50):
     req=urllib.request.Request(url,headers={'User-Agent':UA,'Accept':'application/pdf,text/html;q=0.8,*/*;q=0.2'})
     with urllib.request.urlopen(req,timeout=timeout) as r:return r.read(),r.geturl(),r.headers.get_content_type()
@@ -51,7 +79,7 @@ def parse_pdf(blob,url):
     if not dep_day['passengers'] or not dep_rows:raise ValueError('departure table not parsed')
     months_es=['','enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre']
     months_en=['','January','February','March','April','May','June','July','August','September','October','November','December']
-    return {'season':2026,'status':'OK','checked_at':iso(datetime.now(timezone.utc)),'report_date':date.isoformat(),'report_label_es':f'{date.day} de {months_es[date.month]} de {date.year}','report_label_en':f'{date.day} {months_en[date.month]} {date.year}','source':'Secretaría General de Protección Civil y Emergencias','source_url':url,'campaign_url':'https://www.proteccioncivil.es/coordinacion/campanas/operaci%C3%B3n-paso-del-estrecho','season_start':'2026-06-15','season_end':'2026-09-15','departure':{'day':dep_day,'cumulative':dep_cum,'routes':sorted(dep_rows,key=lambda r:r['passengers'],reverse=True)[:8]},'return':{'day':ret_day,'cumulative':ret_cum,'routes':sorted(ret_rows,key=lambda r:r['passengers'],reverse=True)[:8]},'advice_es':'Protección Civil recomienda planificar el viaje y acudir al puerto con billete cerrado adquirido con antelación.','advice_en':'Spanish Civil Protection recommends planning the journey and arriving at the port with a pre-booked closed ticket.','data_note_es':'Último informe oficial localizado. No es un contador en tiempo real.','data_note_en':'Latest official report located. This is not a real-time counter.'}
+    return apply_lifecycle({'season':2026,'status':'OK','checked_at':iso(datetime.now(timezone.utc)),'report_date':date.isoformat(),'report_label_es':f'{date.day} de {months_es[date.month]} de {date.year}','report_label_en':f'{date.day} {months_en[date.month]} {date.year}','source':'Secretaría General de Protección Civil y Emergencias','source_url':url,'campaign_url':'https://www.proteccioncivil.es/coordinacion/campanas/operaci%C3%B3n-paso-del-estrecho','season_start':SEASON_START,'season_end':SEASON_END,'departure':{'day':dep_day,'cumulative':dep_cum,'routes':sorted(dep_rows,key=lambda r:r['passengers'],reverse=True)[:8]},'return':{'day':ret_day,'cumulative':ret_cum,'routes':sorted(ret_rows,key=lambda r:r['passengers'],reverse=True)[:8]},'advice_es':'Protección Civil recomienda planificar el viaje y acudir al puerto con billete cerrado adquirido con antelación.','advice_en':'Spanish Civil Protection recommends planning the journey and arriving at the port with a pre-booked closed ticket.','data_note_es':'Último informe oficial localizado. No es un contador en tiempo real.','data_note_en':'Latest official report located. This is not a real-time counter.'})
 def discover_official_links():
     """Find report links exposed by the official OPE campaign pages."""
     out=[]
@@ -98,6 +126,7 @@ def main():
             if not blob.startswith(b'%PDF'):continue
             data=parse_pdf(blob,final)
             if previous.get('report_date') and data['report_date']<previous['report_date']:continue
+            data=apply_lifecycle(data)
             OUT.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
             hist=load(HISTORY,[])
             snap={'report_date':data['report_date'],'departure':data['departure']['day'],'return':data['return']['day'],'source_url':data['source_url']}
@@ -111,7 +140,7 @@ def main():
             return 0
         except Exception as exc:errors.append(type(exc).__name__+': '+str(exc))
     if previous:
-        previous['last_attempt_at']=iso(datetime.now(timezone.utc));previous['last_error']=' | '.join(errors[-3:]) or 'No official report located'
+        previous=apply_lifecycle(previous);previous['last_attempt_at']=iso(datetime.now(timezone.utc));previous['last_error']=' | '.join(errors[-3:]) or 'No official report located'
         OUT.write_text(json.dumps(previous,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
         print('OPE preserved:',previous.get('report_date'))
         return 0

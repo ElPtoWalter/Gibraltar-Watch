@@ -21,10 +21,17 @@ import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 
+from straitwatch_core import (
+    SourceRegistry, aggregate_events, canonical_url, normalize_title,
+    title_similarity, write_json_if_changed,
+)
+
 ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "geopolitics.json"
 HISTORY = ROOT / "geopolitics-history.json"
 SITEMAP = ROOT / "sitemap.xml"
+EVENTS = ROOT / "events.json"
+SOURCE_REGISTRY = SourceRegistry.from_path(ROOT / "source-registry.json")
 UA = "GibraltarWatch/1.0 (+https://estrechogibraltar.com/contacto.html)"
 NOW = datetime.now(timezone.utc)
 
@@ -69,6 +76,12 @@ TENSION = re.compile(r"\b(tension|accus|critic|blame|sovereignty|claim|spat|pres
 SECURITY = re.compile(r"\b(military|army|police|barrier|reinforce|security|patrol|naval|militar|ejército|polic|barrera|refuerzo|seguridad|patrulla|naval)\b", re.I)
 MARITIME_DISRUPTION = re.compile(r"\b(strait.*closed|shipping.*halt|navigation.*suspend\w*|port.*clos\w*|estrecho.*cerrad\w*|tráfico.*deten\w*|navegación.*suspend\w*|puerto.*cerrad\w*)\b", re.I)
 MARITIME_RESTRICT = re.compile(r"\b(restrict|delay|congestion|incident|collision|restric|retras|congest|incidente|colisión)\b", re.I)
+MARITIME_POSITIVE = re.compile(
+    r"\b(open to (?:shipping|navigation)|normal operations?|services? (?:remain |are )?operat\w*|"
+    r"ferr(?:y|ies) (?:remain |are )?operat\w*|tr[aá]fico (?:mar[ií]timo )?normal|"
+    r"servicios? (?:mar[ií]timos? )?operativos?|sin incidencias|navegaci[oó]n abierta)\b",
+    re.I,
+)
 
 @dataclass(frozen=True)
 class NewsItem:
@@ -79,6 +92,7 @@ class NewsItem:
     category: str
     language: str
     weight: int
+    source_id: str = ""
 
 
 def fetch(url: str, attempts: int = 3) -> bytes:
@@ -100,7 +114,8 @@ def normalise_source(source: str, title: str) -> str:
         return SOURCE_ALIASES[raw]
     if not raw and " - " in title:
         raw = title.rsplit(" - ", 1)[-1].strip()
-    return SOURCE_ALIASES.get(raw, raw or "Fuente no identificada")
+    legacy = SOURCE_ALIASES.get(raw, raw or "Fuente no identificada")
+    return SOURCE_REGISTRY.resolve(legacy).canonical_name
 
 
 def parse_date(value: str) -> datetime:
@@ -126,8 +141,9 @@ def parse_rss(payload: bytes, category: str, language: str) -> list[NewsItem]:
         if not title or not link:
             continue
         dt = parse_date(node.findtext("pubDate") or "")
-        weight = TRUSTED.get(source, 2)
-        output.append(NewsItem(title, source, link, dt.isoformat(), category, language, weight))
+        profile = SOURCE_REGISTRY.resolve(source, link)
+        weight = profile.tier if profile.source_id != "unknown" else TRUSTED.get(source, 2)
+        output.append(NewsItem(title, profile.canonical_name, canonical_url(link), dt.isoformat(), category, language, weight, profile.source_id))
     return output
 
 
@@ -136,16 +152,40 @@ def feed_url(query: str, hl: str, gl: str, ceid: str) -> str:
 
 
 def dedupe(items: Iterable[NewsItem]) -> list[NewsItem]:
-    seen: set[str] = set()
     out: list[NewsItem] = []
     for item in sorted(items, key=lambda x: (x.published_at, x.weight), reverse=True):
-        key = re.sub(r"\W+", " ", item.title.lower()).strip()
-        key = " ".join(key.split()[:18])
-        if key in seen:
+        url = canonical_url(item.url)
+        key = normalize_title(item.title)
+        if any(
+            (url and url == canonical_url(old.url))
+            or (
+                item.source_id == old.source_id
+                and abs((datetime.fromisoformat(item.published_at) - datetime.fromisoformat(old.published_at)).total_seconds()) <= 96 * 3600
+                and title_similarity(key, old.title) >= 0.90
+            )
+            for old in out
+        ):
             continue
-        seen.add(key)
         out.append(item)
     return out
+
+
+def event_store_for(items: list[NewsItem], previous: dict | None = None) -> dict:
+    rows = []
+    for item in items:
+        signal = ""
+        if item.category in {"traffic", "ports"}:
+            if MARITIME_DISRUPTION.search(item.title):
+                signal = "CLOSURE_EFFECTIVE"
+            elif MARITIME_RESTRICT.search(item.title):
+                signal = "ACCESS_RESTRICTED"
+            elif MARITIME_POSITIVE.search(item.title):
+                signal = "OPEN_OPERATIONAL"
+        row = asdict(item)
+        row["signal"] = signal
+        rows.append(row)
+    previous_events = (previous or {}).get("events", []) if isinstance(previous, dict) else []
+    return aggregate_events(rows, SOURCE_REGISTRY, previous_events, generated_at=NOW.isoformat())
 
 
 def recent(items: list[NewsItem], hours: int = 96) -> list[NewsItem]:
@@ -172,6 +212,11 @@ def classify(items: list[NewsItem], previous: dict | None = None) -> dict:
     security_score = sum(i.weight for i in trusted if SECURITY.search(i.title))
     disruption = [i for i in trusted if i.category in {"traffic", "ports"} and MARITIME_DISRUPTION.search(i.title)]
     restrictions = [i for i in trusted if i.category in {"traffic", "ports"} and MARITIME_RESTRICT.search(i.title)]
+    positive = [i for i in trusted if i.category in {"traffic", "ports"} and MARITIME_POSITIVE.search(i.title)]
+    positive_sources = {i.source_id or i.source for i in positive}
+    disruption_sources = {i.source_id or i.source for i in disruption}
+    official_positive = [i for i in positive if SOURCE_REGISTRY.resolve(i.source, i.url).official]
+    official_disruption = [i for i in disruption if SOURCE_REGISTRY.resolve(i.source, i.url).official]
     preventive = [
         i for i in rec
         if i.category in {"ceuta", "melilla"}
@@ -202,18 +247,30 @@ def classify(items: list[NewsItem], previous: dict | None = None) -> dict:
         default=None,
     )
 
-    if len({i.source for i in disruption}) >= 2:
+    if official_disruption:
+        maritime_es, maritime_en = "INTERRUPCIÓN CONFIRMADA", "CONFIRMED DISRUPTION"
+        maritime_note_es = "Una fuente marítima oficial directa confirma una interrupción reciente."
+        maritime_note_en = "A direct official maritime source confirms a recent disruption."
+    elif len(disruption_sources) >= 2:
         maritime_es, maritime_en = "INTERRUPCIÓN POSIBLE", "POSSIBLE DISRUPTION"
         maritime_note_es = "Hay varias señales recientes; se requiere confirmación marítima oficial."
         maritime_note_en = "Multiple recent signals exist; official maritime confirmation is required."
-    elif restrictions:
+    elif restrictions and (official_positive or len(positive_sources) >= 2):
         maritime_es, maritime_en = "OPERATIVO CON INCIDENCIAS", "OPERATIONAL WITH INCIDENTS"
-        maritime_note_es = "El corredor sigue operativo, con señales de incidencias o congestión."
-        maritime_note_en = "The corridor remains operational, with signs of incidents or congestion."
+        maritime_note_es = "La operatividad tiene respaldo positivo reciente, pero existen incidencias o congestión."
+        maritime_note_en = "Recent positive evidence supports operation, but incidents or congestion are present."
+    elif official_positive or len(positive_sources) >= 2:
+        maritime_es, maritime_en = "OPERATIVO CONFIRMADO", "CONFIRMED OPERATIONAL"
+        maritime_note_es = "Una fuente oficial directa o varias fuentes fiables independientes respaldan la operatividad reciente."
+        maritime_note_en = "A direct official source or several reliable independent sources support recent operation."
+    elif disruption or restrictions or positive:
+        maritime_es, maritime_en = "VIGILANCIA", "WATCH"
+        maritime_note_es = "Hay una señal marítima reciente, pero todavía no supera el umbral de confirmación."
+        maritime_note_en = "There is a recent maritime signal, but it has not yet met the confirmation threshold."
     else:
-        maritime_es, maritime_en = "OPERATIVO", "OPERATIONAL"
-        maritime_note_es = "El corredor permanece abierto; los avisos oficiales prevalecen."
-        maritime_note_en = "The corridor remains open; official notices remain authoritative."
+        maritime_es, maritime_en = "SIN CONFIRMACIÓN RECIENTE", "NO RECENT CONFIRMATION"
+        maritime_note_es = "No hay evidencia positiva reciente suficiente para afirmar operatividad; la ausencia de alertas no se trata como prueba."
+        maritime_note_en = "There is not enough recent positive evidence to confirm operation; absence of alerts is not treated as proof."
 
     if border_high >= 8:
         border_es, border_en = "ALTA", "HIGH"
@@ -270,7 +327,11 @@ def classify(items: list[NewsItem], previous: dict | None = None) -> dict:
         sec_note_es = "No se detectan señales suficientes para una alerta editorial."
         sec_note_en = "There are not enough signals for an editorial alert."
 
-    confidence_es, confidence_en = ("ALTA", "HIGH") if len(trusted) >= 8 else (("MEDIA", "MEDIUM") if len(trusted) >= 3 else ("BAJA", "LOW"))
+    maritime_confirmed = maritime_es in {"OPERATIVO CONFIRMADO", "OPERATIVO CON INCIDENCIAS", "INTERRUPCIÓN CONFIRMADA"}
+    confidence_es, confidence_en = (
+        ("ALTA", "HIGH") if maritime_confirmed and len(trusted) >= 8
+        else (("MEDIA", "MEDIUM") if maritime_confirmed or len(trusted) >= 3 else ("BAJA", "LOW"))
+    )
     return {
         "maritime_status": {"es": maritime_es, "en": maritime_en},
         "maritime_note": {"es": maritime_note_es, "en": maritime_note_en},
@@ -315,6 +376,7 @@ def main() -> int:
     items = dedupe(items)
     selected = [i for i in items if i.weight >= 2][:36]
     if selected:
+        event_store = event_store_for(selected, load_json(EVENTS, {}))
         status = classify(selected, previous)
         payload = {
             "version": 1,
@@ -325,6 +387,7 @@ def main() -> int:
             "errors": errors,
         }
         DATA.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+        write_json_if_changed(EVENTS, event_store)
         history = load_json(HISTORY, [])
         signature = json.dumps(status, sort_keys=True, ensure_ascii=False)
         old_signature = json.dumps(history[-1].get("status", {}), sort_keys=True, ensure_ascii=False) if history else ""

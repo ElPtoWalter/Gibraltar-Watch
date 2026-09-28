@@ -1,16 +1,16 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-28T15:34:26Z",
+  "generated_at": "2026-09-28T21:38:41Z",
   "state": {
-    "code": "normal",
-    "label_es": "NORMALIDAD OPERATIVA",
-    "color": "green",
-    "severity": 0,
-    "summary_es": "No aparecen señales suficientes para elevar el nivel general del observatorio. Parte de las fuentes necesita actualización, por lo que la lectura debe interpretarse con cautela.",
+    "code": "watch",
+    "label_es": "VIGILANCIA",
+    "color": "yellow",
+    "severity": 1,
+    "summary_es": "La situación requiere seguimiento, pero no aparecen señales suficientes para elevar el nivel operativo.",
     "layers": {
       "maritime": {
-        "value": "OPERATIVO",
-        "severity": 0
+        "value": "SIN CONFIRMACIÓN RECIENTE",
+        "severity": 1
       },
       "border": {
         "value": "BAJA / SIN SEÑALES RECIENTES",
@@ -26,10 +26,8 @@
       }
     },
     "confidence": "BAJA",
-    "confidence_explanation_es": "Confianza baja porque necesitan actualización o revisión: Operación Paso del Estrecho. El estado operativo se mantiene separado de la frescura de esas fuentes.",
-    "sources_pending": [
-      "Operación Paso del Estrecho"
-    ],
+    "confidence_explanation_es": "Confianza baja: la información disponible no permite una corroboración reciente suficiente.",
+    "sources_pending": [],
     "alert_level": {
       "code": "informational",
       "label_es": "INFORMATIVO",
@@ -37,7 +35,7 @@
     }
   },
   "metrics": {
-    "news_24h": 3,
+    "news_24h": 2,
     "news_sources": 29,
     "seismic_24h": 0,
     "seismic_7d": 0,
@@ -48,35 +46,57 @@
     "ope_vehicles_day": 15464,
     "ope_rotations_day": 179,
     "diary_date": "2026-09-28",
-    "diary_source_count": 3
+    "diary_source_count": 2
   },
   "anomalies": [],
   "changes": {
     "state_changed": false,
-    "previous_state_code": "normal",
+    "previous_state_code": "watch",
     "layer_changes": []
   },
   "since_yesterday": {
     "reference_date": "2026-09-27",
-    "summary_es": "El nivel general pasa de VIGILANCIA a NORMALIDAD OPERATIVA. El monitor recoge 1 referencias más en la ventana de 24 horas."
+    "summary_es": "El nivel general se mantiene en VIGILANCIA. El volumen de referencias de las últimas 24 horas no cambia."
   },
   "health": {
-    "overall": "stale",
-    "generated_at": "2026-09-28T15:34:26Z"
+    "overall": "HEALTHY",
+    "generated_at": "2026-09-28T21:38:41Z"
   },
   "latest_diary": {
     "date": "2026-09-28",
-    "headline": "España–Marruecos: qué aportan los titulares y qué falta comprobar",
-    "summary": "Selección automática de 3 referencias de 3 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
+    "summary": "Selección automática de 2 referencias de 1 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
     "published_at": "2026-09-28T09:01+02:00",
-    "updated_at": "2026-09-28T17:34+02:00",
-    "source_count": 3,
+    "updated_at": "2026-09-28T23:34+02:00",
+    "source_count": 2,
     "indexable": false,
-    "edition_label": "Cuaderno diplomático",
-    "edition_slug": "relations",
-    "fingerprint": "221317d3cb7d09916762",
+    "edition_label": "Cuaderno de las dos orillas",
+    "edition_slug": "shores",
+    "fingerprint": "73a2c089de79db4e1dc3",
     "editor_engine": "rules",
-    "editor_assistant_status": "no-key",
+    "editor_assistant_status": "insufficient-sources",
+    "assistant_status": "insufficient-sources",
+    "validator_version": 2,
+    "factual_packet_hash": "f9c840ae689da421c26d24fb5b1a8c1f3241666364817d2f90fc458f4c06dfdd",
+    "event_ids": [
+      "evt_d492849d88c84cb1",
+      "evt_259b1e0a684a3241"
+    ],
+    "source_ids": [
+      "rtve",
+      "unknown"
+    ],
+    "timestamp": "2026-09-28T21:34:52.013050+00:00",
+    "fallback_used": true,
+    "verification_summary": {
+      "CONFIRMED_MULTI_SOURCE": 0,
+      "CONFIRMED_PRIMARY": 0,
+      "CONFLICTING": 0,
+      "DECLARATION_ONLY": 1,
+      "SINGLE_SOURCE": 1,
+      "UNCONFIRMED": 14,
+      "TOTAL": 16
+    },
     "date_label": "2026-09-28",
     "slug": "2026-09-28.html"
   },
@@ -84,7 +104,10 @@
     "report_date": "2026-08-15",
     "report_label_es": "15 de agosto de 2026",
     "source": "Secretaría General de Protección Civil y Emergencias",
-    "source_url": "https://www.proteccioncivil.es/documents/20121/0/20260815_InformeOPE.pdf"
+    "source_url": "https://www.proteccioncivil.es/documents/20121/0/20260815_InformeOPE.pdf",
+    "lifecycle": "SEASON_COMPLETE",
+    "historical": true,
+    "lifecycle_note_es": "Temporada finalizada · últimos datos oficiales archivados."
   },
   "methodology": {
     "principle": "Hechos, interpretación y escenarios se muestran por separado.",

@@ -5886,5 +5886,52 @@
         "en": "LOW"
       }
     }
+  },
+  {
+    "at": "2026-09-28T21:25:59.059996+00:00",
+    "status": {
+      "maritime_status": {
+        "es": "SIN CONFIRMACIÓN RECIENTE",
+        "en": "NO RECENT CONFIRMATION"
+      },
+      "maritime_note": {
+        "es": "No hay evidencia positiva reciente suficiente para afirmar operatividad; la ausencia de alertas no se trata como prueba.",
+        "en": "There is not enough recent positive evidence to confirm operation; absence of alerts is not treated as proof."
+      },
+      "border_pressure": {
+        "es": "BAJA / SIN SEÑALES RECIENTES",
+        "en": "LOW / NO RECENT SIGNALS"
+      },
+      "border_note": {
+        "es": "No aparecen señales recientes suficientes para elevar el nivel.",
+        "en": "There are not enough recent signals to raise the level."
+      },
+      "border_watch": {
+        "last_signal_at": null,
+        "hold_until": null,
+        "signal_sources": 0,
+        "hold_hours": 48
+      },
+      "bilateral_tension": {
+        "es": "ESTABLE",
+        "en": "STABLE"
+      },
+      "bilateral_note": {
+        "es": "No se detecta una escalada bilateral clara en las fuentes recientes.",
+        "en": "No clear bilateral escalation is detected in recent sources."
+      },
+      "security_status": {
+        "es": "SIN ALERTA ESPECÍFICA",
+        "en": "NO SPECIFIC ALERT"
+      },
+      "security_note": {
+        "es": "No se detectan señales suficientes para una alerta editorial.",
+        "en": "There are not enough signals for an editorial alert."
+      },
+      "confidence": {
+        "es": "BAJA",
+        "en": "LOW"
+      }
+    }
   }
 ]

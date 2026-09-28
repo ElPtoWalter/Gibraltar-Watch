@@ -3,14 +3,36 @@
   "headline": "España–Marruecos: qué aportan los titulares y qué falta comprobar",
   "summary": "Selección automática de 3 referencias de 3 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
   "published_at": "2026-09-28T09:01+02:00",
-  "updated_at": "2026-09-28T17:34+02:00",
+  "updated_at": "2026-09-28T23:38+02:00",
   "source_count": 3,
   "indexable": false,
   "edition_label": "Cuaderno diplomático",
   "edition_slug": "relations",
-  "fingerprint": "221317d3cb7d09916762",
+  "fingerprint": "dbe4f34ae3a4f6243c5b",
   "editor_engine": "rules",
   "editor_assistant_status": "no-key",
+  "assistant_status": "no-key",
+  "validator_version": 2,
+  "factual_packet_hash": "b3cbc99f277c38ab374947fe1c710c803c9862408110b9fd04679413818ca7d5",
+  "event_ids": [
+    "evt_d492849d88c84cb1",
+    "evt_259b1e0a684a3241"
+  ],
+  "source_ids": [
+    "rtve",
+    "unknown"
+  ],
+  "timestamp": "2026-09-28T21:38:41.490242+00:00",
+  "fallback_used": true,
+  "verification_summary": {
+    "CONFIRMED_MULTI_SOURCE": 0,
+    "CONFIRMED_PRIMARY": 0,
+    "CONFLICTING": 0,
+    "DECLARATION_ONLY": 1,
+    "SINGLE_SOURCE": 1,
+    "UNCONFIRMED": 14,
+    "TOTAL": 16
+  },
   "date_label": "2026-09-28",
   "slug": "2026-09-28.html"
 }

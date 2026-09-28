@@ -112,10 +112,14 @@ def normalise_source(source: str, title: str) -> str:
     raw = html.unescape((source or "").strip())
     if raw in SOURCE_ALIASES:
         return SOURCE_ALIASES[raw]
-    if not raw and " - " in title:
+    if raw.casefold() in {"", "unknown source", "fuente no identificada"} and " - " in title:
         raw = title.rsplit(" - ", 1)[-1].strip()
     legacy = SOURCE_ALIASES.get(raw, raw or "Fuente no identificada")
-    return SOURCE_REGISTRY.resolve(legacy).canonical_name
+    profile = SOURCE_REGISTRY.resolve(legacy)
+    # Keep the publisher label supplied by the RSS feed when it is not yet in
+    # the registry. Collapsing every unregistered outlet into "Unknown source"
+    # destroys source independence and makes the factual packet unauditable.
+    return profile.canonical_name if profile.source_id != "unknown" else legacy
 
 
 def parse_date(value: str) -> datetime:
@@ -143,7 +147,8 @@ def parse_rss(payload: bytes, category: str, language: str) -> list[NewsItem]:
         dt = parse_date(node.findtext("pubDate") or "")
         profile = SOURCE_REGISTRY.resolve(source, link)
         weight = profile.tier if profile.source_id != "unknown" else TRUSTED.get(source, 2)
-        output.append(NewsItem(title, profile.canonical_name, canonical_url(link), dt.isoformat(), category, language, weight, profile.source_id))
+        publisher = profile.canonical_name if profile.source_id != "unknown" else source
+        output.append(NewsItem(title, publisher, canonical_url(link), dt.isoformat(), category, language, weight, profile.source_id))
     return output
 
 

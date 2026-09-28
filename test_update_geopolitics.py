@@ -2,6 +2,7 @@ from datetime import datetime, timedelta, timezone
 import unittest
 from unittest.mock import patch
 
+import build_events
 import update_geopolitics as u
 
 
@@ -13,6 +14,27 @@ class GeopoliticsTests(unittest.TestCase):
         self.assertEqual(items[0].source, "Reuters")
         self.assertEqual(items[0].weight, 4)
         self.assertEqual(items[0].source_id, "reuters")
+
+    def test_parse_rss_preserves_an_unregistered_publisher_label(self):
+        rss = b'''<?xml version="1.0"?><rss><channel><item><title>Noticias de Ceuta - Medio Local</title><link>https://news.google.com/rss/articles/example</link><pubDate>Sun, 28 Sep 2026 10:00:00 GMT</pubDate><source>Unknown source</source></item></channel></rss>'''
+        items = u.parse_rss(rss, "ceuta", "es")
+        self.assertEqual(len(items), 1)
+        self.assertEqual(items[0].source, "Medio Local")
+        self.assertEqual(items[0].source_id, "unknown")
+
+    def test_event_rebuild_preserves_an_unregistered_publisher_label(self):
+        item = build_events.normalise_item({
+            "title": "Noticias de Ceuta",
+            "source": "Medio Local",
+            "url": "https://news.google.com/rss/articles/example",
+            "published_at": "2026-09-28T10:00:00+00:00",
+            "category": "ceuta",
+            "language": "es",
+            "weight": 2,
+            "source_id": "unknown",
+        })
+        self.assertEqual(item.source, "Medio Local")
+        self.assertEqual(item.source_id, "unknown")
 
     def test_high_border_pressure_requires_signals(self):
         now = datetime.now(timezone.utc).isoformat()

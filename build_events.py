@@ -17,6 +17,23 @@ def load(path: Path, fallback):
         return fallback
 
 
+def normalise_item(raw: dict) -> NewsItem:
+    values = {
+        key: raw[key]
+        for key in NewsItem.__dataclass_fields__
+        if key in raw
+    }
+    original_source = str(values.get("source") or "").strip()
+    profile = SOURCE_REGISTRY.resolve(original_source, values.get("url"))
+    values.update(
+        source=profile.canonical_name if profile.source_id != "unknown" else (original_source or profile.canonical_name),
+        source_id=profile.source_id,
+        url=canonical_url(values.get("url")),
+        weight=profile.tier if profile.source_id != "unknown" else values.get("weight", 1),
+    )
+    return NewsItem(**values)
+
+
 def main() -> int:
     data = load(DATA, {})
     items = []
@@ -24,19 +41,7 @@ def main() -> int:
         if not isinstance(raw, dict):
             continue
         try:
-            values = {
-                key: raw[key]
-                for key in NewsItem.__dataclass_fields__
-                if key in raw
-            }
-            profile = SOURCE_REGISTRY.resolve(values.get("source"), values.get("url"))
-            values.update(
-                source=profile.canonical_name,
-                source_id=profile.source_id,
-                url=canonical_url(values.get("url")),
-                weight=profile.tier if profile.source_id != "unknown" else values.get("weight", 1),
-            )
-            items.append(NewsItem(**values))
+            items.append(normalise_item(raw))
         except TypeError:
             continue
     store = event_store_for(items, load(EVENTS, {}))

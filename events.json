@@ -1,13 +1,105 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-28T20:29:21.005551+00:00",
+  "generated_at": "2026-09-28T21:38:31.253204+00:00",
   "events": [
+    {
+      "event_id": "evt_97be0a2502c646f9",
+      "topic": "melilla",
+      "first_seen": "2026-09-28T10:32:48Z",
+      "last_seen": "2026-09-28T10:32:48Z",
+      "headline": "Tasende: \"Hay que cortar la fuga de divisas de Melilla a Marruecos\" - El Faro de Melilla",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_2040f33d47dc0cd9",
+          "title": "Tasende: \"Hay que cortar la fuga de divisas de Melilla a Marruecos\" - El Faro de Melilla",
+          "title_key": "tasende hay que cortar la fuga de divisas de melilla a marruecos el faro de melilla",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNGplWklpNmd5MktKOHlYZ3dvWXAxU2RTaHhmZ29rR2NfclFKY1ZFNTYxT0QzQmdIQld4OGNFVzhUNEhpUXBTMUM0ZUxON2VJZkpJWEctSlFGc3RWbFBwQXhpaHpFNnVPYV9TY2l3S1pZRWpnOGdabTV3bXNNR1VTTm5BWDZTT2pXaEF4Y21scXIzNU9sSUMw0gGcAUFVX3lxTE42M3JXY010NURlXzBOSHFsd1NKT2g3STNNTzhPZVZKSVFUZnUweEpiRnEtRDZvbnlxNmgxbDBPdllTc0tlRkpPdDNrajl6VFpGVkYtNjhpYV9ValpLV21lN0VWd1BNWm8taV9MaHR3SVZLOElud3hJc2JoNlRtYlR3WUZ0T2NiTDRvZDhvZ2ozb0FSQjVnNTBSVDF2WQ",
+          "published_at": "2026-09-28T10:32:48Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "melilla",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_b74707f06e5bf3a2",
+      "topic": "relations",
+      "first_seen": "2026-09-28T08:53:01Z",
+      "last_seen": "2026-09-28T08:53:01Z",
+      "headline": "De Perejil a Ceuta: Federico Trillo analiza en Murcia la nueva tensión con Marruecos",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_aec00027777fb5cb",
+          "title": "De Perejil a Ceuta: Federico Trillo analiza en Murcia la nueva tensión con Marruecos",
+          "title_key": "de perejil a ceuta federico trillo analiza en murcia la nueva tension con marruecos",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNUxCVzBhdGhPdEJpNXAxZ01tSXJ4enMwTThQWDU4ZkJycURlVzNsM2paYUF0ZjVHZXlUTHZqSmt0YkUyM25iSm5BWVdJSGhkMk0xbHk4amNlWW5UQnJVYmdDZ0hOQ3J0MlJPVXpKRDEtc0hGQm13UEYxa0lvMnBOUVhjX2p2dThhUk1EZXZyeldfcGhwRUJ6dmZBamhEN29uQTdyNUVNTk5JUdIBrwFBVV95cUxPUG5rbE55Qmp3elFqU0lPSUJSNWlCTlQyVkxkQi1YTkRhOUR1M1luTTZUMXFqZHZhRnQ0SURlakRaTTdPOG5LeVRNUThFN2I1enlNMnQ3WmpraFZzb0cwZElxZmJvc015Ri1zeDBhd3U2WGVWb29pelJlajNTekR6bXdLeWJNRkVvVWpVMGxfdDd4ZHZyODhZanhSYUJvb1lhTDNUVTlUTUxIcng3TUt3",
+          "published_at": "2026-09-28T08:53:01Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
     {
       "event_id": "evt_d492849d88c84cb1",
       "topic": "relations",
       "first_seen": "2026-09-24T20:42:35Z",
       "last_seen": "2026-09-27T16:59:51Z",
-      "headline": "Marruecos se compromete a colaborar para la devolución de los inmigrantes que todavía quedan en Ceuta",
+      "headline": "Marruecos se compromete a colaborar para la devolución de los inmigrantes que todavía quedan en Ceuta - RTVE.es",
       "classification": "FACT",
       "verification_status": "SINGLE_SOURCE",
       "verification_reason": "Supported by one usable source; independent corroboration is pending.",
@@ -36,7 +128,7 @@
       "articles": [
         {
           "article_id": "art_3f204eab981336bc",
-          "title": "Marruecos se compromete a colaborar para la devolución de los inmigrantes que todavía quedan en Ceuta",
+          "title": "Marruecos se compromete a colaborar para la devolución de los inmigrantes que todavía quedan en Ceuta - RTVE.es",
           "title_key": "marruecos se compromete a colaborar para la devolucion de los inmigrantes que todavia quedan en ceuta",
           "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWXBCOFl0dmgweEcxV2dUNTU1bWQ3Q0VIRmVBcDk3Z0VtUXVYUEhOYWdBbVlHZGxKR1BrZmFha0x6RERwdTdWOUttX1V1ZHJYMExGdnVTQnoxM1ZsWExNekEwcGVTeHBhaWN4OWlIYW4ycTNKUExWMHd2ZEZqYXNvN2tDRnpGczZQWTR4dm1zUHV5Mk54Y0JTdmlldEhlWmw0dTl6ZDFPWVNCcUdEak1DX3lwUjNFaE9UbHZCcWpla1M3U2tNYnRaWXVDTkxZU1NGQmlR",
           "published_at": "2026-09-24T20:42:35Z",
@@ -163,10 +255,28 @@
           "description": ""
         },
         {
-          "article_id": "art_58f71faca1afdc30",
+          "article_id": "art_1a7750b55695beaa",
+          "title": "Migrant Surge in Spain’s Ceuta Sparks Border Crisis",
+          "title_key": "migrant surge in spain s ceuta sparks border crisis",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBTLUQzWnowUnVwV1BlMjZxenhIMVRhWGRPZGZINGpXVWEyZFFqRk5OaUJ3Q2t1WjUyUnlNQWJWSENCSWJWSlJ5b1NGNU45dw",
+          "published_at": "2026-09-24T09:03:11Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_ff055c1881fb854b",
           "title": "Thousands protest government in Madrid over Ceuta migrant crisis - International - World",
           "title_key": "thousands protest government in madrid over ceuta migrant crisis international world",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdW9xOTNiUGFVc0VyLVpLeVF1SjFJcjVqMFZxWTBWNjBad05HazFTekdISDlpQ2RXaTBDYkUwWHJobHJKOUhXNFV2SjFtX3FvUWQ4NFZTSnprUWxqcFNTU3BsVkh5M1pCZHFNdXlKZ2NvSzhmVUxYaWc5d29KaW5zQnlhWW1ZbHZGN2JlbGhKT0QwWlV2VWpGcEZsck16OTU2aWM4OHVVdFpKSWpZcXZreUNLb3ZZX3E0YUdQWXNzZlFrNzZYdkE",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA2enhFeWdvQ3BvR0t2clVsaTJhUkRBYmdYSGpEVjM5a3A3enBiemp6N1UwSlNvNkk5TGllZUFQbEdFSTh2ZThFMG5iN3VSR2pRQVg2dVJpTWI",
           "published_at": "2026-09-26T12:38:32Z",
           "observed_at": "",
           "source_id": "unknown",
@@ -227,10 +337,10 @@
       ],
       "articles": [
         {
-          "article_id": "art_62f3a37264b35b57",
+          "article_id": "art_ec135693547319b9",
           "title": "España y Marruecos: Amigos… pero no tanto",
           "title_key": "espana y marruecos amigos pero no tanto",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOM3EwbnZvcTM3VXY3QlZmRklKT040aEdpclFmS1dJd09KT05zTGIxaldpZVpyd0RKUFVPR1VVM2tvdmZyQjNqN0FJcHNzbG1HdUw0T3VLMFlQa2dnODJPTXdPdnRRZHB2VjBUTDFucldoRHFKUDVDaENXLXdtYWxMLUN3UXA5NE9QVGFRbnVpcTdJVHlqLUJnR1NQQ0lTa21TSGx5SUtySnZJSUJMZlF4QlRNamo4UWdCQkdYYVR3",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOdnJaNktaalBic2pIcFZobm52bG1aallmUjkwSE42UFhuQXJMY2ljUFd6cU12aWV2ZkR4cktqWHZjQlkyOVNLeTlXYzNMUzQ0YmFCQU90MS1LRVJLZkFhRGQxaEFMZnUxcE0xWjRZYTF0Mk1nbWhGclJ1NXZZWFhkMFdZWE5QUnRKcGtPRFpDSWpfT2VyR2pzMG5TTlZvekZaSlJZZFNkcFJKLXJmUGtWakdWck9qSlRqZ3VnVmJUaw",
           "published_at": "2026-09-26T08:21:24Z",
           "observed_at": "",
           "source_id": "unknown",
@@ -273,24 +383,6 @@
       ],
       "articles": [
         {
-          "article_id": "art_f57bbcae467ad84f",
-          "title": "Pedro Sánchez Says Morocco's Border Control Failed During Ceuta Crisis",
-          "title_key": "pedro sanchez says morocco s border control failed during ceuta crisis",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSHZqWDhTVGY1N0tndWU5dXREUEI4bDlqOTVNdlpLNkZyUjY3YVd0VF90RGUzemVkSHNTRktnZnhaVWdvTDBIQm54SVBFN3RCYmRHUU9IUUUtbWYzZ3BzYjJsX3FackJmaG5oMnMyOWJuaUducVBEWkhYTTlnbDRKNlU4N25uYXMt",
-          "published_at": "2026-09-23T12:15:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "DECLARATION",
-          "signal": "",
-          "description": ""
-        },
-        {
           "article_id": "art_f5fb4d7956d0f39c",
           "title": "Sanchez Bows to Pressure, Claims Morocco’s Ceuta Border Control ‘Failed’",
           "title_key": "sanchez bows to pressure claims morocco s ceuta border control failed",
@@ -305,24 +397,6 @@
           "weight": 1.0,
           "topic": "ceuta",
           "classification": "DECLARATION",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_1a7750b55695beaa",
-          "title": "Migrant Surge in Spain’s Ceuta Sparks Border Crisis",
-          "title_key": "migrant surge in spain s ceuta sparks border crisis",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBTLUQzWnowUnVwV1BlMjZxenhIMVRhWGRPZGZINGpXVWEyZFFqRk5OaUJ3Q2t1WjUyUnlNQWJWSENCSWJWSlJ5b1NGNU45dw",
-          "published_at": "2026-09-24T09:03:11Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
         },
@@ -373,11 +447,11 @@
       ],
       "articles": [
         {
-          "article_id": "art_6ada824efc1de2d4",
-          "title": "VOX Molina de Segura llevará al Pleno una moción sobre Ceuta y Melilla y las relaciones con Marruecos",
-          "title_key": "vox molina de segura llevara al pleno una mocion sobre ceuta y melilla y las relaciones con marruecos",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQX193b1lIbjQtazFUUWZkcDBEcE45LTMxUGRrcTVIWnZMbWV5WXUyUTIwWlJXOEIxQ0otUFNKcGNfMUFzcFZJcmgwZklBRjJldVR2aWhFRXM2eTZldFBRUmppOHgxRXZRdTU2OUZfSzNlRENSNG1oalMxamxEb2ZCbklnMmVwU3BaOWM5bXU2VQ",
-          "published_at": "2026-09-23T10:57:18Z",
+          "article_id": "art_b86b3fe8c6f4f73f",
+          "title": "España y Marruecos, una relación vecinal marcada por vaivenes con el Sáhara y la tensión permanente por Ceuta y Melilla",
+          "title_key": "espana y marruecos una relacion vecinal marcada por vaivenes con el sahara y la tension permanente por ceuta y melilla",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZUpMTVhnbXdMLWFocDkzTzdETlJWUFRvQTlnR1JBWGRfRHF4OGxHd3pUN1o5a2otWG1NaGJxTlJfcm01NDJwOERPZUFncFFyNENIcGhKU2xOcXFBRGR1MmE3ZE5Xa2xLaWU3ekZzUGhIR2NyMjJfcllTcWVpOV9zVUlGa205dDR2N1lxSnM2bm5vaG5zcWVSYnpoSWVJc19jX2fSAaIBQVVfeXFMUF9kc0NrcXBGQl9qMVhMQlRrUngyekxHeXlrUGZBRzBDRFdhOGFjVzdaTGl1QWJBU0FYalM5TGZ6U2FPVUdjX1dVNVRLNU4zVFNaSGxFUkRUSFFrRDZQdHo3NVlkWHA1UWFPZVVoMk5UWDZwUzRZN0VLeXJoa0toTXYxbnFEbDRseWFza2oyZVNOWEVKWngxekRxN1hDdFpmLWJ3",
+          "published_at": "2026-09-24T13:30:42Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -391,11 +465,11 @@
           "description": ""
         },
         {
-          "article_id": "art_b86b3fe8c6f4f73f",
-          "title": "España y Marruecos, una relación vecinal marcada por vaivenes con el Sáhara y la tensión permanente por Ceuta y Melilla",
-          "title_key": "espana y marruecos una relacion vecinal marcada por vaivenes con el sahara y la tension permanente por ceuta y melilla",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZUpMTVhnbXdMLWFocDkzTzdETlJWUFRvQTlnR1JBWGRfRHF4OGxHd3pUN1o5a2otWG1NaGJxTlJfcm01NDJwOERPZUFncFFyNENIcGhKU2xOcXFBRGR1MmE3ZE5Xa2xLaWU3ekZzUGhIR2NyMjJfcllTcWVpOV9zVUlGa205dDR2N1lxSnM2bm5vaG5zcWVSYnpoSWVJc19jX2fSAaIBQVVfeXFMUF9kc0NrcXBGQl9qMVhMQlRrUngyekxHeXlrUGZBRzBDRFdhOGFjVzdaTGl1QWJBU0FYalM5TGZ6U2FPVUdjX1dVNVRLNU4zVFNaSGxFUkRUSFFrRDZQdHo3NVlkWHA1UWFPZVVoMk5UWDZwUzRZN0VLeXJoa0toTXYxbnFEbDRseWFza2oyZVNOWEVKWngxekRxN1hDdFpmLWJ3",
-          "published_at": "2026-09-24T13:30:42Z",
+          "article_id": "art_a0ec26ddf73003b3",
+          "title": "El PAM sobre crisis de Ceuta: La vecindad impone relación de alto nivel con España",
+          "title_key": "el pam sobre crisis de ceuta la vecindad impone relacion de alto nivel con espana",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQam1pTjRLd3BVUzZVTWlWOUdIWmcyeWt5djFCem1NWkx6Y1VzenpSb0J3WGlrall5ZEhnTkpPcFBuZWxvV29yR1o0djZVZlpFY0ZvTUFKVW03NlQxVzQ5TndvMy1QNlpFZW0xQVI3Y3BSQXplWkVSVDU4eVdlWE8yWEZCLVhQczlHQlpIbFYzVGxjMFphVmluTVdSdHg",
+          "published_at": "2026-09-24T18:14:19Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -652,11 +726,11 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_1b5f45a13634bae2",
+      "event_id": "evt_1c8268ac3f05ce98",
       "topic": "melilla",
-      "first_seen": "2026-09-23T10:47:48Z",
+      "first_seen": "2026-09-23T12:57:00Z",
       "last_seen": "2026-09-24T17:11:35Z",
-      "headline": "La frontera de Ceuta y Melilla que Google Maps marca como \"discutida\" en plena tensión migratoria: Marruecos la reclama desde 1956",
+      "headline": "Si le preguntamos a Marruecos, la soberanía de Ceuta y Melilla está en disputa. Si le preguntamos a Google... también",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
@@ -674,24 +748,6 @@
         "unknown"
       ],
       "articles": [
-        {
-          "article_id": "art_e631c8619c974d7f",
-          "title": "La frontera de Ceuta y Melilla que Google Maps marca como \"discutida\" en plena tensión migratoria: Marruecos la reclama desde 1956",
-          "title_key": "la frontera de ceuta y melilla que google maps marca como discutida en plena tension migratoria marruecos la reclama desde 1956",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNbVBFWWVvLTdRWDZWdzBkVGF4aHB2TEdYeFl3X2Y2ZWNiUHFnOHQ3MXpDdVlGX0ZseDBrM24tTkVhWFR6WjB2bUk4RWZLVW1MMXdQVmhtcGdxTmx4MDVUVEVyU09icEdUblpVZjNkMFNWVjd4RjFXZkcxcWpWZ2tqTVAyeDhHM0RuT0U4MThQak01WXhOam9FWVJUYmxOTzZIdEFyQmROZ3ZDbC15aXNpWHp0cWM3TmRJUzBLdjc4Sk5vZnRwRjJiaGU0UjJwc19OX0hWeNIB1AFBVV95cUxOZXlxVXRka0FUODV6Rk1fNlNOdjlCWWhkRjJMTl9KYld6enpORFZOWnAySFRPSG9aQTJNY3dnOGNsd1dNZ2xLSmV6YkRfVTBpR1Q2TWMzV09lSWM2ZG9mMUNQaEhoZURNTmFDNG5TczBYWXYyY0tBT3ZYNFE5LTUyRFVVNHI0RElfWXNMT0kwREYxdzl2UmdIcElQMm1IOWJNZHJzbEQ1V0RJRnJjemgxR0E2ZG16VTRtLTdNcUFLbmJMd2VueFNzakQ5dlozZTBzUWVtdg",
-          "published_at": "2026-09-23T10:47:48Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
         {
           "article_id": "art_ace0220c69bbe8a8",
           "title": "Google delimita las líneas de Ceuta y Melilla como si fueran \"fronteras discutidas\": este es el motivo",
@@ -734,24 +790,6 @@
           "title_key": "la frontera de ceuta y melilla blindadas y en calma el dia de las elecciones en marruecos",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQlc1VFhTTlVTcWJTTXQzLUtTOHc1RkU2UUJQRFdVUXRfQ29Xd0F2c09uM1ZDRHQtSDNVMzF2NDhGc2RwNGVUa2JydnBHVkhxZ3F0bHM2bEpPa0p2WHpaS19MZFI5amZnam9aY0R2azc1NGIxOUFabUQ2VVFLQmpjWkJrNVFYUGtqTkRLUnZJbUpYSWdiUGFz",
           "published_at": "2026-09-23T13:14:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_75e05b9d58ca55b6",
-          "title": "España reclama a Marruecos más control en la frontera ante el temor a una nueva llegada masiva",
-          "title_key": "espana reclama a marruecos mas control en la frontera ante el temor a una nueva llegada masiva",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQbGs0VW8wUnBGV0dqdUdxUHBmMEJ6VU9WNmo2OXNkTkp2ckZmaUdDNlk2WnBmTExjeS1PNFQwNk5sXzNNUWZtbnhJUTBvODlybFk1VWVUamllWFM5V09leGgyVGljR1daX0hfa2hEclVpeHQ0b2RKMmdnT0kwd3lXQnRhZy1DZHRId2ZWMXBaRnROcF94VEFGc0lpVWhjdGt6SVd3Nmd6cGhjTzNGclMweGE3YUJLYVRIUlF6eXJXUmY2b1RaRGhUVU9PMWZRSDBESEhpUGNTZU9zQdIB3wFBVV95cUxPN1VYVmZyX0FBa0FMWmxiTEhUS296cUJHRF96NTdrRmNKYThBdmMwZWRVSEkxYXg5UmFoUHpTN2xVNFNlcXhPMEcwYTRJRHB6YmV5S3dodkFzS0ZqbjlLclQyd3dYOE8yVHhKU01qNHprSnROam9qUkdGOHFqV0I0dDdNQlI5NWt5TVh2QkdEOXk1cnVzQlpwVmRhdDlVVF95UU5fQ1NaUUxIek9VMFRFMmVfQUZoT3hVODRuRHRtcFYyLUg4NUZkZ2RhVWZtNHZMQ3NzZVhJRVNnZ2xQeElF",
-          "published_at": "2026-09-23T14:18:32Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -978,9 +1016,55 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_73da6abd8d8b453c",
+      "event_id": "evt_7b3183bff32892b3",
       "topic": "melilla",
-      "first_seen": "2026-09-23T12:50:00Z",
+      "first_seen": "2026-09-23T14:18:32Z",
+      "last_seen": "2026-09-23T14:18:32Z",
+      "headline": "España reclama a Marruecos más control en la frontera ante el temor a una nueva llegada masiva",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_75e05b9d58ca55b6",
+          "title": "España reclama a Marruecos más control en la frontera ante el temor a una nueva llegada masiva",
+          "title_key": "espana reclama a marruecos mas control en la frontera ante el temor a una nueva llegada masiva",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQbGs0VW8wUnBGV0dqdUdxUHBmMEJ6VU9WNmo2OXNkTkp2ckZmaUdDNlk2WnBmTExjeS1PNFQwNk5sXzNNUWZtbnhJUTBvODlybFk1VWVUamllWFM5V09leGgyVGljR1daX0hfa2hEclVpeHQ0b2RKMmdnT0kwd3lXQnRhZy1DZHRId2ZWMXBaRnROcF94VEFGc0lpVWhjdGt6SVd3Nmd6cGhjTzNGclMweGE3YUJLYVRIUlF6eXJXUmY2b1RaRGhUVU9PMWZRSDBESEhpUGNTZU9zQdIB3wFBVV95cUxPN1VYVmZyX0FBa0FMWmxiTEhUS296cUJHRF96NTdrRmNKYThBdmMwZWRVSEkxYXg5UmFoUHpTN2xVNFNlcXhPMEcwYTRJRHB6YmV5S3dodkFzS0ZqbjlLclQyd3dYOE8yVHhKU01qNHprSnROam9qUkdGOHFqV0I0dDdNQlI5NWt5TVh2QkdEOXk1cnVzQlpwVmRhdDlVVF95UU5fQ1NaUUxIek9VMFRFMmVfQUZoT3hVODRuRHRtcFYyLUg4NUZkZ2RhVWZtNHZMQ3NzZVhJRVNnZ2xQeElF",
+          "published_at": "2026-09-23T14:18:32Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "melilla",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_1b5f45a13634bae2",
+      "topic": "melilla",
+      "first_seen": "2026-09-23T10:47:48Z",
       "last_seen": "2026-09-23T12:50:00Z",
       "headline": "Refuerzo de seguridad en todos los pasos de la frontera de Melilla",
       "classification": "UNCONFIRMED",
@@ -1030,9 +1114,9 @@
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 1,
     "SINGLE_SOURCE": 1,
-    "UNCONFIRMED": 11,
-    "TOTAL": 13
+    "UNCONFIRMED": 14,
+    "TOTAL": 16
   },
   "article_count": 36,
-  "event_count": 13
+  "event_count": 16
 }

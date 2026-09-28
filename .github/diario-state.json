@@ -8,8 +8,8 @@
     "material_archive": false,
     "status_snapshot": {
       "maritime_status": {
-        "es": "OPERATIVO",
-        "en": "OPERATIONAL"
+        "es": "SIN CONFIRMACIÓN RECIENTE",
+        "en": "NO RECENT CONFIRMATION"
       },
       "border_pressure": {
         "es": "BAJA / SIN SEÑALES RECIENTES",
@@ -30,18 +30,67 @@
       "aec00027777fb5cb1ed7"
     ],
     "published_at": "2026-09-28T09:01+02:00",
-    "updated_at": "2026-09-28T17:34+02:00",
+    "updated_at": "2026-09-28T23:38+02:00",
     "published_rfc822": "Mon, 28 Sep 2026 09:01:00 +0200",
     "source_count": 3,
-    "fingerprint": "221317d3cb7d09916762",
+    "fingerprint": "dbe4f34ae3a4f6243c5b",
     "mode": "brief",
-    "significance": 32,
+    "significance": 29,
     "significance_reasons": [
       "novedades recientes sin cambio estructural"
     ],
     "indexable": false,
     "editor_engine": "rules",
+    "assistant_status": "no-key",
     "editor_assistant_status": "no-key",
+    "editorial_trace": {
+      "validator_version": 2,
+      "factual_packet_sha256": "b3cbc99f277c38ab374947fe1c710c803c9862408110b9fd04679413818ca7d5",
+      "provider": "rules",
+      "status": "no-key",
+      "attempts": [],
+      "factual_packet_hash": "b3cbc99f277c38ab374947fe1c710c803c9862408110b9fd04679413818ca7d5",
+      "event_ids": [
+        "evt_d492849d88c84cb1",
+        "evt_259b1e0a684a3241"
+      ],
+      "source_ids": [
+        "rtve",
+        "unknown"
+      ],
+      "verification_summary": {
+        "CONFIRMED_MULTI_SOURCE": 0,
+        "CONFIRMED_PRIMARY": 0,
+        "CONFLICTING": 0,
+        "DECLARATION_ONLY": 1,
+        "SINGLE_SOURCE": 1,
+        "UNCONFIRMED": 14,
+        "TOTAL": 16
+      },
+      "timestamp": "2026-09-28T21:38:41.490242+00:00",
+      "fallback_used": true
+    },
+    "validator_version": 2,
+    "factual_packet_hash": "b3cbc99f277c38ab374947fe1c710c803c9862408110b9fd04679413818ca7d5",
+    "event_ids": [
+      "evt_d492849d88c84cb1",
+      "evt_259b1e0a684a3241"
+    ],
+    "source_ids": [
+      "rtve",
+      "unknown"
+    ],
+    "timestamp": "2026-09-28T21:38:41.490242+00:00",
+    "fallback_used": true,
+    "verification_summary": {
+      "CONFIRMED_MULTI_SOURCE": 0,
+      "CONFIRMED_PRIMARY": 0,
+      "CONFLICTING": 0,
+      "DECLARATION_ONLY": 1,
+      "SINGLE_SOURCE": 1,
+      "UNCONFIRMED": 14,
+      "TOTAL": 16
+    },
     "edition_label": "Cuaderno diplomático",
     "edition_slug": "relations"
   },
@@ -54,8 +103,8 @@
       "material_archive": false,
       "status_snapshot": {
         "maritime_status": {
-          "es": "OPERATIVO",
-          "en": "OPERATIONAL"
+          "es": "SIN CONFIRMACIÓN RECIENTE",
+          "en": "NO RECENT CONFIRMATION"
         },
         "border_pressure": {
           "es": "BAJA / SIN SEÑALES RECIENTES",
@@ -76,18 +125,67 @@
         "aec00027777fb5cb1ed7"
       ],
       "published_at": "2026-09-28T09:01+02:00",
-      "updated_at": "2026-09-28T17:34+02:00",
+      "updated_at": "2026-09-28T23:38+02:00",
       "published_rfc822": "Mon, 28 Sep 2026 09:01:00 +0200",
       "source_count": 3,
-      "fingerprint": "221317d3cb7d09916762",
+      "fingerprint": "dbe4f34ae3a4f6243c5b",
       "mode": "brief",
-      "significance": 32,
+      "significance": 29,
       "significance_reasons": [
         "novedades recientes sin cambio estructural"
       ],
       "indexable": false,
       "editor_engine": "rules",
+      "assistant_status": "no-key",
       "editor_assistant_status": "no-key",
+      "editorial_trace": {
+        "validator_version": 2,
+        "factual_packet_sha256": "b3cbc99f277c38ab374947fe1c710c803c9862408110b9fd04679413818ca7d5",
+        "provider": "rules",
+        "status": "no-key",
+        "attempts": [],
+        "factual_packet_hash": "b3cbc99f277c38ab374947fe1c710c803c9862408110b9fd04679413818ca7d5",
+        "event_ids": [
+          "evt_d492849d88c84cb1",
+          "evt_259b1e0a684a3241"
+        ],
+        "source_ids": [
+          "rtve",
+          "unknown"
+        ],
+        "verification_summary": {
+          "CONFIRMED_MULTI_SOURCE": 0,
+          "CONFIRMED_PRIMARY": 0,
+          "CONFLICTING": 0,
+          "DECLARATION_ONLY": 1,
+          "SINGLE_SOURCE": 1,
+          "UNCONFIRMED": 14,
+          "TOTAL": 16
+        },
+        "timestamp": "2026-09-28T21:38:41.490242+00:00",
+        "fallback_used": true
+      },
+      "validator_version": 2,
+      "factual_packet_hash": "b3cbc99f277c38ab374947fe1c710c803c9862408110b9fd04679413818ca7d5",
+      "event_ids": [
+        "evt_d492849d88c84cb1",
+        "evt_259b1e0a684a3241"
+      ],
+      "source_ids": [
+        "rtve",
+        "unknown"
+      ],
+      "timestamp": "2026-09-28T21:38:41.490242+00:00",
+      "fallback_used": true,
+      "verification_summary": {
+        "CONFIRMED_MULTI_SOURCE": 0,
+        "CONFIRMED_PRIMARY": 0,
+        "CONFLICTING": 0,
+        "DECLARATION_ONLY": 1,
+        "SINGLE_SOURCE": 1,
+        "UNCONFIRMED": 14,
+        "TOTAL": 16
+      },
       "edition_label": "Cuaderno diplomático",
       "edition_slug": "relations"
     },

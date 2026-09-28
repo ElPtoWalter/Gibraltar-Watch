@@ -181,7 +181,13 @@ def update_sitemap() -> None:
     if not path.exists():
         return
     text = path.read_text(encoding='utf-8')
-    today = datetime.now(ZoneInfo('Europe/Madrid')).date().isoformat()
+    try:
+        local_now = datetime.now(ZoneInfo('Europe/Madrid'))
+    except Exception:
+        # Some minimal Windows/Python installations do not bundle tzdata.
+        # The system timezone is sufficient here because only the date is used.
+        local_now = datetime.now().astimezone()
+    today = local_now.date().isoformat()
     additions=[]
     for rel,freq,priority in NEW_URLS:
         absolute='https://estrechogibraltar.com/'+rel

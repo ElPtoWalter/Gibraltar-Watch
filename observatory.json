@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-28T15:34:26Z",
+  "generated_at": "2026-09-28T22:06:11Z",
   "state": {
     "code": "normal",
     "label_es": "NORMALIDAD OPERATIVA",
@@ -37,7 +37,7 @@
     }
   },
   "metrics": {
-    "news_24h": 3,
+    "news_24h": 2,
     "news_sources": 29,
     "seismic_24h": 0,
     "seismic_7d": 0,
@@ -57,12 +57,12 @@
     "layer_changes": []
   },
   "since_yesterday": {
-    "reference_date": "2026-09-27",
-    "summary_es": "El nivel general pasa de VIGILANCIA a NORMALIDAD OPERATIVA. El monitor recoge 1 referencias más en la ventana de 24 horas."
+    "reference_date": "2026-09-28",
+    "summary_es": "El nivel general se mantiene en NORMALIDAD OPERATIVA. El monitor recoge 1 referencias menos en la ventana de 24 horas."
   },
   "health": {
     "overall": "stale",
-    "generated_at": "2026-09-28T15:34:26Z"
+    "generated_at": "2026-09-28T22:06:11Z"
   },
   "latest_diary": {
     "date": "2026-09-28",

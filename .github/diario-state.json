@@ -1,19 +1,19 @@
 {
   "version": 4,
   "latest_entry": {
-    "date": "2026-09-27",
+    "date": "2026-09-28",
     "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
     "summary": "Selección automática de 3 referencias de 3 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
-    "url": "diario/actual.html",
-    "material_archive": false,
+    "url": "diario/2026-09-28.html",
+    "material_archive": true,
     "status_snapshot": {
       "maritime_status": {
         "es": "OPERATIVO",
         "en": "OPERATIONAL"
       },
       "border_pressure": {
-        "es": "VIGILANCIA PREVENTIVA",
-        "en": "PREVENTIVE WATCH"
+        "es": "BAJA / SIN SEÑALES RECIENTES",
+        "en": "LOW / NO RECENT SIGNALS"
       },
       "bilateral_tension": {
         "es": "ESTABLE",
@@ -26,18 +26,18 @@
     },
     "source_keys": [
       "5b415d4b50da144b42cb",
-      "62f3a37264b35b572a96",
+      "8bac42af6d84802194ab",
       "bea98c31a810a41e70e2"
     ],
-    "published_at": "2026-09-27T20:29+02:00",
-    "updated_at": "2026-09-27T20:29+02:00",
-    "published_rfc822": "Sun, 27 Sep 2026 20:29:00 +0200",
+    "published_at": "2026-09-28T09:01+02:00",
+    "updated_at": "2026-09-28T09:01+02:00",
+    "published_rfc822": "Mon, 28 Sep 2026 09:01:00 +0200",
     "source_count": 3,
-    "fingerprint": "bb67d6a1b91536325927",
+    "fingerprint": "928fbdbddeb755fe839a",
     "mode": "brief",
-    "significance": 33,
+    "significance": 25,
     "significance_reasons": [
-      "indicadores operativos o geopolíticos fuera de la normalidad"
+      "novedades recientes sin cambio estructural"
     ],
     "indexable": false,
     "editor_engine": "rules",
@@ -46,6 +46,51 @@
     "edition_slug": "shores"
   },
   "entries": [
+    {
+      "date": "2026-09-28",
+      "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
+      "summary": "Selección automática de 3 referencias de 3 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+      "url": "diario/2026-09-28.html",
+      "material_archive": true,
+      "status_snapshot": {
+        "maritime_status": {
+          "es": "OPERATIVO",
+          "en": "OPERATIONAL"
+        },
+        "border_pressure": {
+          "es": "BAJA / SIN SEÑALES RECIENTES",
+          "en": "LOW / NO RECENT SIGNALS"
+        },
+        "bilateral_tension": {
+          "es": "ESTABLE",
+          "en": "STABLE"
+        },
+        "security_status": {
+          "es": "SIN ALERTA ESPECÍFICA",
+          "en": "NO SPECIFIC ALERT"
+        }
+      },
+      "source_keys": [
+        "5b415d4b50da144b42cb",
+        "8bac42af6d84802194ab",
+        "bea98c31a810a41e70e2"
+      ],
+      "published_at": "2026-09-28T09:01+02:00",
+      "updated_at": "2026-09-28T09:01+02:00",
+      "published_rfc822": "Mon, 28 Sep 2026 09:01:00 +0200",
+      "source_count": 3,
+      "fingerprint": "928fbdbddeb755fe839a",
+      "mode": "brief",
+      "significance": 25,
+      "significance_reasons": [
+        "novedades recientes sin cambio estructural"
+      ],
+      "indexable": false,
+      "editor_engine": "rules",
+      "editor_assistant_status": "no-key",
+      "edition_label": "Cuaderno de las dos orillas",
+      "edition_slug": "shores"
+    },
     {
       "date": "2026-09-24",
       "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",

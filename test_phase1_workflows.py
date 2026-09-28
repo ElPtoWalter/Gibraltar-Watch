@@ -51,9 +51,11 @@ class PhaseOneWorkflowTests(unittest.TestCase):
             self.assertNotRegex(text, r"echo\s+.*secrets\.")
             self.assertNotRegex(text, r"(?m)^\s*set\s+-x\s*$")
 
-    def test_pilot_is_manual_read_only_and_non_publishing(self):
+    def test_pilot_is_pr_scoped_read_only_and_non_publishing(self):
         text = workflow("pilot-gemini-phase1.yml")
         self.assertIn("workflow_dispatch:", text)
+        self.assertIn("pull_request:", text)
+        self.assertIn("head.repo.full_name == github.repository", text)
         self.assertIn("contents: read", text)
         self.assertNotIn("git push", text)
         self.assertNotIn("deploy-pages", text)

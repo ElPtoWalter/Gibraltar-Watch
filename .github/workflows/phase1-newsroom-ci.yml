@@ -1,0 +1,42 @@
+name: CI · Fase 1 Gibraltar
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+    paths:
+      - "**.py"
+      - ".github/workflows/**"
+      - "source-registry.json"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: phase1-ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: python -m pip install --disable-pip-version-check pypdf
+      - name: Compilar Python
+        run: python -m compileall -q -x "(^|/)(_site|_audit_tmp)/" .
+      - name: Ejecutar suite completa
+        env:
+          GEMINI_API_KEY: ""
+          OPENROUTER_API_KEY: ""
+        run: python -m unittest discover -v
+      - name: Construir y auditar artefacto público
+        run: |
+          python audit_repository_secrets.py
+          python sanitize_editorial_metadata.py
+          python build_secure_public_site.py
+          python audit_public_artifact.py
+          python check_public_links.py _site

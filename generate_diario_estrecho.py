@@ -20,7 +20,8 @@ from pathlib import Path
 from urllib.parse import urlparse
 from zoneinfo import ZoneInfo
 from diary_evidence import source_key, archive_decision, reading
-from free_editorial_ai import generate_editorial_drafts
+from free_editorial_ai import VALIDATOR_VERSION, factual_packet_digest, generate_editorial_drafts
+from straitwatch_core import SourceRegistry, factual_packet
 
 import hashlib
 import json
@@ -37,6 +38,8 @@ NOW = NOW_UTC.astimezone(TZ)
 
 GEOPOLITICS = ROOT / "geopolitics.json"
 OPE = ROOT / "ope-2026.json"
+EVENTS = ROOT / "events.json"
+SOURCE_REGISTRY = SourceRegistry.from_path(ROOT / "source-registry.json")
 OBSERVATORY_HISTORY = ROOT / "observatory-history.json"
 STATE_DATA = ROOT / ".github" / "diario-state.json"
 LEGACY_STATE_DATA = ROOT / "diario-index.json"
@@ -177,13 +180,22 @@ def select_items(items: list[dict], hours: int = 36) -> list[dict]:
     for raw in items or []:
         if not isinstance(raw, dict):
             continue
-        title = str(raw.get("title", "")).strip()
-        url = str(raw.get("url", "")).strip()
+        item = dict(raw)
+        title = str(item.get("title", "")).strip()
+        url = str(item.get("url", "")).strip()
         if len(title) < 8 or not valid_http_url(url):
             continue
-        if parse_dt(str(raw.get("published_at", ""))) < threshold:
+        if parse_dt(str(item.get("published_at", ""))) < threshold:
             continue
-        candidates.append(raw)
+        original_source = str(item.get("source") or "").strip()
+        source = SOURCE_REGISTRY.resolve(original_source, url)
+        # RSS aggregators may preserve a useful publisher label even before it
+        # is registered. Do not collapse every unknown publisher into one
+        # artificial source, because that destroys independence checks.
+        item["source"] = source.canonical_name if source.source_id != "unknown" else (original_source or source.canonical_name)
+        item["source_id"] = source.source_id
+        item["weight"] = source.tier if source.source_id != "unknown" else item.get("weight", 1)
+        candidates.append(item)
 
     candidates.sort(key=item_score, reverse=True)
     picked: list[dict] = []
@@ -315,7 +327,7 @@ def alert_score(status: dict) -> int:
     return min(score, 12)
 
 
-def edition_significance(status: dict, selected: list[dict]) -> tuple[int, list[str]]:
+def edition_significance(status: dict, selected: list[dict], event_store: dict | None = None) -> tuple[int, list[str]]:
     """Devuelve puntuación 0-100 y razones auditables para decidir FULL vs BRIEF."""
     reasons: list[str] = []
     if not selected:
@@ -346,6 +358,17 @@ def edition_significance(status: dict, selected: list[dict]) -> tuple[int, list[
         base += a * 2
         reasons.append("indicadores operativos o geopolíticos fuera de la normalidad")
 
+    events = event_store.get("events", []) if isinstance(event_store, dict) else []
+    material_events = [
+        event for event in events
+        if isinstance(event, dict)
+        and event.get("verification_status") in {"CONFIRMED_PRIMARY", "CONFIRMED_MULTI_SOURCE"}
+        and int(event.get("importance") or 0) >= 60
+    ]
+    if material_events:
+        base = max(base, max(int(event.get("importance") or 0) for event in material_events))
+        reasons.append(f"{len(material_events)} acontecimiento(s) verificado(s) de importancia material")
+
     score = max(0, min(100, base))
     if not reasons and selected:
         reasons.append("novedades recientes sin cambio estructural")
@@ -354,8 +377,16 @@ def edition_significance(status: dict, selected: list[dict]) -> tuple[int, list[
     return score, reasons
 
 
-def edition_mode(status: dict, selected: list[dict]) -> str:
-    score, _ = edition_significance(status, selected)
+def edition_mode(status: dict, selected: list[dict], event_store: dict | None = None) -> str:
+    score, _ = edition_significance(status, selected, event_store)
+    events = event_store.get("events", []) if isinstance(event_store, dict) else []
+    if any(
+        isinstance(event, dict)
+        and event.get("verification_status") in {"CONFIRMED_PRIMARY", "CONFIRMED_MULTI_SOURCE"}
+        and int(event.get("importance") or 0) >= 80
+        for event in events
+    ):
+        return "highlight"
     return "full" if score >= 46 else "brief"
 
 
@@ -407,7 +438,14 @@ def groups_for_items(selected: list[dict]) -> dict[str, list[dict]]:
     return groups
 
 
-def build_draft(status: dict, selected: list[dict], mode: str) -> tuple[dict, str, str]:
+def build_draft(
+    status: dict,
+    selected: list[dict],
+    mode: str,
+    event_store: dict | None = None,
+    previous_entry: dict | None = None,
+    trace: dict | None = None,
+) -> tuple[dict, str, str]:
     """Redactar desde el paquete local, con mejora gratuita y fallback completo."""
     groups = groups_for_items(selected)
     fallback = {
@@ -423,6 +461,27 @@ def build_draft(status: dict, selected: list[dict], mode: str) -> tuple[dict, st
     }
     independent = {source_key(item) for item in selected if source_key(item)}
     if len(selected) < 2 or len(independent) < 2:
+        if trace is not None:
+            packet = factual_packet(
+                monitor=status,
+                operational_assessment={"state": status_text(status, "maritime_status")},
+                event_store=event_store or {},
+                comparison={"previous": previous_entry or {}},
+                known_limits=["Los titulares no sustituyen datos operativos ni avisos oficiales."],
+                watch_items=fallback_watch(status, selected),
+            )
+            digest = factual_packet_digest(packet)
+            trace.update({
+                "validator_version": VALIDATOR_VERSION,
+                "factual_packet_sha256": digest,
+                "factual_packet_hash": digest,
+                "provider": "rules", "status": "insufficient-sources",
+                "attempts": [], "fallback_used": True,
+                "event_ids": [event.get("event_id") for event in packet.get("events", []) if event.get("event_id")],
+                "source_ids": [source.get("source_id") for source in packet.get("sources", []) if source.get("source_id")],
+                "verification_summary": packet.get("verification_summary", {}),
+                "timestamp": NOW_UTC.isoformat(),
+            })
         return fallback, "rules", "insufficient-sources"
 
     source_map = {
@@ -437,27 +496,46 @@ def build_draft(status: dict, selected: list[dict], mode: str) -> tuple[dict, st
         "maritime_status", "border_pressure", "bilateral_tension", "security_status",
         "summary", "updated_at", "checked_at",
     )
-    facts = {
-        "edition_date": NOW.date().isoformat(),
-        "edition_mode": mode,
-        "monitor": {key: status.get(key) for key in public_status_keys if status.get(key) is not None},
+    facts = factual_packet(
+        monitor={key: status.get(key) for key in public_status_keys if status.get(key) is not None},
+        operational_assessment={
+            "state": status_text(status, "maritime_status"),
+            "label_es": status_text(status, "maritime_status"),
+            "confidence": status_text(status, "confidence"),
+        },
+        event_store=event_store or {},
+        comparison={"previous": previous_entry or {}, "edition_date": NOW.date().isoformat()},
+        known_limits=["Los titulares no sustituyen datos operativos ni avisos oficiales."],
+        watch_items=fallback_watch(status, selected),
+    )
+    facts.update({
+        "edition_date": NOW.date().isoformat(), "edition_mode": mode,
         "selected_sources": [
             {
                 "title": clean_text(item.get("title"), 360),
                 "source": clean_text(item.get("source") or source_key(item), 120),
+                "source_id": SOURCE_REGISTRY.resolve(item.get("source"), item.get("url")).source_id,
                 "published_at": item.get("published_at"),
                 "category": item.get("category"),
             }
             for item in selected
         ],
-    }
+    })
     drafts, engine, assistant_status = generate_editorial_drafts(
         site_name="Gibraltar Watch",
         site_url="https://estrechogibraltar.com",
         facts=facts,
         fallbacks={"es": fallback},
         sources_by_section={"es": source_map},
+        trace=trace,
     )
+    if trace is not None:
+        trace["factual_packet_hash"] = trace.get("factual_packet_sha256") or factual_packet_digest(facts)
+        trace["event_ids"] = [event.get("event_id") for event in facts.get("events", []) if event.get("event_id")]
+        trace["source_ids"] = [source.get("source_id") for source in facts.get("sources", []) if source.get("source_id")]
+        trace["verification_summary"] = facts.get("verification_summary", {})
+        trace["timestamp"] = NOW_UTC.isoformat()
+        trace["fallback_used"] = engine != "gemini"
     return drafts["es"], engine, assistant_status
 
 
@@ -618,7 +696,7 @@ def article_html(date: str, published_at: str, updated_at: str, status: dict, se
     pretty_date = datetime.fromisoformat(date).strftime("%d · %m · %Y")
     canonical = f"https://estrechogibraltar.com/diario/{date}.html"
     robots = "index,follow,max-image-preview:large" if indexable else "noindex,follow"
-    type_label = "PARTE DE SEGUIMIENTO"
+    type_label = {"brief": "PARTE BREVE", "full": "ARTÍCULO COMPLETO", "highlight": "DESTACADO"}.get(mode, "PARTE BREVE")
     schema_type = "Article"
     section = "Estrecho de Gibraltar"
     keywords = "Estrecho de Gibraltar, Algeciras, Tánger Med, Gibraltar, Ceuta, Melilla, España Marruecos, tráfico marítimo"
@@ -632,7 +710,7 @@ def article_html(date: str, published_at: str, updated_at: str, status: dict, se
         "Este parte se elabora sobre un paquete factual cerrado, ya seleccionado por Gibraltar Watch. "
         "La capa editorial opcional no busca noticias, no elige fuentes y no altera el estado del monitor; "
         "su propuesta se descarta si cambia la estructura, omite atribuciones o incorpora cifras ajenas al paquete."
-        if editor_engine == "openrouter-free"
+        if editor_engine in {"gemini", "openrouter-free"}
         else "Este parte se compone con reglas locales y titulares de feeds, sin servicios de redacción de pago. "
         "No se afirma haber leído automáticamente el texto íntegro de cada artículo ni haber realizado una revisión "
         "humana de cada edición. Distintos medios pueden reproducir la misma agencia: no equivalen necesariamente a fuentes independientes."
@@ -657,11 +735,11 @@ def article_html(date: str, published_at: str, updated_at: str, status: dict, se
 <section class="gd-summary"><p class="gd-kicker">CONCLUSIÓN EDITORIAL</p><strong>{escape(editorial_conclusion(status))}</strong></section>
 {change_since_yesterday_html(date, status, selected)}
 {operational_figures_html()}
-<section class="gd-prose"><p class="gd-kicker">LA SITUACIÓN</p><h2>{'Qué deja la jornada' if mode == 'full' else 'Parte de situación'}</h2>{situation}</section>
+<section class="gd-prose"><p class="gd-kicker">QUÉ SABEMOS</p><h2>{'Qué deja la jornada' if mode in {'full', 'highlight'} else 'Parte de situación'}</h2>{situation}</section>
 {sections_html(draft, selected)}
 <section class="gd-prose gd-meaning"><p class="gd-kicker">QUÉ SIGNIFICA</p><h2>La lectura del Estrecho</h2>{meaning}</section>
-<aside class="gd-limit"><p class="gd-kicker">EL LÍMITE DE LA LECTURA</p><h2>Lo que hoy no puede afirmarse</h2><p>{escape(str(profile['limitation']))}</p></aside>
-<section class="gd-watch"><p class="gd-kicker">QUÉ VIGILAMOS</p><h2>Las próximas horas</h2><ul>{watch}</ul></section>
+<aside class="gd-limit"><p class="gd-kicker">QUÉ NO SABEMOS</p><h2>Lo que hoy no puede afirmarse</h2><p>{escape(str(profile['limitation']))}</p></aside>
+<section class="gd-watch"><p class="gd-kicker">QUÉ ESTAMOS VIGILANDO</p><h2>Las próximas horas</h2><ul>{watch}</ul></section>
 <section class="gd-source-section"><p class="gd-kicker">FUENTES DE ESTA EDICIÓN</p><h2>Trazabilidad</h2><p>La edición se construye a partir de fuentes públicas seleccionadas por Gibraltar Watch. Los enlaces originales permiten comprobar cada señal; un titular aislado no se convierte por sí solo en un cambio del estado operativo.</p>{source_items_html(selected)}</section>
 <section class="gd-transparency"><p class="gd-kicker">SOBRE ESTE DIARIO</p><p>{escape(transparency)}</p></section>
 {nav}
@@ -674,7 +752,7 @@ def archive_html(entries: list[dict]) -> str:
     entries = sorted(entries, key=lambda e: e.get("date", ""), reverse=True)
     cards = []
     for e in entries[:500]:
-        badge = "ARTÍCULO" if e.get("mode") == "full" else "PARTE BREVE"
+        badge = "DESTACADO" if e.get("mode") == "highlight" else "ARTÍCULO" if e.get("mode") == "full" else "PARTE BREVE"
         identity = e.get("edition_label") or "Cuaderno del Estrecho"
         cards.append(
             f'<a class="gd-archive-card" href="/{escape(e["url"], quote=True)}"><div><time>{escape(e["date"])}</time><span class="gd-mini-badge">{badge}</span></div>'
@@ -796,7 +874,7 @@ def refresh_day_navigation(entries: list[dict]) -> None:
             path.write_text(new, encoding="utf-8")
 
 
-def fingerprint_payload(status: dict, selected: list[dict], mode: str) -> str:
+def fingerprint_payload(status: dict, selected: list[dict], mode: str, event_store: dict | None = None) -> str:
     data = {
         "editorial_version": EDITORIAL_VERSION,
         "mode": mode,
@@ -804,6 +882,11 @@ def fingerprint_payload(status: dict, selected: list[dict], mode: str) -> str:
         "items": [
             (i.get("title"), i.get("source"), i.get("published_at"), i.get("weight"), i.get("url"))
             for i in selected
+        ],
+        "events": [
+            (event.get("event_id"), event.get("verification_status"), event.get("importance"))
+            for event in (event_store.get("events", []) if isinstance(event_store, dict) else [])
+            if isinstance(event, dict)
         ],
     }
     return hashlib.sha256(json.dumps(data, ensure_ascii=False, sort_keys=True, default=str).encode()).hexdigest()[:20]
@@ -867,7 +950,8 @@ def sync_latest_metadata(entry: dict) -> None:
     payload = {key: entry[key] for key in (
         "date", "headline", "summary", "published_at", "updated_at", "source_count",
         "indexable", "edition_label", "edition_slug", "fingerprint", "editor_engine",
-        "editor_assistant_status",
+        "editor_assistant_status", "assistant_status", "validator_version", "factual_packet_hash",
+        "event_ids", "source_ids", "timestamp", "fallback_used", "verification_summary",
     ) if key in entry}
     payload.update(date_label=entry["date"], slug=Path(entry.get("url") or f'{entry["date"]}.html').name)
     path = ARCHIVE_DIR / "latest.json"
@@ -887,14 +971,17 @@ def main() -> int:
         return 0
 
     status = data.get("status", {}) if isinstance(data.get("status", {}), dict) else {}
+    event_store = load_json(EVENTS, {"events": [], "verification_summary": {}})
+    if not isinstance(event_store, dict):
+        event_store = {"events": [], "verification_summary": {}}
     selected = select_items(data.get("items", []) if isinstance(data.get("items", []), list) else [])
-    mode = edition_mode(status, selected)
-    score, reasons = edition_significance(status, selected)
+    mode = edition_mode(status, selected, event_store)
+    score, reasons = edition_significance(status, selected, event_store)
     indexable = seo_indexable(mode, status, selected)
     date = NOW.date().isoformat()
     ARCHIVE_DIR.mkdir(parents=True, exist_ok=True)
     page = ARCHIVE_DIR / "actual.html"
-    fp = fingerprint_payload(status, selected, mode)
+    fp = fingerprint_payload(status, selected, mode, event_store)
 
     old = page.read_text(encoding="utf-8") if page.exists() else ""
     if f"fingerprint:{fp}" in old:
@@ -910,7 +997,8 @@ def main() -> int:
     published = old_entry.get("published_at") if old_entry else NOW.isoformat(timespec="minutes")
     updated = NOW.isoformat(timespec="minutes")
 
-    draft, engine, assistant_status = build_draft(status, selected, mode)
+    editorial_trace: dict = {}
+    draft, engine, assistant_status = build_draft(status, selected, mode, event_store, previous, editorial_trace)
     headline = clean_text(draft.get("headline"), 180) or fallback_headline(status, selected, mode)
     summary = clean_text(draft.get("deck"), 500) or fallback_deck(status, selected, mode)
     profile = editorial_profile(date, selected, entries)
@@ -933,7 +1021,16 @@ def main() -> int:
         "significance_reasons": reasons,
         "indexable": indexable,
         "editor_engine": engine,
+        "assistant_status": assistant_status,
         "editor_assistant_status": assistant_status,
+        "editorial_trace": editorial_trace,
+        "validator_version": editorial_trace.get("validator_version"),
+        "factual_packet_hash": editorial_trace.get("factual_packet_hash") or editorial_trace.get("factual_packet_sha256"),
+        "event_ids": editorial_trace.get("event_ids", []),
+        "source_ids": editorial_trace.get("source_ids", []),
+        "timestamp": editorial_trace.get("timestamp") or NOW_UTC.isoformat(),
+        "fallback_used": bool(editorial_trace.get("fallback_used")),
+        "verification_summary": editorial_trace.get("verification_summary", {}),
         "edition_label": profile["label"],
         "edition_slug": profile["slug"],
     }

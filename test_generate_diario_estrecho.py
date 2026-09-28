@@ -78,7 +78,9 @@ class DiaryTests(unittest.TestCase):
         self.assertIn('CONCLUSIÓN EDITORIAL', html)
         self.assertIn('QUÉ HA CAMBIADO DESDE AYER', html)
         self.assertIn('CIFRAS OPERATIVAS DISPONIBLES', html)
-        self.assertIn('EL LÍMITE DE LA LECTURA', html)
+        self.assertIn('QUÉ SABEMOS', html)
+        self.assertIn('QUÉ NO SABEMOS', html)
+        self.assertIn('QUÉ ESTAMOS VIGILANDO', html)
         self.assertNotIn('sistema editorial automatizado', html)
 
     def test_editorial_conclusion_keeps_preventive_watch_visible(self):

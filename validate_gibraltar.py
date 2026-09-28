@@ -53,7 +53,7 @@ def validate_observatory():
     obs=load('observatory.json') or {}; health=load('health.json') or {}
     allowed={'normal','watch','reinforced_watch','high_watch','operational_alert'}
     if (obs.get('state') or {}).get('code') not in allowed:err('observatory.json: state.code no permitido')
-    if health.get('overall') not in {'healthy','degraded','stale'}:err('health.json: overall no permitido')
+    if str(health.get('overall')).upper() not in {'HEALTHY','DEGRADED','STALE','ERROR'}:err('health.json: overall no permitido')
     for rel,obj in [('observatory.json',obs),('health.json',health)]:
         stamp=obj.get('generated_at')
         try:
@@ -134,14 +134,19 @@ def validate_manifest():
 
 def validate_workflow():
     wf=ROOT/'.github/workflows/update-gibraltar.yml'
+    diary_wf=ROOT/'.github/workflows/diario-gibraltar.yml'
     if not wf.exists():err('.github/workflows/update-gibraltar.yml no existe');return
+    if not diary_wf.exists():err('.github/workflows/diario-gibraltar.yml no existe');return
     t=wf.read_text(encoding='utf-8')
+    daily=diary_wf.read_text(encoding='utf-8')
     if re.search(r'^\s*run:\s*python\s+submit_gibraltar_inde\s*$',t,re.M):err('Workflow: ha reaparecido el nombre truncado submit_gibraltar_inde')
     if 'run: python submit_gibraltar_indexnow.py' not in t:err('Workflow: falta submit_gibraltar_indexnow.py')
     idx=t.find('- name: Avisar mediante IndexNow')
-    required=['generate_diario_estrecho.py','update_observatory.py','generate_newsletter.py','build_publication_manifest.py','validate_gibraltar.py']
-    for x in required:
-        if x not in t:err(f'Workflow: falta etapa {x}')
+    for x in ['update_gibraltar.py','update_ope.py','update_geopolitics.py','build_events.py','update_observatory.py','validate_gibraltar.py']:
+        if x not in t:err(f'Workflow horario: falta etapa {x}')
+    for x in ['generate_diario_estrecho.py','update_observatory.py','generate_newsletter.py','build_publication_manifest.py','validate_gibraltar.py']:
+        if x not in daily:err(f'Workflow Diario: falta etapa {x}')
+    if 'generate_diario_estrecho.py' in t:err('Workflow horario: no debe generar el Diario')
 
 def main():
     validate_files();validate_observatory();validate_xml();validate_html();validate_manifest();validate_workflow()

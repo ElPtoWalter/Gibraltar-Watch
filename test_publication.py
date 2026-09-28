@@ -30,6 +30,18 @@ class PublicationTests(unittest.TestCase):
         self.assertEqual(health["components"][2]["report_date"], "2026-08-15")
         self.assertEqual(health["components"][3]["state"], "fresh")
 
+    def test_completed_ope_season_is_historical_and_does_not_degrade_health(self):
+        now = datetime(2026, 9, 28, 12, tzinfo=timezone.utc)
+        with patch.object(observatory, "NOW", now):
+            health = observatory.build_health(
+                {"checked_at": now.isoformat()},
+                {"generated_at": now.isoformat(), "status": {}},
+                {"checked_at": now.isoformat(), "report_date": "2026-08-15", "lifecycle": "SEASON_COMPLETE"},
+                {"date": "2026-09-28", "updated_at": now.isoformat()},
+            )
+        self.assertEqual(health["components"][2]["state"], "historical")
+        self.assertEqual(health["overall"], "HEALTHY")
+
     def test_low_confidence_explains_which_sources_are_stale(self):
         detail, pending = observatory.confidence_context("BAJA", {
             "components": [
@@ -124,13 +136,16 @@ class PublicationTests(unittest.TestCase):
 
     def test_updates_trigger_public_deployment(self):
         root = Path(__file__).resolve().parent
-        deploy = (root / ".github/workflows/deploy-gibraltar-secure.yml").read_text()
-        update = (root / ".github/workflows/update-gibraltar.yml").read_text()
-        self.assertIn("workflow_run:", deploy)
-        self.assertIn('workflows: ["Actualizar Gibraltar Watch"]', deploy)
-        self.assertIn("conclusion == 'success'", deploy)
-        self.assertIn("python generate_newsletter.py", update)
+        deploy = (root / ".github/workflows/deploy-gibraltar-secure.yml").read_text(encoding="utf-8")
+        update = (root / ".github/workflows/update-gibraltar.yml").read_text(encoding="utf-8")
+        diary_workflow = (root / ".github/workflows/diario-gibraltar.yml").read_text(encoding="utf-8")
+        self.assertIn("workflow_dispatch:", deploy)
+        self.assertNotIn("workflow_run:", deploy)
+        self.assertEqual(update.count("gh workflow run deploy-gibraltar-secure.yml"), 1)
+        self.assertEqual(diary_workflow.count("gh workflow run deploy-gibraltar-secure.yml"), 1)
+        self.assertIn("python generate_newsletter.py", diary_workflow)
         self.assertIn("python validate_gibraltar.py", update)
+        self.assertNotIn("python generate_newsletter.py", update)
 
     def test_public_source_pages_do_not_link_to_private_json(self):
         root = Path(__file__).resolve().parent
@@ -141,8 +156,8 @@ class PublicationTests(unittest.TestCase):
 
     def test_no_paid_editorial_client_or_credentials(self):
         root = Path(__file__).resolve().parent
-        engine = (root / "generate_diario_estrecho.py").read_text() + (root / "generate_diario.py").read_text()
-        workflow = (root / ".github/workflows/update-gibraltar.yml").read_text()
+        engine = (root / "generate_diario_estrecho.py").read_text(encoding="utf-8") + (root / "generate_diario.py").read_text(encoding="utf-8")
+        workflow = (root / ".github/workflows/update-gibraltar.yml").read_text(encoding="utf-8")
         for forbidden in ("OPENAI_API_KEY", "DIARIO_AI", "from openai", "responses.parse"):
             self.assertNotIn(forbidden, engine + workflow)
         self.assertNotIn("pypdf openai", workflow)

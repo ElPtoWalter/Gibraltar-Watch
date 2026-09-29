@@ -8,6 +8,7 @@ on:
       - "**.py"
       - ".github/workflows/**"
       - "source-registry.json"
+      - "PHASE2_VIDEO_CONTRACT.md"
 
 permissions:
   contents: read

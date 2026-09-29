@@ -35,6 +35,7 @@ class PhaseOneWorkflowTests(unittest.TestCase):
         self.assertIn("build_secure_public_site.py", text)
         self.assertIn("audit_public_artifact.py", text)
         self.assertIn("check_public_links.py _site", text)
+        self.assertIn("PHASE2_VIDEO_CONTRACT.md", text)
 
     def test_monitor_and_diary_dispatch_one_deploy_only_after_change(self):
         for name in ("update-gibraltar.yml", "diario-gibraltar.yml"):

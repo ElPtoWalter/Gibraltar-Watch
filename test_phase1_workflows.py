@@ -63,6 +63,7 @@ class PhaseOneWorkflowTests(unittest.TestCase):
         self.assertNotIn("git push", text)
         self.assertNotIn("deploy-pages", text)
         self.assertNotIn("IndexNow", text)
+        self.assertIn("types: [opened, reopened]", text)
 
 
 if __name__ == "__main__":

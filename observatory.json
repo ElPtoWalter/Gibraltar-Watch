@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-29T02:02:36Z",
+  "generated_at": "2026-09-29T08:38:24Z",
   "state": {
     "code": "normal",
     "label_es": "NORMALIDAD OPERATIVA",
@@ -37,8 +37,8 @@
     }
   },
   "metrics": {
-    "news_24h": 2,
-    "news_sources": 29,
+    "news_24h": 4,
+    "news_sources": 30,
     "seismic_24h": 0,
     "seismic_7d": 0,
     "seismic_30d": 0,
@@ -47,8 +47,8 @@
     "ope_passengers_day": 59877,
     "ope_vehicles_day": 15464,
     "ope_rotations_day": 179,
-    "diary_date": "2026-09-28",
-    "diary_source_count": 3
+    "diary_date": "2026-09-29",
+    "diary_source_count": 4
   },
   "anomalies": [],
   "changes": {
@@ -58,27 +58,27 @@
   },
   "since_yesterday": {
     "reference_date": "2026-09-28",
-    "summary_es": "El nivel general se mantiene en NORMALIDAD OPERATIVA. El monitor recoge 1 referencias menos en la ventana de 24 horas."
+    "summary_es": "El nivel general se mantiene en NORMALIDAD OPERATIVA. El monitor recoge 1 referencias más en la ventana de 24 horas."
   },
   "health": {
     "overall": "stale",
-    "generated_at": "2026-09-29T02:02:36Z"
+    "generated_at": "2026-09-29T08:38:24Z"
   },
   "latest_diary": {
-    "date": "2026-09-28",
-    "headline": "España–Marruecos: qué aportan los titulares y qué falta comprobar",
-    "summary": "Selección automática de 3 referencias de 3 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
-    "published_at": "2026-09-28T09:01+02:00",
-    "updated_at": "2026-09-28T17:34+02:00",
-    "source_count": 3,
+    "date": "2026-09-29",
+    "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
+    "summary": "Selección automática de 4 referencias de 4 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "published_at": "2026-09-29T10:38+02:00",
+    "updated_at": "2026-09-29T10:38+02:00",
+    "source_count": 4,
     "indexable": false,
-    "edition_label": "Cuaderno diplomático",
-    "edition_slug": "relations",
-    "fingerprint": "221317d3cb7d09916762",
+    "edition_label": "Cuaderno de las dos orillas",
+    "edition_slug": "shores",
+    "fingerprint": "e4740f461e1adeaaf9f0",
     "editor_engine": "rules",
     "editor_assistant_status": "no-key",
-    "date_label": "2026-09-28",
-    "slug": "2026-09-28.html"
+    "date_label": "2026-09-29",
+    "slug": "actual.html"
   },
   "latest_ope": {
     "report_date": "2026-08-15",

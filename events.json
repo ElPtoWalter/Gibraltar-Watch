@@ -1,7 +1,283 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-28T21:38:31.253204+00:00",
+  "generated_at": "2026-09-29T14:30:17.043187+00:00",
   "events": [
+    {
+      "event_id": "evt_f212471824c6ef38",
+      "topic": "ceuta",
+      "first_seen": "2026-09-29T14:23:04Z",
+      "last_seen": "2026-09-29T14:23:04Z",
+      "headline": "Spain tightens rules for asylum seekers in Ceuta, draft decree shows",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_73f34df4d4c3247f",
+          "title": "Spain tightens rules for asylum seekers in Ceuta, draft decree shows",
+          "title_key": "spain tightens rules for asylum seekers in ceuta draft decree shows",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1VQk02aF9EU2xSUk81ZW9pYWl6WjFPRVQ0SnZpczhPaWFvMHpoWUlNbG9wQkl2Y2lLdjV3WFBBY05rVUxyblVpTjdTS3hTU2RSNzBzcnAzSTlWcjk1OGNn",
+          "published_at": "2026-09-29T14:23:04Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_b635c7204bfd976a",
+      "topic": "ceuta",
+      "first_seen": "2026-09-29T12:06:52Z",
+      "last_seen": "2026-09-29T12:06:52Z",
+      "headline": "Brussels seeks to strengthen EU border controls after Ceuta crisis",
+      "classification": "FACT",
+      "verification_status": "SINGLE_SOURCE",
+      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
+      "sources": [
+        {
+          "source_id": "reuters",
+          "source_name": "Reuters",
+          "source_domain": "reuters.com",
+          "tier": 4,
+          "official": false,
+          "weight": 4.0
+        }
+      ],
+      "source_ids": [
+        "reuters"
+      ],
+      "articles": [
+        {
+          "article_id": "art_1b2cf52ef917c653",
+          "title": "Brussels seeks to strengthen EU border controls after Ceuta crisis",
+          "title_key": "brussels seeks to strengthen eu border controls after ceuta crisis",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNzM1WE1JWTZUUGd6YmczOVpzRGNCYkNpVHliOFNQajctVFdzU2lsZXM2VVJESThsck9WOTZpZXBUVjBSd0xIX3ZUZzBPZWtDV3VDTHI5Q2FrZmxmV3JDdnkzR3VWRHFMb2tHS1VmRnFXX1VNN21ZMzJFWmlSQ2Y1Nklsb0NlN3FQVTVwekpsbi00M195Mnd0d0ZKblJUNWlVblRZX3VlTDBScVRwMkNXUGlPd2RIdEpUbG82T3ZTM181cFM1X2Rrag",
+          "published_at": "2026-09-29T12:06:52Z",
+          "observed_at": "",
+          "source_id": "reuters",
+          "source_name": "Reuters",
+          "source_domain": "reuters.com",
+          "tier": 4,
+          "official": false,
+          "weight": 4.0,
+          "topic": "ceuta",
+          "classification": "FACT",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 43,
+      "operational_impact": "CONTEXT",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_602d15f94220c7d3",
+      "topic": "melilla",
+      "first_seen": "2026-09-29T08:41:51Z",
+      "last_seen": "2026-09-29T08:41:51Z",
+      "headline": "Una investigación de la UGR revela las estrategias de supervivencia de las trabajadoras transfronterizas atrapadas entre España y Marruecos",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_392d5207d78a9065",
+          "title": "Una investigación de la UGR revela las estrategias de supervivencia de las trabajadoras transfronterizas atrapadas entre España y Marruecos",
+          "title_key": "una investigacion de la ugr revela las estrategias de supervivencia de las trabajadoras transfronterizas atrapadas entre espana y marruecos",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaDUzMFZPVVFvWnpZRWF0dk9VZGVRcV9lcWYwRzNwSDlSOEp3N3VjUnFFbFJnOHJNUTdkcFk0cmhCX0RxQVVHd2ExMkVkeGpjdXl2TkJuX1RxZW1XTXF2VS1zcnQ5Wm9sR1VabUYzd2huTlhwUzdySFY4cEVhb3NNMEZwNWtNTFY4TVk1V2tqNU9iOWdIU1pmTm0wdmxVRmFVdVkwbA",
+          "published_at": "2026-09-29T08:41:51Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "melilla",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_3cdeb6b3ed3b4b4d",
+      "topic": "melilla",
+      "first_seen": "2026-09-29T07:45:31Z",
+      "last_seen": "2026-09-29T07:45:31Z",
+      "headline": "El cierre de la frontera de Melilla dejó a trabajadoras marroquíes atrapadas durante años y alteró su modelo de vida",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_07683d149d8de03f",
+          "title": "El cierre de la frontera de Melilla dejó a trabajadoras marroquíes atrapadas durante años y alteró su modelo de vida",
+          "title_key": "el cierre de la frontera de melilla dejo a trabajadoras marroquies atrapadas durante anos y altero su modelo de vida",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNc050d0lnMldUTTRpbG5udF9JM0lHbkV3UnVGRDhocFo5amV1UXNlT3FJNDUxQWQyWEVIOW1JOWkwSnZfaXpRdFo2Q3hrV0o0N1BQRzVVU2FzM2FjZUV0eXhpMG5oMkJrYkhxazRNQXhINHZMX3gtNkV0X0FENFhuc09tNFpUNExPZzBKc3M4TlNoWlJBWFI0NEZrRVBDTnFDR3R6Ug",
+          "published_at": "2026-09-29T07:45:31Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "melilla",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_a6fdc880c8bbbe2a",
+      "topic": "melilla",
+      "first_seen": "2026-09-29T05:05:01Z",
+      "last_seen": "2026-09-29T05:05:01Z",
+      "headline": "Guerra híbrida en la frontera: Bielorrusia sí, Marruecos no",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_3c65130f2edac163",
+          "title": "Guerra híbrida en la frontera: Bielorrusia sí, Marruecos no",
+          "title_key": "guerra hibrida en la frontera bielorrusia si marruecos no",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZzNJQ1BHTUxFQXlheW5uU1dvTVdzbXQwandSelo5QVc2ZVNheS1Cak4xU1VadHhtUjNDTVpqemk2ODN2OGZXOHA0XzlWaV9oei10VWY1dHV0UDdIXy1vaUtjVG55cE0zWnp3ZUVneHNxWFZ3ZUJfR3p3OENZQ2xSZWJXMVV6dThMUzZKUHdjcS16RUJDeFM5dFdB",
+          "published_at": "2026-09-29T05:05:01Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "melilla",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_96333dca373b8e5c",
+      "topic": "ceuta",
+      "first_seen": "2026-09-28T12:34:35Z",
+      "last_seen": "2026-09-28T12:34:35Z",
+      "headline": "Spanish government representative in Ceuta quits over border rush fallout",
+      "classification": "FACT",
+      "verification_status": "SINGLE_SOURCE",
+      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
+      "sources": [
+        {
+          "source_id": "reuters",
+          "source_name": "Reuters",
+          "source_domain": "reuters.com",
+          "tier": 4,
+          "official": false,
+          "weight": 4.0
+        }
+      ],
+      "source_ids": [
+        "reuters"
+      ],
+      "articles": [
+        {
+          "article_id": "art_e2e7923869ec643c",
+          "title": "Spanish government representative in Ceuta quits over border rush fallout",
+          "title_key": "spanish government representative in ceuta quits over border rush fallout",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOczJTZVFZTDlIcWtUenJQLW9lT0VuemN2TnBTeHhEcm5xMVBFWWVnZjNfQ0hwbm8ybVA1M2h6YjdjakgteHdUSW5saklaR1BKX1JLM3Q3T1B0OEp2YUU2eHAwRUtaRTlUdHpnckNIVmUxYnRkOElBSVpzb2JTRDhISENMLXMwMkNLa1AyRHJCZlV4XzZ3b1hUMVZzcW5rMzRGcG42Q01XeXc0cnNoUGxqTC1naVNDQ1U2OU84",
+          "published_at": "2026-09-28T12:34:35Z",
+          "observed_at": "",
+          "source_id": "reuters",
+          "source_name": "Reuters",
+          "source_domain": "reuters.com",
+          "tier": 4,
+          "official": false,
+          "weight": 4.0,
+          "topic": "ceuta",
+          "classification": "FACT",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 43,
+      "operational_impact": "CONTEXT",
+      "operational_eligible": false
+    },
     {
       "event_id": "evt_97be0a2502c646f9",
       "topic": "melilla",
@@ -465,24 +741,6 @@
           "description": ""
         },
         {
-          "article_id": "art_a0ec26ddf73003b3",
-          "title": "El PAM sobre crisis de Ceuta: La vecindad impone relación de alto nivel con España",
-          "title_key": "el pam sobre crisis de ceuta la vecindad impone relacion de alto nivel con espana",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQam1pTjRLd3BVUzZVTWlWOUdIWmcyeWt5djFCem1NWkx6Y1VzenpSb0J3WGlrall5ZEhnTkpPcFBuZWxvV29yR1o0djZVZlpFY0ZvTUFKVW03NlQxVzQ5TndvMy1QNlpFZW0xQVI3Y3BSQXplWkVSVDU4eVdlWE8yWEZCLVhQczlHQlpIbFYzVGxjMFphVmluTVdSdHg",
-          "published_at": "2026-09-24T18:14:19Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
           "article_id": "art_76979c74f08acfc9",
           "title": "Marruecos señala a España por los inmigrantes de Ceuta: \"Si no han sido devueltos, la pregunta hay que hacérsela a España\"",
           "title_key": "marruecos senala a espana por los inmigrantes de ceuta si no han sido devueltos la pregunta hay que hacersela a espana",
@@ -729,7 +987,7 @@
       "event_id": "evt_1c8268ac3f05ce98",
       "topic": "melilla",
       "first_seen": "2026-09-23T12:57:00Z",
-      "last_seen": "2026-09-24T17:11:35Z",
+      "last_seen": "2026-09-24T08:30:00Z",
       "headline": "Si le preguntamos a Marruecos, la soberanía de Ceuta y Melilla está en disputa. Si le preguntamos a Google... también",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
@@ -748,42 +1006,6 @@
         "unknown"
       ],
       "articles": [
-        {
-          "article_id": "art_ace0220c69bbe8a8",
-          "title": "Google delimita las líneas de Ceuta y Melilla como si fueran \"fronteras discutidas\": este es el motivo",
-          "title_key": "google delimita las lineas de ceuta y melilla como si fueran fronteras discutidas este es el motivo",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNanFYcXJfa3FDUnItR18ya3QwYWltSmNWWkdpcmdJTmNrbENMUENXLVlKUGV6QWtnY1B1Y1owRm5tOUxxMi14LUFEMmpJYXVEVTVxaGVGbUw4VlZ2NzNvblFYWURMU09qUzlDVVFYeVBOTkprQVZKOGZ6X2p2T0FHZVlyVHRwdl8xdURxdDQzdmVnWTJvX0t6NFFPTkFNa1ZPRDE5M01jVE44S0FYMl9HWHpuVDdYakxYNEE",
-          "published_at": "2026-09-23T12:57:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_8b1cbb27d6b8ed8a",
-          "title": "Fuerte presencia policial en las fronteras de Ceuta y Melilla en la jornada electoral de Marruecos",
-          "title_key": "fuerte presencia policial en las fronteras de ceuta y melilla en la jornada electoral de marruecos",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRGc4eUwzV1dRMVNfejh6bmJ4cFZscVlCVkJmTUlHVVNVSWtiZjIxRTN1cHVuOThraENVam5udlc5MHExLVM3MmxpRmFhMWNsckJWQVEwblU4SndFbmpHVUZ5VzdBZGJlMENNaUZzSmNYT09ZRjNhVk41c20yRnB2Ukd2R2lSdy1IV1UyZmpXZHNEZXRFM3RBRHhFeWFES0R3dnNkOG5CbUt2TEItYzNOa1F3",
-          "published_at": "2026-09-23T12:59:27Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
         {
           "article_id": "art_df9c2719c9976164",
           "title": "La frontera de Ceuta y Melilla, blindadas y en calma el día de las elecciones en Marruecos",
@@ -911,47 +1133,11 @@
           "description": ""
         },
         {
-          "article_id": "art_871031f0372107b8",
-          "title": "Sánchez asegura que un \"despliegue importante\" de Marruecos ha evitado un nuevo asalto en Ceuta y Melilla",
-          "title_key": "sanchez asegura que un despliegue importante de marruecos ha evitado un nuevo asalto en ceuta y melilla",
-          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQZWpXRURhZG0wellVckVRNTctX2ozRFc5X195WXFmb2lOR0dST0JXbmdFRlRoRUpOSk5UektMX3RTRllKSzVxeDVSNmZxbEI3dFpHejk1NndxUFg5SHRFUmF4ZHRWNGFYakJ2OGpIU1FoXzlmQkNrbUVNeGVObXlJR1BfMTNTRDVqOXlfVHlwZVNLMzFzQXYzWWFrMVl4ZjdRSk5ILV9FMTMzSXVyMTZvaGgtb0Q5dHZTWjl2Yi1pNWFvc003endsVXRCZ2ZxVHhlNmJCZnYzX3NRRV96d2pzRV9oRGsyREk3emN1SnNqVjBsVGlHVlF6UGJKZ3rSAYICQVVfeXFMUC0yQlVvUDdsQnc5UDZRUFhLV2ZvRF9UelpydjZNcnMtajF5bFJyUmIwZm9TZURzRF9RNHhfNWFFbTYyYl9vYzR2RVFoVFE5VVprd1NZNXNTLW9RNWNfdjltNGhVSWNrRXRLM2pEWFhfaVNZMUNxd2NPcm51RmhpbXlYdjdGLWg2Z01uaEVRRkd5LWxBc0d1N3I5US1zdnplSDZXa1ZHSGM3STRBc1ROdlZEVlBDTWtYT3lsYUpxRHlCMDdjM2s0TDg4bk12Z2lTUDJYNmRsYVkzVTJ1SmZmUzhaUkZ0ak9fcXd0MWtlWTh3bmM1aWpsOFlVWERrMEtPNHZ3",
-          "published_at": "2026-09-23T22:28:30Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
           "article_id": "art_3c48e4ce5b7805f7",
           "title": "Si le preguntamos a Marruecos, la soberanía de Ceuta y Melilla está en disputa. Si le preguntamos a Google... también",
           "title_key": "si le preguntamos a marruecos la soberania de ceuta y melilla esta en disputa si le preguntamos a google tambien",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQVVld29JbXEtbV9VZEdLYXI3c09uemVCUlJHaktMbWZ4V1pfOGNBZzFpS0w5Q2x3NC10enJIc0Frd3RoS2J6X010NTZoRm1MaF9VLTE4eE9yQ0hPTDdwUk9HSWk3dkxRblM2TUNWTTlVTktTcGhPMEdfdVhWeVNrd29RQ0ZsLTViQXNUTTlJRTg5TGxwTUlUN0VoUGV6aktXclBOVC1hOGNUZzAwd0HSAbMBQVVfeXFMTmpBQzdEdWZ3a0gyX2JkUVZFcHVBQy1EZHZVWVhXZXROV0pBT0dzVHR1bU5yT3dQMGhpTHdzdERhektTNEpheVppQTBnZzVvWlpPWTRTLXc1V0kzc1czeUpaNU9ra2Fwb3ZRTHZPVTNRd3ZjeUFHcWlDYjhSRlp6ajRKenRMcmZFemxHWjItSXNKWEMyS1BRZm0zcVIzNnRtZHZ1cU1oY19oZUNIeFlxTWtVNjA",
           "published_at": "2026-09-24T08:30:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_626c0186f431a9ca",
-          "title": "Marruecos detiene a diez personas acusadas de promover migración “masiva” hacia Ceuta y Melilla",
-          "title_key": "marruecos detiene a diez personas acusadas de promover migracion masiva hacia ceuta y melilla",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNOUtyOHJkbG8zUzRUeVd1TGt5aW92dTEtdjBtZV92cjZabW1VbFRhUVRzMFd4ZUkzQ0pUSDZraDZnbmVEaFJNRkNaSmgyOE5LUFo5ZjQxVDVCX2tmQ2tBNGxkVWFMNmVBSE5fbXNOVXBvX3k4LTdtN2l0NF9tQmNobE5SSlpsQ0RjMUpnNU5XeXoyb1RZM3ctdE5mbWlpVUZaTWNvb0ZJd0s5bHlzNHdjX25vazRhMlZ2UEg0T1llRFloT3A5YTRHek13",
-          "published_at": "2026-09-24T17:11:35Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -1060,52 +1246,6 @@
       "importance": 4,
       "operational_impact": "NONE",
       "operational_eligible": false
-    },
-    {
-      "event_id": "evt_1b5f45a13634bae2",
-      "topic": "melilla",
-      "first_seen": "2026-09-23T10:47:48Z",
-      "last_seen": "2026-09-23T12:50:00Z",
-      "headline": "Refuerzo de seguridad en todos los pasos de la frontera de Melilla",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_be6d24fa0c385ddf",
-          "title": "Refuerzo de seguridad en todos los pasos de la frontera de Melilla",
-          "title_key": "refuerzo de seguridad en todos los pasos de la frontera de melilla",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbl94WGJDVUh2WXV3ay11MzFYLUppbHN3MjFzUEc1V0k4S0JxRWJRS3J4ZzIzWWZzMExQaXF2d0lVUllsNGpHLVhvaGxabjBPSHlxQ0lrOGRXbUJwN0RtLTcwRlpUYXU3SkpIM1FGUE40OWZFVUVsREtmdXBNZm5rZ2ZvbTZEbUkySExPb2gwa3A1dXNWVTJMcUsxTkQ",
-          "published_at": "2026-09-23T12:50:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
     }
   ],
   "verification_summary": {
@@ -1113,10 +1253,10 @@
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 1,
-    "SINGLE_SOURCE": 1,
-    "UNCONFIRMED": 14,
-    "TOTAL": 16
+    "SINGLE_SOURCE": 3,
+    "UNCONFIRMED": 17,
+    "TOTAL": 21
   },
   "article_count": 36,
-  "event_count": 16
+  "event_count": 21
 }

@@ -1,41 +1,41 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-28T21:38:41Z",
+  "generated_at": "2026-09-29T14:31:04Z",
   "state": {
-    "code": "watch",
-    "label_es": "VIGILANCIA",
-    "color": "yellow",
-    "severity": 1,
-    "summary_es": "La situación requiere seguimiento, pero no aparecen señales suficientes para elevar el nivel operativo.",
+    "code": "reinforced_watch",
+    "label_es": "VIGILANCIA REFORZADA",
+    "color": "orange",
+    "severity": 2,
+    "summary_es": "Existen incidencias o tensión apreciable, sin que ello implique por sí solo una interrupción del Estrecho.",
     "layers": {
       "maritime": {
         "value": "SIN CONFIRMACIÓN RECIENTE",
         "severity": 1
       },
       "border": {
-        "value": "BAJA / SIN SEÑALES RECIENTES",
-        "severity": 0
+        "value": "ALTA",
+        "severity": 2
       },
       "bilateral": {
         "value": "ESTABLE",
         "severity": 0
       },
       "security": {
-        "value": "SIN ALERTA ESPECÍFICA",
-        "severity": 0
+        "value": "VIGILANCIA REFORZADA",
+        "severity": 2
       }
     },
     "confidence": "BAJA",
     "confidence_explanation_es": "Confianza baja: la información disponible no permite una corroboración reciente suficiente.",
     "sources_pending": [],
     "alert_level": {
-      "code": "informational",
-      "label_es": "INFORMATIVO",
-      "meaning_es": "Seguimiento ordinario o cambio menor."
+      "code": "relevant",
+      "label_es": "RELEVANTE",
+      "meaning_es": "Hay una alteración apreciable, sin implicar cierre del corredor."
     }
   },
   "metrics": {
-    "news_24h": 2,
+    "news_24h": 5,
     "news_sources": 29,
     "seismic_24h": 0,
     "seismic_7d": 0,
@@ -45,60 +45,63 @@
     "ope_passengers_day": 59877,
     "ope_vehicles_day": 15464,
     "ope_rotations_day": 179,
-    "diary_date": "2026-09-28",
-    "diary_source_count": 2
+    "diary_date": "2026-09-29",
+    "diary_source_count": 7
   },
   "anomalies": [],
   "changes": {
     "state_changed": false,
-    "previous_state_code": "watch",
+    "previous_state_code": "reinforced_watch",
     "layer_changes": []
   },
   "since_yesterday": {
-    "reference_date": "2026-09-27",
-    "summary_es": "El nivel general se mantiene en VIGILANCIA. El volumen de referencias de las últimas 24 horas no cambia."
+    "reference_date": "2026-09-28",
+    "summary_es": "El nivel general pasa de VIGILANCIA a VIGILANCIA REFORZADA. El monitor recoge 3 referencias más en la ventana de 24 horas."
   },
   "health": {
     "overall": "HEALTHY",
-    "generated_at": "2026-09-28T21:38:41Z"
+    "generated_at": "2026-09-29T14:31:04Z"
   },
   "latest_diary": {
-    "date": "2026-09-28",
+    "date": "2026-09-29",
     "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
-    "summary": "Selección automática de 2 referencias de 1 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
-    "published_at": "2026-09-28T09:01+02:00",
-    "updated_at": "2026-09-28T23:34+02:00",
-    "source_count": 2,
+    "summary": "Selección automática de 7 referencias de 6 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "published_at": "2026-09-29T16:31+02:00",
+    "updated_at": "2026-09-29T16:31+02:00",
+    "source_count": 7,
     "indexable": false,
     "edition_label": "Cuaderno de las dos orillas",
     "edition_slug": "shores",
-    "fingerprint": "73a2c089de79db4e1dc3",
+    "fingerprint": "5df622d9b354037a34ec",
     "editor_engine": "rules",
-    "editor_assistant_status": "insufficient-sources",
-    "assistant_status": "insufficient-sources",
+    "editor_assistant_status": "no-key",
+    "assistant_status": "no-key",
     "validator_version": 2,
-    "factual_packet_hash": "f9c840ae689da421c26d24fb5b1a8c1f3241666364817d2f90fc458f4c06dfdd",
+    "factual_packet_hash": "ae28bb613c2a54d8e7654575ec457c2a3e66355453933ae2d58ab8d0371b9bce",
     "event_ids": [
+      "evt_b635c7204bfd976a",
+      "evt_96333dca373b8e5c",
       "evt_d492849d88c84cb1",
       "evt_259b1e0a684a3241"
     ],
     "source_ids": [
+      "reuters",
       "rtve",
       "unknown"
     ],
-    "timestamp": "2026-09-28T21:34:52.013050+00:00",
+    "timestamp": "2026-09-29T14:31:04.548248+00:00",
     "fallback_used": true,
     "verification_summary": {
       "CONFIRMED_MULTI_SOURCE": 0,
       "CONFIRMED_PRIMARY": 0,
       "CONFLICTING": 0,
       "DECLARATION_ONLY": 1,
-      "SINGLE_SOURCE": 1,
-      "UNCONFIRMED": 14,
-      "TOTAL": 16
+      "SINGLE_SOURCE": 3,
+      "UNCONFIRMED": 17,
+      "TOTAL": 21
     },
-    "date_label": "2026-09-28",
-    "slug": "2026-09-28.html"
+    "date_label": "2026-09-29",
+    "slug": "2026-09-29.html"
   },
   "latest_ope": {
     "report_date": "2026-08-15",

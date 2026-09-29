@@ -81,8 +81,9 @@
     qsa('[data-gwo-since-yesterday]').forEach(el => text(el, data.since_yesterday?.summary_es));
     qsa('[data-gwo-state-box]').forEach(el => el.dataset.level = state.code || 'unknown');
     qsa('[data-gwo-health-overall]').forEach(el => {
-      const label = {healthy:'SALUD CORRECTA',degraded:'FRESCURA PARCIAL',stale:'REVISAR FUENTES'}[health?.overall] || 'SIN DATOS';
-      text(el, label); el.dataset.health = health?.overall || 'unknown';
+      const healthCode = String(health?.overall || 'unknown').toLowerCase();
+      const label = {healthy:'SALUD CORRECTA',degraded:'FRESCURA PARCIAL',stale:'REVISAR FUENTES',error:'ERROR DE FUENTES'}[healthCode] || 'SIN DATOS';
+      text(el, label); el.dataset.health = healthCode;
     });
     const layers = state.layers || {};
     qsa('[data-gwo-layer]').forEach(el => {

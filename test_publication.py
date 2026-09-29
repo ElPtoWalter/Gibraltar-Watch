@@ -134,6 +134,12 @@ class PublicationTests(unittest.TestCase):
         self.assertIn("18", rendered_situation)
         self.assertIn("Sin cambio material desde ayer.", rendered_situation)
 
+    def test_browser_health_badge_accepts_canonical_uppercase_codes(self):
+        script = (Path(__file__).resolve().parent / "gw-observatory.js").read_text(encoding="utf-8")
+        self.assertIn("String(health?.overall || 'unknown').toLowerCase()", script)
+        self.assertIn("error:'ERROR DE FUENTES'", script)
+        self.assertNotIn("[health?.overall] || 'SIN DATOS'", script)
+
     def test_updates_trigger_public_deployment(self):
         root = Path(__file__).resolve().parent
         deploy = (root / ".github/workflows/deploy-gibraltar-secure.yml").read_text(encoding="utf-8")

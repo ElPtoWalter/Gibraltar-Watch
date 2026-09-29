@@ -1,13 +1,13 @@
 [
   {
     "date": "2026-09-29",
-    "generated_at": "2026-09-29T08:38:24Z",
-    "state_code": "normal",
-    "state_label": "NORMALIDAD OPERATIVA",
-    "health": "stale",
+    "generated_at": "2026-09-29T14:31:04Z",
+    "state_code": "reinforced_watch",
+    "state_label": "VIGILANCIA REFORZADA",
+    "health": "HEALTHY",
     "metrics": {
-      "news_24h": 4,
-      "news_sources": 30,
+      "news_24h": 5,
+      "news_sources": 29,
       "seismic_24h": 0,
       "seismic_7d": 0,
       "seismic_30d": 0,
@@ -17,17 +17,17 @@
       "ope_vehicles_day": 15464,
       "ope_rotations_day": 179,
       "diary_date": "2026-09-29",
-      "diary_source_count": 4
+      "diary_source_count": 7
     }
   },
   {
     "date": "2026-09-28",
-    "generated_at": "2026-09-28T15:34:26Z",
-    "state_code": "normal",
-    "state_label": "NORMALIDAD OPERATIVA",
-    "health": "stale",
+    "generated_at": "2026-09-28T21:38:41Z",
+    "state_code": "watch",
+    "state_label": "VIGILANCIA",
+    "health": "HEALTHY",
     "metrics": {
-      "news_24h": 3,
+      "news_24h": 2,
       "news_sources": 29,
       "seismic_24h": 0,
       "seismic_7d": 0,
@@ -38,7 +38,7 @@
       "ope_vehicles_day": 15464,
       "ope_rotations_day": 179,
       "diary_date": "2026-09-28",
-      "diary_source_count": 3
+      "diary_source_count": 2
     }
   },
   {

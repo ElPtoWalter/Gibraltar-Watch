@@ -2,6 +2,7 @@ from datetime import datetime, timedelta, timezone
 import unittest
 from unittest.mock import patch
 
+import build_events
 import update_geopolitics as u
 
 
@@ -11,7 +12,29 @@ class GeopoliticsTests(unittest.TestCase):
         items = u.parse_rss(rss, "ceuta", "en")
         self.assertEqual(len(items), 1)
         self.assertEqual(items[0].source, "Reuters")
-        self.assertEqual(items[0].weight, 5)
+        self.assertEqual(items[0].weight, 4)
+        self.assertEqual(items[0].source_id, "reuters")
+
+    def test_parse_rss_preserves_an_unregistered_publisher_label(self):
+        rss = b'''<?xml version="1.0"?><rss><channel><item><title>Noticias de Ceuta - Medio Local</title><link>https://news.google.com/rss/articles/example</link><pubDate>Sun, 28 Sep 2026 10:00:00 GMT</pubDate><source>Unknown source</source></item></channel></rss>'''
+        items = u.parse_rss(rss, "ceuta", "es")
+        self.assertEqual(len(items), 1)
+        self.assertEqual(items[0].source, "Medio Local")
+        self.assertEqual(items[0].source_id, "unknown")
+
+    def test_event_rebuild_preserves_an_unregistered_publisher_label(self):
+        item = build_events.normalise_item({
+            "title": "Noticias de Ceuta",
+            "source": "Medio Local",
+            "url": "https://news.google.com/rss/articles/example",
+            "published_at": "2026-09-28T10:00:00+00:00",
+            "category": "ceuta",
+            "language": "es",
+            "weight": 2,
+            "source_id": "unknown",
+        })
+        self.assertEqual(item.source, "Medio Local")
+        self.assertEqual(item.source_id, "unknown")
 
     def test_high_border_pressure_requires_signals(self):
         now = datetime.now(timezone.utc).isoformat()
@@ -27,7 +50,7 @@ class GeopoliticsTests(unittest.TestCase):
         now = datetime.now(timezone.utc).isoformat()
         items = [u.NewsItem("Rumour says Strait closed", "Unknown", "x", now, "traffic", "en", 1)]
         status = u.classify(items)
-        self.assertEqual(status["maritime_status"]["en"], "OPERATIONAL")
+        self.assertEqual(status["maritime_status"]["en"], "NO RECENT CONFIRMATION")
 
     def test_two_trusted_maritime_sources_raise_possible_disruption(self):
         now = datetime.now(timezone.utc).isoformat()
@@ -37,6 +60,28 @@ class GeopoliticsTests(unittest.TestCase):
         ]
         status = u.classify(items)
         self.assertEqual(status["maritime_status"]["en"], "POSSIBLE DISRUPTION")
+
+    def test_absence_of_news_is_not_positive_operational_evidence(self):
+        status = u.classify([])
+        self.assertEqual(status["maritime_status"]["es"], "SIN CONFIRMACIÓN RECIENTE")
+        self.assertEqual(status["confidence"]["es"], "BAJA")
+
+    def test_direct_official_positive_signal_confirms_operation(self):
+        now = datetime.now(timezone.utc).isoformat()
+        items = [u.NewsItem(
+            "Servicios marítimos operativos sin incidencias",
+            "Salvamento Marítimo",
+            "https://radioavisos.salvamentomaritimo.es/notice",
+            now, "traffic", "es", 5, "salvamento_maritimo",
+        )]
+        status = u.classify(items)
+        self.assertEqual(status["maritime_status"]["es"], "OPERATIVO CONFIRMADO")
+
+    def test_tier_one_hint_never_changes_maritime_state(self):
+        now = datetime.now(timezone.utc).isoformat()
+        items = [u.NewsItem("Shipping halt reported in Strait", "Unknown", "x", now, "traffic", "en", 1)]
+        status = u.classify(items)
+        self.assertEqual(status["maritime_status"]["en"], "NO RECENT CONFIRMATION")
 
     def test_preventive_border_measures_do_not_drop_directly_to_low(self):
         now = datetime.now(timezone.utc).isoformat()

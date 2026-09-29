@@ -1,23 +1,23 @@
 {
-  "schema_version": 1,
-  "generated_at": "2026-09-29T08:38:24Z",
-  "overall": "stale",
+  "schema_version": 2,
+  "generated_at": "2026-09-29T14:31:04Z",
+  "overall": "HEALTHY",
   "components": [
     {
       "name": "Sismicidad USGS",
       "state": "fresh",
       "label_es": "ACTUALIZADO",
-      "checked_at": "2026-09-29T08:37:15Z",
+      "checked_at": "2026-09-29T14:29:50Z",
       "age_minutes": 1,
       "source": "USGS Earthquake Catalog",
-      "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-08-30T08%3A37%3A15Z&endtime=2026-09-29T08%3A37%3A15Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
+      "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-08-30T14%3A29%3A50Z&endtime=2026-09-29T14%3A29%3A50Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
       "note_es": "Catálogo sísmico regional; no es una herramienta de predicción."
     },
     {
       "name": "Actualidad y geopolítica",
       "state": "fresh",
       "label_es": "ACTUALIZADO",
-      "checked_at": "2026-09-29T08:38:18.856715+00:00",
+      "checked_at": "2026-09-29T14:30:05.328366+00:00",
       "age_minutes": 0,
       "source": "Monitor editorial de fuentes públicas",
       "url": "fuentes.html",
@@ -25,39 +25,101 @@
     },
     {
       "name": "Operación Paso del Estrecho",
-      "state": "stale",
-      "label_es": "PARTE ANTIGUO",
+      "state": "historical",
+      "label_es": "TEMPORADA FINALIZADA",
       "checked_at": "2026-09-29T08:38:18Z",
-      "age_minutes": 0,
+      "age_minutes": 352,
       "source": "Secretaría General de Protección Civil y Emergencias",
       "url": "https://www.proteccioncivil.es/documents/20121/0/20260815_InformeOPE.pdf",
-      "note_es": "Último parte localizado: 2026-08-15. Una consulta reciente no actualiza la fecha de sus datos.",
-      "report_date": "2026-08-15"
+      "note_es": "Temporada finalizada · últimos datos oficiales archivados.",
+      "report_date": "2026-08-15",
+      "lifecycle": "SEASON_COMPLETE"
     },
     {
       "name": "Diario del Estrecho",
       "state": "fresh",
       "label_es": "ACTUALIZADO",
-      "checked_at": "2026-09-29T08:38:00Z",
+      "checked_at": "2026-09-29T14:31:00Z",
       "age_minutes": 0,
       "source": "Gibraltar Watch",
-      "url": "diario/actual.html",
+      "url": "diario/2026-09-29.html",
       "note_es": "Última edición publicada"
     },
     {
       "name": "Integridad del sitio",
       "state": "fresh",
       "label_es": "CORRECTA",
-      "checked_at": "2026-09-29T08:38:24Z",
+      "checked_at": "2026-09-29T14:31:04Z",
       "age_minutes": 0,
       "source": "Validador local",
       "note_es": "Todos los archivos críticos están presentes."
     }
   ],
+  "source_health": [
+    {
+      "name": "Sismicidad USGS",
+      "state": "fresh",
+      "label_es": "ACTUALIZADO",
+      "checked_at": "2026-09-29T14:29:50Z",
+      "age_minutes": 1,
+      "source": "USGS Earthquake Catalog",
+      "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-08-30T14%3A29%3A50Z&endtime=2026-09-29T14%3A29%3A50Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
+      "note_es": "Catálogo sísmico regional; no es una herramienta de predicción."
+    },
+    {
+      "name": "Actualidad y geopolítica",
+      "state": "fresh",
+      "label_es": "ACTUALIZADO",
+      "checked_at": "2026-09-29T14:30:05.328366+00:00",
+      "age_minutes": 0,
+      "source": "Monitor editorial de fuentes públicas",
+      "url": "fuentes.html",
+      "note_es": "Los titulares se usan como señales y requieren atribución."
+    },
+    {
+      "name": "Operación Paso del Estrecho",
+      "state": "historical",
+      "label_es": "TEMPORADA FINALIZADA",
+      "checked_at": "2026-09-29T08:38:18Z",
+      "age_minutes": 352,
+      "source": "Secretaría General de Protección Civil y Emergencias",
+      "url": "https://www.proteccioncivil.es/documents/20121/0/20260815_InformeOPE.pdf",
+      "note_es": "Temporada finalizada · últimos datos oficiales archivados.",
+      "report_date": "2026-08-15",
+      "lifecycle": "SEASON_COMPLETE"
+    },
+    {
+      "name": "Diario del Estrecho",
+      "state": "fresh",
+      "label_es": "ACTUALIZADO",
+      "checked_at": "2026-09-29T14:31:00Z",
+      "age_minutes": 0,
+      "source": "Gibraltar Watch",
+      "url": "diario/2026-09-29.html",
+      "note_es": "Última edición publicada"
+    }
+  ],
+  "pipeline_health": {
+    "state": "HEALTHY",
+    "missing_critical_pages": []
+  },
+  "publication_health": {
+    "name": "Integridad del sitio",
+    "state": "fresh",
+    "label_es": "CORRECTA",
+    "checked_at": "2026-09-29T14:31:04Z",
+    "age_minutes": 0,
+    "source": "Validador local",
+    "note_es": "Todos los archivos críticos están presentes."
+  },
+  "operational_assessment": {
+    "maritime_status": "SIN CONFIRMACIÓN RECIENTE",
+    "separate_from_source_health": true
+  },
   "workflow": {
-    "run_id": "36543858266",
+    "run_id": "local",
     "run_attempt": "1",
-    "sha": "2c59afc88b04",
-    "event": "schedule"
+    "sha": "local",
+    "event": "local"
   }
 }

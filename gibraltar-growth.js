@@ -15,7 +15,7 @@ fetch('ope-2026.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error(r.st
  const map={
  'departure_passengers_day':'departure.day.passengers','departure_vehicles_day':'departure.day.vehicles','departure_rotations_day':'departure.day.rotations','departure_passengers_total':'departure.cumulative.passengers',
  'return_passengers_day':'return.day.passengers','return_vehicles_day':'return.day.vehicles','return_rotations_day':'return.day.rotations','return_passengers_total':'return.cumulative.passengers',
- 'data_note_es':'data_note_es','data_note_en':'data_note_en','advice_es':'advice_es','advice_en':'advice_en'};
+ 'data_note_es':'data_note_es','data_note_en':'data_note_en','advice_es':'advice_es','advice_en':'advice_en','lifecycle_note_es':'lifecycle_note_es','lifecycle_note_en':'lifecycle_note_en'};
  Object.entries(map).forEach(([k,p])=>set(k,fmt(val(d,p))==='—'&&typeof val(d,p)==='string'?val(d,p):(typeof val(d,p)==='number'?fmt(val(d,p)):val(d,p))));
  const all=[...(d.departure?.routes||[]),...(d.return?.routes||[])];
  const top=all.sort((a,b)=>(b.passengers||0)-(a.passengers||0))[0]; set('top_route',top?routeName(top.name):'—'); set('top_route_passengers',top?fmt(top.passengers):'—');

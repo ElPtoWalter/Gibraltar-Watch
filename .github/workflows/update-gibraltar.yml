@@ -7,116 +7,56 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
-  group: update-gibraltar-watch
-  cancel-in-progress: true
+  group: gibraltar-content-writes
+  cancel-in-progress: false
 
 jobs:
-  update:
+  monitor:
     runs-on: ubuntu-latest
-    timeout-minutes: 18
+    timeout-minutes: 12
     steps:
       - name: Descargar repositorio
         uses: actions/checkout@v6
-
       - name: Configurar Python
         uses: actions/setup-python@v6
         with:
           python-version: "3.12"
-
-      - name: Instalar dependencias editoriales
+      - name: Instalar lector OPE
         run: python -m pip install --disable-pip-version-check pypdf
-
-      - name: Ejecutar pruebas del monitor sísmico
-        run: python -m unittest -v test_update.py
-
-      - name: Ejecutar pruebas editoriales actuales
-        run: python -m unittest -v test_gibraltar_top.py test_install_gibraltar_top.py
-
-      - name: Ejecutar pruebas OPE
-        run: python -m unittest -v test_update_ope.py
-
-      - name: Ejecutar pruebas del observatorio estratégico
-        run: python -m unittest -v test_update_geopolitics.py test_install_gibraltar_strategy.py
-
-      - name: Ejecutar pruebas de consolidación final
-        run: python -m unittest -v test_install_gibraltar_consolidation.py
-
-      - name: Ejecutar pruebas de pulido visual
-        run: python -m unittest -v test_install_gibraltar_layout_polish.py
-
-      - name: Ejecutar pruebas de atractivo y monetización
-        run: python -m unittest -v test_install_gibraltar_business.py
-
-      - name: Ejecutar pruebas del Diario del Estrecho
-        run: python -m unittest -v test_generate_diario_estrecho.py test_free_editorial_ai.py test_install_diario_estrecho.py test_publication.py test_editorial_quality.py
-
-      - name: Actualizar sismicidad
-        run: python update_gibraltar.py
-
-      - name: Actualizar Operación Paso del Estrecho
-        run: python update_ope.py
-
-      - name: Actualizar noticias y situación geopolítica
-        run: python update_geopolitics.py
-
-      - name: Conservar mejoras editoriales TOP
-        run: python install_gibraltar_top.py
-
-      - name: Generar parte científico y archivo
-        run: python generate_gibraltar_brief.py
-
-      - name: Conservar crecimiento de tráfico y logística
-        run: python install_gibraltar_growth.py
-
-      - name: Aplicar observatorio estratégico
-        run: python install_gibraltar_strategy.py
-
-      - name: Aplicar consolidación editorial final
-        run: python install_gibraltar_consolidation.py
-
-      - name: Aplicar pulido visual y responsive
-        run: python install_gibraltar_layout_polish.py
-
-      - name: Aplicar atractivo y monetización responsable
-        run: python install_gibraltar_business.py
-
-      - name: Instalar Diario del Estrecho
-        run: python install_diario_estrecho.py
-
-      - name: Generar edición diaria del Estrecho
-        env:
-          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-          DIARIO_FREE_AI_MODEL: ${{ vars.DIARIO_FREE_AI_MODEL }}
-        run: python generate_diario_estrecho.py
-
-      - name: Actualizar lectura consolidada y salud pública
-        run: python update_observatory.py
-
-      - name: Actualizar boletín y validar publicación
+      - name: Actualizar fuentes de cambio frecuente
         run: |
-          python generate_newsletter.py
-          python build_publication_manifest.py
+          python update_gibraltar.py
+          python update_ope.py
+          python update_geopolitics.py
+          python build_events.py
+          python update_observatory.py
+      - name: Validar salidas críticas
+        run: |
+          python audit_repository_secrets.py
           python validate_gibraltar.py
-
-      - name: Guardar cambios
+      - name: Guardar cambios del monitor
         id: commit
         run: |
           find . -type d -name __pycache__ -prune -exec rm -rf {} +
           if git diff --quiet && [ -z "$(git status --porcelain)" ]; then
-            echo "No hay cambios que guardar."
             echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          git commit -m "Actualizar Gibraltar Watch y Diario del Estrecho"
+          git commit -m "Actualizar monitor horario de Gibraltar Watch"
           git push
           echo "changed=true" >> "$GITHUB_OUTPUT"
-
       - name: Avisar mediante IndexNow
         if: steps.commit.outputs.changed == 'true'
         continue-on-error: true
         run: python submit_gibraltar_indexnow.py
+      - name: Publicar exactamente una vez
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy-gibraltar-secure.yml --ref main

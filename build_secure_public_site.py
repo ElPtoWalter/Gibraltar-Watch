@@ -196,6 +196,75 @@ def render_timeline(items, limit: int = 12) -> str:
     return "".join(rows) or '<div class="gwo-empty">Aún no hay cambios registrados en la cronología.</div>'
 
 
+def format_ope_date(value, lang: str) -> str:
+    parsed = parse_dt(f"{value}T12:00:00Z" if value and "T" not in str(value) else value)
+    if not parsed:
+        return "Sin fecha" if lang == "es" else "No date"
+    months_es = ("enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre")
+    if lang == "es":
+        return f"{parsed.day} de {months_es[parsed.month - 1]} de {parsed.year}"
+    return parsed.strftime("%d %B %Y").lstrip("0")
+
+
+def render_ope_routes(routes, lang: str) -> str:
+    rows = []
+    for index, route in enumerate((routes if isinstance(routes, list) else [])[:6], start=1):
+        if not isinstance(route, dict):
+            continue
+        name = str(route.get("name") or "—")
+        if lang == "en":
+            name = name.replace("Tánger", "Tangier")
+        rotations = route.get("rotations") if route.get("rotations") is not None else "—"
+        passengers = route.get("passengers") if route.get("passengers") is not None else "—"
+        vehicles = route.get("vehicles") if route.get("vehicles") is not None else "—"
+        rotation_label = "rotations" if lang == "en" else "rotaciones"
+        vehicle_label = "vehicles" if lang == "en" else "vehículos"
+        rows.append(
+            f'<article class="gw-route-row"><span>{index:02d}</span><div><b>{html.escape(name)}</b>'
+            f'<small>{rotations} {rotation_label}</small></div><strong>{passengers}</strong>'
+            f'<em>{vehicles} {vehicle_label}</em></article>'
+        )
+    return "".join(rows) or ("<p>No route data available.</p>" if lang == "en" else "<p>Sin datos de rutas disponibles.</p>")
+
+
+def prerender_ope(text: str, ope: dict, lang: str) -> str:
+    """Render the archived/active OPE state for crawlers before JS enhancement."""
+    departure = ope.get("departure") if isinstance(ope.get("departure"), dict) else {}
+    returned = ope.get("return") if isinstance(ope.get("return"), dict) else {}
+    dep_day = departure.get("day") if isinstance(departure.get("day"), dict) else {}
+    dep_total = departure.get("cumulative") if isinstance(departure.get("cumulative"), dict) else {}
+    ret_day = returned.get("day") if isinstance(returned.get("day"), dict) else {}
+    ret_total = returned.get("cumulative") if isinstance(returned.get("cumulative"), dict) else {}
+    values = {
+        "report_date_long": format_ope_date(ope.get("report_date"), lang),
+        "departure_passengers_day": dep_day.get("passengers", "—"),
+        "departure_vehicles_day": dep_day.get("vehicles", "—"),
+        "departure_rotations_day": dep_day.get("rotations", "—"),
+        "departure_passengers_total": dep_total.get("passengers", "—"),
+        "return_passengers_day": ret_day.get("passengers", "—"),
+        "return_vehicles_day": ret_day.get("vehicles", "—"),
+        "return_rotations_day": ret_day.get("rotations", "—"),
+        "return_passengers_total": ret_total.get("passengers", "—"),
+        f"data_note_{lang}": ope.get(f"data_note_{lang}") or "—",
+        f"advice_{lang}": ope.get(f"advice_{lang}") or "—",
+        f"lifecycle_note_{lang}": ope.get(f"lifecycle_note_{lang}") or "—",
+    }
+    for key, value in values.items():
+        display = f"{value:,}".replace(",", ".") if lang == "es" and isinstance(value, int) else f"{value:,}" if isinstance(value, int) else str(value)
+        text = replace_attr(text, "data-ope", key, html.escape(display))
+    text = replace_attr(text, "data-ope-routes", "departure", render_ope_routes(departure.get("routes"), lang))
+    text = replace_attr(text, "data-ope-routes", "return", render_ope_routes(returned.get("routes"), lang))
+    source_url = str(ope.get("source_url") or "#")
+    if source_url.startswith("https://"):
+        text = re.sub(
+            r'(<a\b[^>]*\bdata-ope-link\b[^>]*\bhref=)["\'][^"\']*["\']',
+            lambda match: match.group(1) + '"' + html.escape(source_url, quote=True) + '"',
+            text,
+            flags=re.I,
+        )
+    return text
+
+
 def prerender_html(text: str, relative_path: str, data: dict[str, object]) -> str:
     """Write current public state into HTML before JavaScript enhancement."""
     geopolitics = data.get("geopolitics.json") if isinstance(data.get("geopolitics.json"), dict) else {}
@@ -207,6 +276,10 @@ def prerender_html(text: str, relative_path: str, data: dict[str, object]) -> st
     checked = observatory.get("generated_at") or geopolitics.get("generated_at")
     confidence = str(state.get("confidence") or localized(status.get("confidence")))
     confidence_note = str(state.get("confidence_explanation_es") or "La confianza depende de la frescura y cobertura de las fuentes consultadas.")
+
+    if relative_path in {"operacion-paso-estrecho-2026.html", "en-strait-crossing-operation-2026.html"}:
+        ope = data.get("ope-2026.json") if isinstance(data.get("ope-2026.json"), dict) else {}
+        text = prerender_ope(text, ope, "en" if relative_path.startswith("en-") else "es")
 
     if relative_path == "index.html":
         text = replace_id(text, "gwcStatusMeta", html.escape(f"Actualizado: {format_checked_at(checked)} · Confianza: {confidence}"))
@@ -251,7 +324,7 @@ def prerender_html(text: str, relative_path: str, data: dict[str, object]) -> st
         text = _replace_matches(text, re.compile(r'<(?P<tag>[A-Za-z0-9]+)\b[^>]*\bdata-gwo-summary(?=\s|>)[^>]*>', re.I | re.S), html.escape(str(state.get("summary_es") or "")))
         alert = state.get("alert_level") if isinstance(state.get("alert_level"), dict) else {}
         text = _replace_matches(text, re.compile(r'<(?P<tag>[A-Za-z0-9]+)\b[^>]*\bdata-gwo-alert-level(?=\s|>)[^>]*>', re.I | re.S), html.escape(str(alert.get("label_es") or "INFORMATIVO")))
-        health_label = {"healthy": "SALUD CORRECTA", "degraded": "FRESCURA PARCIAL", "stale": "REVISAR FUENTES"}.get(str(health.get("overall")), "SIN DATOS")
+        health_label = {"healthy": "SALUD CORRECTA", "degraded": "FRESCURA PARCIAL", "stale": "REVISAR FUENTES", "error": "ERROR DE FUENTES"}.get(str(health.get("overall")).lower(), "SIN DATOS")
         text = _replace_matches(text, re.compile(r'<(?P<tag>[A-Za-z0-9]+)\b[^>]*\bdata-gwo-health-overall(?=\s|>)[^>]*>', re.I | re.S), health_label)
         metrics = observatory.get("metrics") if isinstance(observatory.get("metrics"), dict) else {}
         for key, value in metrics.items():
@@ -426,7 +499,7 @@ def main() -> int:
     ET.register_namespace("", namespace)
     sitemap = ET.Element("{" + namespace + "}urlset")
     for page in sorted(OUT.rglob("*.html")):
-        if page.name == "404.html" or re.search(r'<meta\b[^>]*noindex', page.read_text(), re.I):
+        if page.name == "404.html" or re.search(r'<meta\b[^>]*noindex', page.read_text(encoding="utf-8"), re.I):
             continue
         node = ET.SubElement(sitemap, "{" + namespace + "}url")
         ET.SubElement(node, "{" + namespace + "}loc").text = "https://estrechogibraltar.com/" + page.relative_to(OUT).as_posix()

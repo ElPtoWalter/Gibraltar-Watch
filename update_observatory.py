@@ -134,7 +134,7 @@ def severity_for(kind: str, value: str) -> int:
             return 4
         if any(x in t for x in ("RESTR", "CONGEST", "INCID", "DELAY", "LIMIT")):
             return 2
-        if any(x in t for x in ("VIGIL", "WATCH")):
+        if any(x in t for x in ("VIGIL", "WATCH", "SIN CONFIRMACIÓN", "NO RECENT CONFIRMATION")):
             return 1
         return 0
     if kind == "border":
@@ -191,7 +191,7 @@ def overall_state(status: dict, health_state: str) -> dict:
     else:
         code, label, color = "normal", "NORMALIDAD OPERATIVA", "green"
         summary = "No aparecen señales suficientes para elevar el nivel general del observatorio."
-    if health_state in {"degraded", "stale"}:
+    if str(health_state).upper() in {"DEGRADED", "STALE", "ERROR"}:
         summary += " Parte de las fuentes necesita actualización, por lo que la lectura debe interpretarse con cautela."
     return {
         "code": code,
@@ -222,9 +222,10 @@ def alert_level_for(state: dict) -> dict:
 def confidence(status: dict, health_state: str) -> str:
     raw = nested(status, "confidence").upper()
     rank = 2 if "ALTA" in raw or "HIGH" in raw else 1 if "MEDIA" in raw or "MEDIUM" in raw else 0
-    if health_state == "degraded":
+    health_code = str(health_state).upper()
+    if health_code == "DEGRADED":
         rank = max(0, rank - 1)
-    elif health_state == "stale":
+    elif health_code in {"STALE", "ERROR"}:
         rank = 0
     return ("BAJA", "MEDIA", "ALTA")[rank]
 
@@ -334,10 +335,25 @@ def build_health(seismic: dict, geopolitics: dict, ope: dict, diary: dict) -> di
         source_health("Operación Paso del Estrecho", ope.get("checked_at"), ope.get("source", "Protección Civil"), 360, 1440, "La frescura de consulta no convierte el parte oficial en un contador en tiempo real.", ope.get("source_url", "")),
     ]
     diary_stamp = diary.get("date")
+    lifecycle = str(ope.get("lifecycle") or "").upper()
     report_dt = parse_dt(ope.get("report_date"))
-    if report_dt and (NOW - report_dt).total_seconds() > 7 * 86400:
+    if lifecycle == "SEASON_COMPLETE":
+        components[2].update(
+            state="historical", label_es="TEMPORADA FINALIZADA",
+            report_date=ope.get("report_date"), lifecycle=lifecycle,
+            note_es=ope.get("lifecycle_note_es") or "Temporada finalizada · últimos datos oficiales archivados.",
+        )
+    elif lifecycle == "UNAVAILABLE":
+        components[2].update(
+            state="missing", label_es="NO DISPONIBLE", lifecycle=lifecycle,
+            note_es=ope.get("lifecycle_note_es") or "No hay datos oficiales disponibles para la campaña.",
+        )
+    elif lifecycle == "STALE" or (report_dt and (NOW - report_dt).total_seconds() > 7 * 86400):
         components[2].update(state="stale", label_es="PARTE ANTIGUO", report_date=ope.get("report_date"),
+                             lifecycle=lifecycle or "STALE",
                              note_es=f'Último parte localizado: {ope.get("report_date")}. Una consulta reciente no actualiza la fecha de sus datos.')
+    else:
+        components[2]["lifecycle"] = lifecycle or "ACTIVE"
     diary_dt = parse_dt(diary.get("updated_at") or diary.get("published_at") or diary.get("pub_rfc822"))
     if diary_dt is None and diary_stamp:
         try:
@@ -359,17 +375,29 @@ def build_health(seismic: dict, geopolitics: dict, ope: dict, diary: dict) -> di
     })
 
     states = {x["state"] for x in components}
-    if "missing" in states or "stale" in states:
-        overall = "stale"
+    if page_state == "missing":
+        overall = "ERROR"
+    elif "missing" in states or "stale" in states:
+        overall = "STALE"
     elif "aging" in states:
-        overall = "degraded"
+        overall = "DEGRADED"
     else:
-        overall = "healthy"
+        overall = "HEALTHY"
     return {
-        "schema_version": 1,
+        "schema_version": 2,
         "generated_at": iso(),
         "overall": overall,
         "components": components,
+        "source_health": components[:4],
+        "pipeline_health": {
+            "state": "ERROR" if page_state == "missing" else "HEALTHY",
+            "missing_critical_pages": missing_pages,
+        },
+        "publication_health": components[-1],
+        "operational_assessment": {
+            "maritime_status": nested(geopolitics.get("status", {}), "maritime_status"),
+            "separate_from_source_health": True,
+        },
         "workflow": {
             "run_id": os.getenv("GITHUB_RUN_ID", "local"),
             "run_attempt": os.getenv("GITHUB_RUN_ATTEMPT", "1"),
@@ -550,6 +578,9 @@ def main() -> int:
             "report_label_es": ope.get("report_label_es"),
             "source": ope.get("source"),
             "source_url": ope.get("source_url"),
+            "lifecycle": ope.get("lifecycle"),
+            "historical": ope.get("historical"),
+            "lifecycle_note_es": ope.get("lifecycle_note_es"),
         },
         "methodology": {
             "principle": "Hechos, interpretación y escenarios se muestran por separado.",

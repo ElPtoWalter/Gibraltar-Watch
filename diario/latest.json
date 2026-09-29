@@ -1,16 +1,41 @@
 {
   "date": "2026-09-29",
   "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
-  "summary": "Selección automática de 4 referencias de 4 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
-  "published_at": "2026-09-29T10:38+02:00",
-  "updated_at": "2026-09-29T10:38+02:00",
-  "source_count": 4,
+  "summary": "Selección automática de 7 referencias de 6 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+  "published_at": "2026-09-29T16:31+02:00",
+  "updated_at": "2026-09-29T16:31+02:00",
+  "source_count": 7,
   "indexable": false,
   "edition_label": "Cuaderno de las dos orillas",
   "edition_slug": "shores",
-  "fingerprint": "e4740f461e1adeaaf9f0",
+  "fingerprint": "5df622d9b354037a34ec",
   "editor_engine": "rules",
   "editor_assistant_status": "no-key",
+  "assistant_status": "no-key",
+  "validator_version": 2,
+  "factual_packet_hash": "ae28bb613c2a54d8e7654575ec457c2a3e66355453933ae2d58ab8d0371b9bce",
+  "event_ids": [
+    "evt_b635c7204bfd976a",
+    "evt_96333dca373b8e5c",
+    "evt_d492849d88c84cb1",
+    "evt_259b1e0a684a3241"
+  ],
+  "source_ids": [
+    "reuters",
+    "rtve",
+    "unknown"
+  ],
+  "timestamp": "2026-09-29T14:31:04.548248+00:00",
+  "fallback_used": true,
+  "verification_summary": {
+    "CONFIRMED_MULTI_SOURCE": 0,
+    "CONFIRMED_PRIMARY": 0,
+    "CONFLICTING": 0,
+    "DECLARATION_ONLY": 1,
+    "SINGLE_SOURCE": 3,
+    "UNCONFIRMED": 17,
+    "TOTAL": 21
+  },
   "date_label": "2026-09-29",
-  "slug": "actual.html"
+  "slug": "2026-09-29.html"
 }

@@ -55,6 +55,8 @@ class PhaseOneWorkflowTests(unittest.TestCase):
         text = workflow("pilot-gemini-phase1.yml")
         self.assertIn("workflow_dispatch:", text)
         self.assertIn("pull_request:", text)
+        self.assertIn("branches: [codex/phase1-closure-gibraltar]", text)
+        self.assertIn("github.event_name == 'push'", text)
         self.assertIn("head.repo.full_name == github.repository", text)
         self.assertIn("contents: read", text)
         self.assertNotIn("git push", text)

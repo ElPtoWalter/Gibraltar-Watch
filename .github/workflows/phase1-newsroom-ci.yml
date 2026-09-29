@@ -3,7 +3,7 @@ name: CI · Fase 1 Gibraltar
 on:
   pull_request:
   push:
-    branches: [main]
+    branches: [main, codex/phase1-closure-gibraltar]
     paths:
       - "**.py"
       - ".github/workflows/**"

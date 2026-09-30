@@ -1,7 +1,126 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-30T13:49:45.048087+00:00",
+  "generated_at": "2026-09-30T19:26:13.301800+00:00",
   "events": [
+    {
+      "event_id": "evt_d08c89a2ca86805f",
+      "topic": "relations",
+      "first_seen": "2026-09-30T18:53:08Z",
+      "last_seen": "2026-09-30T18:53:08Z",
+      "headline": "From Juan Carlos I to Felipe VI: Two Ways of Managing Crises with Morocco",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_b9662f5cfda74d3f",
+          "title": "From Juan Carlos I to Felipe VI: Two Ways of Managing Crises with Morocco",
+          "title_key": "from juan carlos i to felipe vi two ways of managing crises with morocco",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMWQ4XzFaaXVoTlV0VjVTWnh1ME8tNVRub21tVm0zaGRtUzRxZUhQY0xuSE5pN190VEtGUmJXZG1DT0dkeVlKSFpUZ3ZVLWtDLTl0SWxELVU3VGxYS0ZSaVR2WExCdXktY1o0WGNnUXk4c2twRzBFZ3pKblpmWHJUd19naVJNQmNjYUl0MTlFX0dsSVM2bEFGRnphc3ExSGxRVVBOU0FuclNSWnV6cjh6bjljM0tSS0l6akNmYkJ3",
+          "published_at": "2026-09-30T18:53:08Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_b635c7204bfd976a",
+      "topic": "ceuta",
+      "first_seen": "2026-09-29T12:06:52Z",
+      "last_seen": "2026-09-30T11:10:55Z",
+      "headline": "Brussels seeks to strengthen EU border controls after Ceuta crisis - reuters.com",
+      "classification": "FACT",
+      "verification_status": "SINGLE_SOURCE",
+      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
+      "sources": [
+        {
+          "source_id": "reuters",
+          "source_name": "Reuters",
+          "source_domain": "reuters.com",
+          "tier": 4,
+          "official": false,
+          "weight": 4.0
+        },
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "reuters",
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_1b2cf52ef917c653",
+          "title": "Brussels seeks to strengthen EU border controls after Ceuta crisis - reuters.com",
+          "title_key": "brussels seeks to strengthen eu border controls after ceuta crisis",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNzM1WE1JWTZUUGd6YmczOVpzRGNCYkNpVHliOFNQajctVFdzU2lsZXM2VVJESThsck9WOTZpZXBUVjBSd0xIX3ZUZzBPZWtDV3VDTHI5Q2FrZmxmV3JDdnkzR3VWRHFMb2tHS1VmRnFXX1VNN21ZMzJFWmlSQ2Y1Nklsb0NlN3FQVTVwekpsbi00M195Mnd0d0ZKblJUNWlVblRZX3VlTDBScVRwMkNXUGlPd2RIdEpUbG82T3ZTM181cFM1X2Rrag",
+          "published_at": "2026-09-29T12:06:52Z",
+          "observed_at": "",
+          "source_id": "reuters",
+          "source_name": "Reuters",
+          "source_domain": "reuters.com",
+          "tier": 4,
+          "official": false,
+          "weight": 4.0,
+          "topic": "ceuta",
+          "classification": "FACT",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_cee01779eec56055",
+          "title": "[Interview] Ceuta crisis shows how EU border outsourcing puts children at risk, says German lawyer",
+          "title_key": "interview ceuta crisis shows how eu border outsourcing puts children at risk says german lawyer",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQVUNCX0ZUc0RyMVlpdHU4LVl6MVJKZFRnazlwV2lUd01UMjE4ZDFrWWlSOC1QOXZVWGd4Um5EamtNNHJuNl9zM3VZcEhhVndsTE5faUs0Y0RHTmx1OGNPckd2SWZxZkpMdGFKODdueFlEbjNoN09SeFNJRGpab1RfMVQtNFFXazVzdXNNWmw4bk1FNzM3VjA5VlVEVVJzdi1tUWRxd0R0UWd3NXdWSUI5RE1iaGI4QXpTa3JKSlF0ZFBnTUdxa2d3ZkZ1U09CSDhmMXQwdEtMaw",
+          "published_at": "2026-09-30T11:10:55Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "ANALYSIS",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 46,
+      "operational_impact": "CONTEXT",
+      "operational_eligible": false
+    },
     {
       "event_id": "evt_6ef7bcb07778b899",
       "topic": "ceuta",
@@ -269,98 +388,6 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_b635c7204bfd976a",
-      "topic": "ceuta",
-      "first_seen": "2026-09-29T12:06:52Z",
-      "last_seen": "2026-09-29T12:06:52Z",
-      "headline": "Brussels seeks to strengthen EU border controls after Ceuta crisis",
-      "classification": "FACT",
-      "verification_status": "SINGLE_SOURCE",
-      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
-      "sources": [
-        {
-          "source_id": "reuters",
-          "source_name": "Reuters",
-          "source_domain": "reuters.com",
-          "tier": 4,
-          "official": false,
-          "weight": 4.0
-        }
-      ],
-      "source_ids": [
-        "reuters"
-      ],
-      "articles": [
-        {
-          "article_id": "art_1b2cf52ef917c653",
-          "title": "Brussels seeks to strengthen EU border controls after Ceuta crisis",
-          "title_key": "brussels seeks to strengthen eu border controls after ceuta crisis",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNzM1WE1JWTZUUGd6YmczOVpzRGNCYkNpVHliOFNQajctVFdzU2lsZXM2VVJESThsck9WOTZpZXBUVjBSd0xIX3ZUZzBPZWtDV3VDTHI5Q2FrZmxmV3JDdnkzR3VWRHFMb2tHS1VmRnFXX1VNN21ZMzJFWmlSQ2Y1Nklsb0NlN3FQVTVwekpsbi00M195Mnd0d0ZKblJUNWlVblRZX3VlTDBScVRwMkNXUGlPd2RIdEpUbG82T3ZTM181cFM1X2Rrag",
-          "published_at": "2026-09-29T12:06:52Z",
-          "observed_at": "",
-          "source_id": "reuters",
-          "source_name": "Reuters",
-          "source_domain": "reuters.com",
-          "tier": 4,
-          "official": false,
-          "weight": 4.0,
-          "topic": "ceuta",
-          "classification": "FACT",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 43,
-      "operational_impact": "CONTEXT",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_602d15f94220c7d3",
-      "topic": "melilla",
-      "first_seen": "2026-09-29T08:41:51Z",
-      "last_seen": "2026-09-29T08:41:51Z",
-      "headline": "Una investigación de la UGR revela las estrategias de supervivencia de las trabajadoras transfronterizas atrapadas entre España y Marruecos",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_392d5207d78a9065",
-          "title": "Una investigación de la UGR revela las estrategias de supervivencia de las trabajadoras transfronterizas atrapadas entre España y Marruecos",
-          "title_key": "una investigacion de la ugr revela las estrategias de supervivencia de las trabajadoras transfronterizas atrapadas entre espana y marruecos",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaDUzMFZPVVFvWnpZRWF0dk9VZGVRcV9lcWYwRzNwSDlSOEp3N3VjUnFFbFJnOHJNUTdkcFk0cmhCX0RxQVVHd2ExMkVkeGpjdXl2TkJuX1RxZW1XTXF2VS1zcnQ5Wm9sR1VabUYzd2huTlhwUzdySFY4cEVhb3NNMEZwNWtNTFY4TVk1V2tqNU9iOWdIU1pmTm0wdmxVRmFVdVkwbA",
-          "published_at": "2026-09-29T08:41:51Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_3cdeb6b3ed3b4b4d",
       "topic": "melilla",
       "first_seen": "2026-09-29T07:45:31Z",
@@ -549,7 +576,7 @@
       "topic": "ceuta",
       "first_seen": "2026-09-28T12:34:35Z",
       "last_seen": "2026-09-28T12:34:35Z",
-      "headline": "Spanish government representative in Ceuta quits over border rush fallout",
+      "headline": "Spanish government representative in Ceuta quits over border rush fallout - reuters.com",
       "classification": "FACT",
       "verification_status": "SINGLE_SOURCE",
       "verification_reason": "Supported by one usable source; independent corroboration is pending.",
@@ -569,7 +596,7 @@
       "articles": [
         {
           "article_id": "art_e2e7923869ec643c",
-          "title": "Spanish government representative in Ceuta quits over border rush fallout",
+          "title": "Spanish government representative in Ceuta quits over border rush fallout - reuters.com",
           "title_key": "spanish government representative in ceuta quits over border rush fallout",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOczJTZVFZTDlIcWtUenJQLW9lT0VuemN2TnBTeHhEcm5xMVBFWWVnZjNfQ0hwbm8ybVA1M2h6YjdjakgteHdUSW5saklaR1BKX1JLM3Q3T1B0OEp2YUU2eHAwRUtaRTlUdHpnckNIVmUxYnRkOElBSVpzb2JTRDhISENMLXMwMkNLa1AyRHJCZlV4XzZ3b1hUMVZzcW5rMzRGcG42Q01XeXc0cnNoUGxqTC1naVNDQ1U2OU84",
           "published_at": "2026-09-28T12:34:35Z",
@@ -642,7 +669,7 @@
       "first_seen": "2026-09-24T01:12:44Z",
       "last_seen": "2026-09-26T20:25:21Z",
       "headline": "Thousands protest government in Madrid over Ceuta migrant crisis - International - World",
-      "classification": "ANALYSIS",
+      "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
       "sources": [
@@ -660,11 +687,11 @@
       ],
       "articles": [
         {
-          "article_id": "art_83083da4c72e2796",
-          "title": "Ceuta Migrant Crisis: What It Means For Spain And The Rest Of The EU – Analysis",
-          "title_key": "ceuta migrant crisis what it means for spain and the rest of the eu analysis",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYnZGSXNReXNGNkFuRk1Xc3BkMHFNNHpyYnd2NDZ2aVZReWVzU081cXZZajlhQktHUHQ1MGdNTjFkQmdiWUxvcGtwVlYwekl1ZmNzRlRHbE1ocU91UXFFdzg5XzlhUEEyWXpXRWdFSmVaQTdIV2xDOEpCRWpVUTBYb2ZSWlJ4ek4xR2lNZFFpWDBQclpZaXZrd3RNYnZLWDQwdEg0TllhdDBtNHgxVlh4U0xhZE56MW8",
-          "published_at": "2026-09-24T01:12:44Z",
+          "article_id": "art_0fd106cfa3e6a72e",
+          "title": "Humanitarian crisis worsens in Ceuta as thousands remain stranded",
+          "title_key": "humanitarian crisis worsens in ceuta as thousands remain stranded",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUVJXQkV4by1ScnpYQzFtd1lGUHkzX3R6aHg2QWVTa0llZXRkeUk5cUlycFdaQTZnVXlxdnpabmNvUEFpenNhQ0VvaFZ6SXZjczZVSHR6WUtLb1ZYUFNoQ183R3Rfb2lUbGV0UTZFUTY0NHFhelVfUURGa2VwRmx6d196UUxDYmxFdUJmb2N3Z1VLbnQ2VFpCT2RnOTNqa1dLWDNnM2lRMWsyd9IBrwFBVV95cUxNV2V4bE9oV2R1Tm42ME9QUFV1LXkwWnFNWFhGZDVqZE91dEdxN3cyZVZVemEtQlUwN2c5VVN1SmlDLTBNQ3RsMVpGQnBxbkdrNTNTNkxBZVRkY1JPV0xxLTBQRU9qTDhsV3I0T0s1Vl9BM2Zta2ZuZ2M3eEExOGI2Zm5IZlZmdTNWWDVOWEJTMG5obUVrZWpkMk5qRGFGZTZFb05Id2dSQU0xOE00NjZF",
+          "published_at": "2026-09-25T11:27:35Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -673,7 +700,7 @@
           "official": false,
           "weight": 1.0,
           "topic": "ceuta",
-          "classification": "ANALYSIS",
+          "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
         },
@@ -714,8 +741,8 @@
           "description": ""
         }
       ],
-      "importance": 17,
-      "operational_impact": "CONTEXT",
+      "importance": 4,
+      "operational_impact": "NONE",
       "operational_eligible": false
     },
     {
@@ -956,52 +983,6 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_3b67c029c7bd1c76",
-      "topic": "ceuta",
-      "first_seen": "2026-09-25T11:27:35Z",
-      "last_seen": "2026-09-25T11:27:35Z",
-      "headline": "Humanitarian crisis worsens in Ceuta as thousands remain stranded",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_0fd106cfa3e6a72e",
-          "title": "Humanitarian crisis worsens in Ceuta as thousands remain stranded",
-          "title_key": "humanitarian crisis worsens in ceuta as thousands remain stranded",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUVJXQkV4by1ScnpYQzFtd1lGUHkzX3R6aHg2QWVTa0llZXRkeUk5cUlycFdaQTZnVXlxdnpabmNvUEFpenNhQ0VvaFZ6SXZjczZVSHR6WUtLb1ZYUFNoQ183R3Rfb2lUbGV0UTZFUTY0NHFhelVfUURGa2VwRmx6d196UUxDYmxFdUJmb2N3Z1VLbnQ2VFpCT2RnOTNqa1dLWDNnM2lRMWsyd9IBrwFBVV95cUxNV2V4bE9oV2R1Tm42ME9QUFV1LXkwWnFNWFhGZDVqZE91dEdxN3cyZVZVemEtQlUwN2c5VVN1SmlDLTBNQ3RsMVpGQnBxbkdrNTNTNkxBZVRkY1JPV0xxLTBQRU9qTDhsV3I0T0s1Vl9BM2Zta2ZuZ2M3eEExOGI2Zm5IZlZmdTNWWDVOWEJTMG5obUVrZWpkMk5qRGFGZTZFb05Id2dSQU0xOE00NjZF",
-          "published_at": "2026-09-25T11:27:35Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_aaf05bdb5420a756",
       "topic": "relations",
       "first_seen": "2026-09-25T11:00:30Z",
@@ -1181,11 +1162,11 @@
       ],
       "articles": [
         {
-          "article_id": "art_0601564ae14d526a",
-          "title": "Marruecos cierra las urnas con una baja participación y la frontera con Ceuta y Melilla blindada",
-          "title_key": "marruecos cierra las urnas con una baja participacion y la frontera con ceuta y melilla blindada",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPN3hFTHVUdkFCQ2dRU0NjT3MwS2NMZHpLWVl2OGsxdi1zR1FNZ2NneFVZczVocHh4Y09PWEotTGFqZlI3X2otWHZ5VWlfUVpVc1RqZUxvNXNJZEJPZy15ZExQbXRYVDNFRDZsTC1kakYzTVItcURxR1RGdWlQUlc5OHNXeTV6UEZndkNocHlleHFCaVFjQ3VvcnZSTmJzVzQtOVNWWWl6THJVYjNDSHVqWlROWnJ4UXBaeVd1bWJ30gHDAUFVX3lxTE1saDlwR2pjYjc0N3BFb2RON2FyWmhGQXVmUHlPSXZ0Rm1tM2ZTWndRRG96a2NyTmt2S3NMa1VZTnE4TWItRkdaWnQtZHBxSDRSUHR2eVZhdmJuaHBfcnA2d0NqWWZfb3JURF95cHVFbEtkZXNCOWpkRmlqUThWVW5GT203UnhGUGhZcFZRZktvcjlTcnhLUVVGR1M2TmwwY0pzcFhqYzhRSEVFb1lvN2VPWkVTZThvbzRaS242MTVubEFoMA",
-          "published_at": "2026-09-23T20:39:00Z",
+          "article_id": "art_7297356fb83992e4",
+          "title": "Melilla mantiene tranquilidad en la frontera tras llamamientos desde Marruecos",
+          "title_key": "melilla mantiene tranquilidad en la frontera tras llamamientos desde marruecos",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRDdqNnZraWFrNkVNVnRZWGl0WHBobjU0bkFiVEFVVDlnOG9YREpBX1U5U0picVExV0tNOUdScmFFeFo3VkdsQnBRT19PWWJMVXpmWmp5SzZMV1N2eTVvZ013alNEd2VDTHRKX0d6VFF3b0xtZ3ZORW1fNGoyVVJ3cjJ6WlFpT2EySWZXaTBsM1ZXanV1bmxuc2VxOGEwWDVTcDJtdkgyMFMwMzVLbTI5d0FnR3REU00xZHJZT05Kd1VtX25FVnZELUJR0gHPAUFVX3lxTE9jZEphN1NOT0FUdWdZV2NKVjhkOEg1cER6R3hpZXo5NzVCb0lHNWZOZ2VlaThMZjdsZTk4TVY2SjEtZkY1em1ic3pfQWpGLWE3TmtjNzRaaTVreGFQeHVMakt4Q0RhTFJfNmEweV8zMi1RODVkYzNuOUV1RGtnenl2b1dNQUdpMEpUWk9jNjhVRXhhaDE5WDlnZGxmbWx0Skl2SUlsMXNVWVhXTnJHSTJFVHRyOUlmdzJBUlhtRzFqNWphREFsTG0xWUF1NlJzNA",
+          "published_at": "2026-09-23T16:03:59Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -1199,11 +1180,11 @@
           "description": ""
         },
         {
-          "article_id": "art_871031f0372107b8",
-          "title": "Sánchez asegura que un \"despliegue importante\" de Marruecos ha evitado un nuevo asalto en Ceuta y Melilla",
-          "title_key": "sanchez asegura que un despliegue importante de marruecos ha evitado un nuevo asalto en ceuta y melilla",
-          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQZWpXRURhZG0wellVckVRNTctX2ozRFc5X195WXFmb2lOR0dST0JXbmdFRlRoRUpOSk5UektMX3RTRllKSzVxeDVSNmZxbEI3dFpHejk1NndxUFg5SHRFUmF4ZHRWNGFYakJ2OGpIU1FoXzlmQkNrbUVNeGVObXlJR1BfMTNTRDVqOXlfVHlwZVNLMzFzQXYzWWFrMVl4ZjdRSk5ILV9FMTMzSXVyMTZvaGgtb0Q5dHZTWjl2Yi1pNWFvc003endsVXRCZ2ZxVHhlNmJCZnYzX3NRRV96d2pzRV9oRGsyREk3emN1SnNqVjBsVGlHVlF6UGJKZ3rSAYICQVVfeXFMUC0yQlVvUDdsQnc5UDZRUFhLV2ZvRF9UelpydjZNcnMtajF5bFJyUmIwZm9TZURzRF9RNHhfNWFFbTYyYl9vYzR2RVFoVFE5VVprd1NZNXNTLW9RNWNfdjltNGhVSWNrRXRLM2pEWFhfaVNZMUNxd2NPcm51RmhpbXlYdjdGLWg2Z01uaEVRRkd5LWxBc0d1N3I5US1zdnplSDZXa1ZHSGM3STRBc1ROdlZEVlBDTWtYT3lsYUpxRHlCMDdjM2s0TDg4bk12Z2lTUDJYNmRsYVkzVTJ1SmZmUzhaUkZ0ak9fcXd0MWtlWTh3bmM1aWpsOFlVWERrMEtPNHZ3",
-          "published_at": "2026-09-23T22:28:30Z",
+          "article_id": "art_0601564ae14d526a",
+          "title": "Marruecos cierra las urnas con una baja participación y la frontera con Ceuta y Melilla blindada",
+          "title_key": "marruecos cierra las urnas con una baja participacion y la frontera con ceuta y melilla blindada",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPN3hFTHVUdkFCQ2dRU0NjT3MwS2NMZHpLWVl2OGsxdi1zR1FNZ2NneFVZczVocHh4Y09PWEotTGFqZlI3X2otWHZ5VWlfUVpVc1RqZUxvNXNJZEJPZy15ZExQbXRYVDNFRDZsTC1kakYzTVItcURxR1RGdWlQUlc5OHNXeTV6UEZndkNocHlleHFCaVFjQ3VvcnZSTmJzVzQtOVNWWWl6THJVYjNDSHVqWlROWnJ4UXBaeVd1bWJ30gHDAUFVX3lxTE1saDlwR2pjYjc0N3BFb2RON2FyWmhGQXVmUHlPSXZ0Rm1tM2ZTWndRRG96a2NyTmt2S3NMa1VZTnE4TWItRkdaWnQtZHBxSDRSUHR2eVZhdmJuaHBfcnA2d0NqWWZfb3JURF95cHVFbEtkZXNCOWpkRmlqUThWVW5GT203UnhGUGhZcFZRZktvcjlTcnhLUVVGR1M2TmwwY0pzcFhqYzhRSEVFb1lvN2VPWkVTZThvbzRaS242MTVubEFoMA",
+          "published_at": "2026-09-23T20:39:00Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -1310,9 +1291,9 @@
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 1,
     "SINGLE_SOURCE": 3,
-    "UNCONFIRMED": 19,
-    "TOTAL": 23
+    "UNCONFIRMED": 18,
+    "TOTAL": 22
   },
   "article_count": 36,
-  "event_count": 23
+  "event_count": 22
 }

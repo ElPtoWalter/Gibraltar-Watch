@@ -3,14 +3,17 @@ name: CI · Fase 1 Gibraltar
 on:
   pull_request:
   push:
-    branches: [main, codex/phase1-closure-gibraltar, phase2a-video-intelligence]
+    branches: [main, codex/phase1-closure-gibraltar, phase2a-video-intelligence, phase2b-voice]
     paths:
       - "**.py"
       - ".github/workflows/**"
       - "source-registry.json"
       - "PHASE2_VIDEO_CONTRACT.md"
       - "PHASE2A_VIDEO_INTELLIGENCE.md"
+      - "PHASE2_VOICE_CONTRACT.md"
+      - "PHASE2B_VOICE.md"
       - "video-rules.json"
+      - "voice-rules.json"
 
 permissions:
   contents: read

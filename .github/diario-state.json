@@ -1,11 +1,11 @@
 {
   "version": 4,
   "latest_entry": {
-    "date": "2026-09-29",
+    "date": "2026-09-30",
     "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
-    "summary": "Selección automática de 7 referencias de 6 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
-    "url": "diario/2026-09-29.html",
-    "material_archive": true,
+    "summary": "Selección automática de 7 referencias de 7 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "url": "diario/actual.html",
+    "material_archive": false,
     "status_snapshot": {
       "maritime_status": {
         "es": "SIN CONFIRMACIÓN RECIENTE",
@@ -27,19 +27,19 @@
     "source_keys": [
       "07683d149d8de03fd3de",
       "1b2cf52ef917c6532cea",
+      "2a9a6b4b03d496417d67",
       "392d5207d78a906560e0",
-      "3c65130f2edac16375cf",
-      "73f34df4d4c3247f5a01",
-      "aec00027777fb5cb1ed7",
-      "e2e7923869ec643c70cf"
+      "4d878b5f94f4cd5f29cd",
+      "6cce449098179a5ae402",
+      "73f34df4d4c3247f5a01"
     ],
-    "published_at": "2026-09-29T16:31+02:00",
-    "updated_at": "2026-09-29T16:31+02:00",
-    "published_rfc822": "Tue, 29 Sep 2026 16:31:00 +0200",
+    "published_at": "2026-09-30T14:34+02:00",
+    "updated_at": "2026-09-30T14:34+02:00",
+    "published_rfc822": "Wed, 30 Sep 2026 14:34:00 +0200",
     "source_count": 7,
-    "fingerprint": "5df622d9b354037a34ec",
+    "fingerprint": "4f714fe2e15d64bb1f62",
     "mode": "full",
-    "significance": 79,
+    "significance": 73,
     "significance_reasons": [
       "actualidad repartida en tres o más ámbitos",
       "volumen informativo relevante",
@@ -47,20 +47,25 @@
     ],
     "indexable": false,
     "editor_engine": "rules",
-    "assistant_status": "no-key",
-    "editor_assistant_status": "no-key",
+    "assistant_status": "gemini-http-503",
+    "editor_assistant_status": "gemini-http-503",
     "editorial_trace": {
       "validator_version": 2,
-      "factual_packet_sha256": "ae28bb613c2a54d8e7654575ec457c2a3e66355453933ae2d58ab8d0371b9bce",
+      "factual_packet_sha256": "be0e1e5af76fba4c4be828930995773b7dc7c583a9d66be10e170d52aa600cc9",
       "provider": "rules",
-      "status": "no-key",
-      "attempts": [],
-      "factual_packet_hash": "ae28bb613c2a54d8e7654575ec457c2a3e66355453933ae2d58ab8d0371b9bce",
+      "status": "gemini-http-503",
+      "attempts": [
+        {
+          "provider": "gemini",
+          "model": "gemini-3.5-flash-lite"
+        }
+      ],
+      "factual_packet_hash": "be0e1e5af76fba4c4be828930995773b7dc7c583a9d66be10e170d52aa600cc9",
       "event_ids": [
         "evt_b635c7204bfd976a",
         "evt_96333dca373b8e5c",
-        "evt_d492849d88c84cb1",
-        "evt_259b1e0a684a3241"
+        "evt_259b1e0a684a3241",
+        "evt_d492849d88c84cb1"
       ],
       "source_ids": [
         "reuters",
@@ -73,26 +78,26 @@
         "CONFLICTING": 0,
         "DECLARATION_ONLY": 1,
         "SINGLE_SOURCE": 3,
-        "UNCONFIRMED": 17,
-        "TOTAL": 21
+        "UNCONFIRMED": 18,
+        "TOTAL": 22
       },
-      "timestamp": "2026-09-29T14:31:04.548248+00:00",
+      "timestamp": "2026-09-30T12:34:33.643925+00:00",
       "fallback_used": true
     },
     "validator_version": 2,
-    "factual_packet_hash": "ae28bb613c2a54d8e7654575ec457c2a3e66355453933ae2d58ab8d0371b9bce",
+    "factual_packet_hash": "be0e1e5af76fba4c4be828930995773b7dc7c583a9d66be10e170d52aa600cc9",
     "event_ids": [
       "evt_b635c7204bfd976a",
       "evt_96333dca373b8e5c",
-      "evt_d492849d88c84cb1",
-      "evt_259b1e0a684a3241"
+      "evt_259b1e0a684a3241",
+      "evt_d492849d88c84cb1"
     ],
     "source_ids": [
       "reuters",
       "rtve",
       "unknown"
     ],
-    "timestamp": "2026-09-29T14:31:04.548248+00:00",
+    "timestamp": "2026-09-30T12:34:33.643925+00:00",
     "fallback_used": true,
     "verification_summary": {
       "CONFIRMED_MULTI_SOURCE": 0,
@@ -100,8 +105,8 @@
       "CONFLICTING": 0,
       "DECLARATION_ONLY": 1,
       "SINGLE_SOURCE": 3,
-      "UNCONFIRMED": 17,
-      "TOTAL": 21
+      "UNCONFIRMED": 18,
+      "TOTAL": 22
     },
     "edition_label": "Cuaderno de las dos orillas",
     "edition_slug": "shores"

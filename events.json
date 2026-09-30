@@ -1,7 +1,99 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-30T08:40:36.936735+00:00",
+  "generated_at": "2026-09-30T13:49:45.048087+00:00",
   "events": [
+    {
+      "event_id": "evt_6ef7bcb07778b899",
+      "topic": "ceuta",
+      "first_seen": "2026-09-30T10:06:46Z",
+      "last_seen": "2026-09-30T10:06:46Z",
+      "headline": "Más salidas tras el desalojo de Benítez: el movimiento continúa desde Ceuta hacia Marruecos",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_286e2ba1b57d8cf9",
+          "title": "Más salidas tras el desalojo de Benítez: el movimiento continúa desde Ceuta hacia Marruecos",
+          "title_key": "mas salidas tras el desalojo de benitez el movimiento continua desde ceuta hacia marruecos",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQMlZ3eENUcGRkMmNJTklyTVFJekx4bGRpYmJVdmNVcmRMeElqZUpUdUFWcEFfZ0hHbzhlVVZfWWJSNUtWVC10R1g0UXZtbUh5c1p1aUNpVGgwMEc2UXJKOGhSMGRZd0tsZmJzVjYxaTU0Wmd4Zy02UjEwSUpocHBkM2dscE9GX05NUG5mLUgyci1DSURJQ1dibldYRC1zR3JVdzc5VGV0eVpIemRXUEhtTVdHMzlQSkdUMkhicDRnbElIcXpteGY4MW5XR2bSAdIBQVVfeXFMTklOTi1Cel81ajNQYWxTZUlsRDlXQ0drQmhDdzhIRGo4VFRiQXpkZ015S19FQm1vejlqeGMtSHlrZ3RqZkp6U29HRUdQMXd4YUs1eDdDU3pTeWlVVGt4cmtkM1BaNG9aN2tVeU5ybXZGQ3lXemduRU1vWmxwNXdfWElQZjdNWXpPTHlnMEZ5RE03ekJ2N3dzR2ZWeFAtdUNIdnNmXzVZV1Y5ZHZRVzRTb1E0dlZlNTBKbEdwS01zN0piUG5tVFZmeG5TRm50amRoa3hR",
+          "published_at": "2026-09-30T10:06:46Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_a86b035b64d16b5e",
+      "topic": "ceuta",
+      "first_seen": "2026-09-30T05:15:01Z",
+      "last_seen": "2026-09-30T05:15:01Z",
+      "headline": "Ceuta, la frontera sur de la UE que Marruecos ha convertido en una crisis de seguridad y migratoria para España",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_8a3f66959dd5de08",
+          "title": "Ceuta, la frontera sur de la UE que Marruecos ha convertido en una crisis de seguridad y migratoria para España",
+          "title_key": "ceuta la frontera sur de la ue que marruecos ha convertido en una crisis de seguridad y migratoria para espana",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNS1NrN2ZwalM3YU5IajZRclZ5R0xzclY3Z2JXeGVmeERIUXBHZXg5bUhxcWdFeGcwYnRCS1NqOURXZ3FGZk83STBZTzliVFppMWJicWtjZWJnVkFDREctb1lYTWp0THNETUQzOU5zdC1tLXBJRzF0bU12eW5CUGtaY09sZ1pzRG01NUI2NDZnV3dUS1l5TUk4UjdkUVdGdFdFN3BMWWIzTi1kWU9mVXJVX25xLUNMWnhGcVcxS0VUZjhiclFRN0hnT25DbEd0NUZCNTFrTndueV9DUzlCcWtqTFVrTTZHSDh0",
+          "published_at": "2026-09-30T05:15:01Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
     {
       "event_id": "evt_97be0a2502c646f9",
       "topic": "melilla",
@@ -545,52 +637,6 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_8e998a1b13ac2a69",
-      "topic": "ceuta",
-      "first_seen": "2026-09-26T22:28:00Z",
-      "last_seen": "2026-09-26T22:28:00Z",
-      "headline": "Vídeos muestran a militares golpeando a migrantes en Ceuta en plena crisis fronteriza",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_bea98c31a810a41e",
-          "title": "Vídeos muestran a militares golpeando a migrantes en Ceuta en plena crisis fronteriza",
-          "title_key": "videos muestran a militares golpeando a migrantes en ceuta en plena crisis fronteriza",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRFFNWXpQUXpNWTlFNWRjbmNQNDlzcVJwQ2s5dVB6UkV2ZE5pWHBCbml2NVdPRDJ5N2tTNzhkbTU5czhyTFJ2TEdKTl9hLUVHQWtsSU5YSU5MeFNpUHpUeG1OM3lETGtTXzg4VW9qcUhpb3F4aEQ3TGJnOGhWNzlqSFN3WThHNjFDMVFaa24zdXY",
-          "published_at": "2026-09-26T22:28:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_e65696cdedc0a4ca",
       "topic": "ceuta",
       "first_seen": "2026-09-24T01:12:44Z",
@@ -628,24 +674,6 @@
           "weight": 1.0,
           "topic": "ceuta",
           "classification": "ANALYSIS",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_1a7750b55695beaa",
-          "title": "Migrant Surge in Spain’s Ceuta Sparks Border Crisis",
-          "title_key": "migrant surge in spain s ceuta sparks border crisis",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBTLUQzWnowUnVwV1BlMjZxenhIMVRhWGRPZGZINGpXVWEyZFFqRk5OaUJ3Q2t1WjUyUnlNQWJWSENCSWJWSlJ5b1NGNU45dw",
-          "published_at": "2026-09-24T09:03:11Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
         },
@@ -1282,9 +1310,9 @@
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 1,
     "SINGLE_SOURCE": 3,
-    "UNCONFIRMED": 18,
-    "TOTAL": 22
+    "UNCONFIRMED": 19,
+    "TOTAL": 23
   },
   "article_count": 36,
-  "event_count": 22
+  "event_count": 23
 }

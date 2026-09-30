@@ -142,7 +142,7 @@ def validate_workflow():
     if re.search(r'^\s*run:\s*python\s+submit_gibraltar_inde\s*$',t,re.M):err('Workflow: ha reaparecido el nombre truncado submit_gibraltar_inde')
     if 'run: python submit_gibraltar_indexnow.py' not in t:err('Workflow: falta submit_gibraltar_indexnow.py')
     idx=t.find('- name: Avisar mediante IndexNow')
-    for x in ['update_gibraltar.py','update_ope.py','update_geopolitics.py','build_events.py','update_observatory.py','validate_gibraltar.py']:
+    for x in ['update_gibraltar.py','update_ope.py','update_geopolitics.py','build_events.py','update_observatory.py','build_publication_manifest.py','validate_gibraltar.py']:
         if x not in t:err(f'Workflow horario: falta etapa {x}')
     for x in ['generate_diario_estrecho.py','update_observatory.py','generate_newsletter.py','build_publication_manifest.py','validate_gibraltar.py']:
         if x not in daily:err(f'Workflow Diario: falta etapa {x}')

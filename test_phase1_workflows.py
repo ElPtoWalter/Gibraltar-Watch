@@ -22,6 +22,12 @@ class PhaseOneWorkflowTests(unittest.TestCase):
         self.assertNotIn("unittest", text)
         self.assertNotIn("build_secure_public_site.py", text)
 
+    def test_hourly_monitor_rebuilds_manifest_before_validation(self):
+        text = workflow("update-gibraltar.yml")
+        self.assertEqual(text.count("python build_publication_manifest.py"), 1)
+        self.assertLess(text.index("python update_observatory.py"), text.index("python build_publication_manifest.py"))
+        self.assertLess(text.index("python build_publication_manifest.py"), text.index("python validate_gibraltar.py"))
+
     def test_daily_newsroom_owns_diary_and_newsletter(self):
         text = workflow("diario-gibraltar.yml")
         self.assertIn("generate_diario_estrecho.py", text)

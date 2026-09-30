@@ -33,6 +33,7 @@ jobs:
           python update_geopolitics.py
           python build_events.py
           python update_observatory.py
+          python build_publication_manifest.py
       - name: Validar salidas críticas
         run: |
           python audit_repository_secrets.py

@@ -6121,5 +6121,52 @@
         "en": "MEDIUM"
       }
     }
+  },
+  {
+    "at": "2026-10-01T23:55:58.632374+00:00",
+    "status": {
+      "maritime_status": {
+        "es": "SIN CONFIRMACIÓN RECIENTE",
+        "en": "NO RECENT CONFIRMATION"
+      },
+      "maritime_note": {
+        "es": "No hay evidencia positiva reciente suficiente para afirmar operatividad; la ausencia de alertas no se trata como prueba.",
+        "en": "There is not enough recent positive evidence to confirm operation; absence of alerts is not treated as proof."
+      },
+      "border_pressure": {
+        "es": "ALTA",
+        "en": "HIGH"
+      },
+      "border_note": {
+        "es": "Varias fuentes describen una crisis fronteriza o humanitaria grave.",
+        "en": "Several sources describe a serious border or humanitarian crisis."
+      },
+      "border_watch": {
+        "last_signal_at": "2026-10-01T19:35:14.928843+00:00",
+        "hold_until": "2026-10-03T19:35:14.928843+00:00",
+        "signal_sources": 0,
+        "hold_hours": 48
+      },
+      "bilateral_tension": {
+        "es": "ESTABLE",
+        "en": "STABLE"
+      },
+      "bilateral_note": {
+        "es": "No se detecta una escalada bilateral clara en las fuentes recientes.",
+        "en": "No clear bilateral escalation is detected in recent sources."
+      },
+      "security_status": {
+        "es": "VIGILANCIA REFORZADA",
+        "en": "REINFORCED MONITORING"
+      },
+      "security_note": {
+        "es": "Las fuentes describen medidas adicionales de seguridad o control.",
+        "en": "Sources describe additional security or control measures."
+      },
+      "confidence": {
+        "es": "MEDIA",
+        "en": "MEDIUM"
+      }
+    }
   }
 ]

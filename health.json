@@ -1,23 +1,23 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-01T19:35:27Z",
+  "generated_at": "2026-10-01T23:56:12Z",
   "overall": "HEALTHY",
   "components": [
     {
       "name": "Sismicidad USGS",
       "state": "fresh",
       "label_es": "ACTUALIZADO",
-      "checked_at": "2026-10-01T19:35:04Z",
+      "checked_at": "2026-10-01T23:55:47Z",
       "age_minutes": 0,
       "source": "USGS Earthquake Catalog",
-      "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-09-01T19%3A35%3A04Z&endtime=2026-10-01T19%3A35%3A04Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
+      "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-09-01T23%3A55%3A47Z&endtime=2026-10-01T23%3A55%3A47Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
       "note_es": "Catálogo sísmico regional; no es una herramienta de predicción."
     },
     {
       "name": "Actualidad y geopolítica",
       "state": "fresh",
       "label_es": "ACTUALIZADO",
-      "checked_at": "2026-10-01T19:35:14.928843+00:00",
+      "checked_at": "2026-10-01T23:55:58.632374+00:00",
       "age_minutes": 0,
       "source": "Monitor editorial de fuentes públicas",
       "url": "fuentes.html",
@@ -28,7 +28,7 @@
       "state": "historical",
       "label_es": "TEMPORADA FINALIZADA",
       "checked_at": "2026-10-01T06:04:39Z",
-      "age_minutes": 810,
+      "age_minutes": 1071,
       "source": "Secretaría General de Protección Civil y Emergencias",
       "url": "https://www.proteccioncivil.es/documents/20121/0/20260815_InformeOPE.pdf",
       "note_es": "Temporada finalizada · últimos datos oficiales archivados.",
@@ -40,7 +40,7 @@
       "state": "fresh",
       "label_es": "ACTUALIZADO",
       "checked_at": "2026-10-01T13:15:00Z",
-      "age_minutes": 380,
+      "age_minutes": 641,
       "source": "Gibraltar Watch",
       "url": "diario/actual.html",
       "note_es": "Última edición publicada"
@@ -49,7 +49,7 @@
       "name": "Integridad del sitio",
       "state": "fresh",
       "label_es": "CORRECTA",
-      "checked_at": "2026-10-01T19:35:27Z",
+      "checked_at": "2026-10-01T23:56:12Z",
       "age_minutes": 0,
       "source": "Validador local",
       "note_es": "Todos los archivos críticos están presentes."
@@ -60,17 +60,17 @@
       "name": "Sismicidad USGS",
       "state": "fresh",
       "label_es": "ACTUALIZADO",
-      "checked_at": "2026-10-01T19:35:04Z",
+      "checked_at": "2026-10-01T23:55:47Z",
       "age_minutes": 0,
       "source": "USGS Earthquake Catalog",
-      "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-09-01T19%3A35%3A04Z&endtime=2026-10-01T19%3A35%3A04Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
+      "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-09-01T23%3A55%3A47Z&endtime=2026-10-01T23%3A55%3A47Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
       "note_es": "Catálogo sísmico regional; no es una herramienta de predicción."
     },
     {
       "name": "Actualidad y geopolítica",
       "state": "fresh",
       "label_es": "ACTUALIZADO",
-      "checked_at": "2026-10-01T19:35:14.928843+00:00",
+      "checked_at": "2026-10-01T23:55:58.632374+00:00",
       "age_minutes": 0,
       "source": "Monitor editorial de fuentes públicas",
       "url": "fuentes.html",
@@ -81,7 +81,7 @@
       "state": "historical",
       "label_es": "TEMPORADA FINALIZADA",
       "checked_at": "2026-10-01T06:04:39Z",
-      "age_minutes": 810,
+      "age_minutes": 1071,
       "source": "Secretaría General de Protección Civil y Emergencias",
       "url": "https://www.proteccioncivil.es/documents/20121/0/20260815_InformeOPE.pdf",
       "note_es": "Temporada finalizada · últimos datos oficiales archivados.",
@@ -93,7 +93,7 @@
       "state": "fresh",
       "label_es": "ACTUALIZADO",
       "checked_at": "2026-10-01T13:15:00Z",
-      "age_minutes": 380,
+      "age_minutes": 641,
       "source": "Gibraltar Watch",
       "url": "diario/actual.html",
       "note_es": "Última edición publicada"
@@ -107,7 +107,7 @@
     "name": "Integridad del sitio",
     "state": "fresh",
     "label_es": "CORRECTA",
-    "checked_at": "2026-10-01T19:35:27Z",
+    "checked_at": "2026-10-01T23:56:12Z",
     "age_minutes": 0,
     "source": "Validador local",
     "note_es": "Todos los archivos críticos están presentes."
@@ -117,9 +117,9 @@
     "separate_from_source_health": true
   },
   "workflow": {
-    "run_id": "36915336497",
+    "run_id": "36943360390",
     "run_attempt": "1",
-    "sha": "4d547aceafd4",
+    "sha": "6a3c8cc8605c",
     "event": "schedule"
   }
 }

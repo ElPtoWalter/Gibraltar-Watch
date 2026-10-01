@@ -1,9 +1,9 @@
 {
   "version": 4,
   "latest_entry": {
-    "date": "2026-09-30",
+    "date": "2026-10-01",
     "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
-    "summary": "Selección automática de 7 referencias de 7 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "summary": "Selección automática de 4 referencias de 4 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
     "url": "diario/actual.html",
     "material_archive": false,
     "status_snapshot": {
@@ -25,46 +25,41 @@
       }
     },
     "source_keys": [
-      "07683d149d8de03fd3de",
-      "1b2cf52ef917c6532cea",
-      "2a9a6b4b03d496417d67",
-      "392d5207d78a906560e0",
-      "4d878b5f94f4cd5f29cd",
-      "6cce449098179a5ae402",
-      "73f34df4d4c3247f5a01"
+      "286e2ba1b57d8cf9ffbe",
+      "8a3f66959dd5de08fc31",
+      "b9662f5cfda74d3fa7da",
+      "cee01779eec56055c364"
     ],
-    "published_at": "2026-09-30T14:34+02:00",
-    "updated_at": "2026-09-30T14:34+02:00",
-    "published_rfc822": "Wed, 30 Sep 2026 14:34:00 +0200",
-    "source_count": 7,
-    "fingerprint": "4f714fe2e15d64bb1f62",
+    "published_at": "2026-10-01T15:15+02:00",
+    "updated_at": "2026-10-01T15:15+02:00",
+    "published_rfc822": "Thu, 01 Oct 2026 15:15:00 +0200",
+    "source_count": 4,
+    "fingerprint": "3c65a484fb244285fa23",
     "mode": "full",
-    "significance": 73,
+    "significance": 50,
     "significance_reasons": [
-      "actualidad repartida en tres o más ámbitos",
-      "volumen informativo relevante",
       "indicadores operativos o geopolíticos fuera de la normalidad"
     ],
     "indexable": false,
-    "editor_engine": "rules",
-    "assistant_status": "gemini-http-503",
-    "editor_assistant_status": "gemini-http-503",
+    "editor_engine": "gemini",
+    "assistant_status": "ok",
+    "editor_assistant_status": "ok",
     "editorial_trace": {
       "validator_version": 2,
-      "factual_packet_sha256": "be0e1e5af76fba4c4be828930995773b7dc7c583a9d66be10e170d52aa600cc9",
-      "provider": "rules",
-      "status": "gemini-http-503",
+      "factual_packet_sha256": "cd8e1d959b7a22fdca379f7aa520d3419e0c8460d66ea8c654d5bc88d67ef321",
+      "provider": "gemini",
+      "status": "ok",
       "attempts": [
         {
           "provider": "gemini",
           "model": "gemini-3.5-flash-lite"
         }
       ],
-      "factual_packet_hash": "be0e1e5af76fba4c4be828930995773b7dc7c583a9d66be10e170d52aa600cc9",
+      "factual_packet_hash": "cd8e1d959b7a22fdca379f7aa520d3419e0c8460d66ea8c654d5bc88d67ef321",
       "event_ids": [
         "evt_b635c7204bfd976a",
+        "evt_f212471824c6ef38",
         "evt_96333dca373b8e5c",
-        "evt_259b1e0a684a3241",
         "evt_d492849d88c84cb1"
       ],
       "source_ids": [
@@ -76,20 +71,20 @@
         "CONFIRMED_MULTI_SOURCE": 0,
         "CONFIRMED_PRIMARY": 0,
         "CONFLICTING": 0,
-        "DECLARATION_ONLY": 1,
-        "SINGLE_SOURCE": 3,
+        "DECLARATION_ONLY": 0,
+        "SINGLE_SOURCE": 4,
         "UNCONFIRMED": 18,
         "TOTAL": 22
       },
-      "timestamp": "2026-09-30T12:34:33.643925+00:00",
-      "fallback_used": true
+      "timestamp": "2026-10-01T13:15:08.680474+00:00",
+      "fallback_used": false
     },
     "validator_version": 2,
-    "factual_packet_hash": "be0e1e5af76fba4c4be828930995773b7dc7c583a9d66be10e170d52aa600cc9",
+    "factual_packet_hash": "cd8e1d959b7a22fdca379f7aa520d3419e0c8460d66ea8c654d5bc88d67ef321",
     "event_ids": [
       "evt_b635c7204bfd976a",
+      "evt_f212471824c6ef38",
       "evt_96333dca373b8e5c",
-      "evt_259b1e0a684a3241",
       "evt_d492849d88c84cb1"
     ],
     "source_ids": [
@@ -97,14 +92,14 @@
       "rtve",
       "unknown"
     ],
-    "timestamp": "2026-09-30T12:34:33.643925+00:00",
-    "fallback_used": true,
+    "timestamp": "2026-10-01T13:15:08.680474+00:00",
+    "fallback_used": false,
     "verification_summary": {
       "CONFIRMED_MULTI_SOURCE": 0,
       "CONFIRMED_PRIMARY": 0,
       "CONFLICTING": 0,
-      "DECLARATION_ONLY": 1,
-      "SINGLE_SOURCE": 3,
+      "DECLARATION_ONLY": 0,
+      "SINGLE_SOURCE": 4,
       "UNCONFIRMED": 18,
       "TOTAL": 22
     },

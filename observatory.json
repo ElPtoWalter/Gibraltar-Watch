@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-01T06:04:51Z",
+  "generated_at": "2026-10-01T13:15:11Z",
   "state": {
     "code": "reinforced_watch",
     "label_es": "VIGILANCIA REFORZADA",
     "color": "orange",
     "severity": 2,
-    "summary_es": "Existen incidencias o tensión apreciable, sin que ello implique por sí solo una interrupción del Estrecho.",
+    "summary_es": "Existen incidencias o tensión apreciable, sin que ello implique por sí solo una interrupción del Estrecho. Parte de las fuentes necesita actualización, por lo que la lectura debe interpretarse con cautela.",
     "layers": {
       "maritime": {
         "value": "SIN CONFIRMACIÓN RECIENTE",
@@ -25,9 +25,12 @@
         "severity": 2
       }
     },
-    "confidence": "MEDIA",
-    "confidence_explanation_es": "Confianza media: la lectura es coherente, pero aún faltan corroboraciones independientes para elevarla.",
-    "sources_pending": [],
+    "confidence": "BAJA",
+    "confidence_explanation_es": "Confianza baja porque necesitan actualización o revisión: Sismicidad USGS, Actualidad y geopolítica. El estado operativo se mantiene separado de la frescura de esas fuentes.",
+    "sources_pending": [
+      "Sismicidad USGS",
+      "Actualidad y geopolítica"
+    ],
     "alert_level": {
       "code": "relevant",
       "label_es": "RELEVANTE",
@@ -35,7 +38,7 @@
     }
   },
   "metrics": {
-    "news_24h": 3,
+    "news_24h": 1,
     "news_sources": 29,
     "seismic_24h": 0,
     "seismic_7d": 0,
@@ -45,8 +48,8 @@
     "ope_passengers_day": 59877,
     "ope_vehicles_day": 15464,
     "ope_rotations_day": 179,
-    "diary_date": "2026-09-30",
-    "diary_source_count": 7
+    "diary_date": "2026-10-01",
+    "diary_source_count": 4
   },
   "anomalies": [],
   "changes": {
@@ -56,32 +59,32 @@
   },
   "since_yesterday": {
     "reference_date": "2026-09-30",
-    "summary_es": "El nivel general se mantiene en VIGILANCIA REFORZADA. El monitor recoge 1 referencias menos en la ventana de 24 horas."
+    "summary_es": "El nivel general se mantiene en VIGILANCIA REFORZADA. El monitor recoge 3 referencias menos en la ventana de 24 horas."
   },
   "health": {
-    "overall": "HEALTHY",
-    "generated_at": "2026-10-01T06:04:51Z"
+    "overall": "DEGRADED",
+    "generated_at": "2026-10-01T13:15:11Z"
   },
   "latest_diary": {
-    "date": "2026-09-30",
+    "date": "2026-10-01",
     "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
-    "summary": "Selección automática de 7 referencias de 7 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
-    "published_at": "2026-09-30T14:34+02:00",
-    "updated_at": "2026-09-30T14:34+02:00",
-    "source_count": 7,
+    "summary": "Selección automática de 4 referencias de 4 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "published_at": "2026-10-01T15:15+02:00",
+    "updated_at": "2026-10-01T15:15+02:00",
+    "source_count": 4,
     "indexable": false,
     "edition_label": "Cuaderno de las dos orillas",
     "edition_slug": "shores",
-    "fingerprint": "4f714fe2e15d64bb1f62",
-    "editor_engine": "rules",
-    "editor_assistant_status": "gemini-http-503",
-    "assistant_status": "gemini-http-503",
+    "fingerprint": "3c65a484fb244285fa23",
+    "editor_engine": "gemini",
+    "editor_assistant_status": "ok",
+    "assistant_status": "ok",
     "validator_version": 2,
-    "factual_packet_hash": "be0e1e5af76fba4c4be828930995773b7dc7c583a9d66be10e170d52aa600cc9",
+    "factual_packet_hash": "cd8e1d959b7a22fdca379f7aa520d3419e0c8460d66ea8c654d5bc88d67ef321",
     "event_ids": [
       "evt_b635c7204bfd976a",
+      "evt_f212471824c6ef38",
       "evt_96333dca373b8e5c",
-      "evt_259b1e0a684a3241",
       "evt_d492849d88c84cb1"
     ],
     "source_ids": [
@@ -89,18 +92,18 @@
       "rtve",
       "unknown"
     ],
-    "timestamp": "2026-09-30T12:34:33.643925+00:00",
-    "fallback_used": true,
+    "timestamp": "2026-10-01T13:15:08.680474+00:00",
+    "fallback_used": false,
     "verification_summary": {
       "CONFIRMED_MULTI_SOURCE": 0,
       "CONFIRMED_PRIMARY": 0,
       "CONFLICTING": 0,
-      "DECLARATION_ONLY": 1,
-      "SINGLE_SOURCE": 3,
+      "DECLARATION_ONLY": 0,
+      "SINGLE_SOURCE": 4,
       "UNCONFIRMED": 18,
       "TOTAL": 22
     },
-    "date_label": "2026-09-30",
+    "date_label": "2026-10-01",
     "slug": "actual.html"
   },
   "latest_ope": {

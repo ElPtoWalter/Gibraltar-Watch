@@ -1,23 +1,23 @@
 {
-  "date": "2026-09-30",
+  "date": "2026-10-01",
   "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
-  "summary": "Selección automática de 7 referencias de 7 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
-  "published_at": "2026-09-30T14:34+02:00",
-  "updated_at": "2026-09-30T14:34+02:00",
-  "source_count": 7,
+  "summary": "Selección automática de 4 referencias de 4 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+  "published_at": "2026-10-01T15:15+02:00",
+  "updated_at": "2026-10-01T15:15+02:00",
+  "source_count": 4,
   "indexable": false,
   "edition_label": "Cuaderno de las dos orillas",
   "edition_slug": "shores",
-  "fingerprint": "4f714fe2e15d64bb1f62",
-  "editor_engine": "rules",
-  "editor_assistant_status": "gemini-http-503",
-  "assistant_status": "gemini-http-503",
+  "fingerprint": "3c65a484fb244285fa23",
+  "editor_engine": "gemini",
+  "editor_assistant_status": "ok",
+  "assistant_status": "ok",
   "validator_version": 2,
-  "factual_packet_hash": "be0e1e5af76fba4c4be828930995773b7dc7c583a9d66be10e170d52aa600cc9",
+  "factual_packet_hash": "cd8e1d959b7a22fdca379f7aa520d3419e0c8460d66ea8c654d5bc88d67ef321",
   "event_ids": [
     "evt_b635c7204bfd976a",
+    "evt_f212471824c6ef38",
     "evt_96333dca373b8e5c",
-    "evt_259b1e0a684a3241",
     "evt_d492849d88c84cb1"
   ],
   "source_ids": [
@@ -25,17 +25,17 @@
     "rtve",
     "unknown"
   ],
-  "timestamp": "2026-09-30T12:34:33.643925+00:00",
-  "fallback_used": true,
+  "timestamp": "2026-10-01T13:15:08.680474+00:00",
+  "fallback_used": false,
   "verification_summary": {
     "CONFIRMED_MULTI_SOURCE": 0,
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
-    "DECLARATION_ONLY": 1,
-    "SINGLE_SOURCE": 3,
+    "DECLARATION_ONLY": 0,
+    "SINGLE_SOURCE": 4,
     "UNCONFIRMED": 18,
     "TOTAL": 22
   },
-  "date_label": "2026-09-30",
+  "date_label": "2026-10-01",
   "slug": "actual.html"
 }

@@ -1,45 +1,42 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-02T12:35:01Z",
+  "generated_at": "2026-10-02T12:46:00Z",
   "state": {
-    "code": "reinforced_watch",
-    "label_es": "VIGILANCIA REFORZADA",
-    "color": "orange",
-    "severity": 2,
-    "summary_es": "Existen incidencias o tensión apreciable, sin que ello implique por sí solo una interrupción del Estrecho. Parte de las fuentes necesita actualización, por lo que la lectura debe interpretarse con cautela.",
+    "code": "watch",
+    "label_es": "VIGILANCIA",
+    "color": "yellow",
+    "severity": 1,
+    "summary_es": "La situación requiere seguimiento, pero no aparecen señales suficientes para elevar el nivel operativo.",
     "layers": {
       "maritime": {
         "value": "SIN CONFIRMACIÓN RECIENTE",
         "severity": 1
       },
       "border": {
-        "value": "ALTA",
-        "severity": 2
+        "value": "VIGILANCIA PREVENTIVA",
+        "severity": 1
       },
       "bilateral": {
         "value": "ESTABLE",
         "severity": 0
       },
       "security": {
-        "value": "VIGILANCIA REFORZADA",
-        "severity": 2
+        "value": "SIN ALERTA ESPECÍFICA",
+        "severity": 0
       }
     },
     "confidence": "BAJA",
-    "confidence_explanation_es": "Confianza baja porque necesitan actualización o revisión: Sismicidad USGS, Actualidad y geopolítica. El estado operativo se mantiene separado de la frescura de esas fuentes.",
-    "sources_pending": [
-      "Sismicidad USGS",
-      "Actualidad y geopolítica"
-    ],
+    "confidence_explanation_es": "Confianza baja: la información disponible no permite una corroboración reciente suficiente.",
+    "sources_pending": [],
     "alert_level": {
-      "code": "relevant",
-      "label_es": "RELEVANTE",
-      "meaning_es": "Hay una alteración apreciable, sin implicar cierre del corredor."
+      "code": "informational",
+      "label_es": "INFORMATIVO",
+      "meaning_es": "Seguimiento ordinario o cambio menor."
     }
   },
   "metrics": {
-    "news_24h": 4,
-    "news_sources": 27,
+    "news_24h": 3,
+    "news_sources": 29,
     "seismic_24h": 0,
     "seismic_7d": 0,
     "seismic_30d": 0,
@@ -53,17 +50,28 @@
   },
   "anomalies": [],
   "changes": {
-    "state_changed": false,
+    "state_changed": true,
     "previous_state_code": "reinforced_watch",
-    "layer_changes": []
+    "layer_changes": [
+      {
+        "key": "border",
+        "previous": "ALTA",
+        "current": "VIGILANCIA PREVENTIVA"
+      },
+      {
+        "key": "security",
+        "previous": "VIGILANCIA REFORZADA",
+        "current": "SIN ALERTA ESPECÍFICA"
+      }
+    ]
   },
   "since_yesterday": {
     "reference_date": "2026-10-01",
-    "summary_es": "El nivel general se mantiene en VIGILANCIA REFORZADA. El monitor recoge 4 referencias menos en la ventana de 24 horas."
+    "summary_es": "El nivel general pasa de VIGILANCIA REFORZADA a VIGILANCIA. El monitor recoge 5 referencias menos en la ventana de 24 horas."
   },
   "health": {
-    "overall": "DEGRADED",
-    "generated_at": "2026-10-02T12:35:01Z"
+    "overall": "HEALTHY",
+    "generated_at": "2026-10-02T12:46:00Z"
   },
   "latest_diary": {
     "date": "2026-10-02",

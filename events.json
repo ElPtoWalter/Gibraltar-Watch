@@ -1,96 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T18:28:38.266380+00:00",
+  "generated_at": "2026-10-02T23:01:30.800706+00:00",
   "events": [
-    {
-      "event_id": "evt_5e66f3bf9d68b547",
-      "topic": "relations",
-      "first_seen": "2026-10-01T09:40:04Z",
-      "last_seen": "2026-10-02T08:39:16Z",
-      "headline": "La prensa de Marruecos asegura que la visita de los Reyes a Ceuta y Melilla \"vuelve a poner a prueba la cuestión de los dos enclaves marroquíes ocupados\"",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_cc470ba8abefbec4",
-          "title": "La prensa de Marruecos asegura que la visita de los Reyes a Ceuta y Melilla \"vuelve a poner a prueba la cuestión de los dos enclaves marroquíes ocupados\"",
-          "title_key": "la prensa de marruecos asegura que la visita de los reyes a ceuta y melilla vuelve a poner a prueba la cuestion de los dos enclaves marroquies ocupados",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRVZtZVExM0ZvSTZCTmhBTHpJTEF1YXVrTGdyaDJwVnhnMFBEckNaaTVaMXVLdno2bkdTS0JvV1c0TWtvOG5oVWxORllzSWdELThDcElSRUpJVUdjZGR3QWhmVVVVdUx2RENXSGhSSU1YSG9lVkplOVJhVENOSlFvNm1fZkVjNjZSODVPT1B5YVItTXlGckItX0hYU0tUTUI4b18xZjNGdVRhN2JIRUx0cG1jMkRFSklzc0HSAb8BQVVfeXFMTnpzcnI2QkJZX1dURVBTc1hxRnJWR3UyZjJyWGU0NmhLbngwMUJJdFNYZjFISld2eUloOFFONzE4VGg0WldTYmhsVndGSG96NnhHX0pPejYya1ZzQ2Nid282cmFOMTZhd0J4R0Q1UGtpcHR3NlFtS0ROa2g1ODFxTHN3SGZYSndfVUdGdUxPa29FdUw0d3B4T2h1S2syUEpMRWYzNHgtYkhOT0Y2bmhublVPSHRlSDUtRWZRN3NJMEE",
-          "published_at": "2026-10-01T09:40:04Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_a8f8e9d2a02e88b6",
-          "title": "Las entretelas: qué implicaciones tiene el viaje real a Ceuta y Melilla en la relación con Marruecos",
-          "title_key": "las entretelas que implicaciones tiene el viaje real a ceuta y melilla en la relacion con marruecos",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMUJsa1NxN2hlTDhmcEpsVU5LQ2p3eVpPX19ja0VqMkxITzVncHdWZV8wenJMeERqYU5pWXZCM2JrZjRlN1NqTkZhZVdNSWQ1SXNILUgyX3BkWnlXdVRiREdWMmlxOGVFVi00TWNqU2thdXkxSzA3SExaU3pGQXZKRmhQNGlPbXg4bDhrd24yNXBmMUN1eXpVYkI2NDdzcXpjZE51TmRUTUI0dWFzM0d0bVVuRGZldi11RXFjMmc4dFhMZ9IB1gFBVV95cUxQOUdDRlVnMnI5RXNiclNKUHMwMGM3MkFZV2dlbzlyOEU1cE1tQ3JqWWN0MVMxMGNWMmtVa19SVTM3VldReWd3bmJlRXNKbUJKNWpOZFJtdVpfbC16cEhXR1ZOWk81cHREOUlwdTJpSGJ0VHE0WWtuZmFjOVZtYUVvcHRDcFhkSGxzb3lwTVRpNGVHU21Zc0M4VFo3eTNqU1NsakRYSFU4WTFuakNsb2hGMkNRd2I1cHd4aHBTUDZ4YW1CT0R2RFMzWWpfUVVoT1J2NFF5Z2N3",
-          "published_at": "2026-10-01T11:58:31Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_91dcd8780fc7d279",
-          "title": "Prensa marroquí: críticas a la visita de los Reyes a Ceuta",
-          "title_key": "prensa marroqui criticas a la visita de los reyes a ceuta",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPOWkya0s4UTFRMXNrY3RSckpLZHoteEZRNDQ2eTRwUFRLWTZ6b2FFQW5PeDVTbVRvSzh5cDBya2RIMEk3dVFZZjN4SmljTWFmS05UZC16VzF1UlNmWldXMjdNUmQ5R3Fra2Y0Q3c1SWh2dnJLY3FuMHJ5TDV3ekZjYWVpTE1UaGwzeld2RTJjeVN6cEpWS3RfQzdwN1FkZGpNZUFvX1JjUmJiblBPRmlJaWRINDRXMi1Rc2pqYm5XaUc3ODh6Vk1SWXY4VWdpaU40YVNxTNIB1AFBVV95cUxPOWkya0s4UTFRMXNrY3RSckpLZHoteEZRNDQ2eTRwUFRLWTZ6b2FFQW5PeDVTbVRvSzh5cDBya2RIMEk3dVFZZjN4SmljTWFmS05UZC16VzF1UlNmWldXMjdNUmQ5R3Fra2Y0Q3c1SWh2dnJLY3FuMHJ5TDV3ekZjYWVpTE1UaGwzeld2RTJjeVN6cEpWS3RfQzdwN1FkZGpNZUFvX1JjUmJiblBPRmlJaWRINDRXMi1Rc2pqYm5XaUc3ODh6Vk1SWXY4VWdpaU40YVNxTA",
-          "published_at": "2026-10-02T08:39:16Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
     {
       "event_id": "evt_7935367e3f043ff2",
       "topic": "relations",
       "first_seen": "2026-10-01T12:32:39Z",
-      "last_seen": "2026-10-01T16:55:00Z",
-      "headline": "Morocco stays silent as Spain prepares royal visit to Ceuta and Melilla",
-      "classification": "UNCONFIRMED",
+      "last_seen": "2026-10-02T21:51:57Z",
+      "headline": "Will King Felipe VI’s visit to Ceuta and Melilla test the partnership between Morocco and Spain?",
+      "classification": "ANALYSIS",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
       "sources": [
@@ -142,10 +60,155 @@
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
+        },
+        {
+          "article_id": "art_3b72a141b1c6f383",
+          "title": "Will King Felipe VI’s visit to Ceuta and Melilla test the partnership between Morocco and Spain?",
+          "title_key": "will king felipe vi s visit to ceuta and melilla test the partnership between morocco and spain",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTGxPajdJMTRkdWJrYndKZFRnOUp4SmQ3SFhQV0VsTi16LVM4ME5mblRlbzRfNnFRWnIxRnh0Rkd2M1B6ZkhUOUhLeDVLRFFoRHh5cmN6aDhURk9TNVdHbWhuNGd2ZXJLbTdBYmpaS0c3ZklBMk9mNV8yOS1lekx0OXlMQ05OYzg",
+          "published_at": "2026-10-02T21:51:57Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "ANALYSIS",
+          "signal": "",
+          "description": ""
         }
       ],
-      "importance": 4,
-      "operational_impact": "NONE",
+      "importance": 17,
+      "operational_impact": "CONTEXT",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_5e66f3bf9d68b547",
+      "topic": "relations",
+      "first_seen": "2026-10-01T09:40:04Z",
+      "last_seen": "2026-10-02T08:39:16Z",
+      "headline": "La Casa Real subraya con la visita a Ceuta y Melilla que España es la “puerta de entrada” de Marruecos en Europa",
+      "classification": "FACT",
+      "verification_status": "SINGLE_SOURCE",
+      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
+      "sources": [
+        {
+          "source_id": "elpais",
+          "source_name": "El País",
+          "source_domain": "elpais.com",
+          "tier": 3,
+          "official": false,
+          "weight": 3.0
+        },
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "elpais",
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_cc470ba8abefbec4",
+          "title": "La prensa de Marruecos asegura que la visita de los Reyes a Ceuta y Melilla \"vuelve a poner a prueba la cuestión de los dos enclaves marroquíes ocupados\"",
+          "title_key": "la prensa de marruecos asegura que la visita de los reyes a ceuta y melilla vuelve a poner a prueba la cuestion de los dos enclaves marroquies ocupados",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRVZtZVExM0ZvSTZCTmhBTHpJTEF1YXVrTGdyaDJwVnhnMFBEckNaaTVaMXVLdno2bkdTS0JvV1c0TWtvOG5oVWxORllzSWdELThDcElSRUpJVUdjZGR3QWhmVVVVdUx2RENXSGhSSU1YSG9lVkplOVJhVENOSlFvNm1fZkVjNjZSODVPT1B5YVItTXlGckItX0hYU0tUTUI4b18xZjNGdVRhN2JIRUx0cG1jMkRFSklzc0HSAb8BQVVfeXFMTnpzcnI2QkJZX1dURVBTc1hxRnJWR3UyZjJyWGU0NmhLbngwMUJJdFNYZjFISld2eUloOFFONzE4VGg0WldTYmhsVndGSG96NnhHX0pPejYya1ZzQ2Nid282cmFOMTZhd0J4R0Q1UGtpcHR3NlFtS0ROa2g1ODFxTHN3SGZYSndfVUdGdUxPa29FdUw0d3B4T2h1S2syUEpMRWYzNHgtYkhOT0Y2bmhublVPSHRlSDUtRWZRN3NJMEE",
+          "published_at": "2026-10-01T09:40:04Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_a8f8e9d2a02e88b6",
+          "title": "Las entretelas: qué implicaciones tiene el viaje real a Ceuta y Melilla en la relación con Marruecos",
+          "title_key": "las entretelas que implicaciones tiene el viaje real a ceuta y melilla en la relacion con marruecos",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMUJsa1NxN2hlTDhmcEpsVU5LQ2p3eVpPX19ja0VqMkxITzVncHdWZV8wenJMeERqYU5pWXZCM2JrZjRlN1NqTkZhZVdNSWQ1SXNILUgyX3BkWnlXdVRiREdWMmlxOGVFVi00TWNqU2thdXkxSzA3SExaU3pGQXZKRmhQNGlPbXg4bDhrd24yNXBmMUN1eXpVYkI2NDdzcXpjZE51TmRUTUI0dWFzM0d0bVVuRGZldi11RXFjMmc4dFhMZ9IB1gFBVV95cUxQOUdDRlVnMnI5RXNiclNKUHMwMGM3MkFZV2dlbzlyOEU1cE1tQ3JqWWN0MVMxMGNWMmtVa19SVTM3VldReWd3bmJlRXNKbUJKNWpOZFJtdVpfbC16cEhXR1ZOWk81cHREOUlwdTJpSGJ0VHE0WWtuZmFjOVZtYUVvcHRDcFhkSGxzb3lwTVRpNGVHU21Zc0M4VFo3eTNqU1NsakRYSFU4WTFuakNsb2hGMkNRd2I1cHd4aHBTUDZ4YW1CT0R2RFMzWWpfUVVoT1J2NFF5Z2N3",
+          "published_at": "2026-10-01T11:58:31Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_7d85a1fc14d0aa4d",
+          "title": "La Casa Real subraya con la visita a Ceuta y Melilla que España es la “puerta de entrada” de Marruecos en Europa",
+          "title_key": "la casa real subraya con la visita a ceuta y melilla que espana es la puerta de entrada de marruecos en europa",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOd2pTT0I4UTBILXZMWVd0YkhYMVNhc1dnT3hpaktZUm9JbHhMYnJ3MW11X3NJTy0yUXhzQU5ZVmg3Q3c0YWsyS0wtQ2YtVHU5VGhhRUI3QTl5MFd2YlZBWnZ5NVpwMjVydzNLUmRCTmhnWGJRWUhRSGo3NlVFWWNyXzNnQndXU1A5dGswd3BQTTFYa291QWZ5TFJPOUZzRUVvTFFaMktTZFBDNlJ3cGJmSkhMRWxmM0dQd2p5ci1zdHV2TUR2UEI1UU1EWXY4Vjl3aDNLTWt6MnEtRlFMZDF4d1ZpanVsYjDSAfsBQVVfeXFMTmlNZllGeGtWNzNOaXdjWWthNy14S0s2UkxqTDhIRzZ1Zjl6R0RQQTZmNnBwMVE1aEh4Sk1GOXhhMFJKd2dBTkItTWZzOEZzNDNQd3BjeUlTUmNQd2h5WFpZeTV4c0ZWWmZwdVNfMmR0SDJuS3hqTXp2MHNtSWJOaWtuRC1kTXdDRDc2MjMzaXp0Wi1QUm9BSGh6RmphYm9BdksxRkhlYnpwcWZpZFRTZFNuZGxtMzN2MDF0UTdwS1o4UWF0UDZCazRuQ25SRjBtVk13RU02Q1lab1poUTdUX09VX2lQTzN6UGdCZm1Wc3MxVDYwTE1lTGhPZlE",
+          "published_at": "2026-10-01T17:33:52Z",
+          "observed_at": "",
+          "source_id": "elpais",
+          "source_name": "El País",
+          "source_domain": "elpais.com",
+          "tier": 3,
+          "official": false,
+          "weight": 3.0,
+          "topic": "relations",
+          "classification": "FACT",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_0c2f3d1f16d81df8",
+          "title": "Marruecos guarda silencio oficial tras el anuncio de la visita de los Reyes a Ceuta y Melilla",
+          "title_key": "marruecos guarda silencio oficial tras el anuncio de la visita de los reyes a ceuta y melilla",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQVTY1VHRZTVhlYXotQkV4aEpadmR4V3ZXZFZVNEF3OG4zTUxGbHFEMVc4YjZoekYyeDdZLXY3S0NIWkQwTEFkTDZaN2tTWU1UNDJtX2hCaEdCUW1RNXFzSmpDWFR6QjNOS0tPdy1oSjYyZFFHSXA1dnZoa3BpeFhHUGxhbDIzUkdPNWlRb29hREVyOE83TjFzSEhEbkZONmJ2R0NscUl6YkxYVU9QYy1wX1pkbUxQc2N0TzdJck9wUVZmZ05EYUF5eEZ5bGHSAeABQVVfeXFMT3FONkN0LTdqek5ZcE91bGZOWDRkQmlhYzR0Um5CN0JOQUNpNHV1NFlvNVhsamFnWnpob1JYNHVNRWxwN3NkV1ZBRHRCVU1jWDlIel9nVFlZTF9pNElYeHVFR3lVRExXQjBQZlhkbFdoeTFzU0hWTkFiNlNLYlJSNjdrQ3ZnNzBnVHRhcUdJSDhWRF95Si1YTDlBNEFmb3pyUTFpdGNSd3FGa3BHX1ViNEhXTkFIOEI5OTloY1Y1UFlScnNJY2FNeVpmb1RXTVBNOXdlMFhDZmRLNFRmWUp2VWg",
+          "published_at": "2026-10-02T03:30:01Z",
+          "observed_at": "",
+          "source_id": "elpais",
+          "source_name": "El País",
+          "source_domain": "elpais.com",
+          "tier": 3,
+          "official": false,
+          "weight": 3.0,
+          "topic": "relations",
+          "classification": "FACT",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_91dcd8780fc7d279",
+          "title": "Prensa marroquí: críticas a la visita de los Reyes a Ceuta",
+          "title_key": "prensa marroqui criticas a la visita de los reyes a ceuta",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPOWkya0s4UTFRMXNrY3RSckpLZHoteEZRNDQ2eTRwUFRLWTZ6b2FFQW5PeDVTbVRvSzh5cDBya2RIMEk3dVFZZjN4SmljTWFmS05UZC16VzF1UlNmWldXMjdNUmQ5R3Fra2Y0Q3c1SWh2dnJLY3FuMHJ5TDV3ekZjYWVpTE1UaGwzeld2RTJjeVN6cEpWS3RfQzdwN1FkZGpNZUFvX1JjUmJiblBPRmlJaWRINDRXMi1Rc2pqYm5XaUc3ODh6Vk1SWXY4VWdpaU40YVNxTNIB1AFBVV95cUxPOWkya0s4UTFRMXNrY3RSckpLZHoteEZRNDQ2eTRwUFRLWTZ6b2FFQW5PeDVTbVRvSzh5cDBya2RIMEk3dVFZZjN4SmljTWFmS05UZC16VzF1UlNmWldXMjdNUmQ5R3Fra2Y0Q3c1SWh2dnJLY3FuMHJ5TDV3ekZjYWVpTE1UaGwzeld2RTJjeVN6cEpWS3RfQzdwN1FkZGpNZUFvX1JjUmJiblBPRmlJaWRINDRXMi1Rc2pqYm5XaUc3ODh6Vk1SWXY4VWdpaU40YVNxTA",
+          "published_at": "2026-10-02T08:39:16Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 46,
+      "operational_impact": "CONTEXT",
       "operational_eligible": false
     },
     {
@@ -616,52 +679,6 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_a6fdc880c8bbbe2a",
-      "topic": "melilla",
-      "first_seen": "2026-09-29T05:05:01Z",
-      "last_seen": "2026-09-29T05:05:01Z",
-      "headline": "Guerra híbrida en la frontera: Bielorrusia sí, Marruecos no",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_3c65130f2edac163",
-          "title": "Guerra híbrida en la frontera: Bielorrusia sí, Marruecos no",
-          "title_key": "guerra hibrida en la frontera bielorrusia si marruecos no",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZzNJQ1BHTUxFQXlheW5uU1dvTVdzbXQwandSelo5QVc2ZVNheS1Cak4xU1VadHhtUjNDTVpqemk2ODN2OGZXOHA0XzlWaV9oei10VWY1dHV0UDdIXy1vaUtjVG55cE0zWnp3ZUVneHNxWFZ3ZUJfR3p3OENZQ2xSZWJXMVV6dThMUzZKUHdjcS16RUJDeFM5dFdB",
-          "published_at": "2026-09-29T05:05:01Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_72d2468fd27ecc99",
       "topic": "ceuta",
       "first_seen": "2026-09-28T23:39:24Z",
@@ -705,6 +722,52 @@
       ],
       "importance": 4,
       "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_96333dca373b8e5c",
+      "topic": "ceuta",
+      "first_seen": "2026-09-28T12:34:35Z",
+      "last_seen": "2026-09-28T12:34:35Z",
+      "headline": "Spanish government representative in Ceuta quits over border rush fallout",
+      "classification": "FACT",
+      "verification_status": "SINGLE_SOURCE",
+      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
+      "sources": [
+        {
+          "source_id": "reuters",
+          "source_name": "Reuters",
+          "source_domain": "reuters.com",
+          "tier": 4,
+          "official": false,
+          "weight": 4.0
+        }
+      ],
+      "source_ids": [
+        "reuters"
+      ],
+      "articles": [
+        {
+          "article_id": "art_e2e7923869ec643c",
+          "title": "Spanish government representative in Ceuta quits over border rush fallout",
+          "title_key": "spanish government representative in ceuta quits over border rush fallout",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOczJTZVFZTDlIcWtUenJQLW9lT0VuemN2TnBTeHhEcm5xMVBFWWVnZjNfQ0hwbm8ybVA1M2h6YjdjakgteHdUSW5saklaR1BKX1JLM3Q3T1B0OEp2YUU2eHAwRUtaRTlUdHpnckNIVmUxYnRkOElBSVpzb2JTRDhISENMLXMwMkNLa1AyRHJCZlV4XzZ3b1hUMVZzcW5rMzRGcG42Q01XeXc0cnNoUGxqTC1naVNDQ1U2OU84",
+          "published_at": "2026-09-28T12:34:35Z",
+          "observed_at": "",
+          "source_id": "reuters",
+          "source_name": "Reuters",
+          "source_domain": "reuters.com",
+          "tier": 4,
+          "official": false,
+          "weight": 4.0,
+          "topic": "ceuta",
+          "classification": "FACT",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 43,
+      "operational_impact": "CONTEXT",
       "operational_eligible": false
     },
     {
@@ -1145,116 +1208,6 @@
       "importance": 4,
       "operational_impact": "NONE",
       "operational_eligible": false
-    },
-    {
-      "event_id": "evt_0460eabb189461fa",
-      "topic": "melilla",
-      "first_seen": "2026-09-23T20:39:00Z",
-      "last_seen": "2026-09-24T08:30:00Z",
-      "headline": "Si le preguntamos a Marruecos, la soberanía de Ceuta y Melilla está en disputa. Si le preguntamos a Google... también",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_0601564ae14d526a",
-          "title": "Marruecos cierra las urnas con una baja participación y la frontera con Ceuta y Melilla blindada",
-          "title_key": "marruecos cierra las urnas con una baja participacion y la frontera con ceuta y melilla blindada",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPN3hFTHVUdkFCQ2dRU0NjT3MwS2NMZHpLWVl2OGsxdi1zR1FNZ2NneFVZczVocHh4Y09PWEotTGFqZlI3X2otWHZ5VWlfUVpVc1RqZUxvNXNJZEJPZy15ZExQbXRYVDNFRDZsTC1kakYzTVItcURxR1RGdWlQUlc5OHNXeTV6UEZndkNocHlleHFCaVFjQ3VvcnZSTmJzVzQtOVNWWWl6THJVYjNDSHVqWlROWnJ4UXBaeVd1bWJ30gHDAUFVX3lxTE1saDlwR2pjYjc0N3BFb2RON2FyWmhGQXVmUHlPSXZ0Rm1tM2ZTWndRRG96a2NyTmt2S3NMa1VZTnE4TWItRkdaWnQtZHBxSDRSUHR2eVZhdmJuaHBfcnA2d0NqWWZfb3JURF95cHVFbEtkZXNCOWpkRmlqUThWVW5GT203UnhGUGhZcFZRZktvcjlTcnhLUVVGR1M2TmwwY0pzcFhqYzhRSEVFb1lvN2VPWkVTZThvbzRaS242MTVubEFoMA",
-          "published_at": "2026-09-23T20:39:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_3c48e4ce5b7805f7",
-          "title": "Si le preguntamos a Marruecos, la soberanía de Ceuta y Melilla está en disputa. Si le preguntamos a Google... también",
-          "title_key": "si le preguntamos a marruecos la soberania de ceuta y melilla esta en disputa si le preguntamos a google tambien",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQVVld29JbXEtbV9VZEdLYXI3c09uemVCUlJHaktMbWZ4V1pfOGNBZzFpS0w5Q2x3NC10enJIc0Frd3RoS2J6X010NTZoRm1MaF9VLTE4eE9yQ0hPTDdwUk9HSWk3dkxRblM2TUNWTTlVTktTcGhPMEdfdVhWeVNrd29RQ0ZsLTViQXNUTTlJRTg5TGxwTUlUN0VoUGV6aktXclBOVC1hOGNUZzAwd0HSAbMBQVVfeXFMTmpBQzdEdWZ3a0gyX2JkUVZFcHVBQy1EZHZVWVhXZXROV0pBT0dzVHR1bU5yT3dQMGhpTHdzdERhektTNEpheVppQTBnZzVvWlpPWTRTLXc1V0kzc1czeUpaNU9ra2Fwb3ZRTHZPVTNRd3ZjeUFHcWlDYjhSRlp6ajRKenRMcmZFemxHWjItSXNKWEMyS1BRZm0zcVIzNnRtZHZ1cU1oY19oZUNIeFlxTWtVNjA",
-          "published_at": "2026-09-24T08:30:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_d2cf7ea7e385560b",
-      "topic": "ceuta",
-      "first_seen": "2026-09-23T19:41:20Z",
-      "last_seen": "2026-09-23T19:41:20Z",
-      "headline": "Sánchez pide reforzar la frontera a Marruecos y aplaude su “despliegue muy importante” ante las últimas alertas en Ceuta y Melilla",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_c1955aea2e1fec87",
-          "title": "Sánchez pide reforzar la frontera a Marruecos y aplaude su “despliegue muy importante” ante las últimas alertas en Ceuta y Melilla",
-          "title_key": "sanchez pide reforzar la frontera a marruecos y aplaude su despliegue muy importante ante las ultimas alertas en ceuta y melilla",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPOWY2RFJseDJDMXhUeUtTZ1FGSWNvd3pFT3lYSldObDZZLVZvY25iMGxhM2t4TWdqaVpjTWhuUFg3cUdWOWhzR1ZpdE5NTERnQk5aOE5RV3RaUVZRTlo5TmltZmtnT24zd2c5WWIxYmgxTGo5TDB6SFRIWWcxZ1BRSVhXUk5uVnNhaURSN3RYY1BSOXZlZkxTOVJ1WnBlSFA1Z1BnRdIBpAFBVV95cUxOZVg3eXdXZW1udjVDLTNQQ3pzYjQ5ZXg3MVVLek1yTkZLSTM0RU54NU04d2xGaFZmTFJTVmtSYzEwU0tGaTg5ekFjelM4TUtmX1k2c1dVVzZZR1BGN0ZpZVUzUTVKWU1ON1NWSUVfSGZmMjE3UFNrbUxMc04xUTdQMWhMZmhJVTV4dWY2aXREVkIwRG9GbW5udkpTX3BENnZhUjE2Tg",
-          "published_at": "2026-09-23T19:41:20Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
     }
   ],
   "verification_summary": {
@@ -1262,10 +1215,10 @@
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 0,
-    "SINGLE_SOURCE": 3,
-    "UNCONFIRMED": 18,
-    "TOTAL": 21
+    "SINGLE_SOURCE": 5,
+    "UNCONFIRMED": 14,
+    "TOTAL": 19
   },
   "article_count": 36,
-  "event_count": 21
+  "event_count": 19
 }

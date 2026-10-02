@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-02T18:28:38Z",
+  "generated_at": "2026-10-02T23:01:31Z",
   "state": {
     "code": "watch",
     "label_es": "VIGILANCIA",
@@ -25,8 +25,8 @@
         "severity": 0
       }
     },
-    "confidence": "BAJA",
-    "confidence_explanation_es": "Confianza baja: la información disponible no permite una corroboración reciente suficiente.",
+    "confidence": "MEDIA",
+    "confidence_explanation_es": "Confianza media: la lectura es coherente, pero aún faltan corroboraciones independientes para elevarla.",
     "sources_pending": [],
     "alert_level": {
       "code": "informational",
@@ -35,7 +35,7 @@
     }
   },
   "metrics": {
-    "news_24h": 1,
+    "news_24h": 3,
     "news_sources": 29,
     "seismic_24h": 0,
     "seismic_7d": 0,
@@ -55,12 +55,12 @@
     "layer_changes": []
   },
   "since_yesterday": {
-    "reference_date": "2026-10-01",
-    "summary_es": "El nivel general pasa de VIGILANCIA REFORZADA a VIGILANCIA. El monitor recoge 7 referencias menos en la ventana de 24 horas."
+    "reference_date": "2026-10-02",
+    "summary_es": "El nivel general se mantiene en VIGILANCIA. El monitor recoge 2 referencias más en la ventana de 24 horas."
   },
   "health": {
     "overall": "HEALTHY",
-    "generated_at": "2026-10-02T18:28:38Z"
+    "generated_at": "2026-10-02T23:01:31Z"
   },
   "latest_diary": {
     "date": "2026-10-02",

@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T23:56:12.183912+00:00",
+  "generated_at": "2026-10-02T05:46:32.379371+00:00",
   "events": [
     {
-      "event_id": "evt_2fff127f46236c18",
+      "event_id": "evt_5e66f3bf9d68b547",
       "topic": "relations",
-      "first_seen": "2026-09-29T14:24:12Z",
+      "first_seen": "2026-10-01T09:40:04Z",
       "last_seen": "2026-10-01T17:33:52Z",
       "headline": "La Casa Real subraya con la visita a Ceuta y Melilla que España es la “puerta de entrada” de Marruecos en Europa",
       "classification": "FACT",
@@ -35,11 +35,29 @@
       ],
       "articles": [
         {
-          "article_id": "art_6cce449098179a5a",
-          "title": "Ceuta y el acoso de Marruecos a España: el Diálogo del Club LD con Ignacio Cembrero, Óscar Elía y Enrique Navarro Gil",
-          "title_key": "ceuta y el acoso de marruecos a espana el dialogo del club ld con ignacio cembrero oscar elia y enrique navarro gil",
-          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPZjNlZzVic05jSjJOckZKQnFQdnAwRXlhLUV3QUxfclBoeFhKWlpKQ0RUNUkwTzdpeDItVUFjTzNQUUhteEtPN3lWNFFtaDZVdEpMdUhpWFFKMDRQUThQaEpKLUoyLVkzNTFaOUlLSmYza1htLVpuMUt3Mnlma3FRMVBVSkc4UU52czY1Z1l0bW9NZEUta29obl9ocXlkbHA5ZHQ5LXVuaTQ3Si1VT1RIMjY2RUQwS3FzUE9FS05UZWR4cGs4SEZpaEI1TW5kZVZhVXRwSE5XVHM1NnYxXzZjTnBPMFFIUnVVaExVZjE4Y0s2M252SFhEU2xaVXVXTHYwQlJwdtIBjwJBVV95cUxQbUNQTHVKMEd1WmFXdmxHUWNSYjlHQU1zNk9CNDY2QXlVMXdxemloaHZSdmlTZ1RHS2d0MW1CRVRrZ3A1TVlrdWZxWWdGNUUtQXdGWUhjQlNtaFBEYzYyUGx3QXlmamhUZ2JsaFNpZ3pueEFGaUFxVm5kRjBHS2RWQ04zWVFHOHZYSEdYZmlnaUlZeHo3cTZiR1QybzV2ZzMwRlZhYV9YZ2lKRlFrV1JlRzZ4RFJBNUpHODU0cjVlREdyaHBub0I5TXNOS19yeklXLW02V2pjWlRRcmpRX3hYV3E2RmkyYTZRYlZqN240SlMwM0htZXBoV3ltQ2ZiQXFESmhKcVBFNW5qZ2oxcmdZ",
-          "published_at": "2026-09-29T14:24:12Z",
+          "article_id": "art_cc470ba8abefbec4",
+          "title": "La prensa de Marruecos asegura que la visita de los Reyes a Ceuta y Melilla \"vuelve a poner a prueba la cuestión de los dos enclaves marroquíes ocupados\"",
+          "title_key": "la prensa de marruecos asegura que la visita de los reyes a ceuta y melilla vuelve a poner a prueba la cuestion de los dos enclaves marroquies ocupados",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRVZtZVExM0ZvSTZCTmhBTHpJTEF1YXVrTGdyaDJwVnhnMFBEckNaaTVaMXVLdno2bkdTS0JvV1c0TWtvOG5oVWxORllzSWdELThDcElSRUpJVUdjZGR3QWhmVVVVdUx2RENXSGhSSU1YSG9lVkplOVJhVENOSlFvNm1fZkVjNjZSODVPT1B5YVItTXlGckItX0hYU0tUTUI4b18xZjNGdVRhN2JIRUx0cG1jMkRFSklzc0HSAb8BQVVfeXFMTnpzcnI2QkJZX1dURVBTc1hxRnJWR3UyZjJyWGU0NmhLbngwMUJJdFNYZjFISld2eUloOFFONzE4VGg0WldTYmhsVndGSG96NnhHX0pPejYya1ZzQ2Nid282cmFOMTZhd0J4R0Q1UGtpcHR3NlFtS0ROa2g1ODFxTHN3SGZYSndfVUdGdUxPa29FdUw0d3B4T2h1S2syUEpMRWYzNHgtYkhOT0Y2bmhublVPSHRlSDUtRWZRN3NJMEE",
+          "published_at": "2026-10-01T09:40:04Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_303df09262bf183e",
+          "title": "Marruecos guarda silencio ante la visita de los Reyes a Ceuta y Melilla",
+          "title_key": "marruecos guarda silencio ante la visita de los reyes a ceuta y melilla",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYjY3Q0ZORFF4aHd6ZWtzVDdxSURDNkZ2YWFpTDE1djBSdHJRQ1FJcXNFa3o0aEVsc0ZoRHJzaUEyYXp2WTl5aEFNNU94U2Z5ZnFvOFp1aXNqdDZXUmU3SXhrTlVrYlFheTRSclJNQ3B1TklQM01BdFlPQlNfZUROMktWTzBIV2VsZTVEWDNmNWRGM1d5c0VmN0x2ZjRGUmfSAaQBQVVfeXFMTnM3dW91eFFFWU1hYnVacDNNTllIZ0ZBQm50TnBLOXNkZVNwUUpZTWc1Y2JLc2dXNmN3aUVPWVliUFRJeDQtQkdCbHZyemx3QllNYmpmWW9kRHNXbDMwYk8xa0c5ZHZ5N2VST3JKUkJWRGh4UHI3dUJmT1NTdl94UzlvSzhmWFZlWmk0UWNHdVlVWWR5VmNJRHY3ZUwyOXc2TlVSeVE",
+          "published_at": "2026-10-01T12:48:06Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -144,7 +162,7 @@
       "topic": "ceuta",
       "first_seen": "2026-10-01T10:08:29Z",
       "last_seen": "2026-10-01T12:51:01Z",
-      "headline": "Spanish king to visit disputed enclaves, testing Morocco ties after border crisis",
+      "headline": "Spanish king to visit disputed enclaves, testing Morocco ties after border crisis - reuters.com",
       "classification": "FACT",
       "verification_status": "SINGLE_SOURCE",
       "verification_reason": "Supported by one usable source; independent corroboration is pending.",
@@ -173,7 +191,7 @@
       "articles": [
         {
           "article_id": "art_f8e9dac793c82d5c",
-          "title": "Spanish king to visit disputed enclaves, testing Morocco ties after border crisis",
+          "title": "Spanish king to visit disputed enclaves, testing Morocco ties after border crisis - reuters.com",
           "title_key": "spanish king to visit disputed enclaves testing morocco ties after border crisis",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWXNBc2JkcWsxNEREWTNrcEtLOGdTVjlESXhIQnhUTEVjeWJHSjdibFp0NmRKUkJOZEJPVlZsNFNwQ0UwRzRfM1RILVM2VGJUOGU2UU5vUllZNXBqd2lfQmdFWDE3OGFVVVhmZ1dEM1prX2YyNUt2d3d2OVZLVmxGTFZ6aGJ4NWF3WXJ1azZPeTkyLWc1Y0FBZHpBY3pwNDY4UWd4dTVkck0zbUpGTUEtZWVyQlhGWnlqdVhZ",
           "published_at": "2026-10-01T10:08:29Z",
@@ -210,70 +228,6 @@
       ],
       "importance": 46,
       "operational_impact": "CONTEXT",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_1b34d60ef04b3a0b",
-      "topic": "relations",
-      "first_seen": "2026-10-01T09:40:04Z",
-      "last_seen": "2026-10-01T12:48:06Z",
-      "headline": "La prensa de Marruecos asegura que la visita de los Reyes a Ceuta y Melilla \"vuelve a poner a prueba la cuestión de los dos enclaves marroquíes ocupados\"",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_cc470ba8abefbec4",
-          "title": "La prensa de Marruecos asegura que la visita de los Reyes a Ceuta y Melilla \"vuelve a poner a prueba la cuestión de los dos enclaves marroquíes ocupados\"",
-          "title_key": "la prensa de marruecos asegura que la visita de los reyes a ceuta y melilla vuelve a poner a prueba la cuestion de los dos enclaves marroquies ocupados",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRVZtZVExM0ZvSTZCTmhBTHpJTEF1YXVrTGdyaDJwVnhnMFBEckNaaTVaMXVLdno2bkdTS0JvV1c0TWtvOG5oVWxORllzSWdELThDcElSRUpJVUdjZGR3QWhmVVVVdUx2RENXSGhSSU1YSG9lVkplOVJhVENOSlFvNm1fZkVjNjZSODVPT1B5YVItTXlGckItX0hYU0tUTUI4b18xZjNGdVRhN2JIRUx0cG1jMkRFSklzc0HSAb8BQVVfeXFMTnpzcnI2QkJZX1dURVBTc1hxRnJWR3UyZjJyWGU0NmhLbngwMUJJdFNYZjFISld2eUloOFFONzE4VGg0WldTYmhsVndGSG96NnhHX0pPejYya1ZzQ2Nid282cmFOMTZhd0J4R0Q1UGtpcHR3NlFtS0ROa2g1ODFxTHN3SGZYSndfVUdGdUxPa29FdUw0d3B4T2h1S2syUEpMRWYzNHgtYkhOT0Y2bmhublVPSHRlSDUtRWZRN3NJMEE",
-          "published_at": "2026-10-01T09:40:04Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_303df09262bf183e",
-          "title": "Marruecos guarda silencio ante la visita de los Reyes a Ceuta y Melilla",
-          "title_key": "marruecos guarda silencio ante la visita de los reyes a ceuta y melilla",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYjY3Q0ZORFF4aHd6ZWtzVDdxSURDNkZ2YWFpTDE1djBSdHJRQ1FJcXNFa3o0aEVsc0ZoRHJzaUEyYXp2WTl5aEFNNU94U2Z5ZnFvOFp1aXNqdDZXUmU3SXhrTlVrYlFheTRSclJNQ3B1TklQM01BdFlPQlNfZUROMktWTzBIV2VsZTVEWDNmNWRGM1d5c0VmN0x2ZjRGUmfSAaQBQVVfeXFMTnM3dW91eFFFWU1hYnVacDNNTllIZ0ZBQm50TnBLOXNkZVNwUUpZTWc1Y2JLc2dXNmN3aUVPWVliUFRJeDQtQkdCbHZyemx3QllNYmpmWW9kRHNXbDMwYk8xa0c5ZHZ5N2VST3JKUkJWRGh4UHI3dUJmT1NTdl94UzlvSzhmWFZlWmk0UWNHdVlVWWR5VmNJRHY3ZUwyOXc2TlVSeVE",
-          "published_at": "2026-10-01T12:48:06Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
       "operational_eligible": false
     },
     {
@@ -363,7 +317,7 @@
       "topic": "ceuta",
       "first_seen": "2026-09-28T12:34:35Z",
       "last_seen": "2026-10-01T10:19:34Z",
-      "headline": "Spanish government representative in Ceuta quits over border rush fallout",
+      "headline": "Spanish government representative in Ceuta quits over border rush fallout - reuters.com",
       "classification": "OPERATIONAL_SIGNAL",
       "verification_status": "SINGLE_SOURCE",
       "verification_reason": "Supported by one usable source; independent corroboration is pending.",
@@ -392,7 +346,7 @@
       "articles": [
         {
           "article_id": "art_e2e7923869ec643c",
-          "title": "Spanish government representative in Ceuta quits over border rush fallout",
+          "title": "Spanish government representative in Ceuta quits over border rush fallout - reuters.com",
           "title_key": "spanish government representative in ceuta quits over border rush fallout",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOczJTZVFZTDlIcWtUenJQLW9lT0VuemN2TnBTeHhEcm5xMVBFWWVnZjNfQ0hwbm8ybVA1M2h6YjdjakgteHdUSW5saklaR1BKX1JLM3Q3T1B0OEp2YUU2eHAwRUtaRTlUdHpnckNIVmUxYnRkOElBSVpzb2JTRDhISENMLXMwMkNLa1AyRHJCZlV4XzZ3b1hUMVZzcW5rMzRGcG42Q01XeXc0cnNoUGxqTC1naVNDQ1U2OU84",
           "published_at": "2026-09-28T12:34:35Z",
@@ -482,7 +436,7 @@
       "topic": "ceuta",
       "first_seen": "2026-09-29T12:06:52Z",
       "last_seen": "2026-09-30T11:10:55Z",
-      "headline": "Brussels seeks to strengthen EU border controls after Ceuta crisis",
+      "headline": "Brussels seeks to strengthen EU border controls after Ceuta crisis - reuters.com",
       "classification": "FACT",
       "verification_status": "SINGLE_SOURCE",
       "verification_reason": "Supported by one usable source; independent corroboration is pending.",
@@ -511,7 +465,7 @@
       "articles": [
         {
           "article_id": "art_1b2cf52ef917c653",
-          "title": "Brussels seeks to strengthen EU border controls after Ceuta crisis",
+          "title": "Brussels seeks to strengthen EU border controls after Ceuta crisis - reuters.com",
           "title_key": "brussels seeks to strengthen eu border controls after ceuta crisis",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNzM1WE1JWTZUUGd6YmczOVpzRGNCYkNpVHliOFNQajctVFdzU2lsZXM2VVJESThsck9WOTZpZXBUVjBSd0xIX3ZUZzBPZWtDV3VDTHI5Q2FrZmxmV3JDdnkzR3VWRHFMb2tHS1VmRnFXX1VNN21ZMzJFWmlSQ2Y1Nklsb0NlN3FQVTVwekpsbi00M195Mnd0d0ZKblJUNWlVblRZX3VlTDBScVRwMkNXUGlPd2RIdEpUbG82T3ZTM181cFM1X2Rrag",
           "published_at": "2026-09-29T12:06:52Z",
@@ -643,11 +597,75 @@
       "operational_eligible": false
     },
     {
+      "event_id": "evt_2fff127f46236c18",
+      "topic": "relations",
+      "first_seen": "2026-09-29T14:24:12Z",
+      "last_seen": "2026-09-29T14:24:12Z",
+      "headline": "Ceuta y el acoso de Marruecos a España: el Diálogo del Club LD con Ignacio Cembrero, Óscar Elía y Enrique Navarro Gil",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_aec00027777fb5cb",
+          "title": "De Perejil a Ceuta: Federico Trillo analiza en Murcia la nueva tensión con Marruecos",
+          "title_key": "de perejil a ceuta federico trillo analiza en murcia la nueva tension con marruecos",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNUxCVzBhdGhPdEJpNXAxZ01tSXJ4enMwTThQWDU4ZkJycURlVzNsM2paYUF0ZjVHZXlUTHZqSmt0YkUyM25iSm5BWVdJSGhkMk0xbHk4amNlWW5UQnJVYmdDZ0hOQ3J0MlJPVXpKRDEtc0hGQm13UEYxa0lvMnBOUVhjX2p2dThhUk1EZXZyeldfcGhwRUJ6dmZBamhEN29uQTdyNUVNTk5JUdIBrwFBVV95cUxPUG5rbE55Qmp3elFqU0lPSUJSNWlCTlQyVkxkQi1YTkRhOUR1M1luTTZUMXFqZHZhRnQ0SURlakRaTTdPOG5LeVRNUThFN2I1enlNMnQ3WmpraFZzb0cwZElxZmJvc015Ri1zeDBhd3U2WGVWb29pelJlajNTekR6bXdLeWJNRkVvVWpVMGxfdDd4ZHZyODhZanhSYUJvb1lhTDNUVTlUTUxIcng3TUt3",
+          "published_at": "2026-09-28T08:53:01Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_6cce449098179a5a",
+          "title": "Ceuta y el acoso de Marruecos a España: el Diálogo del Club LD con Ignacio Cembrero, Óscar Elía y Enrique Navarro Gil",
+          "title_key": "ceuta y el acoso de marruecos a espana el dialogo del club ld con ignacio cembrero oscar elia y enrique navarro gil",
+          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPZjNlZzVic05jSjJOckZKQnFQdnAwRXlhLUV3QUxfclBoeFhKWlpKQ0RUNUkwTzdpeDItVUFjTzNQUUhteEtPN3lWNFFtaDZVdEpMdUhpWFFKMDRQUThQaEpKLUoyLVkzNTFaOUlLSmYza1htLVpuMUt3Mnlma3FRMVBVSkc4UU52czY1Z1l0bW9NZEUta29obl9ocXlkbHA5ZHQ5LXVuaTQ3Si1VT1RIMjY2RUQwS3FzUE9FS05UZWR4cGs4SEZpaEI1TW5kZVZhVXRwSE5XVHM1NnYxXzZjTnBPMFFIUnVVaExVZjE4Y0s2M252SFhEU2xaVXVXTHYwQlJwdtIBjwJBVV95cUxQbUNQTHVKMEd1WmFXdmxHUWNSYjlHQU1zNk9CNDY2QXlVMXdxemloaHZSdmlTZ1RHS2d0MW1CRVRrZ3A1TVlrdWZxWWdGNUUtQXdGWUhjQlNtaFBEYzYyUGx3QXlmamhUZ2JsaFNpZ3pueEFGaUFxVm5kRjBHS2RWQ04zWVFHOHZYSEdYZmlnaUlZeHo3cTZiR1QybzV2ZzMwRlZhYV9YZ2lKRlFrV1JlRzZ4RFJBNUpHODU0cjVlREdyaHBub0I5TXNOS19yeklXLW02V2pjWlRRcmpRX3hYV3E2RmkyYTZRYlZqN240SlMwM0htZXBoV3ltQ2ZiQXFESmhKcVBFNW5qZ2oxcmdZ",
+          "published_at": "2026-09-29T14:24:12Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
       "event_id": "evt_f212471824c6ef38",
       "topic": "ceuta",
       "first_seen": "2026-09-29T14:23:04Z",
       "last_seen": "2026-09-29T13:58:09Z",
-      "headline": "Spain plans stricter rules on asylum seekers in Ceuta, draft decree shows",
+      "headline": "Spain plans stricter rules on asylum seekers in Ceuta, draft decree shows - reuters.com",
       "classification": "FACT",
       "verification_status": "SINGLE_SOURCE",
       "verification_reason": "Supported by one usable source; independent corroboration is pending.",
@@ -667,7 +685,7 @@
       "articles": [
         {
           "article_id": "art_52c8021ba5c4109d",
-          "title": "Spain plans stricter rules on asylum seekers in Ceuta, draft decree shows",
+          "title": "Spain plans stricter rules on asylum seekers in Ceuta, draft decree shows - reuters.com",
           "title_key": "spain plans stricter rules on asylum seekers in ceuta draft decree shows",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMlJUNGlxc3d5eG44QWducTBxOWZ3UjRtTWFIZm95WkY5NWc5OEl6NTV5RGc1SDBRLWEwNmpqelVhUi01TTU4aHVQajJkUFlVZTE1VW1INWU3Y19yWlktbDRzbkg2T29LYkdDNG1ZYnBGaGdWZXhqZnJJNzd6SS12SElzY3lKVktUMkF0YjlnYnpNdVVTUU9TdzhCUGhEZEhMc2VTNEFnLV9qTlVPZTVWZkpUS0FKQQ",
           "published_at": "2026-09-29T13:58:09Z",
@@ -686,52 +704,6 @@
       ],
       "importance": 43,
       "operational_impact": "CONTEXT",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_602d15f94220c7d3",
-      "topic": "melilla",
-      "first_seen": "2026-09-29T08:41:51Z",
-      "last_seen": "2026-09-29T08:41:51Z",
-      "headline": "Una investigación de la UGR revela las estrategias de supervivencia de las trabajadoras transfronterizas atrapadas entre España y Marruecos",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_392d5207d78a9065",
-          "title": "Una investigación de la UGR revela las estrategias de supervivencia de las trabajadoras transfronterizas atrapadas entre España y Marruecos",
-          "title_key": "una investigacion de la ugr revela las estrategias de supervivencia de las trabajadoras transfronterizas atrapadas entre espana y marruecos",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaDUzMFZPVVFvWnpZRWF0dk9VZGVRcV9lcWYwRzNwSDlSOEp3N3VjUnFFbFJnOHJNUTdkcFk0cmhCX0RxQVVHd2ExMkVkeGpjdXl2TkJuX1RxZW1XTXF2VS1zcnQ5Wm9sR1VabUYzd2huTlhwUzdySFY4cEVhb3NNMEZwNWtNTFY4TVk1V2tqNU9iOWdIU1pmTm0wdmxVRmFVdVkwbA",
-          "published_at": "2026-09-29T08:41:51Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
       "operational_eligible": false
     },
     {
@@ -922,70 +894,6 @@
       "event_id": "evt_0c4aeef6fa17564d",
       "topic": "relations",
       "first_seen": "2026-09-28T08:53:01Z",
-      "last_seen": "2026-09-28T08:53:01Z",
-      "headline": "PP y Vox sacan adelante sus mociones sobre Ceuta entre reproches por inmigración y la relación con Marruecos",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_f897e7725588437e",
-          "title": "PP y Vox sacan adelante sus mociones sobre Ceuta entre reproches por inmigración y la relación con Marruecos",
-          "title_key": "pp y vox sacan adelante sus mociones sobre ceuta entre reproches por inmigracion y la relacion con marruecos",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdVVtdWFXQTBJMGhPeVNsOThBdk5XaDBlMlNDemJxakIyV0dIb09BUzdRMlJ1a0V2d1ZBRC1FQXcyM0tiLVdqUi1wMzFiOXhYVWtoNjFoQjlDcHJpSjhyUkF6SkZHQ21vNGVSakZsUFV5VkJZN1dtX2lYSnBJNzVMUllGTmNLSTh0c1ZqWG1ybE1VWC1LUXQ5X002bVlqaklNY3RLekp3UUNYSHJSOXQ5TjE3cEZpVGc3UU55WVVBeDJXM3pZeTYxQXJPSV8tVHRsdEE",
-          "published_at": "2026-09-25T12:40:59Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_aec00027777fb5cb",
-          "title": "De Perejil a Ceuta: Federico Trillo analiza en Murcia la nueva tensión con Marruecos",
-          "title_key": "de perejil a ceuta federico trillo analiza en murcia la nueva tension con marruecos",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNUxCVzBhdGhPdEJpNXAxZ01tSXJ4enMwTThQWDU4ZkJycURlVzNsM2paYUF0ZjVHZXlUTHZqSmt0YkUyM25iSm5BWVdJSGhkMk0xbHk4amNlWW5UQnJVYmdDZ0hOQ3J0MlJPVXpKRDEtc0hGQm13UEYxa0lvMnBOUVhjX2p2dThhUk1EZXZyeldfcGhwRUJ6dmZBamhEN29uQTdyNUVNTk5JUdIBrwFBVV95cUxPUG5rbE55Qmp3elFqU0lPSUJSNWlCTlQyVkxkQi1YTkRhOUR1M1luTTZUMXFqZHZhRnQ0SURlakRaTTdPOG5LeVRNUThFN2I1enlNMnQ3WmpraFZzb0cwZElxZmJvc015Ri1zeDBhd3U2WGVWb29pelJlajNTekR6bXdLeWJNRkVvVWpVMGxfdDd4ZHZyODhZanhSYUJvb1lhTDNUVTlUTUxIcng3TUt3",
-          "published_at": "2026-09-28T08:53:01Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_088752b214b0ee05",
-      "topic": "relations",
-      "first_seen": "2026-09-27T16:59:51Z",
       "last_seen": "2026-09-27T16:59:51Z",
       "headline": "Marruecos se compromete a colaborar para la devolución de los inmigrantes que todavía quedan en Ceuta - RTVE.es",
       "classification": "FACT",
@@ -1015,6 +923,24 @@
       ],
       "articles": [
         {
+          "article_id": "art_6ff34e4e643778d7",
+          "title": "Marruecos reclama a España el regreso de los menores marroquíes de Ceuta: “Tienen que volver a su país con sus padres”",
+          "title_key": "marruecos reclama a espana el regreso de los menores marroquies de ceuta tienen que volver a su pais con sus padres",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQbzkwMGRpS3hvbTM2bkI2MGw5MmVVVG8wOXQyTzMwamduSU80ajR0ZWgxNUxHRXRZYzBZY3RaeXhIdFBqMGR4YXJ3dnNEbF9FT0ZOUUYzYnV1Ymd2QzFVdGgtYnhXOGEzRXdDNGZEeGozWHp1eWRpWURGTjZybkN3d1dHSmJhUWJxV3BGX1NWS3AxWkdOY1VyLWg4NGlWTGI0aENaaXpTUlJiWF9nb1pWQkt6QnBxandzOWc5eXlMRmlXNFotaC0wQkpQYk8tS3F3S0FVVA",
+          "published_at": "2026-09-24T20:20:53Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
           "article_id": "art_3f204eab981336bc",
           "title": "Marruecos se compromete a colaborar para la devolución de los inmigrantes que todavía quedan en Ceuta - RTVE.es",
           "title_key": "marruecos se compromete a colaborar para la devolucion de los inmigrantes que todavia quedan en ceuta",
@@ -1038,6 +964,24 @@
           "title_key": "marruecos senala a espana por los inmigrantes de ceuta si no han sido devueltos la pregunta hay que hacersela a espana",
           "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOT19rQzRBb1Fxb0NKdktONkozWWx6ek03U1pUX0ZDN1RRcGlJRG11UlJsQ0gyOUE2c3lEajhTZVF0ZE9zdU9YZHhMMkRiNnNqTkVuaUo4MDh5Zy1CU2MzNlJmRjBXMG44WXcySjAxcHlUd19PSTR5YTFjZ2VmbGtnTEZrTmRGT2tPbzBXd1pKLVNPSVVZdGJnX2gxaVlyT0lYUzI0R2dOcWxDNUNLMkxZVTFWN2RHWks1Z0N6dEgwLXpFUFEyQTlTQ0s3d3ZWQWpZb2s3UHVHV2FpdnRYMGROUTZzaDhUX3BQSkhCTHdjZVVhNmhh0gGIAkFVX3lxTE5kM0tvdlVrXy00UGtPZjdzUlJzRFNBOEU5YkJrTnB1Rl9CUWx5d2hnRDBtLVhsbkxPXzdkSWltN3l2NUdxNElFTlFXWnJYdGZQZkdaU0dxdWNnUUVfT2JoTTU4eWMxMFlScHJHaFhnSmYwZ3dPcmlMU0JlMkNhYnJHY09zRzNmX2RIMFgwc2V1alN6aThLQTIwX2J3Qk4zb3I4RGxnYUpQQWtsY25hNnRSMXcwbDViMkdtNnZHcGNyM1FVVVR3Uk9UQzhfREtyWWRES2wwaVdSZ1dOV2NBdFVGWTFtWnJqOGQ3ZEV0R2ZYNWMwZjdTUHQ2Z0pkQnJiNE9RcjNFMkNXQw",
           "published_at": "2026-09-25T06:51:56Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_f897e7725588437e",
+          "title": "PP y Vox sacan adelante sus mociones sobre Ceuta entre reproches por inmigración y la relación con Marruecos",
+          "title_key": "pp y vox sacan adelante sus mociones sobre ceuta entre reproches por inmigracion y la relacion con marruecos",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdVVtdWFXQTBJMGhPeVNsOThBdk5XaDBlMlNDemJxakIyV0dIb09BUzdRMlJ1a0V2d1ZBRC1FQXcyM0tiLVdqUi1wMzFiOXhYVWtoNjFoQjlDcHJpSjhyUkF6SkZHQ21vNGVSakZsUFV5VkJZN1dtX2lYSnBJNzVMUllGTmNLSTh0c1ZqWG1ybE1VWC1LUXQ5X002bVlqaklNY3RLekp3UUNYSHJSOXQ5TjE3cEZpVGc3UU55WVVBeDJXM3pZeTYxQXJPSV8tVHRsdEE",
+          "published_at": "2026-09-25T12:40:59Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -1346,9 +1290,9 @@
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 0,
     "SINGLE_SOURCE": 6,
-    "UNCONFIRMED": 17,
-    "TOTAL": 23
+    "UNCONFIRMED": 15,
+    "TOTAL": 21
   },
   "article_count": 36,
-  "event_count": 23
+  "event_count": 21
 }

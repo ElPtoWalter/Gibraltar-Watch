@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-03T08:13:07.668269+00:00",
+  "generated_at": "2026-10-03T13:29:19.594641+00:00",
   "events": [
     {
       "event_id": "evt_5e66f3bf9d68b547",
       "topic": "relations",
       "first_seen": "2026-10-01T09:40:04Z",
       "last_seen": "2026-10-03T03:50:00Z",
-      "headline": "La Casa Real subraya con la visita a Ceuta y Melilla que España es la “puerta de entrada” de Marruecos en Europa",
+      "headline": "Marruecos guarda silencio oficial tras el anuncio de la visita de los Reyes a Ceuta y Melilla",
       "classification": "FACT",
       "verification_status": "SINGLE_SOURCE",
       "verification_reason": "Supported by one usable source; independent corroboration is pending.",
@@ -67,24 +67,6 @@
           "weight": 1.0,
           "topic": "relations",
           "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_7d85a1fc14d0aa4d",
-          "title": "La Casa Real subraya con la visita a Ceuta y Melilla que España es la “puerta de entrada” de Marruecos en Europa",
-          "title_key": "la casa real subraya con la visita a ceuta y melilla que espana es la puerta de entrada de marruecos en europa",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOd2pTT0I4UTBILXZMWVd0YkhYMVNhc1dnT3hpaktZUm9JbHhMYnJ3MW11X3NJTy0yUXhzQU5ZVmg3Q3c0YWsyS0wtQ2YtVHU5VGhhRUI3QTl5MFd2YlZBWnZ5NVpwMjVydzNLUmRCTmhnWGJRWUhRSGo3NlVFWWNyXzNnQndXU1A5dGswd3BQTTFYa291QWZ5TFJPOUZzRUVvTFFaMktTZFBDNlJ3cGJmSkhMRWxmM0dQd2p5ci1zdHV2TUR2UEI1UU1EWXY4Vjl3aDNLTWt6MnEtRlFMZDF4d1ZpanVsYjDSAfsBQVVfeXFMTmlNZllGeGtWNzNOaXdjWWthNy14S0s2UkxqTDhIRzZ1Zjl6R0RQQTZmNnBwMVE1aEh4Sk1GOXhhMFJKd2dBTkItTWZzOEZzNDNQd3BjeUlTUmNQd2h5WFpZeTV4c0ZWWmZwdVNfMmR0SDJuS3hqTXp2MHNtSWJOaWtuRC1kTXdDRDc2MjMzaXp0Wi1QUm9BSGh6RmphYm9BdksxRkhlYnpwcWZpZFRTZFNuZGxtMzN2MDF0UTdwS1o4UWF0UDZCazRuQ25SRjBtVk13RU02Q1lab1poUTdUX09VX2lQTzN6UGdCZm1Wc3MxVDYwTE1lTGhPZlE",
-          "published_at": "2026-10-01T17:33:52Z",
-          "observed_at": "",
-          "source_id": "elpais",
-          "source_name": "El País",
-          "source_domain": "elpais.com",
-          "tier": 3,
-          "official": false,
-          "weight": 3.0,
-          "topic": "relations",
-          "classification": "FACT",
           "signal": "",
           "description": ""
         },
@@ -235,10 +217,18 @@
       "first_seen": "2026-10-01T10:08:29Z",
       "last_seen": "2026-10-01T12:51:01Z",
       "headline": "Spanish king to visit disputed enclaves, testing Morocco ties after border crisis",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "classification": "FACT",
+      "verification_status": "SINGLE_SOURCE",
+      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
       "sources": [
+        {
+          "source_id": "reuters",
+          "source_name": "Reuters",
+          "source_domain": "reuters.com",
+          "tier": 4,
+          "official": false,
+          "weight": 4.0
+        },
         {
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -249,9 +239,28 @@
         }
       ],
       "source_ids": [
+        "reuters",
         "unknown"
       ],
       "articles": [
+        {
+          "article_id": "art_f8e9dac793c82d5c",
+          "title": "Spanish king to visit disputed enclaves, testing Morocco ties after border crisis",
+          "title_key": "spanish king to visit disputed enclaves testing morocco ties after border crisis",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWXNBc2JkcWsxNEREWTNrcEtLOGdTVjlESXhIQnhUTEVjeWJHSjdibFp0NmRKUkJOZEJPVlZsNFNwQ0UwRzRfM1RILVM2VGJUOGU2UU5vUllZNXBqd2lfQmdFWDE3OGFVVVhmZ1dEM1prX2YyNUt2d3d2OVZLVmxGTFZ6aGJ4NWF3WXJ1azZPeTkyLWc1Y0FBZHpBY3pwNDY4UWd4dTVkck0zbUpGTUEtZWVyQlhGWnlqdVhZ",
+          "published_at": "2026-10-01T10:08:29Z",
+          "observed_at": "",
+          "source_id": "reuters",
+          "source_name": "Reuters",
+          "source_domain": "reuters.com",
+          "tier": 4,
+          "official": false,
+          "weight": 4.0,
+          "topic": "ceuta",
+          "classification": "FACT",
+          "signal": "",
+          "description": ""
+        },
         {
           "article_id": "art_d0e420dd1bec7d1f",
           "title": "Spanish king to visit disputed enclaves, testing Morocco ties after border crisis",
@@ -289,8 +298,8 @@
           "description": ""
         }
       ],
-      "importance": 4,
-      "operational_impact": "NONE",
+      "importance": 46,
+      "operational_impact": "CONTEXT",
       "operational_eligible": false
     },
     {
@@ -376,6 +385,88 @@
       "operational_eligible": false
     },
     {
+      "event_id": "evt_0c4aeef6fa17564d",
+      "topic": "relations",
+      "first_seen": "2026-09-28T08:53:01Z",
+      "last_seen": "2026-10-01T03:00:00Z",
+      "headline": "Ceuta y el acoso de Marruecos a España: el Diálogo del Club LD con Ignacio Cembrero, Óscar Elía y Enrique Navarro Gil",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_aec00027777fb5cb",
+          "title": "De Perejil a Ceuta: Federico Trillo analiza en Murcia la nueva tensión con Marruecos",
+          "title_key": "de perejil a ceuta federico trillo analiza en murcia la nueva tension con marruecos",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNUxCVzBhdGhPdEJpNXAxZ01tSXJ4enMwTThQWDU4ZkJycURlVzNsM2paYUF0ZjVHZXlUTHZqSmt0YkUyM25iSm5BWVdJSGhkMk0xbHk4amNlWW5UQnJVYmdDZ0hOQ3J0MlJPVXpKRDEtc0hGQm13UEYxa0lvMnBOUVhjX2p2dThhUk1EZXZyeldfcGhwRUJ6dmZBamhEN29uQTdyNUVNTk5JUdIBrwFBVV95cUxPUG5rbE55Qmp3elFqU0lPSUJSNWlCTlQyVkxkQi1YTkRhOUR1M1luTTZUMXFqZHZhRnQ0SURlakRaTTdPOG5LeVRNUThFN2I1enlNMnQ3WmpraFZzb0cwZElxZmJvc015Ri1zeDBhd3U2WGVWb29pelJlajNTekR6bXdLeWJNRkVvVWpVMGxfdDd4ZHZyODhZanhSYUJvb1lhTDNUVTlUTUxIcng3TUt3",
+          "published_at": "2026-09-28T08:53:01Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_6cce449098179a5a",
+          "title": "Ceuta y el acoso de Marruecos a España: el Diálogo del Club LD con Ignacio Cembrero, Óscar Elía y Enrique Navarro Gil",
+          "title_key": "ceuta y el acoso de marruecos a espana el dialogo del club ld con ignacio cembrero oscar elia y enrique navarro gil",
+          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPZjNlZzVic05jSjJOckZKQnFQdnAwRXlhLUV3QUxfclBoeFhKWlpKQ0RUNUkwTzdpeDItVUFjTzNQUUhteEtPN3lWNFFtaDZVdEpMdUhpWFFKMDRQUThQaEpKLUoyLVkzNTFaOUlLSmYza1htLVpuMUt3Mnlma3FRMVBVSkc4UU52czY1Z1l0bW9NZEUta29obl9ocXlkbHA5ZHQ5LXVuaTQ3Si1VT1RIMjY2RUQwS3FzUE9FS05UZWR4cGs4SEZpaEI1TW5kZVZhVXRwSE5XVHM1NnYxXzZjTnBPMFFIUnVVaExVZjE4Y0s2M252SFhEU2xaVXVXTHYwQlJwdtIBjwJBVV95cUxQbUNQTHVKMEd1WmFXdmxHUWNSYjlHQU1zNk9CNDY2QXlVMXdxemloaHZSdmlTZ1RHS2d0MW1CRVRrZ3A1TVlrdWZxWWdGNUUtQXdGWUhjQlNtaFBEYzYyUGx3QXlmamhUZ2JsaFNpZ3pueEFGaUFxVm5kRjBHS2RWQ04zWVFHOHZYSEdYZmlnaUlZeHo3cTZiR1QybzV2ZzMwRlZhYV9YZ2lKRlFrV1JlRzZ4RFJBNUpHODU0cjVlREdyaHBub0I5TXNOS19yeklXLW02V2pjWlRRcmpRX3hYV3E2RmkyYTZRYlZqN240SlMwM0htZXBoV3ltQ2ZiQXFESmhKcVBFNW5qZ2oxcmdZ",
+          "published_at": "2026-09-29T14:24:12Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_e61b9161ddbb2156",
+          "title": "La relación de España con Marruecos también pasa por Europa",
+          "title_key": "la relacion de espana con marruecos tambien pasa por europa",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaDU0ZmkwV3lyZVM0RUYwZlNxbER2UEJ2ZnVUTDhuT2x0SjNNY19rT2FUa1VhWmkzMzlHY3N2SVM4VXN6QVIyUW0yb0k5QUVPSEM4bTNTRmZRemlYQWxfT1ZGZEk3b0QxUVFlOHFJNk5wTlJMREJvUFlSVWZwTWxGQ05nLWw4LW1LMlhyX3I4cDhQUUdyQVZWY2l6cnJDUlNIZTJxalV4cWplTTFnejVFQ2ZtcjREMXlQQkI1ZjVCNm8",
+          "published_at": "2026-10-01T03:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
       "event_id": "evt_d08c89a2ca86805f",
       "topic": "relations",
       "first_seen": "2026-09-30T18:53:08Z",
@@ -419,79 +510,6 @@
       ],
       "importance": 4,
       "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_b635c7204bfd976a",
-      "topic": "ceuta",
-      "first_seen": "2026-09-29T12:06:52Z",
-      "last_seen": "2026-09-30T11:10:55Z",
-      "headline": "Brussels seeks to strengthen EU border controls after Ceuta crisis",
-      "classification": "FACT",
-      "verification_status": "SINGLE_SOURCE",
-      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
-      "sources": [
-        {
-          "source_id": "reuters",
-          "source_name": "Reuters",
-          "source_domain": "reuters.com",
-          "tier": 4,
-          "official": false,
-          "weight": 4.0
-        },
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "reuters",
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_1b2cf52ef917c653",
-          "title": "Brussels seeks to strengthen EU border controls after Ceuta crisis",
-          "title_key": "brussels seeks to strengthen eu border controls after ceuta crisis",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNzM1WE1JWTZUUGd6YmczOVpzRGNCYkNpVHliOFNQajctVFdzU2lsZXM2VVJESThsck9WOTZpZXBUVjBSd0xIX3ZUZzBPZWtDV3VDTHI5Q2FrZmxmV3JDdnkzR3VWRHFMb2tHS1VmRnFXX1VNN21ZMzJFWmlSQ2Y1Nklsb0NlN3FQVTVwekpsbi00M195Mnd0d0ZKblJUNWlVblRZX3VlTDBScVRwMkNXUGlPd2RIdEpUbG82T3ZTM181cFM1X2Rrag",
-          "published_at": "2026-09-29T12:06:52Z",
-          "observed_at": "",
-          "source_id": "reuters",
-          "source_name": "Reuters",
-          "source_domain": "reuters.com",
-          "tier": 4,
-          "official": false,
-          "weight": 4.0,
-          "topic": "ceuta",
-          "classification": "FACT",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_cee01779eec56055",
-          "title": "[Interview] Ceuta crisis shows how EU border outsourcing puts children at risk, says German lawyer",
-          "title_key": "interview ceuta crisis shows how eu border outsourcing puts children at risk says german lawyer",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQVUNCX0ZUc0RyMVlpdHU4LVl6MVJKZFRnazlwV2lUd01UMjE4ZDFrWWlSOC1QOXZVWGd4Um5EamtNNHJuNl9zM3VZcEhhVndsTE5faUs0Y0RHTmx1OGNPckd2SWZxZkpMdGFKODdueFlEbjNoN09SeFNJRGpab1RfMVQtNFFXazVzdXNNWmw4bk1FNzM3VjA5VlVEVVJzdi1tUWRxd0R0UWd3NXdWSUI5RE1iaGI4QXpTa3JKSlF0ZFBnTUdxa2d3ZkZ1U09CSDhmMXQwdEtMaw",
-          "published_at": "2026-09-30T11:10:55Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "ANALYSIS",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 46,
-      "operational_impact": "CONTEXT",
       "operational_eligible": false
     },
     {
@@ -587,70 +605,6 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_0c4aeef6fa17564d",
-      "topic": "relations",
-      "first_seen": "2026-09-28T08:53:01Z",
-      "last_seen": "2026-09-29T14:24:12Z",
-      "headline": "Ceuta y el acoso de Marruecos a España: el Diálogo del Club LD con Ignacio Cembrero, Óscar Elía y Enrique Navarro Gil",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_aec00027777fb5cb",
-          "title": "De Perejil a Ceuta: Federico Trillo analiza en Murcia la nueva tensión con Marruecos",
-          "title_key": "de perejil a ceuta federico trillo analiza en murcia la nueva tension con marruecos",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNUxCVzBhdGhPdEJpNXAxZ01tSXJ4enMwTThQWDU4ZkJycURlVzNsM2paYUF0ZjVHZXlUTHZqSmt0YkUyM25iSm5BWVdJSGhkMk0xbHk4amNlWW5UQnJVYmdDZ0hOQ3J0MlJPVXpKRDEtc0hGQm13UEYxa0lvMnBOUVhjX2p2dThhUk1EZXZyeldfcGhwRUJ6dmZBamhEN29uQTdyNUVNTk5JUdIBrwFBVV95cUxPUG5rbE55Qmp3elFqU0lPSUJSNWlCTlQyVkxkQi1YTkRhOUR1M1luTTZUMXFqZHZhRnQ0SURlakRaTTdPOG5LeVRNUThFN2I1enlNMnQ3WmpraFZzb0cwZElxZmJvc015Ri1zeDBhd3U2WGVWb29pelJlajNTekR6bXdLeWJNRkVvVWpVMGxfdDd4ZHZyODhZanhSYUJvb1lhTDNUVTlUTUxIcng3TUt3",
-          "published_at": "2026-09-28T08:53:01Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_6cce449098179a5a",
-          "title": "Ceuta y el acoso de Marruecos a España: el Diálogo del Club LD con Ignacio Cembrero, Óscar Elía y Enrique Navarro Gil",
-          "title_key": "ceuta y el acoso de marruecos a espana el dialogo del club ld con ignacio cembrero oscar elia y enrique navarro gil",
-          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPZjNlZzVic05jSjJOckZKQnFQdnAwRXlhLUV3QUxfclBoeFhKWlpKQ0RUNUkwTzdpeDItVUFjTzNQUUhteEtPN3lWNFFtaDZVdEpMdUhpWFFKMDRQUThQaEpKLUoyLVkzNTFaOUlLSmYza1htLVpuMUt3Mnlma3FRMVBVSkc4UU52czY1Z1l0bW9NZEUta29obl9ocXlkbHA5ZHQ5LXVuaTQ3Si1VT1RIMjY2RUQwS3FzUE9FS05UZWR4cGs4SEZpaEI1TW5kZVZhVXRwSE5XVHM1NnYxXzZjTnBPMFFIUnVVaExVZjE4Y0s2M252SFhEU2xaVXVXTHYwQlJwdtIBjwJBVV95cUxQbUNQTHVKMEd1WmFXdmxHUWNSYjlHQU1zNk9CNDY2QXlVMXdxemloaHZSdmlTZ1RHS2d0MW1CRVRrZ3A1TVlrdWZxWWdGNUUtQXdGWUhjQlNtaFBEYzYyUGx3QXlmamhUZ2JsaFNpZ3pueEFGaUFxVm5kRjBHS2RWQ04zWVFHOHZYSEdYZmlnaUlZeHo3cTZiR1QybzV2ZzMwRlZhYV9YZ2lKRlFrV1JlRzZ4RFJBNUpHODU0cjVlREdyaHBub0I5TXNOS19yeklXLW02V2pjWlRRcmpRX3hYV3E2RmkyYTZRYlZqN240SlMwM0htZXBoV3ltQ2ZiQXFESmhKcVBFNW5qZ2oxcmdZ",
-          "published_at": "2026-09-29T14:24:12Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_f212471824c6ef38",
       "topic": "ceuta",
       "first_seen": "2026-09-29T14:23:04Z",
@@ -679,6 +633,52 @@
           "title_key": "spain plans stricter rules on asylum seekers in ceuta draft decree shows",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMlJUNGlxc3d5eG44QWducTBxOWZ3UjRtTWFIZm95WkY5NWc5OEl6NTV5RGc1SDBRLWEwNmpqelVhUi01TTU4aHVQajJkUFlVZTE1VW1INWU3Y19yWlktbDRzbkg2T29LYkdDNG1ZYnBGaGdWZXhqZnJJNzd6SS12SElzY3lKVktUMkF0YjlnYnpNdVVTUU9TdzhCUGhEZEhMc2VTNEFnLV9qTlVPZTVWZkpUS0FKQQ",
           "published_at": "2026-09-29T13:58:09Z",
+          "observed_at": "",
+          "source_id": "reuters",
+          "source_name": "Reuters",
+          "source_domain": "reuters.com",
+          "tier": 4,
+          "official": false,
+          "weight": 4.0,
+          "topic": "ceuta",
+          "classification": "FACT",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 43,
+      "operational_impact": "CONTEXT",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_b635c7204bfd976a",
+      "topic": "ceuta",
+      "first_seen": "2026-09-29T12:06:52Z",
+      "last_seen": "2026-09-29T12:06:52Z",
+      "headline": "Brussels seeks to strengthen EU border controls after Ceuta crisis",
+      "classification": "FACT",
+      "verification_status": "SINGLE_SOURCE",
+      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
+      "sources": [
+        {
+          "source_id": "reuters",
+          "source_name": "Reuters",
+          "source_domain": "reuters.com",
+          "tier": 4,
+          "official": false,
+          "weight": 4.0
+        }
+      ],
+      "source_ids": [
+        "reuters"
+      ],
+      "articles": [
+        {
+          "article_id": "art_1b2cf52ef917c653",
+          "title": "Brussels seeks to strengthen EU border controls after Ceuta crisis",
+          "title_key": "brussels seeks to strengthen eu border controls after ceuta crisis",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNzM1WE1JWTZUUGd6YmczOVpzRGNCYkNpVHliOFNQajctVFdzU2lsZXM2VVJESThsck9WOTZpZXBUVjBSd0xIX3ZUZzBPZWtDV3VDTHI5Q2FrZmxmV3JDdnkzR3VWRHFMb2tHS1VmRnFXX1VNN21ZMzJFWmlSQ2Y1Nklsb0NlN3FQVTVwekpsbi00M195Mnd0d0ZKblJUNWlVblRZX3VlTDBScVRwMkNXUGlPd2RIdEpUbG82T3ZTM181cFM1X2Rrag",
+          "published_at": "2026-09-29T12:06:52Z",
           "observed_at": "",
           "source_id": "reuters",
           "source_name": "Reuters",
@@ -876,11 +876,11 @@
           "description": ""
         },
         {
-          "article_id": "art_022357c069f52016",
+          "article_id": "art_76979c74f08acfc9",
           "title": "Marruecos señala a España por los inmigrantes de Ceuta: \"Si no han sido devueltos, la pregunta hay que hacérsela a España\"",
           "title_key": "marruecos senala a espana por los inmigrantes de ceuta si no han sido devueltos la pregunta hay que hacersela a espana",
-          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOT19rQzRBb1Fxb0NKdktONkozWWx6ek03U1pUX0ZDN1RRcGlJRG11UlJsQ0gyOUE2c3lEajhTZVF0ZE9zdU9YZHhMMkRiNnNqTkVuaUo4MDh5Zy1CU2MzNlJmRjBXMG44WXcySjAxcHlUd19PSTR5YTFjZ2VmbGtnTEZrTmRGT2tPbzBXd1pKLVNPSVVZdGJnX2gxaVlyT0lYUzI0R2dOcWxDNUNLMkxZVTFWN2RHWks1Z0N6dEgwLXpFUFEyQTlTQ0s3d3ZWQWpZb2s3UHVHV2FpdnRYMGROUTZzaDhUX3BQSkhCTHdjZVVhNmhh",
-          "published_at": "2026-09-25T06:51:56Z",
+          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOT19rQzRBb1Fxb0NKdktONkozWWx6ek03U1pUX0ZDN1RRcGlJRG11UlJsQ0gyOUE2c3lEajhTZVF0ZE9zdU9YZHhMMkRiNnNqTkVuaUo4MDh5Zy1CU2MzNlJmRjBXMG44WXcySjAxcHlUd19PSTR5YTFjZ2VmbGtnTEZrTmRGT2tPbzBXd1pKLVNPSVVZdGJnX2gxaVlyT0lYUzI0R2dOcWxDNUNLMkxZVTFWN2RHWks1Z0N6dEgwLXpFUFEyQTlTQ0s3d3ZWQWpZb2s3UHVHV2FpdnRYMGROUTZzaDhUX3BQSkhCTHdjZVVhNmhh0gGIAkFVX3lxTE5kM0tvdlVrXy00UGtPZjdzUlJzRFNBOEU5YkJrTnB1Rl9CUWx5d2hnRDBtLVhsbkxPXzdkSWltN3l2NUdxNElFTlFXWnJYdGZQZkdaU0dxdWNnUUVfT2JoTTU4eWMxMFlScHJHaFhnSmYwZ3dPcmlMU0JlMkNhYnJHY09zRzNmX2RIMFgwc2V1alN6aThLQTIwX2J3Qk4zb3I4RGxnYUpQQWtsY25hNnRSMXcwbDViMkdtNnZHcGNyM1FVVVR3Uk9UQzhfREtyWWRES2wwaVdSZ1dOV2NBdFVGWTFtWnJqOGQ3ZEV0R2ZYNWMwZjdTUHQ2Z0pkQnJiNE9RcjNFMkNXQw",
+          "published_at": "2026-09-25T07:00:00Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -1040,10 +1040,10 @@
       ],
       "articles": [
         {
-          "article_id": "art_ec135693547319b9",
+          "article_id": "art_12547276a9cfab07",
           "title": "España y Marruecos: Amigos… pero no tanto",
           "title_key": "espana y marruecos amigos pero no tanto",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOdnJaNktaalBic2pIcFZobm52bG1aallmUjkwSE42UFhuQXJMY2ljUFd6cU12aWV2ZkR4cktqWHZjQlkyOVNLeTlXYzNMUzQ0YmFCQU90MS1LRVJLZkFhRGQxaEFMZnUxcE0xWjRZYTF0Mk1nbWhGclJ1NXZZWFhkMFdZWE5QUnRKcGtPRFpDSWpfT2VyR2pzMG5TTlZvekZaSlJZZFNkcFJKLXJmUGtWakdWck9qSlRqZ3VnVmJUaw",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNd19Tam50UWdmZ0liTVh2N3lHSEZuYkdDQlhMZVN4RlVwMnoyTzEtU1hVUzR2QmpXQkdsVzMtazd6dWJiZ3RwbGk3STU4bmNUNlItejdmbXJsWFR6aTZITmd6bzR3VWh2RHhRZ29YRzVBRGNoM3FqY2VOOG0tTUt4elViNXZNLTJRMkZ4SWxlWG1FZE9iSzZ4Zkw3S3RnTHU5RHZ5aVB6QmVfd3hwZC1LN1NCcGt2SXQ3ODVzTm1TUXdaQQ",
           "published_at": "2026-09-26T08:21:24Z",
           "observed_at": "",
           "source_id": "unknown",
@@ -1064,7 +1064,7 @@
     },
     {
       "event_id": "evt_259b1e0a684a3241",
-      "topic": "ceuta",
+      "topic": "relations",
       "first_seen": "2026-09-23T12:15:00Z",
       "last_seen": "2026-09-26T00:09:10Z",
       "headline": "Securitization Of Migration And Geopolitics Of Pressure: Ceuta And Melilla And Reshaping Of Morocco–EU Partnership At Crossroad Of Geopolitics, Security And International Law - Analysis",
@@ -1098,7 +1098,7 @@
           "tier": 1,
           "official": false,
           "weight": 1.0,
-          "topic": "ceuta",
+          "topic": "relations",
           "classification": "ANALYSIS",
           "signal": "",
           "description": ""
@@ -1106,52 +1106,6 @@
       ],
       "importance": 17,
       "operational_impact": "CONTEXT",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_1deb641fe1584644",
-      "topic": "ceuta",
-      "first_seen": "2026-09-25T07:00:00Z",
-      "last_seen": "2026-09-25T07:00:00Z",
-      "headline": "The Ceuta Crisis: A Key Test for Morocco on the Eve of Elections",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_a78c4843a8e8dc12",
-          "title": "The Ceuta Crisis: A Key Test for Morocco on the Eve of Elections",
-          "title_key": "the ceuta crisis a key test for morocco on the eve of elections",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeWkzRzljYng0OXFmbDlOX25SbGRQREM2OFMzT2xPVGJOSVFOazBldDdwbU96T3B6UWlJQ29YQ2doY3VFZGRaUnpxQXYtZTU4RUc5SllRTXBtRUdFTmx6d2FRSF9YSENQTjE3aVlsWVgyRGNRc0tPYURKcHRPdWY5TDZHU1hLNW42SERPQlpJVU1ONWdobVo2akpjS19vUG5hRzVFc1BRWGc4XzlCTXpQUA",
-          "published_at": "2026-09-25T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
       "operational_eligible": false
     },
     {
@@ -1199,6 +1153,52 @@
       "importance": 4,
       "operational_impact": "NONE",
       "operational_eligible": false
+    },
+    {
+      "event_id": "evt_400eb67af40625a8",
+      "topic": "melilla",
+      "first_seen": "2026-09-24T17:11:46Z",
+      "last_seen": "2026-09-24T17:11:46Z",
+      "headline": "Varios detenidos en Marruecos por “incitar” a la migración irregular “masiva” a Ceuta y Melilla",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_ce41d9c424b57258",
+          "title": "Varios detenidos en Marruecos por “incitar” a la migración irregular “masiva” a Ceuta y Melilla",
+          "title_key": "varios detenidos en marruecos por incitar a la migracion irregular masiva a ceuta y melilla",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdXRaek5QQVdodWduemptYnlzTWVPUUprTVRQUlBFWmhRRkFucW9UQjFDUGc1THh6c1RBOEJUcW9LelZNQzdiallsWVY1SncxRUxncG9ZcWt2eUNvOUNCdXpDYVBjc1hqLUVsM21zWGJBdjI0V2hMWEZ4WDhzTURnQjQyTVJacHFVSVpXN1NEaWpFT2ZTUjZndzE2dlUwbmhhdHkwZlZwLVdfQy1lZ2ZiXzlWanR3VGRqOEpyYnhZMFlqYkZxUG9uWdIBzgFBVV95cUxPN2tZZ3RtdnNWZEtBUm9zdzZjMkxJZHZGUEdvYnNOeV9BX2FOc3NvdjZUTHVSTTlNTm02YmFFS05YNzgtVlpkYkh6dUg4SjJDSmFyMmg3aWF1d3UxSHp0c0xuM3k3QVVlbmhDQ2I4VzVJb2NLSTMxTnBxMWEwQkdEemw0NTRrbUNlUG5NeEhURXQ3aGQ5ZUJkLXdpUDVwaGhRMktyQ2NoSVcycTRudDNHT09va3lmMTNkMGxXRlhRSVA0M0xjYlZ3VUxsaHdWUQ",
+          "published_at": "2026-09-24T17:11:46Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "melilla",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
     }
   ],
   "verification_summary": {
@@ -1206,8 +1206,8 @@
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 0,
-    "SINGLE_SOURCE": 4,
-    "UNCONFIRMED": 15,
+    "SINGLE_SOURCE": 5,
+    "UNCONFIRMED": 14,
     "TOTAL": 19
   },
   "article_count": 36,

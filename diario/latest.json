@@ -1,44 +1,41 @@
 {
-  "date": "2026-10-02",
+  "date": "2026-10-03",
   "headline": "España–Marruecos: qué aportan los titulares y qué falta comprobar",
-  "summary": "Selección automática de 6 referencias de 6 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
-  "published_at": "2026-10-02T14:34+02:00",
-  "updated_at": "2026-10-02T14:34+02:00",
-  "source_count": 6,
+  "summary": "Selección automática de 3 referencias de 3 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+  "published_at": "2026-10-03T13:39+02:00",
+  "updated_at": "2026-10-03T13:39+02:00",
+  "source_count": 3,
   "indexable": false,
   "edition_label": "Cuaderno diplomático",
   "edition_slug": "relations",
-  "fingerprint": "15c976d98436d93ccc8f",
-  "editor_engine": "gemini",
-  "editor_assistant_status": "ok",
-  "assistant_status": "ok",
+  "fingerprint": "d401150fbb5f007040f4",
+  "editor_engine": "rules",
+  "editor_assistant_status": "gemini-validation-es",
+  "assistant_status": "gemini-validation-es",
   "validator_version": 2,
-  "factual_packet_hash": "7de436469bc96eeedfe9082c09b7591aa2fac147a08a0307dc7afff37b23dc88",
+  "factual_packet_hash": "8cd5135badf42ae2a819911627a7def999fd1b20d6759eeb52796b94f5e73c01",
   "event_ids": [
     "evt_5e66f3bf9d68b547",
-    "evt_dbdb6c13591c5477",
-    "evt_96333dca373b8e5c",
     "evt_b635c7204bfd976a",
     "evt_f212471824c6ef38",
-    "evt_0c4aeef6fa17564d"
+    "evt_96333dca373b8e5c"
   ],
   "source_ids": [
     "elpais",
     "reuters",
-    "rtve",
     "unknown"
   ],
-  "timestamp": "2026-10-02T12:34:59.486248+00:00",
-  "fallback_used": false,
+  "timestamp": "2026-10-03T11:39:39.845519+00:00",
+  "fallback_used": true,
   "verification_summary": {
     "CONFIRMED_MULTI_SOURCE": 0,
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 0,
-    "SINGLE_SOURCE": 6,
+    "SINGLE_SOURCE": 4,
     "UNCONFIRMED": 15,
-    "TOTAL": 21
+    "TOTAL": 19
   },
-  "date_label": "2026-10-02",
-  "slug": "actual.html"
+  "date_label": "2026-10-03",
+  "slug": "2026-10-03.html"
 }

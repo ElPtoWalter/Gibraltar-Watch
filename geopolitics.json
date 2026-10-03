@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated_at": "2026-10-03T18:00:01.909850+00:00",
+  "generated_at": "2026-10-03T21:23:04.234399+00:00",
   "language_default": "es",
   "status": {
     "maritime_status": {
@@ -12,16 +12,16 @@
       "en": "There is not enough recent positive evidence to confirm operation; absence of alerts is not treated as proof."
     },
     "border_pressure": {
-      "es": "VIGILANCIA PREVENTIVA",
-      "en": "PREVENTIVE WATCH"
+      "es": "BAJA / SIN SEÑALES RECIENTES",
+      "en": "LOW / NO RECENT SIGNALS"
     },
     "border_note": {
-      "es": "Se conserva la vigilancia durante 48 horas desde la última señal preventiva antes de reducir el nivel.",
-      "en": "Monitoring is retained for 48 hours after the latest preventive signal before lowering the level."
+      "es": "No aparecen señales recientes suficientes para elevar el nivel.",
+      "en": "There are not enough recent signals to raise the level."
     },
     "border_watch": {
-      "last_signal_at": "2026-10-01T19:35:14.928843+00:00",
-      "hold_until": "2026-10-03T19:35:14.928843+00:00",
+      "last_signal_at": null,
+      "hold_until": null,
       "signal_sources": 0,
       "hold_hours": 48
     },
@@ -49,7 +49,7 @@
   "items": [
     {
       "title": "¿Qué revela la crisis de Ceuta sobre la relación con Marruecos?",
-      "source": "Agenda Pública",
+      "source": "agendapublica.es",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWFF0b0V4VkV1eFZ2Wi1aVXVLZWxBenpIblphNHN2QTJmeno5Smh1TDRHZkZSNjZ4TXB4MHI3ZVFLbE9zb3RfX3ktc2k4TU1hSjlQX1ItVDJsemEtUFNqQjhXMDZLVW9sYi0tZlAtTkQ2RGY2cTBsYlpsbWw5c0VoM29KVjNFb0N4UVdFbUk2d0l2aUVQ",
       "published_at": "2026-10-03T03:50:00+00:00",
       "category": "relations",
@@ -99,7 +99,7 @@
     },
     {
       "title": "Spanish royals to visit crisis-hit Ceuta on October 13 - International - World",
-      "source": "english.ahram.org.eg",
+      "source": "Ahram Online",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQeHFXeFRYbkRFb09MbGhHdUxFLW1OcHBMcFFFQV9VSlJVbDNRR1JoMlkzUWk0eFhkc3cyVW11N1c5TXN1ZmZsWF9aNE90NmVKQnVJRUVITEMyNFBiLWFrRmlMTXVfTl85RThsNnBZVEJRcW95bHljNXJxVXNwbU9WRzkzLUZwZFR1MVJhTnB2TmZrbUNHS2tTdm1fTGJJVXFYUGFYRjQ5YnFDWm5XZ19nd2V3",
       "published_at": "2026-10-01T12:51:01+00:00",
       "category": "ceuta",
@@ -119,7 +119,7 @@
     },
     {
       "title": "Las entretelas: qué implicaciones tiene el viaje real a Ceuta y Melilla en la relación con Marruecos",
-      "source": "El HuffPost",
+      "source": "huffingtonpost.es",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMUJsa1NxN2hlTDhmcEpsVU5LQ2p3eVpPX19ja0VqMkxITzVncHdWZV8wenJMeERqYU5pWXZCM2JrZjRlN1NqTkZhZVdNSWQ1SXNILUgyX3BkWnlXdVRiREdWMmlxOGVFVi00TWNqU2thdXkxSzA3SExaU3pGQXZKRmhQNGlPbXg4bDhrd24yNXBmMUN1eXpVYkI2NDdzcXpjZE51TmRUTUI0dWFzM0d0bVVuRGZldi11RXFjMmc4dFhMZ9IB1gFBVV95cUxQOUdDRlVnMnI5RXNiclNKUHMwMGM3MkFZV2dlbzlyOEU1cE1tQ3JqWWN0MVMxMGNWMmtVa19SVTM3VldReWd3bmJlRXNKbUJKNWpOZFJtdVpfbC16cEhXR1ZOWk81cHREOUlwdTJpSGJ0VHE0WWtuZmFjOVZtYUVvcHRDcFhkSGxzb3lwTVRpNGVHU21Zc0M4VFo3eTNqU1NsakRYSFU4WTFuakNsb2hGMkNRd2I1cHd4aHBTUDZ4YW1CT0R2RFMzWWpfUVVoT1J2NFF5Z2N3",
       "published_at": "2026-10-01T11:58:31+00:00",
       "category": "relations",
@@ -159,7 +159,7 @@
     },
     {
       "title": "La prensa de Marruecos asegura que la visita de los Reyes a Ceuta y Melilla \"vuelve a poner a prueba la cuestión de los dos enclaves marroquíes ocupados\"",
-      "source": "El Independiente",
+      "source": "elindependiente.com",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRVZtZVExM0ZvSTZCTmhBTHpJTEF1YXVrTGdyaDJwVnhnMFBEckNaaTVaMXVLdno2bkdTS0JvV1c0TWtvOG5oVWxORllzSWdELThDcElSRUpJVUdjZGR3QWhmVVVVdUx2RENXSGhSSU1YSG9lVkplOVJhVENOSlFvNm1fZkVjNjZSODVPT1B5YVItTXlGckItX0hYU0tUTUI4b18xZjNGdVRhN2JIRUx0cG1jMkRFSklzc0HSAb8BQVVfeXFMTnpzcnI2QkJZX1dURVBTc1hxRnJWR3UyZjJyWGU0NmhLbngwMUJJdFNYZjFISld2eUloOFFONzE4VGg0WldTYmhsVndGSG96NnhHX0pPejYya1ZzQ2Nid282cmFOMTZhd0J4R0Q1UGtpcHR3NlFtS0ROa2g1ODFxTHN3SGZYSndfVUdGdUxPa29FdUw0d3B4T2h1S2syUEpMRWYzNHgtYkhOT0Y2bmhublVPSHRlSDUtRWZRN3NJMEE",
       "published_at": "2026-10-01T09:40:04+00:00",
       "category": "relations",
@@ -209,7 +209,7 @@
     },
     {
       "title": "Más salidas tras el desalojo de Benítez: el movimiento continúa desde Ceuta hacia Marruecos",
-      "source": "ceutatv.com",
+      "source": "Ceuta Televisión",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQMlZ3eENUcGRkMmNJTklyTVFJekx4bGRpYmJVdmNVcmRMeElqZUpUdUFWcEFfZ0hHbzhlVVZfWWJSNUtWVC10R1g0UXZtbUh5c1p1aUNpVGgwMEc2UXJKOGhSMGRZd0tsZmJzVjYxaTU0Wmd4Zy02UjEwSUpocHBkM2dscE9GX05NUG5mLUgyci1DSURJQ1dibldYRC1zR3JVdzc5VGV0eVpIemRXUEhtTVdHMzlQSkdUMkhicDRnbElIcXpteGY4MW5XR2bSAdIBQVVfeXFMTklOTi1Cel81ajNQYWxTZUlsRDlXQ0drQmhDdzhIRGo4VFRiQXpkZ015S19FQm1vejlqeGMtSHlrZ3RqZkp6U29HRUdQMXd4YUs1eDdDU3pTeWlVVGt4cmtkM1BaNG9aN2tVeU5ybXZGQ3lXemduRU1vWmxwNXdfWElQZjdNWXpPTHlnMEZ5RE03ekJ2N3dzR2ZWeFAtdUNIdnNmXzVZV1Y5ZHZRVzRTb1E0dlZlNTBKbEdwS01zN0piUG5tVFZmeG5TRm50amRoa3hR",
       "published_at": "2026-09-30T10:06:46+00:00",
       "category": "ceuta",
@@ -239,7 +239,7 @@
     },
     {
       "title": "Ceuta y el acoso de Marruecos a España: el Diálogo del Club LD con Ignacio Cembrero, Óscar Elía y Enrique Navarro Gil",
-      "source": "Libertad Digital",
+      "source": "libertaddigital.com",
       "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPZjNlZzVic05jSjJOckZKQnFQdnAwRXlhLUV3QUxfclBoeFhKWlpKQ0RUNUkwTzdpeDItVUFjTzNQUUhteEtPN3lWNFFtaDZVdEpMdUhpWFFKMDRQUThQaEpKLUoyLVkzNTFaOUlLSmYza1htLVpuMUt3Mnlma3FRMVBVSkc4UU52czY1Z1l0bW9NZEUta29obl9ocXlkbHA5ZHQ5LXVuaTQ3Si1VT1RIMjY2RUQwS3FzUE9FS05UZWR4cGs4SEZpaEI1TW5kZVZhVXRwSE5XVHM1NnYxXzZjTnBPMFFIUnVVaExVZjE4Y0s2M252SFhEU2xaVXVXTHYwQlJwdtIBjwJBVV95cUxQbUNQTHVKMEd1WmFXdmxHUWNSYjlHQU1zNk9CNDY2QXlVMXdxemloaHZSdmlTZ1RHS2d0MW1CRVRrZ3A1TVlrdWZxWWdGNUUtQXdGWUhjQlNtaFBEYzYyUGx3QXlmamhUZ2JsaFNpZ3pueEFGaUFxVm5kRjBHS2RWQ04zWVFHOHZYSEdYZmlnaUlZeHo3cTZiR1QybzV2ZzMwRlZhYV9YZ2lKRlFrV1JlRzZ4RFJBNUpHODU0cjVlREdyaHBub0I5TXNOS19yeklXLW02V2pjWlRRcmpRX3hYV3E2RmkyYTZRYlZqN240SlMwM0htZXBoV3ltQ2ZiQXFESmhKcVBFNW5qZ2oxcmdZ",
       "published_at": "2026-09-29T14:24:12+00:00",
       "category": "relations",
@@ -349,7 +349,7 @@
     },
     {
       "title": "Securitization Of Migration And Geopolitics Of Pressure: Ceuta And Melilla And Reshaping Of Morocco–EU Partnership At Crossroad Of Geopolitics, Security And International Law - Analysis",
-      "source": "Eurasia Review",
+      "source": "eurasiareview.com",
       "url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxPaWdrZnZPNFllT0xMTWRhTVg0dzhMbm9qNjhqbzQyVU52V1dLWktVMEE5aXE1cVdjQjh1Z25CNWpKcmJqRE85LVIzMUdmeHV3cmFTVHhlYzNVTS1VNEtKZkdQZ1poVnlYYWQyQ1YwdXIzd29wTmhvMEhMLTIwdW53Q1c5UndtSS01czF3MHNSUEpmY0Fpc0dPdlA5ZWRKbWFBaE12aHNtMlRKemI3eHljcDh2a0JqMktVWERrXy1NbDZURm9VaUFUYlBWcHQtaWNHQWQzcmpSTWlPeFlCdFRsbVoxeUg1RGhyaldrZ3hvU01VYkRnYlN5NExHd3lfVVdnaXFabldxaG8yY2R3V2Nmc09jd25NaGRDTS1xRE9DOHl0MTJ6YmxSeHRpUThPMGtRTHFoQTN0Y2h4d0VxTkRqWkVoSQ",
       "published_at": "2026-09-26T00:09:10+00:00",
       "category": "relations",
@@ -359,7 +359,7 @@
     },
     {
       "title": "PP y Vox sacan adelante sus mociones sobre Ceuta entre reproches por inmigración y la relación con Marruecos",
-      "source": "Toledodiario",
+      "source": "toledodiario.es",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQdVVtdWFXQTBJMGhPeVNsOThBdk5XaDBlMlNDemJxakIyV0dIb09BUzdRMlJ1a0V2d1ZBRC1FQXcyM0tiLVdqUi1wMzFiOXhYVWtoNjFoQjlDcHJpSjhyUkF6SkZHQ21vNGVSakZsUFV5VkJZN1dtX2lYSnBJNzVMUllGTmNLSTh0c1ZqWG1ybE1VWC1LUXQ5X002bVlqaklNY3RLekp3UUNYSHJSOXQ5TjE3cEZpVGc3UU55WVVBeDJXM3pZeTYxQXJPSV8tVHRsdEE",
       "published_at": "2026-09-25T12:40:59+00:00",
       "category": "relations",

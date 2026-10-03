@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-03T13:29:19.594641+00:00",
+  "generated_at": "2026-10-03T18:00:15.458089+00:00",
   "events": [
     {
       "event_id": "evt_5e66f3bf9d68b547",
@@ -244,6 +244,24 @@
       ],
       "articles": [
         {
+          "article_id": "art_813a1f16ec8f5135",
+          "title": "Spanish king to visit disputed enclaves, testing Morocco ties after border crisis",
+          "title_key": "spanish king to visit disputed enclaves testing morocco ties after border crisis",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUEVlRmZlTDZUbVVDT0JLNGk1aVItTU9tbXM0M00yNkFGWGNwaUk5Ykc0eU0tMFFKRDhTb29lcDJqSGJhQk1zcGowTTgxMGFadUhabk9aMnZJYzRGTnhwTWtCOFkyd3RhWkwtZTdGcnZtcGt2RWktbW8yR21mdzZ4S3ZnX1BrZ0FBZjVPQWE0d09pUkhpLXQ0dWVuZTl4czR0Z0JhbnZvdWRKUXFKMkFVRWEzWGxWc29OZ2FEdTkwQQ",
+          "published_at": "2026-10-01T10:08:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
           "article_id": "art_f8e9dac793c82d5c",
           "title": "Spanish king to visit disputed enclaves, testing Morocco ties after border crisis",
           "title_key": "spanish king to visit disputed enclaves testing morocco ties after border crisis",
@@ -258,24 +276,6 @@
           "weight": 4.0,
           "topic": "ceuta",
           "classification": "FACT",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_d0e420dd1bec7d1f",
-          "title": "Spanish king to visit disputed enclaves, testing Morocco ties after border crisis",
-          "title_key": "spanish king to visit disputed enclaves testing morocco ties after border crisis",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZklnQVVoYVVIWjUya3VyT3d4VjQ5eWNDTTBtcmJ6b1N4Q1U5UUJnWDdiS29KVEExWWxEamkxdGs1LUZ4QnBsYXl4LWJ6LWhGVUNBQVlQSjFUdXJnNlpueGs1a2dKTzRXdENyTWdEaFRlSzVzVG1kVTlWZjVOQ0xQbjBn",
-          "published_at": "2026-10-01T10:47:04Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
         },
@@ -513,6 +513,79 @@
       "operational_eligible": false
     },
     {
+      "event_id": "evt_b635c7204bfd976a",
+      "topic": "ceuta",
+      "first_seen": "2026-09-29T12:06:52Z",
+      "last_seen": "2026-09-30T11:10:55Z",
+      "headline": "Brussels seeks to strengthen EU border controls after Ceuta crisis",
+      "classification": "FACT",
+      "verification_status": "SINGLE_SOURCE",
+      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
+      "sources": [
+        {
+          "source_id": "reuters",
+          "source_name": "Reuters",
+          "source_domain": "reuters.com",
+          "tier": 4,
+          "official": false,
+          "weight": 4.0
+        },
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "reuters",
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_1b2cf52ef917c653",
+          "title": "Brussels seeks to strengthen EU border controls after Ceuta crisis",
+          "title_key": "brussels seeks to strengthen eu border controls after ceuta crisis",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNzM1WE1JWTZUUGd6YmczOVpzRGNCYkNpVHliOFNQajctVFdzU2lsZXM2VVJESThsck9WOTZpZXBUVjBSd0xIX3ZUZzBPZWtDV3VDTHI5Q2FrZmxmV3JDdnkzR3VWRHFMb2tHS1VmRnFXX1VNN21ZMzJFWmlSQ2Y1Nklsb0NlN3FQVTVwekpsbi00M195Mnd0d0ZKblJUNWlVblRZX3VlTDBScVRwMkNXUGlPd2RIdEpUbG82T3ZTM181cFM1X2Rrag",
+          "published_at": "2026-09-29T12:06:52Z",
+          "observed_at": "",
+          "source_id": "reuters",
+          "source_name": "Reuters",
+          "source_domain": "reuters.com",
+          "tier": 4,
+          "official": false,
+          "weight": 4.0,
+          "topic": "ceuta",
+          "classification": "FACT",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_cee01779eec56055",
+          "title": "[Interview] Ceuta crisis shows how EU border outsourcing puts children at risk, says German lawyer",
+          "title_key": "interview ceuta crisis shows how eu border outsourcing puts children at risk says german lawyer",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQVUNCX0ZUc0RyMVlpdHU4LVl6MVJKZFRnazlwV2lUd01UMjE4ZDFrWWlSOC1QOXZVWGd4Um5EamtNNHJuNl9zM3VZcEhhVndsTE5faUs0Y0RHTmx1OGNPckd2SWZxZkpMdGFKODdueFlEbjNoN09SeFNJRGpab1RfMVQtNFFXazVzdXNNWmw4bk1FNzM3VjA5VlVEVVJzdi1tUWRxd0R0UWd3NXdWSUI5RE1iaGI4QXpTa3JKSlF0ZFBnTUdxa2d3ZkZ1U09CSDhmMXQwdEtMaw",
+          "published_at": "2026-09-30T11:10:55Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "ANALYSIS",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 46,
+      "operational_impact": "CONTEXT",
+      "operational_eligible": false
+    },
+    {
       "event_id": "evt_6ef7bcb07778b899",
       "topic": "ceuta",
       "first_seen": "2026-09-30T10:06:46Z",
@@ -559,11 +632,11 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_97be0a2502c646f9",
-      "topic": "melilla",
-      "first_seen": "2026-09-28T10:32:48Z",
-      "last_seen": "2026-09-29T15:16:12Z",
-      "headline": "Ceuta, Melilla y Marruecos: declaración que denuncia las violaciones de los derechos humanos contra las personas en situación de desplazamiento — especialmente solicitantes de asilo, menores y miembros de la comunidad LGBTIQ+",
+      "event_id": "evt_72d2468fd27ecc99",
+      "topic": "ceuta",
+      "first_seen": "2026-09-28T23:39:24Z",
+      "last_seen": "2026-09-30T04:00:00Z",
+      "headline": "A migration crisis in Ceuta strains a tradition of coexistence - Christian Science Monitor - CSMonitor.com",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
@@ -582,11 +655,11 @@
       ],
       "articles": [
         {
-          "article_id": "art_2a9a6b4b03d49641",
-          "title": "Ceuta, Melilla y Marruecos: declaración que denuncia las violaciones de los derechos humanos contra las personas en situación de desplazamiento — especialmente solicitantes de asilo, menores y miembros de la comunidad LGBTIQ+",
-          "title_key": "ceuta melilla y marruecos declaracion que denuncia las violaciones de los derechos humanos contra las personas en situacion de desplazamiento especialmente solicitantes de asilo menores y miembros de la comunidad lgbtiq",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQU296eTZEYjFEaG9IMExnSHFaN1JZVkpEbm9jZlVMcGJyeGtIVFlVY09rZWVKbmszRXBrRjVvaDAzYkQwRGRvd2ZBaThlSkVaYWNGR1BBQUMyRURlYTl2djI0eVV1TjNjOEFhT0JBcnMxYkZPWlctN2xxZHQ1a1pIMi04dURQbjVXZHQwRXUyTHB1MGtON1Vka0JlNA",
-          "published_at": "2026-09-29T15:16:12Z",
+          "article_id": "art_53af3eb4f49a1507",
+          "title": "Spain's migration crisis in Ceuta continues to destabilize government",
+          "title_key": "spain s migration crisis in ceuta continues to destabilize government",
+          "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNUTJOTzVfWTdfWEhjaURFSDBON3ZtZmRUcnlXUlphVGJ3TU1BYktQX1hyeGpXT0ZoYTFCTjdxSElfalJJMWJsamhnQWROb1JvUkxyQkRLSExJQTBHR2hFd3cxdjRZeVdwRFE3c0xDOVp0VjVKRHRDOW5SdVVEa25IUHFvalpDejl3UHNfLVA2a2U4U2NiUk1XMlBQX01wQm1wTzJqTTh2aXh5N2ZVMXlyNHJDcXpQQkRVSmVhb0xXRXpCTlhKZXFXRUh0Q2t2Nm5Ib043WlN4SWFtVFRTNWwydDMwQWlfRUwxSC1yVG5jaGd6WUxnR2NZUi1keHNuM1lYRmoyMEFaU3JkcXR0bjBDSURleHZkb011",
+          "published_at": "2026-09-28T23:39:24Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -594,7 +667,25 @@
           "tier": 1,
           "official": false,
           "weight": 1.0,
-          "topic": "melilla",
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_c363c9264c93de61",
+          "title": "A migration crisis in Ceuta strains a tradition of coexistence - Christian Science Monitor - CSMonitor.com",
+          "title_key": "a migration crisis in ceuta strains a tradition of coexistence",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObUJ1emtDT0hVNzU1VTVmWDZLS29ONEl1SlJLYTlCQWs2cjNJcDB4djRyWS1ya2laWV9rYkN5UWRsQUpHaE9pRVJ2dnVtY2V4Wl9DZTdhTFF6WDJuV3NRSXotM1JRdXNGN0tNR3NwVDQ5cFFWMlJmT1JsQjRrLWVLU3Itd3BBQW90eUNqZGk1RmhEV0k",
+          "published_at": "2026-09-30T04:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
@@ -651,52 +742,6 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_b635c7204bfd976a",
-      "topic": "ceuta",
-      "first_seen": "2026-09-29T12:06:52Z",
-      "last_seen": "2026-09-29T12:06:52Z",
-      "headline": "Brussels seeks to strengthen EU border controls after Ceuta crisis",
-      "classification": "FACT",
-      "verification_status": "SINGLE_SOURCE",
-      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
-      "sources": [
-        {
-          "source_id": "reuters",
-          "source_name": "Reuters",
-          "source_domain": "reuters.com",
-          "tier": 4,
-          "official": false,
-          "weight": 4.0
-        }
-      ],
-      "source_ids": [
-        "reuters"
-      ],
-      "articles": [
-        {
-          "article_id": "art_1b2cf52ef917c653",
-          "title": "Brussels seeks to strengthen EU border controls after Ceuta crisis",
-          "title_key": "brussels seeks to strengthen eu border controls after ceuta crisis",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNzM1WE1JWTZUUGd6YmczOVpzRGNCYkNpVHliOFNQajctVFdzU2lsZXM2VVJESThsck9WOTZpZXBUVjBSd0xIX3ZUZzBPZWtDV3VDTHI5Q2FrZmxmV3JDdnkzR3VWRHFMb2tHS1VmRnFXX1VNN21ZMzJFWmlSQ2Y1Nklsb0NlN3FQVTVwekpsbi00M195Mnd0d0ZKblJUNWlVblRZX3VlTDBScVRwMkNXUGlPd2RIdEpUbG82T3ZTM181cFM1X2Rrag",
-          "published_at": "2026-09-29T12:06:52Z",
-          "observed_at": "",
-          "source_id": "reuters",
-          "source_name": "Reuters",
-          "source_domain": "reuters.com",
-          "tier": 4,
-          "official": false,
-          "weight": 4.0,
-          "topic": "ceuta",
-          "classification": "FACT",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 43,
-      "operational_impact": "CONTEXT",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_a6fdc880c8bbbe2a",
       "topic": "melilla",
       "first_seen": "2026-09-29T05:05:01Z",
@@ -733,52 +778,6 @@
           "official": false,
           "weight": 1.0,
           "topic": "melilla",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_72d2468fd27ecc99",
-      "topic": "ceuta",
-      "first_seen": "2026-09-28T23:39:24Z",
-      "last_seen": "2026-09-28T23:39:24Z",
-      "headline": "Spain's migration crisis in Ceuta continues to destabilize government",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_53af3eb4f49a1507",
-          "title": "Spain's migration crisis in Ceuta continues to destabilize government",
-          "title_key": "spain s migration crisis in ceuta continues to destabilize government",
-          "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNUTJOTzVfWTdfWEhjaURFSDBON3ZtZmRUcnlXUlphVGJ3TU1BYktQX1hyeGpXT0ZoYTFCTjdxSElfalJJMWJsamhnQWROb1JvUkxyQkRLSExJQTBHR2hFd3cxdjRZeVdwRFE3c0xDOVp0VjVKRHRDOW5SdVVEa25IUHFvalpDejl3UHNfLVA2a2U4U2NiUk1XMlBQX01wQm1wTzJqTTh2aXh5N2ZVMXlyNHJDcXpQQkRVSmVhb0xXRXpCTlhKZXFXRUh0Q2t2Nm5Ib043WlN4SWFtVFRTNWwydDMwQWlfRUwxSC1yVG5jaGd6WUxnR2NZUi1keHNuM1lYRmoyMEFaU3JkcXR0bjBDSURleHZkb011",
-          "published_at": "2026-09-28T23:39:24Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
@@ -1153,52 +1152,6 @@
       "importance": 4,
       "operational_impact": "NONE",
       "operational_eligible": false
-    },
-    {
-      "event_id": "evt_400eb67af40625a8",
-      "topic": "melilla",
-      "first_seen": "2026-09-24T17:11:46Z",
-      "last_seen": "2026-09-24T17:11:46Z",
-      "headline": "Varios detenidos en Marruecos por “incitar” a la migración irregular “masiva” a Ceuta y Melilla",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_ce41d9c424b57258",
-          "title": "Varios detenidos en Marruecos por “incitar” a la migración irregular “masiva” a Ceuta y Melilla",
-          "title_key": "varios detenidos en marruecos por incitar a la migracion irregular masiva a ceuta y melilla",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdXRaek5QQVdodWduemptYnlzTWVPUUprTVRQUlBFWmhRRkFucW9UQjFDUGc1THh6c1RBOEJUcW9LelZNQzdiallsWVY1SncxRUxncG9ZcWt2eUNvOUNCdXpDYVBjc1hqLUVsM21zWGJBdjI0V2hMWEZ4WDhzTURnQjQyTVJacHFVSVpXN1NEaWpFT2ZTUjZndzE2dlUwbmhhdHkwZlZwLVdfQy1lZ2ZiXzlWanR3VGRqOEpyYnhZMFlqYkZxUG9uWdIBzgFBVV95cUxPN2tZZ3RtdnNWZEtBUm9zdzZjMkxJZHZGUEdvYnNOeV9BX2FOc3NvdjZUTHVSTTlNTm02YmFFS05YNzgtVlpkYkh6dUg4SjJDSmFyMmg3aWF1d3UxSHp0c0xuM3k3QVVlbmhDQ2I4VzVJb2NLSTMxTnBxMWEwQkdEemw0NTRrbUNlUG5NeEhURXQ3aGQ5ZUJkLXdpUDVwaGhRMktyQ2NoSVcycTRudDNHT09va3lmMTNkMGxXRlhRSVA0M0xjYlZ3VUxsaHdWUQ",
-          "published_at": "2026-09-24T17:11:46Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
     }
   ],
   "verification_summary": {
@@ -1207,9 +1160,9 @@
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 0,
     "SINGLE_SOURCE": 5,
-    "UNCONFIRMED": 14,
-    "TOTAL": 19
+    "UNCONFIRMED": 12,
+    "TOTAL": 17
   },
   "article_count": 36,
-  "event_count": 19
+  "event_count": 17
 }

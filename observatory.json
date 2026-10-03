@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-03T13:29:20Z",
+  "generated_at": "2026-10-03T18:00:15Z",
   "state": {
     "code": "watch",
     "label_es": "VIGILANCIA",
@@ -25,8 +25,8 @@
         "severity": 0
       }
     },
-    "confidence": "MEDIA",
-    "confidence_explanation_es": "Confianza media: la lectura es coherente, pero aún faltan corroboraciones independientes para elevarla.",
+    "confidence": "BAJA",
+    "confidence_explanation_es": "Confianza baja: la información disponible no permite una corroboración reciente suficiente.",
     "sources_pending": [],
     "alert_level": {
       "code": "informational",
@@ -60,7 +60,7 @@
   },
   "health": {
     "overall": "HEALTHY",
-    "generated_at": "2026-10-03T13:29:20Z"
+    "generated_at": "2026-10-03T18:00:15Z"
   },
   "latest_diary": {
     "date": "2026-10-03",

@@ -1,94 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-03T02:03:05.629518+00:00",
+  "generated_at": "2026-10-03T08:13:07.668269+00:00",
   "events": [
-    {
-      "event_id": "evt_7935367e3f043ff2",
-      "topic": "relations",
-      "first_seen": "2026-10-01T12:32:39Z",
-      "last_seen": "2026-10-02T21:51:57Z",
-      "headline": "Will King Felipe VI’s visit to Ceuta and Melilla test the partnership between Morocco and Spain?",
-      "classification": "ANALYSIS",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_967ec352f5306dce",
-          "title": "Spain’s King Felipe VI to Visit Ceuta, Melilla in October",
-          "title_key": "spain s king felipe vi to visit ceuta melilla in october",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNenRBVFNCQTBtOGJ6YkhrclBEaG5IWFBncGp5TlpRbWdfc2FXa3c4cElGQkNldnVGZTM3LWdOaFVHbXhueThjUkQ2bjcyOGpkbkFpOVNRVi1nLXNDVFl3UlZhX0YxekppNTBiM1JVeDFrWmJNXzllazdHWFZGaWZRTzMzcUh5WU0ybTBsWms4MmFuMGl3Qnh2bmZEYmM5MTJNQ2d6OWJaTQ",
-          "published_at": "2026-10-01T12:32:39Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_144c0faf8d0ba346",
-          "title": "Morocco stays silent as Spain prepares royal visit to Ceuta and Melilla",
-          "title_key": "morocco stays silent as spain prepares royal visit to ceuta and melilla",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZF9nc1FvcFE1SGQwZVdqVzJVQVpmb0t4ZlFSN052S09NWGE3TU96VmhFZWkxY29kTnZtdE5od0xoX3RNX01ibHlPX242TFVPN1FrZTRqWEVLa2luczlHVFJXU3c2S1VNRFFLR19MSHBLN0Rqem9FR3F4MVBSSTJPMG0xbzZBTnY5R1Fpd19rTTlPWWtEc2lZVEJtVnI2LVZhbmxibnhHdHM",
-          "published_at": "2026-10-01T16:55:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_3b72a141b1c6f383",
-          "title": "Will King Felipe VI’s visit to Ceuta and Melilla test the partnership between Morocco and Spain?",
-          "title_key": "will king felipe vi s visit to ceuta and melilla test the partnership between morocco and spain",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTGxPajdJMTRkdWJrYndKZFRnOUp4SmQ3SFhQV0VsTi16LVM4ME5mblRlbzRfNnFRWnIxRnh0Rkd2M1B6ZkhUOUhLeDVLRFFoRHh5cmN6aDhURk9TNVdHbWhuNGd2ZXJLbTdBYmpaS0c3ZklBMk9mNV8yOS1lekx0OXlMQ05OYzg",
-          "published_at": "2026-10-02T21:51:57Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "ANALYSIS",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 17,
-      "operational_impact": "CONTEXT",
-      "operational_eligible": false
-    },
     {
       "event_id": "evt_5e66f3bf9d68b547",
       "topic": "relations",
       "first_seen": "2026-10-01T09:40:04Z",
-      "last_seen": "2026-10-02T08:39:16Z",
+      "last_seen": "2026-10-03T03:50:00Z",
       "headline": "La Casa Real subraya con la visita a Ceuta y Melilla que España es la “puerta de entrada” de Marruecos en Europa",
       "classification": "FACT",
       "verification_status": "SINGLE_SOURCE",
@@ -205,9 +123,109 @@
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
+        },
+        {
+          "article_id": "art_bf1b1e49f336af67",
+          "title": "¿Qué revela la crisis de Ceuta sobre la relación con Marruecos?",
+          "title_key": "que revela la crisis de ceuta sobre la relacion con marruecos",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWFF0b0V4VkV1eFZ2Wi1aVXVLZWxBenpIblphNHN2QTJmeno5Smh1TDRHZkZSNjZ4TXB4MHI3ZVFLbE9zb3RfX3ktc2k4TU1hSjlQX1ItVDJsemEtUFNqQjhXMDZLVW9sYi0tZlAtTkQ2RGY2cTBsYlpsbWw5c0VoM29KVjNFb0N4UVdFbUk2d0l2aUVQ",
+          "published_at": "2026-10-03T03:50:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "ANALYSIS",
+          "signal": "",
+          "description": ""
         }
       ],
       "importance": 46,
+      "operational_impact": "CONTEXT",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_7935367e3f043ff2",
+      "topic": "relations",
+      "first_seen": "2026-10-01T12:32:39Z",
+      "last_seen": "2026-10-02T21:51:22Z",
+      "headline": "Will King Felipe VI’s visit to Ceuta and Melilla test the partnership between Morocco and Spain?",
+      "classification": "ANALYSIS",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_967ec352f5306dce",
+          "title": "Spain’s King Felipe VI to Visit Ceuta, Melilla in October",
+          "title_key": "spain s king felipe vi to visit ceuta melilla in october",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNenRBVFNCQTBtOGJ6YkhrclBEaG5IWFBncGp5TlpRbWdfc2FXa3c4cElGQkNldnVGZTM3LWdOaFVHbXhueThjUkQ2bjcyOGpkbkFpOVNRVi1nLXNDVFl3UlZhX0YxekppNTBiM1JVeDFrWmJNXzllazdHWFZGaWZRTzMzcUh5WU0ybTBsWms4MmFuMGl3Qnh2bmZEYmM5MTJNQ2d6OWJaTQ",
+          "published_at": "2026-10-01T12:32:39Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_144c0faf8d0ba346",
+          "title": "Morocco stays silent as Spain prepares royal visit to Ceuta and Melilla",
+          "title_key": "morocco stays silent as spain prepares royal visit to ceuta and melilla",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZF9nc1FvcFE1SGQwZVdqVzJVQVpmb0t4ZlFSN052S09NWGE3TU96VmhFZWkxY29kTnZtdE5od0xoX3RNX01ibHlPX242TFVPN1FrZTRqWEVLa2luczlHVFJXU3c2S1VNRFFLR19MSHBLN0Rqem9FR3F4MVBSSTJPMG0xbzZBTnY5R1Fpd19rTTlPWWtEc2lZVEJtVnI2LVZhbmxibnhHdHM",
+          "published_at": "2026-10-01T16:55:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_3b72a141b1c6f383",
+          "title": "Will King Felipe VI’s visit to Ceuta and Melilla test the partnership between Morocco and Spain?",
+          "title_key": "will king felipe vi s visit to ceuta and melilla test the partnership between morocco and spain",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTGxPajdJMTRkdWJrYndKZFRnOUp4SmQ3SFhQV0VsTi16LVM4ME5mblRlbzRfNnFRWnIxRnh0Rkd2M1B6ZkhUOUhLeDVLRFFoRHh5cmN6aDhURk9TNVdHbWhuNGd2ZXJLbTdBYmpaS0c3ZklBMk9mNV8yOS1lekx0OXlMQ05OYzg",
+          "published_at": "2026-10-02T21:51:22Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "ANALYSIS",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 17,
       "operational_impact": "CONTEXT",
       "operational_eligible": false
     },
@@ -821,19 +839,11 @@
       "topic": "relations",
       "first_seen": "2026-09-29T14:24:12Z",
       "last_seen": "2026-09-27T16:59:51Z",
-      "headline": "Marruecos se compromete a colaborar para la devolución de los inmigrantes que todavía quedan en Ceuta - RTVE.es",
-      "classification": "FACT",
-      "verification_status": "SINGLE_SOURCE",
-      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
+      "headline": "Marruecos señala a España por los inmigrantes de Ceuta: \"Si no han sido devueltos, la pregunta hay que hacérsela a España\"",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
       "sources": [
-        {
-          "source_id": "rtve",
-          "source_name": "RTVE",
-          "source_domain": "rtve.es",
-          "tier": 4,
-          "official": false,
-          "weight": 4.0
-        },
         {
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -844,7 +854,6 @@
         }
       ],
       "source_ids": [
-        "rtve",
         "unknown"
       ],
       "articles": [
@@ -867,28 +876,10 @@
           "description": ""
         },
         {
-          "article_id": "art_3f204eab981336bc",
-          "title": "Marruecos se compromete a colaborar para la devolución de los inmigrantes que todavía quedan en Ceuta - RTVE.es",
-          "title_key": "marruecos se compromete a colaborar para la devolucion de los inmigrantes que todavia quedan en ceuta",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWXBCOFl0dmgweEcxV2dUNTU1bWQ3Q0VIRmVBcDk3Z0VtUXVYUEhOYWdBbVlHZGxKR1BrZmFha0x6RERwdTdWOUttX1V1ZHJYMExGdnVTQnoxM1ZsWExNekEwcGVTeHBhaWN4OWlIYW4ycTNKUExWMHd2ZEZqYXNvN2tDRnpGczZQWTR4dm1zUHV5Mk54Y0JTdmlldEhlWmw0dTl6ZDFPWVNCcUdEak1DX3lwUjNFaE9UbHZCcWpla1M3U2tNYnRaWXVDTkxZU1NGQmlR",
-          "published_at": "2026-09-24T20:42:35Z",
-          "observed_at": "",
-          "source_id": "rtve",
-          "source_name": "RTVE",
-          "source_domain": "rtve.es",
-          "tier": 4,
-          "official": false,
-          "weight": 4.0,
-          "topic": "relations",
-          "classification": "FACT",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_76979c74f08acfc9",
+          "article_id": "art_022357c069f52016",
           "title": "Marruecos señala a España por los inmigrantes de Ceuta: \"Si no han sido devueltos, la pregunta hay que hacérsela a España\"",
           "title_key": "marruecos senala a espana por los inmigrantes de ceuta si no han sido devueltos la pregunta hay que hacersela a espana",
-          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOT19rQzRBb1Fxb0NKdktONkozWWx6ek03U1pUX0ZDN1RRcGlJRG11UlJsQ0gyOUE2c3lEajhTZVF0ZE9zdU9YZHhMMkRiNnNqTkVuaUo4MDh5Zy1CU2MzNlJmRjBXMG44WXcySjAxcHlUd19PSTR5YTFjZ2VmbGtnTEZrTmRGT2tPbzBXd1pKLVNPSVVZdGJnX2gxaVlyT0lYUzI0R2dOcWxDNUNLMkxZVTFWN2RHWks1Z0N6dEgwLXpFUFEyQTlTQ0s3d3ZWQWpZb2s3UHVHV2FpdnRYMGROUTZzaDhUX3BQSkhCTHdjZVVhNmhh0gGIAkFVX3lxTE5kM0tvdlVrXy00UGtPZjdzUlJzRFNBOEU5YkJrTnB1Rl9CUWx5d2hnRDBtLVhsbkxPXzdkSWltN3l2NUdxNElFTlFXWnJYdGZQZkdaU0dxdWNnUUVfT2JoTTU4eWMxMFlScHJHaFhnSmYwZ3dPcmlMU0JlMkNhYnJHY09zRzNmX2RIMFgwc2V1alN6aThLQTIwX2J3Qk4zb3I4RGxnYUpQQWtsY25hNnRSMXcwbDViMkdtNnZHcGNyM1FVVVR3Uk9UQzhfREtyWWRES2wwaVdSZ1dOV2NBdFVGWTFtWnJqOGQ3ZEV0R2ZYNWMwZjdTUHQ2Z0pkQnJiNE9RcjNFMkNXQw",
+          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOT19rQzRBb1Fxb0NKdktONkozWWx6ek03U1pUX0ZDN1RRcGlJRG11UlJsQ0gyOUE2c3lEajhTZVF0ZE9zdU9YZHhMMkRiNnNqTkVuaUo4MDh5Zy1CU2MzNlJmRjBXMG44WXcySjAxcHlUd19PSTR5YTFjZ2VmbGtnTEZrTmRGT2tPbzBXd1pKLVNPSVVZdGJnX2gxaVlyT0lYUzI0R2dOcWxDNUNLMkxZVTFWN2RHWks1Z0N6dEgwLXpFUFEyQTlTQ0s3d3ZWQWpZb2s3UHVHV2FpdnRYMGROUTZzaDhUX3BQSkhCTHdjZVVhNmhh",
           "published_at": "2026-09-25T06:51:56Z",
           "observed_at": "",
           "source_id": "unknown",
@@ -939,8 +930,8 @@
           "description": ""
         }
       ],
-      "importance": 46,
-      "operational_impact": "CONTEXT",
+      "importance": 4,
+      "operational_impact": "NONE",
       "operational_eligible": false
     },
     {
@@ -1215,8 +1206,8 @@
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 0,
-    "SINGLE_SOURCE": 5,
-    "UNCONFIRMED": 14,
+    "SINGLE_SOURCE": 4,
+    "UNCONFIRMED": 15,
     "TOTAL": 19
   },
   "article_count": 36,

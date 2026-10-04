@@ -140,6 +140,46 @@ class PublicationTests(unittest.TestCase):
         self.assertIn("error:'ERROR DE FUENTES'", script)
         self.assertNotIn("[health?.overall] || 'SIN DATOS'", script)
 
+    def test_real_home_header_is_prerendered_without_javascript(self):
+        root = Path(__file__).resolve().parent
+        data = {
+            "observatory.json": {
+                "generated_at": "2026-10-04T07:00:06Z",
+                "state": {"label_es": "VIGILANCIA", "confidence": "MEDIA"},
+            },
+            "geopolitics.json": {"generated_at": "2026-10-03T22:01:00Z"},
+        }
+        for page in ("index.html", "situacion-actual.html"):
+            with self.subTest(page=page):
+                rendered = build.prerender_html((root / page).read_text(encoding="utf-8"), page, data)
+                self.assertIn('<b data-gwo-state>VIGILANCIA</b>', rendered)
+                self.assertIn('<small data-gwo-updated>04/10/2026 · 09:00 (hora peninsular)</small>', rendered)
+                self.assertNotIn("Sin datos todavía", rendered)
+                self.assertNotIn("Pendiente de la primera comprobación", rendered)
+
+    def test_shared_header_fields_escape_text_and_support_attribute_variants(self):
+        data = {"observatory.json": {
+            "generated_at": "2026-10-04T07:00:06Z",
+            "state": {"label_es": '<script>alert("x")</script>', "confidence": "BAJA & PARCIAL"},
+        }}
+        document = ('<div data-gwo-state-box><b data-gwo-state="">old</b>'
+                    '<b data-gwo-state>old</b><small data-gwo-updated="">old</small>'
+                    '<b data-gwo-confidence=\'\'>old</b></div>')
+        for page in ("index.html", "situacion-actual.html"):
+            rendered = build.prerender_html(document, page, data)
+            self.assertTrue(rendered.startswith('<div data-gwo-state-box>'))
+            self.assertEqual(rendered.count("&lt;script&gt;"), 2)
+            self.assertIn("BAJA &amp; PARCIAL", rendered)
+            self.assertIn("04/10/2026 · 09:00 (hora peninsular)", rendered)
+            self.assertNotIn("<script>", rendered)
+            self.assertNotIn("old", rendered)
+
+    def test_missing_snapshot_does_not_invent_a_current_status(self):
+        document = '<b data-gwo-state>old</b><small data-gwo-updated>old</small>'
+        rendered = build.prerender_html(document, "index.html", {})
+        self.assertIn("Sin datos todavía", rendered)
+        self.assertIn("Sin fecha disponible", rendered)
+
     def test_updates_trigger_public_deployment(self):
         root = Path(__file__).resolve().parent
         deploy = (root / ".github/workflows/deploy-gibraltar-secure.yml").read_text(encoding="utf-8")
@@ -171,3 +211,4 @@ class PublicationTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+

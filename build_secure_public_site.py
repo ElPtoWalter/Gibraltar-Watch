@@ -137,6 +137,15 @@ def replace_attr(document: str, attr: str, value: str, content: str) -> str:
     return _replace_matches(document, pattern, content)
 
 
+def replace_data_field(document: str, attr: str, content: str) -> str:
+    """Render a data field whether its attribute is bare or explicitly valued."""
+    pattern = re.compile(
+        rf'<(?P<tag>[A-Za-z0-9]+)\b[^>]*\b{re.escape(attr)}(?=\s|=|>)[^>]*>',
+        re.I | re.S,
+    )
+    return _replace_matches(document, pattern, content)
+
+
 def localized(value, lang: str = "es", fallback: str = "—") -> str:
     if isinstance(value, dict):
         return str(value.get(lang) or value.get("es") or value.get("en") or fallback)
@@ -277,6 +286,16 @@ def prerender_html(text: str, relative_path: str, data: dict[str, object]) -> st
     confidence = str(state.get("confidence") or localized(status.get("confidence")))
     confidence_note = str(state.get("confidence_explanation_es") or "La confianza depende de la frescura y cobertura de las fuentes consultadas.")
 
+    # The observatory header is shared by the home and situation pages. Render
+    # it before page-specific panels so crawlers see the same snapshot as JS.
+    if relative_path in {"index.html", "situacion-actual.html", "en-current-situation.html"}:
+        for attr, value in {
+            "data-gwo-state": str(state.get("label_es") or "Sin datos todavía"),
+            "data-gwo-updated": format_checked_at(checked),
+            "data-gwo-confidence": confidence,
+        }.items():
+            text = replace_data_field(text, attr, html.escape(value))
+
     if relative_path in {"operacion-paso-estrecho-2026.html", "en-strait-crossing-operation-2026.html"}:
         ope = data.get("ope-2026.json") if isinstance(data.get("ope-2026.json"), dict) else {}
         text = prerender_ope(text, ope, "en" if relative_path.startswith("en-") else "es")
@@ -316,10 +335,6 @@ def prerender_html(text: str, relative_path: str, data: dict[str, object]) -> st
         text = replace_attr(text, "data-news-feed", "", render_strategy_news(geopolitics.get("items"))) if 'data-news-feed=""' in text else text
         # Boolean data-news-feed attributes need their own pattern.
         text = _replace_matches(text, re.compile(r'<(?P<tag>[A-Za-z0-9]+)\b[^>]*\bdata-news-feed(?=\s|>)[^>]*>', re.I | re.S), render_strategy_news(geopolitics.get("items")))
-        text = replace_attr(text, "data-gwo-state", "", html.escape(str(state.get("label_es") or "Sin datos todavía"))) if 'data-gwo-state=""' in text else text
-        text = _replace_matches(text, re.compile(r'<(?P<tag>[A-Za-z0-9]+)\b[^>]*\bdata-gwo-state(?=\s|>)[^>]*>', re.I | re.S), html.escape(str(state.get("label_es") or "Sin datos todavía")))
-        text = _replace_matches(text, re.compile(r'<(?P<tag>[A-Za-z0-9]+)\b[^>]*\bdata-gwo-updated(?=\s|>)[^>]*>', re.I | re.S), html.escape(format_checked_at(checked)))
-        text = _replace_matches(text, re.compile(r'<(?P<tag>[A-Za-z0-9]+)\b[^>]*\bdata-gwo-confidence(?=\s|>)[^>]*>', re.I | re.S), html.escape(confidence))
         text = _replace_matches(text, re.compile(r'<(?P<tag>[A-Za-z0-9]+)\b[^>]*\bdata-gwo-confidence-note(?=\s|>)[^>]*>', re.I | re.S), html.escape(confidence_note))
         text = _replace_matches(text, re.compile(r'<(?P<tag>[A-Za-z0-9]+)\b[^>]*\bdata-gwo-summary(?=\s|>)[^>]*>', re.I | re.S), html.escape(str(state.get("summary_es") or "")))
         alert = state.get("alert_level") if isinstance(state.get("alert_level"), dict) else {}
@@ -510,3 +525,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+

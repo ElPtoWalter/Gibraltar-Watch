@@ -1,7 +1,53 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-05T16:07:00.695608+00:00",
+  "generated_at": "2026-10-05T22:42:31.226608+00:00",
   "events": [
+    {
+      "event_id": "evt_ce75ae1fe82a89f4",
+      "topic": "relations",
+      "first_seen": "2026-10-05T20:15:00Z",
+      "last_seen": "2026-10-05T20:15:00Z",
+      "headline": "Morocco And the Political Language of Perception in Spain",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_a0572b06b66050c4",
+          "title": "Morocco And the Political Language of Perception in Spain",
+          "title_key": "morocco and the political language of perception in spain",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRE1ta1dHRVNtX0l5ZW9CTTR2cDVESHFzSk5aMzk3cnZvS1hSMmc4Z25EemJob2NsQkgxRlhuaE9ZSnl5Nzg1LVJINlZvbWZXNy1NMU5LazFpRS03RDJwREZnMWpNY1drZHFvYXk4R0ZiTEhvOV92b1o0amNDSUFmSHZKb1N4d2VIUWFnT0tDLXhnSFBQVmF6Q3VqSUdMbFRWLWtUMHdPQUtmZw",
+          "published_at": "2026-10-05T20:15:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
     {
       "event_id": "evt_a7d87f3578e11c62",
       "topic": "relations",
@@ -409,10 +455,18 @@
       "first_seen": "2026-10-01T10:08:29Z",
       "last_seen": "2026-10-01T12:51:01Z",
       "headline": "Spanish king to visit disputed enclaves, testing Morocco ties after border crisis",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "classification": "FACT",
+      "verification_status": "SINGLE_SOURCE",
+      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
       "sources": [
+        {
+          "source_id": "reuters",
+          "source_name": "Reuters",
+          "source_domain": "reuters.com",
+          "tier": 4,
+          "official": false,
+          "weight": 4.0
+        },
         {
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -423,24 +477,25 @@
         }
       ],
       "source_ids": [
+        "reuters",
         "unknown"
       ],
       "articles": [
         {
-          "article_id": "art_813a1f16ec8f5135",
+          "article_id": "art_f8e9dac793c82d5c",
           "title": "Spanish king to visit disputed enclaves, testing Morocco ties after border crisis",
           "title_key": "spanish king to visit disputed enclaves testing morocco ties after border crisis",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUEVlRmZlTDZUbVVDT0JLNGk1aVItTU9tbXM0M00yNkFGWGNwaUk5Ykc0eU0tMFFKRDhTb29lcDJqSGJhQk1zcGowTTgxMGFadUhabk9aMnZJYzRGTnhwTWtCOFkyd3RhWkwtZTdGcnZtcGt2RWktbW8yR21mdzZ4S3ZnX1BrZ0FBZjVPQWE0d09pUkhpLXQ0dWVuZTl4czR0Z0JhbnZvdWRKUXFKMkFVRWEzWGxWc29OZ2FEdTkwQQ",
-          "published_at": "2026-10-01T10:08:00Z",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWXNBc2JkcWsxNEREWTNrcEtLOGdTVjlESXhIQnhUTEVjeWJHSjdibFp0NmRKUkJOZEJPVlZsNFNwQ0UwRzRfM1RILVM2VGJUOGU2UU5vUllZNXBqd2lfQmdFWDE3OGFVVVhmZ1dEM1prX2YyNUt2d3d2OVZLVmxGTFZ6aGJ4NWF3WXJ1azZPeTkyLWc1Y0FBZHpBY3pwNDY4UWd4dTVkck0zbUpGTUEtZWVyQlhGWnlqdVhZ",
+          "published_at": "2026-10-01T10:08:29Z",
           "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
+          "source_id": "reuters",
+          "source_name": "Reuters",
+          "source_domain": "reuters.com",
+          "tier": 4,
           "official": false,
-          "weight": 1.0,
+          "weight": 4.0,
           "topic": "ceuta",
-          "classification": "UNCONFIRMED",
+          "classification": "FACT",
           "signal": "",
           "description": ""
         },
@@ -463,8 +518,8 @@
           "description": ""
         }
       ],
-      "importance": 4,
-      "operational_impact": "NONE",
+      "importance": 46,
+      "operational_impact": "CONTEXT",
       "operational_eligible": false
     },
     {
@@ -1086,24 +1141,6 @@
       ],
       "articles": [
         {
-          "article_id": "art_0fd106cfa3e6a72e",
-          "title": "Humanitarian crisis worsens in Ceuta as thousands remain stranded",
-          "title_key": "humanitarian crisis worsens in ceuta as thousands remain stranded",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUVJXQkV4by1ScnpYQzFtd1lGUHkzX3R6aHg2QWVTa0llZXRkeUk5cUlycFdaQTZnVXlxdnpabmNvUEFpenNhQ0VvaFZ6SXZjczZVSHR6WUtLb1ZYUFNoQ183R3Rfb2lUbGV0UTZFUTY0NHFhelVfUURGa2VwRmx6d196UUxDYmxFdUJmb2N3Z1VLbnQ2VFpCT2RnOTNqa1dLWDNnM2lRMWsyd9IBrwFBVV95cUxNV2V4bE9oV2R1Tm42ME9QUFV1LXkwWnFNWFhGZDVqZE91dEdxN3cyZVZVemEtQlUwN2c5VVN1SmlDLTBNQ3RsMVpGQnBxbkdrNTNTNkxBZVRkY1JPV0xxLTBQRU9qTDhsV3I0T0s1Vl9BM2Zta2ZuZ2M3eEExOGI2Zm5IZlZmdTNWWDVOWEJTMG5obUVrZWpkMk5qRGFGZTZFb05Id2dSQU0xOE00NjZF",
-          "published_at": "2026-09-25T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
           "article_id": "art_5b415d4b50da144b",
           "title": "Tens of thousands attend right-wing protest over Ceuta migrant crisis",
           "title_key": "tens of thousands attend right wing protest over ceuta migrant crisis",
@@ -1178,10 +1215,10 @@
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 0,
-    "SINGLE_SOURCE": 4,
+    "SINGLE_SOURCE": 5,
     "UNCONFIRMED": 14,
-    "TOTAL": 18
+    "TOTAL": 19
   },
   "article_count": 36,
-  "event_count": 18
+  "event_count": 19
 }

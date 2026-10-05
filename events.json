@@ -1,7 +1,53 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-05T01:00:30.418341+00:00",
+  "generated_at": "2026-10-05T07:10:47.596514+00:00",
   "events": [
+    {
+      "event_id": "evt_a7d87f3578e11c62",
+      "topic": "relations",
+      "first_seen": "2026-10-05T03:00:00Z",
+      "last_seen": "2026-10-05T03:00:00Z",
+      "headline": "El 85,5% de los ciudadanos cree necesario reforzar la frontera de Ceuta",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_691a66c40436df8f",
+          "title": "El 85,5% de los ciudadanos cree necesario reforzar la frontera de Ceuta",
+          "title_key": "el 85 5 de los ciudadanos cree necesario reforzar la frontera de ceuta",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNR1J6YWhkZFdlaFV0QXdjSlpFV0hJRGlSTGY0V3hjNkhqSVRpSlRBZHJodXBqYTgwVkl1bktwUnAtWDJGSUM4eFNBXzZYQzg3NlBfcEhzbnVpR083NEFnbWpLY0t6RlM3YmFYNEhQSVNCcXhLS1M4bTFfVElXLXk3VFp4WHlZeTRJLWVEb2h4ZlBFcjVjMVZHaVAtR04tMGNaRGFUbnRyYnlmNHJ0ODVqSjZxV2xGbW41NnNRLWF5V0NFUGttekpCdGR5MTNXa1pKVmtzSFB4UUJjT00ySU5JQV91Zw",
+          "published_at": "2026-10-05T03:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
     {
       "event_id": "evt_7935367e3f043ff2",
       "topic": "relations",
@@ -623,57 +669,11 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_6ef7bcb07778b899",
-      "topic": "ceuta",
-      "first_seen": "2026-09-30T10:06:46Z",
-      "last_seen": "2026-09-30T10:06:46Z",
-      "headline": "Más salidas tras el desalojo de Benítez: el movimiento continúa desde Ceuta hacia Marruecos",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_286e2ba1b57d8cf9",
-          "title": "Más salidas tras el desalojo de Benítez: el movimiento continúa desde Ceuta hacia Marruecos",
-          "title_key": "mas salidas tras el desalojo de benitez el movimiento continua desde ceuta hacia marruecos",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQMlZ3eENUcGRkMmNJTklyTVFJekx4bGRpYmJVdmNVcmRMeElqZUpUdUFWcEFfZ0hHbzhlVVZfWWJSNUtWVC10R1g0UXZtbUh5c1p1aUNpVGgwMEc2UXJKOGhSMGRZd0tsZmJzVjYxaTU0Wmd4Zy02UjEwSUpocHBkM2dscE9GX05NUG5mLUgyci1DSURJQ1dibldYRC1zR3JVdzc5VGV0eVpIemRXUEhtTVdHMzlQSkdUMkhicDRnbElIcXpteGY4MW5XR2bSAdIBQVVfeXFMTklOTi1Cel81ajNQYWxTZUlsRDlXQ0drQmhDdzhIRGo4VFRiQXpkZ015S19FQm1vejlqeGMtSHlrZ3RqZkp6U29HRUdQMXd4YUs1eDdDU3pTeWlVVGt4cmtkM1BaNG9aN2tVeU5ybXZGQ3lXemduRU1vWmxwNXdfWElQZjdNWXpPTHlnMEZ5RE03ekJ2N3dzR2ZWeFAtdUNIdnNmXzVZV1Y5ZHZRVzRTb1E0dlZlNTBKbEdwS01zN0piUG5tVFZmeG5TRm50amRoa3hR",
-          "published_at": "2026-09-30T10:06:46Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_e9dfda25fdf62313",
       "topic": "ceuta",
       "first_seen": "2026-09-30T04:00:00Z",
       "last_seen": "2026-09-30T04:00:00Z",
-      "headline": "A migration crisis in Ceuta strains a tradition of coexistence",
+      "headline": "A migration crisis in Ceuta strains a tradition of coexistence - Christian Science Monitor - CSMonitor.com",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
@@ -693,7 +693,7 @@
       "articles": [
         {
           "article_id": "art_c363c9264c93de61",
-          "title": "A migration crisis in Ceuta strains a tradition of coexistence",
+          "title": "A migration crisis in Ceuta strains a tradition of coexistence - Christian Science Monitor - CSMonitor.com",
           "title_key": "a migration crisis in ceuta strains a tradition of coexistence",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObUJ1emtDT0hVNzU1VTVmWDZLS29ONEl1SlJLYTlCQWs2cjNJcDB4djRyWS1ya2laWV9rYkN5UWRsQUpHaE9pRVJ2dnVtY2V4Wl9DZTdhTFF6WDJuV3NRSXotM1JRdXNGN0tNR3NwVDQ5cFFWMlJmT1JsQjRrLWVLU3Itd3BBQW90eUNqZGk1RmhEV0k",
           "published_at": "2026-09-30T04:00:00Z",

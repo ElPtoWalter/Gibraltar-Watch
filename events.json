@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-04T21:35:55.277259+00:00",
+  "generated_at": "2026-10-05T01:00:30.418341+00:00",
   "events": [
     {
       "event_id": "evt_7935367e3f043ff2",
@@ -363,18 +363,10 @@
       "first_seen": "2026-10-01T10:08:29Z",
       "last_seen": "2026-10-01T12:51:01Z",
       "headline": "Spanish king to visit disputed enclaves, testing Morocco ties after border crisis",
-      "classification": "FACT",
-      "verification_status": "SINGLE_SOURCE",
-      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
       "sources": [
-        {
-          "source_id": "reuters",
-          "source_name": "Reuters",
-          "source_domain": "reuters.com",
-          "tier": 4,
-          "official": false,
-          "weight": 4.0
-        },
         {
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -385,7 +377,6 @@
         }
       ],
       "source_ids": [
-        "reuters",
         "unknown"
       ],
       "articles": [
@@ -408,24 +399,6 @@
           "description": ""
         },
         {
-          "article_id": "art_f8e9dac793c82d5c",
-          "title": "Spanish king to visit disputed enclaves, testing Morocco ties after border crisis",
-          "title_key": "spanish king to visit disputed enclaves testing morocco ties after border crisis",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWXNBc2JkcWsxNEREWTNrcEtLOGdTVjlESXhIQnhUTEVjeWJHSjdibFp0NmRKUkJOZEJPVlZsNFNwQ0UwRzRfM1RILVM2VGJUOGU2UU5vUllZNXBqd2lfQmdFWDE3OGFVVVhmZ1dEM1prX2YyNUt2d3d2OVZLVmxGTFZ6aGJ4NWF3WXJ1azZPeTkyLWc1Y0FBZHpBY3pwNDY4UWd4dTVkck0zbUpGTUEtZWVyQlhGWnlqdVhZ",
-          "published_at": "2026-10-01T10:08:29Z",
-          "observed_at": "",
-          "source_id": "reuters",
-          "source_name": "Reuters",
-          "source_domain": "reuters.com",
-          "tier": 4,
-          "official": false,
-          "weight": 4.0,
-          "topic": "ceuta",
-          "classification": "FACT",
-          "signal": "",
-          "description": ""
-        },
-        {
           "article_id": "art_81734e062155f1d2",
           "title": "Spanish royals to visit crisis-hit Ceuta on October 13 - International - World",
           "title_key": "spanish royals to visit crisis hit ceuta on october 13 international world",
@@ -444,8 +417,8 @@
           "description": ""
         }
       ],
-      "importance": 46,
-      "operational_impact": "CONTEXT",
+      "importance": 4,
+      "operational_impact": "NONE",
       "operational_eligible": false
     },
     {
@@ -700,7 +673,7 @@
       "topic": "ceuta",
       "first_seen": "2026-09-30T04:00:00Z",
       "last_seen": "2026-09-30T04:00:00Z",
-      "headline": "A migration crisis in Ceuta strains a tradition of coexistence - Christian Science Monitor - CSMonitor.com",
+      "headline": "A migration crisis in Ceuta strains a tradition of coexistence",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
@@ -720,7 +693,7 @@
       "articles": [
         {
           "article_id": "art_c363c9264c93de61",
-          "title": "A migration crisis in Ceuta strains a tradition of coexistence - Christian Science Monitor - CSMonitor.com",
+          "title": "A migration crisis in Ceuta strains a tradition of coexistence",
           "title_key": "a migration crisis in ceuta strains a tradition of coexistence",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObUJ1emtDT0hVNzU1VTVmWDZLS29ONEl1SlJLYTlCQWs2cjNJcDB4djRyWS1ya2laWV9rYkN5UWRsQUpHaE9pRVJ2dnVtY2V4Wl9DZTdhTFF6WDJuV3NRSXotM1JRdXNGN0tNR3NwVDQ5cFFWMlJmT1JsQjRrLWVLU3Itd3BBQW90eUNqZGk1RmhEV0k",
           "published_at": "2026-09-30T04:00:00Z",
@@ -806,11 +779,11 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_5e66f3bf9d68b547",
+      "event_id": "evt_0c4aeef6fa17564d",
       "topic": "relations",
-      "first_seen": "2026-10-01T09:40:04Z",
+      "first_seen": "2026-09-28T08:53:01Z",
       "last_seen": "2026-09-29T14:24:12Z",
-      "headline": "Los intercambios comerciales entre España y Marruecos crecieron en julio, mes en el que se produjo la invasión de Ceuta",
+      "headline": "Ceuta y el acoso de Marruecos a España: el Diálogo del Club LD con Ignacio Cembrero, Óscar Elía y Enrique Navarro Gil",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
@@ -829,11 +802,11 @@
       ],
       "articles": [
         {
-          "article_id": "art_8bac42af6d848021",
-          "title": "Los intercambios comerciales entre España y Marruecos crecieron en julio, mes en el que se produjo la invasión de Ceuta",
-          "title_key": "los intercambios comerciales entre espana y marruecos crecieron en julio mes en el que se produjo la invasion de ceuta",
-          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPYlJDdzRidGR1LU8taUpaNm1jaFdVaFd1MVhnbmM3RVBfUG1DYy1VWFVmR1B3c1RmcGhzVWxzNEF4SWZuQ0tGSExrc0ZZYnczWmdyTnlkSzhFTHdVWU5CYzVuQUFncEctMTRwb3RMMTZsb050R1lxc2ltSElsNUdQd3RueEJGbzUzaUdFRU1JWEJpRkhFZ0szY2YyQl9qYzZGRkljLUVIVFlQVGRvUV9pWjZ0MHh2UGJkMlBGZ3d3amkzTXBWMW52TDJGMk5qdFRmdlJLaXRSTlZoa0o1Y3RseUJ2RDh3WEhDZ1ZpSmhTVdIBgwJBVV95cUxPajBEVTdGYW00UUFfXzNaMjRCUVB3eEtiRURXN1VQT2FmUUt2VldMdmlhZk1vdDJOTWwxcUd0bjdlMmtub2pHa3RhNm90NTY5ODlETTFuLWxyMHc4UVRab28yeUVKZ0MyY1NkemwyWHEyZmQ1SVRuTXlscERVOUZDTkNDTmxRRFJ4SFFVdi1UNlZ3b0F1NFp3eTVMT3ZnLXlwV2VwM3YycWNkbnMtb3NDNGdpVWc4RldhcG1wQkF2eE4wblBPVjB3VTFlWk92VldZOW5WMlVfZ1ZPVzV6WDdTRE5sMTBHU21BWFNDR3B6Q3J2OTN1bnhlbzBFamV1RURQVzVJ",
-          "published_at": "2026-09-27T16:59:51Z",
+          "article_id": "art_aec00027777fb5cb",
+          "title": "De Perejil a Ceuta: Federico Trillo analiza en Murcia la nueva tensión con Marruecos",
+          "title_key": "de perejil a ceuta federico trillo analiza en murcia la nueva tension con marruecos",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNUxCVzBhdGhPdEJpNXAxZ01tSXJ4enMwTThQWDU4ZkJycURlVzNsM2paYUF0ZjVHZXlUTHZqSmt0YkUyM25iSm5BWVdJSGhkMk0xbHk4amNlWW5UQnJVYmdDZ0hOQ3J0MlJPVXpKRDEtc0hGQm13UEYxa0lvMnBOUVhjX2p2dThhUk1EZXZyeldfcGhwRUJ6dmZBamhEN29uQTdyNUVNTk5JUdIBrwFBVV95cUxPUG5rbE55Qmp3elFqU0lPSUJSNWlCTlQyVkxkQi1YTkRhOUR1M1luTTZUMXFqZHZhRnQ0SURlakRaTTdPOG5LeVRNUThFN2I1enlNMnQ3WmpraFZzb0cwZElxZmJvc015Ri1zeDBhd3U2WGVWb29pelJlajNTekR6bXdLeWJNRkVvVWpVMGxfdDd4ZHZyODhZanhSYUJvb1lhTDNUVTlUTUxIcng3TUt3",
+          "published_at": "2026-09-28T08:53:01Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -1025,11 +998,11 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_ede92d252cbc98d5",
+      "event_id": "evt_5e66f3bf9d68b547",
       "topic": "relations",
-      "first_seen": "2026-09-28T08:53:01Z",
-      "last_seen": "2026-09-28T08:53:01Z",
-      "headline": "De Perejil a Ceuta: Federico Trillo analiza en Murcia la nueva tensión con Marruecos",
+      "first_seen": "2026-10-01T09:40:04Z",
+      "last_seen": "2026-09-27T16:59:51Z",
+      "headline": "Marruecos señala a España por los inmigrantes de Ceuta: \"Si no han sido devueltos, la pregunta hay que hacérsela a España\"",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
@@ -1048,11 +1021,29 @@
       ],
       "articles": [
         {
-          "article_id": "art_aec00027777fb5cb",
-          "title": "De Perejil a Ceuta: Federico Trillo analiza en Murcia la nueva tensión con Marruecos",
-          "title_key": "de perejil a ceuta federico trillo analiza en murcia la nueva tension con marruecos",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNUxCVzBhdGhPdEJpNXAxZ01tSXJ4enMwTThQWDU4ZkJycURlVzNsM2paYUF0ZjVHZXlUTHZqSmt0YkUyM25iSm5BWVdJSGhkMk0xbHk4amNlWW5UQnJVYmdDZ0hOQ3J0MlJPVXpKRDEtc0hGQm13UEYxa0lvMnBOUVhjX2p2dThhUk1EZXZyeldfcGhwRUJ6dmZBamhEN29uQTdyNUVNTk5JUdIBrwFBVV95cUxPUG5rbE55Qmp3elFqU0lPSUJSNWlCTlQyVkxkQi1YTkRhOUR1M1luTTZUMXFqZHZhRnQ0SURlakRaTTdPOG5LeVRNUThFN2I1enlNMnQ3WmpraFZzb0cwZElxZmJvc015Ri1zeDBhd3U2WGVWb29pelJlajNTekR6bXdLeWJNRkVvVWpVMGxfdDd4ZHZyODhZanhSYUJvb1lhTDNUVTlUTUxIcng3TUt3",
-          "published_at": "2026-09-28T08:53:01Z",
+          "article_id": "art_76979c74f08acfc9",
+          "title": "Marruecos señala a España por los inmigrantes de Ceuta: \"Si no han sido devueltos, la pregunta hay que hacérsela a España\"",
+          "title_key": "marruecos senala a espana por los inmigrantes de ceuta si no han sido devueltos la pregunta hay que hacersela a espana",
+          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOT19rQzRBb1Fxb0NKdktONkozWWx6ek03U1pUX0ZDN1RRcGlJRG11UlJsQ0gyOUE2c3lEajhTZVF0ZE9zdU9YZHhMMkRiNnNqTkVuaUo4MDh5Zy1CU2MzNlJmRjBXMG44WXcySjAxcHlUd19PSTR5YTFjZ2VmbGtnTEZrTmRGT2tPbzBXd1pKLVNPSVVZdGJnX2gxaVlyT0lYUzI0R2dOcWxDNUNLMkxZVTFWN2RHWks1Z0N6dEgwLXpFUFEyQTlTQ0s3d3ZWQWpZb2s3UHVHV2FpdnRYMGROUTZzaDhUX3BQSkhCTHdjZVVhNmhh0gGIAkFVX3lxTE5kM0tvdlVrXy00UGtPZjdzUlJzRFNBOEU5YkJrTnB1Rl9CUWx5d2hnRDBtLVhsbkxPXzdkSWltN3l2NUdxNElFTlFXWnJYdGZQZkdaU0dxdWNnUUVfT2JoTTU4eWMxMFlScHJHaFhnSmYwZ3dPcmlMU0JlMkNhYnJHY09zRzNmX2RIMFgwc2V1alN6aThLQTIwX2J3Qk4zb3I4RGxnYUpQQWtsY25hNnRSMXcwbDViMkdtNnZHcGNyM1FVVVR3Uk9UQzhfREtyWWRES2wwaVdSZ1dOV2NBdFVGWTFtWnJqOGQ3ZEV0R2ZYNWMwZjdTUHQ2Z0pkQnJiNE9RcjNFMkNXQw",
+          "published_at": "2026-09-25T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_8bac42af6d848021",
+          "title": "Los intercambios comerciales entre España y Marruecos crecieron en julio, mes en el que se produjo la invasión de Ceuta",
+          "title_key": "los intercambios comerciales entre espana y marruecos crecieron en julio mes en el que se produjo la invasion de ceuta",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPYlJDdzRidGR1LU8taUpaNm1jaFdVaFd1MVhnbmM3RVBfUG1DYy1VWFVmR1B3c1RmcGhzVWxzNEF4SWZuQ0tGSExrc0ZZYnczWmdyTnlkSzhFTHdVWU5CYzVuQUFncEctMTRwb3RMMTZsb050R1lxc2ltSElsNUdQd3RueEJGbzUzaUdFRU1JWEJpRkhFZ0szY2YyQl9qYzZGRkljLUVIVFlQVGRvUV9pWjZ0MHh2UGJkMlBGZ3d3amkzTXBWMW52TDJGMk5qdFRmdlJLaXRSTlZoa0o1Y3RseUJ2RDh3WEhDZ1ZpSmhTVdIBgwJBVV95cUxPajBEVTdGYW00UUFfXzNaMjRCUVB3eEtiRURXN1VQT2FmUUt2VldMdmlhZk1vdDJOTWwxcUd0bjdlMmtub2pHa3RhNm90NTY5ODlETTFuLWxyMHc4UVRab28yeUVKZ0MyY1NkemwyWHEyZmQ1SVRuTXlscERVOUZDTkNDTmxRRFJ4SFFVdi1UNlZ3b0F1NFp3eTVMT3ZnLXlwV2VwM3YycWNkbnMtb3NDNGdpVWc4RldhcG1wQkF2eE4wblBPVjB3VTFlWk92VldZOW5WMlVfZ1ZPVzV6WDdTRE5sMTBHU21BWFNDR3B6Q3J2OTN1bnhlbzBFamV1RURQVzVJ",
+          "published_at": "2026-09-27T16:59:51Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -1168,8 +1159,8 @@
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 0,
-    "SINGLE_SOURCE": 5,
-    "UNCONFIRMED": 12,
+    "SINGLE_SOURCE": 4,
+    "UNCONFIRMED": 13,
     "TOTAL": 17
   },
   "article_count": 36,

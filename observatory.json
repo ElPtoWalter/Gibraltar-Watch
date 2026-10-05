@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-05T07:10:48Z",
+  "generated_at": "2026-10-05T14:38:40Z",
   "state": {
     "code": "watch",
     "label_es": "VIGILANCIA",
     "color": "yellow",
     "severity": 1,
-    "summary_es": "La situación requiere seguimiento, pero no aparecen señales suficientes para elevar el nivel operativo.",
+    "summary_es": "La situación requiere seguimiento, pero no aparecen señales suficientes para elevar el nivel operativo. Parte de las fuentes necesita actualización, por lo que la lectura debe interpretarse con cautela.",
     "layers": {
       "maritime": {
         "value": "SIN CONFIRMACIÓN RECIENTE",
@@ -26,8 +26,11 @@
       }
     },
     "confidence": "BAJA",
-    "confidence_explanation_es": "Confianza baja: la información disponible no permite una corroboración reciente suficiente.",
-    "sources_pending": [],
+    "confidence_explanation_es": "Confianza baja porque necesitan actualización o revisión: Sismicidad USGS, Actualidad y geopolítica. El estado operativo se mantiene separado de la frescura de esas fuentes.",
+    "sources_pending": [
+      "Sismicidad USGS",
+      "Actualidad y geopolítica"
+    ],
     "alert_level": {
       "code": "informational",
       "label_es": "INFORMATIVO",
@@ -35,7 +38,7 @@
     }
   },
   "metrics": {
-    "news_24h": 2,
+    "news_24h": 1,
     "news_sources": 31,
     "seismic_24h": 0,
     "seismic_7d": 0,
@@ -45,8 +48,8 @@
     "ope_passengers_day": 59877,
     "ope_vehicles_day": 15464,
     "ope_rotations_day": 179,
-    "diary_date": "2026-10-04",
-    "diary_source_count": 2
+    "diary_date": "2026-10-05",
+    "diary_source_count": 4
   },
   "anomalies": [],
   "changes": {
@@ -56,53 +59,52 @@
   },
   "since_yesterday": {
     "reference_date": "2026-10-04",
-    "summary_es": "El nivel general se mantiene en VIGILANCIA. El monitor recoge 1 referencias menos en la ventana de 24 horas."
+    "summary_es": "El nivel general se mantiene en VIGILANCIA. El monitor recoge 2 referencias menos en la ventana de 24 horas."
   },
   "health": {
-    "overall": "HEALTHY",
-    "generated_at": "2026-10-05T07:10:48Z"
+    "overall": "DEGRADED",
+    "generated_at": "2026-10-05T14:38:40Z"
   },
   "latest_diary": {
-    "date": "2026-10-04",
+    "date": "2026-10-05",
     "headline": "España–Marruecos: qué aportan los titulares y qué falta comprobar",
-    "summary": "Selección automática de 2 referencias de 2 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
-    "published_at": "2026-10-04T14:21+02:00",
-    "updated_at": "2026-10-04T14:21+02:00",
-    "source_count": 2,
+    "summary": "Selección automática de 4 referencias de 4 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "published_at": "2026-10-05T16:38+02:00",
+    "updated_at": "2026-10-05T16:38+02:00",
+    "source_count": 4,
     "indexable": false,
     "edition_label": "Cuaderno diplomático",
     "edition_slug": "relations",
-    "fingerprint": "d729e42a8b6b7f77e4a3",
-    "editor_engine": "rules",
-    "editor_assistant_status": "gemini-validation-es",
-    "assistant_status": "gemini-validation-es",
+    "fingerprint": "5204013fe29dfbfc2c4f",
+    "editor_engine": "gemini",
+    "editor_assistant_status": "ok",
+    "assistant_status": "ok",
     "validator_version": 2,
-    "factual_packet_hash": "a1112f61e7c9df104b33fec6a269fe0210d2e84ee115c4df93016fcedde07105",
+    "factual_packet_hash": "b3b2a6de98d2dd07b340e1c73f6a48e1413434460b8035259406b0d2edd1980c",
     "event_ids": [
-      "evt_fa2f39e33c8302d0",
-      "evt_dbdb6c13591c5477",
-      "evt_f212471824c6ef38",
+      "evt_464c265e3057df4e",
       "evt_b635c7204bfd976a",
-      "evt_96333dca373b8e5c"
+      "evt_f212471824c6ef38",
+      "evt_e9dfda25fdf62313"
     ],
     "source_ids": [
       "elpais",
       "reuters",
       "unknown"
     ],
-    "timestamp": "2026-10-04T12:21:42.853011+00:00",
-    "fallback_used": true,
+    "timestamp": "2026-10-05T14:38:38.779551+00:00",
+    "fallback_used": false,
     "verification_summary": {
       "CONFIRMED_MULTI_SOURCE": 0,
       "CONFIRMED_PRIMARY": 0,
       "CONFLICTING": 0,
       "DECLARATION_ONLY": 0,
-      "SINGLE_SOURCE": 5,
-      "UNCONFIRMED": 12,
+      "SINGLE_SOURCE": 4,
+      "UNCONFIRMED": 13,
       "TOTAL": 17
     },
-    "date_label": "2026-10-04",
-    "slug": "2026-10-04.html"
+    "date_label": "2026-10-05",
+    "slug": "actual.html"
   },
   "latest_ope": {
     "report_date": "2026-08-15",

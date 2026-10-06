@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-06T17:16:40.028223+00:00",
+  "generated_at": "2026-10-06T21:42:44.601216+00:00",
   "events": [
     {
       "event_id": "evt_469e6e4f84dbdc2c",
@@ -609,46 +609,46 @@
       "event_id": "evt_dbdb6c13591c5477",
       "topic": "ceuta",
       "first_seen": "2026-10-01T10:08:29Z",
-      "last_seen": "2026-10-01T10:08:29Z",
+      "last_seen": "2026-10-01T10:08:00Z",
       "headline": "Spanish king to visit disputed enclaves, testing Morocco ties after border crisis",
-      "classification": "FACT",
-      "verification_status": "SINGLE_SOURCE",
-      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
       "sources": [
         {
-          "source_id": "reuters",
-          "source_name": "Reuters",
-          "source_domain": "reuters.com",
-          "tier": 4,
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
           "official": false,
-          "weight": 4.0
+          "weight": 1.0
         }
       ],
       "source_ids": [
-        "reuters"
+        "unknown"
       ],
       "articles": [
         {
-          "article_id": "art_f8e9dac793c82d5c",
+          "article_id": "art_813a1f16ec8f5135",
           "title": "Spanish king to visit disputed enclaves, testing Morocco ties after border crisis",
           "title_key": "spanish king to visit disputed enclaves testing morocco ties after border crisis",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWXNBc2JkcWsxNEREWTNrcEtLOGdTVjlESXhIQnhUTEVjeWJHSjdibFp0NmRKUkJOZEJPVlZsNFNwQ0UwRzRfM1RILVM2VGJUOGU2UU5vUllZNXBqd2lfQmdFWDE3OGFVVVhmZ1dEM1prX2YyNUt2d3d2OVZLVmxGTFZ6aGJ4NWF3WXJ1azZPeTkyLWc1Y0FBZHpBY3pwNDY4UWd4dTVkck0zbUpGTUEtZWVyQlhGWnlqdVhZ",
-          "published_at": "2026-10-01T10:08:29Z",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUEVlRmZlTDZUbVVDT0JLNGk1aVItTU9tbXM0M00yNkFGWGNwaUk5Ykc0eU0tMFFKRDhTb29lcDJqSGJhQk1zcGowTTgxMGFadUhabk9aMnZJYzRGTnhwTWtCOFkyd3RhWkwtZTdGcnZtcGt2RWktbW8yR21mdzZ4S3ZnX1BrZ0FBZjVPQWE0d09pUkhpLXQ0dWVuZTl4czR0Z0JhbnZvdWRKUXFKMkFVRWEzWGxWc29OZ2FEdTkwQQ",
+          "published_at": "2026-10-01T10:08:00Z",
           "observed_at": "",
-          "source_id": "reuters",
-          "source_name": "Reuters",
-          "source_domain": "reuters.com",
-          "tier": 4,
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
           "official": false,
-          "weight": 4.0,
+          "weight": 1.0,
           "topic": "ceuta",
-          "classification": "FACT",
+          "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
         }
       ],
-      "importance": 43,
-      "operational_impact": "CONTEXT",
+      "importance": 4,
+      "operational_impact": "NONE",
       "operational_eligible": false
     },
     {
@@ -1262,8 +1262,8 @@
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 0,
-    "SINGLE_SOURCE": 4,
-    "UNCONFIRMED": 17,
+    "SINGLE_SOURCE": 3,
+    "UNCONFIRMED": 18,
     "TOTAL": 21
   },
   "article_count": 36,

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-06T10:26:50Z",
+  "generated_at": "2026-10-06T13:18:23Z",
   "state": {
     "code": "watch",
     "label_es": "VIGILANCIA",
@@ -45,7 +45,7 @@
     "ope_passengers_day": 59877,
     "ope_vehicles_day": 15464,
     "ope_rotations_day": 179,
-    "diary_date": "2026-10-05",
+    "diary_date": "2026-10-06",
     "diary_source_count": 4
   },
   "anomalies": [],
@@ -60,36 +60,36 @@
   },
   "health": {
     "overall": "HEALTHY",
-    "generated_at": "2026-10-06T10:26:50Z"
+    "generated_at": "2026-10-06T13:18:23Z"
   },
   "latest_diary": {
-    "date": "2026-10-05",
+    "date": "2026-10-06",
     "headline": "España–Marruecos: qué aportan los titulares y qué falta comprobar",
-    "summary": "Selección automática de 4 referencias de 4 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
-    "published_at": "2026-10-05T16:38+02:00",
-    "updated_at": "2026-10-05T16:38+02:00",
+    "summary": "Selección automática de 4 referencias de 3 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "published_at": "2026-10-06T15:18+02:00",
+    "updated_at": "2026-10-06T15:18+02:00",
     "source_count": 4,
     "indexable": false,
     "edition_label": "Cuaderno diplomático",
     "edition_slug": "relations",
-    "fingerprint": "5204013fe29dfbfc2c4f",
+    "fingerprint": "87623d0a0f0ba7035b9a",
     "editor_engine": "gemini",
     "editor_assistant_status": "ok",
     "assistant_status": "ok",
     "validator_version": 2,
-    "factual_packet_hash": "b3b2a6de98d2dd07b340e1c73f6a48e1413434460b8035259406b0d2edd1980c",
+    "factual_packet_hash": "6aeeb4379197ef9d6f6bc11badb64ea71eff05518632c21976ac003bbf86240a",
     "event_ids": [
       "evt_464c265e3057df4e",
+      "evt_dbdb6c13591c5477",
       "evt_b635c7204bfd976a",
-      "evt_f212471824c6ef38",
-      "evt_e9dfda25fdf62313"
+      "evt_f212471824c6ef38"
     ],
     "source_ids": [
       "elpais",
       "reuters",
       "unknown"
     ],
-    "timestamp": "2026-10-05T14:38:38.779551+00:00",
+    "timestamp": "2026-10-06T13:18:21.685113+00:00",
     "fallback_used": false,
     "verification_summary": {
       "CONFIRMED_MULTI_SOURCE": 0,
@@ -97,10 +97,10 @@
       "CONFLICTING": 0,
       "DECLARATION_ONLY": 0,
       "SINGLE_SOURCE": 4,
-      "UNCONFIRMED": 13,
-      "TOTAL": 17
+      "UNCONFIRMED": 16,
+      "TOTAL": 20
     },
-    "date_label": "2026-10-05",
+    "date_label": "2026-10-06",
     "slug": "actual.html"
   },
   "latest_ope": {

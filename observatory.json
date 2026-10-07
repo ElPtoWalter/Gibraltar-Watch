@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-07T16:37:39Z",
+  "generated_at": "2026-10-07T22:06:13Z",
   "state": {
     "code": "watch",
     "label_es": "VIGILANCIA",
     "color": "yellow",
     "severity": 1,
-    "summary_es": "La situación requiere seguimiento, pero no aparecen señales suficientes para elevar el nivel operativo.",
+    "summary_es": "La situación requiere seguimiento, pero no aparecen señales suficientes para elevar el nivel operativo. Parte de las fuentes necesita actualización, por lo que la lectura debe interpretarse con cautela.",
     "layers": {
       "maritime": {
         "value": "SIN CONFIRMACIÓN RECIENTE",
@@ -26,8 +26,10 @@
       }
     },
     "confidence": "BAJA",
-    "confidence_explanation_es": "Confianza baja: la información disponible no permite una corroboración reciente suficiente.",
-    "sources_pending": [],
+    "confidence_explanation_es": "Confianza baja porque necesitan actualización o revisión: Actualidad y geopolítica. El estado operativo se mantiene separado de la frescura de esas fuentes.",
+    "sources_pending": [
+      "Actualidad y geopolítica"
+    ],
     "alert_level": {
       "code": "informational",
       "label_es": "INFORMATIVO",
@@ -55,12 +57,12 @@
     "layer_changes": []
   },
   "since_yesterday": {
-    "reference_date": "2026-10-06",
+    "reference_date": "2026-10-07",
     "summary_es": "El nivel general se mantiene en VIGILANCIA. El volumen de referencias de las últimas 24 horas no cambia."
   },
   "health": {
-    "overall": "HEALTHY",
-    "generated_at": "2026-10-07T16:37:39Z"
+    "overall": "DEGRADED",
+    "generated_at": "2026-10-07T22:06:13Z"
   },
   "latest_diary": {
     "date": "2026-10-07",

@@ -1,24 +1,24 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-07T13:23:24Z",
-  "overall": "DEGRADED",
+  "generated_at": "2026-10-07T16:37:39Z",
+  "overall": "HEALTHY",
   "components": [
     {
       "name": "Sismicidad USGS",
-      "state": "aging",
-      "label_es": "REVISAR FRESCURA",
-      "checked_at": "2026-10-07T08:45:40Z",
-      "age_minutes": 277,
+      "state": "fresh",
+      "label_es": "ACTUALIZADO",
+      "checked_at": "2026-10-07T16:34:57Z",
+      "age_minutes": 2,
       "source": "USGS Earthquake Catalog",
-      "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-09-07T08%3A45%3A40Z&endtime=2026-10-07T08%3A45%3A40Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
+      "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-09-07T16%3A34%3A57Z&endtime=2026-10-07T16%3A34%3A57Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
       "note_es": "Catálogo sísmico regional; no es una herramienta de predicción."
     },
     {
       "name": "Actualidad y geopolítica",
-      "state": "aging",
-      "label_es": "REVISAR FRESCURA",
-      "checked_at": "2026-10-07T08:46:38.788998+00:00",
-      "age_minutes": 276,
+      "state": "fresh",
+      "label_es": "ACTUALIZADO",
+      "checked_at": "2026-10-07T16:37:29.202395+00:00",
+      "age_minutes": 0,
       "source": "Monitor editorial de fuentes públicas",
       "url": "fuentes.html",
       "note_es": "Los titulares se usan como señales y requieren atribución."
@@ -28,7 +28,7 @@
       "state": "historical",
       "label_es": "TEMPORADA FINALIZADA",
       "checked_at": "2026-10-07T08:46:38Z",
-      "age_minutes": 276,
+      "age_minutes": 471,
       "source": "Secretaría General de Protección Civil y Emergencias",
       "url": "https://www.proteccioncivil.es/documents/20121/0/20260815_InformeOPE.pdf",
       "note_es": "Temporada finalizada · últimos datos oficiales archivados.",
@@ -40,7 +40,7 @@
       "state": "fresh",
       "label_es": "ACTUALIZADO",
       "checked_at": "2026-10-07T13:23:00Z",
-      "age_minutes": 0,
+      "age_minutes": 194,
       "source": "Gibraltar Watch",
       "url": "diario/actual.html",
       "note_es": "Última edición publicada"
@@ -49,7 +49,7 @@
       "name": "Integridad del sitio",
       "state": "fresh",
       "label_es": "CORRECTA",
-      "checked_at": "2026-10-07T13:23:24Z",
+      "checked_at": "2026-10-07T16:37:39Z",
       "age_minutes": 0,
       "source": "Validador local",
       "note_es": "Todos los archivos críticos están presentes."
@@ -58,20 +58,20 @@
   "source_health": [
     {
       "name": "Sismicidad USGS",
-      "state": "aging",
-      "label_es": "REVISAR FRESCURA",
-      "checked_at": "2026-10-07T08:45:40Z",
-      "age_minutes": 277,
+      "state": "fresh",
+      "label_es": "ACTUALIZADO",
+      "checked_at": "2026-10-07T16:34:57Z",
+      "age_minutes": 2,
       "source": "USGS Earthquake Catalog",
-      "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-09-07T08%3A45%3A40Z&endtime=2026-10-07T08%3A45%3A40Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
+      "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-09-07T16%3A34%3A57Z&endtime=2026-10-07T16%3A34%3A57Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
       "note_es": "Catálogo sísmico regional; no es una herramienta de predicción."
     },
     {
       "name": "Actualidad y geopolítica",
-      "state": "aging",
-      "label_es": "REVISAR FRESCURA",
-      "checked_at": "2026-10-07T08:46:38.788998+00:00",
-      "age_minutes": 276,
+      "state": "fresh",
+      "label_es": "ACTUALIZADO",
+      "checked_at": "2026-10-07T16:37:29.202395+00:00",
+      "age_minutes": 0,
       "source": "Monitor editorial de fuentes públicas",
       "url": "fuentes.html",
       "note_es": "Los titulares se usan como señales y requieren atribución."
@@ -81,7 +81,7 @@
       "state": "historical",
       "label_es": "TEMPORADA FINALIZADA",
       "checked_at": "2026-10-07T08:46:38Z",
-      "age_minutes": 276,
+      "age_minutes": 471,
       "source": "Secretaría General de Protección Civil y Emergencias",
       "url": "https://www.proteccioncivil.es/documents/20121/0/20260815_InformeOPE.pdf",
       "note_es": "Temporada finalizada · últimos datos oficiales archivados.",
@@ -93,7 +93,7 @@
       "state": "fresh",
       "label_es": "ACTUALIZADO",
       "checked_at": "2026-10-07T13:23:00Z",
-      "age_minutes": 0,
+      "age_minutes": 194,
       "source": "Gibraltar Watch",
       "url": "diario/actual.html",
       "note_es": "Última edición publicada"
@@ -107,7 +107,7 @@
     "name": "Integridad del sitio",
     "state": "fresh",
     "label_es": "CORRECTA",
-    "checked_at": "2026-10-07T13:23:24Z",
+    "checked_at": "2026-10-07T16:37:39Z",
     "age_minutes": 0,
     "source": "Validador local",
     "note_es": "Todos los archivos críticos están presentes."
@@ -117,9 +117,9 @@
     "separate_from_source_health": true
   },
   "workflow": {
-    "run_id": "37628075369",
+    "run_id": "37653149451",
     "run_attempt": "1",
-    "sha": "944bcb3a7c00",
+    "sha": "f24feeb8c7a6",
     "event": "schedule"
   }
 }

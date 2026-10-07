@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-06T21:42:44.601216+00:00",
+  "generated_at": "2026-10-07T01:38:40.012672+00:00",
   "events": [
     {
       "event_id": "evt_469e6e4f84dbdc2c",
@@ -1009,52 +1009,6 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_a6fdc880c8bbbe2a",
-      "topic": "melilla",
-      "first_seen": "2026-09-29T05:05:01Z",
-      "last_seen": "2026-09-29T05:05:01Z",
-      "headline": "Guerra híbrida en la frontera: Bielorrusia sí, Marruecos no",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_3c65130f2edac163",
-          "title": "Guerra híbrida en la frontera: Bielorrusia sí, Marruecos no",
-          "title_key": "guerra hibrida en la frontera bielorrusia si marruecos no",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZzNJQ1BHTUxFQXlheW5uU1dvTVdzbXQwandSelo5QVc2ZVNheS1Cak4xU1VadHhtUjNDTVpqemk2ODN2OGZXOHA0XzlWaV9oei10VWY1dHV0UDdIXy1vaUtjVG55cE0zWnp3ZUVneHNxWFZ3ZUJfR3p3OENZQ2xSZWJXMVV6dThMUzZKUHdjcS16RUJDeFM5dFdB",
-          "published_at": "2026-09-29T05:05:01Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_0c4aeef6fa17564d",
       "topic": "relations",
       "first_seen": "2026-09-28T08:53:01Z",
@@ -1188,6 +1142,24 @@
       ],
       "articles": [
         {
+          "article_id": "art_0fd106cfa3e6a72e",
+          "title": "Humanitarian crisis worsens in Ceuta as thousands remain stranded",
+          "title_key": "humanitarian crisis worsens in ceuta as thousands remain stranded",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUVJXQkV4by1ScnpYQzFtd1lGUHkzX3R6aHg2QWVTa0llZXRkeUk5cUlycFdaQTZnVXlxdnpabmNvUEFpenNhQ0VvaFZ6SXZjczZVSHR6WUtLb1ZYUFNoQ183R3Rfb2lUbGV0UTZFUTY0NHFhelVfUURGa2VwRmx6d196UUxDYmxFdUJmb2N3Z1VLbnQ2VFpCT2RnOTNqa1dLWDNnM2lRMWsyd9IBrwFBVV95cUxNV2V4bE9oV2R1Tm42ME9QUFV1LXkwWnFNWFhGZDVqZE91dEdxN3cyZVZVemEtQlUwN2c5VVN1SmlDLTBNQ3RsMVpGQnBxbkdrNTNTNkxBZVRkY1JPV0xxLTBQRU9qTDhsV3I0T0s1Vl9BM2Zta2ZuZ2M3eEExOGI2Zm5IZlZmdTNWWDVOWEJTMG5obUVrZWpkMk5qRGFGZTZFb05Id2dSQU0xOE00NjZF",
+          "published_at": "2026-09-25T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
           "article_id": "art_5b415d4b50da144b",
           "title": "Tens of thousands attend right-wing protest over Ceuta migrant crisis",
           "title_key": "tens of thousands attend right wing protest over ceuta migrant crisis",
@@ -1263,9 +1235,9 @@
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 0,
     "SINGLE_SOURCE": 3,
-    "UNCONFIRMED": 18,
-    "TOTAL": 21
+    "UNCONFIRMED": 17,
+    "TOTAL": 20
   },
   "article_count": 36,
-  "event_count": 21
+  "event_count": 20
 }

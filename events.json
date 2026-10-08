@@ -1,7 +1,117 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-08T02:04:41.216259+00:00",
+  "generated_at": "2026-10-08T09:06:17.588802+00:00",
   "events": [
+    {
+      "event_id": "evt_469e6e4f84dbdc2c",
+      "topic": "ceuta",
+      "first_seen": "2026-10-06T07:55:56Z",
+      "last_seen": "2026-10-08T08:01:09Z",
+      "headline": "La crisis de la frontera de Ceuta reabre el debate sobre la cooperación de la Guardia Civil con Marruecos",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_b2655958009ba7ec",
+          "title": "La crisis de la frontera de Ceuta reabre el debate sobre la cooperación de la Guardia Civil con Marruecos",
+          "title_key": "la crisis de la frontera de ceuta reabre el debate sobre la cooperacion de la guardia civil con marruecos",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUlZwZm56MXRUcDU3dTVPZkVNU2lNcWMySFRSZHNzSUZfRUw4dGV2VTA0aGc2bDY5QUVDRmlldko1YXdyQTFpR1NCMVRhSGdNZ3haRmRVWmdiR2IxdEJEQkVoOEQtOGRWcXZQZmNXclNKQXh4OFVfV2JOVk5mUXpHTzlhckI2VjRFczlyUE9YYS0yWUg1V0pocjJn",
+          "published_at": "2026-10-06T07:55:56Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_f7063362038aa73e",
+          "title": "Marruecos convierte la crisis de Ceuta en un pulso geopolítico contra la imagen exterior de España",
+          "title_key": "marruecos convierte la crisis de ceuta en un pulso geopolitico contra la imagen exterior de espana",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNa3hnMUxObjFtUGptLVktMjhtU3FmLU85bjVaWVlnU0ZKb1N4Y2hDRUdyUDlYSVIxVzEtWC05SHJHVzU5TjJkSnh6MVFrQlJHRGJsWTc1c1ZXbHNuTkN0NXNhbkIwbHROdzZVZm84SEI2b0VZSF8tSGlYVE0tZUl5Q3J3QzdFZw",
+          "published_at": "2026-10-08T08:01:09Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_aa223e0a9b2ab1fc",
+      "topic": "ceuta",
+      "first_seen": "2026-10-07T22:11:39Z",
+      "last_seen": "2026-10-07T22:11:39Z",
+      "headline": "Feijóo Puts Ceuta Crisis, Morocco at Center of Spain Election Campaign",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_8f9e4c9910bcb61a",
+          "title": "Feijóo Puts Ceuta Crisis, Morocco at Center of Spain Election Campaign",
+          "title_key": "feijoo puts ceuta crisis morocco at center of spain election campaign",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNYmJWSDVGYlpaM3BVZzJrd0JiZEo4NnRBUXVpVDN4bEt3UUZ4bGJ6ekRxRUxfWFdJUmFNRFRQZjBGc3BuVXRvRUhWdkdqRTUzX0dLR2U1V29YS2ZudjZ2Mm1hblA1YzVObjBYRC02NUtMUzk0Q3Z6S253a0pvVHZHQnRHWXpFbkRXSEFMaDdrZkw3Wm54c2pfRlhSb3RxSEdySHVGNmlTVzh2bHpaYVljQ2hhZlU1Mmc1cFE",
+          "published_at": "2026-10-07T22:11:39Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
     {
       "event_id": "evt_3d9b81abd8214a2c",
       "topic": "traffic",
@@ -67,11 +177,11 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_469e6e4f84dbdc2c",
-      "topic": "ceuta",
-      "first_seen": "2026-10-06T07:55:56Z",
-      "last_seen": "2026-10-06T07:55:56Z",
-      "headline": "La crisis de la frontera de Ceuta reabre el debate sobre la cooperación de la Guardia Civil con Marruecos",
+      "event_id": "evt_80a91ed05327786d",
+      "topic": "relations",
+      "first_seen": "2026-10-07T09:56:03Z",
+      "last_seen": "2026-10-07T09:56:03Z",
+      "headline": "Aznar reclama recuperar la relación con Israel, aliado de Marruecos",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
@@ -90,11 +200,11 @@
       ],
       "articles": [
         {
-          "article_id": "art_b2655958009ba7ec",
-          "title": "La crisis de la frontera de Ceuta reabre el debate sobre la cooperación de la Guardia Civil con Marruecos",
-          "title_key": "la crisis de la frontera de ceuta reabre el debate sobre la cooperacion de la guardia civil con marruecos",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUlZwZm56MXRUcDU3dTVPZkVNU2lNcWMySFRSZHNzSUZfRUw4dGV2VTA0aGc2bDY5QUVDRmlldko1YXdyQTFpR1NCMVRhSGdNZ3haRmRVWmdiR2IxdEJEQkVoOEQtOGRWcXZQZmNXclNKQXh4OFVfV2JOVk5mUXpHTzlhckI2VjRFczlyUE9YYS0yWUg1V0pocjJn",
-          "published_at": "2026-10-06T07:55:56Z",
+          "article_id": "art_cb345e7dea38ca1a",
+          "title": "Aznar reclama recuperar la relación con Israel, aliado de Marruecos",
+          "title_key": "aznar reclama recuperar la relacion con israel aliado de marruecos",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTEpGZnVXcTRfbmFjRUpEamxCUmNhLVQxdkg5SnFFTzFqQzhZbi1ZU2dScnlvXzRuR2Rjc05zOV9rbUsxRGJ5TlExV0RKTlU5UUxCSDlhZ1I2d2NfSEl2U19qc1UydVh1VXBJV0tYdXFmVW9uN1R3UVVqelRyMEc4S2Y5elVXVGdrSUHSAY8BQVVfeXFMTmxmNVgwRTRKWUcyVzF1Y3Vkb0FiZzlRbldENzh5SFpHWWlFZGRMdV9WV3pHMzhhOXBtcktLY213ekNlZWZsX3dxWEc3b1ZGN1p6Y2lic0x2d1JSWTFBUEZLYTNvZWVEZWN1akRQM2wzSjF3Q1JRTjA5dzdQY0J4X1ljOWVQU0JYUGxuS0xwTmc",
+          "published_at": "2026-10-07T09:56:03Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -102,7 +212,7 @@
           "tier": 1,
           "official": false,
           "weight": 1.0,
-          "topic": "ceuta",
+          "topic": "relations",
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
@@ -725,7 +835,7 @@
           "title": "Spain's migration crisis in Ceuta continues to destabilize government",
           "title_key": "spain s migration crisis in ceuta continues to destabilize government",
           "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNUTJOTzVfWTdfWEhjaURFSDBON3ZtZmRUcnlXUlphVGJ3TU1BYktQX1hyeGpXT0ZoYTFCTjdxSElfalJJMWJsamhnQWROb1JvUkxyQkRLSExJQTBHR2hFd3cxdjRZeVdwRFE3c0xDOVp0VjVKRHRDOW5SdVVEa25IUHFvalpDejl3UHNfLVA2a2U4U2NiUk1XMlBQX01wQm1wTzJqTTh2aXh5N2ZVMXlyNHJDcXpQQkRVSmVhb0xXRXpCTlhKZXFXRUh0Q2t2Nm5Ib043WlN4SWFtVFRTNWwydDMwQWlfRUwxSC1yVG5jaGd6WUxnR2NZUi1keHNuM1lYRmoyMEFaU3JkcXR0bjBDSURleHZkb011",
-          "published_at": "2026-09-28T23:39:24Z",
+          "published_at": "2026-09-29T07:00:00Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -899,70 +1009,6 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_0c4aeef6fa17564d",
-      "topic": "relations",
-      "first_seen": "2026-09-28T08:53:01Z",
-      "last_seen": "2026-09-29T14:24:12Z",
-      "headline": "Ceuta y el acoso de Marruecos a España: el Diálogo del Club LD con Ignacio Cembrero, Óscar Elía y Enrique Navarro Gil",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_aec00027777fb5cb",
-          "title": "De Perejil a Ceuta: Federico Trillo analiza en Murcia la nueva tensión con Marruecos",
-          "title_key": "de perejil a ceuta federico trillo analiza en murcia la nueva tension con marruecos",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNUxCVzBhdGhPdEJpNXAxZ01tSXJ4enMwTThQWDU4ZkJycURlVzNsM2paYUF0ZjVHZXlUTHZqSmt0YkUyM25iSm5BWVdJSGhkMk0xbHk4amNlWW5UQnJVYmdDZ0hOQ3J0MlJPVXpKRDEtc0hGQm13UEYxa0lvMnBOUVhjX2p2dThhUk1EZXZyeldfcGhwRUJ6dmZBamhEN29uQTdyNUVNTk5JUdIBrwFBVV95cUxPUG5rbE55Qmp3elFqU0lPSUJSNWlCTlQyVkxkQi1YTkRhOUR1M1luTTZUMXFqZHZhRnQ0SURlakRaTTdPOG5LeVRNUThFN2I1enlNMnQ3WmpraFZzb0cwZElxZmJvc015Ri1zeDBhd3U2WGVWb29pelJlajNTekR6bXdLeWJNRkVvVWpVMGxfdDd4ZHZyODhZanhSYUJvb1lhTDNUVTlUTUxIcng3TUt3",
-          "published_at": "2026-09-28T08:53:01Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_6cce449098179a5a",
-          "title": "Ceuta y el acoso de Marruecos a España: el Diálogo del Club LD con Ignacio Cembrero, Óscar Elía y Enrique Navarro Gil",
-          "title_key": "ceuta y el acoso de marruecos a espana el dialogo del club ld con ignacio cembrero oscar elia y enrique navarro gil",
-          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPZjNlZzVic05jSjJOckZKQnFQdnAwRXlhLUV3QUxfclBoeFhKWlpKQ0RUNUkwTzdpeDItVUFjTzNQUUhteEtPN3lWNFFtaDZVdEpMdUhpWFFKMDRQUThQaEpKLUoyLVkzNTFaOUlLSmYza1htLVpuMUt3Mnlma3FRMVBVSkc4UU52czY1Z1l0bW9NZEUta29obl9ocXlkbHA5ZHQ5LXVuaTQ3Si1VT1RIMjY2RUQwS3FzUE9FS05UZWR4cGs4SEZpaEI1TW5kZVZhVXRwSE5XVHM1NnYxXzZjTnBPMFFIUnVVaExVZjE4Y0s2M252SFhEU2xaVXVXTHYwQlJwdtIBjwJBVV95cUxQbUNQTHVKMEd1WmFXdmxHUWNSYjlHQU1zNk9CNDY2QXlVMXdxemloaHZSdmlTZ1RHS2d0MW1CRVRrZ3A1TVlrdWZxWWdGNUUtQXdGWUhjQlNtaFBEYzYyUGx3QXlmamhUZ2JsaFNpZ3pueEFGaUFxVm5kRjBHS2RWQ04zWVFHOHZYSEdYZmlnaUlZeHo3cTZiR1QybzV2ZzMwRlZhYV9YZ2lKRlFrV1JlRzZ4RFJBNUpHODU0cjVlREdyaHBub0I5TXNOS19yeklXLW02V2pjWlRRcmpRX3hYV3E2RmkyYTZRYlZqN240SlMwM0htZXBoV3ltQ2ZiQXFESmhKcVBFNW5qZ2oxcmdZ",
-          "published_at": "2026-09-29T14:24:12Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_f212471824c6ef38",
       "topic": "ceuta",
       "first_seen": "2026-09-29T14:23:04Z",
@@ -1012,8 +1058,8 @@
       "event_id": "evt_0c4aeef6fa17564d",
       "topic": "relations",
       "first_seen": "2026-09-28T08:53:01Z",
-      "last_seen": "2026-09-27T07:00:00Z",
-      "headline": "Marruecos señala a España por los inmigrantes de Ceuta: \"Si no han sido devueltos, la pregunta hay que hacérsela a España\"",
+      "last_seen": "2026-09-29T07:00:00Z",
+      "headline": "Los intercambios comerciales entre España y Marruecos crecieron en julio, mes en el que se produjo la invasión de Ceuta",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
@@ -1032,11 +1078,11 @@
       ],
       "articles": [
         {
-          "article_id": "art_76979c74f08acfc9",
-          "title": "Marruecos señala a España por los inmigrantes de Ceuta: \"Si no han sido devueltos, la pregunta hay que hacérsela a España\"",
-          "title_key": "marruecos senala a espana por los inmigrantes de ceuta si no han sido devueltos la pregunta hay que hacersela a espana",
-          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOT19rQzRBb1Fxb0NKdktONkozWWx6ek03U1pUX0ZDN1RRcGlJRG11UlJsQ0gyOUE2c3lEajhTZVF0ZE9zdU9YZHhMMkRiNnNqTkVuaUo4MDh5Zy1CU2MzNlJmRjBXMG44WXcySjAxcHlUd19PSTR5YTFjZ2VmbGtnTEZrTmRGT2tPbzBXd1pKLVNPSVVZdGJnX2gxaVlyT0lYUzI0R2dOcWxDNUNLMkxZVTFWN2RHWks1Z0N6dEgwLXpFUFEyQTlTQ0s3d3ZWQWpZb2s3UHVHV2FpdnRYMGROUTZzaDhUX3BQSkhCTHdjZVVhNmhh0gGIAkFVX3lxTE5kM0tvdlVrXy00UGtPZjdzUlJzRFNBOEU5YkJrTnB1Rl9CUWx5d2hnRDBtLVhsbkxPXzdkSWltN3l2NUdxNElFTlFXWnJYdGZQZkdaU0dxdWNnUUVfT2JoTTU4eWMxMFlScHJHaFhnSmYwZ3dPcmlMU0JlMkNhYnJHY09zRzNmX2RIMFgwc2V1alN6aThLQTIwX2J3Qk4zb3I4RGxnYUpQQWtsY25hNnRSMXcwbDViMkdtNnZHcGNyM1FVVVR3Uk9UQzhfREtyWWRES2wwaVdSZ1dOV2NBdFVGWTFtWnJqOGQ3ZEV0R2ZYNWMwZjdTUHQ2Z0pkQnJiNE9RcjNFMkNXQw",
-          "published_at": "2026-09-25T07:00:00Z",
+          "article_id": "art_8bac42af6d848021",
+          "title": "Los intercambios comerciales entre España y Marruecos crecieron en julio, mes en el que se produjo la invasión de Ceuta",
+          "title_key": "los intercambios comerciales entre espana y marruecos crecieron en julio mes en el que se produjo la invasion de ceuta",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPYlJDdzRidGR1LU8taUpaNm1jaFdVaFd1MVhnbmM3RVBfUG1DYy1VWFVmR1B3c1RmcGhzVWxzNEF4SWZuQ0tGSExrc0ZZYnczWmdyTnlkSzhFTHdVWU5CYzVuQUFncEctMTRwb3RMMTZsb050R1lxc2ltSElsNUdQd3RueEJGbzUzaUdFRU1JWEJpRkhFZ0szY2YyQl9qYzZGRkljLUVIVFlQVGRvUV9pWjZ0MHh2UGJkMlBGZ3d3amkzTXBWMW52TDJGMk5qdFRmdlJLaXRSTlZoa0o1Y3RseUJ2RDh3WEhDZ1ZpSmhTVdIBgwJBVV95cUxPajBEVTdGYW00UUFfXzNaMjRCUVB3eEtiRURXN1VQT2FmUUt2VldMdmlhZk1vdDJOTWwxcUd0bjdlMmtub2pHa3RhNm90NTY5ODlETTFuLWxyMHc4UVRab28yeUVKZ0MyY1NkemwyWHEyZmQ1SVRuTXlscERVOUZDTkNDTmxRRFJ4SFFVdi1UNlZ3b0F1NFp3eTVMT3ZnLXlwV2VwM3YycWNkbnMtb3NDNGdpVWc4RldhcG1wQkF2eE4wblBPVjB3VTFlWk92VldZOW5WMlVfZ1ZPVzV6WDdTRE5sMTBHU21BWFNDR3B6Q3J2OTN1bnhlbzBFamV1RURQVzVJ",
+          "published_at": "2026-09-27T07:00:00Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -1050,11 +1096,57 @@
           "description": ""
         },
         {
-          "article_id": "art_8bac42af6d848021",
-          "title": "Los intercambios comerciales entre España y Marruecos crecieron en julio, mes en el que se produjo la invasión de Ceuta",
-          "title_key": "los intercambios comerciales entre espana y marruecos crecieron en julio mes en el que se produjo la invasion de ceuta",
-          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPYlJDdzRidGR1LU8taUpaNm1jaFdVaFd1MVhnbmM3RVBfUG1DYy1VWFVmR1B3c1RmcGhzVWxzNEF4SWZuQ0tGSExrc0ZZYnczWmdyTnlkSzhFTHdVWU5CYzVuQUFncEctMTRwb3RMMTZsb050R1lxc2ltSElsNUdQd3RueEJGbzUzaUdFRU1JWEJpRkhFZ0szY2YyQl9qYzZGRkljLUVIVFlQVGRvUV9pWjZ0MHh2UGJkMlBGZ3d3amkzTXBWMW52TDJGMk5qdFRmdlJLaXRSTlZoa0o1Y3RseUJ2RDh3WEhDZ1ZpSmhTVdIBgwJBVV95cUxPajBEVTdGYW00UUFfXzNaMjRCUVB3eEtiRURXN1VQT2FmUUt2VldMdmlhZk1vdDJOTWwxcUd0bjdlMmtub2pHa3RhNm90NTY5ODlETTFuLWxyMHc4UVRab28yeUVKZ0MyY1NkemwyWHEyZmQ1SVRuTXlscERVOUZDTkNDTmxRRFJ4SFFVdi1UNlZ3b0F1NFp3eTVMT3ZnLXlwV2VwM3YycWNkbnMtb3NDNGdpVWc4RldhcG1wQkF2eE4wblBPVjB3VTFlWk92VldZOW5WMlVfZ1ZPVzV6WDdTRE5sMTBHU21BWFNDR3B6Q3J2OTN1bnhlbzBFamV1RURQVzVJ",
-          "published_at": "2026-09-27T07:00:00Z",
+          "article_id": "art_6cce449098179a5a",
+          "title": "Ceuta y el acoso de Marruecos a España: el Diálogo del Club LD con Ignacio Cembrero, Óscar Elía y Enrique Navarro Gil",
+          "title_key": "ceuta y el acoso de marruecos a espana el dialogo del club ld con ignacio cembrero oscar elia y enrique navarro gil",
+          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPZjNlZzVic05jSjJOckZKQnFQdnAwRXlhLUV3QUxfclBoeFhKWlpKQ0RUNUkwTzdpeDItVUFjTzNQUUhteEtPN3lWNFFtaDZVdEpMdUhpWFFKMDRQUThQaEpKLUoyLVkzNTFaOUlLSmYza1htLVpuMUt3Mnlma3FRMVBVSkc4UU52czY1Z1l0bW9NZEUta29obl9ocXlkbHA5ZHQ5LXVuaTQ3Si1VT1RIMjY2RUQwS3FzUE9FS05UZWR4cGs4SEZpaEI1TW5kZVZhVXRwSE5XVHM1NnYxXzZjTnBPMFFIUnVVaExVZjE4Y0s2M252SFhEU2xaVXVXTHYwQlJwdtIBjwJBVV95cUxQbUNQTHVKMEd1WmFXdmxHUWNSYjlHQU1zNk9CNDY2QXlVMXdxemloaHZSdmlTZ1RHS2d0MW1CRVRrZ3A1TVlrdWZxWWdGNUUtQXdGWUhjQlNtaFBEYzYyUGx3QXlmamhUZ2JsaFNpZ3pueEFGaUFxVm5kRjBHS2RWQ04zWVFHOHZYSEdYZmlnaUlZeHo3cTZiR1QybzV2ZzMwRlZhYV9YZ2lKRlFrV1JlRzZ4RFJBNUpHODU0cjVlREdyaHBub0I5TXNOS19yeklXLW02V2pjWlRRcmpRX3hYV3E2RmkyYTZRYlZqN240SlMwM0htZXBoV3ltQ2ZiQXFESmhKcVBFNW5qZ2oxcmdZ",
+          "published_at": "2026-09-29T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_ede92d252cbc98d5",
+      "topic": "relations",
+      "first_seen": "2026-09-28T08:53:01Z",
+      "last_seen": "2026-09-28T08:53:01Z",
+      "headline": "De Perejil a Ceuta: Federico Trillo analiza en Murcia la nueva tensión con Marruecos",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_aec00027777fb5cb",
+          "title": "De Perejil a Ceuta: Federico Trillo analiza en Murcia la nueva tensión con Marruecos",
+          "title_key": "de perejil a ceuta federico trillo analiza en murcia la nueva tension con marruecos",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNUxCVzBhdGhPdEJpNXAxZ01tSXJ4enMwTThQWDU4ZkJycURlVzNsM2paYUF0ZjVHZXlUTHZqSmt0YkUyM25iSm5BWVdJSGhkMk0xbHk4amNlWW5UQnJVYmdDZ0hOQ3J0MlJPVXpKRDEtc0hGQm13UEYxa0lvMnBOUVhjX2p2dThhUk1EZXZyeldfcGhwRUJ6dmZBamhEN29uQTdyNUVNTk5JUdIBrwFBVV95cUxPUG5rbE55Qmp3elFqU0lPSUJSNWlCTlQyVkxkQi1YTkRhOUR1M1luTTZUMXFqZHZhRnQ0SURlakRaTTdPOG5LeVRNUThFN2I1enlNMnQ3WmpraFZzb0cwZElxZmJvc015Ri1zeDBhd3U2WGVWb29pelJlajNTekR6bXdLeWJNRkVvVWpVMGxfdDd4ZHZyODhZanhSYUJvb1lhTDNUVTlUTUxIcng3TUt3",
+          "published_at": "2026-09-28T08:53:01Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -1096,10 +1188,10 @@
       ],
       "articles": [
         {
-          "article_id": "art_7b99a6c3f0563a0f",
+          "article_id": "art_954ea4b344e7dbc6",
           "title": "España y Marruecos: Amigos… pero no tanto",
           "title_key": "espana y marruecos amigos pero no tanto",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdlhmZU5OTEZNWDg3NzktWW9fQzd6b002NHduSmxoaTlTR1ZtNjBDaXIyb1Fsci1jdVVLVTdxc3B6aXpuclkxS3VRQklqUEFpS1dTcVh2R1FJdnBGOWZaaHpDaWV1Q0VqZnRNRkJmRU10OGhCYzdEN3liaC1FRzFIbEpFOXBiZk5CNG9XVHZ4ajkzTTZRUVMtSFRvRUJvMkdNeGFvc0JBd3ZZdlBLa2MzSHpHU2lnQ3lt",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQaHFzMldIODN1Q3BuZjNzV3pEaUtNV21CZFdjV2ZGYkMxY3I0Q3NVTlRJU19QVFUtcUJOWUFoZjlER0stNDBBRWpvSFhQU2VSd0oxSWY1QndhMlRvM3p1LWkyRGlKY1Q4cjdFeWhiejdWckN1aXBYNkNMaGYwZFRzWjBlV2NhS1RYcU1mZFViblplTWxfUkhxQ2tlYXJSZ2UwR25ibktkM2tMcWI5bV8xUTJPNkdYUDBpZGtsektJME5YTlR0NV9V",
           "published_at": "2026-09-26T08:21:24Z",
           "observed_at": "",
           "source_id": "unknown",
@@ -1142,24 +1234,6 @@
       ],
       "articles": [
         {
-          "article_id": "art_0fd106cfa3e6a72e",
-          "title": "Humanitarian crisis worsens in Ceuta as thousands remain stranded",
-          "title_key": "humanitarian crisis worsens in ceuta as thousands remain stranded",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUVJXQkV4by1ScnpYQzFtd1lGUHkzX3R6aHg2QWVTa0llZXRkeUk5cUlycFdaQTZnVXlxdnpabmNvUEFpenNhQ0VvaFZ6SXZjczZVSHR6WUtLb1ZYUFNoQ183R3Rfb2lUbGV0UTZFUTY0NHFhelVfUURGa2VwRmx6d196UUxDYmxFdUJmb2N3Z1VLbnQ2VFpCT2RnOTNqa1dLWDNnM2lRMWsyd9IBrwFBVV95cUxNV2V4bE9oV2R1Tm42ME9QUFV1LXkwWnFNWFhGZDVqZE91dEdxN3cyZVZVemEtQlUwN2c5VVN1SmlDLTBNQ3RsMVpGQnBxbkdrNTNTNkxBZVRkY1JPV0xxLTBQRU9qTDhsV3I0T0s1Vl9BM2Zta2ZuZ2M3eEExOGI2Zm5IZlZmdTNWWDVOWEJTMG5obUVrZWpkMk5qRGFGZTZFb05Id2dSQU0xOE00NjZF",
-          "published_at": "2026-09-25T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
           "article_id": "art_5b415d4b50da144b",
           "title": "Tens of thousands attend right-wing protest over Ceuta migrant crisis",
           "title_key": "tens of thousands attend right wing protest over ceuta migrant crisis",
@@ -1181,52 +1255,6 @@
       "importance": 4,
       "operational_impact": "NONE",
       "operational_eligible": false
-    },
-    {
-      "event_id": "evt_0047c71293b047d8",
-      "topic": "relations",
-      "first_seen": "2026-09-26T00:09:10Z",
-      "last_seen": "2026-09-26T00:09:10Z",
-      "headline": "Securitization Of Migration And Geopolitics Of Pressure: Ceuta And Melilla And Reshaping Of Morocco–EU Partnership At Crossroad Of Geopolitics, Security And International Law - Analysis",
-      "classification": "ANALYSIS",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_c092a93e2ecfd48e",
-          "title": "Securitization Of Migration And Geopolitics Of Pressure: Ceuta And Melilla And Reshaping Of Morocco–EU Partnership At Crossroad Of Geopolitics, Security And International Law - Analysis",
-          "title_key": "securitization of migration and geopolitics of pressure ceuta and melilla and reshaping of morocco eu partnership at crossroad of geopolitics security and international law analysis",
-          "url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxPaWdrZnZPNFllT0xMTWRhTVg0dzhMbm9qNjhqbzQyVU52V1dLWktVMEE5aXE1cVdjQjh1Z25CNWpKcmJqRE85LVIzMUdmeHV3cmFTVHhlYzNVTS1VNEtKZkdQZ1poVnlYYWQyQ1YwdXIzd29wTmhvMEhMLTIwdW53Q1c5UndtSS01czF3MHNSUEpmY0Fpc0dPdlA5ZWRKbWFBaE12aHNtMlRKemI3eHljcDh2a0JqMktVWERrXy1NbDZURm9VaUFUYlBWcHQtaWNHQWQzcmpSTWlPeFlCdFRsbVoxeUg1RGhyaldrZ3hvU01VYkRnYlN5NExHd3lfVVdnaXFabldxaG8yY2R3V2Nmc09jd25NaGRDTS1xRE9DOHl0MTJ6YmxSeHRpUThPMGtRTHFoQTN0Y2h4d0VxTkRqWkVoSQ",
-          "published_at": "2026-09-26T00:09:10Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "ANALYSIS",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 17,
-      "operational_impact": "CONTEXT",
-      "operational_eligible": false
     }
   ],
   "verification_summary": {
@@ -1235,9 +1263,9 @@
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 0,
     "SINGLE_SOURCE": 3,
-    "UNCONFIRMED": 17,
-    "TOTAL": 20
+    "UNCONFIRMED": 18,
+    "TOTAL": 21
   },
   "article_count": 36,
-  "event_count": 20
+  "event_count": 21
 }

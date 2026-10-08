@@ -1,7 +1,53 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-08T09:06:17.588802+00:00",
+  "generated_at": "2026-10-08T16:34:36.183475+00:00",
   "events": [
+    {
+      "event_id": "evt_a5d8848f9f561545",
+      "topic": "ceuta",
+      "first_seen": "2026-10-08T12:32:37Z",
+      "last_seen": "2026-10-08T12:32:37Z",
+      "headline": "Ceuta deja atrás las imágenes de los grandes campamentos, pero la crisis migratoria entra en una nueva fase",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_85528b20151917bf",
+          "title": "Ceuta deja atrás las imágenes de los grandes campamentos, pero la crisis migratoria entra en una nueva fase",
+          "title_key": "ceuta deja atras las imagenes de los grandes campamentos pero la crisis migratoria entra en una nueva fase",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQQ04zcFNlRmMzaDJFcEdVQ0VIRDV6MF92V1dmTVBzMHU2TUEtQkRIb2lFOW56ajM3VXJtbDBTVlI3Uk9PY21aYzVXY0JUSFNYWTZ3SE1udjUtRzc2UmcyS3lxODF2SE9qWTFzUHhEMlVuZGVmcmxxOWFpQmVHcEJMeHJfQ3J3RlFnVlAxaUFzLUlfZ0Z6c1VLX0t0Qk04TTJCa2JtRmFpRlhOOVpoUENFZmZhenVVQXk5dVlmNlN5MkJodGZibUE2ek52bXF4b0ZYQkVHb3ItVWZaNTlXWlIzb3BoWHrSAeoBQVVfeXFMT2VueFptMXFsbFJmd1Q5UEJkWDg0ZVlTUDBZRlpjRmRRbHhySHRXbGUycDRiYS03anYtN3FyTUp4YzNLRzhzcWdPLU1MVEw1T3RWdGpLWl8xcjlzbkNzM2tnaFNxd1YyM1NJWnFzc0FjeXFmbTl0SXcwZmZTSXBxQUFPbldVNnlOYWxjVWVoeDN0eUxwVTFYa2lnNDZySTZPMjJ0eXA0cDJWaGphVE1wcUhSWmExV2RuZTlCT0lCN0JIRFZyZHJOcUdwN09PVXd2X2NoOTBUMnZKOWEzZGtGNFlVeUJ4ampENTJ3",
+          "published_at": "2026-10-08T12:32:37Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
     {
       "event_id": "evt_469e6e4f84dbdc2c",
       "topic": "ceuta",
@@ -246,10 +292,10 @@
       ],
       "articles": [
         {
-          "article_id": "art_8551ebbba0a72e88",
+          "article_id": "art_44b4433bed714046",
           "title": "Marruecos eleva la presión sobre España: Ceuta en el tablero de la guerra híbrida",
           "title_key": "marruecos eleva la presion sobre espana ceuta en el tablero de la guerra hibrida",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPajN0Z0lLZGZDVVktV25hNWxOb1pEUlhuLUpUS1hOQmVxRWJmWmo1S3hJRkhkZnRMWVg5djF4SU43OFFfUURpZlNzajRkVVZvNTN2Q1ZpMkFONTJrTlNXZmlFTlItcnVHUGJtYzZrRjMtNVJ1ZVdrSlF5WXU4R3M4N2gxNVBuUU1ZMFNoeThjM3pxWDhieXM4U2d4eWxvU1h1OFVzSkt6Q09LclQ3UU9jbW9LbDBOQW80cWdvNnU5aWRFM3M",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPajN0Z0lLZGZDVVktV25hNWxOb1pEUlhuLUpUS1hOQmVxRWJmWmo1S3hJRkhkZnRMWVg5djF4SU43OFFfUURpZlNzajRkVVZvNTN2Q1ZpMkFONTJrTlNXZmlFTlItcnVHUGJtYzZrRjMtNVJ1ZVdrSlF5WXU4R3M4N2gxNVBuUU1ZMFNoeThjM3pxWDhieXM4U2d4eWxvU1h1OFVzSkt6Q09LclQ3UU9jbW9LbDBOQW80cWdvNnU5aWRFM3PSAcgBQVVfeXFMT0JoWl9Ob1V1NFNObUQwS0ZGLVNNMV9qdjAyUnBJdmxfd1dmb3VhQUJkRVEyQ1loMUhTaVZ3R0p2MVRJNm1SR1JlMTV4SDVJZ2ZUYXpWa0tVTVVPTFFOX1lLemxUQzIyQmEwYmxJWXZ1WmQ3X0dZdTRGWXhIVXVOMVFGWFpxbVYzcmlwSDg2bGo1bWhDdjV4NU04UnNHNDJKaW94QlJYNGJ4YkszNHVpRFRmQmJpRExPWVlseVplZ0hIZVFuLTFES1g",
           "published_at": "2026-10-06T02:30:00Z",
           "observed_at": "",
           "source_id": "unknown",
@@ -808,88 +854,6 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_7b457a4fef683c8a",
-      "topic": "ceuta",
-      "first_seen": "2026-09-28T23:39:24Z",
-      "last_seen": "2026-09-30T14:00:17Z",
-      "headline": "A migration crisis in Ceuta strains a tradition of coexistence - Christian Science Monitor - CSMonitor.com",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_53af3eb4f49a1507",
-          "title": "Spain's migration crisis in Ceuta continues to destabilize government",
-          "title_key": "spain s migration crisis in ceuta continues to destabilize government",
-          "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNUTJOTzVfWTdfWEhjaURFSDBON3ZtZmRUcnlXUlphVGJ3TU1BYktQX1hyeGpXT0ZoYTFCTjdxSElfalJJMWJsamhnQWROb1JvUkxyQkRLSExJQTBHR2hFd3cxdjRZeVdwRFE3c0xDOVp0VjVKRHRDOW5SdVVEa25IUHFvalpDejl3UHNfLVA2a2U4U2NiUk1XMlBQX01wQm1wTzJqTTh2aXh5N2ZVMXlyNHJDcXpQQkRVSmVhb0xXRXpCTlhKZXFXRUh0Q2t2Nm5Ib043WlN4SWFtVFRTNWwydDMwQWlfRUwxSC1yVG5jaGd6WUxnR2NZUi1keHNuM1lYRmoyMEFaU3JkcXR0bjBDSURleHZkb011",
-          "published_at": "2026-09-29T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_c363c9264c93de61",
-          "title": "A migration crisis in Ceuta strains a tradition of coexistence - Christian Science Monitor - CSMonitor.com",
-          "title_key": "a migration crisis in ceuta strains a tradition of coexistence",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObUJ1emtDT0hVNzU1VTVmWDZLS29ONEl1SlJLYTlCQWs2cjNJcDB4djRyWS1ya2laWV9rYkN5UWRsQUpHaE9pRVJ2dnVtY2V4Wl9DZTdhTFF6WDJuV3NRSXotM1JRdXNGN0tNR3NwVDQ5cFFWMlJmT1JsQjRrLWVLU3Itd3BBQW90eUNqZGk1RmhEV0k",
-          "published_at": "2026-09-30T04:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_01c1b458a25142a7",
-          "title": "Ceuta crisis exposes challenges and tensions in EU’s response to migration",
-          "title_key": "ceuta crisis exposes challenges and tensions in eu s response to migration",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUHlVTnVpb2NtSjhXUnBLWUVGYkpnenozejc0QWU1Ui02czhzNlAzMXdrZS0ySHZUX3VVNjVvLWE4WmdVREE0YWV4NXVfZ2V3X2U4VWxaMFdJZ0REYWJlVHh0VUw0ZjZ0TG1neEthVTJMYzdqUEVoS1NGemR4dThTWlFUTjhkNWNQWjNzZ3cxT2c5SnhwcHJwd0d4OXE",
-          "published_at": "2026-09-30T14:00:17Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_b635c7204bfd976a",
       "topic": "ceuta",
       "first_seen": "2026-09-29T12:06:52Z",
@@ -960,6 +924,88 @@
       ],
       "importance": 46,
       "operational_impact": "CONTEXT",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_7b457a4fef683c8a",
+      "topic": "ceuta",
+      "first_seen": "2026-09-28T23:39:24Z",
+      "last_seen": "2026-09-30T07:00:00Z",
+      "headline": "A migration crisis in Ceuta strains a tradition of coexistence - Christian Science Monitor - CSMonitor.com",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_53af3eb4f49a1507",
+          "title": "Spain's migration crisis in Ceuta continues to destabilize government",
+          "title_key": "spain s migration crisis in ceuta continues to destabilize government",
+          "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNUTJOTzVfWTdfWEhjaURFSDBON3ZtZmRUcnlXUlphVGJ3TU1BYktQX1hyeGpXT0ZoYTFCTjdxSElfalJJMWJsamhnQWROb1JvUkxyQkRLSExJQTBHR2hFd3cxdjRZeVdwRFE3c0xDOVp0VjVKRHRDOW5SdVVEa25IUHFvalpDejl3UHNfLVA2a2U4U2NiUk1XMlBQX01wQm1wTzJqTTh2aXh5N2ZVMXlyNHJDcXpQQkRVSmVhb0xXRXpCTlhKZXFXRUh0Q2t2Nm5Ib043WlN4SWFtVFRTNWwydDMwQWlfRUwxSC1yVG5jaGd6WUxnR2NZUi1keHNuM1lYRmoyMEFaU3JkcXR0bjBDSURleHZkb011",
+          "published_at": "2026-09-29T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_01c1b458a25142a7",
+          "title": "Ceuta crisis exposes challenges and tensions in EU’s response to migration",
+          "title_key": "ceuta crisis exposes challenges and tensions in eu s response to migration",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUHlVTnVpb2NtSjhXUnBLWUVGYkpnenozejc0QWU1Ui02czhzNlAzMXdrZS0ySHZUX3VVNjVvLWE4WmdVREE0YWV4NXVfZ2V3X2U4VWxaMFdJZ0REYWJlVHh0VUw0ZjZ0TG1neEthVTJMYzdqUEVoS1NGemR4dThTWlFUTjhkNWNQWjNzZ3cxT2c5SnhwcHJwd0d4OXE",
+          "published_at": "2026-09-30T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_c363c9264c93de61",
+          "title": "A migration crisis in Ceuta strains a tradition of coexistence - Christian Science Monitor - CSMonitor.com",
+          "title_key": "a migration crisis in ceuta strains a tradition of coexistence",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObUJ1emtDT0hVNzU1VTVmWDZLS29ONEl1SlJLYTlCQWs2cjNJcDB4djRyWS1ya2laWV9rYkN5UWRsQUpHaE9pRVJ2dnVtY2V4Wl9DZTdhTFF6WDJuV3NRSXotM1JRdXNGN0tNR3NwVDQ5cFFWMlJmT1JsQjRrLWVLU3Itd3BBQW90eUNqZGk1RmhEV0k",
+          "published_at": "2026-09-30T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
       "operational_eligible": false
     },
     {
@@ -1188,10 +1234,10 @@
       ],
       "articles": [
         {
-          "article_id": "art_954ea4b344e7dbc6",
+          "article_id": "art_476d6f5ae83e5fcc",
           "title": "España y Marruecos: Amigos… pero no tanto",
           "title_key": "espana y marruecos amigos pero no tanto",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQaHFzMldIODN1Q3BuZjNzV3pEaUtNV21CZFdjV2ZGYkMxY3I0Q3NVTlRJU19QVFUtcUJOWUFoZjlER0stNDBBRWpvSFhQU2VSd0oxSWY1QndhMlRvM3p1LWkyRGlKY1Q4cjdFeWhiejdWckN1aXBYNkNMaGYwZFRzWjBlV2NhS1RYcU1mZFViblplTWxfUkhxQ2tlYXJSZ2UwR25ibktkM2tMcWI5bV8xUTJPNkdYUDBpZGtsektJME5YTlR0NV9V",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNEZlNlFLalFRRC1xd2IyRVViVmM5ZF9IU05nblZxQm9rVmhGYVR5QXh4ZDhkaGNfYjJ3TE5jOW1YUEFiYmdYS0VIcjJhbjh5Z21nM1BvWUpmSTluWGhtREVxNnlDZUJyYXlEeGFUTUlPRjNjaGo3UWFBY0xqMmtINUdqT0g5NEhNR2w2MjFydmd3U0w0ZFh3QmFNbVE5UkNnX18yclBpVWhnOTVMVk10ZDZBc0t1czItU2xRSlc2cmZYZw",
           "published_at": "2026-09-26T08:21:24Z",
           "observed_at": "",
           "source_id": "unknown",
@@ -1201,52 +1247,6 @@
           "official": false,
           "weight": 1.0,
           "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_0bf6bb34ceedc9da",
-      "topic": "ceuta",
-      "first_seen": "2026-09-26T07:00:00Z",
-      "last_seen": "2026-09-26T07:00:00Z",
-      "headline": "Tens of thousands attend right-wing protest over Ceuta migrant crisis",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_5b415d4b50da144b",
-          "title": "Tens of thousands attend right-wing protest over Ceuta migrant crisis",
-          "title_key": "tens of thousands attend right wing protest over ceuta migrant crisis",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPd3ZsZURvbmItcm5YOE9lNnpsaVFNS1pFam9RTkREcmFwTmFYYVppRkhfeGFxMFZWUVRxTU03MVgwaUExLTBtSXdOWVhhSE9EekdFYjZCS2NGMVVxS3VYQkpPalNQNXA5TTlYTW9DTWRaaUdjU081UnhzWnBld0FjWnFZT0ZlczhJRUMydXVHTVlsYVJZWFl6a1hpVmJFX0NHOExwOWx1alh0b2RhMEM40gG0AUFVX3lxTE5yX3dmNnpDelJnUVdxQ1RhWEVhNVI3TEZGUVFSdFl4V1RId3R5Zk1PdldMOHdIb2lrVURoZUZvQ1NqM1VBT2lPTGQ4ZURfcllmWW1vb2o4YmsyaFRJZXVNWm5BQUgxU1pxUzVOZGVNaGRZa2tvd3Y4VlZpc3dFWDdwQUtxY01oMDBna0VTVGE0Nm1WaHpYWU81Smt5S09mS0xiWUV2dnpIQjBaLW5jV2I4VXlBeQ",
-          "published_at": "2026-09-26T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""

@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-09T13:17:06Z",
+  "generated_at": "2026-10-09T16:25:02Z",
   "state": {
     "code": "watch",
     "label_es": "VIGILANCIA",
     "color": "yellow",
     "severity": 1,
-    "summary_es": "La situación requiere seguimiento, pero no aparecen señales suficientes para elevar el nivel operativo. Parte de las fuentes necesita actualización, por lo que la lectura debe interpretarse con cautela.",
+    "summary_es": "La situación requiere seguimiento, pero no aparecen señales suficientes para elevar el nivel operativo.",
     "layers": {
       "maritime": {
         "value": "SIN CONFIRMACIÓN RECIENTE",
@@ -26,11 +26,8 @@
       }
     },
     "confidence": "BAJA",
-    "confidence_explanation_es": "Confianza baja porque necesitan actualización o revisión: Sismicidad USGS, Actualidad y geopolítica. El estado operativo se mantiene separado de la frescura de esas fuentes.",
-    "sources_pending": [
-      "Sismicidad USGS",
-      "Actualidad y geopolítica"
-    ],
+    "confidence_explanation_es": "Confianza baja: la información disponible no permite una corroboración reciente suficiente.",
+    "sources_pending": [],
     "alert_level": {
       "code": "informational",
       "label_es": "INFORMATIVO",
@@ -62,8 +59,8 @@
     "summary_es": "El nivel general se mantiene en VIGILANCIA. El monitor recoge 3 referencias menos en la ventana de 24 horas."
   },
   "health": {
-    "overall": "DEGRADED",
-    "generated_at": "2026-10-09T13:17:06Z"
+    "overall": "HEALTHY",
+    "generated_at": "2026-10-09T16:25:02Z"
   },
   "latest_diary": {
     "date": "2026-10-09",

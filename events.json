@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-09T09:14:41.733944+00:00",
+  "generated_at": "2026-10-09T16:25:02.120755+00:00",
   "events": [
     {
       "event_id": "evt_a5d8848f9f561545",
@@ -461,52 +461,6 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_816540d92046cbcc",
-      "topic": "melilla",
-      "first_seen": "2026-10-04T07:06:37Z",
-      "last_seen": "2026-10-04T07:06:37Z",
-      "headline": "Marruecos prepara una movilización contra la visita de los Reyes a Ceuta",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_2192650b0e3b95ba",
-          "title": "Marruecos prepara una movilización contra la visita de los Reyes a Ceuta",
-          "title_key": "marruecos prepara una movilizacion contra la visita de los reyes a ceuta",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRW9XcXJiV0FqSjQtQWZkSjg1VFd1T3RsbWlTVFdpdTQ1SlEtbVl0bUVoQjdrV2FoVmJfSm1XcTZuaklyUW1QM09uS0FQWkNyMzZKbXZ2bl9FV1pGWnpuMFRIMzlMbW1mTWJGZXV4bFozV2dreTczYm81bHBQemRmaWlaRlVBNWZCWFhHOTRtQmxLaFZtcnN4QzZLMA",
-          "published_at": "2026-10-04T07:06:37Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_2d2026db0bb33383",
       "topic": "relations",
       "first_seen": "2026-10-04T04:11:00Z",
@@ -553,23 +507,15 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_464c265e3057df4e",
+      "event_id": "evt_ad99c199c1cacfc5",
       "topic": "relations",
-      "first_seen": "2026-10-04T11:23:56Z",
+      "first_seen": "2026-10-01T11:58:31Z",
       "last_seen": "2026-10-03T21:00:00Z",
-      "headline": "La Casa Real subraya con la visita a Ceuta y Melilla que España es la “puerta de entrada” de Marruecos en Europa",
-      "classification": "FACT",
-      "verification_status": "SINGLE_SOURCE",
-      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
+      "headline": "El periodista que ha desnudado a los espías de Marruecos: “Lo que pasó en Ceuta fue fruto de una guerra soterrada entre servicios secretos, un toque de atención a España”",
+      "classification": "ANALYSIS",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
       "sources": [
-        {
-          "source_id": "elpais",
-          "source_name": "El País",
-          "source_domain": "elpais.com",
-          "tier": 3,
-          "official": false,
-          "weight": 3.0
-        },
         {
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -580,70 +526,15 @@
         }
       ],
       "source_ids": [
-        "elpais",
         "unknown"
       ],
       "articles": [
-        {
-          "article_id": "art_0c2f3d1f16d81df8",
-          "title": "Marruecos guarda silencio oficial tras el anuncio de la visita de los Reyes a Ceuta y Melilla",
-          "title_key": "marruecos guarda silencio oficial tras el anuncio de la visita de los reyes a ceuta y melilla",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQVTY1VHRZTVhlYXotQkV4aEpadmR4V3ZXZFZVNEF3OG4zTUxGbHFEMVc4YjZoekYyeDdZLXY3S0NIWkQwTEFkTDZaN2tTWU1UNDJtX2hCaEdCUW1RNXFzSmpDWFR6QjNOS0tPdy1oSjYyZFFHSXA1dnZoa3BpeFhHUGxhbDIzUkdPNWlRb29hREVyOE83TjFzSEhEbkZONmJ2R0NscUl6YkxYVU9QYy1wX1pkbUxQc2N0TzdJck9wUVZmZ05EYUF5eEZ5bGHSAeABQVVfeXFMT3FONkN0LTdqek5ZcE91bGZOWDRkQmlhYzR0Um5CN0JOQUNpNHV1NFlvNVhsamFnWnpob1JYNHVNRWxwN3NkV1ZBRHRCVU1jWDlIel9nVFlZTF9pNElYeHVFR3lVRExXQjBQZlhkbFdoeTFzU0hWTkFiNlNLYlJSNjdrQ3ZnNzBnVHRhcUdJSDhWRF95Si1YTDlBNEFmb3pyUTFpdGNSd3FGa3BHX1ViNEhXTkFIOEI5OTloY1Y1UFlScnNJY2FNeVpmb1RXTVBNOXdlMFhDZmRLNFRmWUp2VWg",
-          "published_at": "2026-10-01T07:00:00Z",
-          "observed_at": "",
-          "source_id": "elpais",
-          "source_name": "El País",
-          "source_domain": "elpais.com",
-          "tier": 3,
-          "official": false,
-          "weight": 3.0,
-          "topic": "relations",
-          "classification": "FACT",
-          "signal": "",
-          "description": ""
-        },
         {
           "article_id": "art_a8f8e9d2a02e88b6",
           "title": "Las entretelas: qué implicaciones tiene el viaje real a Ceuta y Melilla en la relación con Marruecos",
           "title_key": "las entretelas que implicaciones tiene el viaje real a ceuta y melilla en la relacion con marruecos",
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMUJsa1NxN2hlTDhmcEpsVU5LQ2p3eVpPX19ja0VqMkxITzVncHdWZV8wenJMeERqYU5pWXZCM2JrZjRlN1NqTkZhZVdNSWQ1SXNILUgyX3BkWnlXdVRiREdWMmlxOGVFVi00TWNqU2thdXkxSzA3SExaU3pGQXZKRmhQNGlPbXg4bDhrd24yNXBmMUN1eXpVYkI2NDdzcXpjZE51TmRUTUI0dWFzM0d0bVVuRGZldi11RXFjMmc4dFhMZ9IB1gFBVV95cUxQOUdDRlVnMnI5RXNiclNKUHMwMGM3MkFZV2dlbzlyOEU1cE1tQ3JqWWN0MVMxMGNWMmtVa19SVTM3VldReWd3bmJlRXNKbUJKNWpOZFJtdVpfbC16cEhXR1ZOWk81cHREOUlwdTJpSGJ0VHE0WWtuZmFjOVZtYUVvcHRDcFhkSGxzb3lwTVRpNGVHU21Zc0M4VFo3eTNqU1NsakRYSFU4WTFuakNsb2hGMkNRd2I1cHd4aHBTUDZ4YW1CT0R2RFMzWWpfUVVoT1J2NFF5Z2N3",
           "published_at": "2026-10-01T11:58:31Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_7d85a1fc14d0aa4d",
-          "title": "La Casa Real subraya con la visita a Ceuta y Melilla que España es la “puerta de entrada” de Marruecos en Europa",
-          "title_key": "la casa real subraya con la visita a ceuta y melilla que espana es la puerta de entrada de marruecos en europa",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOd2pTT0I4UTBILXZMWVd0YkhYMVNhc1dnT3hpaktZUm9JbHhMYnJ3MW11X3NJTy0yUXhzQU5ZVmg3Q3c0YWsyS0wtQ2YtVHU5VGhhRUI3QTl5MFd2YlZBWnZ5NVpwMjVydzNLUmRCTmhnWGJRWUhRSGo3NlVFWWNyXzNnQndXU1A5dGswd3BQTTFYa291QWZ5TFJPOUZzRUVvTFFaMktTZFBDNlJ3cGJmSkhMRWxmM0dQd2p5ci1zdHV2TUR2UEI1UU1EWXY4Vjl3aDNLTWt6MnEtRlFMZDF4d1ZpanVsYjDSAfsBQVVfeXFMTmlNZllGeGtWNzNOaXdjWWthNy14S0s2UkxqTDhIRzZ1Zjl6R0RQQTZmNnBwMVE1aEh4Sk1GOXhhMFJKd2dBTkItTWZzOEZzNDNQd3BjeUlTUmNQd2h5WFpZeTV4c0ZWWmZwdVNfMmR0SDJuS3hqTXp2MHNtSWJOaWtuRC1kTXdDRDc2MjMzaXp0Wi1QUm9BSGh6RmphYm9BdksxRkhlYnpwcWZpZFRTZFNuZGxtMzN2MDF0UTdwS1o4UWF0UDZCazRuQ25SRjBtVk13RU02Q1lab1poUTdUX09VX2lQTzN6UGdCZm1Wc3MxVDYwTE1lTGhPZlE",
-          "published_at": "2026-10-01T17:33:52Z",
-          "observed_at": "",
-          "source_id": "elpais",
-          "source_name": "El País",
-          "source_domain": "elpais.com",
-          "tier": 3,
-          "official": false,
-          "weight": 3.0,
-          "topic": "relations",
-          "classification": "FACT",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_489eb974c958f994",
-          "title": "Prensa marroquí: críticas a la visita de los Reyes a Ceuta",
-          "title_key": "prensa marroqui criticas a la visita de los reyes a ceuta",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNS2NDV3RpY0w3N1h5eGdXWUY4RmQ2NS1FMHphYXh3OGwxYy1DaHRsNnljTWVhS1VpSTYyYTAxcDRBT3BHeHBScWNBMjUzYlhkRVlLXzBNVlI2UDF5dW1lUmI0S29KSGlsLV9sanhtQUpBaU8tb29TUHVrS0ZWc3RsaFlrTVRqVUdKeEtLZlRGVVk1S3lMM0I0LUxhbFNTSlJYTENHOUdLUjU2UF82Wmkzc2pvaGI0WndJNHhvY19KMXd5aGVPN2pncEpTVXpIY1XSAdQBQVVfeXFMTzlpMmtLOFExUTFza2N0UnJKS2R6LXhGUTQ0Nnk0cFBUS1k2em9hRUFuT3g1U21Ub0s4eXAwcmtkSDBJN3VRWWYzeEppY01hZktOVGQtelcxdVJTZlpXVzI3TVJkOUdxa2tmNEN3NUlodnZyS2NxbjByeUw1d3pGY2FlaUxNVGhsM3pXdkUyY3lTenBKVkt0X0M3cDdRZGRqTWVBb19SY1JiYm5QT0ZpSWlkSDQ0VzItUXNqamJuV2lHNzg4elZNUll2OFVnaWlONGFTcUw",
-          "published_at": "2026-10-02T08:39:16Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -693,8 +584,54 @@
           "description": ""
         }
       ],
-      "importance": 46,
+      "importance": 17,
       "operational_impact": "CONTEXT",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_f49bd53e486aa9cf",
+      "topic": "relations",
+      "first_seen": "2026-10-02T08:39:16Z",
+      "last_seen": "2026-10-02T08:39:16Z",
+      "headline": "Prensa marroquí: críticas a la visita de los Reyes a Ceuta",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_489eb974c958f994",
+          "title": "Prensa marroquí: críticas a la visita de los Reyes a Ceuta",
+          "title_key": "prensa marroqui criticas a la visita de los reyes a ceuta",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNS2NDV3RpY0w3N1h5eGdXWUY4RmQ2NS1FMHphYXh3OGwxYy1DaHRsNnljTWVhS1VpSTYyYTAxcDRBT3BHeHBScWNBMjUzYlhkRVlLXzBNVlI2UDF5dW1lUmI0S29KSGlsLV9sanhtQUpBaU8tb29TUHVrS0ZWc3RsaFlrTVRqVUdKeEtLZlRGVVk1S3lMM0I0LUxhbFNTSlJYTENHOUdLUjU2UF82Wmkzc2pvaGI0WndJNHhvY19KMXd5aGVPN2pncEpTVXpIY1XSAdQBQVVfeXFMTzlpMmtLOFExUTFza2N0UnJKS2R6LXhGUTQ0Nnk0cFBUS1k2em9hRUFuT3g1U21Ub0s4eXAwcmtkSDBJN3VRWWYzeEppY01hZktOVGQtelcxdVJTZlpXVzI3TVJkOUdxa2tmNEN3NUlodnZyS2NxbjByeUw1d3pGY2FlaUxNVGhsM3pXdkUyY3lTenBKVkt0X0M3cDdRZGRqTWVBb19SY1JiYm5QT0ZpSWlkSDQ0VzItUXNqamJuV2lHNzg4elZNUll2OFVnaWlONGFTcUw",
+          "published_at": "2026-10-02T08:39:16Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
       "operational_eligible": false
     },
     {
@@ -759,6 +696,97 @@
       ],
       "importance": 4,
       "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_464c265e3057df4e",
+      "topic": "relations",
+      "first_seen": "2026-10-04T11:23:56Z",
+      "last_seen": "2026-10-01T07:00:00Z",
+      "headline": "La Casa Real subraya con la visita a Ceuta y Melilla que España es la “puerta de entrada” de Marruecos en Europa",
+      "classification": "FACT",
+      "verification_status": "SINGLE_SOURCE",
+      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
+      "sources": [
+        {
+          "source_id": "elpais",
+          "source_name": "El País",
+          "source_domain": "elpais.com",
+          "tier": 3,
+          "official": false,
+          "weight": 3.0
+        },
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "elpais",
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_aec00027777fb5cb",
+          "title": "De Perejil a Ceuta: Federico Trillo analiza en Murcia la nueva tensión con Marruecos",
+          "title_key": "de perejil a ceuta federico trillo analiza en murcia la nueva tension con marruecos",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNUxCVzBhdGhPdEJpNXAxZ01tSXJ4enMwTThQWDU4ZkJycURlVzNsM2paYUF0ZjVHZXlUTHZqSmt0YkUyM25iSm5BWVdJSGhkMk0xbHk4amNlWW5UQnJVYmdDZ0hOQ3J0MlJPVXpKRDEtc0hGQm13UEYxa0lvMnBOUVhjX2p2dThhUk1EZXZyeldfcGhwRUJ6dmZBamhEN29uQTdyNUVNTk5JUdIBrwFBVV95cUxPUG5rbE55Qmp3elFqU0lPSUJSNWlCTlQyVkxkQi1YTkRhOUR1M1luTTZUMXFqZHZhRnQ0SURlakRaTTdPOG5LeVRNUThFN2I1enlNMnQ3WmpraFZzb0cwZElxZmJvc015Ri1zeDBhd3U2WGVWb29pelJlajNTekR6bXdLeWJNRkVvVWpVMGxfdDd4ZHZyODhZanhSYUJvb1lhTDNUVTlUTUxIcng3TUt3",
+          "published_at": "2026-09-28T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_7d85a1fc14d0aa4d",
+          "title": "La Casa Real subraya con la visita a Ceuta y Melilla que España es la “puerta de entrada” de Marruecos en Europa",
+          "title_key": "la casa real subraya con la visita a ceuta y melilla que espana es la puerta de entrada de marruecos en europa",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOd2pTT0I4UTBILXZMWVd0YkhYMVNhc1dnT3hpaktZUm9JbHhMYnJ3MW11X3NJTy0yUXhzQU5ZVmg3Q3c0YWsyS0wtQ2YtVHU5VGhhRUI3QTl5MFd2YlZBWnZ5NVpwMjVydzNLUmRCTmhnWGJRWUhRSGo3NlVFWWNyXzNnQndXU1A5dGswd3BQTTFYa291QWZ5TFJPOUZzRUVvTFFaMktTZFBDNlJ3cGJmSkhMRWxmM0dQd2p5ci1zdHV2TUR2UEI1UU1EWXY4Vjl3aDNLTWt6MnEtRlFMZDF4d1ZpanVsYjDSAfsBQVVfeXFMTmlNZllGeGtWNzNOaXdjWWthNy14S0s2UkxqTDhIRzZ1Zjl6R0RQQTZmNnBwMVE1aEh4Sk1GOXhhMFJKd2dBTkItTWZzOEZzNDNQd3BjeUlTUmNQd2h5WFpZeTV4c0ZWWmZwdVNfMmR0SDJuS3hqTXp2MHNtSWJOaWtuRC1kTXdDRDc2MjMzaXp0Wi1QUm9BSGh6RmphYm9BdksxRkhlYnpwcWZpZFRTZFNuZGxtMzN2MDF0UTdwS1o4UWF0UDZCazRuQ25SRjBtVk13RU02Q1lab1poUTdUX09VX2lQTzN6UGdCZm1Wc3MxVDYwTE1lTGhPZlE",
+          "published_at": "2026-10-01T07:00:00Z",
+          "observed_at": "",
+          "source_id": "elpais",
+          "source_name": "El País",
+          "source_domain": "elpais.com",
+          "tier": 3,
+          "official": false,
+          "weight": 3.0,
+          "topic": "relations",
+          "classification": "FACT",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_0c2f3d1f16d81df8",
+          "title": "Marruecos guarda silencio oficial tras el anuncio de la visita de los Reyes a Ceuta y Melilla",
+          "title_key": "marruecos guarda silencio oficial tras el anuncio de la visita de los reyes a ceuta y melilla",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQVTY1VHRZTVhlYXotQkV4aEpadmR4V3ZXZFZVNEF3OG4zTUxGbHFEMVc4YjZoekYyeDdZLXY3S0NIWkQwTEFkTDZaN2tTWU1UNDJtX2hCaEdCUW1RNXFzSmpDWFR6QjNOS0tPdy1oSjYyZFFHSXA1dnZoa3BpeFhHUGxhbDIzUkdPNWlRb29hREVyOE83TjFzSEhEbkZONmJ2R0NscUl6YkxYVU9QYy1wX1pkbUxQc2N0TzdJck9wUVZmZ05EYUF5eEZ5bGHSAeABQVVfeXFMT3FONkN0LTdqek5ZcE91bGZOWDRkQmlhYzR0Um5CN0JOQUNpNHV1NFlvNVhsamFnWnpob1JYNHVNRWxwN3NkV1ZBRHRCVU1jWDlIel9nVFlZTF9pNElYeHVFR3lVRExXQjBQZlhkbFdoeTFzU0hWTkFiNlNLYlJSNjdrQ3ZnNzBnVHRhcUdJSDhWRF95Si1YTDlBNEFmb3pyUTFpdGNSd3FGa3BHX1ViNEhXTkFIOEI5OTloY1Y1UFlScnNJY2FNeVpmb1RXTVBNOXdlMFhDZmRLNFRmWUp2VWg",
+          "published_at": "2026-10-01T07:00:00Z",
+          "observed_at": "",
+          "source_id": "elpais",
+          "source_name": "El País",
+          "source_domain": "elpais.com",
+          "tier": 3,
+          "official": false,
+          "weight": 3.0,
+          "topic": "relations",
+          "classification": "FACT",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 46,
+      "operational_impact": "CONTEXT",
       "operational_eligible": false
     },
     {
@@ -844,7 +872,7 @@
           "title": "Brussels seeks to strengthen EU border controls after Ceuta crisis",
           "title_key": "brussels seeks to strengthen eu border controls after ceuta crisis",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNzM1WE1JWTZUUGd6YmczOVpzRGNCYkNpVHliOFNQajctVFdzU2lsZXM2VVJESThsck9WOTZpZXBUVjBSd0xIX3ZUZzBPZWtDV3VDTHI5Q2FrZmxmV3JDdnkzR3VWRHFMb2tHS1VmRnFXX1VNN21ZMzJFWmlSQ2Y1Nklsb0NlN3FQVTVwekpsbi00M195Mnd0d0ZKblJUNWlVblRZX3VlTDBScVRwMkNXUGlPd2RIdEpUbG82T3ZTM181cFM1X2Rrag",
-          "published_at": "2026-09-29T12:06:52Z",
+          "published_at": "2026-09-29T07:00:00Z",
           "observed_at": "",
           "source_id": "reuters",
           "source_name": "Reuters",
@@ -1137,52 +1165,6 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_ede92d252cbc98d5",
-      "topic": "relations",
-      "first_seen": "2026-09-28T08:53:01Z",
-      "last_seen": "2026-09-28T07:00:00Z",
-      "headline": "De Perejil a Ceuta: Federico Trillo analiza en Murcia la nueva tensión con Marruecos",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_aec00027777fb5cb",
-          "title": "De Perejil a Ceuta: Federico Trillo analiza en Murcia la nueva tensión con Marruecos",
-          "title_key": "de perejil a ceuta federico trillo analiza en murcia la nueva tension con marruecos",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNUxCVzBhdGhPdEJpNXAxZ01tSXJ4enMwTThQWDU4ZkJycURlVzNsM2paYUF0ZjVHZXlUTHZqSmt0YkUyM25iSm5BWVdJSGhkMk0xbHk4amNlWW5UQnJVYmdDZ0hOQ3J0MlJPVXpKRDEtc0hGQm13UEYxa0lvMnBOUVhjX2p2dThhUk1EZXZyeldfcGhwRUJ6dmZBamhEN29uQTdyNUVNTk5JUdIBrwFBVV95cUxPUG5rbE55Qmp3elFqU0lPSUJSNWlCTlQyVkxkQi1YTkRhOUR1M1luTTZUMXFqZHZhRnQ0SURlakRaTTdPOG5LeVRNUThFN2I1enlNMnQ3WmpraFZzb0cwZElxZmJvc015Ri1zeDBhd3U2WGVWb29pelJlajNTekR6bXdLeWJNRkVvVWpVMGxfdDd4ZHZyODhZanhSYUJvb1lhTDNUVTlUTUxIcng3TUt3",
-          "published_at": "2026-09-28T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_52aa27d29ffebc79",
       "topic": "relations",
       "first_seen": "2026-09-26T08:21:24Z",
@@ -1206,10 +1188,10 @@
       ],
       "articles": [
         {
-          "article_id": "art_476d6f5ae83e5fcc",
+          "article_id": "art_12547276a9cfab07",
           "title": "España y Marruecos: Amigos… pero no tanto",
           "title_key": "espana y marruecos amigos pero no tanto",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNEZlNlFLalFRRC1xd2IyRVViVmM5ZF9IU05nblZxQm9rVmhGYVR5QXh4ZDhkaGNfYjJ3TE5jOW1YUEFiYmdYS0VIcjJhbjh5Z21nM1BvWUpmSTluWGhtREVxNnlDZUJyYXlEeGFUTUlPRjNjaGo3UWFBY0xqMmtINUdqT0g5NEhNR2w2MjFydmd3U0w0ZFh3QmFNbVE5UkNnX18yclBpVWhnOTVMVk10ZDZBc0t1czItU2xRSlc2cmZYZw",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNd19Tam50UWdmZ0liTVh2N3lHSEZuYkdDQlhMZVN4RlVwMnoyTzEtU1hVUzR2QmpXQkdsVzMtazd6dWJiZ3RwbGk3STU4bmNUNlItejdmbXJsWFR6aTZITmd6bzR3VWh2RHhRZ29YRzVBRGNoM3FqY2VOOG0tTUt4elViNXZNLTJRMkZ4SWxlWG1FZE9iSzZ4Zkw3S3RnTHU5RHZ5aVB6QmVfd3hwZC1LN1NCcGt2SXQ3ODVzTm1TUXdaQQ",
           "published_at": "2026-09-26T08:21:24Z",
           "observed_at": "",
           "source_id": "unknown",
@@ -1227,6 +1209,52 @@
       "importance": 4,
       "operational_impact": "NONE",
       "operational_eligible": false
+    },
+    {
+      "event_id": "evt_0bf6bb34ceedc9da",
+      "topic": "ceuta",
+      "first_seen": "2026-09-26T07:00:00Z",
+      "last_seen": "2026-09-26T07:00:00Z",
+      "headline": "Tens of thousands attend right-wing protest over Ceuta migrant crisis",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_5b415d4b50da144b",
+          "title": "Tens of thousands attend right-wing protest over Ceuta migrant crisis",
+          "title_key": "tens of thousands attend right wing protest over ceuta migrant crisis",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPd3ZsZURvbmItcm5YOE9lNnpsaVFNS1pFam9RTkREcmFwTmFYYVppRkhfeGFxMFZWUVRxTU03MVgwaUExLTBtSXdOWVhhSE9EekdFYjZCS2NGMVVxS3VYQkpPalNQNXA5TTlYTW9DTWRaaUdjU081UnhzWnBld0FjWnFZT0ZlczhJRUMydXVHTVlsYVJZWFl6a1hpVmJFX0NHOExwOWx1alh0b2RhMEM40gG0AUFVX3lxTE5yX3dmNnpDelJnUVdxQ1RhWEVhNVI3TEZGUVFSdFl4V1RId3R5Zk1PdldMOHdIb2lrVURoZUZvQ1NqM1VBT2lPTGQ4ZURfcllmWW1vb2o4YmsyaFRJZXVNWm5BQUgxU1pxUzVOZGVNaGRZa2tvd3Y4VlZpc3dFWDdwQUtxY01oMDBna0VTVGE0Nm1WaHpYWU81Smt5S09mS0xiWUV2dnpIQjBaLW5jV2I4VXlBeQ",
+          "published_at": "2026-09-26T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
     }
   ],
   "verification_summary": {
@@ -1235,9 +1263,9 @@
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 0,
     "SINGLE_SOURCE": 3,
-    "UNCONFIRMED": 17,
-    "TOTAL": 20
+    "UNCONFIRMED": 18,
+    "TOTAL": 21
   },
   "article_count": 36,
-  "event_count": 20
+  "event_count": 21
 }

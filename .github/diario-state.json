@@ -1,9 +1,9 @@
 {
   "version": 4,
   "latest_entry": {
-    "date": "2026-10-08",
+    "date": "2026-10-09",
     "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
-    "summary": "Selección automática de 5 referencias de 4 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "summary": "Selección automática de 2 referencias de 2 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
     "url": "diario/actual.html",
     "material_archive": false,
     "status_snapshot": {
@@ -25,22 +25,18 @@
       }
     },
     "source_keys": [
-      "536e77d23e7ac7b57e46",
-      "8f9e4c9910bcb61a2107",
-      "a4c58d8bedbceca15a09",
-      "cb345e7dea38ca1a7be1",
+      "85528b20151917bf1466",
       "f7063362038aa73e256a"
     ],
-    "published_at": "2026-10-08T15:29+02:00",
-    "updated_at": "2026-10-08T15:29+02:00",
-    "published_rfc822": "Thu, 08 Oct 2026 15:29:00 +0200",
-    "source_count": 5,
-    "fingerprint": "0e67aee0e6032098207c",
-    "mode": "full",
-    "significance": 56,
+    "published_at": "2026-10-09T15:17+02:00",
+    "updated_at": "2026-10-09T15:17+02:00",
+    "published_rfc822": "Fri, 09 Oct 2026 15:17:00 +0200",
+    "source_count": 2,
+    "fingerprint": "863d511565fc658be365",
+    "mode": "brief",
+    "significance": 16,
     "significance_reasons": [
-      "actualidad repartida en tres o más ámbitos",
-      "volumen informativo relevante"
+      "novedades recientes sin cambio estructural"
     ],
     "indexable": false,
     "editor_engine": "rules",
@@ -48,7 +44,7 @@
     "editor_assistant_status": "gemini-validation-es",
     "editorial_trace": {
       "validator_version": 2,
-      "factual_packet_sha256": "6eef79270aec59d90f26b4a3f68140601412524a1e132d83ea4cdb3da637571f",
+      "factual_packet_sha256": "dd27a2c764fa4e77bdcd4e3dabac9890ac78fdcfd04c88a43ec225b4c74b4127",
       "provider": "rules",
       "status": "gemini-validation-es",
       "attempts": [
@@ -57,7 +53,7 @@
           "model": "gemini-3.5-flash-lite"
         }
       ],
-      "factual_packet_hash": "6eef79270aec59d90f26b4a3f68140601412524a1e132d83ea4cdb3da637571f",
+      "factual_packet_hash": "dd27a2c764fa4e77bdcd4e3dabac9890ac78fdcfd04c88a43ec225b4c74b4127",
       "event_ids": [
         "evt_464c265e3057df4e",
         "evt_b635c7204bfd976a",
@@ -74,14 +70,14 @@
         "CONFLICTING": 0,
         "DECLARATION_ONLY": 0,
         "SINGLE_SOURCE": 3,
-        "UNCONFIRMED": 18,
-        "TOTAL": 21
+        "UNCONFIRMED": 17,
+        "TOTAL": 20
       },
-      "timestamp": "2026-10-08T13:29:27.056188+00:00",
+      "timestamp": "2026-10-09T13:17:04.540128+00:00",
       "fallback_used": true
     },
     "validator_version": 2,
-    "factual_packet_hash": "6eef79270aec59d90f26b4a3f68140601412524a1e132d83ea4cdb3da637571f",
+    "factual_packet_hash": "dd27a2c764fa4e77bdcd4e3dabac9890ac78fdcfd04c88a43ec225b4c74b4127",
     "event_ids": [
       "evt_464c265e3057df4e",
       "evt_b635c7204bfd976a",
@@ -92,7 +88,7 @@
       "reuters",
       "unknown"
     ],
-    "timestamp": "2026-10-08T13:29:27.056188+00:00",
+    "timestamp": "2026-10-09T13:17:04.540128+00:00",
     "fallback_used": true,
     "verification_summary": {
       "CONFIRMED_MULTI_SOURCE": 0,
@@ -100,8 +96,8 @@
       "CONFLICTING": 0,
       "DECLARATION_ONLY": 0,
       "SINGLE_SOURCE": 3,
-      "UNCONFIRMED": 18,
-      "TOTAL": 21
+      "UNCONFIRMED": 17,
+      "TOTAL": 20
     },
     "edition_label": "Cuaderno de las dos orillas",
     "edition_slug": "shores"

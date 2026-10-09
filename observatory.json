@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-09T09:14:42Z",
+  "generated_at": "2026-10-09T13:17:06Z",
   "state": {
     "code": "watch",
     "label_es": "VIGILANCIA",
     "color": "yellow",
     "severity": 1,
-    "summary_es": "La situación requiere seguimiento, pero no aparecen señales suficientes para elevar el nivel operativo.",
+    "summary_es": "La situación requiere seguimiento, pero no aparecen señales suficientes para elevar el nivel operativo. Parte de las fuentes necesita actualización, por lo que la lectura debe interpretarse con cautela.",
     "layers": {
       "maritime": {
         "value": "SIN CONFIRMACIÓN RECIENTE",
@@ -26,8 +26,11 @@
       }
     },
     "confidence": "BAJA",
-    "confidence_explanation_es": "Confianza baja: la información disponible no permite una corroboración reciente suficiente.",
-    "sources_pending": [],
+    "confidence_explanation_es": "Confianza baja porque necesitan actualización o revisión: Sismicidad USGS, Actualidad y geopolítica. El estado operativo se mantiene separado de la frescura de esas fuentes.",
+    "sources_pending": [
+      "Sismicidad USGS",
+      "Actualidad y geopolítica"
+    ],
     "alert_level": {
       "code": "informational",
       "label_es": "INFORMATIVO",
@@ -35,7 +38,7 @@
     }
   },
   "metrics": {
-    "news_24h": 1,
+    "news_24h": 0,
     "news_sources": 29,
     "seismic_24h": 0,
     "seismic_7d": 0,
@@ -45,8 +48,8 @@
     "ope_passengers_day": 59877,
     "ope_vehicles_day": 15464,
     "ope_rotations_day": 179,
-    "diary_date": "2026-10-08",
-    "diary_source_count": 5
+    "diary_date": "2026-10-09",
+    "diary_source_count": 2
   },
   "anomalies": [],
   "changes": {
@@ -56,28 +59,28 @@
   },
   "since_yesterday": {
     "reference_date": "2026-10-08",
-    "summary_es": "El nivel general se mantiene en VIGILANCIA. El monitor recoge 2 referencias menos en la ventana de 24 horas."
+    "summary_es": "El nivel general se mantiene en VIGILANCIA. El monitor recoge 3 referencias menos en la ventana de 24 horas."
   },
   "health": {
-    "overall": "HEALTHY",
-    "generated_at": "2026-10-09T09:14:42Z"
+    "overall": "DEGRADED",
+    "generated_at": "2026-10-09T13:17:06Z"
   },
   "latest_diary": {
-    "date": "2026-10-08",
+    "date": "2026-10-09",
     "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
-    "summary": "Selección automática de 5 referencias de 4 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
-    "published_at": "2026-10-08T15:29+02:00",
-    "updated_at": "2026-10-08T15:29+02:00",
-    "source_count": 5,
+    "summary": "Selección automática de 2 referencias de 2 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "published_at": "2026-10-09T15:17+02:00",
+    "updated_at": "2026-10-09T15:17+02:00",
+    "source_count": 2,
     "indexable": false,
     "edition_label": "Cuaderno de las dos orillas",
     "edition_slug": "shores",
-    "fingerprint": "0e67aee0e6032098207c",
+    "fingerprint": "863d511565fc658be365",
     "editor_engine": "rules",
     "editor_assistant_status": "gemini-validation-es",
     "assistant_status": "gemini-validation-es",
     "validator_version": 2,
-    "factual_packet_hash": "6eef79270aec59d90f26b4a3f68140601412524a1e132d83ea4cdb3da637571f",
+    "factual_packet_hash": "dd27a2c764fa4e77bdcd4e3dabac9890ac78fdcfd04c88a43ec225b4c74b4127",
     "event_ids": [
       "evt_464c265e3057df4e",
       "evt_b635c7204bfd976a",
@@ -88,7 +91,7 @@
       "reuters",
       "unknown"
     ],
-    "timestamp": "2026-10-08T13:29:27.056188+00:00",
+    "timestamp": "2026-10-09T13:17:04.540128+00:00",
     "fallback_used": true,
     "verification_summary": {
       "CONFIRMED_MULTI_SOURCE": 0,
@@ -96,10 +99,10 @@
       "CONFLICTING": 0,
       "DECLARATION_ONLY": 0,
       "SINGLE_SOURCE": 3,
-      "UNCONFIRMED": 18,
-      "TOTAL": 21
+      "UNCONFIRMED": 17,
+      "TOTAL": 20
     },
-    "date_label": "2026-10-08",
+    "date_label": "2026-10-09",
     "slug": "actual.html"
   },
   "latest_ope": {

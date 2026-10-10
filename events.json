@@ -1,17 +1,25 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-10T01:47:18.130199+00:00",
+  "generated_at": "2026-10-10T08:35:17.692112+00:00",
   "events": [
     {
       "event_id": "evt_80a91ed05327786d",
       "topic": "relations",
       "first_seen": "2026-10-07T09:56:03Z",
-      "last_seen": "2026-10-09T21:49:32Z",
-      "headline": "El rey Mohamed VI de Marruecos habla por primera vez de Ceuta: reprocha la “instrumentalización” de la crisis y advierte de que no caben “chantajes” en la relación con España",
-      "classification": "DECLARATION",
-      "verification_status": "DECLARATION_ONLY",
-      "verification_reason": "The record is a declaration and is not treated as an operational fact.",
+      "last_seen": "2026-10-10T04:55:00Z",
+      "headline": "El rey de Marruecos habla por primera vez desde la crisis de Ceuta y lanza un aviso a España: “Ni presiones ni amenazas”",
+      "classification": "FACT",
+      "verification_status": "SINGLE_SOURCE",
+      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
       "sources": [
+        {
+          "source_id": "elpais",
+          "source_name": "El País",
+          "source_domain": "elpais.com",
+          "tier": 3,
+          "official": false,
+          "weight": 3.0
+        },
         {
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -22,6 +30,7 @@
         }
       ],
       "source_ids": [
+        "elpais",
         "unknown"
       ],
       "articles": [
@@ -30,7 +39,7 @@
           "title": "Aznar reclama recuperar la relación con Israel, aliado de Marruecos",
           "title_key": "aznar reclama recuperar la relacion con israel aliado de marruecos",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTEpGZnVXcTRfbmFjRUpEamxCUmNhLVQxdkg5SnFFTzFqQzhZbi1ZU2dScnlvXzRuR2Rjc05zOV9rbUsxRGJ5TlExV0RKTlU5UUxCSDlhZ1I2d2NfSEl2U19qc1UydVh1VXBJV0tYdXFmVW9uN1R3UVVqelRyMEc4S2Y5elVXVGdrSUHSAY8BQVVfeXFMTmxmNVgwRTRKWUcyVzF1Y3Vkb0FiZzlRbldENzh5SFpHWWlFZGRMdV9WV3pHMzhhOXBtcktLY213ekNlZWZsX3dxWEc3b1ZGN1p6Y2lic0x2d1JSWTFBUEZLYTNvZWVEZWN1akRQM2wzSjF3Q1JRTjA5dzdQY0J4X1ljOWVQU0JYUGxuS0xwTmc",
-          "published_at": "2026-10-07T09:56:03Z",
+          "published_at": "2026-10-08T10:17:12Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -96,9 +105,27 @@
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
+        },
+        {
+          "article_id": "art_4fad69f5c58f59fe",
+          "title": "El rey de Marruecos habla por primera vez desde la crisis de Ceuta y lanza un aviso a España: “Ni presiones ni amenazas”",
+          "title_key": "el rey de marruecos habla por primera vez desde la crisis de ceuta y lanza un aviso a espana ni presiones ni amenazas",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNRWVKXzNSWXVMX2JtNGNUZTRXSFBHVWR6bHR3NExwUTVDdV9YZE9HZHJ4LVdscGplY2dxYzdzOXN0TmRGVmN4cktrb3gweEgzTERlX19GM2JQSjJMMTdtVV9rTUt5LWlVSi1BZG9PM25lbExaS2VRNmlHdFlvMkhfUDVtMnF5aU9NMVczQVhva25TQmdPRzc4Sm9kc2ZFN0lwQVZfd0xSUC1SUkpYYWJSa0VWRFRXYjA5cnRITlJ4c1M3cmtCNTZDb2s2Q0ZoV1E4NGN5eDRnMmhYUjdWTE52Sm5NaTZJYk9mUG5Eb1gtcks",
+          "published_at": "2026-10-10T04:55:00Z",
+          "observed_at": "",
+          "source_id": "elpais",
+          "source_name": "El País",
+          "source_domain": "elpais.com",
+          "tier": 3,
+          "official": false,
+          "weight": 3.0,
+          "topic": "relations",
+          "classification": "FACT",
+          "signal": "",
+          "description": ""
         }
       ],
-      "importance": 30,
+      "importance": 53,
       "operational_impact": "POTENTIAL",
       "operational_eligible": false
     },
@@ -107,7 +134,7 @@
       "topic": "relations",
       "first_seen": "2026-10-09T17:52:00Z",
       "last_seen": "2026-10-09T17:52:00Z",
-      "headline": "Mohamed VI advierte a España de que Marruecos no aceptará \"amenazas ni chantajes\" tras la crisis de Ceuta",
+      "headline": "Mohamed VI lanza una advertencia a España y pide la devolución de los menores llegados tras la crisis migratoria",
       "classification": "DECLARATION",
       "verification_status": "DECLARATION_ONLY",
       "verification_reason": "The record is a declaration and is not treated as an operational fact.",
@@ -125,6 +152,24 @@
         "unknown"
       ],
       "articles": [
+        {
+          "article_id": "art_702745ada03d7ca3",
+          "title": "Mohamed VI lanza una advertencia a España y pide la devolución de los menores llegados tras la crisis migratoria",
+          "title_key": "mohamed vi lanza una advertencia a espana y pide la devolucion de los menores llegados tras la crisis migratoria",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQVE9nM3N2SjVySFcyZGpGcFJlVVBsM1pRd0s5dlVFT1B6eFVoYWk1SmV5YVhSSlRPRjJKMm1VMnhzb0VMa01FVS14S3dJSmxRNWVqY1ZwcW1RekYwUFByQm5idDhMZE44SG9WMmpFSG9PY05MUVJvVUhZR2JYdGFMMmdiN0lyeS1jQ2J5djBLZjhKeVp6YndNaU54a00ydVlEb3RZYWlBZzVnZmtJYThOdWdMNnhYWktKOTdfdXJESkpzRXNIcWhGUWZfczZKMDVKLWJ6YW9HVGZUbk5uQkZSR0N3VVgxUdIB-gFBVV95cUxPRFgtRXFDTzdiUTVSdVRXNW05NWptM0VGRVF0eDQyWUdRRDVQWkNMcEpDdUhmcHJVeEVhTHpZRC1mNy1NMjlYUE1PR0VYZFhsME9QLTYxaDctdjhvelNBdURnLXQwY0cxUnQtTjRFbmtjVFh1QjE2d3piRmVjbF9XRkYySjQ4UEJNMEJvaXJOWXJiUm9FTjY3NWlpSUR1Y0I2ZS00Q0RIcWtOWVA4WG5BVUNaeVhZOWFFUWJtdENLOWxhcmJ1UmlJZXJ4aDhvZHJacFRjZmp6U1pyRmFIZHEtNGxZR016Rm45UGFhYnJRSHdhSTVCU3RxNGJn",
+          "published_at": "2026-10-09T17:48:42Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
         {
           "article_id": "art_e58075eca8560c51",
           "title": "Mohamed VI advierte a España de que Marruecos no aceptará \"amenazas ni chantajes\" tras la crisis de Ceuta",
@@ -432,7 +477,7 @@
           "title": "El periodista que ha desnudado a los espías de Marruecos: “Lo que pasó en Ceuta fue fruto de una guerra soterrada entre servicios secretos, un toque de atención a España”",
           "title_key": "el periodista que ha desnudado a los espias de marruecos lo que paso en ceuta fue fruto de una guerra soterrada entre servicios secretos un toque de atencion a espana",
           "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNQl9ScTJzSTBscnJJbDNtVU56d0cxNDVUM0JJUXRzaW1CaXRLbW82OGxOdUZtRjJKdDI3U2VFTVZWNmp3UG4zUXBfb1AtZ0FXa3lsbzBpak5HSEszOVgzRzIwbVpRV3RXTFc0bTlPdlY3Sm9ZZk56YjFqbUUySkZWem92WkNkRDkzenptdjhHT2NsdVo1U0QxSU1oT242MmRyVktDaWVSZWlnRVJkZUNxb2RzTFNOeEY4bEhBODQ2RWdyaVVMUm1ldGlpQW0xY3diVFZIOWJOUVRXS2p6STFoVXJJdUUzTkc5RU5lQWZkUV9kMTgteG1zRWZzZXJ4My1uMzY5dWZsSVFRc09mdTZYY3JNTFJqd19aaVFua2JFTVB5a0FhZWdxcHlCZzAzaVQySUtF0gHOAkFVX3lxTE85MGpUczhmN1lTZnc1cTNhY09XcW1UZTVVc1B3emd1a3ZwbnV6MGgwUDk4R1RpNGhoYkIyN0RRMWh6YVBzLWlJcmdwM0Y3Sm1UaTJWNnE5US1uSW00RGpkbHJsQVE3VXc2SVJ0WXpqQVRfSjQ0MGpsTHVoNkZDbzJKbEhITjlqSHJCOEZvR28xbk90MEJTelhtLU1YOTU1aTBZSndIc0hFbzhuSVJIeUZZNi16QXFmcmhRTW5ZV2JiUWIxSHVLZXNaRTVvTnJvd0tIaGpKYkM0VVVTa0tqaTJYaUtXZ0ZCaEVjekFZQS14YnNSTkRrMFJqTjNLOUdsSnNISGtaZGtnQXlOMnh3ZkRBNE9OUkR0RzMzUHI4T0RKOTM3bGhCTzNrdWtTMzFkRW9aVFc0YWt2WlQ3T0t0QnFfeUw0ejU3S2JPaDhLYnc",
-          "published_at": "2026-10-03T21:00:00Z",
+          "published_at": "2026-10-04T10:08:00Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -646,24 +691,6 @@
         "unknown"
       ],
       "articles": [
-        {
-          "article_id": "art_aec00027777fb5cb",
-          "title": "De Perejil a Ceuta: Federico Trillo analiza en Murcia la nueva tensión con Marruecos",
-          "title_key": "de perejil a ceuta federico trillo analiza en murcia la nueva tension con marruecos",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNUxCVzBhdGhPdEJpNXAxZ01tSXJ4enMwTThQWDU4ZkJycURlVzNsM2paYUF0ZjVHZXlUTHZqSmt0YkUyM25iSm5BWVdJSGhkMk0xbHk4amNlWW5UQnJVYmdDZ0hOQ3J0MlJPVXpKRDEtc0hGQm13UEYxa0lvMnBOUVhjX2p2dThhUk1EZXZyeldfcGhwRUJ6dmZBamhEN29uQTdyNUVNTk5JUdIBrwFBVV95cUxPUG5rbE55Qmp3elFqU0lPSUJSNWlCTlQyVkxkQi1YTkRhOUR1M1luTTZUMXFqZHZhRnQ0SURlakRaTTdPOG5LeVRNUThFN2I1enlNMnQ3WmpraFZzb0cwZElxZmJvc015Ri1zeDBhd3U2WGVWb29pelJlajNTekR6bXdLeWJNRkVvVWpVMGxfdDd4ZHZyODhZanhSYUJvb1lhTDNUVTlUTUxIcng3TUt3",
-          "published_at": "2026-09-28T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
         {
           "article_id": "art_6cce449098179a5a",
           "title": "Ceuta y el acoso de Marruecos a España: el Diálogo del Club LD con Ignacio Cembrero, Óscar Elía y Enrique Navarro Gil",
@@ -1030,24 +1057,6 @@
       ],
       "articles": [
         {
-          "article_id": "art_2040f33d47dc0cd9",
-          "title": "Tasende: \"Hay que cortar la fuga de divisas de Melilla a Marruecos\" - El Faro de Melilla",
-          "title_key": "tasende hay que cortar la fuga de divisas de melilla a marruecos el faro de melilla",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNGplWklpNmd5MktKOHlYZ3dvWXAxU2RTaHhmZ29rR2NfclFKY1ZFNTYxT0QzQmdIQld4OGNFVzhUNEhpUXBTMUM0ZUxON2VJZkpJWEctSlFGc3RWbFBwQXhpaHpFNnVPYV9TY2l3S1pZRWpnOGdabTV3bXNNR1VTTm5BWDZTT2pXaEF4Y21scXIzNU9sSUMw0gGcAUFVX3lxTE42M3JXY010NURlXzBOSHFsd1NKT2g3STNNTzhPZVZKSVFUZnUweEpiRnEtRDZvbnlxNmgxbDBPdllTc0tlRkpPdDNrajl6VFpGVkYtNjhpYV9ValpLV21lN0VWd1BNWm8taV9MaHR3SVZLOElud3hJc2JoNlRtYlR3WUZ0T2NiTDRvZDhvZ2ozb0FSQjVnNTBSVDF2WQ",
-          "published_at": "2026-09-28T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
           "article_id": "art_2a9a6b4b03d49641",
           "title": "Ceuta, Melilla y Marruecos: declaración que denuncia las violaciones de los derechos humanos contra las personas en situación de desplazamiento — especialmente solicitantes de asilo, menores y miembros de la comunidad LGBTIQ+",
           "title_key": "ceuta melilla y marruecos declaracion que denuncia las violaciones de los derechos humanos contra las personas en situacion de desplazamiento especialmente solicitantes de asilo menores y miembros de la comunidad lgbtiq",
@@ -1121,8 +1130,8 @@
     "CONFIRMED_MULTI_SOURCE": 0,
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
-    "DECLARATION_ONLY": 2,
-    "SINGLE_SOURCE": 3,
+    "DECLARATION_ONLY": 1,
+    "SINGLE_SOURCE": 4,
     "UNCONFIRMED": 11,
     "TOTAL": 16
   },

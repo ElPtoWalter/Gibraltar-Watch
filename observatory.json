@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-10T12:31:55Z",
+  "generated_at": "2026-10-10T15:26:11Z",
   "state": {
     "code": "watch",
     "label_es": "VIGILANCIA",
     "color": "yellow",
     "severity": 1,
-    "summary_es": "La situación requiere seguimiento, pero no aparecen señales suficientes para elevar el nivel operativo. Parte de las fuentes necesita actualización, por lo que la lectura debe interpretarse con cautela.",
+    "summary_es": "La situación requiere seguimiento, pero no aparecen señales suficientes para elevar el nivel operativo.",
     "layers": {
       "maritime": {
         "value": "SIN CONFIRMACIÓN RECIENTE",
@@ -26,11 +26,8 @@
       }
     },
     "confidence": "BAJA",
-    "confidence_explanation_es": "Confianza baja porque necesitan actualización o revisión: Sismicidad USGS, Actualidad y geopolítica. El estado operativo se mantiene separado de la frescura de esas fuentes.",
-    "sources_pending": [
-      "Sismicidad USGS",
-      "Actualidad y geopolítica"
-    ],
+    "confidence_explanation_es": "Confianza baja: la información disponible no permite una corroboración reciente suficiente.",
+    "sources_pending": [],
     "alert_level": {
       "code": "informational",
       "label_es": "INFORMATIVO",
@@ -38,8 +35,8 @@
     }
   },
   "metrics": {
-    "news_24h": 7,
-    "news_sources": 27,
+    "news_24h": 9,
+    "news_sources": 28,
     "seismic_24h": 0,
     "seismic_7d": 0,
     "seismic_30d": 0,
@@ -51,7 +48,14 @@
     "diary_date": "2026-10-10",
     "diary_source_count": 4
   },
-  "anomalies": [],
+  "anomalies": [
+    {
+      "key": "news-volume",
+      "level": "info",
+      "title_es": "Volumen informativo superior al patrón reciente",
+      "detail_es": "Se detectan 9 referencias en 24 h frente a una mediana reciente de 2. Es una señal de atención, no una prueba de crisis."
+    }
+  ],
   "changes": {
     "state_changed": false,
     "previous_state_code": "watch",
@@ -59,11 +63,11 @@
   },
   "since_yesterday": {
     "reference_date": "2026-10-09",
-    "summary_es": "El nivel general se mantiene en VIGILANCIA. El monitor recoge 4 referencias más en la ventana de 24 horas."
+    "summary_es": "El nivel general se mantiene en VIGILANCIA. El monitor recoge 6 referencias más en la ventana de 24 horas."
   },
   "health": {
-    "overall": "DEGRADED",
-    "generated_at": "2026-10-10T12:31:55Z"
+    "overall": "HEALTHY",
+    "generated_at": "2026-10-10T15:26:11Z"
   },
   "latest_diary": {
     "date": "2026-10-10",

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-10T15:26:11.351437+00:00",
+  "generated_at": "2026-10-10T20:09:03.384256+00:00",
   "events": [
     {
       "event_id": "evt_9cc82bf8bfce3144",
@@ -258,6 +258,52 @@
       "operational_eligible": false
     },
     {
+      "event_id": "evt_7938763decc80335",
+      "topic": "ceuta",
+      "first_seen": "2026-10-09T21:41:10Z",
+      "last_seen": "2026-10-09T21:41:10Z",
+      "headline": "Luis de la Corte, director de Inteligencia: \"Marruecos no reconoce la españolidad de Ceuta y Melilla, hay que preparar al país para eventuales escenarios y nuevas maniobras\"",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_5d32e6e8cab717a3",
+          "title": "Luis de la Corte, director de Inteligencia: \"Marruecos no reconoce la españolidad de Ceuta y Melilla, hay que preparar al país para eventuales escenarios y nuevas maniobras\"",
+          "title_key": "luis de la corte director de inteligencia marruecos no reconoce la espanolidad de ceuta y melilla hay que preparar al pais para eventuales escenarios y nuevas maniobras",
+          "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxNTXBYSDk0QUdrMWJ4eUdTeWQ0aGZXbml2eklIdS1pajBhZk5tcnVDMFJoSGFpVzN6UWxiWkJrOWRZUldQQmJRdnk2YTkwZ1dEMlpWdndEaXVaTGFPMldFTjY1MDNLcWFwN1BmVnJtZU5RYmhyVGNIaTV3b05WelNEM0psejZHQ2pzc3hPX01odGZWSWdjXzRIa3lCRTV4RW5QcDRtaEhHSVhkbjhid0VCaHNCakloSG8wZ3pKV0NVV1oxbHVnaUNsbkE3Mm0xM19WMG5LYWVfaFZlQ3FCRGJweW9la2l2aDdxZVpPUnIzcFp1REV1ZmlhTTZINVp1UDRQN3k5d09YY01fY3laNXdkTEhjZnh6OTBmN05hTzQ1SGtpR1VYNHR6b2J5bEx1ZjRhMHfSAbcCQVVfeXFMTmxaQ2RySWRzYTZBTlotZlZ3RFo3dW1lOG1qc1NESTVMdVJQaVlYaXVpekRtYjRzX3V1SnpsS01uWVFEb29EYlNkaHJENmk3NEYwY25zNlhCcW5BVHlteWc1OWFGRURDc045Vm9xWGJBYVg3U1dwendrS1BsR2I2b0J6Zlc0bnZvbmg4VTBaREs4aUsxTVd5aG9XUFFRSTRKekgyUDBMWTRsWC1rbWNTYXN4MkdOZWpIVE1Xdnd2Uk5BeTVrSU9lcXBBaC1PY2lyMmx0XzA5RW53Ny1pdHdhXzU1NHg3T19vMU1JOFhjM05lTkdVMVhtMXVMOEpHYV9TNHJtdmRvQVY2bmtKX2t5OVRrTzJQT29kbDhYOEZfV2E4M0JOWktpQlgtdVkxR1l5ZXpwUldPbWM",
+          "published_at": "2026-10-09T21:41:10Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
       "event_id": "evt_652c549d50df100e",
       "topic": "relations",
       "first_seen": "2026-10-09T17:52:00Z",
@@ -319,6 +365,52 @@
       ],
       "importance": 30,
       "operational_impact": "POTENTIAL",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_69e02a17488a531c",
+      "topic": "ceuta",
+      "first_seen": "2026-10-09T16:52:38Z",
+      "last_seen": "2026-10-09T16:52:38Z",
+      "headline": "Mohamed VI denuncia la \"instrumentalización\" en España de la crisis de Ceuta y avisa de que no aceptará \"chantajes\" - RTVE.es",
+      "classification": "FACT",
+      "verification_status": "SINGLE_SOURCE",
+      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
+      "sources": [
+        {
+          "source_id": "rtve",
+          "source_name": "RTVE",
+          "source_domain": "rtve.es",
+          "tier": 4,
+          "official": false,
+          "weight": 4.0
+        }
+      ],
+      "source_ids": [
+        "rtve"
+      ],
+      "articles": [
+        {
+          "article_id": "art_0118de4a389e0cb5",
+          "title": "Mohamed VI denuncia la \"instrumentalización\" en España de la crisis de Ceuta y avisa de que no aceptará \"chantajes\" - RTVE.es",
+          "title_key": "mohamed vi denuncia la instrumentalizacion en espana de la crisis de ceuta y avisa de que no aceptara chantajes",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNLWhLdUlHSDVMWWV6TEdkVGY5SHI5ZGVidWJmekRrTWlITW02Mjl6bG13TVVvaGlUUGdmbFVTVi1DSWpneTZSQTBVakh1WUhoZmt4NnhqM082aWJDTGg4aE5yMS02YlBhX1p0OVpPUTg3aWZXZ1NlNDFZcG1LUUFpZEtQZ0UzNVdpSDY2ZE02cU1zYkYwcklac0ZMWkY5TVNNUEFQUkZYTi1IZw",
+          "published_at": "2026-10-09T16:52:38Z",
+          "observed_at": "",
+          "source_id": "rtve",
+          "source_name": "RTVE",
+          "source_domain": "rtve.es",
+          "tier": 4,
+          "official": false,
+          "weight": 4.0,
+          "topic": "ceuta",
+          "classification": "FACT",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 43,
+      "operational_impact": "CONTEXT",
       "operational_eligible": false
     },
     {
@@ -542,11 +634,11 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_fc16efddbafc3058",
+      "event_id": "evt_7e8a85568718c896",
       "topic": "relations",
-      "first_seen": "2026-10-06T02:30:00Z",
+      "first_seen": "2026-10-04T10:08:00Z",
       "last_seen": "2026-10-06T02:30:00Z",
-      "headline": "Marruecos eleva la presión sobre España: Ceuta en el tablero de la guerra híbrida",
+      "headline": "El periodista que ha desnudado a los espías de Marruecos: “Lo que pasó en Ceuta fue fruto de una guerra soterrada entre servicios secretos, un toque de atención a España”",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
@@ -564,6 +656,24 @@
         "unknown"
       ],
       "articles": [
+        {
+          "article_id": "art_dff3e9f177583ed7",
+          "title": "El periodista que ha desnudado a los espías de Marruecos: “Lo que pasó en Ceuta fue fruto de una guerra soterrada entre servicios secretos, un toque de atención a España”",
+          "title_key": "el periodista que ha desnudado a los espias de marruecos lo que paso en ceuta fue fruto de una guerra soterrada entre servicios secretos un toque de atencion a espana",
+          "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNQl9ScTJzSTBscnJJbDNtVU56d0cxNDVUM0JJUXRzaW1CaXRLbW82OGxOdUZtRjJKdDI3U2VFTVZWNmp3UG4zUXBfb1AtZ0FXa3lsbzBpak5HSEszOVgzRzIwbVpRV3RXTFc0bTlPdlY3Sm9ZZk56YjFqbUUySkZWem92WkNkRDkzenptdjhHT2NsdVo1U0QxSU1oT242MmRyVktDaWVSZWlnRVJkZUNxb2RzTFNOeEY4bEhBODQ2RWdyaVVMUm1ldGlpQW0xY3diVFZIOWJOUVRXS2p6STFoVXJJdUUzTkc5RU5lQWZkUV9kMTgteG1zRWZzZXJ4My1uMzY5dWZsSVFRc09mdTZYY3JNTFJqd19aaVFua2JFTVB5a0FhZWdxcHlCZzAzaVQySUtF0gHOAkFVX3lxTE85MGpUczhmN1lTZnc1cTNhY09XcW1UZTVVc1B3emd1a3ZwbnV6MGgwUDk4R1RpNGhoYkIyN0RRMWh6YVBzLWlJcmdwM0Y3Sm1UaTJWNnE5US1uSW00RGpkbHJsQVE3VXc2SVJ0WXpqQVRfSjQ0MGpsTHVoNkZDbzJKbEhITjlqSHJCOEZvR28xbk90MEJTelhtLU1YOTU1aTBZSndIc0hFbzhuSVJIeUZZNi16QXFmcmhRTW5ZV2JiUWIxSHVLZXNaRTVvTnJvd0tIaGpKYkM0VVVTa0tqaTJYaUtXZ0ZCaEVjekFZQS14YnNSTkRrMFJqTjNLOUdsSnNISGtaZGtnQXlOMnh3ZkRBNE9OUkR0RzMzUHI4T0RKOTM3bGhCTzNrdWtTMzFkRW9aVFc0YWt2WlQ3T0t0QnFfeUw0ejU3S2JPaDhLYnc",
+          "published_at": "2026-10-04T10:08:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
         {
           "article_id": "art_44b4433bed714046",
           "title": "Marruecos eleva la presión sobre España: Ceuta en el tablero de la guerra híbrida",
@@ -737,7 +847,7 @@
       "event_id": "evt_fc16efddbafc3058",
       "topic": "relations",
       "first_seen": "2026-10-06T02:30:00Z",
-      "last_seen": "2026-10-03T21:00:00Z",
+      "last_seen": "2026-10-03T03:50:00Z",
       "headline": "La Casa Real subraya con la visita a Ceuta y Melilla que España es la “puerta de entrada” de Marruecos en Europa",
       "classification": "FACT",
       "verification_status": "SINGLE_SOURCE",
@@ -834,24 +944,6 @@
           "weight": 1.0,
           "topic": "relations",
           "classification": "ANALYSIS",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_dff3e9f177583ed7",
-          "title": "El periodista que ha desnudado a los espías de Marruecos: “Lo que pasó en Ceuta fue fruto de una guerra soterrada entre servicios secretos, un toque de atención a España”",
-          "title_key": "el periodista que ha desnudado a los espias de marruecos lo que paso en ceuta fue fruto de una guerra soterrada entre servicios secretos un toque de atencion a espana",
-          "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNQl9ScTJzSTBscnJJbDNtVU56d0cxNDVUM0JJUXRzaW1CaXRLbW82OGxOdUZtRjJKdDI3U2VFTVZWNmp3UG4zUXBfb1AtZ0FXa3lsbzBpak5HSEszOVgzRzIwbVpRV3RXTFc0bTlPdlY3Sm9ZZk56YjFqbUUySkZWem92WkNkRDkzenptdjhHT2NsdVo1U0QxSU1oT242MmRyVktDaWVSZWlnRVJkZUNxb2RzTFNOeEY4bEhBODQ2RWdyaVVMUm1ldGlpQW0xY3diVFZIOWJOUVRXS2p6STFoVXJJdUUzTkc5RU5lQWZkUV9kMTgteG1zRWZzZXJ4My1uMzY5dWZsSVFRc09mdTZYY3JNTFJqd19aaVFua2JFTVB5a0FhZWdxcHlCZzAzaVQySUtF0gHOAkFVX3lxTE85MGpUczhmN1lTZnc1cTNhY09XcW1UZTVVc1B3emd1a3ZwbnV6MGgwUDk4R1RpNGhoYkIyN0RRMWh6YVBzLWlJcmdwM0Y3Sm1UaTJWNnE5US1uSW00RGpkbHJsQVE3VXc2SVJ0WXpqQVRfSjQ0MGpsTHVoNkZDbzJKbEhITjlqSHJCOEZvR28xbk90MEJTelhtLU1YOTU1aTBZSndIc0hFbzhuSVJIeUZZNi16QXFmcmhRTW5ZV2JiUWIxSHVLZXNaRTVvTnJvd0tIaGpKYkM0VVVTa0tqaTJYaUtXZ0ZCaEVjekFZQS14YnNSTkRrMFJqTjNLOUdsSnNISGtaZGtnQXlOMnh3ZkRBNE9OUkR0RzMzUHI4T0RKOTM3bGhCTzNrdWtTMzFkRW9aVFc0YWt2WlQ3T0t0QnFfeUw0ejU3S2JPaDhLYnc",
-          "published_at": "2026-10-03T21:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
         }
@@ -1078,98 +1170,6 @@
       ],
       "importance": 4,
       "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_5c266c2111e78676",
-      "topic": "melilla",
-      "first_seen": "2026-09-29T15:16:12Z",
-      "last_seen": "2026-09-29T15:16:12Z",
-      "headline": "Ceuta, Melilla y Marruecos: declaración que denuncia las violaciones de los derechos humanos contra las personas en situación de desplazamiento — especialmente solicitantes de asilo, menores y miembros de la comunidad LGBTIQ+",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_2a9a6b4b03d49641",
-          "title": "Ceuta, Melilla y Marruecos: declaración que denuncia las violaciones de los derechos humanos contra las personas en situación de desplazamiento — especialmente solicitantes de asilo, menores y miembros de la comunidad LGBTIQ+",
-          "title_key": "ceuta melilla y marruecos declaracion que denuncia las violaciones de los derechos humanos contra las personas en situacion de desplazamiento especialmente solicitantes de asilo menores y miembros de la comunidad lgbtiq",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQU296eTZEYjFEaG9IMExnSHFaN1JZVkpEbm9jZlVMcGJyeGtIVFlVY09rZWVKbmszRXBrRjVvaDAzYkQwRGRvd2ZBaThlSkVaYWNGR1BBQUMyRURlYTl2djI0eVV1TjNjOEFhT0JBcnMxYkZPWlctN2xxZHQ1a1pIMi04dURQbjVXZHQwRXUyTHB1MGtON1Vka0JlNA",
-          "published_at": "2026-09-29T15:16:12Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_f212471824c6ef38",
-      "topic": "ceuta",
-      "first_seen": "2026-09-29T14:23:04Z",
-      "last_seen": "2026-09-29T07:00:00Z",
-      "headline": "Spain plans stricter rules on asylum seekers in Ceuta, draft decree shows",
-      "classification": "FACT",
-      "verification_status": "SINGLE_SOURCE",
-      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
-      "sources": [
-        {
-          "source_id": "reuters",
-          "source_name": "Reuters",
-          "source_domain": "reuters.com",
-          "tier": 4,
-          "official": false,
-          "weight": 4.0
-        }
-      ],
-      "source_ids": [
-        "reuters"
-      ],
-      "articles": [
-        {
-          "article_id": "art_52c8021ba5c4109d",
-          "title": "Spain plans stricter rules on asylum seekers in Ceuta, draft decree shows",
-          "title_key": "spain plans stricter rules on asylum seekers in ceuta draft decree shows",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMlJUNGlxc3d5eG44QWducTBxOWZ3UjRtTWFIZm95WkY5NWc5OEl6NTV5RGc1SDBRLWEwNmpqelVhUi01TTU4aHVQajJkUFlVZTE1VW1INWU3Y19yWlktbDRzbkg2T29LYkdDNG1ZYnBGaGdWZXhqZnJJNzd6SS12SElzY3lKVktUMkF0YjlnYnpNdVVTUU9TdzhCUGhEZEhMc2VTNEFnLV9qTlVPZTVWZkpUS0FKQQ",
-          "published_at": "2026-09-29T07:00:00Z",
-          "observed_at": "",
-          "source_id": "reuters",
-          "source_name": "Reuters",
-          "source_domain": "reuters.com",
-          "tier": 4,
-          "official": false,
-          "weight": 4.0,
-          "topic": "ceuta",
-          "classification": "FACT",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 43,
-      "operational_impact": "CONTEXT",
       "operational_eligible": false
     }
   ],

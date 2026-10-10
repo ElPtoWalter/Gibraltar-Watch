@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-10T20:09:03.384256+00:00",
+  "generated_at": "2026-10-10T23:36:57.043046+00:00",
   "events": [
     {
       "event_id": "evt_9cc82bf8bfce3144",
@@ -365,52 +365,6 @@
       ],
       "importance": 30,
       "operational_impact": "POTENTIAL",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_69e02a17488a531c",
-      "topic": "ceuta",
-      "first_seen": "2026-10-09T16:52:38Z",
-      "last_seen": "2026-10-09T16:52:38Z",
-      "headline": "Mohamed VI denuncia la \"instrumentalización\" en España de la crisis de Ceuta y avisa de que no aceptará \"chantajes\" - RTVE.es",
-      "classification": "FACT",
-      "verification_status": "SINGLE_SOURCE",
-      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
-      "sources": [
-        {
-          "source_id": "rtve",
-          "source_name": "RTVE",
-          "source_domain": "rtve.es",
-          "tier": 4,
-          "official": false,
-          "weight": 4.0
-        }
-      ],
-      "source_ids": [
-        "rtve"
-      ],
-      "articles": [
-        {
-          "article_id": "art_0118de4a389e0cb5",
-          "title": "Mohamed VI denuncia la \"instrumentalización\" en España de la crisis de Ceuta y avisa de que no aceptará \"chantajes\" - RTVE.es",
-          "title_key": "mohamed vi denuncia la instrumentalizacion en espana de la crisis de ceuta y avisa de que no aceptara chantajes",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNLWhLdUlHSDVMWWV6TEdkVGY5SHI5ZGVidWJmekRrTWlITW02Mjl6bG13TVVvaGlUUGdmbFVTVi1DSWpneTZSQTBVakh1WUhoZmt4NnhqM082aWJDTGg4aE5yMS02YlBhX1p0OVpPUTg3aWZXZ1NlNDFZcG1LUUFpZEtQZ0UzNVdpSDY2ZE02cU1zYkYwcklac0ZMWkY5TVNNUEFQUkZYTi1IZw",
-          "published_at": "2026-10-09T16:52:38Z",
-          "observed_at": "",
-          "source_id": "rtve",
-          "source_name": "RTVE",
-          "source_domain": "rtve.es",
-          "tier": 4,
-          "official": false,
-          "weight": 4.0,
-          "topic": "ceuta",
-          "classification": "FACT",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 43,
-      "operational_impact": "CONTEXT",
       "operational_eligible": false
     },
     {
@@ -953,6 +907,52 @@
       "operational_eligible": false
     },
     {
+      "event_id": "evt_6cdd1b2dd6474afe",
+      "topic": "ceuta",
+      "first_seen": "2026-10-01T07:00:00Z",
+      "last_seen": "2026-10-01T07:00:00Z",
+      "headline": "Spanish king to visit disputed enclaves, testing Morocco ties after border crisis",
+      "classification": "FACT",
+      "verification_status": "SINGLE_SOURCE",
+      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
+      "sources": [
+        {
+          "source_id": "reuters",
+          "source_name": "Reuters",
+          "source_domain": "reuters.com",
+          "tier": 4,
+          "official": false,
+          "weight": 4.0
+        }
+      ],
+      "source_ids": [
+        "reuters"
+      ],
+      "articles": [
+        {
+          "article_id": "art_f8e9dac793c82d5c",
+          "title": "Spanish king to visit disputed enclaves, testing Morocco ties after border crisis",
+          "title_key": "spanish king to visit disputed enclaves testing morocco ties after border crisis",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOWXNBc2JkcWsxNEREWTNrcEtLOGdTVjlESXhIQnhUTEVjeWJHSjdibFp0NmRKUkJOZEJPVlZsNFNwQ0UwRzRfM1RILVM2VGJUOGU2UU5vUllZNXBqd2lfQmdFWDE3OGFVVVhmZ1dEM1prX2YyNUt2d3d2OVZLVmxGTFZ6aGJ4NWF3WXJ1azZPeTkyLWc1Y0FBZHpBY3pwNDY4UWd4dTVkck0zbUpGTUEtZWVyQlhGWnlqdVhZ",
+          "published_at": "2026-10-01T07:00:00Z",
+          "observed_at": "",
+          "source_id": "reuters",
+          "source_name": "Reuters",
+          "source_domain": "reuters.com",
+          "tier": 4,
+          "official": false,
+          "weight": 4.0,
+          "topic": "ceuta",
+          "classification": "FACT",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 43,
+      "operational_impact": "CONTEXT",
+      "operational_eligible": false
+    },
+    {
       "event_id": "evt_a86b035b64d16b5e",
       "topic": "ceuta",
       "first_seen": "2026-09-30T05:15:01Z",
@@ -1007,52 +1007,6 @@
           "official": false,
           "weight": 1.0,
           "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_d08c89a2ca86805f",
-      "topic": "relations",
-      "first_seen": "2026-09-30T18:53:08Z",
-      "last_seen": "2026-09-30T18:53:08Z",
-      "headline": "From Juan Carlos I to Felipe VI: Two Ways of Managing Crises with Morocco",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_b9662f5cfda74d3f",
-          "title": "From Juan Carlos I to Felipe VI: Two Ways of Managing Crises with Morocco",
-          "title_key": "from juan carlos i to felipe vi two ways of managing crises with morocco",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMWQ4XzFaaXVoTlV0VjVTWnh1ME8tNVRub21tVm0zaGRtUzRxZUhQY0xuSE5pN190VEtGUmJXZG1DT0dkeVlKSFpUZ3ZVLWtDLTl0SWxELVU3VGxYS0ZSaVR2WExCdXktY1o0WGNnUXk4c2twRzBFZ3pKblpmWHJUd19naVJNQmNjYUl0MTlFX0dsSVM2bEFGRnphc3ExSGxRVVBOU0FuclNSWnV6cjh6bjljM0tSS0l6akNmYkJ3",
-          "published_at": "2026-09-30T18:53:08Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
@@ -1163,6 +1117,52 @@
           "official": false,
           "weight": 1.0,
           "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_d08c89a2ca86805f",
+      "topic": "relations",
+      "first_seen": "2026-09-30T18:53:08Z",
+      "last_seen": "2026-09-30T07:00:00Z",
+      "headline": "From Juan Carlos I to Felipe VI: Two Ways of Managing Crises with Morocco",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_b9662f5cfda74d3f",
+          "title": "From Juan Carlos I to Felipe VI: Two Ways of Managing Crises with Morocco",
+          "title_key": "from juan carlos i to felipe vi two ways of managing crises with morocco",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMWQ4XzFaaXVoTlV0VjVTWnh1ME8tNVRub21tVm0zaGRtUzRxZUhQY0xuSE5pN190VEtGUmJXZG1DT0dkeVlKSFpUZ3ZVLWtDLTl0SWxELVU3VGxYS0ZSaVR2WExCdXktY1o0WGNnUXk4c2twRzBFZ3pKblpmWHJUd19naVJNQmNjYUl0MTlFX0dsSVM2bEFGRnphc3ExSGxRVVBOU0FuclNSWnV6cjh6bjljM0tSS0l6akNmYkJ3",
+          "published_at": "2026-09-30T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""

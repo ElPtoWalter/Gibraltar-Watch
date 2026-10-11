@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-10T23:36:57Z",
+  "generated_at": "2026-10-11T05:55:25Z",
   "state": {
     "code": "watch",
     "label_es": "VIGILANCIA",
@@ -35,7 +35,7 @@
     }
   },
   "metrics": {
-    "news_24h": 3,
+    "news_24h": 2,
     "news_sources": 28,
     "seismic_24h": 0,
     "seismic_7d": 0,
@@ -56,11 +56,11 @@
   },
   "since_yesterday": {
     "reference_date": "2026-10-10",
-    "summary_es": "El nivel general se mantiene en VIGILANCIA. El monitor recoge 2 referencias menos en la ventana de 24 horas."
+    "summary_es": "El nivel general se mantiene en VIGILANCIA. El monitor recoge 3 referencias menos en la ventana de 24 horas."
   },
   "health": {
     "overall": "HEALTHY",
-    "generated_at": "2026-10-10T23:36:57Z"
+    "generated_at": "2026-10-11T05:55:25Z"
   },
   "latest_diary": {
     "date": "2026-10-10",

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-10T23:36:57.043046+00:00",
+  "generated_at": "2026-10-11T05:55:25.323556+00:00",
   "events": [
     {
       "event_id": "evt_9cc82bf8bfce3144",
@@ -588,70 +588,6 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_7e8a85568718c896",
-      "topic": "relations",
-      "first_seen": "2026-10-04T10:08:00Z",
-      "last_seen": "2026-10-06T02:30:00Z",
-      "headline": "El periodista que ha desnudado a los espías de Marruecos: “Lo que pasó en Ceuta fue fruto de una guerra soterrada entre servicios secretos, un toque de atención a España”",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_dff3e9f177583ed7",
-          "title": "El periodista que ha desnudado a los espías de Marruecos: “Lo que pasó en Ceuta fue fruto de una guerra soterrada entre servicios secretos, un toque de atención a España”",
-          "title_key": "el periodista que ha desnudado a los espias de marruecos lo que paso en ceuta fue fruto de una guerra soterrada entre servicios secretos un toque de atencion a espana",
-          "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNQl9ScTJzSTBscnJJbDNtVU56d0cxNDVUM0JJUXRzaW1CaXRLbW82OGxOdUZtRjJKdDI3U2VFTVZWNmp3UG4zUXBfb1AtZ0FXa3lsbzBpak5HSEszOVgzRzIwbVpRV3RXTFc0bTlPdlY3Sm9ZZk56YjFqbUUySkZWem92WkNkRDkzenptdjhHT2NsdVo1U0QxSU1oT242MmRyVktDaWVSZWlnRVJkZUNxb2RzTFNOeEY4bEhBODQ2RWdyaVVMUm1ldGlpQW0xY3diVFZIOWJOUVRXS2p6STFoVXJJdUUzTkc5RU5lQWZkUV9kMTgteG1zRWZzZXJ4My1uMzY5dWZsSVFRc09mdTZYY3JNTFJqd19aaVFua2JFTVB5a0FhZWdxcHlCZzAzaVQySUtF0gHOAkFVX3lxTE85MGpUczhmN1lTZnc1cTNhY09XcW1UZTVVc1B3emd1a3ZwbnV6MGgwUDk4R1RpNGhoYkIyN0RRMWh6YVBzLWlJcmdwM0Y3Sm1UaTJWNnE5US1uSW00RGpkbHJsQVE3VXc2SVJ0WXpqQVRfSjQ0MGpsTHVoNkZDbzJKbEhITjlqSHJCOEZvR28xbk90MEJTelhtLU1YOTU1aTBZSndIc0hFbzhuSVJIeUZZNi16QXFmcmhRTW5ZV2JiUWIxSHVLZXNaRTVvTnJvd0tIaGpKYkM0VVVTa0tqaTJYaUtXZ0ZCaEVjekFZQS14YnNSTkRrMFJqTjNLOUdsSnNISGtaZGtnQXlOMnh3ZkRBNE9OUkR0RzMzUHI4T0RKOTM3bGhCTzNrdWtTMzFkRW9aVFc0YWt2WlQ3T0t0QnFfeUw0ejU3S2JPaDhLYnc",
-          "published_at": "2026-10-04T10:08:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_44b4433bed714046",
-          "title": "Marruecos eleva la presión sobre España: Ceuta en el tablero de la guerra híbrida",
-          "title_key": "marruecos eleva la presion sobre espana ceuta en el tablero de la guerra hibrida",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPajN0Z0lLZGZDVVktV25hNWxOb1pEUlhuLUpUS1hOQmVxRWJmWmo1S3hJRkhkZnRMWVg5djF4SU43OFFfUURpZlNzajRkVVZvNTN2Q1ZpMkFONTJrTlNXZmlFTlItcnVHUGJtYzZrRjMtNVJ1ZVdrSlF5WXU4R3M4N2gxNVBuUU1ZMFNoeThjM3pxWDhieXM4U2d4eWxvU1h1OFVzSkt6Q09LclQ3UU9jbW9LbDBOQW80cWdvNnU5aWRFM3PSAcgBQVVfeXFMT0JoWl9Ob1V1NFNObUQwS0ZGLVNNMV9qdjAyUnBJdmxfd1dmb3VhQUJkRVEyQ1loMUhTaVZ3R0p2MVRJNm1SR1JlMTV4SDVJZ2ZUYXpWa0tVTVVPTFFOX1lLemxUQzIyQmEwYmxJWXZ1WmQ3X0dZdTRGWXhIVXVOMVFGWFpxbVYzcmlwSDg2bGo1bWhDdjV4NU04UnNHNDJKaW94QlJYNGJ4YkszNHVpRFRmQmJpRExPWVlseVplZ0hIZVFuLTFES1g",
-          "published_at": "2026-10-06T02:30:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_ce75ae1fe82a89f4",
       "topic": "relations",
       "first_seen": "2026-10-05T20:15:00Z",
@@ -680,6 +616,52 @@
           "title_key": "morocco and the political language of perception in spain",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRE1ta1dHRVNtX0l5ZW9CTTR2cDVESHFzSk5aMzk3cnZvS1hSMmc4Z25EemJob2NsQkgxRlhuaE9ZSnl5Nzg1LVJINlZvbWZXNy1NMU5LazFpRS03RDJwREZnMWpNY1drZHFvYXk4R0ZiTEhvOV92b1o0amNDSUFmSHZKb1N4d2VIUWFnT0tDLXhnSFBQVmF6Q3VqSUdMbFRWLWtUMHdPQUtmZw",
           "published_at": "2026-10-05T20:44:47Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_7e8a85568718c896",
+      "topic": "relations",
+      "first_seen": "2026-10-04T10:08:00Z",
+      "last_seen": "2026-10-04T10:08:00Z",
+      "headline": "El periodista que ha desnudado a los espías de Marruecos: “Lo que pasó en Ceuta fue fruto de una guerra soterrada entre servicios secretos, un toque de atención a España”",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_dff3e9f177583ed7",
+          "title": "El periodista que ha desnudado a los espías de Marruecos: “Lo que pasó en Ceuta fue fruto de una guerra soterrada entre servicios secretos, un toque de atención a España”",
+          "title_key": "el periodista que ha desnudado a los espias de marruecos lo que paso en ceuta fue fruto de una guerra soterrada entre servicios secretos un toque de atencion a espana",
+          "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNQl9ScTJzSTBscnJJbDNtVU56d0cxNDVUM0JJUXRzaW1CaXRLbW82OGxOdUZtRjJKdDI3U2VFTVZWNmp3UG4zUXBfb1AtZ0FXa3lsbzBpak5HSEszOVgzRzIwbVpRV3RXTFc0bTlPdlY3Sm9ZZk56YjFqbUUySkZWem92WkNkRDkzenptdjhHT2NsdVo1U0QxSU1oT242MmRyVktDaWVSZWlnRVJkZUNxb2RzTFNOeEY4bEhBODQ2RWdyaVVMUm1ldGlpQW0xY3diVFZIOWJOUVRXS2p6STFoVXJJdUUzTkc5RU5lQWZkUV9kMTgteG1zRWZzZXJ4My1uMzY5dWZsSVFRc09mdTZYY3JNTFJqd19aaVFua2JFTVB5a0FhZWdxcHlCZzAzaVQySUtF0gHOAkFVX3lxTE85MGpUczhmN1lTZnc1cTNhY09XcW1UZTVVc1B3emd1a3ZwbnV6MGgwUDk4R1RpNGhoYkIyN0RRMWh6YVBzLWlJcmdwM0Y3Sm1UaTJWNnE5US1uSW00RGpkbHJsQVE3VXc2SVJ0WXpqQVRfSjQ0MGpsTHVoNkZDbzJKbEhITjlqSHJCOEZvR28xbk90MEJTelhtLU1YOTU1aTBZSndIc0hFbzhuSVJIeUZZNi16QXFmcmhRTW5ZV2JiUWIxSHVLZXNaRTVvTnJvd0tIaGpKYkM0VVVTa0tqaTJYaUtXZ0ZCaEVjekFZQS14YnNSTkRrMFJqTjNLOUdsSnNISGtaZGtnQXlOMnh3ZkRBNE9OUkR0RzMzUHI4T0RKOTM3bGhCTzNrdWtTMzFkRW9aVFc0YWt2WlQ3T0t0QnFfeUw0ejU3S2JPaDhLYnc",
+          "published_at": "2026-10-04T10:08:00Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -1171,6 +1153,52 @@
       "importance": 4,
       "operational_impact": "NONE",
       "operational_eligible": false
+    },
+    {
+      "event_id": "evt_5c266c2111e78676",
+      "topic": "melilla",
+      "first_seen": "2026-09-29T15:16:12Z",
+      "last_seen": "2026-09-29T15:16:12Z",
+      "headline": "Ceuta, Melilla y Marruecos: declaración que denuncia las violaciones de los derechos humanos contra las personas en situación de desplazamiento — especialmente solicitantes de asilo, menores y miembros de la comunidad LGBTIQ+",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_2a9a6b4b03d49641",
+          "title": "Ceuta, Melilla y Marruecos: declaración que denuncia las violaciones de los derechos humanos contra las personas en situación de desplazamiento — especialmente solicitantes de asilo, menores y miembros de la comunidad LGBTIQ+",
+          "title_key": "ceuta melilla y marruecos declaracion que denuncia las violaciones de los derechos humanos contra las personas en situacion de desplazamiento especialmente solicitantes de asilo menores y miembros de la comunidad lgbtiq",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQU296eTZEYjFEaG9IMExnSHFaN1JZVkpEbm9jZlVMcGJyeGtIVFlVY09rZWVKbmszRXBrRjVvaDAzYkQwRGRvd2ZBaThlSkVaYWNGR1BBQUMyRURlYTl2djI0eVV1TjNjOEFhT0JBcnMxYkZPWlctN2xxZHQ1a1pIMi04dURQbjVXZHQwRXUyTHB1MGtON1Vka0JlNA",
+          "published_at": "2026-09-29T15:16:12Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "melilla",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
     }
   ],
   "verification_summary": {
@@ -1179,9 +1207,9 @@
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 1,
     "SINGLE_SOURCE": 4,
-    "UNCONFIRMED": 13,
-    "TOTAL": 18
+    "UNCONFIRMED": 14,
+    "TOTAL": 19
   },
   "article_count": 36,
-  "event_count": 18
+  "event_count": 19
 }

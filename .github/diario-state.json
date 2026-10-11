@@ -1,9 +1,9 @@
 {
   "version": 4,
   "latest_entry": {
-    "date": "2026-10-10",
+    "date": "2026-10-11",
     "headline": "España–Marruecos: qué aportan los titulares y qué falta comprobar",
-    "summary": "Selección automática de 4 referencias de 4 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "summary": "Selección automática de 3 referencias de 3 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
     "url": "diario/actual.html",
     "material_archive": false,
     "status_snapshot": {
@@ -25,18 +25,17 @@
       }
     },
     "source_keys": [
+      "4b95df44c9d595670496",
       "4fad69f5c58f59feff4c",
-      "75b3774c12d32a634daa",
-      "98bebbc161e7d603ba4f",
-      "9f89d34771d456cf1905"
+      "aaf0159c57e68fbe3380"
     ],
-    "published_at": "2026-10-10T14:31+02:00",
-    "updated_at": "2026-10-10T14:31+02:00",
-    "published_rfc822": "Sat, 10 Oct 2026 14:31:00 +0200",
-    "source_count": 4,
-    "fingerprint": "19a18c64888b87e7e062",
+    "published_at": "2026-10-11T14:49+02:00",
+    "updated_at": "2026-10-11T14:49+02:00",
+    "published_rfc822": "Sun, 11 Oct 2026 14:49:00 +0200",
+    "source_count": 3,
+    "fingerprint": "eb5bd079c10f5a873883",
     "mode": "brief",
-    "significance": 42,
+    "significance": 25,
     "significance_reasons": [
       "novedades recientes sin cambio estructural"
     ],
@@ -46,7 +45,7 @@
     "editor_assistant_status": "ok",
     "editorial_trace": {
       "validator_version": 2,
-      "factual_packet_sha256": "cb1bdb873917f638b9fd31e167d01887bd7363aa83c62182710734c7c855ecc0",
+      "factual_packet_sha256": "529a6914aa2dc91e47f20dcfebbb3b176f417464929f6525d24ec04ab5bc0e80",
       "provider": "gemini",
       "status": "ok",
       "attempts": [
@@ -55,16 +54,17 @@
           "model": "gemini-3.5-flash-lite"
         }
       ],
-      "factual_packet_hash": "cb1bdb873917f638b9fd31e167d01887bd7363aa83c62182710734c7c855ecc0",
+      "factual_packet_hash": "529a6914aa2dc91e47f20dcfebbb3b176f417464929f6525d24ec04ab5bc0e80",
       "event_ids": [
         "evt_80a91ed05327786d",
         "evt_652c549d50df100e",
-        "evt_ad99c199c1cacfc5",
-        "evt_b635c7204bfd976a",
-        "evt_f212471824c6ef38"
+        "evt_88d14495ec535bce",
+        "evt_fc16efddbafc3058",
+        "evt_6cdd1b2dd6474afe"
       ],
       "source_ids": [
         "elpais",
+        "euronews",
         "reuters",
         "unknown"
       ],
@@ -74,27 +74,28 @@
         "CONFLICTING": 0,
         "DECLARATION_ONLY": 1,
         "SINGLE_SOURCE": 4,
-        "UNCONFIRMED": 11,
-        "TOTAL": 16
+        "UNCONFIRMED": 14,
+        "TOTAL": 19
       },
-      "timestamp": "2026-10-10T12:31:53.752938+00:00",
+      "timestamp": "2026-10-11T12:49:58.667110+00:00",
       "fallback_used": false
     },
     "validator_version": 2,
-    "factual_packet_hash": "cb1bdb873917f638b9fd31e167d01887bd7363aa83c62182710734c7c855ecc0",
+    "factual_packet_hash": "529a6914aa2dc91e47f20dcfebbb3b176f417464929f6525d24ec04ab5bc0e80",
     "event_ids": [
       "evt_80a91ed05327786d",
       "evt_652c549d50df100e",
-      "evt_ad99c199c1cacfc5",
-      "evt_b635c7204bfd976a",
-      "evt_f212471824c6ef38"
+      "evt_88d14495ec535bce",
+      "evt_fc16efddbafc3058",
+      "evt_6cdd1b2dd6474afe"
     ],
     "source_ids": [
       "elpais",
+      "euronews",
       "reuters",
       "unknown"
     ],
-    "timestamp": "2026-10-10T12:31:53.752938+00:00",
+    "timestamp": "2026-10-11T12:49:58.667110+00:00",
     "fallback_used": false,
     "verification_summary": {
       "CONFIRMED_MULTI_SOURCE": 0,
@@ -102,8 +103,8 @@
       "CONFLICTING": 0,
       "DECLARATION_ONLY": 1,
       "SINGLE_SOURCE": 4,
-      "UNCONFIRMED": 11,
-      "TOTAL": 16
+      "UNCONFIRMED": 14,
+      "TOTAL": 19
     },
     "edition_label": "Cuaderno diplomático",
     "edition_slug": "relations"

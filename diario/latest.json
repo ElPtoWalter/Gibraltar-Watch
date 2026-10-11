@@ -1,32 +1,33 @@
 {
-  "date": "2026-10-10",
+  "date": "2026-10-11",
   "headline": "España–Marruecos: qué aportan los titulares y qué falta comprobar",
-  "summary": "Selección automática de 4 referencias de 4 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
-  "published_at": "2026-10-10T14:31+02:00",
-  "updated_at": "2026-10-10T14:31+02:00",
-  "source_count": 4,
+  "summary": "Selección automática de 3 referencias de 3 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+  "published_at": "2026-10-11T14:49+02:00",
+  "updated_at": "2026-10-11T14:49+02:00",
+  "source_count": 3,
   "indexable": false,
   "edition_label": "Cuaderno diplomático",
   "edition_slug": "relations",
-  "fingerprint": "19a18c64888b87e7e062",
+  "fingerprint": "eb5bd079c10f5a873883",
   "editor_engine": "gemini",
   "editor_assistant_status": "ok",
   "assistant_status": "ok",
   "validator_version": 2,
-  "factual_packet_hash": "cb1bdb873917f638b9fd31e167d01887bd7363aa83c62182710734c7c855ecc0",
+  "factual_packet_hash": "529a6914aa2dc91e47f20dcfebbb3b176f417464929f6525d24ec04ab5bc0e80",
   "event_ids": [
     "evt_80a91ed05327786d",
     "evt_652c549d50df100e",
-    "evt_ad99c199c1cacfc5",
-    "evt_b635c7204bfd976a",
-    "evt_f212471824c6ef38"
+    "evt_88d14495ec535bce",
+    "evt_fc16efddbafc3058",
+    "evt_6cdd1b2dd6474afe"
   ],
   "source_ids": [
     "elpais",
+    "euronews",
     "reuters",
     "unknown"
   ],
-  "timestamp": "2026-10-10T12:31:53.752938+00:00",
+  "timestamp": "2026-10-11T12:49:58.667110+00:00",
   "fallback_used": false,
   "verification_summary": {
     "CONFIRMED_MULTI_SOURCE": 0,
@@ -34,9 +35,9 @@
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 1,
     "SINGLE_SOURCE": 4,
-    "UNCONFIRMED": 11,
-    "TOTAL": 16
+    "UNCONFIRMED": 14,
+    "TOTAL": 19
   },
-  "date_label": "2026-10-10",
+  "date_label": "2026-10-11",
   "slug": "actual.html"
 }

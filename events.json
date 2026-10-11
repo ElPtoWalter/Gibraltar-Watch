@@ -1,7 +1,126 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-11T12:59:24.803712+00:00",
+  "generated_at": "2026-10-11T18:11:06.095687+00:00",
   "events": [
+    {
+      "event_id": "evt_899fff535772bc0e",
+      "topic": "ceuta",
+      "first_seen": "2026-10-10T16:00:00Z",
+      "last_seen": "2026-10-11T17:50:11Z",
+      "headline": "In Spain’s Ceuta, a delayed government response leaves underage migrants on the streets - AP News",
+      "classification": "FACT",
+      "verification_status": "SINGLE_SOURCE",
+      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
+      "sources": [
+        {
+          "source_id": "ap",
+          "source_name": "Associated Press",
+          "source_domain": "apnews.com",
+          "tier": 4,
+          "official": false,
+          "weight": 4.0
+        },
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "ap",
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_153fa4916182345a",
+          "title": "In Spain’s Ceuta, a delayed government response leaves underage migrants on the streets - AP News",
+          "title_key": "in spain s ceuta a delayed government response leaves underage migrants on the streets",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQV1ByeHozMGlwN0I0U0NPZGdRNUcyXzBON0xvOWkxTUZQNjVuVVhpMFBPXzRvMGlvNXRPalM2N2tUXzhlbkgtTmNJQ0JrNjk3Tmcta1VDYWNEMW5NVWNZcV9MTHNMdWJVSUxtSWFHd3dxVkVjN3NQMkFIcDVJN1B5OUZvMlY3VlhVZXYxcXdlUWZ4NWFJWFR6czJBRU44NUVLMTM3VEwwYw",
+          "published_at": "2026-10-10T16:00:00Z",
+          "observed_at": "",
+          "source_id": "ap",
+          "source_name": "Associated Press",
+          "source_domain": "apnews.com",
+          "tier": 4,
+          "official": false,
+          "weight": 4.0,
+          "topic": "ceuta",
+          "classification": "FACT",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_3b26b6bbb00f6c7a",
+          "title": "2 months after Spain's worst border crisis, migrants at a Ceuta tent camp weigh their choices",
+          "title_key": "2 months after spain s worst border crisis migrants at a ceuta tent camp weigh their choices",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPeU1ISloxOG5oVDVnZ2F2amExZTU3Ry1WbjJLTXJoMkFsNmtaT0lnQnRQV0NXZVhCNDNmMXQ5S3g5UWxZdk93RTZPZXdDN3BiZkFlZDZ3azNJcTBmQkoxNnpEN0tUTDFrbmNnY2VRZjVJYmQ4anRJWnpkVVR5RjcwUmp3TzFYVXZIcUN0ZnpoaVBUdlF6aGZIWDV5OXRmVXk1Y0JRamVzYXZ0YzZmYmFjcTNBWkZuVHhXcGd0RHdQbmxJZ2s2bmpn",
+          "published_at": "2026-10-11T17:50:11Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 46,
+      "operational_impact": "CONTEXT",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_20b9cdaa0142f930",
+      "topic": "melilla",
+      "first_seen": "2026-10-11T14:55:10Z",
+      "last_seen": "2026-10-11T14:55:10Z",
+      "headline": "Entre Marruecos y España apenas 85 metros, la frontera terrestre más pequeña del mundo",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_7f38cf38364ce3a8",
+          "title": "Entre Marruecos y España apenas 85 metros, la frontera terrestre más pequeña del mundo",
+          "title_key": "entre marruecos y espana apenas 85 metros la frontera terrestre mas pequena del mundo",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPRUc4d2Q5Yjgxb2FadWhfWktFMjdmUTVlRElVQjQzVTN0MllkQkVrVk5FMHdIcXlEZVFIVmpnemNxVEJNUlRoUVh3Y0hES0FKYVlleUFqQUNZVnM5YllIWkxERVJ6NnBHLW5wa1kyelpTX1c4Rk1zQ1doZUYzRHZoc3hBaW1QVjhfcTdVbjhRcl9CTVhGWUUzaE1zVzkzRkkzSHBydWQ4bUJyT2dxMlp6V2JGU19KWmliNTZGVUdBckNBSGhGYUlUejJrb1lYOVNsNUE0MFExUjlwbG1OalRhTFI1R0dfUkhrWGlac2pra9IB7wFBVV95cUxPRUc4d2Q5Yjgxb2FadWhfWktFMjdmUTVlRElVQjQzVTN0MllkQkVrVk5FMHdIcXlEZVFIVmpnemNxVEJNUlRoUVh3Y0hES0FKYVlleUFqQUNZVnM5YllIWkxERVJ6NnBHLW5wa1kyelpTX1c4Rk1zQ1doZUYzRHZoc3hBaW1QVjhfcTdVbjhRcl9CTVhGWUUzaE1zVzkzRkkzSHBydWQ4bUJyT2dxMlp6V2JGU19KWmliNTZGVUdBckNBSGhGYUlUejJrb1lYOVNsNUE0MFExUjlwbG1OalRhTFI1R0dfUkhrWGlac2praw",
+          "published_at": "2026-10-11T14:55:10Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "melilla",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
     {
       "event_id": "evt_ba12c3ed7e14ecd2",
       "topic": "relations",
@@ -149,88 +268,6 @@
           "official": false,
           "weight": 1.0,
           "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_aa223e0a9b2ab1fc",
-      "topic": "ceuta",
-      "first_seen": "2026-10-07T22:11:39Z",
-      "last_seen": "2026-10-10T06:26:03Z",
-      "headline": "Spain's slow response to crisis in Ceuta leaves teen migrants on streets",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_8f9e4c9910bcb61a",
-          "title": "Feijóo Puts Ceuta Crisis, Morocco at Center of Spain Election Campaign",
-          "title_key": "feijoo puts ceuta crisis morocco at center of spain election campaign",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNYmJWSDVGYlpaM3BVZzJrd0JiZEo4NnRBUXVpVDN4bEt3UUZ4bGJ6ekRxRUxfWFdJUmFNRFRQZjBGc3BuVXRvRUhWdkdqRTUzX0dLR2U1V29YS2ZudjZ2Mm1hblA1YzVObjBYRC02NUtMUzk0Q3Z6S253a0pvVHZHQnRHWXpFbkRXSEFMaDdrZkw3Wm54c2pfRlhSb3RxSEdySHVGNmlTVzh2bHpaYVljQ2hhZlU1Mmc1cFE",
-          "published_at": "2026-10-07T22:11:39Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_75b3774c12d32a63",
-          "title": "Morocco to Propose New Migration Control Deal After Ceuta Crisis",
-          "title_key": "morocco to propose new migration control deal after ceuta crisis",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMDlmOUs5Rmx1SlZuUm83WWRfdnhYVnBJdzFsd3VaaW96ZzJMTnJEZ1o3MHZVNTNjSVlyaTJIZlV1TF9aTDkxNTF6WHFES3JXQ0xYd1JmaEtjUlRMSnNhWVFFWGN2LVJUcjFBV3VFSmR3LTFVcWJkeG8teWM5aC1jNGh5b1R6MDUySURmZ2x5ekZ2aTIxQmxHLU5OSHVodkctZ0xPLUR5RTJ6T3AzQkxfM2l5ZXBIdw",
-          "published_at": "2026-10-09T17:47:42Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_aaf0159c57e68fbe",
-          "title": "Spain's slow response to crisis in Ceuta leaves teen migrants on streets",
-          "title_key": "spain s slow response to crisis in ceuta leaves teen migrants on streets",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRUZCaUozOE0zMkFpZkRTeWNHMWQ0d0NqUUhKVkRHSjhQcG9xdUxjVEZta0hHVWVmSW1hZUVWWXRsaElBdlpHVndNXzZXNFdsUDdPbzh6TUx3dHRZbjhpX05MREtuODVwSTNPbWVMaUlLVWUzRkRxUjZjMldYS1gyUkktcDJNWEV2MDc1MDZQY3k0NENiQ3JvOERQSGFRbHV5TmFBVVhEdWtuVVR4ejQ0dzVobkRyUdIBuwFBVV95cUxQZDNrVGRNT1VSM1AzVEZrajdmcFM0SjliNlVSWlc4TnpxTWZCUkd2MHRHeTZXTTcxU252d1F0LTdIN1ZtbVU3RWlBQjhESDdyRVAyZ1pCQXpURXIwbFFWMFNzMUVuSjQtbGY1cmFWaV9ZRDNVQXdlcktxY1l6T2pzNl9TbFhsNWVnbjR0X0FWNWVtMXdTcVk2dE56QUgtX3lPQ1JjekUwbGdWczZHX3RVbHRBbjJhWDhSN1Fn",
-          "published_at": "2026-10-10T06:26:03Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
@@ -432,6 +469,116 @@
       "operational_eligible": false
     },
     {
+      "event_id": "evt_aa223e0a9b2ab1fc",
+      "topic": "ceuta",
+      "first_seen": "2026-10-07T22:11:39Z",
+      "last_seen": "2026-10-09T17:47:42Z",
+      "headline": "Feijóo Puts Ceuta Crisis, Morocco at Center of Spain Election Campaign",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_8f9e4c9910bcb61a",
+          "title": "Feijóo Puts Ceuta Crisis, Morocco at Center of Spain Election Campaign",
+          "title_key": "feijoo puts ceuta crisis morocco at center of spain election campaign",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNYmJWSDVGYlpaM3BVZzJrd0JiZEo4NnRBUXVpVDN4bEt3UUZ4bGJ6ekRxRUxfWFdJUmFNRFRQZjBGc3BuVXRvRUhWdkdqRTUzX0dLR2U1V29YS2ZudjZ2Mm1hblA1YzVObjBYRC02NUtMUzk0Q3Z6S253a0pvVHZHQnRHWXpFbkRXSEFMaDdrZkw3Wm54c2pfRlhSb3RxSEdySHVGNmlTVzh2bHpaYVljQ2hhZlU1Mmc1cFE",
+          "published_at": "2026-10-07T22:11:39Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_75b3774c12d32a63",
+          "title": "Morocco to Propose New Migration Control Deal After Ceuta Crisis",
+          "title_key": "morocco to propose new migration control deal after ceuta crisis",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMDlmOUs5Rmx1SlZuUm83WWRfdnhYVnBJdzFsd3VaaW96ZzJMTnJEZ1o3MHZVNTNjSVlyaTJIZlV1TF9aTDkxNTF6WHFES3JXQ0xYd1JmaEtjUlRMSnNhWVFFWGN2LVJUcjFBV3VFSmR3LTFVcWJkeG8teWM5aC1jNGh5b1R6MDUySURmZ2x5ekZ2aTIxQmxHLU5OSHVodkctZ0xPLUR5RTJ6T3AzQkxfM2l5ZXBIdw",
+          "published_at": "2026-10-09T17:47:42Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_69e02a17488a531c",
+      "topic": "ceuta",
+      "first_seen": "2026-10-09T16:52:38Z",
+      "last_seen": "2026-10-09T16:52:38Z",
+      "headline": "Mohamed VI denuncia la \"instrumentalización\" en España de la crisis de Ceuta y avisa de que no aceptará \"chantajes\" - RTVE.es",
+      "classification": "FACT",
+      "verification_status": "SINGLE_SOURCE",
+      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
+      "sources": [
+        {
+          "source_id": "rtve",
+          "source_name": "RTVE",
+          "source_domain": "rtve.es",
+          "tier": 4,
+          "official": false,
+          "weight": 4.0
+        }
+      ],
+      "source_ids": [
+        "rtve"
+      ],
+      "articles": [
+        {
+          "article_id": "art_0118de4a389e0cb5",
+          "title": "Mohamed VI denuncia la \"instrumentalización\" en España de la crisis de Ceuta y avisa de que no aceptará \"chantajes\" - RTVE.es",
+          "title_key": "mohamed vi denuncia la instrumentalizacion en espana de la crisis de ceuta y avisa de que no aceptara chantajes",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNLWhLdUlHSDVMWWV6TEdkVGY5SHI5ZGVidWJmekRrTWlITW02Mjl6bG13TVVvaGlUUGdmbFVTVi1DSWpneTZSQTBVakh1WUhoZmt4NnhqM082aWJDTGg4aE5yMS02YlBhX1p0OVpPUTg3aWZXZ1NlNDFZcG1LUUFpZEtQZ0UzNVdpSDY2ZE02cU1zYkYwcklac0ZMWkY5TVNNUEFQUkZYTi1IZw",
+          "published_at": "2026-10-09T16:52:38Z",
+          "observed_at": "",
+          "source_id": "rtve",
+          "source_name": "RTVE",
+          "source_domain": "rtve.es",
+          "tier": 4,
+          "official": false,
+          "weight": 4.0,
+          "topic": "ceuta",
+          "classification": "FACT",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 43,
+      "operational_impact": "CONTEXT",
+      "operational_eligible": false
+    },
+    {
       "event_id": "evt_88d14495ec535bce",
       "topic": "ceuta",
       "first_seen": "2026-10-08T18:10:00Z",
@@ -570,6 +717,52 @@
           "title_key": "marruecos convierte la crisis de ceuta en un pulso geopolitico contra la imagen exterior de espana",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNa3hnMUxObjFtUGptLVktMjhtU3FmLU85bjVaWVlnU0ZKb1N4Y2hDRUdyUDlYSVIxVzEtWC05SHJHVzU5TjJkSnh6MVFrQlJHRGJsWTc1c1ZXbHNuTkN0NXNhbkIwbHROdzZVZm84SEI2b0VZSF8tSGlYVE0tZUl5Q3J3QzdFZw",
           "published_at": "2026-10-08T08:01:09Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_7b457a4fef683c8a",
+      "topic": "ceuta",
+      "first_seen": "2026-09-28T23:39:24Z",
+      "last_seen": "2026-10-08T04:00:00Z",
+      "headline": "A migration crisis in Ceuta strains a tradition of coexistence - Christian Science Monitor - CSMonitor.com",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_c363c9264c93de61",
+          "title": "A migration crisis in Ceuta strains a tradition of coexistence - Christian Science Monitor - CSMonitor.com",
+          "title_key": "a migration crisis in ceuta strains a tradition of coexistence",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObUJ1emtDT0hVNzU1VTVmWDZLS29ONEl1SlJLYTlCQWs2cjNJcDB4djRyWS1ya2laWV9rYkN5UWRsQUpHaE9pRVJ2dnVtY2V4Wl9DZTdhTFF6WDJuV3NRSXotM1JRdXNGN0tNR3NwVDQ5cFFWMlJmT1JsQjRrLWVLU3Itd3BBQW90eUNqZGk1RmhEV0k",
+          "published_at": "2026-10-08T04:00:00Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -1022,139 +1215,11 @@
       ],
       "articles": [
         {
-          "article_id": "art_8a3f66959dd5de08",
-          "title": "Ceuta, la frontera sur de la UE que Marruecos ha convertido en una crisis de seguridad y migratoria para España",
-          "title_key": "ceuta la frontera sur de la ue que marruecos ha convertido en una crisis de seguridad y migratoria para espana",
-          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNS1NrN2ZwalM3YU5IajZRclZ5R0xzclY3Z2JXeGVmeERIUXBHZXg5bUhxcWdFeGcwYnRCS1NqOURXZ3FGZk83STBZTzliVFppMWJicWtjZWJnVkFDREctb1lYTWp0THNETUQzOU5zdC1tLXBJRzF0bU12eW5CUGtaY09sZ1pzRG01NUI2NDZnV3dUS1l5TUk4UjdkUVdGdFdFN3BMWWIzTi1kWU9mVXJVX25xLUNMWnhGcVcxS0VUZjhiclFRN0hnT25DbEd0NUZCNTFrTndueV9DUzlCcWtqTFVrTTZHSDh0",
-          "published_at": "2026-09-30T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
           "article_id": "art_bb8942cab3b7f192",
           "title": "La visita de Felipe VI y Letizia a Ceuta y Melilla es la prueba de fuego para Sánchez y Marruecos tras la crisis fronteriza",
           "title_key": "la visita de felipe vi y letizia a ceuta y melilla es la prueba de fuego para sanchez y marruecos tras la crisis fronteriza",
           "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxPUFRFV05xZjZuc1ZLNW5NNy1ZLU1zdGYySTJvU3hwa3AteF9OWEV2T1c4bzctTHViZk1JcEpwTzZyRkYyVURYUXB3d2c4QmJteDlQNGZfc0xwVUlWSWhyMWV4cXF6QWdWb3hlSjBJck1wc01rZnJyOThSU1pFS1FKUUpwc1loeEZkY2xkZFdyZFBhdktlY0lqME95ZTVsaVJDQXM2eldtcXBwY05mSWVWOE5HTHdKajljcjNySnV6U0dCWFg1SmFQVkY3WXZBeGJKb2g5dldJMHVBYkhadUtlRUoxd0F2eHVYbG54SXBOSS1XVXpOQTdLVkJkbGwtak1HMWdEaTJUZnFMcDlqTGtaaFFkOGxoUC1yREVSNDBzX3ZneWlGemlTa3NuaXI",
           "published_at": "2026-10-01T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_b635c7204bfd976a",
-      "topic": "ceuta",
-      "first_seen": "2026-09-29T12:06:52Z",
-      "last_seen": "2026-09-30T11:10:55Z",
-      "headline": "[Interview] Ceuta crisis shows how EU border outsourcing puts children at risk, says German lawyer",
-      "classification": "ANALYSIS",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_cee01779eec56055",
-          "title": "[Interview] Ceuta crisis shows how EU border outsourcing puts children at risk, says German lawyer",
-          "title_key": "interview ceuta crisis shows how eu border outsourcing puts children at risk says german lawyer",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQVUNCX0ZUc0RyMVlpdHU4LVl6MVJKZFRnazlwV2lUd01UMjE4ZDFrWWlSOC1QOXZVWGd4Um5EamtNNHJuNl9zM3VZcEhhVndsTE5faUs0Y0RHTmx1OGNPckd2SWZxZkpMdGFKODdueFlEbjNoN09SeFNJRGpab1RfMVQtNFFXazVzdXNNWmw4bk1FNzM3VjA5VlVEVVJzdi1tUWRxd0R0UWd3NXdWSUI5RE1iaGI4QXpTa3JKSlF0ZFBnTUdxa2d3ZkZ1U09CSDhmMXQwdEtMaw",
-          "published_at": "2026-09-30T11:10:55Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "ANALYSIS",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 17,
-      "operational_impact": "CONTEXT",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_7b457a4fef683c8a",
-      "topic": "ceuta",
-      "first_seen": "2026-09-28T23:39:24Z",
-      "last_seen": "2026-09-30T07:00:00Z",
-      "headline": "A migration crisis in Ceuta strains a tradition of coexistence - Christian Science Monitor - CSMonitor.com",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_01c1b458a25142a7",
-          "title": "Ceuta crisis exposes challenges and tensions in EU’s response to migration",
-          "title_key": "ceuta crisis exposes challenges and tensions in eu s response to migration",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUHlVTnVpb2NtSjhXUnBLWUVGYkpnenozejc0QWU1Ui02czhzNlAzMXdrZS0ySHZUX3VVNjVvLWE4WmdVREE0YWV4NXVfZ2V3X2U4VWxaMFdJZ0REYWJlVHh0VUw0ZjZ0TG1neEthVTJMYzdqUEVoS1NGemR4dThTWlFUTjhkNWNQWjNzZ3cxT2c5SnhwcHJwd0d4OXE",
-          "published_at": "2026-09-30T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_c363c9264c93de61",
-          "title": "A migration crisis in Ceuta strains a tradition of coexistence - Christian Science Monitor - CSMonitor.com",
-          "title_key": "a migration crisis in ceuta strains a tradition of coexistence",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObUJ1emtDT0hVNzU1VTVmWDZLS29ONEl1SlJLYTlCQWs2cjNJcDB4djRyWS1ya2laWV9rYkN5UWRsQUpHaE9pRVJ2dnVtY2V4Wl9DZTdhTFF6WDJuV3NRSXotM1JRdXNGN0tNR3NwVDQ5cFFWMlJmT1JsQjRrLWVLU3Itd3BBQW90eUNqZGk1RmhEV0k",
-          "published_at": "2026-09-30T07:00:00Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -1178,10 +1243,10 @@
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 1,
-    "SINGLE_SOURCE": 4,
+    "SINGLE_SOURCE": 6,
     "UNCONFIRMED": 13,
-    "TOTAL": 18
+    "TOTAL": 20
   },
   "article_count": 36,
-  "event_count": 18
+  "event_count": 20
 }

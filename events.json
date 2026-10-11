@@ -1,7 +1,117 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-11T05:55:25.323556+00:00",
+  "generated_at": "2026-10-11T12:59:24.803712+00:00",
   "events": [
+    {
+      "event_id": "evt_ba12c3ed7e14ecd2",
+      "topic": "relations",
+      "first_seen": "2026-10-11T07:05:40Z",
+      "last_seen": "2026-10-11T07:05:40Z",
+      "headline": "El lugar de Marruecos en el horizonte estratégico de España",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_b2dea7f3196aa32f",
+          "title": "El lugar de Marruecos en el horizonte estratégico de España",
+          "title_key": "el lugar de marruecos en el horizonte estrategico de espana",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOENRR2k4OUlMY29yWEdTMG9FUGRMUTY4alg1bVVNZGZZbXQ2SUdkWmJkTGxFbzZHZEZYbHhtcW9vRzA1TnNXcmlTNzNQVDlPOUZsWTdtaVAwOTMzT2tiRkxWQW1zZ2lFdk9ReDdnNVNDTHhrM2l4ekVGTTRVX2xhRVllUzZDTlY5UFQzQlpoNTNuY0Z5OTc5ZjVpbGlTUDZvZXIycjF5dmo0UGEya2JlZERRM2NSM2RHX1HSAb8BQVVfeXFMT1ZOUDVqalFlaDNPVjRMaVpyMW4xdUtucUc3QjdzY3FUdDdvUm82SFl2VnRXZGt5UGh3eHVqMkUwUFpqdC1RZjFWQ2lFOGJBUnF2WHN2YmJ6ZzQtNkx5cEZaeDZjYkRlVWc1MTcxTHU5aUg3RDR1RmhHc0lFcmJSY1JDUWVnODNNTFE0amZBX1drR2NJZE5Sdk52dzZrUDUwYWVfYldOaFRDUHpSdnRfOTZVMzBjbERmWHUyelh2YUU",
+          "published_at": "2026-10-11T07:05:40Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_7938763decc80335",
+      "topic": "ceuta",
+      "first_seen": "2026-10-09T21:41:10Z",
+      "last_seen": "2026-10-11T00:06:19Z",
+      "headline": "Luis de la Corte, director de Inteligencia: \"Marruecos no reconoce la españolidad de Ceuta y Melilla, hay que preparar al país para eventuales escenarios y nuevas maniobras\"",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_5d32e6e8cab717a3",
+          "title": "Luis de la Corte, director de Inteligencia: \"Marruecos no reconoce la españolidad de Ceuta y Melilla, hay que preparar al país para eventuales escenarios y nuevas maniobras\"",
+          "title_key": "luis de la corte director de inteligencia marruecos no reconoce la espanolidad de ceuta y melilla hay que preparar al pais para eventuales escenarios y nuevas maniobras",
+          "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxNTXBYSDk0QUdrMWJ4eUdTeWQ0aGZXbml2eklIdS1pajBhZk5tcnVDMFJoSGFpVzN6UWxiWkJrOWRZUldQQmJRdnk2YTkwZ1dEMlpWdndEaXVaTGFPMldFTjY1MDNLcWFwN1BmVnJtZU5RYmhyVGNIaTV3b05WelNEM0psejZHQ2pzc3hPX01odGZWSWdjXzRIa3lCRTV4RW5QcDRtaEhHSVhkbjhid0VCaHNCakloSG8wZ3pKV0NVV1oxbHVnaUNsbkE3Mm0xM19WMG5LYWVfaFZlQ3FCRGJweW9la2l2aDdxZVpPUnIzcFp1REV1ZmlhTTZINVp1UDRQN3k5d09YY01fY3laNXdkTEhjZnh6OTBmN05hTzQ1SGtpR1VYNHR6b2J5bEx1ZjRhMHfSAbcCQVVfeXFMTmxaQ2RySWRzYTZBTlotZlZ3RFo3dW1lOG1qc1NESTVMdVJQaVlYaXVpekRtYjRzX3V1SnpsS01uWVFEb29EYlNkaHJENmk3NEYwY25zNlhCcW5BVHlteWc1OWFGRURDc045Vm9xWGJBYVg3U1dwendrS1BsR2I2b0J6Zlc0bnZvbmg4VTBaREs4aUsxTVd5aG9XUFFRSTRKekgyUDBMWTRsWC1rbWNTYXN4MkdOZWpIVE1Xdnd2Uk5BeTVrSU9lcXBBaC1PY2lyMmx0XzA5RW53Ny1pdHdhXzU1NHg3T19vMU1JOFhjM05lTkdVMVhtMXVMOEpHYV9TNHJtdmRvQVY2bmtKX2t5OVRrTzJQT29kbDhYOEZfV2E4M0JOWktpQlgtdVkxR1l5ZXpwUldPbWM",
+          "published_at": "2026-10-09T21:41:10Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_3324f043ded9b8e6",
+          "title": "Devoluciones forzosas y bajo engaño de Ceuta a Marruecos: testimonios de inmigrantes confirman que el Gobierno ampara retornos sin garantías",
+          "title_key": "devoluciones forzosas y bajo engano de ceuta a marruecos testimonios de inmigrantes confirman que el gobierno ampara retornos sin garantias",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9kNkZzb1FDbkdJOGoyNDNZVnVSSE1PRURnZU5wQmZTaklGckFDX1lyNl9qUTdjQlE1aEVBTnJwYWRrdmhoZXg3b0ZmeV9rR2ZBZzRmQWRrNHRIby1WaUtXeEFGa1NPWU9icnA5bzhPT1gwRnBObzVjd2pn0gF6QVVfeXFMT0ZmaTRGUmliNWlISDEyMHV6ZGJNb0FEUFl3QXdSc0tyc2pVSnBBb3JpZE1QbTliY3F5Zkw4Zk5lczktSEFSSHpsODBSQW1fMW9HUXRaTGdBSUtFSGJyMy1mNWFmYU03ZmZLT0I5eUo5OHBuak5ZdUNuSnc",
+          "published_at": "2026-10-11T00:06:19Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
     {
       "event_id": "evt_9cc82bf8bfce3144",
       "topic": "relations",
@@ -255,52 +365,6 @@
       ],
       "importance": 53,
       "operational_impact": "POTENTIAL",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_7938763decc80335",
-      "topic": "ceuta",
-      "first_seen": "2026-10-09T21:41:10Z",
-      "last_seen": "2026-10-09T21:41:10Z",
-      "headline": "Luis de la Corte, director de Inteligencia: \"Marruecos no reconoce la españolidad de Ceuta y Melilla, hay que preparar al país para eventuales escenarios y nuevas maniobras\"",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_5d32e6e8cab717a3",
-          "title": "Luis de la Corte, director de Inteligencia: \"Marruecos no reconoce la españolidad de Ceuta y Melilla, hay que preparar al país para eventuales escenarios y nuevas maniobras\"",
-          "title_key": "luis de la corte director de inteligencia marruecos no reconoce la espanolidad de ceuta y melilla hay que preparar al pais para eventuales escenarios y nuevas maniobras",
-          "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxNTXBYSDk0QUdrMWJ4eUdTeWQ0aGZXbml2eklIdS1pajBhZk5tcnVDMFJoSGFpVzN6UWxiWkJrOWRZUldQQmJRdnk2YTkwZ1dEMlpWdndEaXVaTGFPMldFTjY1MDNLcWFwN1BmVnJtZU5RYmhyVGNIaTV3b05WelNEM0psejZHQ2pzc3hPX01odGZWSWdjXzRIa3lCRTV4RW5QcDRtaEhHSVhkbjhid0VCaHNCakloSG8wZ3pKV0NVV1oxbHVnaUNsbkE3Mm0xM19WMG5LYWVfaFZlQ3FCRGJweW9la2l2aDdxZVpPUnIzcFp1REV1ZmlhTTZINVp1UDRQN3k5d09YY01fY3laNXdkTEhjZnh6OTBmN05hTzQ1SGtpR1VYNHR6b2J5bEx1ZjRhMHfSAbcCQVVfeXFMTmxaQ2RySWRzYTZBTlotZlZ3RFo3dW1lOG1qc1NESTVMdVJQaVlYaXVpekRtYjRzX3V1SnpsS01uWVFEb29EYlNkaHJENmk3NEYwY25zNlhCcW5BVHlteWc1OWFGRURDc045Vm9xWGJBYVg3U1dwendrS1BsR2I2b0J6Zlc0bnZvbmg4VTBaREs4aUsxTVd5aG9XUFFRSTRKekgyUDBMWTRsWC1rbWNTYXN4MkdOZWpIVE1Xdnd2Uk5BeTVrSU9lcXBBaC1PY2lyMmx0XzA5RW53Ny1pdHdhXzU1NHg3T19vMU1JOFhjM05lTkdVMVhtMXVMOEpHYV9TNHJtdmRvQVY2bmtKX2t5OVRrTzJQT29kbDhYOEZfV2E4M0JOWktpQlgtdVkxR1l5ZXpwUldPbWM",
-          "published_at": "2026-10-09T21:41:10Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
       "operational_eligible": false
     },
     {
@@ -1107,98 +1171,6 @@
       "importance": 4,
       "operational_impact": "NONE",
       "operational_eligible": false
-    },
-    {
-      "event_id": "evt_d08c89a2ca86805f",
-      "topic": "relations",
-      "first_seen": "2026-09-30T18:53:08Z",
-      "last_seen": "2026-09-30T07:00:00Z",
-      "headline": "From Juan Carlos I to Felipe VI: Two Ways of Managing Crises with Morocco",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_b9662f5cfda74d3f",
-          "title": "From Juan Carlos I to Felipe VI: Two Ways of Managing Crises with Morocco",
-          "title_key": "from juan carlos i to felipe vi two ways of managing crises with morocco",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMWQ4XzFaaXVoTlV0VjVTWnh1ME8tNVRub21tVm0zaGRtUzRxZUhQY0xuSE5pN190VEtGUmJXZG1DT0dkeVlKSFpUZ3ZVLWtDLTl0SWxELVU3VGxYS0ZSaVR2WExCdXktY1o0WGNnUXk4c2twRzBFZ3pKblpmWHJUd19naVJNQmNjYUl0MTlFX0dsSVM2bEFGRnphc3ExSGxRVVBOU0FuclNSWnV6cjh6bjljM0tSS0l6akNmYkJ3",
-          "published_at": "2026-09-30T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_5c266c2111e78676",
-      "topic": "melilla",
-      "first_seen": "2026-09-29T15:16:12Z",
-      "last_seen": "2026-09-29T15:16:12Z",
-      "headline": "Ceuta, Melilla y Marruecos: declaración que denuncia las violaciones de los derechos humanos contra las personas en situación de desplazamiento — especialmente solicitantes de asilo, menores y miembros de la comunidad LGBTIQ+",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_2a9a6b4b03d49641",
-          "title": "Ceuta, Melilla y Marruecos: declaración que denuncia las violaciones de los derechos humanos contra las personas en situación de desplazamiento — especialmente solicitantes de asilo, menores y miembros de la comunidad LGBTIQ+",
-          "title_key": "ceuta melilla y marruecos declaracion que denuncia las violaciones de los derechos humanos contra las personas en situacion de desplazamiento especialmente solicitantes de asilo menores y miembros de la comunidad lgbtiq",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQU296eTZEYjFEaG9IMExnSHFaN1JZVkpEbm9jZlVMcGJyeGtIVFlVY09rZWVKbmszRXBrRjVvaDAzYkQwRGRvd2ZBaThlSkVaYWNGR1BBQUMyRURlYTl2djI0eVV1TjNjOEFhT0JBcnMxYkZPWlctN2xxZHQ1a1pIMi04dURQbjVXZHQwRXUyTHB1MGtON1Vka0JlNA",
-          "published_at": "2026-09-29T15:16:12Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
     }
   ],
   "verification_summary": {
@@ -1207,9 +1179,9 @@
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 1,
     "SINGLE_SOURCE": 4,
-    "UNCONFIRMED": 14,
-    "TOTAL": 19
+    "UNCONFIRMED": 13,
+    "TOTAL": 18
   },
   "article_count": 36,
-  "event_count": 19
+  "event_count": 18
 }

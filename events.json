@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-11T18:11:06.095687+00:00",
+  "generated_at": "2026-10-11T22:03:25.148100+00:00",
   "events": [
     {
       "event_id": "evt_899fff535772bc0e",
       "topic": "ceuta",
       "first_seen": "2026-10-10T16:00:00Z",
-      "last_seen": "2026-10-11T17:50:11Z",
+      "last_seen": "2026-10-11T20:50:11Z",
       "headline": "In Spain’s Ceuta, a delayed government response leaves underage migrants on the streets - AP News",
       "classification": "FACT",
       "verification_status": "SINGLE_SOURCE",
@@ -57,7 +57,7 @@
           "title": "2 months after Spain's worst border crisis, migrants at a Ceuta tent camp weigh their choices",
           "title_key": "2 months after spain s worst border crisis migrants at a ceuta tent camp weigh their choices",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPeU1ISloxOG5oVDVnZ2F2amExZTU3Ry1WbjJLTXJoMkFsNmtaT0lnQnRQV0NXZVhCNDNmMXQ5S3g5UWxZdk93RTZPZXdDN3BiZkFlZDZ3azNJcTBmQkoxNnpEN0tUTDFrbmNnY2VRZjVJYmQ4anRJWnpkVVR5RjcwUmp3TzFYVXZIcUN0ZnpoaVBUdlF6aGZIWDV5OXRmVXk1Y0JRamVzYXZ0YzZmYmFjcTNBWkZuVHhXcGd0RHdQbmxJZ2s2bmpn",
-          "published_at": "2026-10-11T17:50:11Z",
+          "published_at": "2026-10-11T20:50:11Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -73,6 +73,52 @@
       ],
       "importance": 46,
       "operational_impact": "CONTEXT",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_019f05be08832086",
+      "topic": "relations",
+      "first_seen": "2026-10-11T18:57:38Z",
+      "last_seen": "2026-10-11T18:57:38Z",
+      "headline": "El viaje de los reyes a Ceuta y Melilla pone a prueba la relación con Marruecos",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_8e2a60acad62a95f",
+          "title": "El viaje de los reyes a Ceuta y Melilla pone a prueba la relación con Marruecos",
+          "title_key": "el viaje de los reyes a ceuta y melilla pone a prueba la relacion con marruecos",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUnVfaFE4SW9BeHhvVGtzWmVaUkN6OXpMd3JuS0NjOXBrSjF4SzFxX2t0UWkxMC0yMHc5WUFZbHotTWhraHhDd3RUY0ZqM3c5YXkwRVNndXFtT2Nrb0Z2Q2xFYXNmcXk3UXRBVEJoZjRhRWIwMnJaYUQtV0tXeEt1dXJ0bkxfNHhJOXRiWlE5UzhhczVwNUNrY0xrZGlDazJFVUFoeQ",
+          "published_at": "2026-10-11T18:57:38Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
       "operational_eligible": false
     },
     {
@@ -530,52 +576,6 @@
       ],
       "importance": 4,
       "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_69e02a17488a531c",
-      "topic": "ceuta",
-      "first_seen": "2026-10-09T16:52:38Z",
-      "last_seen": "2026-10-09T16:52:38Z",
-      "headline": "Mohamed VI denuncia la \"instrumentalización\" en España de la crisis de Ceuta y avisa de que no aceptará \"chantajes\" - RTVE.es",
-      "classification": "FACT",
-      "verification_status": "SINGLE_SOURCE",
-      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
-      "sources": [
-        {
-          "source_id": "rtve",
-          "source_name": "RTVE",
-          "source_domain": "rtve.es",
-          "tier": 4,
-          "official": false,
-          "weight": 4.0
-        }
-      ],
-      "source_ids": [
-        "rtve"
-      ],
-      "articles": [
-        {
-          "article_id": "art_0118de4a389e0cb5",
-          "title": "Mohamed VI denuncia la \"instrumentalización\" en España de la crisis de Ceuta y avisa de que no aceptará \"chantajes\" - RTVE.es",
-          "title_key": "mohamed vi denuncia la instrumentalizacion en espana de la crisis de ceuta y avisa de que no aceptara chantajes",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNLWhLdUlHSDVMWWV6TEdkVGY5SHI5ZGVidWJmekRrTWlITW02Mjl6bG13TVVvaGlUUGdmbFVTVi1DSWpneTZSQTBVakh1WUhoZmt4NnhqM082aWJDTGg4aE5yMS02YlBhX1p0OVpPUTg3aWZXZ1NlNDFZcG1LUUFpZEtQZ0UzNVdpSDY2ZE02cU1zYkYwcklac0ZMWkY5TVNNUEFQUkZYTi1IZw",
-          "published_at": "2026-10-09T16:52:38Z",
-          "observed_at": "",
-          "source_id": "rtve",
-          "source_name": "RTVE",
-          "source_domain": "rtve.es",
-          "tier": 4,
-          "official": false,
-          "weight": 4.0,
-          "topic": "ceuta",
-          "classification": "FACT",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 43,
-      "operational_impact": "CONTEXT",
       "operational_eligible": false
     },
     {
@@ -1243,8 +1243,8 @@
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 1,
-    "SINGLE_SOURCE": 6,
-    "UNCONFIRMED": 13,
+    "SINGLE_SOURCE": 5,
+    "UNCONFIRMED": 14,
     "TOTAL": 20
   },
   "article_count": 36,

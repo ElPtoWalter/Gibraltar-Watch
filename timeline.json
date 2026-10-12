@@ -1,5 +1,37 @@
 [
   {
+    "key": "state-reinforced_watch-2026-10-12",
+    "at": "2026-10-12T19:50:35Z",
+    "level": "alert",
+    "title_es": "Cambio de nivel del observatorio",
+    "detail_es": "El nivel general pasa a VIGILANCIA REFORZADA. Existen incidencias o tensión apreciable, sin que ello implique por sí solo una interrupción del Estrecho.",
+    "href": "situacion-actual.html"
+  },
+  {
+    "key": "layer-border-ALTA-2026-10-12",
+    "at": "2026-10-12T19:50:35Z",
+    "level": "info",
+    "title_es": "Actualización: Ceuta y Melilla",
+    "detail_es": "El indicador editorial pasa a «ALTA».",
+    "href": "situacion-actual.html"
+  },
+  {
+    "key": "layer-security-VIGILANCIA REFORZADA-2026-10-12",
+    "at": "2026-10-12T19:50:35Z",
+    "level": "info",
+    "title_es": "Actualización: Seguridad",
+    "detail_es": "El indicador editorial pasa a «VIGILANCIA REFORZADA».",
+    "href": "situacion-actual.html"
+  },
+  {
+    "key": "anomaly-news-volume-2026-10-12",
+    "at": "2026-10-12T19:50:35Z",
+    "level": "data",
+    "title_es": "Volumen informativo superior al patrón reciente",
+    "detail_es": "Se detectan 10 referencias en 24 h frente a una mediana reciente de 3. Es una señal de atención, no una prueba de crisis.",
+    "href": "datos.html"
+  },
+  {
     "key": "diary-2026-10-12",
     "at": "2026-10-12T15:25:28Z",
     "level": "info",
@@ -1406,21 +1438,5 @@
     "title_es": "Nueva edición del Diario del Estrecho",
     "detail_es": "Ceuta sigue marcando la agenda mientras el tráfico del Estrecho permanece operativo",
     "href": "diario/2026-08-10.html"
-  },
-  {
-    "key": "ope-2026-08-08",
-    "at": "2026-08-10T09:51:35Z",
-    "level": "data",
-    "title_es": "Nuevo parte oficial de la OPE",
-    "detail_es": "Se incorpora el informe correspondiente a 8 de agosto de 2026.",
-    "href": "operacion-paso-estrecho-2026.html"
-  },
-  {
-    "key": "seismic-us7000t3hl",
-    "at": "2026-08-10T09:51:35Z",
-    "level": "data",
-    "title_es": "Nuevo evento en el catálogo sísmico regional",
-    "detail_es": "M 3.1 · 2 km N of Armilla, Spain. No implica por sí solo un cambio de riesgo.",
-    "href": "sismicidad.html"
   }
 ]

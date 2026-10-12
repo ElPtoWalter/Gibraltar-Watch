@@ -1,12 +1,58 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-11T22:03:25.148100+00:00",
+  "generated_at": "2026-10-12T01:22:53.918760+00:00",
   "events": [
+    {
+      "event_id": "evt_019f05be08832086",
+      "topic": "relations",
+      "first_seen": "2026-10-11T18:57:38Z",
+      "last_seen": "2026-10-11T18:57:38Z",
+      "headline": "El viaje de los reyes a Ceuta y Melilla pone a prueba la relación con Marruecos",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_8e2a60acad62a95f",
+          "title": "El viaje de los reyes a Ceuta y Melilla pone a prueba la relación con Marruecos",
+          "title_key": "el viaje de los reyes a ceuta y melilla pone a prueba la relacion con marruecos",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUnVfaFE4SW9BeHhvVGtzWmVaUkN6OXpMd3JuS0NjOXBrSjF4SzFxX2t0UWkxMC0yMHc5WUFZbHotTWhraHhDd3RUY0ZqM3c5YXkwRVNndXFtT2Nrb0Z2Q2xFYXNmcXk3UXRBVEJoZjRhRWIwMnJaYUQtV0tXeEt1dXJ0bkxfNHhJOXRiWlE5UzhhczVwNUNrY0xrZGlDazJFVUFoeQ",
+          "published_at": "2026-10-11T18:57:38Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
     {
       "event_id": "evt_899fff535772bc0e",
       "topic": "ceuta",
       "first_seen": "2026-10-10T16:00:00Z",
-      "last_seen": "2026-10-11T20:50:11Z",
+      "last_seen": "2026-10-11T16:48:41Z",
       "headline": "In Spain’s Ceuta, a delayed government response leaves underage migrants on the streets - AP News",
       "classification": "FACT",
       "verification_status": "SINGLE_SOURCE",
@@ -53,11 +99,11 @@
           "description": ""
         },
         {
-          "article_id": "art_3b26b6bbb00f6c7a",
+          "article_id": "art_d658735951570148",
           "title": "2 months after Spain's worst border crisis, migrants at a Ceuta tent camp weigh their choices",
           "title_key": "2 months after spain s worst border crisis migrants at a ceuta tent camp weigh their choices",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPeU1ISloxOG5oVDVnZ2F2amExZTU3Ry1WbjJLTXJoMkFsNmtaT0lnQnRQV0NXZVhCNDNmMXQ5S3g5UWxZdk93RTZPZXdDN3BiZkFlZDZ3azNJcTBmQkoxNnpEN0tUTDFrbmNnY2VRZjVJYmQ4anRJWnpkVVR5RjcwUmp3TzFYVXZIcUN0ZnpoaVBUdlF6aGZIWDV5OXRmVXk1Y0JRamVzYXZ0YzZmYmFjcTNBWkZuVHhXcGd0RHdQbmxJZ2s2bmpn",
-          "published_at": "2026-10-11T20:50:11Z",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQR2wzZ041NUtOeDBMajBWWGNsNGZ4YVRnWHoyMGNhc1RDTVAxRjYwS0xtSEoxdnQwVEl3NzBvZFV0QWR5U2N3a09VdV9uWmhmLTZIY1hpcUFJZ2tzWFhQRndMbktnVzEwUTZrWF9JVUZzT2xrYWhfV041U05FZ1JSNWtMM1NzZUxOek9YQ1lER1pZN0p2S0szbnZ0enQyaUxuMHlyNzlZeVQwczNZSDJLY3VEZmcyanZoVGtrSkI1c0lKQzRadDJvN1FlUFRUYXliSnVOemVTWXVtUGxsU0RyVlVvdWcySDN0ZGF2LVRFMDRLemlOSGw0ejY2MFcwd3BUUlE",
+          "published_at": "2026-10-11T16:48:41Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -73,52 +119,6 @@
       ],
       "importance": 46,
       "operational_impact": "CONTEXT",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_019f05be08832086",
-      "topic": "relations",
-      "first_seen": "2026-10-11T18:57:38Z",
-      "last_seen": "2026-10-11T18:57:38Z",
-      "headline": "El viaje de los reyes a Ceuta y Melilla pone a prueba la relación con Marruecos",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_8e2a60acad62a95f",
-          "title": "El viaje de los reyes a Ceuta y Melilla pone a prueba la relación con Marruecos",
-          "title_key": "el viaje de los reyes a ceuta y melilla pone a prueba la relacion con marruecos",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUnVfaFE4SW9BeHhvVGtzWmVaUkN6OXpMd3JuS0NjOXBrSjF4SzFxX2t0UWkxMC0yMHc5WUFZbHotTWhraHhDd3RUY0ZqM3c5YXkwRVNndXFtT2Nrb0Z2Q2xFYXNmcXk3UXRBVEJoZjRhRWIwMnJaYUQtV0tXeEt1dXJ0bkxfNHhJOXRiWlE5UzhhczVwNUNrY0xrZGlDazJFVUFoeQ",
-          "published_at": "2026-10-11T18:57:38Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
       "operational_eligible": false
     },
     {
@@ -569,6 +569,52 @@
           "official": false,
           "weight": 1.0,
           "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_9d158f105ab59757",
+      "topic": "melilla",
+      "first_seen": "2026-10-09T07:11:33Z",
+      "last_seen": "2026-10-09T07:11:33Z",
+      "headline": "«Hay que anclar más a Ceuta y Melilla en Europa»",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_f8cc13cba98ad51e",
+          "title": "«Hay que anclar más a Ceuta y Melilla en Europa»",
+          "title_key": "hay que anclar mas a ceuta y melilla en europa",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9fTDN4OUl1V1p4VVJDdUlHSlBFOGYzWURDc1poOTFKcXNQSUludTk3UkttbExTTkxsTHpSRFA3cEZ3WTlpcmEwVWotSXR1NnBNbHd1YlYtLTl5dng0d1E",
+          "published_at": "2026-10-09T07:11:33Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "melilla",
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
@@ -1105,24 +1151,6 @@
           "description": ""
         },
         {
-          "article_id": "art_a8f8e9d2a02e88b6",
-          "title": "Las entretelas: qué implicaciones tiene el viaje real a Ceuta y Melilla en la relación con Marruecos",
-          "title_key": "las entretelas que implicaciones tiene el viaje real a ceuta y melilla en la relacion con marruecos",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMUJsa1NxN2hlTDhmcEpsVU5LQ2p3eVpPX19ja0VqMkxITzVncHdWZV8wenJMeERqYU5pWXZCM2JrZjRlN1NqTkZhZVdNSWQ1SXNILUgyX3BkWnlXdVRiREdWMmlxOGVFVi00TWNqU2thdXkxSzA3SExaU3pGQXZKRmhQNGlPbXg4bDhrd24yNXBmMUN1eXpVYkI2NDdzcXpjZE51TmRUTUI0dWFzM0d0bVVuRGZldi11RXFjMmc4dFhMZ9IB1gFBVV95cUxQOUdDRlVnMnI5RXNiclNKUHMwMGM3MkFZV2dlbzlyOEU1cE1tQ3JqWWN0MVMxMGNWMmtVa19SVTM3VldReWd3bmJlRXNKbUJKNWpOZFJtdVpfbC16cEhXR1ZOWk81cHREOUlwdTJpSGJ0VHE0WWtuZmFjOVZtYUVvcHRDcFhkSGxzb3lwTVRpNGVHU21Zc0M4VFo3eTNqU1NsakRYSFU4WTFuakNsb2hGMkNRd2I1cHd4aHBTUDZ4YW1CT0R2RFMzWWpfUVVoT1J2NFF5Z2N3",
-          "published_at": "2026-10-01T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
           "article_id": "art_bf1b1e49f336af67",
           "title": "¿Qué revela la crisis de Ceuta sobre la relación con Marruecos?",
           "title_key": "que revela la crisis de ceuta sobre la relacion con marruecos",
@@ -1244,9 +1272,9 @@
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 1,
     "SINGLE_SOURCE": 5,
-    "UNCONFIRMED": 14,
-    "TOTAL": 20
+    "UNCONFIRMED": 15,
+    "TOTAL": 21
   },
   "article_count": 36,
-  "event_count": 20
+  "event_count": 21
 }

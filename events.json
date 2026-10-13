@@ -1,12 +1,58 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-13T09:33:53.671424+00:00",
+  "generated_at": "2026-10-13T17:41:26.688310+00:00",
   "events": [
+    {
+      "event_id": "evt_e2e9ef193bd104d9",
+      "topic": "relations",
+      "first_seen": "2026-10-13T16:47:56Z",
+      "last_seen": "2026-10-13T16:47:56Z",
+      "headline": "Madrid affirms strong relations with Morocco as Felipe VI visits Ceuta and Melilla",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_26e563f01cbe9f38",
+          "title": "Madrid affirms strong relations with Morocco as Felipe VI visits Ceuta and Melilla",
+          "title_key": "madrid affirms strong relations with morocco as felipe vi visits ceuta and melilla",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcTE4VDNoVFZkVk50YUZGNGNGVDZXWXV0YXpQU3ZZX2JHUGIwSkhEZjNOdmRoS2l1RkEzOGpOVnkyckNHb2Mtc0ZPVEYzd2NUR0ZTMjlyWDVnb2tVTEw3R3BOampUckNEX3pNbXhqRlF2bzc5TXhLRDdrSGF6WkNaNnkwNEdGdmdrSG9ZcGt5aU9CSGM",
+          "published_at": "2026-10-13T16:47:56Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
     {
       "event_id": "evt_b0bed3caf8081aa1",
       "topic": "relations",
       "first_seen": "2026-10-11T02:30:00Z",
-      "last_seen": "2026-10-13T08:45:14Z",
+      "last_seen": "2026-10-13T12:59:22Z",
       "headline": "Marruecos amenazó a España por la última visita de la Casa Real a Ceuta: \"Asumirán las consecuencias\"",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
@@ -60,6 +106,24 @@
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
+        },
+        {
+          "article_id": "art_ef7ea400cc6e25b7",
+          "title": "España destaca su buena relación con Marruecos en plena visita de los Reyes a Ceuta",
+          "title_key": "espana destaca su buena relacion con marruecos en plena visita de los reyes a ceuta",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPTGhWYnRQcUt2X0NPT1E2XzdnUl8zVndaMUFVYXNLaGNzSnJSRmd2YlAySUwtRXk3dVdJVV85VzFFMFhvY3Atd0F5bUNpbjZJU21kV3pOVTJ0aXhiMWxaaHIyaWJpd2JWTmdPU0owMzVfZGllbjFOYlBOZXVseFlPeDBn0gGHAUFVX3lxTE1UVGxpR0VZZGZEVlhVTXA0dDlVVHNHMmdCWmlHM1ZUSW9MUkNuYld4YlJBWW5wQ3ZoZjJwZDJGbGI4TXhSclJmdGZ5WjhfQTNfU3h2T3AtQWlnMTB6cFUxTVl6cmhjZklnbU81LVJEQ09Xc0xSbjFZbkpud1RXcTFjdnZ3WmNFOA",
+          "published_at": "2026-10-13T12:59:22Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
         }
       ],
       "importance": 4,
@@ -70,12 +134,28 @@
       "event_id": "evt_72e3a5f407acf700",
       "topic": "ceuta",
       "first_seen": "2026-10-13T07:37:51Z",
-      "last_seen": "2026-10-13T07:37:51Z",
-      "headline": "The Kings visit Ceuta for the first time since 2014 and convey their support to the city after the border crisis.",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "last_seen": "2026-10-13T12:49:55Z",
+      "headline": "In Spain’s Ceuta, a delayed government response leaves underage migrants on the streets - AP News",
+      "classification": "FACT",
+      "verification_status": "CONFIRMED_MULTI_SOURCE",
+      "verification_reason": "Corroborated by at least two reliable independent sources.",
       "sources": [
+        {
+          "source_id": "ap",
+          "source_name": "Associated Press",
+          "source_domain": "apnews.com",
+          "tier": 4,
+          "official": false,
+          "weight": 4.0
+        },
+        {
+          "source_id": "politico",
+          "source_name": "Politico",
+          "source_domain": "politico.eu",
+          "tier": 3,
+          "official": false,
+          "weight": 3.0
+        },
         {
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -86,9 +166,137 @@
         }
       ],
       "source_ids": [
+        "ap",
+        "politico",
         "unknown"
       ],
       "articles": [
+        {
+          "article_id": "art_153fa4916182345a",
+          "title": "In Spain’s Ceuta, a delayed government response leaves underage migrants on the streets - AP News",
+          "title_key": "in spain s ceuta a delayed government response leaves underage migrants on the streets",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQV1ByeHozMGlwN0I0U0NPZGdRNUcyXzBON0xvOWkxTUZQNjVuVVhpMFBPXzRvMGlvNXRPalM2N2tUXzhlbkgtTmNJQ0JrNjk3Tmcta1VDYWNEMW5NVWNZcV9MTHNMdWJVSUxtSWFHd3dxVkVjN3NQMkFIcDVJN1B5OUZvMlY3VlhVZXYxcXdlUWZ4NWFJWFR6czJBRU44NUVLMTM3VEwwYw",
+          "published_at": "2026-10-10T16:00:00Z",
+          "observed_at": "",
+          "source_id": "ap",
+          "source_name": "Associated Press",
+          "source_domain": "apnews.com",
+          "tier": 4,
+          "official": false,
+          "weight": 4.0,
+          "topic": "ceuta",
+          "classification": "FACT",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_52436f7f401650d0",
+          "title": "2 months after Spain's worst border crisis, migrants at a Ceuta tent camp weigh their choices - ABC News - Breaking News, Latest News and Videos",
+          "title_key": "2 months after spain s worst border crisis migrants at a ceuta tent camp weigh their choices abc news breaking news latest news and videos",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMklWdS1MbUVEdFZSb0NJRUpydlh6VHNKV3FpbkdNdkM0Q0M5NTFsaUlrbG44WGJWOHZNSW9BeXRXZVEybVN3cVBFUWFsQ0g2Ymw1b3RPeVNudmVpYlFRbFliMURMVmt3TWNBZUw5S0t3VS1BRnRMQ3FXbG1VaXR1MzZGRy1lMFFQdjRCOHpxMTg0SkkwR0VwLWZ1cWdNMGhrbHU1S292WHlTaDMwS2fSAbMBQVVfeXFMTWlldkd1Qzc2UFg1eUtDLVpGNHhqNTJWOXhGX0lhdV9BaWt5M29Db3ZZMnFyZzJYcG9hUGg1Q0h3am5vc18yYko0amx2T0pYYTY2bFo2VjZrNHFyR3Rja1d3MDdya2pTZTVCemtDbFZ1dE5La2FmRS1FY09mMHU2MUVRRVFCRU9scFhHNkVTekk0Z0dwZnJJZXdodEdwcUZzMWpyRmtRTmNyRldxTG9YSkw0a0U",
+          "published_at": "2026-10-11T12:07:20Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_d658735951570148",
+          "title": "2 months after Spain's worst border crisis, migrants at a Ceuta tent camp weigh their choices",
+          "title_key": "2 months after spain s worst border crisis migrants at a ceuta tent camp weigh their choices",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQR2wzZ041NUtOeDBMajBWWGNsNGZ4YVRnWHoyMGNhc1RDTVAxRjYwS0xtSEoxdnQwVEl3NzBvZFV0QWR5U2N3a09VdV9uWmhmLTZIY1hpcUFJZ2tzWFhQRndMbktnVzEwUTZrWF9JVUZzT2xrYWhfV041U05FZ1JSNWtMM1NzZUxOek9YQ1lER1pZN0p2S0szbnZ0enQyaUxuMHlyNzlZeVQwczNZSDJLY3VEZmcyanZoVGtrSkI1c0lKQzRadDJvN1FlUFRUYXliSnVOemVTWXVtUGxsU0RyVlVvdWcySDN0ZGF2LVRFMDRLemlOSGw0ejY2MFcwd3BUUlE",
+          "published_at": "2026-10-11T16:48:41Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_632d96d25c8aa302",
+          "title": "DW News. . Police cleared the last major migrant camp in Ceuta ahead of a visit by Spain's king and queen on Tuesday. Thousands of people remained in the enclave after July's mass influx of migrants from Morocco, but in recent weeks, several operations so",
+          "title_key": "dw news police cleared the last major migrant camp in ceuta ahead of a visit by spain s king and queen on tuesday thousands of people remained in the enclave after july s mass influx of migrants from morocco but in recent weeks several operations so",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQekZoSFhRaDdxXzZMU1Z1Ul91UnM3c0NPRWZXNEdjUjYzc0NHTnVlQkRJbXo0WmJ3aU1MUTdjLW1jWW14ZkZHM1ZGMGZ4Q3F4SXRManZOR2xkcHpQMnlkME9zaW45R0ZMODF2ampFVDY4U05UdFktS1pTSTRzaWgxYUE2cjVYdXFLYWUtSkJDeThZbktSLXNBVnJSblp1S0QyQ05zNzJHM0dTUGVnMXJ3OWlNMGFFS0ZldHdIQW5za2JES1prbExEZUVZOFN3RXdfNVJDVTBqWHlRSzlNN0xaZk5R",
+          "published_at": "2026-10-12T03:15:07Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_965af01f7f3222f8",
+          "title": "Morocco navy entered Spanish waters during Ceuta migrant crisis",
+          "title_key": "morocco navy entered spanish waters during ceuta migrant crisis",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOckRVSGYzSTRMNml1OVVFNVpwcFBPOHRPcThXQmNjMlR1cVhNLWZ6YVRva0ZjSjF3WFAwT1RsZlJUa1M0ZGdUbHF3X3Z2Y2JSSU96U2pINERSSUxoaHpQNEdUSTBMYVNxY196VlZVUVo3M0M5QVFxZVhITktEQllrNTFYLVVyd1VGdFRkLWNDMlRoZw",
+          "published_at": "2026-10-12T16:59:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_5445df40e3eb6b0b",
+          "title": "Border crisis in Spain’s Ceuta has exposed its Christian-Muslim fault lines - AP News",
+          "title_key": "border crisis in spain s ceuta has exposed its christian muslim fault lines",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUTVnWURRQkZMdGhlWmNVSFh2eC03N0w1b2k5ODJkeVE1MTVRS1RHV0owb29mVXVlcjdsRHl3OFhPMFk2a0RBbk5EbUQ5NHlDMEQyS0g1QUpQSEVwQ1ZhVU9KVFJHUEZVa1p6RUs4S1JWSURWWW9KT3l5Ymlnb1IxOFBoSktJcTAtU1BnOW84aUFvWGpLU3ZtYjRn",
+          "published_at": "2026-10-12T20:53:00Z",
+          "observed_at": "",
+          "source_id": "ap",
+          "source_name": "Associated Press",
+          "source_domain": "apnews.com",
+          "tier": 4,
+          "official": false,
+          "weight": 4.0,
+          "topic": "ceuta",
+          "classification": "FACT",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_2a45ee808588d472",
+          "title": "Poll: Spaniards say Ceuta crisis could spark armed conflict with Morocco - POLITICO.eu",
+          "title_key": "poll spaniards say ceuta crisis could spark armed conflict with morocco politico eu",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQN3lnei1CMFh0NE81aVM4OVNfZ01PdFZfR1N6d0NkTnh1dUZELWVGS0l0YTVoOXpoR3BGYUlzX1ByVjFOTWlqRlYzRHFkY0c1Yi02MXg0Y25QaWZDSDZCeVhzaFJXUzl5ejYzNS0yZkdJRmJqTUtrMFNsRmdGTDZXMVlwRW04TTFhUmZweXBsUW90MktCS0JFLXk2TXNWb1JrUUlhLWZWWE9TZw",
+          "published_at": "2026-10-13T03:00:00Z",
+          "observed_at": "",
+          "source_id": "politico",
+          "source_name": "Politico",
+          "source_domain": "politico.eu",
+          "tier": 3,
+          "official": false,
+          "weight": 3.0,
+          "topic": "ceuta",
+          "classification": "DECLARATION",
+          "signal": "",
+          "description": ""
+        },
         {
           "article_id": "art_c8517cdcd7a84364",
           "title": "The Kings visit Ceuta for the first time since 2014 and convey their support to the city after the border crisis.",
@@ -106,17 +314,180 @@
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
+        },
+        {
+          "article_id": "art_ab46285d6a4e71d7",
+          "title": "Spain's king and queen visit Ceuta as territory grapples with protracted migration crisis",
+          "title_key": "spain s king and queen visit ceuta as territory grapples with protracted migration crisis",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOeW50VHVEWDg2dTJ6MWpKXzVYUEI5Q0ZpV1dBLVFuSTFwZThhbGpoUl9ZTnVyLXV4QldreGRWajdNZmZCaXEzakJqU0FtVjdCMGJ4c3d5OGFpa1ZORFJRd3RtbGRQa3RwaU94WGQzcWZWdXlMdFpLZWZhZnRrdzJGMHVqTVFBNDFVX0NCTmR1RndyUEExdm9QRHl2ZlA5UVF5QWJIbHhMNG42RGVuNllweGNlcldvUkN2VHVRNTFOWE5IZHRGQ2ZQZXpZQVlNQWNld1Fv",
+          "published_at": "2026-10-13T09:34:25Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_6008b66215f32d9f",
+          "title": "Spanish royals visit Ceuta amid border migration strain with Morocco",
+          "title_key": "spanish royals visit ceuta amid border migration strain with morocco",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPV2F0VmdTa1UyMngtendlaUVRLW1BU0s3X19iTGprOHVUUER2c1YwOFl3ZExfX0lPLW9lMGNPeFQyT1JMODVmUDdSMFp6dWFOM1FocXlTbmMxWW53WU1JQnl4YmYtZy1GMTk3Y2k5NU1HY1dBc3VSMDJkMkdYQko0SVdxVUpZMjRPNFJ5QjRqUkozSHFYbHNobGZ5ckNFZFgtdjJjeDZrMzVqY21jTGlkZWhaSi01LVktREhIeXczMUxLUGVPWHlEa0ZhONIBywFBVV95cUxPYmp1enhDY0lTWHNiMzdKSnhUM1FkVW5iTUs3QlVKeWpCemVWZUNmc2dsVEk1aWJRdHF3aklDWEdscGJ3X1U4dkZBSkRoN3BpcTJuMDRFRWJWM3hxWnUzSURfd2R3OTRidm9tOG1GbjA1c0RSTzVnS1MwS3lLTUVKaGltWXVxeFl1V0hOQk95YnlFRTNWdlU4bGE5d1ViWHNjRVk0TWpGU0szcURMZHNoRWxnN2pFRFRPRFVzMHV1azRkb3F3anhmdUpiYw",
+          "published_at": "2026-10-13T11:49:37Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_af3bd56936566ec1",
+          "title": "Spanish royals visit crisis-hit Ceuta amid diplomatic tensions",
+          "title_key": "spanish royals visit crisis hit ceuta amid diplomatic tensions",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbmRBZXVRdGhPd3VxNlhiclJuNGJmZHBKaWhUMy1tQ1o2VnJTZDVBaExEaWxIQVNoaVltSVBGUmJEQ2pZTDR5MWVVQ3RhMDZkeTZ3WVc2ZmI5elJpUGw0cTdVMkRPOEhXVnZGcVBZUlN6UnBCUVZUcXptMGxiellpaWpXVzBCek1RUE9seno2U0lTbXQ4",
+          "published_at": "2026-10-13T12:49:55Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
         }
       ],
-      "importance": 4,
-      "operational_impact": "NONE",
+      "importance": 72,
+      "operational_impact": "POTENTIAL",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_cc6f6873e2876567",
+      "topic": "ceuta",
+      "first_seen": "2026-10-13T03:00:00Z",
+      "last_seen": "2026-10-13T12:30:27Z",
+      "headline": "Encuesta: Los españoles afirman que la crisis de Ceuta podría desencadenar un conflicto armado con Marruecos - politico.eu",
+      "classification": "OPERATIONAL_SIGNAL",
+      "verification_status": "SINGLE_SOURCE",
+      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
+      "sources": [
+        {
+          "source_id": "politico",
+          "source_name": "Politico",
+          "source_domain": "politico.eu",
+          "tier": 3,
+          "official": false,
+          "weight": 3.0
+        },
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "politico",
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_3324f043ded9b8e6",
+          "title": "Devoluciones forzosas y bajo engaño de Ceuta a Marruecos: testimonios de inmigrantes confirman que el Gobierno ampara retornos sin garantías",
+          "title_key": "devoluciones forzosas y bajo engano de ceuta a marruecos testimonios de inmigrantes confirman que el gobierno ampara retornos sin garantias",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9kNkZzb1FDbkdJOGoyNDNZVnVSSE1PRURnZU5wQmZTaklGckFDX1lyNl9qUTdjQlE1aEVBTnJwYWRrdmhoZXg3b0ZmeV9rR2ZBZzRmQWRrNHRIby1WaUtXeEFGa1NPWU9icnA5bzhPT1gwRnBObzVjd2pn0gF6QVVfeXFMT0ZmaTRGUmliNWlISDEyMHV6ZGJNb0FEUFl3QXdSc0tyc2pVSnBBb3JpZE1QbTliY3F5Zkw4Zk5lczktSEFSSHpsODBSQW1fMW9HUXRaTGdBSUtFSGJyMy1mNWFmYU03ZmZLT0I5eUo5OHBuak5ZdUNuSnc",
+          "published_at": "2026-10-11T00:06:19Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_6e7e7215ff217757",
+          "title": "Encuesta: Los españoles afirman que la crisis de Ceuta podría desencadenar un conflicto armado con Marruecos - politico.eu",
+          "title_key": "encuesta los espanoles afirman que la crisis de ceuta podria desencadenar un conflicto armado con marruecos politico eu",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPN3J0ZGVSSXNHdTQ4R2NsXzVIZW1JaGlzSWU0blVwVFNIR0cxZDFXeDNXV1VvVXdoQkNtaEFZMW5GT2hJYWVKODRJRzQ1QkRhSUNTaWl3NV90dVJueHc2R2E4X0VGQWpKemh0ejltaWZEVVB6eFRROTg0ZzctSG1VM1h1OXh3emRNZ3RCdExPUjFOeUllM0FyRG9DeFJEbkNTVDRDLS01STJBN3pDbU9BRm5FVFZveHpMMlgtSnpBTUhESGNuWGRORl9BNW9UeXpGLUNBVHNoSQ",
+          "published_at": "2026-10-13T03:00:00Z",
+          "observed_at": "",
+          "source_id": "politico",
+          "source_name": "Politico",
+          "source_domain": "politico.eu",
+          "tier": 3,
+          "official": false,
+          "weight": 3.0,
+          "topic": "ceuta",
+          "classification": "FACT",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_c83d173283002642",
+          "title": "Por qué entraron buques de guerra marroquíes en aguas españolas los días de la crisis en Ceuta: Sánchez admite ahora la incursión",
+          "title_key": "por que entraron buques de guerra marroquies en aguas espanolas los dias de la crisis en ceuta sanchez admite ahora la incursion",
+          "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQb2M1bDJHcVYxX2hKdWVTR2d2bGZ6Wlh6N24xdHdybWJiVDNhdERjOHMzYzNUQ20yNDhvTTBEcl9ac3lwQi1RaHVETGh0dW9aMkJFcVkwTlF0akEtNXdVQVMyVUFvbXFEazI0MkkwaG82T1VKb0FQdEhRV0R0dmlqNEZSRkdjdWN3TDlDTWpDMmZyQjZILUoxMkJXNkFrZkxmT3QyaXI3bVI4OFZFZ2otSl95UTFFOE1aM3FNcHJWZUhFdkktSkxOUTcwQWpXWVpoZ2RzVl93ekREUndJMkdIVTFWWl9taFpDN0RTeVY5eHNhd3lYUXNHenh0WU1DTjc4Wmh4WklYbUtxRHlr0gGMAkFVX3lxTE5VZWFWNGM4QjVSQmphUkNEVEJDTHhIbHZLR2x6QWliY1NsMUtFMkdVTlFNRjJ1UjNVR2Jvb0RNQVZWemxaLVlFOHJnMldteVlYdnhxZ0RZdTh5RTYtVkc5YUpyRWRHVmxfV2dXY2dvZ0h4WDlKLXowdktyeVlTdy1FdlpvQ0RBWllqcm03WUMyMGNmNlM3TFVwZ3A5blROa3BDZHpGRkJjbjFqR0NxVk1iRWlvLWxZMmxHR3dqZVljc1VodHBTcUJZalJidGl3OVhGS3FRcXdxZWE0bTJmNkxQZHViZjliZ3J5ejZyd0dCSXkyVTRXVlZsX01SRl85b1NoV2NKVnJRRWlUaGw",
+          "published_at": "2026-10-13T07:02:16Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "OPERATIONAL_SIGNAL",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_7deff096c236a463",
+          "title": "Mientras 70.000 personas cruzaban la frontera de Ceuta, Marruecos abrió un segundo frente con cañones: sus buques de guerra entraron en España",
+          "title_key": "mientras 70 000 personas cruzaban la frontera de ceuta marruecos abrio un segundo frente con canones sus buques de guerra entraron en espana",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQcGwwdlg2RWw5X1l5TGcwdjFRYWVvTGQ5eVNqS1Ixa3A0a3M4Wk5vaEVhUVk0V0FVZVpfU0p0cmI3NkgyRlY2RkRvajdQcVV6eVE0UVpmdnMtTmpoLWE1V1YxbjZURXZhV1ZxVnAyNXdRd2ZXaE9mTGFBUVZ5MjZSaEk5R2FGMnBjeVE5V2JzeERvaWZQdkh4UUdjanBTWGxaVldaU3U3ZmphREpxemQyMjJzM2gxODZTanJ1cm9fWnl6bmtncmVMdjVUelZKSm1uR2hJNkkyZTFJQdIB3wFBVV95cUxPSUc1eEVsLTUyNjRmek5CQTV4ZU1JMFRTWXFlRkEwMXF6NXhaWTZDNl9CX0IxREwwS0ZlU0lLclByMFduMTJsQUtVa3ZydHM1eWhQTmQyX1BwT2N2WGVaVDlrN09ianhnUUdQVDBSWVRxWUJzbERjVmhhRVVTcU1DYUkwa1RhdFpsbXViUV9zSU1BdXU1T0sxN3JYbHFqNlNWUnBRRjdLVmhmOUkwSDdrcGJQZDUwT3VhdDQ1Vk1oQTVQTy1XczBNTERzYVZxTU1WMXdDRnl0MzA2a1VzcENV",
+          "published_at": "2026-10-13T12:30:27Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "OPERATIONAL_SIGNAL",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 66,
+      "operational_impact": "POTENTIAL",
       "operational_eligible": false
     },
     {
       "event_id": "evt_b982bcf836e119cc",
       "topic": "melilla",
       "first_seen": "2026-10-12T03:00:00Z",
-      "last_seen": "2026-10-13T04:00:00Z",
+      "last_seen": "2026-10-13T10:31:03Z",
       "headline": "Los reyes comienzan una histórica visita a Ceuta y Melilla de imprevisibles consecuencias en las elecciones generales y en Marruecos",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
@@ -188,74 +559,28 @@
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
+        },
+        {
+          "article_id": "art_10619807adc6566c",
+          "title": "La Eurocámara analiza si Google Maps incumple las leyes europeas al alterar la frontera de España con Marruecos",
+          "title_key": "la eurocamara analiza si google maps incumple las leyes europeas al alterar la frontera de espana con marruecos",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOMEI4Q1ZtNEFCX0RiYi1pYWxteVlEaC1Ibi1LQVZkY0JNbjFCZFlaRWZBS3FSYkpxVW9jUHBZU1FmOFdMUGRFZk1TWGs0WS0wU0JJWGplTHRPRmZtY3lmczBmX21CLUZZbmdHbEdMTml4bHh2ZGkwNFlwb3NwWnJyd0N6MVg4VWhKNnkwUzhXQlk0eGYwcnNrZTdJNUIxd0xQamhISlhHU3hZWkxWS21iU19pWE93ZHUxU3R1dmpnUjFjanlZUktxX1hqektmQV9RbkFJbmJCLXTSAd4BQVVfeXFMUGFZWlZfS1hPM05UZEpDSjhMQW95RmZFOGJReUNPOW4tOGR3OE5jeFFHRHd1TDNHR0JBakhUeHJsb29KQmNIU0xwenp4eXUtdGpNMTVXeUR3MVZYSkdUNU53aTZrQU1XTGxYclVJZDhjZWVCUlVKTmQwSUQ4bnZ0NWpNRWh0dmxmb1NuajdQbTJJTC0xZVVwdExlM1dSbzZQQ251b3U4Z1pqSGk4cUVJWUpvUF9FRjBqbm5TQWZ6MGUwYk9oVzhBdXVQdy1PcUN4LXo4OGRDNy1zc3ZNRFJn",
+          "published_at": "2026-10-13T10:31:03Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "melilla",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
         }
       ],
       "importance": 4,
       "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_cc6f6873e2876567",
-      "topic": "ceuta",
-      "first_seen": "2026-10-13T03:00:00Z",
-      "last_seen": "2026-10-13T03:00:00Z",
-      "headline": "Encuesta: Los españoles afirman que la crisis de Ceuta podría desencadenar un conflicto armado con Marruecos - www.politico.eu",
-      "classification": "FACT",
-      "verification_status": "SINGLE_SOURCE",
-      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
-      "sources": [
-        {
-          "source_id": "politico",
-          "source_name": "Politico",
-          "source_domain": "politico.eu",
-          "tier": 3,
-          "official": false,
-          "weight": 3.0
-        }
-      ],
-      "source_ids": [
-        "politico"
-      ],
-      "articles": [
-        {
-          "article_id": "art_6e7e7215ff217757",
-          "title": "Encuesta: Los españoles afirman que la crisis de Ceuta podría desencadenar un conflicto armado con Marruecos - www.politico.eu",
-          "title_key": "encuesta los espanoles afirman que la crisis de ceuta podria desencadenar un conflicto armado con marruecos www politico eu",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPN3J0ZGVSSXNHdTQ4R2NsXzVIZW1JaGlzSWU0blVwVFNIR0cxZDFXeDNXV1VvVXdoQkNtaEFZMW5GT2hJYWVKODRJRzQ1QkRhSUNTaWl3NV90dVJueHc2R2E4X0VGQWpKemh0ejltaWZEVVB6eFRROTg0ZzctSG1VM1h1OXh3emRNZ3RCdExPUjFOeUllM0FyRG9DeFJEbkNTVDRDLS01STJBN3pDbU9BRm5FVFZveHpMMlgtSnpBTUhESGNuWGRORl9BNW9UeXpGLUNBVHNoSQ",
-          "published_at": "2026-10-13T03:00:00Z",
-          "observed_at": "",
-          "source_id": "politico",
-          "source_name": "Politico",
-          "source_domain": "politico.eu",
-          "tier": 3,
-          "official": false,
-          "weight": 3.0,
-          "topic": "ceuta",
-          "classification": "FACT",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_2a45ee808588d472",
-          "title": "Poll: Spaniards say Ceuta crisis could spark armed conflict with Morocco - POLITICO.eu",
-          "title_key": "poll spaniards say ceuta crisis could spark armed conflict with morocco politico eu",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQN3lnei1CMFh0NE81aVM4OVNfZ01PdFZfR1N6d0NkTnh1dUZELWVGS0l0YTVoOXpoR3BGYUlzX1ByVjFOTWlqRlYzRHFkY0c1Yi02MXg0Y25QaWZDSDZCeVhzaFJXUzl5ejYzNS0yZkdJRmJqTUtrMFNsRmdGTDZXMVlwRW04TTFhUmZweXBsUW90MktCS0JFLXk2TXNWb1JrUUlhLWZWWE9TZw",
-          "published_at": "2026-10-13T03:00:00Z",
-          "observed_at": "",
-          "source_id": "politico",
-          "source_name": "Politico",
-          "source_domain": "politico.eu",
-          "tier": 3,
-          "official": false,
-          "weight": 3.0,
-          "topic": "ceuta",
-          "classification": "DECLARATION",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 50,
-      "operational_impact": "POTENTIAL",
       "operational_eligible": false
     },
     {
@@ -295,197 +620,6 @@
           "official": false,
           "weight": 1.0,
           "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_b2c744e23dbba7e9",
-      "topic": "ceuta",
-      "first_seen": "2026-10-10T06:26:03Z",
-      "last_seen": "2026-10-12T20:53:00Z",
-      "headline": "Border crisis in Spain’s Ceuta has exposed its Christian-Muslim fault lines - AP News",
-      "classification": "FACT",
-      "verification_status": "SINGLE_SOURCE",
-      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
-      "sources": [
-        {
-          "source_id": "ap",
-          "source_name": "Associated Press",
-          "source_domain": "apnews.com",
-          "tier": 4,
-          "official": false,
-          "weight": 4.0
-        },
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "ap",
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_aaf0159c57e68fbe",
-          "title": "Spain's slow response to crisis in Ceuta leaves teen migrants on streets",
-          "title_key": "spain s slow response to crisis in ceuta leaves teen migrants on streets",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRUZCaUozOE0zMkFpZkRTeWNHMWQ0d0NqUUhKVkRHSjhQcG9xdUxjVEZta0hHVWVmSW1hZUVWWXRsaElBdlpHVndNXzZXNFdsUDdPbzh6TUx3dHRZbjhpX05MREtuODVwSTNPbWVMaUlLVWUzRkRxUjZjMldYS1gyUkktcDJNWEV2MDc1MDZQY3k0NENiQ3JvOERQSGFRbHV5TmFBVVhEdWtuVVR4ejQ0dzVobkRyUdIBuwFBVV95cUxQZDNrVGRNT1VSM1AzVEZrajdmcFM0SjliNlVSWlc4TnpxTWZCUkd2MHRHeTZXTTcxU252d1F0LTdIN1ZtbVU3RWlBQjhESDdyRVAyZ1pCQXpURXIwbFFWMFNzMUVuSjQtbGY1cmFWaV9ZRDNVQXdlcktxY1l6T2pzNl9TbFhsNWVnbjR0X0FWNWVtMXdTcVk2dE56QUgtX3lPQ1JjekUwbGdWczZHX3RVbHRBbjJhWDhSN1Fn",
-          "published_at": "2026-10-10T06:26:03Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_52436f7f401650d0",
-          "title": "2 months after Spain's worst border crisis, migrants at a Ceuta tent camp weigh their choices - ABC News - Breaking News, Latest News and Videos",
-          "title_key": "2 months after spain s worst border crisis migrants at a ceuta tent camp weigh their choices abc news breaking news latest news and videos",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMklWdS1MbUVEdFZSb0NJRUpydlh6VHNKV3FpbkdNdkM0Q0M5NTFsaUlrbG44WGJWOHZNSW9BeXRXZVEybVN3cVBFUWFsQ0g2Ymw1b3RPeVNudmVpYlFRbFliMURMVmt3TWNBZUw5S0t3VS1BRnRMQ3FXbG1VaXR1MzZGRy1lMFFQdjRCOHpxMTg0SkkwR0VwLWZ1cWdNMGhrbHU1S292WHlTaDMwS2fSAbMBQVVfeXFMTWlldkd1Qzc2UFg1eUtDLVpGNHhqNTJWOXhGX0lhdV9BaWt5M29Db3ZZMnFyZzJYcG9hUGg1Q0h3am5vc18yYko0amx2T0pYYTY2bFo2VjZrNHFyR3Rja1d3MDdya2pTZTVCemtDbFZ1dE5La2FmRS1FY09mMHU2MUVRRVFCRU9scFhHNkVTekk0Z0dwZnJJZXdodEdwcUZzMWpyRmtRTmNyRldxTG9YSkw0a0U",
-          "published_at": "2026-10-11T12:07:20Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_d658735951570148",
-          "title": "2 months after Spain's worst border crisis, migrants at a Ceuta tent camp weigh their choices",
-          "title_key": "2 months after spain s worst border crisis migrants at a ceuta tent camp weigh their choices",
-          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQR2wzZ041NUtOeDBMajBWWGNsNGZ4YVRnWHoyMGNhc1RDTVAxRjYwS0xtSEoxdnQwVEl3NzBvZFV0QWR5U2N3a09VdV9uWmhmLTZIY1hpcUFJZ2tzWFhQRndMbktnVzEwUTZrWF9JVUZzT2xrYWhfV041U05FZ1JSNWtMM1NzZUxOek9YQ1lER1pZN0p2S0szbnZ0enQyaUxuMHlyNzlZeVQwczNZSDJLY3VEZmcyanZoVGtrSkI1c0lKQzRadDJvN1FlUFRUYXliSnVOemVTWXVtUGxsU0RyVlVvdWcySDN0ZGF2LVRFMDRLemlOSGw0ejY2MFcwd3BUUlE",
-          "published_at": "2026-10-11T16:48:41Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_632d96d25c8aa302",
-          "title": "DW News. . Police cleared the last major migrant camp in Ceuta ahead of a visit by Spain's king and queen on Tuesday. Thousands of people remained in the enclave after July's mass influx of migrants from Morocco, but in recent weeks, several operations so",
-          "title_key": "dw news police cleared the last major migrant camp in ceuta ahead of a visit by spain s king and queen on tuesday thousands of people remained in the enclave after july s mass influx of migrants from morocco but in recent weeks several operations so",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQekZoSFhRaDdxXzZMU1Z1Ul91UnM3c0NPRWZXNEdjUjYzc0NHTnVlQkRJbXo0WmJ3aU1MUTdjLW1jWW14ZkZHM1ZGMGZ4Q3F4SXRManZOR2xkcHpQMnlkME9zaW45R0ZMODF2ampFVDY4U05UdFktS1pTSTRzaWgxYUE2cjVYdXFLYWUtSkJDeThZbktSLXNBVnJSblp1S0QyQ05zNzJHM0dTUGVnMXJ3OWlNMGFFS0ZldHdIQW5za2JES1prbExEZUVZOFN3RXdfNVJDVTBqWHlRSzlNN0xaZk5R",
-          "published_at": "2026-10-12T03:15:07Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_5445df40e3eb6b0b",
-          "title": "Border crisis in Spain’s Ceuta has exposed its Christian-Muslim fault lines - AP News",
-          "title_key": "border crisis in spain s ceuta has exposed its christian muslim fault lines",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUTVnWURRQkZMdGhlWmNVSFh2eC03N0w1b2k5ODJkeVE1MTVRS1RHV0owb29mVXVlcjdsRHl3OFhPMFk2a0RBbk5EbUQ5NHlDMEQyS0g1QUpQSEVwQ1ZhVU9KVFJHUEZVa1p6RUs4S1JWSURWWW9KT3l5Ymlnb1IxOFBoSktJcTAtU1BnOW84aUFvWGpLU3ZtYjRn",
-          "published_at": "2026-10-12T20:53:00Z",
-          "observed_at": "",
-          "source_id": "ap",
-          "source_name": "Associated Press",
-          "source_domain": "apnews.com",
-          "tier": 4,
-          "official": false,
-          "weight": 4.0,
-          "topic": "ceuta",
-          "classification": "FACT",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 46,
-      "operational_impact": "CONTEXT",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_899fff535772bc0e",
-      "topic": "ceuta",
-      "first_seen": "2026-10-10T16:00:00Z",
-      "last_seen": "2026-10-12T16:59:00Z",
-      "headline": "Morocco to Propose New Migration Control Deal After Ceuta Crisis",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_75b3774c12d32a63",
-          "title": "Morocco to Propose New Migration Control Deal After Ceuta Crisis",
-          "title_key": "morocco to propose new migration control deal after ceuta crisis",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMDlmOUs5Rmx1SlZuUm83WWRfdnhYVnBJdzFsd3VaaW96ZzJMTnJEZ1o3MHZVNTNjSVlyaTJIZlV1TF9aTDkxNTF6WHFES3JXQ0xYd1JmaEtjUlRMSnNhWVFFWGN2LVJUcjFBV3VFSmR3LTFVcWJkeG8teWM5aC1jNGh5b1R6MDUySURmZ2x5ekZ2aTIxQmxHLU5OSHVodkctZ0xPLUR5RTJ6T3AzQkxfM2l5ZXBIdw",
-          "published_at": "2026-10-09T17:47:42Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_965af01f7f3222f8",
-          "title": "Morocco navy entered Spanish waters during Ceuta migrant crisis",
-          "title_key": "morocco navy entered spanish waters during ceuta migrant crisis",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOckRVSGYzSTRMNml1OVVFNVpwcFBPOHRPcThXQmNjMlR1cVhNLWZ6YVRva0ZjSjF3WFAwT1RsZlJUa1M0ZGdUbHF3X3Z2Y2JSSU96U2pINERSSUxoaHpQNEdUSTBMYVNxY196VlZVUVo3M0M5QVFxZVhITktEQllrNTFYLVVyd1VGdFRkLWNDMlRoZw",
-          "published_at": "2026-10-12T16:59:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
@@ -656,10 +790,10 @@
           "description": ""
         },
         {
-          "article_id": "art_5606f8f2b4d64c04",
+          "article_id": "art_92787ea7b7c20cb3",
           "title": "La frontera terrestre más pequeña del mundo: entre Marruecos y España",
           "title_key": "la frontera terrestre mas pequena del mundo entre marruecos y espana",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQR2tlaHZlLTRKeXJfOHhqMmJLRkR5RjhxVzNCVkRKdmFxWm5xOHAxWERXQnZ1dC1HMXJsR2pxWTl1MVp5bGJJdzBKNGFiMl9QVFVNX1hWS09FSGNuQzhRcU1MSEFzUkhXZ2FJZHFuU25HM2pvSk15U0VkVVFSN0I3aHNvVlIwVElvRTVF0gGLAUFVX3lxTFBHa2VodmUtNEp5cl84eGoyYktGRHlGOHFXM0JWREp2YXFabnE4cDFYRFdCdnV0LUcxcmxHanFZOXUxWnlsYkl3MEo0YWIyX1BUVU1fWFZLT0VIY25DOFFxTUxIQXNSSFdnYUlkcW5Tbkczam9KTXlTRWRVUVI3Qjdoc29WUjBUSW9FNUU",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOc2tnRkZzazJVWldDai1UQmFkUmFmaDZWSlF4Vkk2NWtRTHVSSld2Y3ZfS2R4czlsOHhpd2locWNUMW5wRG5VSzh2azRDcm1CV1lVYld6TTcwTE1fQ1F3bE9oOVN0bGZuS054VFdEY1hRQWJVaTNLTUwxSlN0QTMySFBYRzFyZ9IBiwFBVV95cUxQR2tlaHZlLTRKeXJfOHhqMmJLRkR5RjhxVzNCVkRKdmFxWm5xOHAxWERXQnZ1dC1HMXJsR2pxWTl1MVp5bGJJdzBKNGFiMl9QVFVNX1hWS09FSGNuQzhRcU1MSEFzUkhXZ2FJZHFuU25HM2pvSk15U0VkVVFSN0I3aHNvVlIwVElvRTVF",
           "published_at": "2026-10-12T08:58:50Z",
           "observed_at": "",
           "source_id": "unknown",
@@ -725,6 +859,52 @@
       "operational_eligible": false
     },
     {
+      "event_id": "evt_f5dbc4d4fff9da51",
+      "topic": "ceuta",
+      "first_seen": "2026-10-12T00:24:45Z",
+      "last_seen": "2026-10-12T00:24:45Z",
+      "headline": "Ceuta or Sebta? Why one city has two names and a disputed status",
+      "classification": "ANALYSIS",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_0c1e380786cc3eaf",
+          "title": "Ceuta or Sebta? Why one city has two names and a disputed status",
+          "title_key": "ceuta or sebta why one city has two names and a disputed status",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQY0JMU0hEVl9xSDYzNHBzdzItYkdkNi1GNUQ3WVlYZndGOVk2X2VEWW4xV2JXUmU2YjNsWGVjMF9SOHd5RGJHaEtla21qWW5Ib0lsLXMtNXNRVVg1d0hyMTJMcUxLYnVXNWNyVVNtYXllZ3hVdFpHYWxHXzcxNllCaDFtYUk4ZHcyNTREZEhpWmh3MUFWNUd1VXozOGF6blhrOTVGNkRON0nSAa4BQVVfeXFMTUdoNUpCYi10d2JxcGZpckNYTzFXTGR1RE9mVzZ3NjhJS05MckZIeXFpd2RudWlaMi1CMVlCeDFnZ0hZQUJheUQtOGdnX05QNHA5X2dTSVVnS0w0c2pmYnBDSmRMNHVDSmo5b2N6UFNfUUZpUExoM3ZrSEdNNVQ5YzJ3NWc0OUE2OWFoTHljZmZEa2Nyc25VWVZCUG56aTNfeFE1eE9DRFNRS2RTQUt3",
+          "published_at": "2026-10-12T00:24:45Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "ANALYSIS",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 17,
+      "operational_impact": "CONTEXT",
+      "operational_eligible": false
+    },
+    {
       "event_id": "evt_019f05be08832086",
       "topic": "relations",
       "first_seen": "2026-10-11T18:57:38Z",
@@ -756,78 +936,6 @@
         "unknown"
       ],
       "articles": [
-        {
-          "article_id": "art_702745ada03d7ca3",
-          "title": "Mohamed VI lanza una advertencia a España y pide la devolución de los menores llegados tras la crisis migratoria",
-          "title_key": "mohamed vi lanza una advertencia a espana y pide la devolucion de los menores llegados tras la crisis migratoria",
-          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQVE9nM3N2SjVySFcyZGpGcFJlVVBsM1pRd0s5dlVFT1B6eFVoYWk1SmV5YVhSSlRPRjJKMm1VMnhzb0VMa01FVS14S3dJSmxRNWVqY1ZwcW1RekYwUFByQm5idDhMZE44SG9WMmpFSG9PY05MUVJvVUhZR2JYdGFMMmdiN0lyeS1jQ2J5djBLZjhKeVp6YndNaU54a00ydVlEb3RZYWlBZzVnZmtJYThOdWdMNnhYWktKOTdfdXJESkpzRXNIcWhGUWZfczZKMDVKLWJ6YW9HVGZUbk5uQkZSR0N3VVgxUdIB-gFBVV95cUxPRFgtRXFDTzdiUTVSdVRXNW05NWptM0VGRVF0eDQyWUdRRDVQWkNMcEpDdUhmcHJVeEVhTHpZRC1mNy1NMjlYUE1PR0VYZFhsME9QLTYxaDctdjhvelNBdURnLXQwY0cxUnQtTjRFbmtjVFh1QjE2d3piRmVjbF9XRkYySjQ4UEJNMEJvaXJOWXJiUm9FTjY3NWlpSUR1Y0I2ZS00Q0RIcWtOWVA4WG5BVUNaeVhZOWFFUWJtdENLOWxhcmJ1UmlJZXJ4aDhvZHJacFRjZmp6U1pyRmFIZHEtNGxZR016Rm45UGFhYnJRSHdhSTVCU3RxNGJn",
-          "published_at": "2026-10-09T17:48:42Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_e58075eca8560c51",
-          "title": "Mohamed VI advierte a España de que Marruecos no aceptará \"amenazas ni chantajes\" tras la crisis de Ceuta",
-          "title_key": "mohamed vi advierte a espana de que marruecos no aceptara amenazas ni chantajes tras la crisis de ceuta",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaU01Tm1DOXJQd0ZrNkpZa3pUTmVVLUlsX1d3RC1VWWF3S3lLVEFvdDktRF9rLThtcVdMbTBIZlNkWjd3a3Aydzd5Nm9WQlhZcVNhM0FNN09Jak9BUTBXcXhyOXBiVlQ1T2VZRF9DdWRGUWZnMFJzdnBRTWlCZUNKaC1xY1dDS0J6X0wydnhuT2ozbzJOSHc",
-          "published_at": "2026-10-09T17:52:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "DECLARATION",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_39cb96624348aa98",
-          "title": "El rey Mohamed VI de Marruecos habla por primera vez de Ceuta: reprocha la “instrumentalización” de la crisis y advierte de que no caben “chantajes” en la relación con España",
-          "title_key": "el rey mohamed vi de marruecos habla por primera vez de ceuta reprocha la instrumentalizacion de la crisis y advierte de que no caben chantajes en la relacion con espana",
-          "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPSFFnM0l1MmVWUzNLNFk3TG9UREdzaWlXdG5TRmwwQXdTZFFzbDdPeU9pUEFCUS1BRW9IbDBKTk0wNlh5MGtudzlMRXRndXRuNG1odmxoc3ltdHV2SXVSd3pXSllXRWU3blh3LWRCbm9CdnRvNjMzX0d0LXBfWC14bUwwcUk4bEl1bzBfN3J1cmFaLUZlNUE5SjBmSlJiZlhZeFBkM0NVek1VS1MwaGFJblM5TFlab0tKQXd4UE9zbkVCZ0JaNmhNSEQyTUdob2VCaFlEamxOWTZYVDhHU0dlbGNVcF8wLWwySktCQkUyRUs3ajlPVGFkdjNMZkJKNDVuNjc5Y05UWnTSAaMCQVVfeXFMUFpPQWtIZVRPTzE5YXoxM2xXS0JpU3VZYzFrRDZxMTZjbjRxdTZIZTVVUGNnck9DNkd3U3Yzcmh2MmVyaUpiTmFmZ3R2ZkRjOWJ2R2c0Q1RQNFJZT1Y1ME1aQlFqbEthTDBFbl94bDJHUmZnTW5yNUZ2N0VUOXI5Wm5uS3pSRV9FdjVDaEdnTno5Y2R1R2tzdUdfZkJWaGkwNEN2UFhlT1M3ODZ3bzBDR2JvUll5X2pmRWppQkZGQ0dFaUctWjdXYWNXenVBRGVjRmRnejliUWNxZFRmZFhEYnpVUG5UM290VkV4UVAxenpuNGFJaFNRX1JSM1p2NEJUOWpxazduVVg2cm9TUVd2UmdTYkpRX0xuOF9NSDV0bmpYbnlV",
-          "published_at": "2026-10-09T18:15:47Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "DECLARATION",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_9f89d34771d456cf",
-          "title": "INVASIÓN: Mohamed VI pide que \"no haya chantajes ni presiones\" en las relaciones con España",
-          "title_key": "invasion mohamed vi pide que no haya chantajes ni presiones en las relaciones con espana",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMVJaY0k5akxPYkJmbDh4VzNqM2xXMFZBTGV0TGpqaU9vcG9HdzhkaEdzeUk2NHZ0NXNlVjc5OW1GWC1uVG9jTTloVDRRazQxaXg0cV92dzZxbkVLX0tOMVV4NnB2Q2Y3NGNrUGdhbUJWNlY2Zkx1VGVTbm9oNUFRa2lBTW1qck14QUV4RTluREVRai1CNDV4Nnl3",
-          "published_at": "2026-10-09T19:09:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
         {
           "article_id": "art_98bebbc161e7d603",
           "title": "La advertencia del rey de Marruecos a España por Ceuta: \"Ningún chantaje\"",
@@ -901,8 +1009,8 @@
           "description": ""
         }
       ],
-      "importance": 53,
-      "operational_impact": "POTENTIAL",
+      "importance": 46,
+      "operational_impact": "CONTEXT",
       "operational_eligible": false
     },
     {
@@ -950,219 +1058,17 @@
       "importance": 4,
       "operational_impact": "NONE",
       "operational_eligible": false
-    },
-    {
-      "event_id": "evt_7938763decc80335",
-      "topic": "ceuta",
-      "first_seen": "2026-10-09T21:41:10Z",
-      "last_seen": "2026-10-11T00:06:19Z",
-      "headline": "Luis de la Corte, director de Inteligencia: \"Marruecos no reconoce la españolidad de Ceuta y Melilla, hay que preparar al país para eventuales escenarios y nuevas maniobras\"",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_5d32e6e8cab717a3",
-          "title": "Luis de la Corte, director de Inteligencia: \"Marruecos no reconoce la españolidad de Ceuta y Melilla, hay que preparar al país para eventuales escenarios y nuevas maniobras\"",
-          "title_key": "luis de la corte director de inteligencia marruecos no reconoce la espanolidad de ceuta y melilla hay que preparar al pais para eventuales escenarios y nuevas maniobras",
-          "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxNTXBYSDk0QUdrMWJ4eUdTeWQ0aGZXbml2eklIdS1pajBhZk5tcnVDMFJoSGFpVzN6UWxiWkJrOWRZUldQQmJRdnk2YTkwZ1dEMlpWdndEaXVaTGFPMldFTjY1MDNLcWFwN1BmVnJtZU5RYmhyVGNIaTV3b05WelNEM0psejZHQ2pzc3hPX01odGZWSWdjXzRIa3lCRTV4RW5QcDRtaEhHSVhkbjhid0VCaHNCakloSG8wZ3pKV0NVV1oxbHVnaUNsbkE3Mm0xM19WMG5LYWVfaFZlQ3FCRGJweW9la2l2aDdxZVpPUnIzcFp1REV1ZmlhTTZINVp1UDRQN3k5d09YY01fY3laNXdkTEhjZnh6OTBmN05hTzQ1SGtpR1VYNHR6b2J5bEx1ZjRhMHfSAbcCQVVfeXFMTmxaQ2RySWRzYTZBTlotZlZ3RFo3dW1lOG1qc1NESTVMdVJQaVlYaXVpekRtYjRzX3V1SnpsS01uWVFEb29EYlNkaHJENmk3NEYwY25zNlhCcW5BVHlteWc1OWFGRURDc045Vm9xWGJBYVg3U1dwendrS1BsR2I2b0J6Zlc0bnZvbmg4VTBaREs4aUsxTVd5aG9XUFFRSTRKekgyUDBMWTRsWC1rbWNTYXN4MkdOZWpIVE1Xdnd2Uk5BeTVrSU9lcXBBaC1PY2lyMmx0XzA5RW53Ny1pdHdhXzU1NHg3T19vMU1JOFhjM05lTkdVMVhtMXVMOEpHYV9TNHJtdmRvQVY2bmtKX2t5OVRrTzJQT29kbDhYOEZfV2E4M0JOWktpQlgtdVkxR1l5ZXpwUldPbWM",
-          "published_at": "2026-10-09T21:41:10Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_3324f043ded9b8e6",
-          "title": "Devoluciones forzosas y bajo engaño de Ceuta a Marruecos: testimonios de inmigrantes confirman que el Gobierno ampara retornos sin garantías",
-          "title_key": "devoluciones forzosas y bajo engano de ceuta a marruecos testimonios de inmigrantes confirman que el gobierno ampara retornos sin garantias",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9kNkZzb1FDbkdJOGoyNDNZVnVSSE1PRURnZU5wQmZTaklGckFDX1lyNl9qUTdjQlE1aEVBTnJwYWRrdmhoZXg3b0ZmeV9rR2ZBZzRmQWRrNHRIby1WaUtXeEFGa1NPWU9icnA5bzhPT1gwRnBObzVjd2pn0gF6QVVfeXFMT0ZmaTRGUmliNWlISDEyMHV6ZGJNb0FEUFl3QXdSc0tyc2pVSnBBb3JpZE1QbTliY3F5Zkw4Zk5lczktSEFSSHpsODBSQW1fMW9HUXRaTGdBSUtFSGJyMy1mNWFmYU03ZmZLT0I5eUo5OHBuak5ZdUNuSnc",
-          "published_at": "2026-10-11T00:06:19Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_9cc82bf8bfce3144",
-      "topic": "relations",
-      "first_seen": "2026-10-10T07:43:25Z",
-      "last_seen": "2026-10-10T07:43:25Z",
-      "headline": "Mohamed VI critica la «irresponsabilidad» española por Ceuta",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_4b95df44c9d59567",
-          "title": "Mohamed VI critica la «irresponsabilidad» española por Ceuta",
-          "title_key": "mohamed vi critica la irresponsabilidad espanola por ceuta",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZFdERUNvQk9FWUJUVy1abUxZaFNsVkpwc01rcDN5SW1VcFV4UHNRU0JDSkRoWE5NQ0l1aF85Z24xMGo3VEJBd1prZGJ3Y1BHZ0h0ZmRiNVdnNFJITktveUUyT0hSX2EtYkxLUndpNXNUWkZLTnFLd3dsMkpkVkl1dXF2ZnZGeVU0WnhxOWNMMXBHVzBZdGtRRl9Sekw",
-          "published_at": "2026-10-10T07:43:25Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_69e02a17488a531c",
-      "topic": "ceuta",
-      "first_seen": "2026-10-09T16:52:38Z",
-      "last_seen": "2026-10-09T16:52:38Z",
-      "headline": "Mohamed VI denuncia la \"instrumentalización\" en España de la crisis de Ceuta y avisa de que no aceptará \"chantajes\" - RTVE.es",
-      "classification": "FACT",
-      "verification_status": "SINGLE_SOURCE",
-      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
-      "sources": [
-        {
-          "source_id": "rtve",
-          "source_name": "RTVE",
-          "source_domain": "rtve.es",
-          "tier": 4,
-          "official": false,
-          "weight": 4.0
-        }
-      ],
-      "source_ids": [
-        "rtve"
-      ],
-      "articles": [
-        {
-          "article_id": "art_0118de4a389e0cb5",
-          "title": "Mohamed VI denuncia la \"instrumentalización\" en España de la crisis de Ceuta y avisa de que no aceptará \"chantajes\" - RTVE.es",
-          "title_key": "mohamed vi denuncia la instrumentalizacion en espana de la crisis de ceuta y avisa de que no aceptara chantajes",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNLWhLdUlHSDVMWWV6TEdkVGY5SHI5ZGVidWJmekRrTWlITW02Mjl6bG13TVVvaGlUUGdmbFVTVi1DSWpneTZSQTBVakh1WUhoZmt4NnhqM082aWJDTGg4aE5yMS02YlBhX1p0OVpPUTg3aWZXZ1NlNDFZcG1LUUFpZEtQZ0UzNVdpSDY2ZE02cU1zYkYwcklac0ZMWkY5TVNNUEFQUkZYTi1IZw",
-          "published_at": "2026-10-09T16:52:38Z",
-          "observed_at": "",
-          "source_id": "rtve",
-          "source_name": "RTVE",
-          "source_domain": "rtve.es",
-          "tier": 4,
-          "official": false,
-          "weight": 4.0,
-          "topic": "ceuta",
-          "classification": "FACT",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 43,
-      "operational_impact": "CONTEXT",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_9d158f105ab59757",
-      "topic": "melilla",
-      "first_seen": "2026-10-09T07:11:33Z",
-      "last_seen": "2026-10-09T07:11:33Z",
-      "headline": "«Hay que anclar más a Ceuta y Melilla en Europa»",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_f8cc13cba98ad51e",
-          "title": "«Hay que anclar más a Ceuta y Melilla en Europa»",
-          "title_key": "hay que anclar mas a ceuta y melilla en europa",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9fTDN4OUl1V1p4VVJDdUlHSlBFOGYzWURDc1poOTFKcXNQSUludTk3UkttbExTTkxsTHpSRFA3cEZ3WTlpcmEwVWotSXR1NnBNbHd1YlYtLTl5dng0d1E",
-          "published_at": "2026-10-09T07:11:33Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
     }
   ],
   "verification_summary": {
-    "CONFIRMED_MULTI_SOURCE": 0,
+    "CONFIRMED_MULTI_SOURCE": 1,
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 0,
-    "SINGLE_SOURCE": 7,
-    "UNCONFIRMED": 10,
-    "TOTAL": 17
+    "SINGLE_SOURCE": 5,
+    "UNCONFIRMED": 7,
+    "TOTAL": 13
   },
   "article_count": 36,
-  "event_count": 17
+  "event_count": 13
 }

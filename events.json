@@ -1,17 +1,33 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-12T19:50:35.635709+00:00",
+  "generated_at": "2026-10-13T02:06:13.798786+00:00",
   "events": [
     {
       "event_id": "evt_899fff535772bc0e",
       "topic": "ceuta",
       "first_seen": "2026-10-10T16:00:00Z",
-      "last_seen": "2026-10-12T19:01:12Z",
-      "headline": "DW News. . Police cleared the last major migrant camp in Ceuta ahead of a visit by Spain's king and queen on Tuesday. Thousands of people remained in the enclave after July's mass influx of migrants from Morocco, but in recent weeks, several operations so",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "last_seen": "2026-10-13T02:04:27Z",
+      "headline": "2 months after Spain’s worst border crisis, migrants at a Ceuta tent camp weigh their choices - AP News",
+      "classification": "FACT",
+      "verification_status": "CONFIRMED_MULTI_SOURCE",
+      "verification_reason": "Corroborated by at least two reliable independent sources.",
       "sources": [
+        {
+          "source_id": "ap",
+          "source_name": "Associated Press",
+          "source_domain": "apnews.com",
+          "tier": 4,
+          "official": false,
+          "weight": 4.0
+        },
+        {
+          "source_id": "politico",
+          "source_name": "Politico",
+          "source_domain": "politico.eu",
+          "tier": 3,
+          "official": false,
+          "weight": 3.0
+        },
         {
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -22,32 +38,16 @@
         }
       ],
       "source_ids": [
+        "ap",
+        "politico",
         "unknown"
       ],
       "articles": [
         {
-          "article_id": "art_52436f7f401650d0",
-          "title": "2 months after Spain's worst border crisis, migrants at a Ceuta tent camp weigh their choices - ABC News - Breaking News, Latest News and Videos",
-          "title_key": "2 months after spain s worst border crisis migrants at a ceuta tent camp weigh their choices abc news breaking news latest news and videos",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMklWdS1MbUVEdFZSb0NJRUpydlh6VHNKV3FpbkdNdkM0Q0M5NTFsaUlrbG44WGJWOHZNSW9BeXRXZVEybVN3cVBFUWFsQ0g2Ymw1b3RPeVNudmVpYlFRbFliMURMVmt3TWNBZUw5S0t3VS1BRnRMQ3FXbG1VaXR1MzZGRy1lMFFQdjRCOHpxMTg0SkkwR0VwLWZ1cWdNMGhrbHU1S292WHlTaDMwS2fSAbMBQVVfeXFMTWlldkd1Qzc2UFg1eUtDLVpGNHhqNTJWOXhGX0lhdV9BaWt5M29Db3ZZMnFyZzJYcG9hUGg1Q0h3am5vc18yYko0amx2T0pYYTY2bFo2VjZrNHFyR3Rja1d3MDdya2pTZTVCemtDbFZ1dE5La2FmRS1FY09mMHU2MUVRRVFCRU9scFhHNkVTekk0Z0dwZnJJZXdodEdwcUZzMWpyRmtRTmNyRldxTG9YSkw0a0U",
-          "published_at": "2026-10-11T12:07:20Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_60862a724950ae68",
+          "article_id": "art_d658735951570148",
           "title": "2 months after Spain's worst border crisis, migrants at a Ceuta tent camp weigh their choices",
           "title_key": "2 months after spain s worst border crisis migrants at a ceuta tent camp weigh their choices",
-          "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQOUlwdUZNeFRTbl95ZENSS01PM2NLSEdDSFVTZ0pTWkNsYXgtV1lfMkdIc0dXSTNibk50X1VGNzlsYTMtYjhhWmJENjNrUjA0dk5Wc1N1NWtnaXFCdlhkZ0dzZ3JCX05NZHE4RWw0N0lYcm5raG8xTDBScElfZDRnT2pFa1hfd2NhOVZVakxsZFR2WlNISlZLVjJ1ZlFIdE40ZjZ4UUg4TWtJOURnUjJ3RWs3V3dsemIxbVBRS3ExSEE5bGtGUnZYVUh0cEY3cjFWMXFkZDZrWWlWTDFzNHRKU3Zoa2huc2FuSUx1R3dpaXU2alNqUkJKOHdsemR3RUdUOEFpOUg0a25XWlE",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQR2wzZ041NUtOeDBMajBWWGNsNGZ4YVRnWHoyMGNhc1RDTVAxRjYwS0xtSEoxdnQwVEl3NzBvZFV0QWR5U2N3a09VdV9uWmhmLTZIY1hpcUFJZ2tzWFhQRndMbktnVzEwUTZrWF9JVUZzT2xrYWhfV041U05FZ1JSNWtMM1NzZUxOek9YQ1lER1pZN0p2S0szbnZ0enQyaUxuMHlyNzlZeVQwczNZSDJLY3VEZmcyanZoVGtrSkI1c0lKQzRadDJvN1FlUFRUYXliSnVOemVTWXVtUGxsU0RyVlVvdWcySDN0ZGF2LVRFMDRLemlOSGw0ejY2MFcwd3BUUlE",
           "published_at": "2026-10-11T16:48:41Z",
           "observed_at": "",
           "source_id": "unknown",
@@ -80,6 +80,24 @@
           "description": ""
         },
         {
+          "article_id": "art_2e124ee9858cdf63",
+          "title": "2 months after Spain’s worst border crisis, migrants at a Ceuta tent camp weigh their choices - AP News",
+          "title_key": "2 months after spain s worst border crisis migrants at a ceuta tent camp weigh their choices",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdjZmRXRmRkpJZFo1U3dHTHFkcGR5aE04MXRDNFl1TEMxMHhZR2l4c091a2ZlVVZHZ1lBdlVLUHgyUDRaenRCaDh6SkZxWVhRQ0duQ2pEd2t4UVpnVmc3VWhScjNmWHU3OXNDVzZOYWtoNGx0NVdUbjFCbnVNd2RXU1NSVG1VYkI4NVZKNkhQLUpPSjdrbVJZ",
+          "published_at": "2026-10-12T16:09:00Z",
+          "observed_at": "",
+          "source_id": "ap",
+          "source_name": "Associated Press",
+          "source_domain": "apnews.com",
+          "tier": 4,
+          "official": false,
+          "weight": 4.0,
+          "topic": "ceuta",
+          "classification": "FACT",
+          "signal": "",
+          "description": ""
+        },
+        {
           "article_id": "art_965af01f7f3222f8",
           "title": "Morocco navy entered Spanish waters during Ceuta migrant crisis",
           "title_key": "morocco navy entered spanish waters during ceuta migrant crisis",
@@ -98,26 +116,72 @@
           "description": ""
         },
         {
-          "article_id": "art_cd1c550cb9a98201",
-          "title": "Spain's worst border crisis frays Ceuta's coexistence ahead of royals' first visit",
-          "title_key": "spain s worst border crisis frays ceuta s coexistence ahead of royals first visit",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQdTdUM1R1TGpicW5TNjYzS1V3ZllyeFlqci1zaWUxMFh3djA0RWhaV3dQV2pJUVBuWkkzWVV2NjN1SWRGZmxuTDBOZHg0VG5TajA4NW1XaXdjWTVXelFuQTlfTmVwdjBuVUY4TFZkbUxGemdwMGh2RVpFaHFIclZoN0dxcUlfMG9NaW1UN0RkTUpvWW5oYnZ3aTlBaTRmeWJWcHV6TFEza29zYlY0aV9UaWNlSGlZbGJ2cUZzdW5POVFvQjRPR1JZbXBn",
-          "published_at": "2026-10-12T19:01:12Z",
+          "article_id": "art_2a45ee808588d472",
+          "title": "Poll: Spaniards say Ceuta crisis could spark armed conflict with Morocco - POLITICO.eu",
+          "title_key": "poll spaniards say ceuta crisis could spark armed conflict with morocco politico eu",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQN3lnei1CMFh0NE81aVM4OVNfZ01PdFZfR1N6d0NkTnh1dUZELWVGS0l0YTVoOXpoR3BGYUlzX1ByVjFOTWlqRlYzRHFkY0c1Yi02MXg0Y25QaWZDSDZCeVhzaFJXUzl5ejYzNS0yZkdJRmJqTUtrMFNsRmdGTDZXMVlwRW04TTFhUmZweXBsUW90MktCS0JFLXk2TXNWb1JrUUlhLWZWWE9TZw",
+          "published_at": "2026-10-13T02:04:27Z",
           "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
+          "source_id": "politico",
+          "source_name": "Politico",
+          "source_domain": "politico.eu",
+          "tier": 3,
           "official": false,
-          "weight": 1.0,
+          "weight": 3.0,
           "topic": "ceuta",
-          "classification": "UNCONFIRMED",
+          "classification": "DECLARATION",
           "signal": "",
           "description": ""
         }
       ],
-      "importance": 4,
-      "operational_impact": "NONE",
+      "importance": 72,
+      "operational_impact": "POTENTIAL",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_a9496bd35e10a1e8",
+      "topic": "relations",
+      "first_seen": "2026-10-12T16:07:52Z",
+      "last_seen": "2026-10-12T16:07:52Z",
+      "headline": "Sánchez confirma la entrada de buques de guerra marroquíes en aguas españolas el día de la entrada masiva: “Fueron días intensos”",
+      "classification": "OPERATIONAL_SIGNAL",
+      "verification_status": "SINGLE_SOURCE",
+      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
+      "sources": [
+        {
+          "source_id": "elpais",
+          "source_name": "El País",
+          "source_domain": "elpais.com",
+          "tier": 3,
+          "official": false,
+          "weight": 3.0
+        }
+      ],
+      "source_ids": [
+        "elpais"
+      ],
+      "articles": [
+        {
+          "article_id": "art_9bf3e2da2dc37ca2",
+          "title": "Sánchez confirma la entrada de buques de guerra marroquíes en aguas españolas el día de la entrada masiva: “Fueron días intensos”",
+          "title_key": "sanchez confirma la entrada de buques de guerra marroquies en aguas espanolas el dia de la entrada masiva fueron dias intensos",
+          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOMTBORnltVFBoNnAtTGNGb0J1RnFSRGNDeF9QZF9na3p6aEJLY3pqWGJjdXA4bUZNTUx2a2oyMEZ2Uk84R01tZHUtOE1ZSHQ0WWVSUTFxOFhOYlVhRWkxM3FxVlNwdGJsR0xDdjFhclFfVHhLazhIaE1Pb1ZjN2N5aGRNSl8ydWE4clctOWxOYUttUXdGeU4yNUxnc3BveVYyaHRmODlDNDNiMWFXNDBqekxRbmh2bjVIbFp2TUdvckVrVS1aNE9sZFdMeWplT2I0UG15TGM2UnRTNl95Q0NGRktHU2Z4Y0o1NHZ2VGhtV0RLV05RVFhXeVpxeXPSAZACQVVfeXFMUEdEZzBuSnJvVzhUNmx4bG15SEd5aDBNZEZaSUFBbFRJc0Z1SDg2c2QwQ0pIb1ZNUmUyQUk0d19NbzZIZk52cEZtczEtNC1QVHI5M1JaY3JDSlJ0aWJrQ1hyX09TeUR6VkJMR0VMSVdwRDNCaEtrMUVoRnNscjc1aWFIQjFhYm9tRjItNU1JT0U4d1FkaWdBbXNnVTNZdzlaMUlqNkZQQ1J2MDlVSjVMV09FT184bjhvWjMxZGJYbmJnVjNpd2kzOVZFSWk2by00VjFhLWpFbDlWSzlCT0FUcXdpd0ludlJhVmM0bzNLMGg1Q1dabS1XZ0l4a0EzNUNZVi1fXy10ZWhaTlBMcVNQWWo",
+          "published_at": "2026-10-12T16:07:52Z",
+          "observed_at": "",
+          "source_id": "elpais",
+          "source_name": "El País",
+          "source_domain": "elpais.com",
+          "tier": 3,
+          "official": false,
+          "weight": 3.0,
+          "topic": "relations",
+          "classification": "OPERATIONAL_SIGNAL",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 63,
+      "operational_impact": "POTENTIAL",
       "operational_eligible": false
     },
     {
@@ -1122,7 +1186,7 @@
       "topic": "traffic",
       "first_seen": "2026-10-07T10:41:35Z",
       "last_seen": "2026-10-07T10:41:35Z",
-      "headline": "The HMS Mersey makes a stop in Gibraltar after participating in maritime surveillance missions",
+      "headline": "El HMS Mersey hace escala en Gibraltar tras participar en misiones de vigilancia marítima",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
@@ -1157,24 +1221,6 @@
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
-        },
-        {
-          "article_id": "art_a4c58d8bedbceca1",
-          "title": "The HMS Mersey makes a stop in Gibraltar after participating in maritime surveillance missions",
-          "title_key": "the hms mersey makes a stop in gibraltar after participating in maritime surveillance missions",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPM1hvblptWURsMzBrcndlajA1UER6YWVEekR4RC1VVy1tSzlNLU5wbWUyQUUzcTIzSDY1WUZsYjRsbDZqalU2cDNqT1pzRGM3TV9JaTd2SU1HZW42OUFDLXlpNTAwd0ZzZ0ZpWGpWbVJod2VjWmFra19lVmlkRDRWY094eHRnX2lEUlBPUC1DSm9UaWZ0UVljSUJlYzRXLVlKT0MzYzd2OGU3RHhHb2Job1JGdDdQNk8ydzhXemp0YU9jejNvY2R6NjRfOUtkREpJRk1mNDBoTlFUZw",
-          "published_at": "2026-10-07T10:41:35Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "traffic",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
         }
       ],
       "importance": 4,
@@ -1183,14 +1229,14 @@
     }
   ],
   "verification_summary": {
-    "CONFIRMED_MULTI_SOURCE": 0,
+    "CONFIRMED_MULTI_SOURCE": 1,
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 1,
-    "SINGLE_SOURCE": 5,
-    "UNCONFIRMED": 12,
-    "TOTAL": 18
+    "SINGLE_SOURCE": 6,
+    "UNCONFIRMED": 11,
+    "TOTAL": 19
   },
   "article_count": 36,
-  "event_count": 18
+  "event_count": 19
 }

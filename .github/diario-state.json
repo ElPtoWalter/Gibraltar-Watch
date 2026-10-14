@@ -1,11 +1,11 @@
 {
   "version": 4,
   "latest_entry": {
-    "date": "2026-10-13",
+    "date": "2026-10-14",
     "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
-    "summary": "Selección automática de 9 referencias de 9 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
-    "url": "diario/2026-10-13.html",
-    "material_archive": true,
+    "summary": "Selección automática de 8 referencias de 8 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "url": "diario/actual.html",
+    "material_archive": false,
     "status_snapshot": {
       "maritime_status": {
         "es": "SIN CONFIRMACIÓN RECIENTE",
@@ -25,102 +25,98 @@
       }
     },
     "source_keys": [
-      "17b69af4d1deec8c6b3a",
-      "5445df40e3eb6b0be7cf",
-      "5606f8f2b4d64c040456",
-      "683935fb9e897a92580c",
-      "6e7e7215ff2177573ca3",
-      "9bf3e2da2dc37ca2a503",
-      "b552d07b763862c806cc",
-      "c9b54a81a7af591b2901",
+      "10619807adc6566c5ab2",
+      "2ca852e00f3fd707fcb7",
+      "2e124ee9858cdf630a5a",
+      "71c173b2ee0c445c3bca",
+      "a8541fe1a277582428f4",
+      "f3ea14f2d8db4ca00157",
+      "f59c426a5548a257e0e7",
       "fd519f752ce883200456"
     ],
-    "published_at": "2026-10-13T16:11+02:00",
-    "updated_at": "2026-10-13T16:11+02:00",
-    "published_rfc822": "Tue, 13 Oct 2026 16:11:00 +0200",
-    "source_count": 9,
-    "fingerprint": "6d344b09093d8dfca786",
-    "mode": "full",
-    "significance": 79,
+    "published_at": "2026-10-14T13:52+02:00",
+    "updated_at": "2026-10-14T13:52+02:00",
+    "published_rfc822": "Wed, 14 Oct 2026 13:52:00 +0200",
+    "source_count": 8,
+    "fingerprint": "cf0e547f9c65c61d29e3",
+    "mode": "highlight",
+    "significance": 97,
     "significance_reasons": [
       "actualidad repartida en tres o más ámbitos",
       "volumen informativo relevante",
-      "indicadores operativos o geopolíticos fuera de la normalidad"
+      "indicadores operativos o geopolíticos fuera de la normalidad",
+      "1 acontecimiento(s) verificado(s) de importancia material"
     ],
     "indexable": false,
-    "editor_engine": "rules",
-    "assistant_status": "gemini-timeout",
-    "editor_assistant_status": "gemini-timeout",
+    "editor_engine": "gemini",
+    "assistant_status": "ok",
+    "editor_assistant_status": "ok",
     "editorial_trace": {
       "validator_version": 2,
-      "factual_packet_sha256": "8edb7e8b81f4d3880ccea875d740affc861f1925860e5f2c5fd5c7311bfa086b",
-      "provider": "rules",
-      "status": "gemini-timeout",
+      "factual_packet_sha256": "9b7772dc6f8903f0df45b79e7857e9f972cf4dab8575ae2789a135f7010dae79",
+      "provider": "gemini",
+      "status": "ok",
       "attempts": [
         {
           "provider": "gemini",
           "model": "gemini-3.5-flash-lite"
         }
       ],
-      "factual_packet_hash": "8edb7e8b81f4d3880ccea875d740affc861f1925860e5f2c5fd5c7311bfa086b",
+      "factual_packet_hash": "9b7772dc6f8903f0df45b79e7857e9f972cf4dab8575ae2789a135f7010dae79",
       "event_ids": [
-        "evt_cc6f6873e2876567",
-        "evt_b2c744e23dbba7e9",
-        "evt_a9496bd35e10a1e8",
-        "evt_29bebf1f5d16cb29",
-        "evt_98314d8bc880e826",
-        "evt_019f05be08832086",
-        "evt_69e02a17488a531c"
+        "evt_72e3a5f407acf700",
+        "evt_8314e5ec6ae56ada",
+        "evt_155ad065844e5422",
+        "evt_66af5c30a406cc78",
+        "evt_032d7728f4e3b08d",
+        "evt_a9496bd35e10a1e8"
       ],
       "source_ids": [
         "ap",
         "elpais",
         "politico",
         "reuters",
-        "rtve",
         "unknown"
       ],
       "verification_summary": {
-        "CONFIRMED_MULTI_SOURCE": 0,
+        "CONFIRMED_MULTI_SOURCE": 1,
         "CONFIRMED_PRIMARY": 0,
         "CONFLICTING": 0,
-        "DECLARATION_ONLY": 0,
-        "SINGLE_SOURCE": 7,
-        "UNCONFIRMED": 10,
-        "TOTAL": 17
+        "DECLARATION_ONLY": 1,
+        "SINGLE_SOURCE": 4,
+        "UNCONFIRMED": 5,
+        "TOTAL": 11
       },
-      "timestamp": "2026-10-13T14:11:42.592637+00:00",
-      "fallback_used": true
+      "timestamp": "2026-10-14T11:52:01.362544+00:00",
+      "fallback_used": false
     },
     "validator_version": 2,
-    "factual_packet_hash": "8edb7e8b81f4d3880ccea875d740affc861f1925860e5f2c5fd5c7311bfa086b",
+    "factual_packet_hash": "9b7772dc6f8903f0df45b79e7857e9f972cf4dab8575ae2789a135f7010dae79",
     "event_ids": [
-      "evt_cc6f6873e2876567",
-      "evt_b2c744e23dbba7e9",
-      "evt_a9496bd35e10a1e8",
-      "evt_29bebf1f5d16cb29",
-      "evt_98314d8bc880e826",
-      "evt_019f05be08832086",
-      "evt_69e02a17488a531c"
+      "evt_72e3a5f407acf700",
+      "evt_8314e5ec6ae56ada",
+      "evt_155ad065844e5422",
+      "evt_66af5c30a406cc78",
+      "evt_032d7728f4e3b08d",
+      "evt_a9496bd35e10a1e8"
     ],
     "source_ids": [
       "ap",
       "elpais",
       "politico",
       "reuters",
-      "rtve",
       "unknown"
     ],
-    "timestamp": "2026-10-13T14:11:42.592637+00:00",
-    "fallback_used": true,
+    "timestamp": "2026-10-14T11:52:01.362544+00:00",
+    "fallback_used": false,
     "verification_summary": {
-      "CONFIRMED_MULTI_SOURCE": 0,
+      "CONFIRMED_MULTI_SOURCE": 1,
       "CONFIRMED_PRIMARY": 0,
       "CONFLICTING": 0,
-      "DECLARATION_ONLY": 0,
-      "SINGLE_SOURCE": 7,
-      "UNCONFIRMED": 10,
-      "TOTAL": 17
+      "DECLARATION_ONLY": 1,
+      "SINGLE_SOURCE": 4,
+      "UNCONFIRMED": 5,
+      "TOTAL": 11
     },
     "edition_label": "Cuaderno de las dos orillas",
     "edition_slug": "shores"

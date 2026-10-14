@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-13T22:50:52Z",
+  "generated_at": "2026-10-14T01:57:33Z",
   "git": {
-    "sha_before_commit": "e49bc6a4718dfd6d219f4d4291aad1791faa7959",
-    "run_id": "38480429435"
+    "sha_before_commit": "a6a147e1630469f27a426167cff5b105e7bbd175",
+    "run_id": "38498398810"
   },
   "recovery": {
     "method": "git-history",
@@ -59,19 +59,19 @@
       "bytes": 15886
     },
     "observatory.json": {
-      "sha256": "61badbafccfaa0fe34916475ab1d154b2cc80a83dfa897a649c60838d5b9995c",
+      "sha256": "b6b3b2e7c8e42f6d0bdb6b69f68a73cef2e5bd9b440e3b3c3862217e51e84bdf",
       "bytes": 4691
     },
     "health.json": {
-      "sha256": "12feb782a70dff2992a1582d9305f0a9b17599e60b5f1f87e98240a2442cd67c",
-      "bytes": 4491
+      "sha256": "93b5743fbc8279a0a3f190ebea05849f5623cbd897e821ab37e93aa482546dd5",
+      "bytes": 4495
     },
     "timeline.json": {
       "sha256": "458bf86fb9c57a2b7b79494608ea11c5a7d6a1fcb5b1cae7a9453ec465d21674",
       "bytes": 56668
     },
     "observatory-history.json": {
-      "sha256": "5ab3e1a0328c1bc4d2158149e25ca1a78f8928820666b9a1e66f0f3cbca37e24",
+      "sha256": "110e008bc762a1cbc9c51f1f9c1e7fcf0e99e17f466daf3eda198a1c0679bb2e",
       "bytes": 28876
     },
     "observatory-feed.xml": {
@@ -79,7 +79,7 @@
       "bytes": 9082
     },
     "sitemap.xml": {
-      "sha256": "daef1e826241c326ed63473cd8abf7ed98479b060cc78f41051035b9f54e823b",
+      "sha256": "e90a06e6306f908217ddd61430643189781709128e9c7e82107c9d86aad3d337",
       "bytes": 13030
     },
     "diario/index.html": {

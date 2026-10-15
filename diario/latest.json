@@ -1,45 +1,43 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
-  "summary": "Selección automática de 8 referencias de 8 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
-  "published_at": "2026-10-14T13:52+02:00",
-  "updated_at": "2026-10-14T13:52+02:00",
-  "source_count": 8,
+  "summary": "Selección automática de 9 referencias de 9 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+  "published_at": "2026-10-15T13:28+02:00",
+  "updated_at": "2026-10-15T13:28+02:00",
+  "source_count": 9,
   "indexable": false,
   "edition_label": "Cuaderno de las dos orillas",
   "edition_slug": "shores",
-  "fingerprint": "cf0e547f9c65c61d29e3",
+  "fingerprint": "2fa88f213a626405cb90",
   "editor_engine": "gemini",
   "editor_assistant_status": "ok",
   "assistant_status": "ok",
   "validator_version": 2,
-  "factual_packet_hash": "9b7772dc6f8903f0df45b79e7857e9f972cf4dab8575ae2789a135f7010dae79",
+  "factual_packet_hash": "41a76e564050ba5eb1a3b0a773ee23bea2e497ca67900c6a6661b1ae60eb39e7",
   "event_ids": [
-    "evt_72e3a5f407acf700",
-    "evt_8314e5ec6ae56ada",
+    "evt_b982bcf836e119cc",
+    "evt_07f8ed82b227c16d",
+    "evt_ee83bd5b98fbdbba",
     "evt_155ad065844e5422",
-    "evt_66af5c30a406cc78",
-    "evt_032d7728f4e3b08d",
-    "evt_a9496bd35e10a1e8"
+    "evt_b0bed3caf8081aa1",
+    "evt_72e3a5f407acf700"
   ],
   "source_ids": [
     "ap",
     "elpais",
-    "politico",
-    "reuters",
     "unknown"
   ],
-  "timestamp": "2026-10-14T11:52:01.362544+00:00",
+  "timestamp": "2026-10-15T11:28:58.167070+00:00",
   "fallback_used": false,
   "verification_summary": {
-    "CONFIRMED_MULTI_SOURCE": 1,
+    "CONFIRMED_MULTI_SOURCE": 0,
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
-    "DECLARATION_ONLY": 1,
-    "SINGLE_SOURCE": 4,
-    "UNCONFIRMED": 5,
-    "TOTAL": 11
+    "DECLARATION_ONLY": 4,
+    "SINGLE_SOURCE": 2,
+    "UNCONFIRMED": 8,
+    "TOTAL": 14
   },
-  "date_label": "2026-10-14",
-  "slug": "actual.html"
+  "date_label": "2026-10-15",
+  "slug": "2026-10-15.html"
 }

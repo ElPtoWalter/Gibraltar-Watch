@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-15T13:30:35Z",
+  "generated_at": "2026-10-15T18:20:53Z",
   "state": {
     "code": "watch",
     "label_es": "VIGILANCIA",
@@ -35,8 +35,8 @@
     }
   },
   "metrics": {
-    "news_24h": 11,
-    "news_sources": 29,
+    "news_24h": 8,
+    "news_sources": 26,
     "seismic_24h": 0,
     "seismic_7d": 0,
     "seismic_30d": 0,
@@ -53,7 +53,7 @@
       "key": "news-volume",
       "level": "info",
       "title_es": "Volumen informativo superior al patrón reciente",
-      "detail_es": "Se detectan 11 referencias en 24 h frente a una mediana reciente de 3. Es una señal de atención, no una prueba de crisis."
+      "detail_es": "Se detectan 8 referencias en 24 h frente a una mediana reciente de 3. Es una señal de atención, no una prueba de crisis."
     }
   ],
   "changes": {
@@ -63,11 +63,11 @@
   },
   "since_yesterday": {
     "reference_date": "2026-10-14",
-    "summary_es": "El nivel general pasa de VIGILANCIA REFORZADA a VIGILANCIA. El monitor recoge 6 referencias menos en la ventana de 24 horas."
+    "summary_es": "El nivel general pasa de VIGILANCIA REFORZADA a VIGILANCIA. El monitor recoge 9 referencias menos en la ventana de 24 horas."
   },
   "health": {
     "overall": "HEALTHY",
-    "generated_at": "2026-10-15T13:30:35Z"
+    "generated_at": "2026-10-15T18:20:53Z"
   },
   "latest_diary": {
     "date": "2026-10-15",

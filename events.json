@@ -1,7 +1,181 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T17:29:06.590953+00:00",
+  "generated_at": "2026-10-16T21:18:05.242411+00:00",
   "events": [
+    {
+      "event_id": "evt_6095a7178b42c362",
+      "topic": "relations",
+      "first_seen": "2026-10-16T19:04:13Z",
+      "last_seen": "2026-10-16T19:04:13Z",
+      "headline": "Cuesta sobre la relación de España con Marruecos: \"El que está humillado y sumiso es Pedro Sánchez\"",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_f9e975b4b4196c56",
+          "title": "Cuesta sobre la relación de España con Marruecos: \"El que está humillado y sumiso es Pedro Sánchez\"",
+          "title_key": "cuesta sobre la relacion de espana con marruecos el que esta humillado y sumiso es pedro sanchez",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQd01ZTFdEb3NXcDdFM0VhSW9DVWlxWnpEOVRadmN2X2gxajZTLTFMaTIySV95VmtCZTdIOGVrS1lUaDNxdHBOOW8tc2p3aExBVXJZanFZRkZyZDFJOFExYkFyMWpiMTVfT21qLXJRamNuRndjMmlfZG9UZGVCUVU4V2tlekZOaWVacU96RmQwcGl2Zy1vb0drMXJ0SWZsVUtFUmdNZFMzak9QSVVyR2lnTGFfWnN0Q2t5WDB2UDhNdFpwR1AtV0YtTkpMbUhNdktQMXJZWjVETV9WWVAtYnVpZVRVUkVid0JaM1Bj0gH2AUFVX3lxTE80YzhQTWNOcGV1VlNrMXJqTTQ4bXhYZ0ZZSjNVNUZ5SmNtdko5Q2FrNUxKWXpJMnlvYUhlbU5PTVlHVWdOSnlYdTlDeHZST21qdUtHcXFNZ1Z4Qzl5eGNhcjZlYmtuXzBTU3o3VjlMdXpCTElSVU16LXdCY0NiYktFOWV0RjlRXzJlQVZHdkVtaGxuSnkxTEM2RUZxOGdIWTVKYXFDdWlSYVZTSVI3Um1ZeEw1bkxqU1dWRDF1anB1eURsRUR0dmYzaUJtd2trMnp1Q296Q2lJTVB4YlZYUTVzWndjX2JGQ3FSZzF6ZkhXcm5RZlRUQQ",
+          "published_at": "2026-10-16T19:04:13Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_8fac77d2391693b1",
+      "topic": "ceuta",
+      "first_seen": "2026-10-14T04:11:18Z",
+      "last_seen": "2026-10-16T18:56:41Z",
+      "headline": "Felipe VI defiende la soberanía de Ceuta tras la crisis fronteriza y pide unidad ante momentos \"difíciles\"",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_579303141aa3cd6d",
+          "title": "Felipe VI defiende la soberanía de Ceuta tras la crisis fronteriza y pide unidad ante momentos \"difíciles\"",
+          "title_key": "felipe vi defiende la soberania de ceuta tras la crisis fronteriza y pide unidad ante momentos dificiles",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQOTZYSnA4MGxKZERIUWpiX253MEUtWlF5TU5idGs2eExmT2RLY2VjZ0lMalpuWGxGeFBYYUFUUkh5Q3hsSGNWUGdxdTkxaUk4VHlHQXZqNUFWUVhhdTd4RUhxeWVCM3lscXF3QnNkM09sWWtNTjlMMTQ2NE9NUXFlWmVYX05QOVRaVDNnaWk2WUo4Q1g3aWp2TDhrcjN0NVZwdmhPazJLOGx1alFDSV9QQTBCelJPck1BNGNoOHMtMXRPX2VSMVRLTEJrcUFJUU9aeTVPdWw4alVXdw",
+          "published_at": "2026-10-14T04:11:18Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_3148f7b446aa51d2",
+          "title": "El CNI confirma a la Audiencia Nacional que Marruecos preveía la crisis fronteriza de Ceuta",
+          "title_key": "el cni confirma a la audiencia nacional que marruecos preveia la crisis fronteriza de ceuta",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeDhBRU1VYzZSNnRJdWE5d1hZb1JLVHBOWmFwdTY4cm53RG9xcE1JU0ZRbFExeEw3OHdGTjV5ZEF0dWRfODNpZF9TMmE0MU0tX0ZfdENnTTBnM0pGY19HNTEyUVQ2RjdKeUdpNTNQQ04yajRoNk9maU5FYVRQVjFXMm4wREI1LU5XQW5zRGs1U3Rrdw",
+          "published_at": "2026-10-16T18:56:41Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_d51afe59ebb8e341",
+      "topic": "ceuta",
+      "first_seen": "2026-10-14T06:00:00Z",
+      "last_seen": "2026-10-16T12:23:37Z",
+      "headline": "Africa’s 6th most powerful military sends warships into European waters without permission as Ceuta crisis escalates",
+      "classification": "ANALYSIS",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_f59c426a5548a257",
+          "title": "Africa’s 6th most powerful military sends warships into European waters without permission as Ceuta crisis escalates",
+          "title_key": "africa s 6th most powerful military sends warships into european waters without permission as ceuta crisis escalates",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQYy12UDM4LWs0NVVScHkyWDRDVUJ5Qkh0ZVAwTkxlUkZ0RVFjR3lYWlpYeF83aVU0ZV9WY21mbHlpTHZ4V2hyU19LMGN2UElCQWU4cmdLaEhVdXlQQ0gtaXhiUEVYb09RaWNMYXIwd0ZucVBXbVNheTdaOExTdDVnNm5RRVV2VkFPeUpoZTJRUGd5LUMtckZWbWQxblN6OTQ1ajdKMG9RdWpENDQyTm9VNWd1Mk5KeWJPQXVwUFhNeDRXTWRTblo1UVRpY3pCdmRT",
+          "published_at": "2026-10-14T06:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_dcd15350ff20fabd",
+          "title": "Is the Ceuta crisis a Moroccan problem, or a European one?",
+          "title_key": "is the ceuta crisis a moroccan problem or a european one",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObnpZOTVkRjY2WDlVYTR2YjZORGwtSE1Ldmx5TWt2YjJiWmozOU1McUdGeTRvZXhOZmVhVGk5QkJhUUttTVo2OXJUZ2hkRDZQdThyY2NvUEh5dklVQ1IxdTZXNWpweXBEMkQzYUhObHl1ZlpRVVpYbzhnbnlnTzR1ZWVQQ2tuaHB1LTlOT2NtTzJTZw",
+          "published_at": "2026-10-16T12:23:37Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "ANALYSIS",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 17,
+      "operational_impact": "CONTEXT",
+      "operational_eligible": false
+    },
     {
       "event_id": "evt_1b7d9d77f2f93f29",
       "topic": "ceuta",
@@ -26,11 +200,11 @@
       ],
       "articles": [
         {
-          "article_id": "art_af3bd56936566ec1",
-          "title": "Spanish royals visit crisis-hit Ceuta amid diplomatic tensions",
-          "title_key": "spanish royals visit crisis hit ceuta amid diplomatic tensions",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbmRBZXVRdGhPd3VxNlhiclJuNGJmZHBKaWhUMy1tQ1o2VnJTZDVBaExEaWxIQVNoaVltSVBGUmJEQ2pZTDR5MWVVQ3RhMDZkeTZ3WVc2ZmI5elJpUGw0cTdVMkRPOEhXVnZGcVBZUlN6UnBCUVZUcXptMGxiellpaWpXVzBCek1RUE9seno2U0lTbXQ4",
-          "published_at": "2026-10-13T12:49:55Z",
+          "article_id": "art_67bb245721f287f1",
+          "title": "Spain's king and queen visit Ceuta as territory grapples with protracted migration crisis",
+          "title_key": "spain s king and queen visit ceuta as territory grapples with protracted migration crisis",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZU9CbHEyNzBJNnd1dE1GYkRhWlZEV0dKTGZOWjVyNzlJenhPVm5BbGJfaVpjSW9uZ0k2NS1IR25zVHhIRlhXLWZNY0thTldXU1BnY2htcmdZSWpmUGp2Q2Q3UEx1T1FBRlJpNVhRUllMTG5zZ1A1SklmVkFadVowRzNhblVmTmRld2w3QmlxSTBPVFpyRU9UOUdjUjNfOEtRUW9TTXItRkZZdmJLNk5ESi11VmM3X3QyU3VHNWpYdzBfc3lNUU1hWGY4NzA",
+          "published_at": "2026-10-13T17:34:21Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -553,8 +727,8 @@
       "topic": "ceuta",
       "first_seen": "2026-10-13T12:30:27Z",
       "last_seen": "2026-10-14T19:18:01Z",
-      "headline": "Mientras 70.000 personas cruzaban la frontera de Ceuta, Marruecos abrió un segundo frente con cañones: sus buques de guerra entraron en España",
-      "classification": "OPERATIONAL_SIGNAL",
+      "headline": "El \"tridente marroquí\" en Ceuta: Marruecos también habría ordenado a sus pesqueros entrar en aguas españolas durante la crisis migratoria",
+      "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
       "sources": [
@@ -571,24 +745,6 @@
         "unknown"
       ],
       "articles": [
-        {
-          "article_id": "art_7deff096c236a463",
-          "title": "Mientras 70.000 personas cruzaban la frontera de Ceuta, Marruecos abrió un segundo frente con cañones: sus buques de guerra entraron en España",
-          "title_key": "mientras 70 000 personas cruzaban la frontera de ceuta marruecos abrio un segundo frente con canones sus buques de guerra entraron en espana",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQcGwwdlg2RWw5X1l5TGcwdjFRYWVvTGQ5eVNqS1Ixa3A0a3M4Wk5vaEVhUVk0V0FVZVpfU0p0cmI3NkgyRlY2RkRvajdQcVV6eVE0UVpmdnMtTmpoLWE1V1YxbjZURXZhV1ZxVnAyNXdRd2ZXaE9mTGFBUVZ5MjZSaEk5R2FGMnBjeVE5V2JzeERvaWZQdkh4UUdjanBTWGxaVldaU3U3ZmphREpxemQyMjJzM2gxODZTanJ1cm9fWnl6bmtncmVMdjVUelZKSm1uR2hJNkkyZTFJQdIB3wFBVV95cUxPSUc1eEVsLTUyNjRmek5CQTV4ZU1JMFRTWXFlRkEwMXF6NXhaWTZDNl9CX0IxREwwS0ZlU0lLclByMFduMTJsQUtVa3ZydHM1eWhQTmQyX1BwT2N2WGVaVDlrN09ianhnUUdQVDBSWVRxWUJzbERjVmhhRVVTcU1DYUkwa1RhdFpsbXViUV9zSU1BdXU1T0sxN3JYbHFqNlNWUnBRRjdLVmhmOUkwSDdrcGJQZDUwT3VhdDQ1Vk1oQTVQTy1XczBNTERzYVZxTU1WMXdDRnl0MzA2a1VzcENV",
-          "published_at": "2026-10-13T12:30:27Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "OPERATIONAL_SIGNAL",
-          "signal": "",
-          "description": ""
-        },
         {
           "article_id": "art_2b7deb08096a4d3e",
           "title": "El \"tridente marroquí\" en Ceuta: Marruecos también habría ordenado a sus pesqueros entrar en aguas españolas durante la crisis migratoria",
@@ -608,8 +764,8 @@
           "description": ""
         }
       ],
-      "importance": 55,
-      "operational_impact": "POTENTIAL",
+      "importance": 4,
+      "operational_impact": "NONE",
       "operational_eligible": false
     },
     {
@@ -636,11 +792,11 @@
       ],
       "articles": [
         {
-          "article_id": "art_ef7ea400cc6e25b7",
-          "title": "España destaca su buena relación con Marruecos en plena visita de los Reyes a Ceuta",
-          "title_key": "espana destaca su buena relacion con marruecos en plena visita de los reyes a ceuta",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPTGhWYnRQcUt2X0NPT1E2XzdnUl8zVndaMUFVYXNLaGNzSnJSRmd2YlAySUwtRXk3dVdJVV85VzFFMFhvY3Atd0F5bUNpbjZJU21kV3pOVTJ0aXhiMWxaaHIyaWJpd2JWTmdPU0owMzVfZGllbjFOYlBOZXVseFlPeDBn0gGHAUFVX3lxTE1UVGxpR0VZZGZEVlhVTXA0dDlVVHNHMmdCWmlHM1ZUSW9MUkNuYld4YlJBWW5wQ3ZoZjJwZDJGbGI4TXhSclJmdGZ5WjhfQTNfU3h2T3AtQWlnMTB6cFUxTVl6cmhjZklnbU81LVJEQ09Xc0xSbjFZbkpud1RXcTFjdnZ3WmNFOA",
-          "published_at": "2026-10-13T12:59:22Z",
+          "article_id": "art_1a4d7dbdbfe7953f",
+          "title": "Aclamado en Ceuta, Felipe VI reivindica la soberanía española frente a Marruecos",
+          "title_key": "aclamado en ceuta felipe vi reivindica la soberania espanola frente a marruecos",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVjZ4alpMemJnY2R5M0FfX2RKZHZxMGxJczg3NVZrektSVnhXMWF0bHpYamxHaTI1ZlVxXzBGelp5REo0eERwZFc4amxNS3QwT1YweG8yZTdxQVJ1a0xyUFFrekpuOUtPZFhYanRqOGIxcGdqSUlZU1VkdmFaR2ZrQnAweTVVTFpveWo3WTJn",
+          "published_at": "2026-10-13T18:10:48Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -659,24 +815,6 @@
           "title_key": "felipe vi supedita la buena relacion con marruecos a que ceuta es espana y emplaza al gobierno y la ue a defenderla",
           "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQN1FaQ213NWQ0VGV5MVYyUDlVMnN0SVc0UmNSb3l0a3U0allYUjFYTnROQ2d5MUtvakVMWVVpVnRHbkIwNUN5YzEtVGhqeHJpZ25PdWRzNDFiMWxZOXN5RWZwUm9HNHpqdzRnVGw0c25TV2YxdXhaeHhmWnlidTRsZWlLWkF1Um5tUTNSNnFuMmZ5YkdjRzdZbUlsdFhIZGYtUlJFcndBdHJaaWstRnExdHVtQy12NGR4QWNsXzRfYnNkN0psd2N3SkQxWVRFczV6Yk04c2ZTYlpxQ1pyaHI4b01JSGHSAeoBQVVfeXFMUHZsWGdiYWR5VzQyZ2tTcnFsUkJ5eGxuU3lsZVV1SDloeFBrYlV1SEk1a2c2V3F5ZUZzNmpwQjM4TXUtVTc5Vzg2VkxCN2twWmktYzlsdFhVeThCbTFpd01pMHlBeUoxdmwtWFJNZFJ4dnk1N1Q3UDh6X095VERBQWl3TXB6OExFU1RKc1NFVmVHYmlFODE1Ri1pandNTTREOXpPdEIwWmFEUzgxTVBKZUJ3alVseHdSRmxwaU1jTGk1Q1JWY201d29SamJyS3Vpa0NJRXlqNVZqNGdnYjI2Z2tuV05UQmltYktB",
           "published_at": "2026-10-14T03:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_8e636ddb58f87323",
-          "title": "Rabat calla ante la visita de los Reyes a Ceuta y Melilla mientras la prensa de Marruecos habla de \"provocación\"",
-          "title_key": "rabat calla ante la visita de los reyes a ceuta y melilla mientras la prensa de marruecos habla de provocacion",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeHQwT2ZHWHA2bDlFR2ZaNEJiMmNtaWxVN3U5SExKOG80U093ZVpMLUVnYkFCbUhvWVBzQmpSd25MNW1WSmdoZVlnbTRoQXAxV2FSVFVrZjFZenlkN2wyWWNSSkdLaHJnZjBnSWlfVG9kMjVfa0ZmdUwtQWlkTjhsUE9XVzhmaGU1UjBXRHI4OUtpdS11V1Z6UWtxRHA2V1dUbFZjbDNhQdIBrAFBVV95cUxQdjJqc0xweHRaUXpDY3RhM0Z4UlYyUVdJemNUejNfbHdGR3N6UlFpZjAzUE00VGR3NlRzRENPMHp3Vm5GaUZhSHpab3Vpb0J3VlJrNFFIVGhpSjVuRDVQSk5PSWIySVJ2M2xzQURPR1BsX3VqZVY3WnhCUnRCU201MzFHQlpXSmYwNUJ6Njg0c3YzcDhOMEtwaGlCbC0xLUhkdUY1WFFnTjQxcFJ1",
-          "published_at": "2026-10-14T09:23:50Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -851,103 +989,11 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_d51afe59ebb8e341",
-      "topic": "ceuta",
-      "first_seen": "2026-10-14T06:00:00Z",
-      "last_seen": "2026-10-14T06:00:00Z",
-      "headline": "Africa’s 6th most powerful military sends warships into European waters without permission as Ceuta crisis escalates",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_f59c426a5548a257",
-          "title": "Africa’s 6th most powerful military sends warships into European waters without permission as Ceuta crisis escalates",
-          "title_key": "africa s 6th most powerful military sends warships into european waters without permission as ceuta crisis escalates",
-          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQYy12UDM4LWs0NVVScHkyWDRDVUJ5Qkh0ZVAwTkxlUkZ0RVFjR3lYWlpYeF83aVU0ZV9WY21mbHlpTHZ4V2hyU19LMGN2UElCQWU4cmdLaEhVdXlQQ0gtaXhiUEVYb09RaWNMYXIwd0ZucVBXbVNheTdaOExTdDVnNm5RRVV2VkFPeUpoZTJRUGd5LUMtckZWbWQxblN6OTQ1ajdKMG9RdWpENDQyTm9VNWd1Mk5KeWJPQXVwUFhNeDRXTWRTblo1UVRpY3pCdmRT",
-          "published_at": "2026-10-14T06:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_8fac77d2391693b1",
-      "topic": "ceuta",
-      "first_seen": "2026-10-14T04:11:18Z",
-      "last_seen": "2026-10-14T04:11:18Z",
-      "headline": "Felipe VI defiende la soberanía de Ceuta tras la crisis fronteriza y pide unidad ante momentos \"difíciles\"",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_579303141aa3cd6d",
-          "title": "Felipe VI defiende la soberanía de Ceuta tras la crisis fronteriza y pide unidad ante momentos \"difíciles\"",
-          "title_key": "felipe vi defiende la soberania de ceuta tras la crisis fronteriza y pide unidad ante momentos dificiles",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQOTZYSnA4MGxKZERIUWpiX253MEUtWlF5TU5idGs2eExmT2RLY2VjZ0lMalpuWGxGeFBYYUFUUkh5Q3hsSGNWUGdxdTkxaUk4VHlHQXZqNUFWUVhhdTd4RUhxeWVCM3lscXF3QnNkM09sWWtNTjlMMTQ2NE9NUXFlWmVYX05QOVRaVDNnaWk2WUo4Q1g3aWp2TDhrcjN0NVZwdmhPazJLOGx1alFDSV9QQTBCelJPck1BNGNoOHMtMXRPX2VSMVRLTEJrcUFJUU9aeTVPdWw4alVXdw",
-          "published_at": "2026-10-14T04:11:18Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_a5e39b71f7d771b6",
+      "event_id": "evt_7186896bcb27bb23",
       "topic": "relations",
-      "first_seen": "2026-10-13T18:10:48Z",
-      "last_seen": "2026-10-13T18:10:48Z",
-      "headline": "Aclamado en Ceuta, Felipe VI reivindica la soberanía española frente a Marruecos",
+      "first_seen": "2026-10-14T09:23:50Z",
+      "last_seen": "2026-10-14T09:23:50Z",
+      "headline": "Rabat calla ante la visita de los Reyes a Ceuta y Melilla mientras la prensa de Marruecos habla de \"provocación\"",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
@@ -966,11 +1012,11 @@
       ],
       "articles": [
         {
-          "article_id": "art_1a4d7dbdbfe7953f",
-          "title": "Aclamado en Ceuta, Felipe VI reivindica la soberanía española frente a Marruecos",
-          "title_key": "aclamado en ceuta felipe vi reivindica la soberania espanola frente a marruecos",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVjZ4alpMemJnY2R5M0FfX2RKZHZxMGxJczg3NVZrektSVnhXMWF0bHpYamxHaTI1ZlVxXzBGelp5REo0eERwZFc4amxNS3QwT1YweG8yZTdxQVJ1a0xyUFFrekpuOUtPZFhYanRqOGIxcGdqSUlZU1VkdmFaR2ZrQnAweTVVTFpveWo3WTJn",
-          "published_at": "2026-10-13T18:10:48Z",
+          "article_id": "art_8e636ddb58f87323",
+          "title": "Rabat calla ante la visita de los Reyes a Ceuta y Melilla mientras la prensa de Marruecos habla de \"provocación\"",
+          "title_key": "rabat calla ante la visita de los reyes a ceuta y melilla mientras la prensa de marruecos habla de provocacion",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeHQwT2ZHWHA2bDlFR2ZaNEJiMmNtaWxVN3U5SExKOG80U093ZVpMLUVnYkFCbUhvWVBzQmpSd25MNW1WSmdoZVlnbTRoQXAxV2FSVFVrZjFZenlkN2wyWWNSSkdLaHJnZjBnSWlfVG9kMjVfa0ZmdUwtQWlkTjhsUE9XVzhmaGU1UjBXRHI4OUtpdS11V1Z6UWtxRHA2V1dUbFZjbDNhQdIBrAFBVV95cUxQdjJqc0xweHRaUXpDY3RhM0Z4UlYyUVdJemNUejNfbHdGR3N6UlFpZjAzUE00VGR3NlRzRENPMHp3Vm5GaUZhSHpab3Vpb0J3VlJrNFFIVGhpSjVuRDVQSk5PSWIySVJ2M2xzQURPR1BsX3VqZVY3WnhCUnRCU201MzFHQlpXSmYwNUJ6Njg0c3YzcDhOMEtwaGlCbC0xLUhkdUY1WFFnTjQxcFJ1",
+          "published_at": "2026-10-14T09:23:50Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -1051,61 +1097,15 @@
       "importance": 4,
       "operational_impact": "NONE",
       "operational_eligible": false
-    },
-    {
-      "event_id": "evt_155ad065844e5422",
-      "topic": "ceuta",
-      "first_seen": "2026-10-13T15:17:00Z",
-      "last_seen": "2026-10-13T13:10:29Z",
-      "headline": "🔴 Ceuta live: Felipe VI says ‘Melilla is Spain,’ warns any border threat is an EU threat - HESPRESS English - Morocco News",
-      "classification": "DECLARATION",
-      "verification_status": "DECLARATION_ONLY",
-      "verification_reason": "The record is a declaration and is not treated as an operational fact.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_71c173b2ee0c445c",
-          "title": "🔴 Ceuta live: Felipe VI says ‘Melilla is Spain,’ warns any border threat is an EU threat - HESPRESS English - Morocco News",
-          "title_key": "ceuta live felipe vi says melilla is spain warns any border threat is an eu threat hespress english morocco news",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMnk4T0lIdDdSSTJCWS1KazAwcm1QM2JfSXpLOEM4X0FuQWN4a1dHaU5BZ2M2MVBUU1A2N1F4SUUwTlRSQ0d3WUtmOFl5NGdVa1R2eG9aNG5tS1VjNU5kdk55OHFmTng3YlFfS1JSYTZjbHMzemVEU0hWV1dfMlJSWlo5eTVQcmppcEdNckZxWmdpTVhDTWRTUHRwdFFTWGh0Rk1oYVRHZHZyNmhRUkRNMXNXNjUxZm9YeTVlTG5DQQ",
-          "published_at": "2026-10-13T13:10:29Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "DECLARATION",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 30,
-      "operational_impact": "POTENTIAL",
-      "operational_eligible": false
     }
   ],
   "verification_summary": {
     "CONFIRMED_MULTI_SOURCE": 0,
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
-    "DECLARATION_ONLY": 5,
+    "DECLARATION_ONLY": 4,
     "SINGLE_SOURCE": 1,
-    "UNCONFIRMED": 10,
+    "UNCONFIRMED": 11,
     "TOTAL": 16
   },
   "article_count": 36,

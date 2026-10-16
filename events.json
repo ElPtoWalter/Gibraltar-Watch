@@ -1,7 +1,107 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T12:33:34.911043+00:00",
+  "generated_at": "2026-10-16T17:29:06.590953+00:00",
   "events": [
+    {
+      "event_id": "evt_1b7d9d77f2f93f29",
+      "topic": "ceuta",
+      "first_seen": "2026-10-13T12:49:55Z",
+      "last_seen": "2026-10-16T12:20:32Z",
+      "headline": "'Sovereignty is non-negotiable': King Felipe VI visits Ceuta following summer border crisis",
+      "classification": "DECLARATION",
+      "verification_status": "DECLARATION_ONLY",
+      "verification_reason": "The record is a declaration and is not treated as an operational fact.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_af3bd56936566ec1",
+          "title": "Spanish royals visit crisis-hit Ceuta amid diplomatic tensions",
+          "title_key": "spanish royals visit crisis hit ceuta amid diplomatic tensions",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbmRBZXVRdGhPd3VxNlhiclJuNGJmZHBKaWhUMy1tQ1o2VnJTZDVBaExEaWxIQVNoaVltSVBGUmJEQ2pZTDR5MWVVQ3RhMDZkeTZ3WVc2ZmI5elJpUGw0cTdVMkRPOEhXVnZGcVBZUlN6UnBCUVZUcXptMGxiellpaWpXVzBCek1RUE9seno2U0lTbXQ4",
+          "published_at": "2026-10-13T12:49:55Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_a8541fe1a2775824",
+          "title": "Spain's King & Queen Visit Ceuta as Migration Crisis Fuels Sovereignty Dispute with Morocco",
+          "title_key": "spain s king queen visit ceuta as migration crisis fuels sovereignty dispute with morocco",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNYUpJYmhDeEdsNGF6YlpYZUZMbklvZWRURHh0MkJnd0hGUGFvMjhzR3UxWjNpaUVXVXlNeVBLRWR1cGdWbDBaWE0yLWFnTFRVZkFXcU9yM1lZMTJ0LXdaZ3VWQ3dhMm9Qc0UzXzU0NnpJWm5RZ3BvZ1RWbkp2SjdYRg",
+          "published_at": "2026-10-14T07:27:10Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_127279026fbeab54",
+          "title": "'Sovereignty is non-negotiable': King Felipe VI visits Ceuta following summer border crisis",
+          "title_key": "sovereignty is non negotiable king felipe vi visits ceuta following summer border crisis",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBpM1YxTnRsTHZFQ0RjYTctSzBnQ2VseTZaZWFELVZBOU5VOG9EQktSeW1qcVRPMGxKTW1OWUFVaEJTaEJBdFlkdU8wcGhRQUI2QkpvOF9CSHhraGJNWkV4UnlhT0NtdEVtZlZmQk5jSTJhd2tzc004RlhBczJEUQ",
+          "published_at": "2026-10-14T08:24:33Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_8ffe34e0805265c1",
+          "title": "Poll: 58% of Spaniards Say Ceuta, Melilla Tensions Could Trigger Morocco-Spain War",
+          "title_key": "poll 58 of spaniards say ceuta melilla tensions could trigger morocco spain war",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPR2ZlYU41VUthNnczZVl3LTlZcVd6SEM3ZzRjQXNxcWVHUlBJQzBOZ0lXeFYzcW1pMGsyeFNMWG4wSWZwYVloY2VESjVKSTRvVVFmMGlka0hmdnp6QVFHRHBJWFN3OXlnNmxQQUJTQlB1cHRzMFhlQTNJUzZmV2pXbTE4YVFzVGp4WDFjS1FoamN1aHZmZDhkbjZTNTF1MXFZN3QyRGtpbXJIUkFSTmxQWFhHVEl1dFVVNHBjeEk0OGdMU0tZcVc4",
+          "published_at": "2026-10-16T12:20:32Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "DECLARATION",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 30,
+      "operational_impact": "POTENTIAL",
+      "operational_eligible": false
+    },
     {
       "event_id": "evt_a9b9e9b776160ad6",
       "topic": "relations",
@@ -751,106 +851,6 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_1b7d9d77f2f93f29",
-      "topic": "ceuta",
-      "first_seen": "2026-10-13T12:49:55Z",
-      "last_seen": "2026-10-14T08:24:33Z",
-      "headline": "In first visit to Ceuta, Spain's king asks for 'good faith' from Morocco after migration crisis",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_af3bd56936566ec1",
-          "title": "Spanish royals visit crisis-hit Ceuta amid diplomatic tensions",
-          "title_key": "spanish royals visit crisis hit ceuta amid diplomatic tensions",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbmRBZXVRdGhPd3VxNlhiclJuNGJmZHBKaWhUMy1tQ1o2VnJTZDVBaExEaWxIQVNoaVltSVBGUmJEQ2pZTDR5MWVVQ3RhMDZkeTZ3WVc2ZmI5elJpUGw0cTdVMkRPOEhXVnZGcVBZUlN6UnBCUVZUcXptMGxiellpaWpXVzBCek1RUE9seno2U0lTbXQ4",
-          "published_at": "2026-10-13T12:49:55Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_516ad866829386c1",
-          "title": "In first visit to Ceuta, Spain's king asks for 'good faith' from Morocco after migration crisis",
-          "title_key": "in first visit to ceuta spain s king asks for good faith from morocco after migration crisis",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVHBZdUxhNWl4aEk1T05DM1FTX3NjUHlwbS1jVjlsRC14QmJ1RUYtUXVvSW5MdVNtYVRNRXFROVhERVNEanFTUWRORGpzT3lVMGtxcmJoRklPUm9hNXF3d3RjWHc1V2VjT3hjM3hkTExoZjhnZE1sSS1QX1A5b2NlSw",
-          "published_at": "2026-10-13T19:48:03Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_a8541fe1a2775824",
-          "title": "Spain's King & Queen Visit Ceuta as Migration Crisis Fuels Sovereignty Dispute with Morocco",
-          "title_key": "spain s king queen visit ceuta as migration crisis fuels sovereignty dispute with morocco",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNYUpJYmhDeEdsNGF6YlpYZUZMbklvZWRURHh0MkJnd0hGUGFvMjhzR3UxWjNpaUVXVXlNeVBLRWR1cGdWbDBaWE0yLWFnTFRVZkFXcU9yM1lZMTJ0LXdaZ3VWQ3dhMm9Qc0UzXzU0NnpJWm5RZ3BvZ1RWbkp2SjdYRg",
-          "published_at": "2026-10-14T07:27:10Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_127279026fbeab54",
-          "title": "'Sovereignty is non-negotiable': King Felipe VI visits Ceuta following summer border crisis",
-          "title_key": "sovereignty is non negotiable king felipe vi visits ceuta following summer border crisis",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBpM1YxTnRsTHZFQ0RjYTctSzBnQ2VseTZaZWFELVZBOU5VOG9EQktSeW1qcVRPMGxKTW1OWUFVaEJTaEJBdFlkdU8wcGhRQUI2QkpvOF9CSHhraGJNWkV4UnlhT0NtdEVtZlZmQk5jSTJhd2tzc004RlhBczJEUQ",
-          "published_at": "2026-10-14T08:24:33Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_d51afe59ebb8e341",
       "topic": "ceuta",
       "first_seen": "2026-10-14T06:00:00Z",
@@ -1103,9 +1103,9 @@
     "CONFIRMED_MULTI_SOURCE": 0,
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
-    "DECLARATION_ONLY": 4,
+    "DECLARATION_ONLY": 5,
     "SINGLE_SOURCE": 1,
-    "UNCONFIRMED": 11,
+    "UNCONFIRMED": 10,
     "TOTAL": 16
   },
   "article_count": 36,

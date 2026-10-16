@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated_at": "2026-10-16T21:17:54.141342+00:00",
+  "generated_at": "2026-10-16T23:42:07.473616+00:00",
   "language_default": "es",
   "status": {
     "maritime_status": {
@@ -12,16 +12,16 @@
       "en": "There is not enough recent positive evidence to confirm operation; absence of alerts is not treated as proof."
     },
     "border_pressure": {
-      "es": "VIGILANCIA PREVENTIVA",
-      "en": "PREVENTIVE WATCH"
+      "es": "BAJA / SIN SEÑALES RECIENTES",
+      "en": "LOW / NO RECENT SIGNALS"
     },
     "border_note": {
-      "es": "Se conserva la vigilancia durante 48 horas desde la última señal preventiva antes de reducir el nivel.",
-      "en": "Monitoring is retained for 48 hours after the latest preventive signal before lowering the level."
+      "es": "No aparecen señales recientes suficientes para elevar el nivel.",
+      "en": "There are not enough recent signals to raise the level."
     },
     "border_watch": {
-      "last_signal_at": "2026-10-14T22:21:40.975264+00:00",
-      "hold_until": "2026-10-16T22:21:40.975264+00:00",
+      "last_signal_at": null,
+      "hold_until": null,
       "signal_sources": 0,
       "hold_hours": 48
     },
@@ -59,7 +59,7 @@
     },
     {
       "title": "El CNI confirma a la Audiencia Nacional que Marruecos preveía la crisis fronteriza de Ceuta",
-      "source": "www.moncloa.com",
+      "source": "MONCLOA.COM",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeDhBRU1VYzZSNnRJdWE5d1hZb1JLVHBOWmFwdTY4cm53RG9xcE1JU0ZRbFExeEw3OHdGTjV5ZEF0dWRfODNpZF9TMmE0MU0tX0ZfdENnTTBnM0pGY19HNTEyUVQ2RjdKeUdpNTNQQ04yajRoNk9maU5FYVRQVjFXMm4wREI1LU5XQW5zRGs1U3Rrdw",
       "published_at": "2026-10-16T18:56:41+00:00",
       "category": "ceuta",

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-16T23:42:22Z",
+  "generated_at": "2026-10-17T04:37:22Z",
   "state": {
     "code": "watch",
     "label_es": "VIGILANCIA",
@@ -52,13 +52,7 @@
   "changes": {
     "state_changed": false,
     "previous_state_code": "watch",
-    "layer_changes": [
-      {
-        "key": "border",
-        "previous": "VIGILANCIA PREVENTIVA",
-        "current": "BAJA / SIN SEÑALES RECIENTES"
-      }
-    ]
+    "layer_changes": []
   },
   "since_yesterday": {
     "reference_date": "2026-10-16",
@@ -66,7 +60,7 @@
   },
   "health": {
     "overall": "HEALTHY",
-    "generated_at": "2026-10-16T23:42:22Z"
+    "generated_at": "2026-10-17T04:37:22Z"
   },
   "latest_diary": {
     "date": "2026-10-16",

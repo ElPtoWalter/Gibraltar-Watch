@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-17T13:48:29.213054+00:00",
+  "generated_at": "2026-10-17T17:16:06.373050+00:00",
   "events": [
     {
       "event_id": "evt_b5bf15a6daea8688",
@@ -95,7 +95,7 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_8fac77d2391693b1",
+      "event_id": "evt_a416373ea169a76f",
       "topic": "ceuta",
       "first_seen": "2026-10-14T04:11:18Z",
       "last_seen": "2026-10-16T18:56:41Z",
@@ -123,24 +123,6 @@
           "title_key": "felipe vi defiende la soberania de ceuta tras la crisis fronteriza y pide unidad ante momentos dificiles",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQOTZYSnA4MGxKZERIUWpiX253MEUtWlF5TU5idGs2eExmT2RLY2VjZ0lMalpuWGxGeFBYYUFUUkh5Q3hsSGNWUGdxdTkxaUk4VHlHQXZqNUFWUVhhdTd4RUhxeWVCM3lscXF3QnNkM09sWWtNTjlMMTQ2NE9NUXFlWmVYX05QOVRaVDNnaWk2WUo4Q1g3aWp2TDhrcjN0NVZwdmhPazJLOGx1alFDSV9QQTBCelJPck1BNGNoOHMtMXRPX2VSMVRLTEJrcUFJUU9aeTVPdWw4alVXdw",
           "published_at": "2026-10-14T04:11:18Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_127279026fbeab54",
-          "title": "'Sovereignty is non-negotiable': King Felipe VI visits Ceuta following summer border crisis",
-          "title_key": "sovereignty is non negotiable king felipe vi visits ceuta following summer border crisis",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBpM1YxTnRsTHZFQ0RjYTctSzBnQ2VseTZaZWFELVZBOU5VOG9EQktSeW1qcVRPMGxKTW1OWUFVaEJTaEJBdFlkdU8wcGhRQUI2QkpvOF9CSHhraGJNWkV4UnlhT0NtdEVtZlZmQk5jSTJhd2tzc004RlhBczJEUQ",
-          "published_at": "2026-10-14T08:24:33Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -241,15 +223,23 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_1b7d9d77f2f93f29",
+      "event_id": "evt_8fac77d2391693b1",
       "topic": "ceuta",
-      "first_seen": "2026-10-13T12:49:55Z",
+      "first_seen": "2026-10-14T04:11:18Z",
       "last_seen": "2026-10-16T12:20:32Z",
-      "headline": "Spain's King & Queen Visit Ceuta as Migration Crisis Fuels Sovereignty Dispute with Morocco",
-      "classification": "DECLARATION",
-      "verification_status": "DECLARATION_ONLY",
-      "verification_reason": "The record is a declaration and is not treated as an operational fact.",
+      "headline": "2 months after Spain’s worst border crisis, migrants at a Ceuta tent camp weigh their choices - AP News",
+      "classification": "FACT",
+      "verification_status": "SINGLE_SOURCE",
+      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
       "sources": [
+        {
+          "source_id": "ap",
+          "source_name": "Associated Press",
+          "source_domain": "apnews.com",
+          "tier": 4,
+          "official": false,
+          "weight": 4.0
+        },
         {
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -260,15 +250,52 @@
         }
       ],
       "source_ids": [
+        "ap",
         "unknown"
       ],
       "articles": [
+        {
+          "article_id": "art_2e124ee9858cdf63",
+          "title": "2 months after Spain’s worst border crisis, migrants at a Ceuta tent camp weigh their choices - AP News",
+          "title_key": "2 months after spain s worst border crisis migrants at a ceuta tent camp weigh their choices",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdjZmRXRmRkpJZFo1U3dHTHFkcGR5aE04MXRDNFl1TEMxMHhZR2l4c091a2ZlVVZHZ1lBdlVLUHgyUDRaenRCaDh6SkZxWVhRQ0duQ2pEd2t4UVpnVmc3VWhScjNmWHU3OXNDVzZOYWtoNGx0NVdUbjFCbnVNd2RXU1NSVG1VYkI4NVZKNkhQLUpPSjdrbVJZ",
+          "published_at": "2026-10-13T17:17:00Z",
+          "observed_at": "",
+          "source_id": "ap",
+          "source_name": "Associated Press",
+          "source_domain": "apnews.com",
+          "tier": 4,
+          "official": false,
+          "weight": 4.0,
+          "topic": "ceuta",
+          "classification": "FACT",
+          "signal": "",
+          "description": ""
+        },
         {
           "article_id": "art_a8541fe1a2775824",
           "title": "Spain's King & Queen Visit Ceuta as Migration Crisis Fuels Sovereignty Dispute with Morocco",
           "title_key": "spain s king queen visit ceuta as migration crisis fuels sovereignty dispute with morocco",
           "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNYUpJYmhDeEdsNGF6YlpYZUZMbklvZWRURHh0MkJnd0hGUGFvMjhzR3UxWjNpaUVXVXlNeVBLRWR1cGdWbDBaWE0yLWFnTFRVZkFXcU9yM1lZMTJ0LXdaZ3VWQ3dhMm9Qc0UzXzU0NnpJWm5RZ3BvZ1RWbkp2SjdYRg",
           "published_at": "2026-10-14T07:27:10Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_127279026fbeab54",
+          "title": "'Sovereignty is non-negotiable': King Felipe VI visits Ceuta following summer border crisis",
+          "title_key": "sovereignty is non negotiable king felipe vi visits ceuta following summer border crisis",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBpM1YxTnRsTHZFQ0RjYTctSzBnQ2VseTZaZWFELVZBOU5VOG9EQktSeW1qcVRPMGxKTW1OWUFVaEJTaEJBdFlkdU8wcGhRQUI2QkpvOF9CSHhraGJNWkV4UnlhT0NtdEVtZlZmQk5jSTJhd2tzc004RlhBczJEUQ",
+          "published_at": "2026-10-14T08:24:33Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -300,7 +327,7 @@
           "description": ""
         }
       ],
-      "importance": 30,
+      "importance": 53,
       "operational_impact": "POTENTIAL",
       "operational_eligible": false
     },
@@ -374,11 +401,11 @@
       ],
       "articles": [
         {
-          "article_id": "art_d0adb3d5a62ebfb4",
-          "title": "King Felipe VI says Ceuta is ‘inalienable’ part of Spain in landmark visit",
-          "title_key": "king felipe vi says ceuta is inalienable part of spain in landmark visit",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMnFlbFIwb19Wd0tzTnctVmt0TkZKLW5COUl1N0VURzNfaFlTNnJQcFN1RFBZMmQwWVJVZ3hTNWVOc05OLWluS2dTWGJ6VXJyQ0RZQlB2UHZEdEZoc0RSRUs0eUJqVDlpRzlyYjdCdUE0Rk9sTnpwaDZWZ3FtRWJfV2Q1ZGd3dGE4OUY4N3BZLWQyQzdwV1BXa1gtdnRxSzlzN3VRb01vbzN0OC1JN09UZHZCa2VSV0ht",
-          "published_at": "2026-10-13T15:17:00Z",
+          "article_id": "art_d6a9b9d79587a92b",
+          "title": "Most Spaniards believe Ceuta and Melilla tensions could lead to armed conflict with Morocco",
+          "title_key": "most spaniards believe ceuta and melilla tensions could lead to armed conflict with morocco",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZjNLel9xdTdBNXprajV3UnUtaEJseWlnclZoRl8wNWhrOUJTZF9SU0RiZWVkcVRUYnBsSTlHOVRUM2tXVXhsWGk1UlN3SVBWdDd0amdiYUlzMFUtY2VUQy02UWVjQ2Zad0s0WG5DclNVdGlNczlsMFdhX2FCdmxvM0xPRzVYNDE5V1o3YlRaR0lwbXM",
+          "published_at": "2026-10-13T15:28:06Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -387,16 +414,16 @@
           "official": false,
           "weight": 1.0,
           "topic": "relations",
-          "classification": "DECLARATION",
+          "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
         },
         {
-          "article_id": "art_3b1fff368dd5c9bb",
-          "title": "Spain Reaffirms Good Ties With Morocco Amid Royal Visit to Occupied Ceuta",
-          "title_key": "spain reaffirms good ties with morocco amid royal visit to occupied ceuta",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSW9QejlpNDRVZy04Q1FaOUJURnFxYlE1UjV6SUZUTFFSSnQtOEVBNDVOZTdPZmgzdTBpUVRPSjczVzF1UmVhbFZyVFJlM0lGMF9IMXFxZjgza1BubDloLS13X3MwNE03Sk9TX2RNd0JyNmU4R3A2cjJuUWRWTGozWnBjUFZ3TllGMHMwaERlOVBDeU14c2h2b21fYXcwb2hENnZoX3JwOGpRcHJMSG45T0Fud2Q1NDhVWFdZM3hldw",
-          "published_at": "2026-10-13T20:09:35Z",
+          "article_id": "art_26e563f01cbe9f38",
+          "title": "Madrid affirms strong relations with Morocco as Felipe VI visits Ceuta and Melilla",
+          "title_key": "madrid affirms strong relations with morocco as felipe vi visits ceuta and melilla",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcTE4VDNoVFZkVk50YUZGNGNGVDZXWXV0YXpQU3ZZX2JHUGIwSkhEZjNOdmRoS2l1RkEzOGpOVnkyckNHb2Mtc0ZPVEYzd2NUR0ZTMjlyWDVnb2tVTEw3R3BOampUckNEX3pNbXhqRlF2bzc5TXhLRDdrSGF6WkNaNnkwNEdGdmdrSG9ZcGt5aU9CSGM",
+          "published_at": "2026-10-13T16:46:42Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -1063,11 +1090,11 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_e2e9ef193bd104d9",
+      "event_id": "evt_5f0e932563f9329f",
       "topic": "relations",
-      "first_seen": "2026-10-13T16:47:56Z",
-      "last_seen": "2026-10-13T16:46:42Z",
-      "headline": "Most Spaniards believe Ceuta and Melilla tensions could lead to armed conflict with Morocco",
+      "first_seen": "2026-10-13T20:09:35Z",
+      "last_seen": "2026-10-13T20:09:35Z",
+      "headline": "Spain Reaffirms Good Ties With Morocco Amid Royal Visit to Occupied Ceuta",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
@@ -1086,29 +1113,11 @@
       ],
       "articles": [
         {
-          "article_id": "art_d6a9b9d79587a92b",
-          "title": "Most Spaniards believe Ceuta and Melilla tensions could lead to armed conflict with Morocco",
-          "title_key": "most spaniards believe ceuta and melilla tensions could lead to armed conflict with morocco",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZjNLel9xdTdBNXprajV3UnUtaEJseWlnclZoRl8wNWhrOUJTZF9SU0RiZWVkcVRUYnBsSTlHOVRUM2tXVXhsWGk1UlN3SVBWdDd0amdiYUlzMFUtY2VUQy02UWVjQ2Zad0s0WG5DclNVdGlNczlsMFdhX2FCdmxvM0xPRzVYNDE5V1o3YlRaR0lwbXM",
-          "published_at": "2026-10-13T15:28:06Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_26e563f01cbe9f38",
-          "title": "Madrid affirms strong relations with Morocco as Felipe VI visits Ceuta and Melilla",
-          "title_key": "madrid affirms strong relations with morocco as felipe vi visits ceuta and melilla",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcTE4VDNoVFZkVk50YUZGNGNGVDZXWXV0YXpQU3ZZX2JHUGIwSkhEZjNOdmRoS2l1RkEzOGpOVnkyckNHb2Mtc0ZPVEYzd2NUR0ZTMjlyWDVnb2tVTEw3R3BOampUckNEX3pNbXhqRlF2bzc5TXhLRDdrSGF6WkNaNnkwNEdGdmdrSG9ZcGt5aU9CSGM",
-          "published_at": "2026-10-13T16:46:42Z",
+          "article_id": "art_3b1fff368dd5c9bb",
+          "title": "Spain Reaffirms Good Ties With Morocco Amid Royal Visit to Occupied Ceuta",
+          "title_key": "spain reaffirms good ties with morocco amid royal visit to occupied ceuta",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSW9QejlpNDRVZy04Q1FaOUJURnFxYlE1UjV6SUZUTFFSSnQtOEVBNDVOZTdPZmgzdTBpUVRPSjczVzF1UmVhbFZyVFJlM0lGMF9IMXFxZjgza1BubDloLS13X3MwNE03Sk9TX2RNd0JyNmU4R3A2cjJuUWRWTGozWnBjUFZ3TllGMHMwaERlOVBDeU14c2h2b21fYXcwb2hENnZoX3JwOGpRcHJMSG45T0Fud2Q1NDhVWFdZM3hldw",
+          "published_at": "2026-10-13T20:09:35Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -1131,8 +1140,8 @@
     "CONFIRMED_MULTI_SOURCE": 0,
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
-    "DECLARATION_ONLY": 4,
-    "SINGLE_SOURCE": 1,
+    "DECLARATION_ONLY": 3,
+    "SINGLE_SOURCE": 2,
     "UNCONFIRMED": 12,
     "TOTAL": 17
   },

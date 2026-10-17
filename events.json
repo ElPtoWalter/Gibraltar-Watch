@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-17T19:34:48.995144+00:00",
+  "generated_at": "2026-10-17T22:24:21.034216+00:00",
   "events": [
     {
       "event_id": "evt_b5bf15a6daea8688",
@@ -332,52 +332,6 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_a9b9e9b776160ad6",
-      "topic": "relations",
-      "first_seen": "2026-10-16T08:28:50Z",
-      "last_seen": "2026-10-16T08:28:50Z",
-      "headline": "Ayuso acusa al PSOE de estar «secuestrado» por Marruecos y carga contra Sánchez por Ceuta, las elecciones y el caos en Sol",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_28dc917da6d5bde8",
-          "title": "Ayuso acusa al PSOE de estar «secuestrado» por Marruecos y carga contra Sánchez por Ceuta, las elecciones y el caos en Sol",
-          "title_key": "ayuso acusa al psoe de estar secuestrado por marruecos y carga contra sanchez por ceuta las elecciones y el caos en sol",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPdnZvc1JwOG1pdUdWUDAtb0hWWWF5dDlOS3dDamZENFprVmwwR3o2MGFXSld0S0FVaHpOVkwyaEU5WFc0SlcxN1RYRzRXXzd3TFhJU0VUYmFMYTBsV2ItUzlQamlnRVFxcm9HZi1XZ1U4TVZwTU1GeE5yOWxHUE5sN2dfMXFNcXZEM3hmWkJ2Z21WN1RpbGZLVVNiVXBpemd0Qmw3T3B6LWlndTRKQmtDUFlhZUlna1hSTHlYZnJ6SmNxd01tbHl5T3VlY2hiU1hKWTlYNEpMY01nRzdFb2NJYTNoWG5JUHhzRk9j0gHwAUFVX3lxTFBXa1dGamVkWVVjWDdIWl9Ldk1hZ0h5VTJVMGtSZURVRU5TUVhKV1ZGSnZZT1U1NmlPQTZoVEVFUUhEVnI4N3dYaVF6enRIS0pjQ0Y1OG1BRWhQVnNCYTA0ZVNIVGRlcjBya0RUdkJvRHA0V25YQXJHMV9IWlQ0d1Y1c1NYQzVxZTBlNmZITmlMN0ZIdms1ZHM0VmV2SENKWXo1UUw4M0ozRXJtNld4V0JBOG51b1dtM2x3SHFTcDZfcGlSSXlndUh0dzFWZTAyZUczNnl1aXNCRGRDVjlFN21wTUwxMHpJeUswSGU3WWMxdA",
-          "published_at": "2026-10-16T08:28:50Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_2c34f406bf1d701d",
       "topic": "relations",
       "first_seen": "2026-10-13T15:17:00Z",
@@ -401,11 +355,11 @@
       ],
       "articles": [
         {
-          "article_id": "art_d6a9b9d79587a92b",
-          "title": "Most Spaniards believe Ceuta and Melilla tensions could lead to armed conflict with Morocco",
-          "title_key": "most spaniards believe ceuta and melilla tensions could lead to armed conflict with morocco",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZjNLel9xdTdBNXprajV3UnUtaEJseWlnclZoRl8wNWhrOUJTZF9SU0RiZWVkcVRUYnBsSTlHOVRUM2tXVXhsWGk1UlN3SVBWdDd0amdiYUlzMFUtY2VUQy02UWVjQ2Zad0s0WG5DclNVdGlNczlsMFdhX2FCdmxvM0xPRzVYNDE5V1o3YlRaR0lwbXM",
-          "published_at": "2026-10-13T15:28:06Z",
+          "article_id": "art_d0adb3d5a62ebfb4",
+          "title": "King Felipe VI says Ceuta is ‘inalienable’ part of Spain in landmark visit",
+          "title_key": "king felipe vi says ceuta is inalienable part of spain in landmark visit",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMnFlbFIwb19Wd0tzTnctVmt0TkZKLW5COUl1N0VURzNfaFlTNnJQcFN1RFBZMmQwWVJVZ3hTNWVOc05OLWluS2dTWGJ6VXJyQ0RZQlB2UHZEdEZoc0RSRUs0eUJqVDlpRzlyYjdCdUE0Rk9sTnpwaDZWZ3FtRWJfV2Q1ZGd3dGE4OUY4N3BZLWQyQzdwV1BXa1gtdnRxSzlzN3VRb01vbzN0OC1JN09UZHZCa2VSV0ht",
+          "published_at": "2026-10-13T15:17:00Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -414,16 +368,16 @@
           "official": false,
           "weight": 1.0,
           "topic": "relations",
-          "classification": "UNCONFIRMED",
+          "classification": "DECLARATION",
           "signal": "",
           "description": ""
         },
         {
-          "article_id": "art_26e563f01cbe9f38",
-          "title": "Madrid affirms strong relations with Morocco as Felipe VI visits Ceuta and Melilla",
-          "title_key": "madrid affirms strong relations with morocco as felipe vi visits ceuta and melilla",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcTE4VDNoVFZkVk50YUZGNGNGVDZXWXV0YXpQU3ZZX2JHUGIwSkhEZjNOdmRoS2l1RkEzOGpOVnkyckNHb2Mtc0ZPVEYzd2NUR0ZTMjlyWDVnb2tVTEw3R3BOampUckNEX3pNbXhqRlF2bzc5TXhLRDdrSGF6WkNaNnkwNEdGdmdrSG9ZcGt5aU9CSGM",
-          "published_at": "2026-10-13T16:46:42Z",
+          "article_id": "art_3b1fff368dd5c9bb",
+          "title": "Spain Reaffirms Good Ties With Morocco Amid Royal Visit to Occupied Ceuta",
+          "title_key": "spain reaffirms good ties with morocco amid royal visit to occupied ceuta",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSW9QejlpNDRVZy04Q1FaOUJURnFxYlE1UjV6SUZUTFFSSnQtOEVBNDVOZTdPZmgzdTBpUVRPSjczVzF1UmVhbFZyVFJlM0lGMF9IMXFxZjgza1BubDloLS13X3MwNE03Sk9TX2RNd0JyNmU4R3A2cjJuUWRWTGozWnBjUFZ3TllGMHMwaERlOVBDeU14c2h2b21fYXcwb2hENnZoX3JwOGpRcHJMSG45T0Fud2Q1NDhVWFdZM3hldw",
+          "published_at": "2026-10-13T20:09:35Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -1090,11 +1044,11 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_5f0e932563f9329f",
+      "event_id": "evt_fe387291853d619f",
       "topic": "relations",
-      "first_seen": "2026-10-13T20:09:35Z",
-      "last_seen": "2026-10-13T20:09:35Z",
-      "headline": "Spain Reaffirms Good Ties With Morocco Amid Royal Visit to Occupied Ceuta",
+      "first_seen": "2026-10-13T15:28:06Z",
+      "last_seen": "2026-10-13T16:46:42Z",
+      "headline": "Most Spaniards believe Ceuta and Melilla tensions could lead to armed conflict with Morocco",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
@@ -1113,11 +1067,29 @@
       ],
       "articles": [
         {
-          "article_id": "art_3b1fff368dd5c9bb",
-          "title": "Spain Reaffirms Good Ties With Morocco Amid Royal Visit to Occupied Ceuta",
-          "title_key": "spain reaffirms good ties with morocco amid royal visit to occupied ceuta",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSW9QejlpNDRVZy04Q1FaOUJURnFxYlE1UjV6SUZUTFFSSnQtOEVBNDVOZTdPZmgzdTBpUVRPSjczVzF1UmVhbFZyVFJlM0lGMF9IMXFxZjgza1BubDloLS13X3MwNE03Sk9TX2RNd0JyNmU4R3A2cjJuUWRWTGozWnBjUFZ3TllGMHMwaERlOVBDeU14c2h2b21fYXcwb2hENnZoX3JwOGpRcHJMSG45T0Fud2Q1NDhVWFdZM3hldw",
-          "published_at": "2026-10-13T20:09:35Z",
+          "article_id": "art_d6a9b9d79587a92b",
+          "title": "Most Spaniards believe Ceuta and Melilla tensions could lead to armed conflict with Morocco",
+          "title_key": "most spaniards believe ceuta and melilla tensions could lead to armed conflict with morocco",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZjNLel9xdTdBNXprajV3UnUtaEJseWlnclZoRl8wNWhrOUJTZF9SU0RiZWVkcVRUYnBsSTlHOVRUM2tXVXhsWGk1UlN3SVBWdDd0amdiYUlzMFUtY2VUQy02UWVjQ2Zad0s0WG5DclNVdGlNczlsMFdhX2FCdmxvM0xPRzVYNDE5V1o3YlRaR0lwbXM",
+          "published_at": "2026-10-13T15:28:06Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_26e563f01cbe9f38",
+          "title": "Madrid affirms strong relations with Morocco as Felipe VI visits Ceuta and Melilla",
+          "title_key": "madrid affirms strong relations with morocco as felipe vi visits ceuta and melilla",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcTE4VDNoVFZkVk50YUZGNGNGVDZXWXV0YXpQU3ZZX2JHUGIwSkhEZjNOdmRoS2l1RkEzOGpOVnkyckNHb2Mtc0ZPVEYzd2NUR0ZTMjlyWDVnb2tVTEw3R3BOampUckNEX3pNbXhqRlF2bzc5TXhLRDdrSGF6WkNaNnkwNEdGdmdrSG9ZcGt5aU9CSGM",
+          "published_at": "2026-10-13T16:46:42Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -1142,9 +1114,9 @@
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 3,
     "SINGLE_SOURCE": 2,
-    "UNCONFIRMED": 12,
-    "TOTAL": 17
+    "UNCONFIRMED": 11,
+    "TOTAL": 16
   },
   "article_count": 36,
-  "event_count": 17
+  "event_count": 16
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-17T09:27:24Z",
+  "generated_at": "2026-10-17T10:44:02Z",
   "overall": "HEALTHY",
   "components": [
     {
@@ -8,7 +8,7 @@
       "state": "fresh",
       "label_es": "ACTUALIZADO",
       "checked_at": "2026-10-17T09:26:54Z",
-      "age_minutes": 0,
+      "age_minutes": 77,
       "source": "USGS Earthquake Catalog",
       "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-09-17T09%3A26%3A54Z&endtime=2026-10-17T09%3A26%3A54Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
       "note_es": "Catálogo sísmico regional; no es una herramienta de predicción."
@@ -18,7 +18,7 @@
       "state": "fresh",
       "label_es": "ACTUALIZADO",
       "checked_at": "2026-10-17T09:27:11.000610+00:00",
-      "age_minutes": 0,
+      "age_minutes": 76,
       "source": "Monitor editorial de fuentes públicas",
       "url": "fuentes.html",
       "note_es": "Los titulares se usan como señales y requieren atribución."
@@ -28,7 +28,7 @@
       "state": "historical",
       "label_es": "TEMPORADA FINALIZADA",
       "checked_at": "2026-10-17T04:37:08Z",
-      "age_minutes": 290,
+      "age_minutes": 366,
       "source": "Secretaría General de Protección Civil y Emergencias",
       "url": "https://www.proteccioncivil.es/documents/20121/0/20260815_InformeOPE.pdf",
       "note_es": "Temporada finalizada · últimos datos oficiales archivados.",
@@ -39,17 +39,17 @@
       "name": "Diario del Estrecho",
       "state": "fresh",
       "label_es": "ACTUALIZADO",
-      "checked_at": "2026-10-16T11:24:00Z",
-      "age_minutes": 1323,
+      "checked_at": "2026-10-17T10:44:00Z",
+      "age_minutes": 0,
       "source": "Gibraltar Watch",
-      "url": "diario/actual.html",
+      "url": "diario/2026-10-17.html",
       "note_es": "Última edición publicada"
     },
     {
       "name": "Integridad del sitio",
       "state": "fresh",
       "label_es": "CORRECTA",
-      "checked_at": "2026-10-17T09:27:24Z",
+      "checked_at": "2026-10-17T10:44:02Z",
       "age_minutes": 0,
       "source": "Validador local",
       "note_es": "Todos los archivos críticos están presentes."
@@ -61,7 +61,7 @@
       "state": "fresh",
       "label_es": "ACTUALIZADO",
       "checked_at": "2026-10-17T09:26:54Z",
-      "age_minutes": 0,
+      "age_minutes": 77,
       "source": "USGS Earthquake Catalog",
       "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=2026-09-17T09%3A26%3A54Z&endtime=2026-10-17T09%3A26%3A54Z&minlatitude=34.0&maxlatitude=38.0&minlongitude=-8.0&maxlongitude=-1.5&minmagnitude=1.0&orderby=time&limit=20000",
       "note_es": "Catálogo sísmico regional; no es una herramienta de predicción."
@@ -71,7 +71,7 @@
       "state": "fresh",
       "label_es": "ACTUALIZADO",
       "checked_at": "2026-10-17T09:27:11.000610+00:00",
-      "age_minutes": 0,
+      "age_minutes": 76,
       "source": "Monitor editorial de fuentes públicas",
       "url": "fuentes.html",
       "note_es": "Los titulares se usan como señales y requieren atribución."
@@ -81,7 +81,7 @@
       "state": "historical",
       "label_es": "TEMPORADA FINALIZADA",
       "checked_at": "2026-10-17T04:37:08Z",
-      "age_minutes": 290,
+      "age_minutes": 366,
       "source": "Secretaría General de Protección Civil y Emergencias",
       "url": "https://www.proteccioncivil.es/documents/20121/0/20260815_InformeOPE.pdf",
       "note_es": "Temporada finalizada · últimos datos oficiales archivados.",
@@ -92,10 +92,10 @@
       "name": "Diario del Estrecho",
       "state": "fresh",
       "label_es": "ACTUALIZADO",
-      "checked_at": "2026-10-16T11:24:00Z",
-      "age_minutes": 1323,
+      "checked_at": "2026-10-17T10:44:00Z",
+      "age_minutes": 0,
       "source": "Gibraltar Watch",
-      "url": "diario/actual.html",
+      "url": "diario/2026-10-17.html",
       "note_es": "Última edición publicada"
     }
   ],
@@ -107,7 +107,7 @@
     "name": "Integridad del sitio",
     "state": "fresh",
     "label_es": "CORRECTA",
-    "checked_at": "2026-10-17T09:27:24Z",
+    "checked_at": "2026-10-17T10:44:02Z",
     "age_minutes": 0,
     "source": "Validador local",
     "note_es": "Todos los archivos críticos están presentes."
@@ -117,9 +117,9 @@
     "separate_from_source_health": true
   },
   "workflow": {
-    "run_id": "39021146037",
+    "run_id": "39026013900",
     "run_attempt": "1",
-    "sha": "9218ac36fe71",
+    "sha": "f1477c2db4b8",
     "event": "schedule"
   }
 }

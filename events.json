@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-18T20:53:36.883944+00:00",
+  "generated_at": "2026-10-18T23:20:05.139833+00:00",
   "events": [
     {
       "event_id": "evt_b5bf15a6daea8688",
@@ -217,24 +217,6 @@
         "unknown"
       ],
       "articles": [
-        {
-          "article_id": "art_d6a9b9d79587a92b",
-          "title": "Most Spaniards believe Ceuta and Melilla tensions could lead to armed conflict with Morocco",
-          "title_key": "most spaniards believe ceuta and melilla tensions could lead to armed conflict with morocco",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZjNLel9xdTdBNXprajV3UnUtaEJseWlnclZoRl8wNWhrOUJTZF9SU0RiZWVkcVRUYnBsSTlHOVRUM2tXVXhsWGk1UlN3SVBWdDd0amdiYUlzMFUtY2VUQy02UWVjQ2Zad0s0WG5DclNVdGlNczlsMFdhX2FCdmxvM0xPRzVYNDE5V1o3YlRaR0lwbXM",
-          "published_at": "2026-10-13T15:28:06Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
         {
           "article_id": "art_26e563f01cbe9f38",
           "title": "Madrid affirms strong relations with Morocco as Felipe VI visits Ceuta and Melilla",
@@ -617,7 +599,7 @@
       "topic": "relations",
       "first_seen": "2026-10-14T04:11:18Z",
       "last_seen": "2026-10-14T17:07:41Z",
-      "headline": "Felipe VI supedita \"la buena relación con Marruecos\" a que \"Ceuta es España\" y emplaza al Gobierno y la UE a defenderla",
+      "headline": "Reacciones en Marruecos a la visita de los reyes a Ceuta: del “seguirá siendo marroquí” a “una fiesta que no aporta nada a la historia”",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
@@ -677,6 +659,42 @@
           "title_key": "felipe vi defiende la soberania de ceuta tras la crisis fronteriza y pide unidad ante momentos dificiles",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQOTZYSnA4MGxKZERIUWpiX253MEUtWlF5TU5idGs2eExmT2RLY2VjZ0lMalpuWGxGeFBYYUFUUkh5Q3hsSGNWUGdxdTkxaUk4VHlHQXZqNUFWUVhhdTd4RUhxeWVCM3lscXF3QnNkM09sWWtNTjlMMTQ2NE9NUXFlWmVYX05QOVRaVDNnaWk2WUo4Q1g3aWp2TDhrcjN0NVZwdmhPazJLOGx1alFDSV9QQTBCelJPck1BNGNoOHMtMXRPX2VSMVRLTEJrcUFJUU9aeTVPdWw4alVXdw",
           "published_at": "2026-10-14T04:11:18Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_45598e7f8ab4087f",
+          "title": "Reacciones en Marruecos a la visita de los reyes a Ceuta: del “seguirá siendo marroquí” a “una fiesta que no aporta nada a la historia”",
+          "title_key": "reacciones en marruecos a la visita de los reyes a ceuta del seguira siendo marroqui a una fiesta que no aporta nada a la historia",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNclBnVVloU2tock9lbHBONWp6WVk0QlZiaVpUTlp5b3JsbncwT3NWc21sQVIzTEdkeUdYNnZ0b1hiXzdfUWRRXzRFT0g2SzRZcng2Q2hqbzJMLVE2azBwUU9Kc0lBdW5sV2tSaGUxTy1LajBmem1ZLW51cWdEZU4zTE9JT0NOSkdkUC1zS0pUUXZIb1NRODRBVm4wbTlpZDMtXzJNdE1lU3RDZzJTYm9zNXNLZDQwT0dzMDRFTF83c2N6OEhQY0REX0hYOVhzRndMUEZJX0FQOVo3XzNQY0pORlBZZXFWRUJwWDloSnRNRVdhZ09PX1dxa1JUcjYzLTZNelpr0gGeAkFVX3lxTE5uYzR5eFRBZzQ3MFpjNEtDMmlaa1l4dE8zbzRUN3hfNUJzM3BHaFZCazBzMTBGTWxNNGJvajEteWloalUxNXV2UTI3dnctRXJRaVhfMk1nYTg4ZVh0YVBzLVBrTGFub1RLRWhENWlVLVpWNGpIcU9rMjFoWGllZ2ZnQl93enJoczlocHByejUxNjlMZ0c0SzYwbXJydjFFNFBXbVZ6VzZEdXRkVjRGOVBGYXZhOERaR1pIRjliM0lkRjRoNHgzeGRBamdST0Y4VFBSOVhQeTdLRVdXMDFacmZaVnRtUVB0SGxsVmpIWkhtQ3lTOVE1VWRtbzNKSklybmpYc0Q5LTFTVnJtSWR5aXVMZnl3cmhiM2xHS2c2ekE",
+          "published_at": "2026-10-14T07:31:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_8e636ddb58f87323",
+          "title": "Rabat calla ante la visita de los Reyes a Ceuta y Melilla mientras la prensa de Marruecos habla de \"provocación\"",
+          "title_key": "rabat calla ante la visita de los reyes a ceuta y melilla mientras la prensa de marruecos habla de provocacion",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeHQwT2ZHWHA2bDlFR2ZaNEJiMmNtaWxVN3U5SExKOG80U093ZVpMLUVnYkFCbUhvWVBzQmpSd25MNW1WSmdoZVlnbTRoQXAxV2FSVFVrZjFZenlkN2wyWWNSSkdLaHJnZjBnSWlfVG9kMjVfa0ZmdUwtQWlkTjhsUE9XVzhmaGU1UjBXRHI4OUtpdS11V1Z6UWtxRHA2V1dUbFZjbDNhQdIBrAFBVV95cUxQdjJqc0xweHRaUXpDY3RhM0Z4UlYyUVdJemNUejNfbHdGR3N6UlFpZjAzUE00VGR3NlRzRENPMHp3Vm5GaUZhSHpab3Vpb0J3VlJrNFFIVGhpSjVuRDVQSk5PSWIySVJ2M2xzQURPR1BsX3VqZVY3WnhCUnRCU201MzFHQlpXSmYwNUJ6Njg0c3YzcDhOMEtwaGlCbC0xLUhkdUY1WFFnTjQxcFJ1",
+          "published_at": "2026-10-14T09:23:50Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -851,52 +869,6 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_7186896bcb27bb23",
-      "topic": "relations",
-      "first_seen": "2026-10-14T09:23:50Z",
-      "last_seen": "2026-10-14T09:23:50Z",
-      "headline": "Rabat calla ante la visita de los Reyes a Ceuta y Melilla mientras la prensa de Marruecos habla de \"provocación\"",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_8e636ddb58f87323",
-          "title": "Rabat calla ante la visita de los Reyes a Ceuta y Melilla mientras la prensa de Marruecos habla de \"provocación\"",
-          "title_key": "rabat calla ante la visita de los reyes a ceuta y melilla mientras la prensa de marruecos habla de provocacion",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeHQwT2ZHWHA2bDlFR2ZaNEJiMmNtaWxVN3U5SExKOG80U093ZVpMLUVnYkFCbUhvWVBzQmpSd25MNW1WSmdoZVlnbTRoQXAxV2FSVFVrZjFZenlkN2wyWWNSSkdLaHJnZjBnSWlfVG9kMjVfa0ZmdUwtQWlkTjhsUE9XVzhmaGU1UjBXRHI4OUtpdS11V1Z6UWtxRHA2V1dUbFZjbDNhQdIBrAFBVV95cUxQdjJqc0xweHRaUXpDY3RhM0Z4UlYyUVdJemNUejNfbHdGR3N6UlFpZjAzUE00VGR3NlRzRENPMHp3Vm5GaUZhSHpab3Vpb0J3VlJrNFFIVGhpSjVuRDVQSk5PSWIySVJ2M2xzQURPR1BsX3VqZVY3WnhCUnRCU201MzFHQlpXSmYwNUJ6Njg0c3YzcDhOMEtwaGlCbC0xLUhkdUY1WFFnTjQxcFJ1",
-          "published_at": "2026-10-14T09:23:50Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_961f7e4ad270a43b",
       "topic": "ceuta",
       "first_seen": "2026-10-13T17:17:00Z",
@@ -1058,9 +1030,9 @@
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 3,
     "SINGLE_SOURCE": 2,
-    "UNCONFIRMED": 9,
-    "TOTAL": 14
+    "UNCONFIRMED": 8,
+    "TOTAL": 13
   },
   "article_count": 36,
-  "event_count": 14
+  "event_count": 13
 }

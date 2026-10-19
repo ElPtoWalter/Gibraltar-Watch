@@ -1,13 +1,105 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-19T10:50:47.542490+00:00",
+  "generated_at": "2026-10-19T17:31:38.789742+00:00",
   "events": [
+    {
+      "event_id": "evt_d0e82ce8e43e0a82",
+      "topic": "ceuta",
+      "first_seen": "2026-10-19T15:59:59Z",
+      "last_seen": "2026-10-19T15:59:59Z",
+      "headline": "Spain's rush to clear Ceuta migrant backlog raises rights concerns",
+      "classification": "FACT",
+      "verification_status": "SINGLE_SOURCE",
+      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
+      "sources": [
+        {
+          "source_id": "reuters",
+          "source_name": "Reuters",
+          "source_domain": "reuters.com",
+          "tier": 4,
+          "official": false,
+          "weight": 4.0
+        }
+      ],
+      "source_ids": [
+        "reuters"
+      ],
+      "articles": [
+        {
+          "article_id": "art_e3cac4c4485b0b71",
+          "title": "Spain's rush to clear Ceuta migrant backlog raises rights concerns",
+          "title_key": "spain s rush to clear ceuta migrant backlog raises rights concerns",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcHhVRndKQndRWEM0aUtFR1FmbU9HRDRmNFlwWkZtVE9ZdWR6UWp2Z2ZsOGw3b3JDXzZXOVJoelRQa1NIRUFPVmlySWRDTTJfT0theUFWOXFiZGdfLWtRelM3OHNSLVB3SUtvLWZSNVZIaUZkNFN3d3JkbHQxMDRXX19ZT0xkNVd6MmxKQ3kyWV95TWVhcy1qdnVMMWdoblUyaFg5NC14WjB5d1NOZUV1UQ",
+          "published_at": "2026-10-19T15:59:59Z",
+          "observed_at": "",
+          "source_id": "reuters",
+          "source_name": "Reuters",
+          "source_domain": "reuters.com",
+          "tier": 4,
+          "official": false,
+          "weight": 4.0,
+          "topic": "ceuta",
+          "classification": "FACT",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 43,
+      "operational_impact": "CONTEXT",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_04a63cfdd1e4e547",
+      "topic": "relations",
+      "first_seen": "2026-10-19T10:24:36Z",
+      "last_seen": "2026-10-19T10:24:36Z",
+      "headline": "Morocco-US strategic ties challenge Spain’s influence in Washington, report says - HESPRESS English - Morocco News",
+      "classification": "DECLARATION",
+      "verification_status": "DECLARATION_ONLY",
+      "verification_reason": "The record is a declaration and is not treated as an operational fact.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_8a3fd593018a59d9",
+          "title": "Morocco-US strategic ties challenge Spain’s influence in Washington, report says - HESPRESS English - Morocco News",
+          "title_key": "morocco us strategic ties challenge spain s influence in washington report says hespress english morocco news",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVlpNOHFSYkJsV0p1TTNpa29wZXcyYkFEcy0yalIyQ0hCRW5ZUjNpek9MR0hkVXRBbTFxRGNEUHowa0NRVGliU21WNm92ckF6bWVYTTR1YU4yU2h3WlVSalc1NGtzdWo0UVJuaFVrTjZsZXp2UWFZcjFFRXRYS01rZl9QWkdfSjQ0MDc0d19MRXJwcUN4N2NRMF9MM1I4Um9UcmNtVUhVeHpVeE5Wd0NXVW8yYk0",
+          "published_at": "2026-10-19T10:24:36Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "DECLARATION",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 30,
+      "operational_impact": "POTENTIAL",
+      "operational_eligible": false
+    },
     {
       "event_id": "evt_790349aed595c58e",
       "topic": "relations",
       "first_seen": "2026-10-19T09:12:12Z",
       "last_seen": "2026-10-19T09:12:12Z",
-      "headline": "David Alvarado analizará en Ourense la crisis de Ceuta y las relaciones entre España y Marruecos el martes",
+      "headline": "El ex cónsul español en Casablanca: \"El autor necesario de la crisis de Ceuta tuvo que ser Marruecos, esto no lo hacen las redes sociales\"",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
@@ -25,6 +117,24 @@
         "unknown"
       ],
       "articles": [
+        {
+          "article_id": "art_7e03f72a30876f06",
+          "title": "El ex cónsul español en Casablanca: \"El autor necesario de la crisis de Ceuta tuvo que ser Marruecos, esto no lo hacen las redes sociales\"",
+          "title_key": "el ex consul espanol en casablanca el autor necesario de la crisis de ceuta tuvo que ser marruecos esto no lo hacen las redes sociales",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWWpyMmx3UzF4VnVMMzdZZ0Z0a1VIQzMyQmJIQlpVVzBZU1dnci03a1ZrVWlrZG9HR1laWDBUSWl5SkkxV2hWeTZOY2RfZmV4Vm5sRkJ4aktOYzdDbHFNV0FvV25HT2JMRHdsYXdWOTFLTmk1WjdhamY3R2hzZUZTbHBuaUFoZ2t1VGk0eW04VzlUZHpPWmJWUDJFRVhEVFlHc1pOZnhrSjM5SlAzTE51Y3d1R1hwQdIBuwFBVV95cUxNR1VxVXljcVBDaTI1N3BBREtTaTM2TWplZUd6RHE2RjhMQU1POE00THZIVVVjSHJzSktpMHRSUVV2cHN0ZmV2TUU0NzN2czYxWWRjRWttNUFCVmtWVFFzbDRUeTB5T3lXcjFKdVhZbG54dmxHeVcwWmRkRU9OcTYza1hraTR4ZEhMSGo1cjQwaVB0aFZRVmg4MWhZTTJPQlkxQjF1V1FDcWdUcXVuN3JiOER0X1Z4aFJPSzRr",
+          "published_at": "2026-10-18T22:01:45Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
         {
           "article_id": "art_9f0bacef8e0bddfa",
           "title": "David Alvarado analizará en Ourense la crisis de Ceuta y las relaciones entre España y Marruecos el martes",
@@ -39,52 +149,6 @@
           "official": false,
           "weight": 1.0,
           "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_8a83d7fb30f10dbd",
-      "topic": "melilla",
-      "first_seen": "2026-10-18T11:08:09Z",
-      "last_seen": "2026-10-18T11:08:09Z",
-      "headline": "Largas colas y cansancio en la frontera de Melilla tras la visita de los Reyes - El Faro de Melilla",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_bf0581e8b8b5e0c3",
-          "title": "Largas colas y cansancio en la frontera de Melilla tras la visita de los Reyes - El Faro de Melilla",
-          "title_key": "largas colas y cansancio en la frontera de melilla tras la visita de los reyes el faro de melilla",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaERmeU9BVHMwSzBKREd3bW4wXzkweGNacHB4VUhaSmFvRmlNUUJtZi1mVlYtZXhaeUdwTno5bkNFZ0o1ZzUySEhXZzljNFdGSFdzSHVTYjRNTVpsOF9qR1J1aXVpTXBxWEJEZF9lWnZ5MVRMZmtRWHNzWC1ocW0yS1Q4NFkwRjF1cm5TR0FtR1ZhalctdlVRNmhKV1dPN0VRNGV6VjZwT3FwQdIBrwFBVV95cUxNWXJkbnhvQmRnNWFrd3Uxd0hDV0N6UkNiRG55Sk02bkdHVmZ2a3pBaTl5Zzhicno3LWN6ZHZlV1ZUV0hJTmlueW85cVZjZlNTSmU1eG5BQ045ZEp3dXlicWtCSUlxb0hjODlPWUxEMHFkdjhuY3RITXZkNmxBV19RYmxIdHJrUjlId3hacTBDUXpxWVVSa2J1Mkt2NFZVZWRKT3h4VHBqTTRick9nWFBF",
-          "published_at": "2026-10-18T11:08:09Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
@@ -310,29 +374,11 @@
       ],
       "articles": [
         {
-          "article_id": "art_d6a9b9d79587a92b",
-          "title": "Most Spaniards believe Ceuta and Melilla tensions could lead to armed conflict with Morocco",
-          "title_key": "most spaniards believe ceuta and melilla tensions could lead to armed conflict with morocco",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZjNLel9xdTdBNXprajV3UnUtaEJseWlnclZoRl8wNWhrOUJTZF9SU0RiZWVkcVRUYnBsSTlHOVRUM2tXVXhsWGk1UlN3SVBWdDd0amdiYUlzMFUtY2VUQy02UWVjQ2Zad0s0WG5DclNVdGlNczlsMFdhX2FCdmxvM0xPRzVYNDE5V1o3YlRaR0lwbXM",
-          "published_at": "2026-10-13T15:28:06Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_26e563f01cbe9f38",
-          "title": "Madrid affirms strong relations with Morocco as Felipe VI visits Ceuta and Melilla",
-          "title_key": "madrid affirms strong relations with morocco as felipe vi visits ceuta and melilla",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcTE4VDNoVFZkVk50YUZGNGNGVDZXWXV0YXpQU3ZZX2JHUGIwSkhEZjNOdmRoS2l1RkEzOGpOVnkyckNHb2Mtc0ZPVEYzd2NUR0ZTMjlyWDVnb2tVTEw3R3BOampUckNEX3pNbXhqRlF2bzc5TXhLRDdrSGF6WkNaNnkwNEdGdmdrSG9ZcGt5aU9CSGM",
-          "published_at": "2026-10-13T16:46:42Z",
+          "article_id": "art_3b1fff368dd5c9bb",
+          "title": "Spain Reaffirms Good Ties With Morocco Amid Royal Visit to Occupied Ceuta",
+          "title_key": "spain reaffirms good ties with morocco amid royal visit to occupied ceuta",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSW9QejlpNDRVZy04Q1FaOUJURnFxYlE1UjV6SUZUTFFSSnQtOEVBNDVOZTdPZmgzdTBpUVRPSjczVzF1UmVhbFZyVFJlM0lGMF9IMXFxZjgza1BubDloLS13X3MwNE03Sk9TX2RNd0JyNmU4R3A2cjJuUWRWTGozWnBjUFZ3TllGMHMwaERlOVBDeU14c2h2b21fYXcwb2hENnZoX3JwOGpRcHJMSG45T0Fud2Q1NDhVWFdZM3hldw",
+          "published_at": "2026-10-13T20:09:35Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -454,11 +500,11 @@
           "description": ""
         },
         {
-          "article_id": "art_a6726b4bb660a19d",
+          "article_id": "art_1cd23862b4beca29",
           "title": "After Felipe VI’s visit to Ceuta and Melilla, Sánchez insists on constructive relations with Morocco",
           "title_key": "after felipe vi s visit to ceuta and melilla sanchez insists on constructive relations with morocco",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOcHZNbWZJYW9tdk0taGdaRTZKZFlNUTg3ZTZSTFdfSVJ4SElFZGhPX1FhV2ZRODRzeENWc0V5WVdWZzctOU5HWF96dUlkdV9BbUVFMHNYTDZheGJqWjFyWHdKRmwyRnVmckFFTEwzeW1tazhpWWowX3BqcDNIdE9wOG90TjZGWC1kZ1E",
-          "published_at": "2026-10-15T21:48:29Z",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOclpSX3dqenNSQWhxRGM1V2JjYzBOSXprZW90OVNsWlcxT0ktV0xYSUtCQk9HWm1idE1BakItNGJ3eUtOU3pfN0ZKWDNxMG9hWldSQTJVMFdYbFpqbV9qRndrdWJGLU9QcThEZVRaUkhNa0hhdlRVZWpOeUlqdDlxUzRaUVJfLVJRMU1B",
+          "published_at": "2026-10-15T21:45:00Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -1032,61 +1078,15 @@
       "importance": 46,
       "operational_impact": "CONTEXT",
       "operational_eligible": false
-    },
-    {
-      "event_id": "evt_5f0e932563f9329f",
-      "topic": "relations",
-      "first_seen": "2026-10-13T20:09:35Z",
-      "last_seen": "2026-10-13T20:09:35Z",
-      "headline": "Spain Reaffirms Good Ties With Morocco Amid Royal Visit to Occupied Ceuta",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_3b1fff368dd5c9bb",
-          "title": "Spain Reaffirms Good Ties With Morocco Amid Royal Visit to Occupied Ceuta",
-          "title_key": "spain reaffirms good ties with morocco amid royal visit to occupied ceuta",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSW9QejlpNDRVZy04Q1FaOUJURnFxYlE1UjV6SUZUTFFSSnQtOEVBNDVOZTdPZmgzdTBpUVRPSjczVzF1UmVhbFZyVFJlM0lGMF9IMXFxZjgza1BubDloLS13X3MwNE03Sk9TX2RNd0JyNmU4R3A2cjJuUWRWTGozWnBjUFZ3TllGMHMwaERlOVBDeU14c2h2b21fYXcwb2hENnZoX3JwOGpRcHJMSG45T0Fud2Q1NDhVWFdZM3hldw",
-          "published_at": "2026-10-13T20:09:35Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
     }
   ],
   "verification_summary": {
     "CONFIRMED_MULTI_SOURCE": 0,
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
-    "DECLARATION_ONLY": 3,
-    "SINGLE_SOURCE": 2,
-    "UNCONFIRMED": 10,
+    "DECLARATION_ONLY": 4,
+    "SINGLE_SOURCE": 3,
+    "UNCONFIRMED": 8,
     "TOTAL": 15
   },
   "article_count": 36,

@@ -1,7 +1,99 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-19T17:31:38.789742+00:00",
+  "generated_at": "2026-10-19T22:25:35.814285+00:00",
   "events": [
+    {
+      "event_id": "evt_e58ddff06944889e",
+      "topic": "ceuta",
+      "first_seen": "2026-10-19T17:46:39Z",
+      "last_seen": "2026-10-19T17:46:39Z",
+      "headline": "Spain’s Ceuta Migration Crisis Tests EU Asylum Rules as Thousands Await Decisions",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_071dc965c99b92c0",
+          "title": "Spain’s Ceuta Migration Crisis Tests EU Asylum Rules as Thousands Await Decisions",
+          "title_key": "spain s ceuta migration crisis tests eu asylum rules as thousands await decisions",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9iS1c5RnRVSG00YVNnekt2bmFUYXVrcTlTOEozU01aOHB2cHppTzZVRno0a2lqMkU5NW9VQTNlLWxFTU9JRElFM1dYWUxkcVpYMXI2RGZSaFkyZnlseUdRSDdkUnpqbmJDd0ZqUHZYT3NMSWN5UE9UdjBR",
+          "published_at": "2026-10-19T17:46:39Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_4db9f96a54bd7de5",
+      "topic": "relations",
+      "first_seen": "2026-10-19T17:21:51Z",
+      "last_seen": "2026-10-19T17:21:51Z",
+      "headline": "Felipe VI’s visit to Ceuta and Melilla continues to draw criticism in Morocco",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_8c4be9e1b6437767",
+          "title": "Felipe VI’s visit to Ceuta and Melilla continues to draw criticism in Morocco",
+          "title_key": "felipe vi s visit to ceuta and melilla continues to draw criticism in morocco",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVEswRFlIb1BoQU9OX3BEaW9USWdQZllORDl3MmRzZkxyLWxnUUdrNjBFeW1VdHRKekptQkJoenA3dThwbG1XazlIaWliTDB1bWVTWTNUZThFRHVQaDdRS2RPUndKbFFqUkRkcTRjYURxN0NuWURLb2NqMmZTUWdLQUZTRnA5U0F3X2dDNQ",
+          "published_at": "2026-10-19T17:21:51Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
     {
       "event_id": "evt_d0e82ce8e43e0a82",
       "topic": "ceuta",
@@ -392,24 +484,6 @@
           "description": ""
         },
         {
-          "article_id": "art_5ddd5bba3bc68fdd",
-          "title": "Spain’s king in Ceuta: Relations with Morocco must be based on mutual trust and respect",
-          "title_key": "spain s king in ceuta relations with morocco must be based on mutual trust and respect",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTmYwVS1BMkpORFNVSldTX20tcHpFNkpmZFY0NFVLVkdVdzlNRGExTFNVNEVzaEJrMEtYcmc5WHNtSUFBNHF2aUlyZVBheWhxd09mMkFnU2hxdndFMGFrbF95S19Jd2NBa2cwYTI0QnpheDRwZ1ZZMjZGSzdQRDNSWi11RDBXYS01NHN3MDBKbw",
-          "published_at": "2026-10-14T09:12:31Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
           "article_id": "art_c351fa281790a169",
           "title": "Spain’s king reasserts sovereignty over Ceuta, Melilla as Morocco remains silent",
           "title_key": "spain s king reasserts sovereignty over ceuta melilla as morocco remains silent",
@@ -656,6 +730,52 @@
       ],
       "importance": 30,
       "operational_impact": "POTENTIAL",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_a19da3dd24d9a5ca",
+      "topic": "ceuta",
+      "first_seen": "2026-10-15T06:16:34Z",
+      "last_seen": "2026-10-15T06:16:34Z",
+      "headline": "Ceuta and the Politics of Not Naming",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_103abdc13c31fd08",
+          "title": "Ceuta and the Politics of Not Naming",
+          "title_key": "ceuta and the politics of not naming",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdlJxUTNmX0hRMHRqLXdtSTFsbWlsVVNGX2hBWnFBQ3FVYXVNbkt1ekc1bTVnTWUta1FRb3UtWXcxdDJPemFnZnQxT3FqN2FnR3dTQ25aX0pyT1dtYmZ6NUxmZDZvb1htN0hzQnJUbXdnZnJGRno4YWxuVEZvUWtHU3lITQ",
+          "published_at": "2026-10-15T06:16:34Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
       "operational_eligible": false
     },
     {
@@ -975,19 +1095,11 @@
       "topic": "ceuta",
       "first_seen": "2026-10-13T17:17:00Z",
       "last_seen": "2026-10-14T08:24:33Z",
-      "headline": "2 months after Spain’s worst border crisis, migrants at a Ceuta tent camp weigh their choices - AP News",
-      "classification": "FACT",
-      "verification_status": "SINGLE_SOURCE",
-      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
+      "headline": "'Sovereignty is non-negotiable': King Felipe VI visits Ceuta following summer border crisis",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
       "sources": [
-        {
-          "source_id": "ap",
-          "source_name": "Associated Press",
-          "source_domain": "apnews.com",
-          "tier": 4,
-          "official": false,
-          "weight": 4.0
-        },
         {
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -998,46 +1110,9 @@
         }
       ],
       "source_ids": [
-        "ap",
         "unknown"
       ],
       "articles": [
-        {
-          "article_id": "art_2e124ee9858cdf63",
-          "title": "2 months after Spain’s worst border crisis, migrants at a Ceuta tent camp weigh their choices - AP News",
-          "title_key": "2 months after spain s worst border crisis migrants at a ceuta tent camp weigh their choices",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdjZmRXRmRkpJZFo1U3dHTHFkcGR5aE04MXRDNFl1TEMxMHhZR2l4c091a2ZlVVZHZ1lBdlVLUHgyUDRaenRCaDh6SkZxWVhRQ0duQ2pEd2t4UVpnVmc3VWhScjNmWHU3OXNDVzZOYWtoNGx0NVdUbjFCbnVNd2RXU1NSVG1VYkI4NVZKNkhQLUpPSjdrbVJZ",
-          "published_at": "2026-10-13T17:17:00Z",
-          "observed_at": "",
-          "source_id": "ap",
-          "source_name": "Associated Press",
-          "source_domain": "apnews.com",
-          "tier": 4,
-          "official": false,
-          "weight": 4.0,
-          "topic": "ceuta",
-          "classification": "FACT",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_67bb245721f287f1",
-          "title": "Spain's king and queen visit Ceuta as territory grapples with protracted migration crisis",
-          "title_key": "spain s king and queen visit ceuta as territory grapples with protracted migration crisis",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZU9CbHEyNzBJNnd1dE1GYkRhWlZEV0dKTGZOWjVyNzlJenhPVm5BbGJfaVpjSW9uZ0k2NS1IR25zVHhIRlhXLWZNY0thTldXU1BnY2htcmdZSWpmUGp2Q2Q3UEx1T1FBRlJpNVhRUllMTG5zZ1A1SklmVkFadVowRzNhblVmTmRld2w3QmlxSTBPVFpyRU9UOUdjUjNfOEtRUW9TTXItRkZZdmJLNk5ESi11VmM3X3QyU3VHNWpYdzBfc3lNUU1hWGY4NzA",
-          "published_at": "2026-10-13T17:34:21Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
         {
           "article_id": "art_a8541fe1a2775824",
           "title": "Spain's King & Queen Visit Ceuta as Migration Crisis Fuels Sovereignty Dispute with Morocco",
@@ -1075,8 +1150,8 @@
           "description": ""
         }
       ],
-      "importance": 46,
-      "operational_impact": "CONTEXT",
+      "importance": 4,
+      "operational_impact": "NONE",
       "operational_eligible": false
     }
   ],
@@ -1085,10 +1160,10 @@
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 4,
-    "SINGLE_SOURCE": 3,
-    "UNCONFIRMED": 8,
-    "TOTAL": 15
+    "SINGLE_SOURCE": 2,
+    "UNCONFIRMED": 12,
+    "TOTAL": 18
   },
   "article_count": 36,
-  "event_count": 15
+  "event_count": 18
 }

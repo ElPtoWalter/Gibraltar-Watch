@@ -1,7 +1,53 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-18T23:20:05.139833+00:00",
+  "generated_at": "2026-10-19T04:49:00.300610+00:00",
   "events": [
+    {
+      "event_id": "evt_8a83d7fb30f10dbd",
+      "topic": "melilla",
+      "first_seen": "2026-10-18T11:08:09Z",
+      "last_seen": "2026-10-18T11:08:09Z",
+      "headline": "Largas colas y cansancio en la frontera de Melilla tras la visita de los Reyes - El Faro de Melilla",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_bf0581e8b8b5e0c3",
+          "title": "Largas colas y cansancio en la frontera de Melilla tras la visita de los Reyes - El Faro de Melilla",
+          "title_key": "largas colas y cansancio en la frontera de melilla tras la visita de los reyes el faro de melilla",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaERmeU9BVHMwSzBKREd3bW4wXzkweGNacHB4VUhaSmFvRmlNUUJtZi1mVlYtZXhaeUdwTno5bkNFZ0o1ZzUySEhXZzljNFdGSFdzSHVTYjRNTVpsOF9qR1J1aXVpTXBxWEJEZF9lWnZ5MVRMZmtRWHNzWC1ocW0yS1Q4NFkwRjF1cm5TR0FtR1ZhalctdlVRNmhKV1dPN0VRNGV6VjZwT3FwQdIBrwFBVV95cUxNWXJkbnhvQmRnNWFrd3Uxd0hDV0N6UkNiRG55Sk02bkdHVmZ2a3pBaTl5Zzhicno3LWN6ZHZlV1ZUV0hJTmlueW85cVZjZlNTSmU1eG5BQ045ZEp3dXlicWtCSUlxb0hjODlPWUxEMHFkdjhuY3RITXZkNmxBV19RYmxIdHJrUjlId3hacTBDUXpxWVVSa2J1Mkt2NFZVZWRKT3h4VHBqTTRick9nWFBF",
+          "published_at": "2026-10-18T11:08:09Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "melilla",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
     {
       "event_id": "evt_b5bf15a6daea8688",
       "topic": "ceuta",
@@ -217,6 +263,24 @@
         "unknown"
       ],
       "articles": [
+        {
+          "article_id": "art_d6a9b9d79587a92b",
+          "title": "Most Spaniards believe Ceuta and Melilla tensions could lead to armed conflict with Morocco",
+          "title_key": "most spaniards believe ceuta and melilla tensions could lead to armed conflict with morocco",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZjNLel9xdTdBNXprajV3UnUtaEJseWlnclZoRl8wNWhrOUJTZF9SU0RiZWVkcVRUYnBsSTlHOVRUM2tXVXhsWGk1UlN3SVBWdDd0amdiYUlzMFUtY2VUQy02UWVjQ2Zad0s0WG5DclNVdGlNczlsMFdhX2FCdmxvM0xPRzVYNDE5V1o3YlRaR0lwbXM",
+          "published_at": "2026-10-13T15:28:06Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
         {
           "article_id": "art_26e563f01cbe9f38",
           "title": "Madrid affirms strong relations with Morocco as Felipe VI visits Ceuta and Melilla",
@@ -503,52 +567,6 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_a19da3dd24d9a5ca",
-      "topic": "ceuta",
-      "first_seen": "2026-10-15T06:09:19Z",
-      "last_seen": "2026-10-15T06:16:34Z",
-      "headline": "Ceuta and the Politics of Not Naming",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_103abdc13c31fd08",
-          "title": "Ceuta and the Politics of Not Naming",
-          "title_key": "ceuta and the politics of not naming",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdlJxUTNmX0hRMHRqLXdtSTFsbWlsVVNGX2hBWnFBQ3FVYXVNbkt1ekc1bTVnTWUta1FRb3UtWXcxdDJPemFnZnQxT3FqN2FnR3dTQ25aX0pyT1dtYmZ6NUxmZDZvb1htN0hzQnJUbXdnZnJGRno4YWxuVEZvUWtHU3lITQ",
-          "published_at": "2026-10-15T06:16:34Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_a7745d7d3c137569",
       "topic": "relations",
       "first_seen": "2026-10-15T06:33:10Z",
@@ -641,24 +659,6 @@
           "title_key": "felipe vi supedita la buena relacion con marruecos a que ceuta es espana y emplaza al gobierno y la ue a defenderla",
           "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQN1FaQ213NWQ0VGV5MVYyUDlVMnN0SVc0UmNSb3l0a3U0allYUjFYTnROQ2d5MUtvakVMWVVpVnRHbkIwNUN5YzEtVGhqeHJpZ25PdWRzNDFiMWxZOXN5RWZwUm9HNHpqdzRnVGw0c25TV2YxdXhaeHhmWnlidTRsZWlLWkF1Um5tUTNSNnFuMmZ5YkdjRzdZbUlsdFhIZGYtUlJFcndBdHJaaWstRnExdHVtQy12NGR4QWNsXzRfYnNkN0psd2N3SkQxWVRFczV6Yk04c2ZTYlpxQ1pyaHI4b01JSGHSAeoBQVVfeXFMUHZsWGdiYWR5VzQyZ2tTcnFsUkJ5eGxuU3lsZVV1SDloeFBrYlV1SEk1a2c2V3F5ZUZzNmpwQjM4TXUtVTc5Vzg2VkxCN2twWmktYzlsdFhVeThCbTFpd01pMHlBeUoxdmwtWFJNZFJ4dnk1N1Q3UDh6X095VERBQWl3TXB6OExFU1RKc1NFVmVHYmlFODE1Ri1pandNTTREOXpPdEIwWmFEUzgxTVBKZUJ3alVseHdSRmxwaU1jTGk1Q1JWY201d29SamJyS3Vpa0NJRXlqNVZqNGdnYjI2Z2tuV05UQmltYktB",
           "published_at": "2026-10-14T03:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_579303141aa3cd6d",
-          "title": "Felipe VI defiende la soberanía de Ceuta tras la crisis fronteriza y pide unidad ante momentos \"difíciles\"",
-          "title_key": "felipe vi defiende la soberania de ceuta tras la crisis fronteriza y pide unidad ante momentos dificiles",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQOTZYSnA4MGxKZERIUWpiX253MEUtWlF5TU5idGs2eExmT2RLY2VjZ0lMalpuWGxGeFBYYUFUUkh5Q3hsSGNWUGdxdTkxaUk4VHlHQXZqNUFWUVhhdTd4RUhxeWVCM3lscXF3QnNkM09sWWtNTjlMMTQ2NE9NUXFlWmVYX05QOVRaVDNnaWk2WUo4Q1g3aWp2TDhrcjN0NVZwdmhPazJLOGx1alFDSV9QQTBCelJPck1BNGNoOHMtMXRPX2VSMVRLTEJrcUFJUU9aeTVPdWw4alVXdw",
-          "published_at": "2026-10-14T04:11:18Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",

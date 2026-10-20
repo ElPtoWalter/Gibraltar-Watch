@@ -1,7 +1,53 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-20T18:29:58.100701+00:00",
+  "generated_at": "2026-10-20T22:21:02.560061+00:00",
   "events": [
+    {
+      "event_id": "evt_62140222cd553a78",
+      "topic": "ceuta",
+      "first_seen": "2026-10-20T14:21:53Z",
+      "last_seen": "2026-10-20T14:21:53Z",
+      "headline": "Spanish judge seeks informant who warned of Morocco movements before Ceuta migrant crisis",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_75ad2417fbdeb668",
+          "title": "Spanish judge seeks informant who warned of Morocco movements before Ceuta migrant crisis",
+          "title_key": "spanish judge seeks informant who warned of morocco movements before ceuta migrant crisis",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQaVl3cXJ5d2NNYWNpY0dudlcxakZaVDV5M29Gd182R0JmWDI5UGdKYTlEdFdzeDFiWXVSQUd6RTh1TVhFWTM0aDhhQjllcFFOLW9Hb2lRSHhmaDhaYkhVdzA3OHBjSTdnOUZsTHZGNm8wLWNfNjYyNm9YbjFEemxhNXdXYWlvSjlUblFVR0pjSEpMZlk",
+          "published_at": "2026-10-20T14:21:53Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
     {
       "event_id": "evt_e58ddff06944889e",
       "topic": "ceuta",
@@ -374,60 +420,6 @@
           "description": ""
         },
         {
-          "article_id": "art_21da806133c9b359",
-          "title": "El Rey reivindica desde Melilla una relación con Marruecos basada en la confianza y la buena fe",
-          "title_key": "el rey reivindica desde melilla una relacion con marruecos basada en la confianza y la buena fe",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQVVwbVFDR01uVDUtTnhMU25wLTh5UGpRVkRDRnN4OXR6MHdUeXRSNkZHc2dhXy0wQlBja1lhZHd2NTlIc0ZlR05YOGM4N2RQbFpWUk9BSnNPWlNrMnFZLXZiOTdjaUdWNWxBTG55ZjNNT204bzBBVkoycXptemFNVUROX1diVV9SQWk4bloyRmJCcU9YWTA5d0pGa0lQeDZzNjB2OXVJdkY2SE1SUXR5VDF1TDB2Mm1SN05pMkFzMEJlZVnSAcgBQVVfeXFMUEdpQUVQYTN2ZTdxYTVGeGdIVW1FUS0xc0MxSjMzZTJmM0NDdUlXUy1MSU9NbDI3TnE4bTlsa09NRWkwMk9KSmQxV2NDUGptUHl1cnoxSm9PSnZDVTdJZllOUjFrVl9xOVoxdnVsazVaTERTaWE5bXRzaHVMU1kxNVkxdHJmNHh2ay1GZUxMd19WOWxwRnM3VHpiX1pmZlNTRG54YUxVZFJ1ZWc4RndQZGl5b2VqanNIVnM0T2J6TmJ1US1hUEU5ekE",
-          "published_at": "2026-10-14T09:34:53Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_b96abafa2b7064b5",
-          "title": "El rey de España reclama a Marruecos una relación basada en la \"buena fe\"",
-          "title_key": "el rey de espana reclama a marruecos una relacion basada en la buena fe",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdzhLdnFISVdyTHQ1WFZDRXhCNWl3OEdQMEIyNWJ0UzAxX1pULUYyZ3FWVVVaYlVjQ3NzRTZhamp3Ny15VVdUdjl3eGhQRU1HcjhEc3hVYm5ERzR5eGk5dVNnSUJDVkVMRFhpZjVfWEdkbzgzM0dud0dWOXlzY2RiczJ3MWhGdGdqMWF4U2ZmNklMRzB5Z01BMg",
-          "published_at": "2026-10-14T17:07:41Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_e9a760ab0d02dac2",
-          "title": "Sánchez apela a la relación constructiva con Marruecos tras la visita de los reyes a Ceuta",
-          "title_key": "sanchez apela a la relacion constructiva con marruecos tras la visita de los reyes a ceuta",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNTGJ5VnFrWjh0ZEJXZDB4dTF3RHFBVW04dzFnSUlrWjJIWUhPY3RUeEcyZjg0bGhTUl9RZ2d6WU5QU2FMZmdzdWc0STR4SVdGUkxKcDlyWXdRRjhCTy1oYWlyZjg2ZkJRYlo5YlN4S1YyUE9DWmJ1d1pyVkdGb2NoSVhDWC1XT2t6R3dXSHFGZjNnbXJ6WUtCUG1yT2twWFliY0lSOWlYdVJabUoxd2k4dW16MUhuamxEakZhWTZpNHEtdGk5RUNPZzVCNWhrWi05NDUzWDJ0YXF1QdIB9AFBVV95cUxPU005NHFlSWV4VUljM2d1RF9la0h0cjc0Zld0SU1TLVdGZUIxSGd5S21CMFE1SWllZFR0R3pmLVJYZnJwSmoyZWhNYmc2MV9VLVdrSFl3QTlMa2ljV1pSQkF3dThBdUZSckZMekdlNnJOM3NseDJxWTBtV1M2RTgzMmJYQXVlUGh6a1RIWWhORUpxZHlGYU5ZdDAtN2x5YWRSUGJYcWdzNUlyVmNDRHdZd0NNZWlqUnNycDJDXzJPamJzdTAzSUZxaXV3WVJPSHRSSHB1RDI3SmxhMUhVbUZzeFJXaXVaMDg4UFA5d2lERHByd1Vf",
-          "published_at": "2026-10-15T11:02:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
           "article_id": "art_f9e975b4b4196c56",
           "title": "Cuesta sobre la relación de España con Marruecos: \"El que está humillado y sumiso es Pedro Sánchez\"",
           "title_key": "cuesta sobre la relacion de espana con marruecos el que esta humillado y sumiso es pedro sanchez",
@@ -538,6 +530,24 @@
       ],
       "articles": [
         {
+          "article_id": "art_3b1fff368dd5c9bb",
+          "title": "Spain Reaffirms Good Ties With Morocco Amid Royal Visit to Occupied Ceuta",
+          "title_key": "spain reaffirms good ties with morocco amid royal visit to occupied ceuta",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSW9QejlpNDRVZy04Q1FaOUJURnFxYlE1UjV6SUZUTFFSSnQtOEVBNDVOZTdPZmgzdTBpUVRPSjczVzF1UmVhbFZyVFJlM0lGMF9IMXFxZjgza1BubDloLS13X3MwNE03Sk9TX2RNd0JyNmU4R3A2cjJuUWRWTGozWnBjUFZ3TllGMHMwaERlOVBDeU14c2h2b21fYXcwb2hENnZoX3JwOGpRcHJMSG45T0Fud2Q1NDhVWFdZM3hldw",
+          "published_at": "2026-10-13T20:09:35Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
           "article_id": "art_c351fa281790a169",
           "title": "Spain’s king reasserts sovereignty over Ceuta, Melilla as Morocco remains silent",
           "title_key": "spain s king reasserts sovereignty over ceuta melilla as morocco remains silent",
@@ -561,6 +571,24 @@
           "title_key": "king felipe uses ceuta visit to project support tells morocco ceuta is spain",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNc25uSXhHOFdsaVhLTGhwUUJORjI5VjVMaEp6Y2JXd0hRVUZrcFhPUHNTZ2NKZEdtZl9SQV9XckwxbUVIVW1xWXk0NXc3OFB3RmQ5enUwQlhhQzJhQmJGeW5zUkZodzV3b253LU15NUhCWmx2b0dDeUJ3aTJsR1RYNlBCd3FGMXV3ZDhWNVB2TXhnMmFjSFgzdzhpNG83OEFPTmltRURpcy1WMDhMN1dXQWYtWEh0MnZxNXZQY0VPNEZfdDA",
           "published_at": "2026-10-14T12:33:58Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_19a57bef77266c85",
+          "title": "Sánchez Reaffirms Spain’s Commitment to Constructive Relations With Morocco",
+          "title_key": "sanchez reaffirms spain s commitment to constructive relations with morocco",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcUR1SUJ5Q2t6NGx5X3VyTFNmaHFwamM4dWIwdmpXVVc0NFdGcU5GTWpNRUY5bGlodmZqNXAwMTU4bUdWanhJTHZ0RjhCallKWTFxMkNpTjg0dmNNVnVmSDB2RlZwcktnX2FkaHlyWnFIM0N4eVg4ZG5MOUtzYjI2cmR2MWE4TGw2TFRMbUp5UEZWNWlHdTBtWWd2NEV5eFNKbEUxNjEyMWdNSVJFNl9NUjZzeTltaEJiY2hFN3pKdkY",
+          "published_at": "2026-10-15T14:32:56Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -648,52 +676,6 @@
       ],
       "importance": 30,
       "operational_impact": "POTENTIAL",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_6112ac60bdf7d337",
-      "topic": "relations",
-      "first_seen": "2026-10-15T14:32:56Z",
-      "last_seen": "2026-10-15T14:32:56Z",
-      "headline": "Sánchez Reaffirms Spain’s Commitment to Constructive Relations With Morocco",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_19a57bef77266c85",
-          "title": "Sánchez Reaffirms Spain’s Commitment to Constructive Relations With Morocco",
-          "title_key": "sanchez reaffirms spain s commitment to constructive relations with morocco",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcUR1SUJ5Q2t6NGx5X3VyTFNmaHFwamM4dWIwdmpXVVc0NFdGcU5GTWpNRUY5bGlodmZqNXAwMTU4bUdWanhJTHZ0RjhCallKWTFxMkNpTjg0dmNNVnVmSDB2RlZwcktnX2FkaHlyWnFIM0N4eVg4ZG5MOUtzYjI2cmR2MWE4TGw2TFRMbUp5UEZWNWlHdTBtWWd2NEV5eFNKbEUxNjEyMWdNSVJFNl9NUjZzeTltaEJiY2hFN3pKdkY",
-          "published_at": "2026-10-15T14:32:56Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
       "operational_eligible": false
     },
     {
@@ -1095,11 +1077,19 @@
       "topic": "ceuta",
       "first_seen": "2026-10-13T17:17:00Z",
       "last_seen": "2026-10-14T08:24:33Z",
-      "headline": "'Sovereignty is non-negotiable': King Felipe VI visits Ceuta following summer border crisis",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "headline": "In first visit to Ceuta, Spain’s king asks for ‘good faith’ from Morocco after migration crisis - AP News",
+      "classification": "FACT",
+      "verification_status": "SINGLE_SOURCE",
+      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
       "sources": [
+        {
+          "source_id": "ap",
+          "source_name": "Associated Press",
+          "source_domain": "apnews.com",
+          "tier": 4,
+          "official": false,
+          "weight": 4.0
+        },
         {
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -1110,9 +1100,28 @@
         }
       ],
       "source_ids": [
+        "ap",
         "unknown"
       ],
       "articles": [
+        {
+          "article_id": "art_d33587744e7f9f24",
+          "title": "In first visit to Ceuta, Spain’s king asks for ‘good faith’ from Morocco after migration crisis - AP News",
+          "title_key": "in first visit to ceuta spain s king asks for good faith from morocco after migration crisis",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObmozWmNldTJoa3Z6M3BpUW9QQU1BcUR1c3pVdWtfdVpXckJkUW9VMGtOYjRJdENTUnZuam80MU1MY1JEVkdubkZlRXBGQkJTMXFiMkgxeEtUbFdBY1dNNE9GNVk3SGpSRTBqOXZfdWhES2l2aGJ6aFNCT25jRThLSlExbXFadzVGQkVYTW9XRUNxOGIy",
+          "published_at": "2026-10-14T06:57:00Z",
+          "observed_at": "",
+          "source_id": "ap",
+          "source_name": "Associated Press",
+          "source_domain": "apnews.com",
+          "tier": 4,
+          "official": false,
+          "weight": 4.0,
+          "topic": "ceuta",
+          "classification": "FACT",
+          "signal": "",
+          "description": ""
+        },
         {
           "article_id": "art_a8541fe1a2775824",
           "title": "Spain's King & Queen Visit Ceuta as Migration Crisis Fuels Sovereignty Dispute with Morocco",
@@ -1150,8 +1159,8 @@
           "description": ""
         }
       ],
-      "importance": 4,
-      "operational_impact": "NONE",
+      "importance": 46,
+      "operational_impact": "CONTEXT",
       "operational_eligible": false
     }
   ],
@@ -1160,8 +1169,8 @@
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 4,
-    "SINGLE_SOURCE": 2,
-    "UNCONFIRMED": 12,
+    "SINGLE_SOURCE": 3,
+    "UNCONFIRMED": 11,
     "TOTAL": 18
   },
   "article_count": 36,

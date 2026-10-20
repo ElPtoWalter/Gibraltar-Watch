@@ -1,9 +1,9 @@
 {
   "version": 4,
   "latest_entry": {
-    "date": "2026-10-19",
+    "date": "2026-10-20",
     "headline": "España–Marruecos: qué aportan los titulares y qué falta comprobar",
-    "summary": "Selección automática de 2 referencias de 2 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "summary": "Selección automática de 5 referencias de 5 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
     "url": "diario/actual.html",
     "material_archive": false,
     "status_snapshot": {
@@ -25,18 +25,21 @@
       }
     },
     "source_keys": [
+      "071dc965c99b92c02a41",
+      "8a3fd593018a59d91f14",
+      "8c4be9e1b643776755b8",
       "9f0bacef8e0bddfaad5c",
-      "bf0581e8b8b5e0c3ccf3"
+      "e3cac4c4485b0b7131ba"
     ],
-    "published_at": "2026-10-19T15:15+02:00",
-    "updated_at": "2026-10-19T15:15+02:00",
-    "published_rfc822": "Mon, 19 Oct 2026 15:15:00 +0200",
-    "source_count": 2,
-    "fingerprint": "fdb80d6595fc2e5fda76",
-    "mode": "brief",
-    "significance": 20,
+    "published_at": "2026-10-20T13:36+02:00",
+    "updated_at": "2026-10-20T13:36+02:00",
+    "published_rfc822": "Tue, 20 Oct 2026 13:36:00 +0200",
+    "source_count": 5,
+    "fingerprint": "35644ade7eeda36838cf",
+    "mode": "full",
+    "significance": 49,
     "significance_reasons": [
-      "novedades recientes sin cambio estructural"
+      "volumen informativo relevante"
     ],
     "indexable": false,
     "editor_engine": "gemini",
@@ -44,7 +47,7 @@
     "editor_assistant_status": "ok",
     "editorial_trace": {
       "validator_version": 2,
-      "factual_packet_sha256": "ab8214da092e8cd3b1f77b419b5da78546deb3bba6eeb1c5f85465a6d87d1b35",
+      "factual_packet_sha256": "a3e21e6f4d26e3b6ab7bc1df8d73916e046371969f881de543f4a44fd366d823",
       "provider": "gemini",
       "status": "ok",
       "attempts": [
@@ -53,55 +56,57 @@
           "model": "gemini-3.5-flash-lite"
         }
       ],
-      "factual_packet_hash": "ab8214da092e8cd3b1f77b419b5da78546deb3bba6eeb1c5f85465a6d87d1b35",
+      "factual_packet_hash": "a3e21e6f4d26e3b6ab7bc1df8d73916e046371969f881de543f4a44fd366d823",
       "event_ids": [
+        "evt_d0e82ce8e43e0a82",
+        "evt_04a63cfdd1e4e547",
         "evt_8fac77d2391693b1",
         "evt_b982bcf836e119cc",
         "evt_07f8ed82b227c16d",
-        "evt_07f8ed82b227c16d",
-        "evt_961f7e4ad270a43b"
+        "evt_07f8ed82b227c16d"
       ],
       "source_ids": [
-        "ap",
         "elpais",
+        "reuters",
         "unknown"
       ],
       "verification_summary": {
         "CONFIRMED_MULTI_SOURCE": 0,
         "CONFIRMED_PRIMARY": 0,
         "CONFLICTING": 0,
-        "DECLARATION_ONLY": 3,
+        "DECLARATION_ONLY": 4,
         "SINGLE_SOURCE": 2,
-        "UNCONFIRMED": 10,
-        "TOTAL": 15
+        "UNCONFIRMED": 12,
+        "TOTAL": 18
       },
-      "timestamp": "2026-10-19T13:15:17.864401+00:00",
+      "timestamp": "2026-10-20T11:36:26.869313+00:00",
       "fallback_used": false
     },
     "validator_version": 2,
-    "factual_packet_hash": "ab8214da092e8cd3b1f77b419b5da78546deb3bba6eeb1c5f85465a6d87d1b35",
+    "factual_packet_hash": "a3e21e6f4d26e3b6ab7bc1df8d73916e046371969f881de543f4a44fd366d823",
     "event_ids": [
+      "evt_d0e82ce8e43e0a82",
+      "evt_04a63cfdd1e4e547",
       "evt_8fac77d2391693b1",
       "evt_b982bcf836e119cc",
       "evt_07f8ed82b227c16d",
-      "evt_07f8ed82b227c16d",
-      "evt_961f7e4ad270a43b"
+      "evt_07f8ed82b227c16d"
     ],
     "source_ids": [
-      "ap",
       "elpais",
+      "reuters",
       "unknown"
     ],
-    "timestamp": "2026-10-19T13:15:17.864401+00:00",
+    "timestamp": "2026-10-20T11:36:26.869313+00:00",
     "fallback_used": false,
     "verification_summary": {
       "CONFIRMED_MULTI_SOURCE": 0,
       "CONFIRMED_PRIMARY": 0,
       "CONFLICTING": 0,
-      "DECLARATION_ONLY": 3,
+      "DECLARATION_ONLY": 4,
       "SINGLE_SOURCE": 2,
-      "UNCONFIRMED": 10,
-      "TOTAL": 15
+      "UNCONFIRMED": 12,
+      "TOTAL": 18
     },
     "edition_label": "Cuaderno diplomático",
     "edition_slug": "relations"

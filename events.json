@@ -1,58 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-21T13:52:27.486765+00:00",
+  "generated_at": "2026-10-21T18:42:19.568437+00:00",
   "events": [
-    {
-      "event_id": "evt_365d800f82575dd7",
-      "topic": "relations",
-      "first_seen": "2026-10-21T10:51:07Z",
-      "last_seen": "2026-10-21T10:51:07Z",
-      "headline": "Spanish Throne and the Legitimization of Occupation and Abuses in Ceuta, Melilla",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_7e1fa910d68d6c72",
-          "title": "Spanish Throne and the Legitimization of Occupation and Abuses in Ceuta, Melilla",
-          "title_key": "spanish throne and the legitimization of occupation and abuses in ceuta melilla",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQR2w5dzdGdXJ5ZG9EQVRQMGlVdUppUjBaSjBXNmtKZS0wS0tFaEMxT25PbE9IUFVQMWIzYThBbDBVdF9FY0l1cTg3Y3NGVFRIY0dqNUttWTdqX1ZKRmx5VE9wZ0ZPQTN5QmI4U1FBMHhjNDktekJlMFlXT3czSXY3WVpYdzJ0czFVWTZ0VDhzZG1GR2I1dndYc3gyZFczeE9hTDJzNlBVaVpRZktMU19kYU02Q21pNFJleEJoQlVVRGl5Ykc3ZWEw",
-          "published_at": "2026-10-21T10:51:07Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
     {
       "event_id": "evt_4f1ed28b2ebb9c68",
       "topic": "ports",
       "first_seen": "2026-10-21T07:30:00Z",
-      "last_seen": "2026-10-21T09:29:44Z",
+      "last_seen": "2026-10-21T11:50:36Z",
       "headline": "El Puerto de Algeciras supera los 76 millones de toneladas hasta septiembre y compensa el descenso de febrero",
       "classification": "OPERATIONAL_SIGNAL",
       "verification_status": "UNCONFIRMED",
@@ -106,10 +60,138 @@
           "classification": "OPERATIONAL_SIGNAL",
           "signal": "",
           "description": ""
+        },
+        {
+          "article_id": "art_8b89912dd2889f25",
+          "title": "El Puerto de Algeciras crece un 1,1% hasta septiembre y supera los 76 millones de toneladas",
+          "title_key": "el puerto de algeciras crece un 1 1 hasta septiembre y supera los 76 millones de toneladas",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZXRNSGgxNmlpemRBZnhuZ0syUHRXMVZrd2FLQjVKczg4b1lXNUpsSllhYVVmUHlhcGd6WEwwYzFOaE03QThYUG0xM3lwT1FKM0E5dnlLSlZubVlYM0ZuaE52S0FPYW9yZ3J6M2ZXMm1wTVd4TFV4X0tMbG9YV3FVSTJMYmtLYlNfVmg5NmxJRkpnN2FsN3QyTUhKWEo1d9IBowFBVV95cUxON2tCQm5qX1ZaejJIYmJDdmhtQ0hRNkhmbEUzSDlkN2Z1NEpXZnVLRUVrTHBDcjNCX3Z5c0NYd1hlZjkxOE1rOEdrb1liMVE5RXdaNTJQWE1XZlZpVnZsVFp2T3RjeEpqWm5vLU04dEowN1R3TWQxWUx2b2RGRmY2RHpYYjV6R1ZGcWtCYWIzc0xMT2habG5SM3dNM2wwTm5fbktr",
+          "published_at": "2026-10-21T11:35:40Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ports",
+          "classification": "OPERATIONAL_SIGNAL",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_2cf563ed0912e672",
+          "title": "El Puerto de Algeciras supera los 76 millones de toneladas hasta septiembre",
+          "title_key": "el puerto de algeciras supera los 76 millones de toneladas hasta septiembre",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMU9aRl80cmlINkFWeHJYM19iajkyd2xfWlVoYkR0YTNJT1FqTnFJM21pd0p1QXc2RHRZZmlmVnoxcmpzc3VnbXVPbXRmcGZmeUFybEZjc0Y5TVlPODZEWmxYeURRYnZXN0ZscjZUdVZ2RXVTaG9Yc0IySXFxajRFREVNeTJNWnBkZEQ5Y2VLbl9zMEQwZDl4UmEzczBpUEx6UHBEblRuUzZEbU9JSjZMTg",
+          "published_at": "2026-10-21T11:50:36Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ports",
+          "classification": "OPERATIONAL_SIGNAL",
+          "signal": "",
+          "description": ""
         }
       ],
       "importance": 55,
       "operational_impact": "POTENTIAL",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_365d800f82575dd7",
+      "topic": "relations",
+      "first_seen": "2026-10-21T10:51:07Z",
+      "last_seen": "2026-10-21T10:51:07Z",
+      "headline": "Spanish Throne and the Legitimization of Occupation and Abuses in Ceuta, Melilla",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_7e1fa910d68d6c72",
+          "title": "Spanish Throne and the Legitimization of Occupation and Abuses in Ceuta, Melilla",
+          "title_key": "spanish throne and the legitimization of occupation and abuses in ceuta melilla",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQR2w5dzdGdXJ5ZG9EQVRQMGlVdUppUjBaSjBXNmtKZS0wS0tFaEMxT25PbE9IUFVQMWIzYThBbDBVdF9FY0l1cTg3Y3NGVFRIY0dqNUttWTdqX1ZKRmx5VE9wZ0ZPQTN5QmI4U1FBMHhjNDktekJlMFlXT3czSXY3WVpYdzJ0czFVWTZ0VDhzZG1GR2I1dndYc3gyZFczeE9hTDJzNlBVaVpRZktMU19kYU02Q21pNFJleEJoQlVVRGl5Ykc3ZWEw",
+          "published_at": "2026-10-21T10:51:07Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_95ad466c6d0225e6",
+      "topic": "melilla",
+      "first_seen": "2026-10-21T09:11:00Z",
+      "last_seen": "2026-10-21T09:11:00Z",
+      "headline": "Vivas: “La soberanía de Ceuta es innegociable y la frontera no se puede subcontratar a Marruecos”",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_3e880d799b894431",
+          "title": "Vivas: “La soberanía de Ceuta es innegociable y la frontera no se puede subcontratar a Marruecos”",
+          "title_key": "vivas la soberania de ceuta es innegociable y la frontera no se puede subcontratar a marruecos",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbWtXXzZDMk9uQi1ialJxY1pkVG9pSW9kYTVscmtYN0g5YjdmcG5KbnlEX01TS29Lb0hqUXpVcnBhRVZxTG1BSUp0elpwNzB2U1RTcE5kaC1uVTFyenFFX2g4cWMyNjg4bks1Y2dGY05nSHNicG5sWE1jSjdIV0pRR0pOMDY4bGVCUFRZUXBkWC0wc3loVVBfUjB5ZWJ5OUQyX1VHbA",
+          "published_at": "2026-10-21T09:11:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "melilla",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
       "operational_eligible": false
     },
     {
@@ -817,124 +899,6 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_b982bcf836e119cc",
-      "topic": "melilla",
-      "first_seen": "2026-10-12T03:00:00Z",
-      "last_seen": "2026-10-15T07:51:16Z",
-      "headline": "Felipe VI subraya que Melilla \"es España\" y pide a Marruecos \"construir y preservar una relación de buena vecindad\"",
-      "classification": "DECLARATION",
-      "verification_status": "DECLARATION_ONLY",
-      "verification_reason": "The record is a declaration and is not treated as an operational fact.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_797ab5865c7ec559",
-          "title": "Melilla baña de cariño a los Reyes 19 años después y señala a Marruecos: \"Escucha Mohamed: ¡que viva España, eh!\"",
-          "title_key": "melilla bana de carino a los reyes 19 anos despues y senala a marruecos escucha mohamed que viva espana eh",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9MQnVNeE5kXzc3Q2hyZDl4OXlPQTlkTUtDOWUwdWVhMXJLWDNwdlQweWpFVEVWRi1US2g1VXJfZVI3OGNhSmVPai12QnRQR0VqN2FReFVHeGNjbGhiVGFPUDBXSVNWa0Y5R2c3bGhsOFJlSm9DSVUwN0V30gF6QVVfeXFMTm0tNlVIQjVfcUlSOFhsVC1QeFpmU3NaUC1MWHJvdFhRb2s0N3VrcXJoN0NfWFhXWFJIakR4Y1ZBZmRCT2I4UHVCcGs3dzdmS2FRMzhJVTcyRUF2VTc3Z0pZUXdKSUdqZmVya0tqMERwTEV4MGZaTGFEaEE",
-          "published_at": "2026-10-14T11:45:26Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_972ce9f720ca153a",
-          "title": "Felipe VI subraya que Melilla \"es España\" y pide a Marruecos \"construir y preservar una relación de buena vecindad\"",
-          "title_key": "felipe vi subraya que melilla es espana y pide a marruecos construir y preservar una relacion de buena vecindad",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbnh4RDNMOWpGM2hFX2hkVWlFQlptMmdBVUc3VHZnNFpHaEZ3Qm9ZdzlITTNFY08tTjdIYmtwd2ZSMmJVRHdxUWoyYXRTVmhUSmhqVWQwOHNDRmRNN1NCOTR3U01pOXZyVGRVVnVxUi1hRGt5YTVkNVQzdzJVbFJ6UDlsMnBDQnRTMXRsZkU1UVJydmV5NHM5NmpBUDc4d1h6bjVfbEF5SEw3SjhhSExkRnlWSFNEN0lId0paR1FzM3lkUDZuV09reXRwZ1V1T0lURE4zVnJQSTVyUdIB3wFBVV95cUxPeWRkcDlXZ2NfR3dLQVBOUVQtZHF5TmNKX3JRdmtNWG9XODZ2NENlRGpma1lkNlljU0ktbVFIN0ZZTWhSTzVFMUdkelhrWTBpQmdUdUVSNjMybVZMczRvclVSRlIxVjhnM3hvcVVCOGhsa1ZBYjQ1WTFISjkyRTEzck9TYmJEcHVNd3BvR0dweVRiNFB3clpVSy1MVG9TOC0yYThacS1uWFZvWnhIczFMbHhheUxuSzh3S0hlaXp5Qkk3YTEySUR3M0FPNDR3aVNORHhXc3lzNVpiUlJ6ODN3",
-          "published_at": "2026-10-14T16:51:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_aabb371072b0edf1",
-          "title": "Felipe VI pide en Melilla \"mirar por una relación de buena vecindad\" entre España y Marruecos",
-          "title_key": "felipe vi pide en melilla mirar por una relacion de buena vecindad entre espana y marruecos",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcEFoS1dsWFBocUlwMlM2eTY1aDRiZnB2cEpiVVFjYnhNQlQxTXFiU01yd0FXRXZ3V0ZZSU9SU0VpMDBBV0ZIWFdaUmotb0xuT2Z2V1F4cW9GVDI5LXJRZmRBWkdhd0VROTBCYTJSX3NEeHVjOV9zdzZ0c0RHb2xNVEpjSVh4WUlwMzNvaFRwWlNHc0Z1YW1rWWpDWFZ0UVhsdW9DMw",
-          "published_at": "2026-10-14T16:57:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_a5372c8b038faddc",
-          "title": "¿Por qué el viaje de Felipe VI a Melilla incomoda a algunos sectores de Marruecos?",
-          "title_key": "por que el viaje de felipe vi a melilla incomoda a algunos sectores de marruecos",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQNHUya2VDU0d6Yl9BbkhrUFRUc0Z2RTJSRmFfTmF5amtyczV4LTY5NkxNMWM0ZjFOTi04eUZmdHM4LUVGX2xDREFuU19LYUZNaUZZQ1dJeGVaSVhjNFRFTno2Y3VXX0g0QjV2T2lmTDYwTE9UQzhhWEY3Z18yZkJ4OUh0d1M0YTczSEI1TlZGdEx4Rjg5VkpDRHBlLVcyMlBpS1VrUzNXdlZFZ3czU3MtMGEwM1p4a1FsVDFfQVpSLVdMa0NVWVFLcUk2Y0JwUdIB0wFBVV95cUxONXltN1d0ME1UVVFiNVJwTUVzaFhfNk1PTmpFbVhXM0E2aGR1c0RtTVdQSTJFa2MtQTI0RUlPNFRWcFpsaDBmLWIyQ3h4SktfWS05ODYwM2dsVndjZEs2d2s4Q1owU3JGcW5NT0psOVRnZzRLWjdZUjhCRk1sYkFkT2dXeHBjRXYyajh5dkxqbk5GOTdDdW5FczhJbmdoVXl1YnpyY1JYR0JqejJ4a0NrODZFVzJTaHU1SGFhWVcwc0Y5aC1MZ3JfUEY4REgzQVJ3NVNF",
-          "published_at": "2026-10-15T04:09:48Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "ANALYSIS",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_9970f606197761f6",
-          "title": "Felipe VI advierte desde Melilla que cualquier ataque a la frontera de un Estado miembro afecta a toda la UE",
-          "title_key": "felipe vi advierte desde melilla que cualquier ataque a la frontera de un estado miembro afecta a toda la ue",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQd0htRlBwdjZnNUtxQ2dxNzg3YThPdmFFMTR5a3Q0b1d1U0FvdlJ2eFo0ckpwRG9VVW1oLWdqaF9rRmhHUUtkYzAtVjhGOGxLQ042LXRYd1FiWU9ldDVIWFFiOXhwX3lja3Z3QU90VFJBRk9TMEFBTjRGZVhGZ0EtaFBqNW5HV2JsN19lZTcxeC1adlQ2T0gyMUtIblNsY0Z6b0RNNF9DeU5NZEdleG5zWTBBQ3dPN3BBOFpCM1JpUEdqYUxXMU1yUUZkbw",
-          "published_at": "2026-10-15T07:51:16Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "DECLARATION",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 30,
-      "operational_impact": "POTENTIAL",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_a7745d7d3c137569",
       "topic": "relations",
       "first_seen": "2026-10-15T06:33:10Z",
@@ -1045,49 +1009,67 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_07f8ed82b227c16d",
+      "event_id": "evt_b982bcf836e119cc",
       "topic": "melilla",
-      "first_seen": "2026-10-14T16:37:46Z",
-      "last_seen": "2026-10-14T16:37:46Z",
-      "headline": "El Rey, en Melilla: “Estamos preparados para defender nuestros valores y libertades”",
-      "classification": "FACT",
-      "verification_status": "SINGLE_SOURCE",
-      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
+      "first_seen": "2026-10-12T03:00:00Z",
+      "last_seen": "2026-10-14T16:51:00Z",
+      "headline": "Felipe VI subraya que Melilla \"es España\" y pide a Marruecos \"construir y preservar una relación de buena vecindad\"",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
       "sources": [
         {
-          "source_id": "elpais",
-          "source_name": "El País",
-          "source_domain": "elpais.com",
-          "tier": 3,
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
           "official": false,
-          "weight": 3.0
+          "weight": 1.0
         }
       ],
       "source_ids": [
-        "elpais"
+        "unknown"
       ],
       "articles": [
         {
-          "article_id": "art_17bcf525ce2c5efb",
-          "title": "El Rey, en Melilla: “Estamos preparados para defender nuestros valores y libertades”",
-          "title_key": "el rey en melilla estamos preparados para defender nuestros valores y libertades",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTE1PWXhraWNEQk1vOFpwMjB0czZlQjZfUVVKclNBQVpWRXhTbUhvSkRWY2ZoN09GNndxNWIyMW90SGZJalhHUHV3OXQ0OGVyNE55Ti1za3ZiVkpZTWhsV1dqenpYVHQ0MDA2bUdTT1FkS2lEbTNCbVQ0M0t0eExUdHR0emdEY09JVlJaNE5PZFdrbi1RYkpvZ25PVnhXZkM1NGRXbmxZSUg5RWRFWW9qcTdJRzd1NnphZ2RnUk15UdIB0wFBVV95cUxPREFaam9HaWFiSDdpLTJMV2NQdE10ck1hbUdrR3BOZ2Y5OXJvVXZCNU1IS0xuM25OeTR1YnhsOU9kLTlGWFpQbnEtdHBhQ2NJZFZ1NzFhcm4xdUJPaXlXbEw5eUVkdHBVOVE5M05rdWVxbVh0T0gtODk3emJ5bUpfQ0ZCMVU1cFhrNkFUam1KTGJfNVdCd3UwellDZ01VbE82ekdiTU1fTS1tcTJVYzI1MTVURktudkxZdi01eTZEWW9DNG9NQnhQMFJpLVRuNkRGcTJZ",
-          "published_at": "2026-10-14T16:37:46Z",
+          "article_id": "art_797ab5865c7ec559",
+          "title": "Melilla baña de cariño a los Reyes 19 años después y señala a Marruecos: \"Escucha Mohamed: ¡que viva España, eh!\"",
+          "title_key": "melilla bana de carino a los reyes 19 anos despues y senala a marruecos escucha mohamed que viva espana eh",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9MQnVNeE5kXzc3Q2hyZDl4OXlPQTlkTUtDOWUwdWVhMXJLWDNwdlQweWpFVEVWRi1US2g1VXJfZVI3OGNhSmVPai12QnRQR0VqN2FReFVHeGNjbGhiVGFPUDBXSVNWa0Y5R2c3bGhsOFJlSm9DSVUwN0V30gF6QVVfeXFMTm0tNlVIQjVfcUlSOFhsVC1QeFpmU3NaUC1MWHJvdFhRb2s0N3VrcXJoN0NfWFhXWFJIakR4Y1ZBZmRCT2I4UHVCcGs3dzdmS2FRMzhJVTcyRUF2VTc3Z0pZUXdKSUdqZmVya0tqMERwTEV4MGZaTGFEaEE",
+          "published_at": "2026-10-14T11:45:26Z",
           "observed_at": "",
-          "source_id": "elpais",
-          "source_name": "El País",
-          "source_domain": "elpais.com",
-          "tier": 3,
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
           "official": false,
-          "weight": 3.0,
+          "weight": 1.0,
           "topic": "melilla",
-          "classification": "FACT",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_972ce9f720ca153a",
+          "title": "Felipe VI subraya que Melilla \"es España\" y pide a Marruecos \"construir y preservar una relación de buena vecindad\"",
+          "title_key": "felipe vi subraya que melilla es espana y pide a marruecos construir y preservar una relacion de buena vecindad",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbnh4RDNMOWpGM2hFX2hkVWlFQlptMmdBVUc3VHZnNFpHaEZ3Qm9ZdzlITTNFY08tTjdIYmtwd2ZSMmJVRHdxUWoyYXRTVmhUSmhqVWQwOHNDRmRNN1NCOTR3U01pOXZyVGRVVnVxUi1hRGt5YTVkNVQzdzJVbFJ6UDlsMnBDQnRTMXRsZkU1UVJydmV5NHM5NmpBUDc4d1h6bjVfbEF5SEw3SjhhSExkRnlWSFNEN0lId0paR1FzM3lkUDZuV09reXRwZ1V1T0lURE4zVnJQSTVyUdIB3wFBVV95cUxPeWRkcDlXZ2NfR3dLQVBOUVQtZHF5TmNKX3JRdmtNWG9XODZ2NENlRGpma1lkNlljU0ktbVFIN0ZZTWhSTzVFMUdkelhrWTBpQmdUdUVSNjMybVZMczRvclVSRlIxVjhnM3hvcVVCOGhsa1ZBYjQ1WTFISjkyRTEzck9TYmJEcHVNd3BvR0dweVRiNFB3clpVSy1MVG9TOC0yYThacS1uWFZvWnhIczFMbHhheUxuSzh3S0hlaXp5Qkk3YTEySUR3M0FPNDR3aVNORHhXc3lzNVpiUlJ6ODN3",
+          "published_at": "2026-10-14T16:51:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "melilla",
+          "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
         }
       ],
-      "importance": 43,
-      "operational_impact": "CONTEXT",
+      "importance": 4,
+      "operational_impact": "NONE",
       "operational_eligible": false
     },
     {
@@ -1181,17 +1163,63 @@
       "importance": 4,
       "operational_impact": "NONE",
       "operational_eligible": false
+    },
+    {
+      "event_id": "evt_dd38788a5819944b",
+      "topic": "ceuta",
+      "first_seen": "2026-10-14T08:24:33Z",
+      "last_seen": "2026-10-14T08:24:33Z",
+      "headline": "'Sovereignty is non-negotiable': King Felipe VI visits Ceuta following summer border crisis",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_127279026fbeab54",
+          "title": "'Sovereignty is non-negotiable': King Felipe VI visits Ceuta following summer border crisis",
+          "title_key": "sovereignty is non negotiable king felipe vi visits ceuta following summer border crisis",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBpM1YxTnRsTHZFQ0RjYTctSzBnQ2VseTZaZWFELVZBOU5VOG9EQktSeW1qcVRPMGxKTW1OWUFVaEJTaEJBdFlkdU8wcGhRQUI2QkpvOF9CSHhraGJNWkV4UnlhT0NtdEVtZlZmQk5jSTJhd2tzc004RlhBczJEUQ",
+          "published_at": "2026-10-14T08:24:33Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
     }
   ],
   "verification_summary": {
     "CONFIRMED_MULTI_SOURCE": 0,
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
-    "DECLARATION_ONLY": 4,
-    "SINGLE_SOURCE": 2,
-    "UNCONFIRMED": 13,
-    "TOTAL": 19
+    "DECLARATION_ONLY": 3,
+    "SINGLE_SOURCE": 1,
+    "UNCONFIRMED": 16,
+    "TOTAL": 20
   },
   "article_count": 36,
-  "event_count": 19
+  "event_count": 20
 }

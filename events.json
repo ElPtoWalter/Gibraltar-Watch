@@ -1,7 +1,71 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-21T18:42:19.568437+00:00",
+  "generated_at": "2026-10-21T22:24:42.544734+00:00",
   "events": [
+    {
+      "event_id": "evt_6505945c010cd65b",
+      "topic": "melilla",
+      "first_seen": "2026-10-21T03:01:00Z",
+      "last_seen": "2026-10-21T20:17:33Z",
+      "headline": "La Unión Europea busca multar a Google Maps por representar a Ceuta y Melilla como ‘territorios en disputa’ con Marruecos",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_a7dbad9dbaf870e9",
+          "title": "La UE abre la vía para multar a Google Maps por representar a Ceuta y Melilla como 'territorios en disputa' con Marruecos",
+          "title_key": "la ue abre la via para multar a google maps por representar a ceuta y melilla como territorios en disputa con marruecos",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQOTN0bDhERWVaLWZ2YmdjdGxvNjlXM1BpSWpXTXlrdFd3MjhVRW52T19CMWRKN0FzUDQ0dF9Fb3VpNkl1VU9wYk1uWndsczV3MlljZmR3enJkN0FCbjlhVTJVUExqNHJjRk9JMHlrNmhvcHVJdk9mRTRvdUhEUlhVakFxTVgzOVc1Mjdtc1JoMWxyWEFKNGFvTnBYcWk0U0h2OXBka1JsUFREQndNeHhNZm1vQ0x2bnN6VDA4TzRJNWlLV2hldjhBUmtvMmw4UnhBQWVTWjBCUFJiRDlnZHV6QVQyTDEzRlVuU2NNZDBwRdIB9AFBVV95cUxOZzZnajJrekdHSUZMQnBxbWxrMmRGVFJaeUlYN3kxVUs5UzVYTF84TGt5dG1xNWF5OFdoYzZ6aWYwZXhoTTRlb0hUcnBXSldMQ2JTTGFlbDctUGZoUXRLZE9IVGVzWFl0bl9IeWw1Mkh3Wi1SWVZZS0Qyd19taVdmTEFVNEhyUXhBSHpWbnZUYVZLRGcxeVlBNG9aZnlJMWJMODc2S0dXcjRBaWtNTC1sSlVGSE5iMjFjWVFFeG5sMC1QSmFEWXdKLUVBQktnLW5pZWxYVXdIY3dUVUU2SURURTI4MGxjUTNVdm5UU1RkbEgzT0dC",
+          "published_at": "2026-10-21T03:01:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "melilla",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_bb0aec4a5f70526a",
+          "title": "La Unión Europea busca multar a Google Maps por representar a Ceuta y Melilla como ‘territorios en disputa’ con Marruecos",
+          "title_key": "la union europea busca multar a google maps por representar a ceuta y melilla como territorios en disputa con marruecos",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOajdHR2Y4WWpucHczQmZsWGZHT3lyUVR0QVU1UEVZUU94eFlINWR0eUt6c2hZU0hranZKdUZyYkRJcS1kMUNDWVZBQVBGWDRIaFJTME9Yd08tVVdNdFhZVzItb0Q2VkxhZHBXaXU2QlZyNjRubEpBLUV4SFdCM3M0Zks5bTNmOGduUUtRUERMSUNwMDRnUU9QM09Bczd6UWI5bEdoRGtCaGhOeVJYRGdhN0M2clFuNWVDNzR4Y19oTTFRWmpvZzFDVjJtR2VRaWVfMS05RkZVUTZfMFZIN3k2bGlvZzRHdGlBeTNzUWFOQVJ1UQ",
+          "published_at": "2026-10-21T20:17:33Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "melilla",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
     {
       "event_id": "evt_4f1ed28b2ebb9c68",
       "topic": "ports",
@@ -195,52 +259,6 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_6505945c010cd65b",
-      "topic": "melilla",
-      "first_seen": "2026-10-21T03:01:00Z",
-      "last_seen": "2026-10-21T03:01:00Z",
-      "headline": "La UE abre la vía para multar a Google Maps por representar a Ceuta y Melilla como 'territorios en disputa' con Marruecos",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_a7dbad9dbaf870e9",
-          "title": "La UE abre la vía para multar a Google Maps por representar a Ceuta y Melilla como 'territorios en disputa' con Marruecos",
-          "title_key": "la ue abre la via para multar a google maps por representar a ceuta y melilla como territorios en disputa con marruecos",
-          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQOTN0bDhERWVaLWZ2YmdjdGxvNjlXM1BpSWpXTXlrdFd3MjhVRW52T19CMWRKN0FzUDQ0dF9Fb3VpNkl1VU9wYk1uWndsczV3MlljZmR3enJkN0FCbjlhVTJVUExqNHJjRk9JMHlrNmhvcHVJdk9mRTRvdUhEUlhVakFxTVgzOVc1Mjdtc1JoMWxyWEFKNGFvTnBYcWk0U0h2OXBka1JsUFREQndNeHhNZm1vQ0x2bnN6VDA4TzRJNWlLV2hldjhBUmtvMmw4UnhBQWVTWjBCUFJiRDlnZHV6QVQyTDEzRlVuU2NNZDBwRdIB9AFBVV95cUxOZzZnajJrekdHSUZMQnBxbWxrMmRGVFJaeUlYN3kxVUs5UzVYTF84TGt5dG1xNWF5OFdoYzZ6aWYwZXhoTTRlb0hUcnBXSldMQ2JTTGFlbDctUGZoUXRLZE9IVGVzWFl0bl9IeWw1Mkh3Wi1SWVZZS0Qyd19taVdmTEFVNEhyUXhBSHpWbnZUYVZLRGcxeVlBNG9aZnlJMWJMODc2S0dXcjRBaWtNTC1sSlVGSE5iMjFjWVFFeG5sMC1QSmFEWXdKLUVBQktnLW5pZWxYVXdIY3dUVUU2SURURTI4MGxjUTNVdm5UU1RkbEgzT0dC",
-          "published_at": "2026-10-21T03:01:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_62140222cd553a78",
       "topic": "ceuta",
       "first_seen": "2026-10-20T14:21:53Z",
@@ -277,6 +295,52 @@
           "official": false,
           "weight": 1.0,
           "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_8f6965e98315ef17",
+      "topic": "melilla",
+      "first_seen": "2026-10-20T07:35:00Z",
+      "last_seen": "2026-10-20T07:35:00Z",
+      "headline": "Marruecos usó fragatas, cazas y satélites en su “guerra híbrida” contra España - El Faro de Melilla",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_a3a1ddb451546acb",
+          "title": "Marruecos usó fragatas, cazas y satélites en su “guerra híbrida” contra España - El Faro de Melilla",
+          "title_key": "marruecos uso fragatas cazas y satelites en su guerra hibrida contra espana el faro de melilla",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZXgwa0Y4UmZXQ0o1YkUzbUtwV0xOSXQ4YW1UcTZmYjlsZGQ0UmR3VTh2eUNBdVRDWDhZRTZoRzcwODJCRE94ZmFqdkFWUW1xbGN0RW8wZWZ4NzBYRk5YbVhncDBKV1BKZ3pQUjZWQkpmbDNYVWNUMFp4TFNTQml0em1ZNG1MbUxNRnU1UmJINUFvRnJUN1RncU90TGhkaVZtZi1NN3R30gGrAUFVX3lxTE5UcktHUmEteUVxUS1Wbm55aVd4UXRvYUpGcnh5OEEtcG4yS1drRFVxbWJUZUlCNWd2MWNBcWJCTGI0U0pPY1NBV2h2S0pqUWFiM2NjNEJaZVpuMU9UeXpnWXNtQUtVTlZHV0ZEQjhINGpSTUlqMzNSWllObXJVaWk2WVZKaTdPLUYtSVc5NmREWFNQck5oS3lzTEZsWDBkUVhaXzVDdmg0aTFUQQ",
+          "published_at": "2026-10-20T07:35:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "melilla",
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
@@ -617,70 +681,6 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_b5bf15a6daea8688",
-      "topic": "ceuta",
-      "first_seen": "2026-10-17T07:12:30Z",
-      "last_seen": "2026-10-16T18:56:41Z",
-      "headline": "El \"tridente marroquí\" en Ceuta: Marruecos también habría ordenado a sus pesqueros entrar en aguas españolas durante la crisis migratoria",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_2b7deb08096a4d3e",
-          "title": "El \"tridente marroquí\" en Ceuta: Marruecos también habría ordenado a sus pesqueros entrar en aguas españolas durante la crisis migratoria",
-          "title_key": "el tridente marroqui en ceuta marruecos tambien habria ordenado a sus pesqueros entrar en aguas espanolas durante la crisis migratoria",
-          "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPSDBOVEJDNW5vOFYxUVFNR1FlaUVJMzJjOHR6Q0wtb3ZBOUk4c09uZFg4YkhlLUpXeXJrLURMNjBpRlhzTHFoVVB5UmsxcmFOOTJCTXJveloybUtqaDZlMGdCNWJ4UDNYYUNtY19rTjNuQlR4OFlMZlRob3dUTHdTQndadGxRR01sZExJbXQwTzN5enF3OHV0b3dENFpXZl9zYVJDSUcyVmdZd19iRGQyQmxSXzVIWkVWZDN5V2ttQlYtSzhYRWxHdUhRTlRpWkJJX1NtaWFESjZFQ3YydGxublBWbkhPaTBKcmxuS3NmSEpySnAtRS16a0V6c2pnRTk4VUVBWUppSjNmbTZSNnp3d2dJN29veWFDekHSAZoCQVVfeXFMT0pVdUJKczNUYjEzV3lHdktvUE5MY3V1M1UyT3UyN21tODk0SnY5cEpXbzRFd3JjMlBhZVFnN2NfNnNxTTNoNnU0N0F2UWVRWUpjNFVYMEFmLWNUVUJUSjVmbktqeGtIaGtUeExqMWhKZXdQYWZNUWdZNDVUQkNwT0FuMnVNMUo5UUt6TVBSTThIZUgwSnNDVHFPZ3ZQeHJ4d2NCMWVsYldPVDcyWllIZjVDMnZ0QUhXbEVUdlpRTFpBLWVGeE5IZ3hKSmtDc2REYUpvc2xkTnp3MWZ4ZjAxTHdsVmw1alJQOWJkS0dKRk42US0wNVAyeWNZalhpT3R2M2JaYnp0bUZOaUNBODJaOUxubndicGFVcjRn",
-          "published_at": "2026-10-14T19:18:01Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_3148f7b446aa51d2",
-          "title": "El CNI confirma a la Audiencia Nacional que Marruecos preveía la crisis fronteriza de Ceuta",
-          "title_key": "el cni confirma a la audiencia nacional que marruecos preveia la crisis fronteriza de ceuta",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeDhBRU1VYzZSNnRJdWE5d1hZb1JLVHBOWmFwdTY4cm53RG9xcE1JU0ZRbFExeEw3OHdGTjV5ZEF0dWRfODNpZF9TMmE0MU0tX0ZfdENnTTBnM0pGY19HNTEyUVQ2RjdKeUdpNTNQQ04yajRoNk9maU5FYVRQVjFXMm4wREI1LU5XQW5zRGs1U3Rrdw",
-          "published_at": "2026-10-16T18:56:41Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_d51afe59ebb8e341",
       "topic": "ceuta",
       "first_seen": "2026-10-14T06:00:00Z",
@@ -945,6 +945,52 @@
       "operational_eligible": false
     },
     {
+      "event_id": "evt_b5bf15a6daea8688",
+      "topic": "ceuta",
+      "first_seen": "2026-10-17T07:12:30Z",
+      "last_seen": "2026-10-14T19:18:01Z",
+      "headline": "El \"tridente marroquí\" en Ceuta: Marruecos también habría ordenado a sus pesqueros entrar en aguas españolas durante la crisis migratoria",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_2b7deb08096a4d3e",
+          "title": "El \"tridente marroquí\" en Ceuta: Marruecos también habría ordenado a sus pesqueros entrar en aguas españolas durante la crisis migratoria",
+          "title_key": "el tridente marroqui en ceuta marruecos tambien habria ordenado a sus pesqueros entrar en aguas espanolas durante la crisis migratoria",
+          "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPSDBOVEJDNW5vOFYxUVFNR1FlaUVJMzJjOHR6Q0wtb3ZBOUk4c09uZFg4YkhlLUpXeXJrLURMNjBpRlhzTHFoVVB5UmsxcmFOOTJCTXJveloybUtqaDZlMGdCNWJ4UDNYYUNtY19rTjNuQlR4OFlMZlRob3dUTHdTQndadGxRR01sZExJbXQwTzN5enF3OHV0b3dENFpXZl9zYVJDSUcyVmdZd19iRGQyQmxSXzVIWkVWZDN5V2ttQlYtSzhYRWxHdUhRTlRpWkJJX1NtaWFESjZFQ3YydGxublBWbkhPaTBKcmxuS3NmSEpySnAtRS16a0V6c2pnRTk4VUVBWUppSjNmbTZSNnp3d2dJN29veWFDekHSAZoCQVVfeXFMT0pVdUJKczNUYjEzV3lHdktvUE5MY3V1M1UyT3UyN21tODk0SnY5cEpXbzRFd3JjMlBhZVFnN2NfNnNxTTNoNnU0N0F2UWVRWUpjNFVYMEFmLWNUVUJUSjVmbktqeGtIaGtUeExqMWhKZXdQYWZNUWdZNDVUQkNwT0FuMnVNMUo5UUt6TVBSTThIZUgwSnNDVHFPZ3ZQeHJ4d2NCMWVsYldPVDcyWllIZjVDMnZ0QUhXbEVUdlpRTFpBLWVGeE5IZ3hKSmtDc2REYUpvc2xkTnp3MWZ4ZjAxTHdsVmw1alJQOWJkS0dKRk42US0wNVAyeWNZalhpT3R2M2JaYnp0bUZOaUNBODJaOUxubndicGFVcjRn",
+          "published_at": "2026-10-14T19:18:01Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
       "event_id": "evt_205cc82f1db49c56",
       "topic": "relations",
       "first_seen": "2026-10-14T09:34:53Z",
@@ -1147,52 +1193,6 @@
           "title_key": "eu commission backs morocco cooperation calls for rapid returns from ceuta",
           "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPN28yUEZGdC1ucHdQamppZWZRbEhibWNBU2k3YUI1SmppMWkxbkxFUkpWNVF0OVptbGpLRW9KZU1lUEdPdDB3QzRTVG5yUm1wM1BBeXFfSFFTZmtSLURrdmxna3JpcHR5MDVBX3BNbUpGU3NLZ0hnUHFMNkRLbGxsZW5mbFIzOVptNndTdjlWd2FWOVFscGRZeDZqMUJ3LWVtWHVMVjhPbkJSazE1UDh5eGlSdkd2V3dua1RjaC03ZTk",
           "published_at": "2026-10-14T12:46:28Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_dd38788a5819944b",
-      "topic": "ceuta",
-      "first_seen": "2026-10-14T08:24:33Z",
-      "last_seen": "2026-10-14T08:24:33Z",
-      "headline": "'Sovereignty is non-negotiable': King Felipe VI visits Ceuta following summer border crisis",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_127279026fbeab54",
-          "title": "'Sovereignty is non-negotiable': King Felipe VI visits Ceuta following summer border crisis",
-          "title_key": "sovereignty is non negotiable king felipe vi visits ceuta following summer border crisis",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBpM1YxTnRsTHZFQ0RjYTctSzBnQ2VseTZaZWFELVZBOU5VOG9EQktSeW1qcVRPMGxKTW1OWUFVaEJTaEJBdFlkdU8wcGhRQUI2QkpvOF9CSHhraGJNWkV4UnlhT0NtdEVtZlZmQk5jSTJhd2tzc004RlhBczJEUQ",
-          "published_at": "2026-10-14T08:24:33Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",

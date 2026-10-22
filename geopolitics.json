@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated_at": "2026-10-22T13:51:01.079838+00:00",
+  "generated_at": "2026-10-22T18:35:04.997548+00:00",
   "language_default": "es",
   "status": {
     "maritime_status": {
@@ -12,16 +12,16 @@
       "en": "There is not enough recent positive evidence to confirm operation; absence of alerts is not treated as proof."
     },
     "border_pressure": {
-      "es": "BAJA / SIN SEÑALES RECIENTES",
-      "en": "LOW / NO RECENT SIGNALS"
+      "es": "MEDIA",
+      "en": "MEDIUM"
     },
     "border_note": {
-      "es": "No aparecen señales recientes suficientes para elevar el nivel.",
-      "en": "There are not enough recent signals to raise the level."
+      "es": "Existen intentos o presión fronteriza recientes.",
+      "en": "Recent attempts or border pressure are being reported."
     },
     "border_watch": {
-      "last_signal_at": null,
-      "hold_until": null,
+      "last_signal_at": "2026-10-22T18:35:04.997548+00:00",
+      "hold_until": "2026-10-24T18:35:04.997548+00:00",
       "signal_sources": 0,
       "hold_hours": 48
     },
@@ -51,8 +51,18 @@
       "title": "Última hora de la crisis migratoria de Ceuta, en directo: La Guardia Civil lleva a cabo una redada contra una ONG que repartía espray pimienta a los inmigrantes",
       "source": "Antena 3 Noticias",
       "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPR0lWanVtcnNpNW9zMDhWUkFDdkdKYnR5V2ZRd0pwb2U5WDJSRGdTdEdSVEt0MlV6eHJZZ0tJcU1EZGVLa2ZmQ3JQYzJfYmR5TkRBNUNPZ0haMk9hbkFXUGhteGtrbUpEeUJyVWFmcnJSS2o1Q0lUQzlPT1ZPcDJobll3OVMzWmdoX1VZaDFqcnFkVjdZVGJSNWozMG94OHNobEcyazN5QnE1ZTZfQk91bV9lX1V0b0gxdGF1a1JzN015amJJVjJvMzhsc0tUVnN4WDF3bjZZMHRzaVQ2ZTdZM2tCMk5hNldLLUhGNVdnN0Fib212eEw0OW9mNnVQbHhraW5PR1F5Y25QZW5fTFNhdUl3MUTSAZQCQVVfeXFMUExMUVJpd2JrUjF5WF9PRzNuYWZjZE9KZF91bW9mODI0WGVaVjg2TTlqN2NIeFZkM2d5Vkt3bVlReUJkM21qRWNILWl0RW1lZlFuT1NVUThaa2VkZDRldTM5VTNHNDVLcW5hTzlkX3NoSVBsOC15eGdkRF92WU9Bb1ZfR2NDampZLWExbW9ZWjVyMU90TS1mX0VsUTlseWRpdC12THZKNGFBRF9CVEtCazBkU0JIMm9zdzF5NVBucDRQWHh6dDJTM0prRkVsaDl2YVpMNnlzSTQxRnhRcDRsSXFsbkNYUlJLV2pDZFBqcnN0SHBtNE5xMzdlb0psVDdfZ0JBRGJ0OEYzbHJXZFliS25NWERC",
-      "published_at": "2026-10-22T13:10:17+00:00",
+      "published_at": "2026-10-22T16:00:22+00:00",
       "category": "ceuta",
+      "language": "es",
+      "weight": 2,
+      "source_id": "unknown"
+    },
+    {
+      "title": "Un partido de la coalición de Gobierno en Marruecos supedita las relaciones con España al asunto de Ceuta y Melilla",
+      "source": "La Razón",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNNDZXbmNneS1VbEZ0cjZQVjFXWExhNTJBTUdGSzZacWw1U04wYU1maHZXR25mc1RaREU5eDRHWm9UZFFRZVlPX1YtYk5YNmNLUkEyenpkR1hteXBFRkRMYW5CVWkwYzJOWkpKZ2xHMmZjaXpsOWluaEJvT2ZjTmhYS3MtUFNGT294MXg0S2RkcE9mbjk3dUVyWDIzZmo1bmlJdG5PTWF5TzRpRXVmZzZ1UVIxM0ZqWTBNemVXY2ViRTJtQVE1X2NONlNvaDV5VDlzc3g5Q1lDRUQybE05LU5mcm0wVFI1d2vSAfsBQVVfeXFMTlhDc0dhMmI2OUI5WXdISzZwVDFBd1dmWjU2OHE1bkd3b0hZV3V6VS1DbWxfcjBmdmVtUzQ4aVljM1FzZlozRmlQbDB2VjQ5ZkpEcngtQS0xendCclNycl8zTU9lQW05cnQwdWVTa2l5YWZYU1VEbWp2ejdyRGE1LVZpSDdEdGU4VWxGd29PS3lTTGhvRjZlcFM2SkNCSTBldzZ6S25wMFV2MU9yVWxTcmFzbkkzTXNHZUt6UFFUTjJmSzdELUxMRzE5MFFWOGZvVDFKMmVUM01BS1BZRzRaYmdMSzExTGkxVmlKdXFmdkQwOFZiVHpSbWpCOHc",
+      "published_at": "2026-10-22T14:36:09+00:00",
+      "category": "relations",
       "language": "es",
       "weight": 2,
       "source_id": "unknown"
@@ -66,6 +76,16 @@
       "language": "es",
       "weight": 2,
       "source_id": "unknown"
+    },
+    {
+      "title": "Italy and Spain scrap border checks brought in after Ceuta crisis",
+      "source": "Politico",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUDJ1ZVluWklhVDVGOVZuRUxMWFZ6WkttOUVUSHBQWjVBMnFiaUJ2RDlOZFZaZmpyMnlvSmN2bW9KZFlFaGh2MHlNc2lLcmQ4UmRLX2k5NjFTeFpUUnE5TmUxNnh1X0pTcUtmaURIS0R0YTdJYkJ5RGRFaHBlS1dYTldyWVBvNHJBcG9lcXYzX1FaRzE1cWtxR25R",
+      "published_at": "2026-10-22T11:00:00+00:00",
+      "category": "ceuta",
+      "language": "en",
+      "weight": 3,
+      "source_id": "politico"
     },
     {
       "title": "Juan Jesús Vivas denuncia que \"la frontera sigue estando controlada por Marruecos\" tres meses después de la crisis",
@@ -163,6 +183,16 @@
       "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNSHVvVzFhSWpSbVVBYXBsNktvSkZOOWFmWWc0bUlCZllZWmpON2VLcDZGMjFMcEVnb3RVSUhxZTlxb0ZPbEhhdU1ScU5aOEkxY1Z4YWRsVmxQOGl0SDg3ZDJ3SzVfQm1ySkYtNWduOW5zN0RvcWpCd3R0UUJIMHBZZXlLb21OZ1VZZ2haMnllTlFra0gyek42ODNtd0dyWkFpa0RDU0tRN0pvbEdncTM1SUJwMlBFVlFLdUctT3ZLUmdYY202eFN0dk5ycnJFS01qYlZocWFpYVdxWkJ1TEdBc2QwV0lUbFI3anc",
       "published_at": "2026-10-21T07:30:00+00:00",
       "category": "ports",
+      "language": "es",
+      "weight": 2,
+      "source_id": "unknown"
+    },
+    {
+      "title": "La UE establece criterios para sancionar a Google Maps por mostrar Ceuta y Melilla como zonas controvertidas con Marruecos",
+      "source": "Nuevaradio",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPcXIybGNwTmkwUnV0WTdfMjFSTEdudXVIdVh6SXhNUEZiLV9oSGQ1dlcwQ3BfTE9peURlMnB3OHpDbmNmeHN2b0FIcG11S01SaUlSLXB4RDlpNE5KS2cwOVlpay0xRVdyYWRnWDVCQjRXVjhQYTJ2V0lDS2NwUm9Lb01SQUE5NERDbktZbEZ1Q3U4ZDhacVFwWXZiaTNoQUdnN191cjR6RHk5RWdwUEt0ZXFoRUczX2IxOFNBaUx0cVRuUXdVNnRvLWwyVUlhVWl1M01Mem9neDIwU1JDMUE3YnNHWFdKT2FiYWgzRThGZ3BhczA",
+      "published_at": "2026-10-21T07:20:40+00:00",
+      "category": "melilla",
       "language": "es",
       "weight": 2,
       "source_id": "unknown"
@@ -318,16 +348,6 @@
       "source_id": "unknown"
     },
     {
-      "title": "Sánchez apela a la relación constructiva con Marruecos tras la visita de los reyes a Ceuta",
-      "source": "Infobae",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNTGJ5VnFrWjh0ZEJXZDB4dTF3RHFBVW04dzFnSUlrWjJIWUhPY3RUeEcyZjg0bGhTUl9RZ2d6WU5QU2FMZmdzdWc0STR4SVdGUkxKcDlyWXdRRjhCTy1oYWlyZjg2ZkJRYlo5YlN4S1YyUE9DWmJ1d1pyVkdGb2NoSVhDWC1XT2t6R3dXSHFGZjNnbXJ6WUtCUG1yT2twWFliY0lSOWlYdVJabUoxd2k4dW16MUhuamxEakZhWTZpNHEtdGk5RUNPZzVCNWhrWi05NDUzWDJ0YXF1QdIB9AFBVV95cUxPU005NHFlSWV4VUljM2d1RF9la0h0cjc0Zld0SU1TLVdGZUIxSGd5S21CMFE1SWllZFR0R3pmLVJYZnJwSmoyZWhNYmc2MV9VLVdrSFl3QTlMa2ljV1pSQkF3dThBdUZSckZMekdlNnJOM3NseDJxWTBtV1M2RTgzMmJYQXVlUGh6a1RIWWhORUpxZHlGYU5ZdDAtN2x5YWRSUGJYcWdzNUlyVmNDRHdZd0NNZWlqUnNycDJDXzJPamJzdTAzSUZxaXV3WVJPSHRSSHB1RDI3SmxhMUhVbUZzeFJXaXVaMDg4UFA5d2lERHByd1Vf",
-      "published_at": "2026-10-15T11:02:00+00:00",
-      "category": "relations",
-      "language": "es",
-      "weight": 2,
-      "source_id": "unknown"
-    },
-    {
       "title": "Las tradicionalmente complicadas relaciones España-Marruecos | Colaboración",
       "source": "El Faro de Ceuta",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWWZVd2RySGtRanlDNXNTVFQxTzluWGwxUjJuRDFjUzEtZUNKdGZZMndqWGN1QmRlbGxjUE4yNUpmT0p0Qy12Q2Y4aXFFSG0tSzR5amM2Rk43WFdSNTBSaEhxRmJrTXd6MHU0cXVYWkRtdjJjanl6M0xSSG50czFxbFJFdkNBR09IUHfSAY8BQVVfeXFMTjZrMHV0YlVYbGZoOFlmTlRqYkphbUVVeEhVdUtldzZ1c19Ha3ZmWjhkOTlVN1VHekJaTVMxU1dVVEVVaC1EMWdrQXVpT1JBSW1uUjdsbEVMN203Ym4yaDhMMTVwUWd6V3JHcDFqVmFfZnNLb1Q5Z2puc1pERUN4NFZ1dUl4M1EySEZhN21TX0U",
@@ -343,26 +363,6 @@
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdzhLdnFISVdyTHQ1WFZDRXhCNWl3OEdQMEIyNWJ0UzAxX1pULUYyZ3FWVVVaYlVjQ3NzRTZhamp3Ny15VVdUdjl3eGhQRU1HcjhEc3hVYm5ERzR5eGk5dVNnSUJDVkVMRFhpZjVfWEdkbzgzM0dud0dWOXlzY2RiczJ3MWhGdGdqMWF4U2ZmNklMRzB5Z01BMg",
       "published_at": "2026-10-14T17:07:41+00:00",
       "category": "relations",
-      "language": "es",
-      "weight": 2,
-      "source_id": "unknown"
-    },
-    {
-      "title": "Felipe VI subraya que Melilla \"es España\" y pide a Marruecos \"construir y preservar una relación de buena vecindad\"",
-      "source": "Elplural.com",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbnh4RDNMOWpGM2hFX2hkVWlFQlptMmdBVUc3VHZnNFpHaEZ3Qm9ZdzlITTNFY08tTjdIYmtwd2ZSMmJVRHdxUWoyYXRTVmhUSmhqVWQwOHNDRmRNN1NCOTR3U01pOXZyVGRVVnVxUi1hRGt5YTVkNVQzdzJVbFJ6UDlsMnBDQnRTMXRsZkU1UVJydmV5NHM5NmpBUDc4d1h6bjVfbEF5SEw3SjhhSExkRnlWSFNEN0lId0paR1FzM3lkUDZuV09reXRwZ1V1T0lURE4zVnJQSTVyUdIB3wFBVV95cUxPeWRkcDlXZ2NfR3dLQVBOUVQtZHF5TmNKX3JRdmtNWG9XODZ2NENlRGpma1lkNlljU0ktbVFIN0ZZTWhSTzVFMUdkelhrWTBpQmdUdUVSNjMybVZMczRvclVSRlIxVjhnM3hvcVVCOGhsa1ZBYjQ1WTFISjkyRTEzck9TYmJEcHVNd3BvR0dweVRiNFB3clpVSy1MVG9TOC0yYThacS1uWFZvWnhIczFMbHhheUxuSzh3S0hlaXp5Qkk3YTEySUR3M0FPNDR3aVNORHhXc3lzNVpiUlJ6ODN3",
-      "published_at": "2026-10-14T16:51:00+00:00",
-      "category": "melilla",
-      "language": "es",
-      "weight": 2,
-      "source_id": "unknown"
-    },
-    {
-      "title": "Felipe VI exige \"cooperación\" y \"responsabilidad\" a Marruecos desde Melilla: \"Cualquier amenaza a su frontera lo es a toda la UE\"",
-      "source": "LaSexta",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOZjQ0WFhESjhHYkNYTmo4VjlPSG5LTWNYYTNtRnhjM2o3Z3dfSGtQNy1XLXRJN2Etd04wS1U1a2NlSUl3dUNHcFlsX0NtUTJmejJCZWUtNHZqRXFSMjNLcjlPN18ydmc0NndpbkhGeWRQbzhiTnd1ZjV3QkhOb0FkVTVOX2NKTzU1OFo3eXI4czVLb0NVWkI4cWhiR2ZXMkY1MkFWY2xoRkJSbEh5cjJsMFQ5ZTJZaTdzdjRTN2JobjBwMDlFMGg2d21GMWtrUnl0eVRCWGdxOVlkUlJxcnBNQXdZTFRuczh4aFhDOVFaUEJTZjJMWDdocV9LOW1TR0HSAf8BQVVfeXFMUGhZQ0M2dWxwaXIxVXM0SlA5bTBqNGdad1FzUjZyZXhBeFZTV01DRW4yMFpoMUM4UEhQc2syRTJfY3FfeUZCNUdUYlBTWHZtdTA1YTF0elNvbFNfOUZrRElJenJucEpBUnU1RHp0eWstQlVDYUd0WTU2dmJBYmlwNjhLTVJCbWRORTBQRVdkODZlYWVkRXIzRlBFRjhRNkhDeU5uZHZoX1g0c19ERWFYV19MNUhpUkxSTGhtRUxMWWVvV2xXcjNHTVQyRm05bGhUQjJHdFY3OHdjNXJxczZGNndkaEg5WXJ3NFdDZmZYZ2JWdzJkVWhsYmlWWEQ0dmRr",
-      "published_at": "2026-10-14T16:34:45+00:00",
-      "category": "melilla",
       "language": "es",
       "weight": 2,
       "source_id": "unknown"
@@ -388,22 +388,22 @@
       "source_id": "unknown"
     },
     {
-      "title": "Melilla baña de cariño a los Reyes 19 años después y señala a Marruecos: \"Escucha Mohamed: ¡que viva España, eh!\"",
-      "source": "El Mundo",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9MQnVNeE5kXzc3Q2hyZDl4OXlPQTlkTUtDOWUwdWVhMXJLWDNwdlQweWpFVEVWRi1US2g1VXJfZVI3OGNhSmVPai12QnRQR0VqN2FReFVHeGNjbGhiVGFPUDBXSVNWa0Y5R2c3bGhsOFJlSm9DSVUwN0V30gF6QVVfeXFMTm0tNlVIQjVfcUlSOFhsVC1QeFpmU3NaUC1MWHJvdFhRb2s0N3VrcXJoN0NfWFhXWFJIakR4Y1ZBZmRCT2I4UHVCcGs3dzdmS2FRMzhJVTcyRUF2VTc3Z0pZUXdKSUdqZmVya0tqMERwTEV4MGZaTGFEaEE",
-      "published_at": "2026-10-14T11:45:26+00:00",
-      "category": "melilla",
-      "language": "es",
-      "weight": 2,
-      "source_id": "unknown"
-    },
-    {
       "title": "Spain’s king reasserts sovereignty over Ceuta, Melilla as Morocco remains silent",
       "source": "Middle East Monitor",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWlJUbFZoWURNNkl6VFN1UGlmU0NHa1VmUGdlY09vY3A1RFR3T1R2blV0WFRQTFN3R0llVklPV2s4ZFd0YlVqZUxMbmh5N0pibzV2dVJuWDZUVURKUjc1UUt6d1VKeERGckpaV3ljMldyVHlVckdwcXd3OTBwWUJtV0gtMnh0em9HU0pBMnQ2N21LYlh5dDJPWDl1cHJRZ1R0cnQ4Tm1qcXR1UG5OSG1kWk55QlJkbUUwTi0wTUZ6ONIBxAFBVV95cUxNdklfa3J6NkNuQVNIUl8taHBXX3J1aDBydTJyUmY2TVA2aEp5cVJZR1ltODJ0RWt2eWktNU51UWxTQmowenhoTXQzNjMtSEoybjlGU3ppRW5LcFZ6UEd4UjRXd2IzYUFjTGRmUV9kTy1GMTktenRzRmFGUU1HRmxab2x1dk5Fbi1mTC1BbzFTU3dhSEN3VGpiYWpGd3VSRC1jR1oxOXJFdk5yVEQ0MGtNUk9GVnFmZF9uY2pscFh2SFctajYt",
       "published_at": "2026-10-14T10:11:00+00:00",
       "category": "relations",
       "language": "en",
+      "weight": 2,
+      "source_id": "unknown"
+    },
+    {
+      "title": "El Rey reivindica desde Melilla una relación con Marruecos basada en la confianza y la buena fe",
+      "source": "El Progreso de Lugo",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQVVwbVFDR01uVDUtTnhMU25wLTh5UGpRVkRDRnN4OXR6MHdUeXRSNkZHc2dhXy0wQlBja1lhZHd2NTlIc0ZlR05YOGM4N2RQbFpWUk9BSnNPWlNrMnFZLXZiOTdjaUdWNWxBTG55ZjNNT204bzBBVkoycXptemFNVUROX1diVV9SQWk4bloyRmJCcU9YWTA5d0pGa0lQeDZzNjB2OXVJdkY2SE1SUXR5VDF1TDB2Mm1SN05pMkFzMEJlZVnSAcgBQVVfeXFMUEdpQUVQYTN2ZTdxYTVGeGdIVW1FUS0xc0MxSjMzZTJmM0NDdUlXUy1MSU9NbDI3TnE4bTlsa09NRWkwMk9KSmQxV2NDUGptUHl1cnoxSm9PSnZDVTdJZllOUjFrVl9xOVoxdnVsazVaTERTaWE5bXRzaHVMU1kxNVkxdHJmNHh2ay1GZUxMd19WOWxwRnM3VHpiX1pmZlNTRG54YUxVZFJ1ZWc4RndQZGl5b2VqanNIVnM0T2J6TmJ1US1hUEU5ekE",
+      "published_at": "2026-10-14T09:34:53+00:00",
+      "category": "relations",
+      "language": "es",
       "weight": 2,
       "source_id": "unknown"
     }

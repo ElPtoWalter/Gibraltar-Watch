@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-22T07:40:04Z",
+  "generated_at": "2026-10-22T11:52:26Z",
   "state": {
     "code": "watch",
     "label_es": "VIGILANCIA",
     "color": "yellow",
     "severity": 1,
-    "summary_es": "La situación requiere seguimiento, pero no aparecen señales suficientes para elevar el nivel operativo.",
+    "summary_es": "La situación requiere seguimiento, pero no aparecen señales suficientes para elevar el nivel operativo. Parte de las fuentes necesita actualización, por lo que la lectura debe interpretarse con cautela.",
     "layers": {
       "maritime": {
         "value": "SIN CONFIRMACIÓN RECIENTE",
@@ -26,8 +26,11 @@
       }
     },
     "confidence": "BAJA",
-    "confidence_explanation_es": "Confianza baja: la información disponible no permite una corroboración reciente suficiente.",
-    "sources_pending": [],
+    "confidence_explanation_es": "Confianza baja porque necesitan actualización o revisión: Sismicidad USGS, Actualidad y geopolítica. El estado operativo se mantiene separado de la frescura de esas fuentes.",
+    "sources_pending": [
+      "Sismicidad USGS",
+      "Actualidad y geopolítica"
+    ],
     "alert_level": {
       "code": "informational",
       "label_es": "INFORMATIVO",
@@ -35,7 +38,7 @@
     }
   },
   "metrics": {
-    "news_24h": 7,
+    "news_24h": 1,
     "news_sources": 27,
     "seismic_24h": 0,
     "seismic_7d": 0,
@@ -45,8 +48,8 @@
     "ope_passengers_day": 59877,
     "ope_vehicles_day": 15464,
     "ope_rotations_day": 179,
-    "diary_date": "2026-10-21",
-    "diary_source_count": 2
+    "diary_date": "2026-10-22",
+    "diary_source_count": 7
   },
   "anomalies": [],
   "changes": {
@@ -56,55 +59,50 @@
   },
   "since_yesterday": {
     "reference_date": "2026-10-21",
-    "summary_es": "El nivel general se mantiene en VIGILANCIA. El volumen de referencias de las últimas 24 horas no cambia."
+    "summary_es": "El nivel general se mantiene en VIGILANCIA. El monitor recoge 6 referencias menos en la ventana de 24 horas."
   },
   "health": {
-    "overall": "HEALTHY",
-    "generated_at": "2026-10-22T07:40:04Z"
+    "overall": "DEGRADED",
+    "generated_at": "2026-10-22T11:52:26Z"
   },
   "latest_diary": {
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
-    "summary": "Selección automática de 2 referencias de 2 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
-    "published_at": "2026-10-21T13:49+02:00",
-    "updated_at": "2026-10-21T13:49+02:00",
-    "source_count": 2,
+    "summary": "Selección automática de 7 referencias de 7 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "published_at": "2026-10-22T13:52+02:00",
+    "updated_at": "2026-10-22T13:52+02:00",
+    "source_count": 7,
     "indexable": false,
     "edition_label": "Cuaderno de las dos orillas",
     "edition_slug": "shores",
-    "fingerprint": "19ebada0ca47e383b217",
+    "fingerprint": "280018a913941b2d205b",
     "editor_engine": "rules",
     "editor_assistant_status": "gemini-validation-es",
     "assistant_status": "gemini-validation-es",
     "validator_version": 2,
-    "factual_packet_hash": "e0e295d380a322e978abdee5082c20670f87a311cfb776e146051fa609c542e6",
+    "factual_packet_hash": "c789191c4b7179749c8f5246b25e602e8c7f0a68bb90c2e7b9dde96c51ffd6d4",
     "event_ids": [
       "evt_04a63cfdd1e4e547",
       "evt_d0e82ce8e43e0a82",
       "evt_8fac77d2391693b1",
-      "evt_b982bcf836e119cc",
-      "evt_07f8ed82b227c16d",
-      "evt_07f8ed82b227c16d",
-      "evt_961f7e4ad270a43b"
+      "evt_07f8ed82b227c16d"
     ],
     "source_ids": [
-      "ap",
-      "elpais",
       "reuters",
       "unknown"
     ],
-    "timestamp": "2026-10-21T11:49:01.992016+00:00",
+    "timestamp": "2026-10-22T11:52:24.132780+00:00",
     "fallback_used": true,
     "verification_summary": {
       "CONFIRMED_MULTI_SOURCE": 0,
       "CONFIRMED_PRIMARY": 0,
       "CONFLICTING": 0,
-      "DECLARATION_ONLY": 4,
-      "SINGLE_SOURCE": 3,
-      "UNCONFIRMED": 10,
-      "TOTAL": 17
+      "DECLARATION_ONLY": 3,
+      "SINGLE_SOURCE": 1,
+      "UNCONFIRMED": 14,
+      "TOTAL": 18
     },
-    "date_label": "2026-10-21",
+    "date_label": "2026-10-22",
     "slug": "actual.html"
   },
   "latest_ope": {

@@ -1,40 +1,44 @@
 {
-  "date": "2026-10-22",
+  "date": "2026-10-23",
   "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
-  "summary": "Selección automática de 7 referencias de 7 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
-  "published_at": "2026-10-22T13:52+02:00",
-  "updated_at": "2026-10-22T13:52+02:00",
-  "source_count": 7,
+  "summary": "Selección automática de 5 referencias de 5 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+  "published_at": "2026-10-23T13:39+02:00",
+  "updated_at": "2026-10-23T13:39+02:00",
+  "source_count": 5,
   "indexable": false,
   "edition_label": "Cuaderno de las dos orillas",
   "edition_slug": "shores",
-  "fingerprint": "280018a913941b2d205b",
-  "editor_engine": "rules",
-  "editor_assistant_status": "gemini-validation-es",
-  "assistant_status": "gemini-validation-es",
+  "fingerprint": "57e96a61677d300d247d",
+  "editor_engine": "gemini",
+  "editor_assistant_status": "ok",
+  "assistant_status": "ok",
   "validator_version": 2,
-  "factual_packet_hash": "c789191c4b7179749c8f5246b25e602e8c7f0a68bb90c2e7b9dde96c51ffd6d4",
+  "factual_packet_hash": "fa75c32f9a5d9a9ddc7be8bd9edce7c898c8fc410cd05d0077b784943e369a0b",
   "event_ids": [
+    "evt_e58ddff06944889e",
     "evt_04a63cfdd1e4e547",
     "evt_d0e82ce8e43e0a82",
-    "evt_8fac77d2391693b1",
-    "evt_07f8ed82b227c16d"
+    "evt_07f8ed82b227c16d",
+    "evt_0cac89d86681bdbf",
+    "evt_4c624ec3ebc55357"
   ],
   "source_ids": [
+    "elpais",
+    "politico",
     "reuters",
     "unknown"
   ],
-  "timestamp": "2026-10-22T11:52:24.132780+00:00",
-  "fallback_used": true,
+  "timestamp": "2026-10-23T11:39:01.234324+00:00",
+  "fallback_used": false,
   "verification_summary": {
     "CONFIRMED_MULTI_SOURCE": 0,
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 3,
-    "SINGLE_SOURCE": 1,
-    "UNCONFIRMED": 14,
-    "TOTAL": 18
+    "SINGLE_SOURCE": 3,
+    "UNCONFIRMED": 17,
+    "TOTAL": 23
   },
-  "date_label": "2026-10-22",
-  "slug": "actual.html"
+  "date_label": "2026-10-23",
+  "slug": "2026-10-23.html"
 }

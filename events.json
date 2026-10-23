@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-23T18:25:08.082843+00:00",
+  "generated_at": "2026-10-23T22:15:53.237797+00:00",
   "events": [
     {
       "event_id": "evt_d0644076884bda9c",
@@ -49,6 +49,52 @@
           "title_key": "spain and italy end border restrictions imposed after ceuta migration crisis hespress english morocco news",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZ0NyX2RSM2J6eUJQek93N1I3U0JlOGJUNnFFZmgxbkNIXzY1Y3E0eEUteTBvbU1nS2xfajlvWGdEUmNzY3hPVlRRRVBJMTN6QnJXdS1fTzZkY2Z5bjlybVF0ekJ0UTVUbkdEZjdLUkU0YXphdnBsZF8wMWFrRnRPVkFWV3hNY2lxQzk0NDlyT2tQSmFCeDBFdkR0SDZuMGpfamJRcjluSmRiTkVyRnVUS2pn",
           "published_at": "2026-10-23T16:00:06Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_4683805d894191e3",
+      "topic": "ceuta",
+      "first_seen": "2026-10-23T15:34:31Z",
+      "last_seen": "2026-10-23T15:34:31Z",
+      "headline": "Sánchez on the Ceuta crisis: We made a decision with Morocco to prevent further loss of life",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_db2711539703905a",
+          "title": "Sánchez on the Ceuta crisis: We made a decision with Morocco to prevent further loss of life",
+          "title_key": "sanchez on the ceuta crisis we made a decision with morocco to prevent further loss of life",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPSTZ3UUczTmJvZ19kZGxnc05kYi1ydVNpc1hzbUZNUVh4N0VGWERxMjN6cUlSdmNrdk9fNTdrWnhGNEd6ejFsVUJSV0JudEhYQjloWWxTOGlBWXlZNmhGcEtFV3lCdHZNcHh5dUVjZ2taQkZpZHdTS19lbVdtNmlpU0Y4RENmX1Rlc2tvTk9CanI",
+          "published_at": "2026-10-23T15:34:31Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -292,52 +338,6 @@
       ],
       "importance": 17,
       "operational_impact": "CONTEXT",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_e3e17eca5977d62d",
-      "topic": "ceuta",
-      "first_seen": "2026-10-22T13:10:17Z",
-      "last_seen": "2026-10-22T19:33:14Z",
-      "headline": "La Guardia Civil lleva a cabo una redada contra una ONG que repartía espray pimienta a los inmigrantes",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_7682fba13a3e5b7e",
-          "title": "La Guardia Civil lleva a cabo una redada contra una ONG que repartía espray pimienta a los inmigrantes",
-          "title_key": "la guardia civil lleva a cabo una redada contra una ong que repartia espray pimienta a los inmigrantes",
-          "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPR0lWanVtcnNpNW9zMDhWUkFDdkdKYnR5V2ZRd0pwb2U5WDJSRGdTdEdSVEt0MlV6eHJZZ0tJcU1EZGVLa2ZmQ3JQYzJfYmR5TkRBNUNPZ0haMk9hbkFXUGhteGtrbUpEeUJyVWFmcnJSS2o1Q0lUQzlPT1ZPcDJobll3OVMzWmdoX1VZaDFqcnFkVjdZVGJSNWozMG94OHNobEcyazN5QnE1ZTZfQk91bV9lX1V0b0gxdGF1a1JzN015amJJVjJvMzhsc0tUVnN4WDF3bjZZMHRzaVQ2ZTdZM2tCMk5hNldLLUhGNVdnN0Fib212eEw0OW9mNnVQbHhraW5PR1F5Y25QZW5fTFNhdUl3MUTSAZQCQVVfeXFMUExMUVJpd2JrUjF5WF9PRzNuYWZjZE9KZF91bW9mODI0WGVaVjg2TTlqN2NIeFZkM2d5Vkt3bVlReUJkM21qRWNILWl0RW1lZlFuT1NVUThaa2VkZDRldTM5VTNHNDVLcW5hTzlkX3NoSVBsOC15eGdkRF92WU9Bb1ZfR2NDampZLWExbW9ZWjVyMU90TS1mX0VsUTlseWRpdC12THZKNGFBRF9CVEtCazBkU0JIMm9zdzF5NVBucDRQWHh6dDJTM0prRkVsaDl2YVpMNnlzSTQxRnhRcDRsSXFsbkNYUlJLV2pDZFBqcnN0SHBtNE5xMzdlb0psVDdfZ0JBRGJ0OEYzbHJXZFliS25NWERC",
-          "published_at": "2026-10-22T19:33:14Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
       "operational_eligible": false
     },
     {
@@ -621,6 +621,52 @@
       ],
       "importance": 55,
       "operational_impact": "POTENTIAL",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_365d800f82575dd7",
+      "topic": "relations",
+      "first_seen": "2026-10-21T10:51:07Z",
+      "last_seen": "2026-10-21T10:51:07Z",
+      "headline": "Spanish Throne and the Legitimization of Occupation and Abuses in Ceuta, Melilla",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_7e1fa910d68d6c72",
+          "title": "Spanish Throne and the Legitimization of Occupation and Abuses in Ceuta, Melilla",
+          "title_key": "spanish throne and the legitimization of occupation and abuses in ceuta melilla",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQR2w5dzdGdXJ5ZG9EQVRQMGlVdUppUjBaSjBXNmtKZS0wS0tFaEMxT25PbE9IUFVQMWIzYThBbDBVdF9FY0l1cTg3Y3NGVFRIY0dqNUttWTdqX1ZKRmx5VE9wZ0ZPQTN5QmI4U1FBMHhjNDktekJlMFlXT3czSXY3WVpYdzJ0czFVWTZ0VDhzZG1GR2I1dndYc3gyZFczeE9hTDJzNlBVaVpRZktMU19kYU02Q21pNFJleEJoQlVVRGl5Ykc3ZWEw",
+          "published_at": "2026-10-21T10:51:07Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
       "operational_eligible": false
     },
     {
@@ -1033,11 +1079,11 @@
       ],
       "articles": [
         {
-          "article_id": "art_1a53965217fbefe5",
-          "title": "King Felipe Uses Ceuta Visit to Project Support, Tells Morocco ‘Ceuta Is Spain’",
-          "title_key": "king felipe uses ceuta visit to project support tells morocco ceuta is spain",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNc25uSXhHOFdsaVhLTGhwUUJORjI5VjVMaEp6Y2JXd0hRVUZrcFhPUHNTZ2NKZEdtZl9SQV9XckwxbUVIVW1xWXk0NXc3OFB3RmQ5enUwQlhhQzJhQmJGeW5zUkZodzV3b253LU15NUhCWmx2b0dDeUJ3aTJsR1RYNlBCd3FGMXV3ZDhWNVB2TXhnMmFjSFgzdzhpNG83OEFPTmltRURpcy1WMDhMN1dXQWYtWEh0MnZxNXZQY0VPNEZfdDA",
-          "published_at": "2026-10-14T12:33:58Z",
+          "article_id": "art_19a57bef77266c85",
+          "title": "Sánchez Reaffirms Spain’s Commitment to Constructive Relations With Morocco",
+          "title_key": "sanchez reaffirms spain s commitment to constructive relations with morocco",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcUR1SUJ5Q2t6NGx5X3VyTFNmaHFwamM4dWIwdmpXVVc0NFdGcU5GTWpNRUY5bGlodmZqNXAwMTU4bUdWanhJTHZ0RjhCallKWTFxMkNpTjg0dmNNVnVmSDB2RlZwcktnX2FkaHlyWnFIM0N4eVg4ZG5MOUtzYjI2cmR2MWE4TGw2TFRMbUp5UEZWNWlHdTBtWWd2NEV5eFNKbEUxNjEyMWdNSVJFNl9NUjZzeTltaEJiY2hFN3pKdkY",
+          "published_at": "2026-10-15T14:32:56Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -1125,52 +1171,6 @@
       ],
       "importance": 30,
       "operational_impact": "POTENTIAL",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_6112ac60bdf7d337",
-      "topic": "relations",
-      "first_seen": "2026-10-15T14:32:56Z",
-      "last_seen": "2026-10-15T14:32:56Z",
-      "headline": "Sánchez Reaffirms Spain’s Commitment to Constructive Relations With Morocco",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_19a57bef77266c85",
-          "title": "Sánchez Reaffirms Spain’s Commitment to Constructive Relations With Morocco",
-          "title_key": "sanchez reaffirms spain s commitment to constructive relations with morocco",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcUR1SUJ5Q2t6NGx5X3VyTFNmaHFwamM4dWIwdmpXVVc0NFdGcU5GTWpNRUY5bGlodmZqNXAwMTU4bUdWanhJTHZ0RjhCallKWTFxMkNpTjg0dmNNVnVmSDB2RlZwcktnX2FkaHlyWnFIM0N4eVg4ZG5MOUtzYjI2cmR2MWE4TGw2TFRMbUp5UEZWNWlHdTBtWWd2NEV5eFNKbEUxNjEyMWdNSVJFNl9NUjZzeTltaEJiY2hFN3pKdkY",
-          "published_at": "2026-10-15T14:32:56Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
       "operational_eligible": false
     },
     {

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-24T11:10:03.776584+00:00",
+  "generated_at": "2026-10-24T14:36:49.810456+00:00",
   "events": [
     {
       "event_id": "evt_f2ce6141d5c1d418",
@@ -213,11 +213,57 @@
       "operational_eligible": false
     },
     {
+      "event_id": "evt_45556575a378aab1",
+      "topic": "traffic",
+      "first_seen": "2026-10-23T09:28:25Z",
+      "last_seen": "2026-10-23T09:28:25Z",
+      "headline": "Malacca Maze: Why a Hormuz-style blockade needs to be averted to keep global trade flowing",
+      "classification": "ANALYSIS",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_f06a9c216a139774",
+          "title": "Malacca Maze: Why a Hormuz-style blockade needs to be averted to keep global trade flowing",
+          "title_key": "malacca maze why a hormuz style blockade needs to be averted to keep global trade flowing",
+          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNRWlmTlBNX2xsWGdhOExtX0E3dnRtaTN6c3pvS3BkREtUSTZOWTFNY0tCcGJWMm03WmpIQU91bHlqc2dMbnc5LW9RSDZ4WjN1NlFNR25hNjNtS0NVbWQ4VUgtekFVOEpTUm5LWHFWRWVDZTkxSE1uZXhHa1V0VVpCZUJHRUh1WlBnbVQwaEdEb2g3bG4yTFFodVJHYXQ2Tk0wRlllRkdGSUowenBSNFdGd1k1U1dDMzNHN0NRbkRpREQyekFfVzdMNWxYUWNiRnVkamZrenlHT2Z5a1ZCWmE4ejhSbk1VUFhqSG5odnd1cEFRZENLZEHSAfYBQVVfeXFMTUVpZk5QTV9sbFhnYThMbV9BN3Z0bWkzenN6b0twZERLVEk2TlkxTWNLQnBiVjJtN1pqSEFPdWx5anNnTG53OS1vUUg2eFozdTZRTUduYTYzbUtDVW1kOFVILXpBVThKU1JuS1hxVkVlQ2U5MUhNbmV4R2tVdFVaQmVCR0VIdVpQZ21UMGhHRG9oN2xuMkxRaHVSR2F0Nk5NMEZZZUZHRklKMHpwUjRXRndZNVNXQzMzRzdDUW5EaUREMnpBX1c3TDVsWFFjYkZ1ZGpma3p5R09meWtWQlphOHo4Um5NVVBYakhuaHZ3dXBBUWRDS2RB",
+          "published_at": "2026-10-23T09:28:25Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "traffic",
+          "classification": "ANALYSIS",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 17,
+      "operational_impact": "CONTEXT",
+      "operational_eligible": false
+    },
+    {
       "event_id": "evt_6505945c010cd65b",
       "topic": "melilla",
       "first_seen": "2026-10-21T03:01:00Z",
       "last_seen": "2026-10-22T19:58:58Z",
-      "headline": "La Unión Europea busca multar a Google Maps por representar a Ceuta y Melilla como ‘territorios en disputa’ con Marruecos",
+      "headline": "La UE establece criterios para sancionar a Google Maps por mostrar Ceuta y Melilla como zonas controvertidas con Marruecos",
       "classification": "ANALYSIS",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
@@ -241,6 +287,24 @@
           "title_key": "la ue abre la via para multar a google maps por representar a ceuta y melilla como territorios en disputa con marruecos",
           "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQOTN0bDhERWVaLWZ2YmdjdGxvNjlXM1BpSWpXTXlrdFd3MjhVRW52T19CMWRKN0FzUDQ0dF9Fb3VpNkl1VU9wYk1uWndsczV3MlljZmR3enJkN0FCbjlhVTJVUExqNHJjRk9JMHlrNmhvcHVJdk9mRTRvdUhEUlhVakFxTVgzOVc1Mjdtc1JoMWxyWEFKNGFvTnBYcWk0U0h2OXBka1JsUFREQndNeHhNZm1vQ0x2bnN6VDA4TzRJNWlLV2hldjhBUmtvMmw4UnhBQWVTWjBCUFJiRDlnZHV6QVQyTDEzRlVuU2NNZDBwRdIB9AFBVV95cUxOZzZnajJrekdHSUZMQnBxbWxrMmRGVFJaeUlYN3kxVUs5UzVYTF84TGt5dG1xNWF5OFdoYzZ6aWYwZXhoTTRlb0hUcnBXSldMQ2JTTGFlbDctUGZoUXRLZE9IVGVzWFl0bl9IeWw1Mkh3Wi1SWVZZS0Qyd19taVdmTEFVNEhyUXhBSHpWbnZUYVZLRGcxeVlBNG9aZnlJMWJMODc2S0dXcjRBaWtNTC1sSlVGSE5iMjFjWVFFeG5sMC1QSmFEWXdKLUVBQktnLW5pZWxYVXdIY3dUVUU2SURURTI4MGxjUTNVdm5UU1RkbEgzT0dC",
           "published_at": "2026-10-21T03:01:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "melilla",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_350d2960fd3708c5",
+          "title": "La UE establece criterios para sancionar a Google Maps por mostrar Ceuta y Melilla como zonas controvertidas con Marruecos",
+          "title_key": "la ue establece criterios para sancionar a google maps por mostrar ceuta y melilla como zonas controvertidas con marruecos",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPcXIybGNwTmkwUnV0WTdfMjFSTEdudXVIdVh6SXhNUEZiLV9oSGQ1dlcwQ3BfTE9peURlMnB3OHpDbmNmeHN2b0FIcG11S01SaUlSLXB4RDlpNE5KS2cwOVlpay0xRVdyYWRnWDVCQjRXVjhQYTJ2V0lDS2NwUm9Lb01SQUE5NERDbktZbEZ1Q3U4ZDhacVFwWXZiaTNoQUdnN191cjR6RHk5RWdwUEt0ZXFoRUczX2IxOFNBaUx0cVRuUXdVNnRvLWwyVUlhVWl1M01Mem9neDIwU1JDMUE3YnNHWFdKT2FiYWgzRThGZ3BhczA",
+          "published_at": "2026-10-21T07:20:40Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -1069,42 +1133,6 @@
       ],
       "articles": [
         {
-          "article_id": "art_a6726b4bb660a19d",
-          "title": "After Felipe VI’s visit to Ceuta and Melilla, Sánchez insists on constructive relations with Morocco",
-          "title_key": "after felipe vi s visit to ceuta and melilla sanchez insists on constructive relations with morocco",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOcHZNbWZJYW9tdk0taGdaRTZKZFlNUTg3ZTZSTFdfSVJ4SElFZGhPX1FhV2ZRODRzeENWc0V5WVdWZzctOU5HWF96dUlkdV9BbUVFMHNYTDZheGJqWjFyWHdKRmwyRnVmckFFTEwzeW1tazhpWWowX3BqcDNIdE9wOG90TjZGWC1kZ1E",
-          "published_at": "2026-10-15T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_19a57bef77266c85",
-          "title": "Sánchez Reaffirms Spain’s Commitment to Constructive Relations With Morocco",
-          "title_key": "sanchez reaffirms spain s commitment to constructive relations with morocco",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcUR1SUJ5Q2t6NGx5X3VyTFNmaHFwamM4dWIwdmpXVVc0NFdGcU5GTWpNRUY5bGlodmZqNXAwMTU4bUdWanhJTHZ0RjhCallKWTFxMkNpTjg0dmNNVnVmSDB2RlZwcktnX2FkaHlyWnFIM0N4eVg4ZG5MOUtzYjI2cmR2MWE4TGw2TFRMbUp5UEZWNWlHdTBtWWd2NEV5eFNKbEUxNjEyMWdNSVJFNl9NUjZzeTltaEJiY2hFN3pKdkY",
-          "published_at": "2026-10-15T14:32:56Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
           "article_id": "art_f83115b8f662a70e",
           "title": "Sánchez reaffirms Spain’s commitment to good relations with Morocco after King’s visit to Ceuta, Melilla - HESPRESS English - Morocco News",
           "title_key": "sanchez reaffirms spain s commitment to good relations with morocco after king s visit to ceuta melilla hespress english morocco news",
@@ -1170,9 +1198,9 @@
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 4,
     "SINGLE_SOURCE": 2,
-    "UNCONFIRMED": 12,
-    "TOTAL": 18
+    "UNCONFIRMED": 13,
+    "TOTAL": 19
   },
   "article_count": 36,
-  "event_count": 18
+  "event_count": 19
 }

@@ -1,7 +1,89 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-24T05:58:19.126915+00:00",
+  "generated_at": "2026-10-24T11:10:03.776584+00:00",
   "events": [
+    {
+      "event_id": "evt_f2ce6141d5c1d418",
+      "topic": "ceuta",
+      "first_seen": "2026-10-22T20:03:23Z",
+      "last_seen": "2026-10-24T10:44:07Z",
+      "headline": "Italy and Spain end border crisis sparked by Ceuta invasion, but approximately 15,000 migrants still demand asylum",
+      "classification": "DECLARATION",
+      "verification_status": "DECLARATION_ONLY",
+      "verification_reason": "The record is a declaration and is not treated as an operational fact.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_2e3a739638b2234c",
+          "title": "Italy and Spain end border crisis sparked by Ceuta invasion, but approximately 15,000 migrants still demand asylum",
+          "title_key": "italy and spain end border crisis sparked by ceuta invasion but approximately 15 000 migrants still demand asylum",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQR0ZYSk1ZUUVtU1F0RFhMb243YWZ2VFJSVGs4bHZnVEUyeENFWUZQU0JNQ09Ea1dqb1JPWmIwa2xQN3d1SjVDc2NQQVkwM0xGYnA0RVNNZmw1bURRMWFPc3hwUkZRX2dLSk9SQnBvU2RadjhaZkVhOFY4OXBfRW44MUxGYmZUbWt5TVJhazFPcS04SHEy",
+          "published_at": "2026-10-22T20:03:23Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_bbbdb1936eecf11a",
+          "title": "Spain and Italy end border restrictions imposed after Ceuta migration crisis - HESPRESS English - Morocco News",
+          "title_key": "spain and italy end border restrictions imposed after ceuta migration crisis hespress english morocco news",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZ0NyX2RSM2J6eUJQek93N1I3U0JlOGJUNnFFZmgxbkNIXzY1Y3E0eEUteTBvbU1nS2xfajlvWGdEUmNzY3hPVlRRRVBJMTN6QnJXdS1fTzZkY2Z5bjlybVF0ekJ0UTVUbkdEZjdLUkU0YXphdnBsZF8wMWFrRnRPVkFWV3hNY2lxQzk0NDlyT2tQSmFCeDBFdkR0SDZuMGpfamJRcjluSmRiTkVyRnVUS2pn",
+          "published_at": "2026-10-23T16:00:06Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_9e257f40462b6779",
+          "title": "Spanish Minister Warns Against ‘Demonizing’ Morocco Amid Ceuta Migration Crisis",
+          "title_key": "spanish minister warns against demonizing morocco amid ceuta migration crisis",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaTFTUVVmdzNtNHgwN2Q4QzdpT0d4MmdkLUd2ejVlYTA4MnRCMkY1amVCMjRRYlM0OXVKMndfZXk1S2VSOUtxNmpkbjNfbkRXQTZsNDhITzh5UVMweWRWdXh4UEFBMGtxSlhuVUNSdlpkQ0NyVFlySlE2SDZiZ2Y2blF2S3E2TGF5Qml0UHVVMmhSUzh5bThCRUlVQ0FEOW80dWFIclhmcGxCQ2xYMWdwdUFYS2tPaUUxc1NGYWtQMlE0bGFC",
+          "published_at": "2026-10-24T10:44:07Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "DECLARATION",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 30,
+      "operational_impact": "POTENTIAL",
+      "operational_eligible": false
+    },
     {
       "event_id": "evt_b4934c47f249d462",
       "topic": "relations",
@@ -85,70 +167,6 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_f2ce6141d5c1d418",
-      "topic": "ceuta",
-      "first_seen": "2026-10-22T20:03:23Z",
-      "last_seen": "2026-10-23T16:00:06Z",
-      "headline": "Italy and Spain end border crisis sparked by Ceuta invasion, but approximately 15,000 migrants still demand asylum",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_2e3a739638b2234c",
-          "title": "Italy and Spain end border crisis sparked by Ceuta invasion, but approximately 15,000 migrants still demand asylum",
-          "title_key": "italy and spain end border crisis sparked by ceuta invasion but approximately 15 000 migrants still demand asylum",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQR0ZYSk1ZUUVtU1F0RFhMb243YWZ2VFJSVGs4bHZnVEUyeENFWUZQU0JNQ09Ea1dqb1JPWmIwa2xQN3d1SjVDc2NQQVkwM0xGYnA0RVNNZmw1bURRMWFPc3hwUkZRX2dLSk9SQnBvU2RadjhaZkVhOFY4OXBfRW44MUxGYmZUbWt5TVJhazFPcS04SHEy",
-          "published_at": "2026-10-22T20:03:23Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_bbbdb1936eecf11a",
-          "title": "Spain and Italy end border restrictions imposed after Ceuta migration crisis - HESPRESS English - Morocco News",
-          "title_key": "spain and italy end border restrictions imposed after ceuta migration crisis hespress english morocco news",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZ0NyX2RSM2J6eUJQek93N1I3U0JlOGJUNnFFZmgxbkNIXzY1Y3E0eEUteTBvbU1nS2xfajlvWGdEUmNzY3hPVlRRRVBJMTN6QnJXdS1fTzZkY2Z5bjlybVF0ekJ0UTVUbkdEZjdLUkU0YXphdnBsZF8wMWFrRnRPVkFWV3hNY2lxQzk0NDlyT2tQSmFCeDBFdkR0SDZuMGpfamJRcjluSmRiTkVyRnVUS2pn",
-          "published_at": "2026-10-23T16:00:06Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_4683805d894191e3",
       "topic": "ceuta",
       "first_seen": "2026-10-23T15:34:31Z",
@@ -192,52 +210,6 @@
       ],
       "importance": 4,
       "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_45556575a378aab1",
-      "topic": "traffic",
-      "first_seen": "2026-10-23T09:28:25Z",
-      "last_seen": "2026-10-23T09:28:25Z",
-      "headline": "Malacca Maze: Why a Hormuz-style blockade needs to be averted to keep global trade flowing",
-      "classification": "ANALYSIS",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_f06a9c216a139774",
-          "title": "Malacca Maze: Why a Hormuz-style blockade needs to be averted to keep global trade flowing",
-          "title_key": "malacca maze why a hormuz style blockade needs to be averted to keep global trade flowing",
-          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNRWlmTlBNX2xsWGdhOExtX0E3dnRtaTN6c3pvS3BkREtUSTZOWTFNY0tCcGJWMm03WmpIQU91bHlqc2dMbnc5LW9RSDZ4WjN1NlFNR25hNjNtS0NVbWQ4VUgtekFVOEpTUm5LWHFWRWVDZTkxSE1uZXhHa1V0VVpCZUJHRUh1WlBnbVQwaEdEb2g3bG4yTFFodVJHYXQ2Tk0wRlllRkdGSUowenBSNFdGd1k1U1dDMzNHN0NRbkRpREQyekFfVzdMNWxYUWNiRnVkamZrenlHT2Z5a1ZCWmE4ejhSbk1VUFhqSG5odnd1cEFRZENLZEHSAfYBQVVfeXFMTUVpZk5QTV9sbFhnYThMbV9BN3Z0bWkzenN6b0twZERLVEk2TlkxTWNLQnBiVjJtN1pqSEFPdWx5anNnTG53OS1vUUg2eFozdTZRTUduYTYzbUtDVW1kOFVILXpBVThKU1JuS1hxVkVlQ2U5MUhNbmV4R2tVdFVaQmVCR0VIdVpQZ21UMGhHRG9oN2xuMkxRaHVSR2F0Nk5NMEZZZUZHRklKMHpwUjRXRndZNVNXQzMzRzdDUW5EaUREMnpBX1c3TDVsWFFjYkZ1ZGpma3p5R09meWtWQlphOHo4Um5NVVBYakhuaHZ3dXBBUWRDS2RB",
-          "published_at": "2026-10-23T09:28:25Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "traffic",
-          "classification": "ANALYSIS",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 17,
-      "operational_impact": "CONTEXT",
       "operational_eligible": false
     },
     {
@@ -688,6 +660,52 @@
       "operational_eligible": false
     },
     {
+      "event_id": "evt_365d800f82575dd7",
+      "topic": "relations",
+      "first_seen": "2026-10-21T10:51:07Z",
+      "last_seen": "2026-10-21T10:51:07Z",
+      "headline": "Spanish Throne and the Legitimization of Occupation and Abuses in Ceuta, Melilla",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_7e1fa910d68d6c72",
+          "title": "Spanish Throne and the Legitimization of Occupation and Abuses in Ceuta, Melilla",
+          "title_key": "spanish throne and the legitimization of occupation and abuses in ceuta melilla",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQR2w5dzdGdXJ5ZG9EQVRQMGlVdUppUjBaSjBXNmtKZS0wS0tFaEMxT25PbE9IUFVQMWIzYThBbDBVdF9FY0l1cTg3Y3NGVFRIY0dqNUttWTdqX1ZKRmx5VE9wZ0ZPQTN5QmI4U1FBMHhjNDktekJlMFlXT3czSXY3WVpYdzJ0czFVWTZ0VDhzZG1GR2I1dndYc3gyZFczeE9hTDJzNlBVaVpRZktMU19kYU02Q21pNFJleEJoQlVVRGl5Ykc3ZWEw",
+          "published_at": "2026-10-21T10:51:07Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
       "event_id": "evt_95ad466c6d0225e6",
       "topic": "melilla",
       "first_seen": "2026-10-21T09:11:00Z",
@@ -777,6 +795,52 @@
       ],
       "importance": 43,
       "operational_impact": "CONTEXT",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_4db9f96a54bd7de5",
+      "topic": "relations",
+      "first_seen": "2026-10-19T17:20:50Z",
+      "last_seen": "2026-10-19T17:20:50Z",
+      "headline": "Felipe VI’s visit to Ceuta and Melilla continues to draw criticism in Morocco",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_8c4be9e1b6437767",
+          "title": "Felipe VI’s visit to Ceuta and Melilla continues to draw criticism in Morocco",
+          "title_key": "felipe vi s visit to ceuta and melilla continues to draw criticism in morocco",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVEswRFlIb1BoQU9OX3BEaW9USWdQZllORDl3MmRzZkxyLWxnUUdrNjBFeW1VdHRKekptQkJoenA3dThwbG1XazlIaWliTDB1bWVTWTNUZThFRHVQaDdRS2RPUndKbFFqUkRkcTRjYURxN0NuWURLb2NqMmZTUWdLQUZTRnA5U0F3X2dDNQ",
+          "published_at": "2026-10-19T17:20:50Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
       "operational_eligible": false
     },
     {
@@ -982,149 +1046,11 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_a7745d7d3c137569",
+      "event_id": "evt_8d91cf2cbfc597f2",
       "topic": "relations",
-      "first_seen": "2026-10-15T06:33:10Z",
-      "last_seen": "2026-10-15T02:25:13Z",
-      "headline": "Las tradicionalmente complicadas relaciones España-Marruecos | Colaboración",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_f78c7cd9394a2633",
-          "title": "Las tradicionalmente complicadas relaciones España-Marruecos | Colaboración",
-          "title_key": "las tradicionalmente complicadas relaciones espana marruecos colaboracion",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWWZVd2RySGtRanlDNXNTVFQxTzluWGwxUjJuRDFjUzEtZUNKdGZZMndqWGN1QmRlbGxjUE4yNUpmT0p0Qy12Q2Y4aXFFSG0tSzR5amM2Rk43WFdSNTBSaEhxRmJrTXd6MHU0cXVYWkRtdjJjanl6M0xSSG50czFxbFJFdkNBR09IUHfSAY8BQVVfeXFMTjZrMHV0YlVYbGZoOFlmTlRqYkphbUVVeEhVdUtldzZ1c19Ha3ZmWjhkOTlVN1VHekJaTVMxU1dVVEVVaC1EMWdrQXVpT1JBSW1uUjdsbEVMN203Ym4yaDhMMTVwUWd6V3JHcDFqVmFfZnNLb1Q5Z2puc1pERUN4NFZ1dUl4M1EySEZhN21TX0U",
-          "published_at": "2026-10-15T02:25:13Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_88191887929ca420",
-      "topic": "relations",
-      "first_seen": "2026-10-14T09:34:53Z",
-      "last_seen": "2026-10-14T09:34:53Z",
-      "headline": "El Rey reivindica desde Melilla una relación con Marruecos basada en la confianza y la buena fe",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_21da806133c9b359",
-          "title": "El Rey reivindica desde Melilla una relación con Marruecos basada en la confianza y la buena fe",
-          "title_key": "el rey reivindica desde melilla una relacion con marruecos basada en la confianza y la buena fe",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQVVwbVFDR01uVDUtTnhMU25wLTh5UGpRVkRDRnN4OXR6MHdUeXRSNkZHc2dhXy0wQlBja1lhZHd2NTlIc0ZlR05YOGM4N2RQbFpWUk9BSnNPWlNrMnFZLXZiOTdjaUdWNWxBTG55ZjNNT204bzBBVkoycXptemFNVUROX1diVV9SQWk4bloyRmJCcU9YWTA5d0pGa0lQeDZzNjB2OXVJdkY2SE1SUXR5VDF1TDB2Mm1SN05pMkFzMEJlZVnSAcgBQVVfeXFMUEdpQUVQYTN2ZTdxYTVGeGdIVW1FUS0xc0MxSjMzZTJmM0NDdUlXUy1MSU9NbDI3TnE4bTlsa09NRWkwMk9KSmQxV2NDUGptUHl1cnoxSm9PSnZDVTdJZllOUjFrVl9xOVoxdnVsazVaTERTaWE5bXRzaHVMU1kxNVkxdHJmNHh2ay1GZUxMd19WOWxwRnM3VHpiX1pmZlNTRG54YUxVZFJ1ZWc4RndQZGl5b2VqanNIVnM0T2J6TmJ1US1hUEU5ekE",
-          "published_at": "2026-10-14T09:34:53Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_07f8ed82b227c16d",
-      "topic": "melilla",
-      "first_seen": "2026-10-14T07:00:00Z",
-      "last_seen": "2026-10-14T07:00:00Z",
-      "headline": "El Rey, en Melilla: “Estamos preparados para defender nuestros valores y libertades”",
-      "classification": "FACT",
-      "verification_status": "SINGLE_SOURCE",
-      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
-      "sources": [
-        {
-          "source_id": "elpais",
-          "source_name": "El País",
-          "source_domain": "elpais.com",
-          "tier": 3,
-          "official": false,
-          "weight": 3.0
-        }
-      ],
-      "source_ids": [
-        "elpais"
-      ],
-      "articles": [
-        {
-          "article_id": "art_17bcf525ce2c5efb",
-          "title": "El Rey, en Melilla: “Estamos preparados para defender nuestros valores y libertades”",
-          "title_key": "el rey en melilla estamos preparados para defender nuestros valores y libertades",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTE1PWXhraWNEQk1vOFpwMjB0czZlQjZfUVVKclNBQVpWRXhTbUhvSkRWY2ZoN09GNndxNWIyMW90SGZJalhHUHV3OXQ0OGVyNE55Ti1za3ZiVkpZTWhsV1dqenpYVHQ0MDA2bUdTT1FkS2lEbTNCbVQ0M0t0eExUdHR0emdEY09JVlJaNE5PZFdrbi1RYkpvZ25PVnhXZkM1NGRXbmxZSUg5RWRFWW9qcTdJRzd1NnphZ2RnUk15UdIB0wFBVV95cUxPREFaam9HaWFiSDdpLTJMV2NQdE10ck1hbUdrR3BOZ2Y5OXJvVXZCNU1IS0xuM25OeTR1YnhsOU9kLTlGWFpQbnEtdHBhQ2NJZFZ1NzFhcm4xdUJPaXlXbEw5eUVkdHBVOVE5M05rdWVxbVh0T0gtODk3emJ5bUpfQ0ZCMVU1cFhrNkFUam1KTGJfNVdCd3UwellDZ01VbE82ekdiTU1fTS1tcTJVYzI1MTVURktudkxZdi01eTZEWW9DNG9NQnhQMFJpLVRuNkRGcTJZ",
-          "published_at": "2026-10-14T07:00:00Z",
-          "observed_at": "",
-          "source_id": "elpais",
-          "source_name": "El País",
-          "source_domain": "elpais.com",
-          "tier": 3,
-          "official": false,
-          "weight": 3.0,
-          "topic": "melilla",
-          "classification": "FACT",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 43,
-      "operational_impact": "CONTEXT",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_339e2749aeb554a3",
-      "topic": "melilla",
-      "first_seen": "2026-10-14T07:00:00Z",
-      "last_seen": "2026-10-14T07:00:00Z",
-      "headline": "Felipe VI exige \"cooperación\" y \"responsabilidad\" a Marruecos desde Melilla: \"Cualquier amenaza a su frontera lo es a toda la UE\"",
+      "first_seen": "2026-10-15T07:00:00Z",
+      "last_seen": "2026-10-16T12:20:32Z",
+      "headline": "Sánchez reaffirms Spain’s commitment to good relations with Morocco after King’s visit to Ceuta, Melilla - HESPRESS English - Morocco News",
       "classification": "DECLARATION",
       "verification_status": "DECLARATION_ONLY",
       "verification_reason": "The record is a declaration and is not treated as an operational fact.",
@@ -1143,11 +1069,11 @@
       ],
       "articles": [
         {
-          "article_id": "art_668d88d02ad6aac1",
-          "title": "Felipe VI exige \"cooperación\" y \"responsabilidad\" a Marruecos desde Melilla: \"Cualquier amenaza a su frontera lo es a toda la UE\"",
-          "title_key": "felipe vi exige cooperacion y responsabilidad a marruecos desde melilla cualquier amenaza a su frontera lo es a toda la ue",
-          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOZjQ0WFhESjhHYkNYTmo4VjlPSG5LTWNYYTNtRnhjM2o3Z3dfSGtQNy1XLXRJN2Etd04wS1U1a2NlSUl3dUNHcFlsX0NtUTJmejJCZWUtNHZqRXFSMjNLcjlPN18ydmc0NndpbkhGeWRQbzhiTnd1ZjV3QkhOb0FkVTVOX2NKTzU1OFo3eXI4czVLb0NVWkI4cWhiR2ZXMkY1MkFWY2xoRkJSbEh5cjJsMFQ5ZTJZaTdzdjRTN2JobjBwMDlFMGg2d21GMWtrUnl0eVRCWGdxOVlkUlJxcnBNQXdZTFRuczh4aFhDOVFaUEJTZjJMWDdocV9LOW1TR0HSAf8BQVVfeXFMUGhZQ0M2dWxwaXIxVXM0SlA5bTBqNGdad1FzUjZyZXhBeFZTV01DRW4yMFpoMUM4UEhQc2syRTJfY3FfeUZCNUdUYlBTWHZtdTA1YTF0elNvbFNfOUZrRElJenJucEpBUnU1RHp0eWstQlVDYUd0WTU2dmJBYmlwNjhLTVJCbWRORTBQRVdkODZlYWVkRXIzRlBFRjhRNkhDeU5uZHZoX1g0c19ERWFYV19MNUhpUkxSTGhtRUxMWWVvV2xXcjNHTVQyRm05bGhUQjJHdFY3OHdjNXJxczZGNndkaEg5WXJ3NFdDZmZYZ2JWdzJkVWhsYmlWWEQ0dmRr",
-          "published_at": "2026-10-14T07:00:00Z",
+          "article_id": "art_a6726b4bb660a19d",
+          "title": "After Felipe VI’s visit to Ceuta and Melilla, Sánchez insists on constructive relations with Morocco",
+          "title_key": "after felipe vi s visit to ceuta and melilla sanchez insists on constructive relations with morocco",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOcHZNbWZJYW9tdk0taGdaRTZKZFlNUTg3ZTZSTFdfSVJ4SElFZGhPX1FhV2ZRODRzeENWc0V5WVdWZzctOU5HWF96dUlkdV9BbUVFMHNYTDZheGJqWjFyWHdKRmwyRnVmckFFTEwzeW1tazhpWWowX3BqcDNIdE9wOG90TjZGWC1kZ1E",
+          "published_at": "2026-10-15T07:00:00Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -1155,17 +1081,71 @@
           "tier": 1,
           "official": false,
           "weight": 1.0,
-          "topic": "melilla",
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_19a57bef77266c85",
+          "title": "Sánchez Reaffirms Spain’s Commitment to Constructive Relations With Morocco",
+          "title_key": "sanchez reaffirms spain s commitment to constructive relations with morocco",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcUR1SUJ5Q2t6NGx5X3VyTFNmaHFwamM4dWIwdmpXVVc0NFdGcU5GTWpNRUY5bGlodmZqNXAwMTU4bUdWanhJTHZ0RjhCallKWTFxMkNpTjg0dmNNVnVmSDB2RlZwcktnX2FkaHlyWnFIM0N4eVg4ZG5MOUtzYjI2cmR2MWE4TGw2TFRMbUp5UEZWNWlHdTBtWWd2NEV5eFNKbEUxNjEyMWdNSVJFNl9NUjZzeTltaEJiY2hFN3pKdkY",
+          "published_at": "2026-10-15T14:32:56Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_f83115b8f662a70e",
+          "title": "Sánchez reaffirms Spain’s commitment to good relations with Morocco after King’s visit to Ceuta, Melilla - HESPRESS English - Morocco News",
+          "title_key": "sanchez reaffirms spain s commitment to good relations with morocco after king s visit to ceuta melilla hespress english morocco news",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQTEFJWGo2SEpFZUktZ2pRZVcwbk40eGJYUGZJQ0huTi1DMkRlMVNQeTQ0elkxYUoydm83NXY2eDNabERrWGhtdlBwNzlWdVI3a1IzVnFBMC1DcU03QXVMWlVudElVcVlGVURmVFpoS21SSjVvV1lGbEo0eWNMR0p4UnlJLXFSYWNpcHZmcUhtbEhOQ3I0Szd5UXYxWlVFSFJqaU5SSW5BS3JWRk9iTzVrakxCOTVaMnFadUZpVENURFFjSVlfWElISWtCZEczNTU3MEVV",
+          "published_at": "2026-10-15T14:38:04Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_80fede6b8aa34164",
+          "title": "EU says Moroccan warships’ entry into Ceuta waters is a matter for Spain and Morocco - HESPRESS English - Morocco News",
+          "title_key": "eu says moroccan warships entry into ceuta waters is a matter for spain and morocco hespress english morocco news",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUlJiYnByRl9ib29jTGhTQzNTN3hmQ3hhaTNMeGR4MlF5enhJbEJ1Q3YyWHIxZUkwVmVHSXJVZVJfQkN1dWpjUllOZ1RZUl9HVmVpeDRRT0lkXy1JaTI0MkZaMVpDakwzbkVObHdndTUwV2NpOTB3MjltVnBYN1ZJdDRpMDlfM0N4Ym5WOWJMZlBXSFUzbkVGa0NtRktHNG1qR1pvRnR2VS1ibVR1YlR6VXMwRkQ2VElscnpZ",
+          "published_at": "2026-10-15T16:29:47Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
           "classification": "DECLARATION",
           "signal": "",
           "description": ""
         },
         {
-          "article_id": "art_aabb371072b0edf1",
-          "title": "Felipe VI pide en Melilla \"mirar por una relación de buena vecindad\" entre España y Marruecos",
-          "title_key": "felipe vi pide en melilla mirar por una relacion de buena vecindad entre espana y marruecos",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcEFoS1dsWFBocUlwMlM2eTY1aDRiZnB2cEpiVVFjYnhNQlQxTXFiU01yd0FXRXZ3V0ZZSU9SU0VpMDBBV0ZIWFdaUmotb0xuT2Z2V1F4cW9GVDI5LXJRZmRBWkdhd0VROTBCYTJSX3NEeHVjOV9zdzZ0c0RHb2xNVEpjSVh4WUlwMzNvaFRwWlNHc0Z1YW1rWWpDWFZ0UVhsdW9DMw",
-          "published_at": "2026-10-14T07:00:00Z",
+          "article_id": "art_8ffe34e0805265c1",
+          "title": "Poll: 58% of Spaniards Say Ceuta, Melilla Tensions Could Trigger Morocco-Spain War",
+          "title_key": "poll 58 of spaniards say ceuta melilla tensions could trigger morocco spain war",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPR2ZlYU41VUthNnczZVl3LTlZcVd6SEM3ZzRjQXNxcWVHUlBJQzBOZ0lXeFYzcW1pMGsyeFNMWG4wSWZwYVloY2VESjVKSTRvVVFmMGlka0hmdnp6QVFHRHBJWFN3OXlnNmxQQUJTQlB1cHRzMFhlQTNJUzZmV2pXbTE4YVFzVGp4WDFjS1FoamN1aHZmZDhkbjZTNTF1MXFZN3QyRGtpbXJIUkFSTmxQWFhHVEl1dFVVNHBjeEk0OGdMU0tZcVc4",
+          "published_at": "2026-10-16T12:20:32Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -1173,26 +1153,8 @@
           "tier": 1,
           "official": false,
           "weight": 1.0,
-          "topic": "melilla",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_972ce9f720ca153a",
-          "title": "Felipe VI subraya que Melilla \"es España\" y pide a Marruecos \"construir y preservar una relación de buena vecindad\"",
-          "title_key": "felipe vi subraya que melilla es espana y pide a marruecos construir y preservar una relacion de buena vecindad",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbnh4RDNMOWpGM2hFX2hkVWlFQlptMmdBVUc3VHZnNFpHaEZ3Qm9ZdzlITTNFY08tTjdIYmtwd2ZSMmJVRHdxUWoyYXRTVmhUSmhqVWQwOHNDRmRNN1NCOTR3U01pOXZyVGRVVnVxUi1hRGt5YTVkNVQzdzJVbFJ6UDlsMnBDQnRTMXRsZkU1UVJydmV5NHM5NmpBUDc4d1h6bjVfbEF5SEw3SjhhSExkRnlWSFNEN0lId0paR1FzM3lkUDZuV09reXRwZ1V1T0lURE4zVnJQSTVyUdIB3wFBVV95cUxPeWRkcDlXZ2NfR3dLQVBOUVQtZHF5TmNKX3JRdmtNWG9XODZ2NENlRGpma1lkNlljU0ktbVFIN0ZZTWhSTzVFMUdkelhrWTBpQmdUdUVSNjMybVZMczRvclVSRlIxVjhnM3hvcVVCOGhsa1ZBYjQ1WTFISjkyRTEzck9TYmJEcHVNd3BvR0dweVRiNFB3clpVSy1MVG9TOC0yYThacS1uWFZvWnhIczFMbHhheUxuSzh3S0hlaXp5Qkk3YTEySUR3M0FPNDR3aVNORHhXc3lzNVpiUlJ6ODN3",
-          "published_at": "2026-10-14T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "UNCONFIRMED",
+          "topic": "relations",
+          "classification": "DECLARATION",
           "signal": "",
           "description": ""
         }
@@ -1200,63 +1162,17 @@
       "importance": 30,
       "operational_impact": "POTENTIAL",
       "operational_eligible": false
-    },
-    {
-      "event_id": "evt_edca9f4d2220b01a",
-      "topic": "ceuta",
-      "first_seen": "2026-10-14T07:00:00Z",
-      "last_seen": "2026-10-14T07:00:00Z",
-      "headline": "El \"tridente marroquí\" en Ceuta: Marruecos también habría ordenado a sus pesqueros entrar en aguas españolas durante la crisis migratoria",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_2b7deb08096a4d3e",
-          "title": "El \"tridente marroquí\" en Ceuta: Marruecos también habría ordenado a sus pesqueros entrar en aguas españolas durante la crisis migratoria",
-          "title_key": "el tridente marroqui en ceuta marruecos tambien habria ordenado a sus pesqueros entrar en aguas espanolas durante la crisis migratoria",
-          "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPSDBOVEJDNW5vOFYxUVFNR1FlaUVJMzJjOHR6Q0wtb3ZBOUk4c09uZFg4YkhlLUpXeXJrLURMNjBpRlhzTHFoVVB5UmsxcmFOOTJCTXJveloybUtqaDZlMGdCNWJ4UDNYYUNtY19rTjNuQlR4OFlMZlRob3dUTHdTQndadGxRR01sZExJbXQwTzN5enF3OHV0b3dENFpXZl9zYVJDSUcyVmdZd19iRGQyQmxSXzVIWkVWZDN5V2ttQlYtSzhYRWxHdUhRTlRpWkJJX1NtaWFESjZFQ3YydGxublBWbkhPaTBKcmxuS3NmSEpySnAtRS16a0V6c2pnRTk4VUVBWUppSjNmbTZSNnp3d2dJN29veWFDekHSAZoCQVVfeXFMT0pVdUJKczNUYjEzV3lHdktvUE5MY3V1M1UyT3UyN21tODk0SnY5cEpXbzRFd3JjMlBhZVFnN2NfNnNxTTNoNnU0N0F2UWVRWUpjNFVYMEFmLWNUVUJUSjVmbktqeGtIaGtUeExqMWhKZXdQYWZNUWdZNDVUQkNwT0FuMnVNMUo5UUt6TVBSTThIZUgwSnNDVHFPZ3ZQeHJ4d2NCMWVsYldPVDcyWllIZjVDMnZ0QUhXbEVUdlpRTFpBLWVGeE5IZ3hKSmtDc2REYUpvc2xkTnp3MWZ4ZjAxTHdsVmw1alJQOWJkS0dKRk42US0wNVAyeWNZalhpT3R2M2JaYnp0bUZOaUNBODJaOUxubndicGFVcjRn",
-          "published_at": "2026-10-14T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
     }
   ],
   "verification_summary": {
     "CONFIRMED_MULTI_SOURCE": 0,
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
-    "DECLARATION_ONLY": 3,
-    "SINGLE_SOURCE": 3,
-    "UNCONFIRMED": 15,
-    "TOTAL": 21
+    "DECLARATION_ONLY": 4,
+    "SINGLE_SOURCE": 2,
+    "UNCONFIRMED": 12,
+    "TOTAL": 18
   },
   "article_count": 36,
-  "event_count": 21
+  "event_count": 18
 }

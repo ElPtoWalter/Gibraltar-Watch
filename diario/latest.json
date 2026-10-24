@@ -1,26 +1,26 @@
 {
-  "date": "2026-10-23",
-  "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
+  "date": "2026-10-24",
+  "headline": "España–Marruecos: qué aportan los titulares y qué falta comprobar",
   "summary": "Selección automática de 5 referencias de 5 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
-  "published_at": "2026-10-23T13:39+02:00",
-  "updated_at": "2026-10-23T13:39+02:00",
+  "published_at": "2026-10-24T12:59+02:00",
+  "updated_at": "2026-10-24T12:59+02:00",
   "source_count": 5,
   "indexable": false,
-  "edition_label": "Cuaderno de las dos orillas",
-  "edition_slug": "shores",
-  "fingerprint": "57e96a61677d300d247d",
-  "editor_engine": "gemini",
-  "editor_assistant_status": "ok",
-  "assistant_status": "ok",
+  "edition_label": "Cuaderno diplomático",
+  "edition_slug": "relations",
+  "fingerprint": "c5d812bb50dada92adcc",
+  "editor_engine": "rules",
+  "editor_assistant_status": "gemini-validation-es",
+  "assistant_status": "gemini-validation-es",
   "validator_version": 2,
-  "factual_packet_hash": "fa75c32f9a5d9a9ddc7be8bd9edce7c898c8fc410cd05d0077b784943e369a0b",
+  "factual_packet_hash": "33552fc1b3ff6253fd8b40d51b5eece4d8b09aa9a198bdb0ff48060a85ea3809",
   "event_ids": [
-    "evt_e58ddff06944889e",
-    "evt_04a63cfdd1e4e547",
+    "evt_d0644076884bda9c",
+    "evt_015c0535dc2a2eb7",
     "evt_d0e82ce8e43e0a82",
+    "evt_04a63cfdd1e4e547",
     "evt_07f8ed82b227c16d",
-    "evt_0cac89d86681bdbf",
-    "evt_4c624ec3ebc55357"
+    "evt_339e2749aeb554a3"
   ],
   "source_ids": [
     "elpais",
@@ -28,17 +28,17 @@
     "reuters",
     "unknown"
   ],
-  "timestamp": "2026-10-23T11:39:01.234324+00:00",
-  "fallback_used": false,
+  "timestamp": "2026-10-24T10:59:56.248574+00:00",
+  "fallback_used": true,
   "verification_summary": {
     "CONFIRMED_MULTI_SOURCE": 0,
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 3,
     "SINGLE_SOURCE": 3,
-    "UNCONFIRMED": 17,
-    "TOTAL": 23
+    "UNCONFIRMED": 15,
+    "TOTAL": 21
   },
-  "date_label": "2026-10-23",
-  "slug": "2026-10-23.html"
+  "date_label": "2026-10-24",
+  "slug": "2026-10-24.html"
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-23T22:15:53.237797+00:00",
+  "generated_at": "2026-10-24T00:48:46.846562+00:00",
   "events": [
     {
       "event_id": "evt_d0644076884bda9c",
@@ -25,6 +25,24 @@
         "unknown"
       ],
       "articles": [
+        {
+          "article_id": "art_5a3401a00186834b",
+          "title": "Italy and Spain lift border controls after months of tension over Ceuta",
+          "title_key": "italy and spain lift border controls after months of tension over ceuta",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWFZ1Nl9kX3hyLXl5R3dXa1JZUzVYWk0xdXdRNlJuX1ZxQ3FtWlp1T09UMWFZaWppMFdRQlFfclRRRndqREoxS1NiSlEyYmtCcFZFSFJvc2dhS2NRaFB1T21KSUYxcVZuX0hndmlKc0QwWkpMMWNweXR2TTJiUnFTUzBWNHNNLWtZXzZpUUh4OUs0emRiaHVmUDBrdEY1RnJZWEY3dFhhMVlkeHY1YWV0X1g4c9IBuAFBVV95cUxNV29nN1RSYkFpNFpEN2dGZmswdnV4ZzVSOTB3YXdqcmttRHJ6cU5HWnJlYVVIcnc4YmRUVi1zbktFWXVvVFZqSE5BZno2aUFqY1VmejVvdVBUNExTajJSbGpaN2w2cjBMMEtjZFhYZFEtZFk1SldJaGpZdUVtZVJscV9aVHZDazBFTE5oWWJuNkxEZ2RqMmxjbGxtRjlGNmF0TEFkTnJzakQ0QllaQ3l0OU5pV2E1eHgy",
+          "published_at": "2026-10-22T16:10:37Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
         {
           "article_id": "art_2e3a739638b2234c",
           "title": "Italy and Spain end border crisis sparked by Ceuta invasion, but approximately 15,000 migrants still demand asylum",
@@ -177,52 +195,6 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_45556575a378aab1",
-      "topic": "traffic",
-      "first_seen": "2026-10-23T09:28:25Z",
-      "last_seen": "2026-10-23T09:28:25Z",
-      "headline": "Malacca Maze: Why a Hormuz-style blockade needs to be averted to keep global trade flowing",
-      "classification": "ANALYSIS",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_f06a9c216a139774",
-          "title": "Malacca Maze: Why a Hormuz-style blockade needs to be averted to keep global trade flowing",
-          "title_key": "malacca maze why a hormuz style blockade needs to be averted to keep global trade flowing",
-          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNRWlmTlBNX2xsWGdhOExtX0E3dnRtaTN6c3pvS3BkREtUSTZOWTFNY0tCcGJWMm03WmpIQU91bHlqc2dMbnc5LW9RSDZ4WjN1NlFNR25hNjNtS0NVbWQ4VUgtekFVOEpTUm5LWHFWRWVDZTkxSE1uZXhHa1V0VVpCZUJHRUh1WlBnbVQwaEdEb2g3bG4yTFFodVJHYXQ2Tk0wRlllRkdGSUowenBSNFdGd1k1U1dDMzNHN0NRbkRpREQyekFfVzdMNWxYUWNiRnVkamZrenlHT2Z5a1ZCWmE4ejhSbk1VUFhqSG5odnd1cEFRZENLZEHSAfYBQVVfeXFMTUVpZk5QTV9sbFhnYThMbV9BN3Z0bWkzenN6b0twZERLVEk2TlkxTWNLQnBiVjJtN1pqSEFPdWx5anNnTG53OS1vUUg2eFozdTZRTUduYTYzbUtDVW1kOFVILXpBVThKU1JuS1hxVkVlQ2U5MUhNbmV4R2tVdFVaQmVCR0VIdVpQZ21UMGhHRG9oN2xuMkxRaHVSR2F0Nk5NMEZZZUZHRklKMHpwUjRXRndZNVNXQzMzRzdDUW5EaUREMnpBX1c3TDVsWFFjYkZ1ZGpma3p5R09meWtWQlphOHo4Um5NVVBYakhuaHZ3dXBBUWRDS2RB",
-          "published_at": "2026-10-23T09:28:25Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "traffic",
-          "classification": "ANALYSIS",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 17,
-      "operational_impact": "CONTEXT",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_6505945c010cd65b",
       "topic": "melilla",
       "first_seen": "2026-10-21T03:01:00Z",
@@ -341,10 +313,56 @@
       "operational_eligible": false
     },
     {
+      "event_id": "evt_7b16798ade9b3be4",
+      "topic": "ceuta",
+      "first_seen": "2026-10-22T19:33:14Z",
+      "last_seen": "2026-10-22T19:33:14Z",
+      "headline": "La Guardia Civil lleva a cabo una redada contra una ONG que repartía espray pimienta a los inmigrantes",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_7682fba13a3e5b7e",
+          "title": "La Guardia Civil lleva a cabo una redada contra una ONG que repartía espray pimienta a los inmigrantes",
+          "title_key": "la guardia civil lleva a cabo una redada contra una ong que repartia espray pimienta a los inmigrantes",
+          "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPR0lWanVtcnNpNW9zMDhWUkFDdkdKYnR5V2ZRd0pwb2U5WDJSRGdTdEdSVEt0MlV6eHJZZ0tJcU1EZGVLa2ZmQ3JQYzJfYmR5TkRBNUNPZ0haMk9hbkFXUGhteGtrbUpEeUJyVWFmcnJSS2o1Q0lUQzlPT1ZPcDJobll3OVMzWmdoX1VZaDFqcnFkVjdZVGJSNWozMG94OHNobEcyazN5QnE1ZTZfQk91bV9lX1V0b0gxdGF1a1JzN015amJJVjJvMzhsc0tUVnN4WDF3bjZZMHRzaVQ2ZTdZM2tCMk5hNldLLUhGNVdnN0Fib212eEw0OW9mNnVQbHhraW5PR1F5Y25QZW5fTFNhdUl3MUTSAZQCQVVfeXFMUExMUVJpd2JrUjF5WF9PRzNuYWZjZE9KZF91bW9mODI0WGVaVjg2TTlqN2NIeFZkM2d5Vkt3bVlReUJkM21qRWNILWl0RW1lZlFuT1NVUThaa2VkZDRldTM5VTNHNDVLcW5hTzlkX3NoSVBsOC15eGdkRF92WU9Bb1ZfR2NDampZLWExbW9ZWjVyMU90TS1mX0VsUTlseWRpdC12THZKNGFBRF9CVEtCazBkU0JIMm9zdzF5NVBucDRQWHh6dDJTM0prRkVsaDl2YVpMNnlzSTQxRnhRcDRsSXFsbkNYUlJLV2pDZFBqcnN0SHBtNE5xMzdlb0psVDdfZ0JBRGJ0OEYzbHJXZFliS25NWERC",
+          "published_at": "2026-10-22T19:33:14Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
       "event_id": "evt_e58ddff06944889e",
       "topic": "ceuta",
       "first_seen": "2026-10-19T17:46:39Z",
-      "last_seen": "2026-10-22T16:10:37Z",
+      "last_seen": "2026-10-22T11:00:00Z",
       "headline": "Italy and Spain scrap border checks brought in after Ceuta crisis",
       "classification": "FACT",
       "verification_status": "SINGLE_SOURCE",
@@ -372,6 +390,24 @@
         "unknown"
       ],
       "articles": [
+        {
+          "article_id": "art_f8e863445941c9b1",
+          "title": "Italy Extends Schengen Border Suspension With Spain Amid Ceuta Migration Crisis",
+          "title_key": "italy extends schengen border suspension with spain amid ceuta migration crisis",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVXdnV0R5ZE5ISlpoZ2M5bnNxMC1sNTNILVY0dVRkdDY2VmFrYXNHXzV3M3RTcENVc2ZZQ3ZfQVMtUVR1YjByd2c5M2N3ZjhHYXA3NFBIWU1qS1haNnhVeG51ZGZHUERXVlVzdzRRNktVamlrR1N2cGZSZU1wbkI5azcyM1FkYzg1bUE",
+          "published_at": "2026-10-19T11:25:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
         {
           "article_id": "art_071dc965c99b92c0",
           "title": "Spain’s Ceuta Migration Crisis Tests EU Asylum Rules as Thousands Await Decisions",
@@ -405,24 +441,6 @@
           "weight": 3.0,
           "topic": "ceuta",
           "classification": "FACT",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_5a3401a00186834b",
-          "title": "Italy and Spain lift border controls after months of tension over Ceuta",
-          "title_key": "italy and spain lift border controls after months of tension over ceuta",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWFZ1Nl9kX3hyLXl5R3dXa1JZUzVYWk0xdXdRNlJuX1ZxQ3FtWlp1T09UMWFZaWppMFdRQlFfclRRRndqREoxS1NiSlEyYmtCcFZFSFJvc2dhS2NRaFB1T21KSUYxcVZuX0hndmlKc0QwWkpMMWNweXR2TTJiUnFTUzBWNHNNLWtZXzZpUUh4OUs0emRiaHVmUDBrdEY1RnJZWEY3dFhhMVlkeHY1YWV0X1g4c9IBuAFBVV95cUxNV29nN1RSYkFpNFpEN2dGZmswdnV4ZzVSOTB3YXdqcmttRHJ6cU5HWnJlYVVIcnc4YmRUVi1zbktFWXVvVFZqSE5BZno2aUFqY1VmejVvdVBUNExTajJSbGpaN2w2cjBMMEtjZFhYZFEtZFk1SldJaGpZdUVtZVJscV9aVHZDazBFTE5oWWJuNkxEZ2RqMmxjbGxtRjlGNmF0TEFkTnJzakQ0QllaQ3l0OU5pV2E1eHgy",
-          "published_at": "2026-10-22T16:10:37Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
         }
@@ -524,106 +542,6 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_4f1ed28b2ebb9c68",
-      "topic": "ports",
-      "first_seen": "2026-10-21T07:30:00Z",
-      "last_seen": "2026-10-21T11:50:36Z",
-      "headline": "El Puerto de Algeciras supera los 76 millones de toneladas hasta septiembre y compensa el descenso de febrero",
-      "classification": "OPERATIONAL_SIGNAL",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_f1ac023bc0a740a4",
-          "title": "El Puerto de Algeciras supera los 76 millones de toneladas hasta septiembre y compensa el descenso de febrero",
-          "title_key": "el puerto de algeciras supera los 76 millones de toneladas hasta septiembre y compensa el descenso de febrero",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNSHVvVzFhSWpSbVVBYXBsNktvSkZOOWFmWWc0bUlCZllZWmpON2VLcDZGMjFMcEVnb3RVSUhxZTlxb0ZPbEhhdU1ScU5aOEkxY1Z4YWRsVmxQOGl0SDg3ZDJ3SzVfQm1ySkYtNWduOW5zN0RvcWpCd3R0UUJIMHBZZXlLb21OZ1VZZ2haMnllTlFra0gyek42ODNtd0dyWkFpa0RDU0tRN0pvbEdncTM1SUJwMlBFVlFLdUctT3ZLUmdYY202eFN0dk5ycnJFS01qYlZocWFpYVdxWkJ1TEdBc2QwV0lUbFI3anc",
-          "published_at": "2026-10-21T07:30:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ports",
-          "classification": "OPERATIONAL_SIGNAL",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_fc4982ee26d09b17",
-          "title": "El puerto de Algeciras acumula más de 76 millones de toneladas de tráfico total hasta septiembre",
-          "title_key": "el puerto de algeciras acumula mas de 76 millones de toneladas de trafico total hasta septiembre",
-          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQVU9TaWJyT2xUMXdLbFRBN002Q2lrWTJGbGI0eWdfclBHTzJhRzhUVldtYnBONGkwSUFnNHBWUnVpaE1pbi12VWhxdGtEN0hlMi1yb3JHTGhUZ0l1OVZlUnFRMVlzeW91ZGd5bm9sT3FvMEJ0WWNTVjNTVjJ2S3BxTVV6U1NERUJhMjVqYmRQZEhGb193UmltczRVZTVicTlIc2VfM3luOVpvMG9vSENyWG9KaTNEeEJoeEVRUlRGRXJtUlN6US1mUUlLdzdCUHk2cTUzUjJvN0VRSkRlVFFEenkxaDZFOVpUZC1qZlhHcFhWSURJdUxwYjkzempPWlE1d1lB0gGIAkFVX3lxTE5lbDBHbEZrbVFxeGYyRUNrV3BweDhBNFRtVGZfOHVSLWJYZUFyNnpicGY1YnlYaE9mM3lFYVNlRHl5NU92VzZqdHltZEZyVm9QZ3FXZEx0cDBqRDZBM0Q4TS1RVEhDUnhzOHo5X0ZpWWhKRGNuNGwyV3R5ZkdBM2NKS2xldDhhdURoN0Z4UFRCY1JzRlFDWEt2Nlo0bmFIVnV4a3FVRm1naTd5OGFjMU1penA2NE9PbV84RjBObFFrWEpaU2o2bDI0WGdDRDJHZEY1Y3EtQkpTTjZsQXZPTDAyS05Uc1diM0NSR21hSnFKaVo1cXFiWEVUVm5EV1ppMkJibHJLaW43Qg",
-          "published_at": "2026-10-21T09:29:44Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ports",
-          "classification": "OPERATIONAL_SIGNAL",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_8b89912dd2889f25",
-          "title": "El Puerto de Algeciras crece un 1,1% hasta septiembre y supera los 76 millones de toneladas",
-          "title_key": "el puerto de algeciras crece un 1 1 hasta septiembre y supera los 76 millones de toneladas",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZXRNSGgxNmlpemRBZnhuZ0syUHRXMVZrd2FLQjVKczg4b1lXNUpsSllhYVVmUHlhcGd6WEwwYzFOaE03QThYUG0xM3lwT1FKM0E5dnlLSlZubVlYM0ZuaE52S0FPYW9yZ3J6M2ZXMm1wTVd4TFV4X0tMbG9YV3FVSTJMYmtLYlNfVmg5NmxJRkpnN2FsN3QyTUhKWEo1d9IBowFBVV95cUxON2tCQm5qX1ZaejJIYmJDdmhtQ0hRNkhmbEUzSDlkN2Z1NEpXZnVLRUVrTHBDcjNCX3Z5c0NYd1hlZjkxOE1rOEdrb1liMVE5RXdaNTJQWE1XZlZpVnZsVFp2T3RjeEpqWm5vLU04dEowN1R3TWQxWUx2b2RGRmY2RHpYYjV6R1ZGcWtCYWIzc0xMT2habG5SM3dNM2wwTm5fbktr",
-          "published_at": "2026-10-21T11:35:40Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ports",
-          "classification": "OPERATIONAL_SIGNAL",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_2cf563ed0912e672",
-          "title": "El Puerto de Algeciras supera los 76 millones de toneladas hasta septiembre",
-          "title_key": "el puerto de algeciras supera los 76 millones de toneladas hasta septiembre",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMU9aRl80cmlINkFWeHJYM19iajkyd2xfWlVoYkR0YTNJT1FqTnFJM21pd0p1QXc2RHRZZmlmVnoxcmpzc3VnbXVPbXRmcGZmeUFybEZjc0Y5TVlPODZEWmxYeURRYnZXN0ZscjZUdVZ2RXVTaG9Yc0IySXFxajRFREVNeTJNWnBkZEQ5Y2VLbl9zMEQwZDl4UmEzczBpUEx6UHBEblRuUzZEbU9JSjZMTg",
-          "published_at": "2026-10-21T11:50:36Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ports",
-          "classification": "OPERATIONAL_SIGNAL",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 55,
-      "operational_impact": "POTENTIAL",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_365d800f82575dd7",
       "topic": "relations",
       "first_seen": "2026-10-21T10:51:07Z",
@@ -667,6 +585,52 @@
       ],
       "importance": 4,
       "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_4f1ed28b2ebb9c68",
+      "topic": "ports",
+      "first_seen": "2026-10-21T07:30:00Z",
+      "last_seen": "2026-10-21T09:29:44Z",
+      "headline": "El puerto de Algeciras acumula más de 76 millones de toneladas de tráfico total hasta septiembre",
+      "classification": "OPERATIONAL_SIGNAL",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_fc4982ee26d09b17",
+          "title": "El puerto de Algeciras acumula más de 76 millones de toneladas de tráfico total hasta septiembre",
+          "title_key": "el puerto de algeciras acumula mas de 76 millones de toneladas de trafico total hasta septiembre",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQVU9TaWJyT2xUMXdLbFRBN002Q2lrWTJGbGI0eWdfclBHTzJhRzhUVldtYnBONGkwSUFnNHBWUnVpaE1pbi12VWhxdGtEN0hlMi1yb3JHTGhUZ0l1OVZlUnFRMVlzeW91ZGd5bm9sT3FvMEJ0WWNTVjNTVjJ2S3BxTVV6U1NERUJhMjVqYmRQZEhGb193UmltczRVZTVicTlIc2VfM3luOVpvMG9vSENyWG9KaTNEeEJoeEVRUlRGRXJtUlN6US1mUUlLdzdCUHk2cTUzUjJvN0VRSkRlVFFEenkxaDZFOVpUZC1qZlhHcFhWSURJdUxwYjkzempPWlE1d1lB0gGIAkFVX3lxTE5lbDBHbEZrbVFxeGYyRUNrV3BweDhBNFRtVGZfOHVSLWJYZUFyNnpicGY1YnlYaE9mM3lFYVNlRHl5NU92VzZqdHltZEZyVm9QZ3FXZEx0cDBqRDZBM0Q4TS1RVEhDUnhzOHo5X0ZpWWhKRGNuNGwyV3R5ZkdBM2NKS2xldDhhdURoN0Z4UFRCY1JzRlFDWEt2Nlo0bmFIVnV4a3FVRm1naTd5OGFjMU1penA2NE9PbV84RjBObFFrWEpaU2o2bDI0WGdDRDJHZEY1Y3EtQkpTTjZsQXZPTDAyS05Uc1diM0NSR21hSnFKaVo1cXFiWEVUVm5EV1ppMkJibHJLaW43Qg",
+          "published_at": "2026-10-21T09:29:44Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ports",
+          "classification": "OPERATIONAL_SIGNAL",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 55,
+      "operational_impact": "POTENTIAL",
       "operational_eligible": false
     },
     {
@@ -1079,11 +1043,29 @@
       ],
       "articles": [
         {
-          "article_id": "art_19a57bef77266c85",
-          "title": "Sánchez Reaffirms Spain’s Commitment to Constructive Relations With Morocco",
-          "title_key": "sanchez reaffirms spain s commitment to constructive relations with morocco",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcUR1SUJ5Q2t6NGx5X3VyTFNmaHFwamM4dWIwdmpXVVc0NFdGcU5GTWpNRUY5bGlodmZqNXAwMTU4bUdWanhJTHZ0RjhCallKWTFxMkNpTjg0dmNNVnVmSDB2RlZwcktnX2FkaHlyWnFIM0N4eVg4ZG5MOUtzYjI2cmR2MWE4TGw2TFRMbUp5UEZWNWlHdTBtWWd2NEV5eFNKbEUxNjEyMWdNSVJFNl9NUjZzeTltaEJiY2hFN3pKdkY",
-          "published_at": "2026-10-15T14:32:56Z",
+          "article_id": "art_c351fa281790a169",
+          "title": "Spain’s king reasserts sovereignty over Ceuta, Melilla as Morocco remains silent",
+          "title_key": "spain s king reasserts sovereignty over ceuta melilla as morocco remains silent",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWlJUbFZoWURNNkl6VFN1UGlmU0NHa1VmUGdlY09vY3A1RFR3T1R2blV0WFRQTFN3R0llVklPV2s4ZFd0YlVqZUxMbmh5N0pibzV2dVJuWDZUVURKUjc1UUt6d1VKeERGckpaV3ljMldyVHlVckdwcXd3OTBwWUJtV0gtMnh0em9HU0pBMnQ2N21LYlh5dDJPWDl1cHJRZ1R0cnQ4Tm1qcXR1UG5OSG1kWk55QlJkbUUwTi0wTUZ6ONIBxAFBVV95cUxNdklfa3J6NkNuQVNIUl8taHBXX3J1aDBydTJyUmY2TVA2aEp5cVJZR1ltODJ0RWt2eWktNU51UWxTQmowenhoTXQzNjMtSEoybjlGU3ppRW5LcFZ6UEd4UjRXd2IzYUFjTGRmUV9kTy1GMTktenRzRmFGUU1HRmxab2x1dk5Fbi1mTC1BbzFTU3dhSEN3VGpiYWpGd3VSRC1jR1oxOXJFdk5yVEQ0MGtNUk9GVnFmZF9uY2pscFh2SFctajYt",
+          "published_at": "2026-10-14T10:11:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_1a53965217fbefe5",
+          "title": "King Felipe Uses Ceuta Visit to Project Support, Tells Morocco ‘Ceuta Is Spain’",
+          "title_key": "king felipe uses ceuta visit to project support tells morocco ceuta is spain",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNc25uSXhHOFdsaVhLTGhwUUJORjI5VjVMaEp6Y2JXd0hRVUZrcFhPUHNTZ2NKZEdtZl9SQV9XckwxbUVIVW1xWXk0NXc3OFB3RmQ5enUwQlhhQzJhQmJGeW5zUkZodzV3b253LU15NUhCWmx2b0dDeUJ3aTJsR1RYNlBCd3FGMXV3ZDhWNVB2TXhnMmFjSFgzdzhpNG83OEFPTmltRURpcy1WMDhMN1dXQWYtWEh0MnZxNXZQY0VPNEZfdDA",
+          "published_at": "2026-10-14T12:33:58Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -1174,6 +1156,52 @@
       "operational_eligible": false
     },
     {
+      "event_id": "evt_6112ac60bdf7d337",
+      "topic": "relations",
+      "first_seen": "2026-10-15T14:32:56Z",
+      "last_seen": "2026-10-15T14:32:56Z",
+      "headline": "Sánchez Reaffirms Spain’s Commitment to Constructive Relations With Morocco",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_19a57bef77266c85",
+          "title": "Sánchez Reaffirms Spain’s Commitment to Constructive Relations With Morocco",
+          "title_key": "sanchez reaffirms spain s commitment to constructive relations with morocco",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcUR1SUJ5Q2t6NGx5X3VyTFNmaHFwamM4dWIwdmpXVVc0NFdGcU5GTWpNRUY5bGlodmZqNXAwMTU4bUdWanhJTHZ0RjhCallKWTFxMkNpTjg0dmNNVnVmSDB2RlZwcktnX2FkaHlyWnFIM0N4eVg4ZG5MOUtzYjI2cmR2MWE4TGw2TFRMbUp5UEZWNWlHdTBtWWd2NEV5eFNKbEUxNjEyMWdNSVJFNl9NUjZzeTltaEJiY2hFN3pKdkY",
+          "published_at": "2026-10-15T14:32:56Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
       "event_id": "evt_a7745d7d3c137569",
       "topic": "relations",
       "first_seen": "2026-10-15T06:33:10Z",
@@ -1226,9 +1254,9 @@
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 3,
     "SINGLE_SOURCE": 2,
-    "UNCONFIRMED": 15,
-    "TOTAL": 20
+    "UNCONFIRMED": 16,
+    "TOTAL": 21
   },
   "article_count": 36,
-  "event_count": 20
+  "event_count": 21
 }

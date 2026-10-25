@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-25T09:52:23Z",
+  "generated_at": "2026-10-25T11:29:02Z",
   "state": {
     "code": "watch",
     "label_es": "VIGILANCIA",
@@ -35,7 +35,7 @@
     }
   },
   "metrics": {
-    "news_24h": 2,
+    "news_24h": 1,
     "news_sources": 26,
     "seismic_24h": 0,
     "seismic_7d": 0,
@@ -45,72 +45,65 @@
     "ope_passengers_day": 59877,
     "ope_vehicles_day": 15464,
     "ope_rotations_day": 179,
-    "diary_date": "2026-10-24",
-    "diary_source_count": 5
+    "diary_date": "2026-10-25",
+    "diary_source_count": 4
   },
   "anomalies": [],
   "changes": {
     "state_changed": false,
     "previous_state_code": "watch",
-    "layer_changes": [
-      {
-        "key": "border",
-        "previous": "MEDIA",
-        "current": "VIGILANCIA PREVENTIVA"
-      }
-    ]
+    "layer_changes": []
   },
   "since_yesterday": {
     "reference_date": "2026-10-24",
-    "summary_es": "El nivel general se mantiene en VIGILANCIA. El monitor recoge 2 referencias menos en la ventana de 24 horas."
+    "summary_es": "El nivel general se mantiene en VIGILANCIA. El monitor recoge 3 referencias menos en la ventana de 24 horas."
   },
   "health": {
     "overall": "HEALTHY",
-    "generated_at": "2026-10-25T09:52:23Z"
+    "generated_at": "2026-10-25T11:29:02Z"
   },
   "latest_diary": {
-    "date": "2026-10-24",
+    "date": "2026-10-25",
     "headline": "España–Marruecos: qué aportan los titulares y qué falta comprobar",
-    "summary": "Selección automática de 5 referencias de 5 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
-    "published_at": "2026-10-24T12:59+02:00",
-    "updated_at": "2026-10-24T12:59+02:00",
-    "source_count": 5,
+    "summary": "Selección automática de 4 referencias de 4 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "published_at": "2026-10-25T12:29+01:00",
+    "updated_at": "2026-10-25T12:29+01:00",
+    "source_count": 4,
     "indexable": false,
     "edition_label": "Cuaderno diplomático",
     "edition_slug": "relations",
-    "fingerprint": "c5d812bb50dada92adcc",
-    "editor_engine": "rules",
-    "editor_assistant_status": "gemini-validation-es",
-    "assistant_status": "gemini-validation-es",
+    "fingerprint": "ba9c4a0b247663bdb2a8",
+    "editor_engine": "gemini",
+    "editor_assistant_status": "ok",
+    "assistant_status": "ok",
     "validator_version": 2,
-    "factual_packet_hash": "33552fc1b3ff6253fd8b40d51b5eece4d8b09aa9a198bdb0ff48060a85ea3809",
+    "factual_packet_hash": "8e5dcb89e7ad13d0b630644020a4d423adb655f0b879237d421545a809c096e3",
     "event_ids": [
+      "evt_f2ce6141d5c1d418",
       "evt_d0644076884bda9c",
       "evt_015c0535dc2a2eb7",
       "evt_d0e82ce8e43e0a82",
       "evt_04a63cfdd1e4e547",
-      "evt_07f8ed82b227c16d",
-      "evt_339e2749aeb554a3"
+      "evt_8d91cf2cbfc597f2"
     ],
     "source_ids": [
-      "elpais",
       "politico",
       "reuters",
       "unknown"
     ],
-    "timestamp": "2026-10-24T10:59:56.248574+00:00",
-    "fallback_used": true,
+    "timestamp": "2026-10-25T11:29:00.837296+00:00",
+    "fallback_used": false,
     "verification_summary": {
       "CONFIRMED_MULTI_SOURCE": 0,
       "CONFIRMED_PRIMARY": 0,
       "CONFLICTING": 0,
-      "DECLARATION_ONLY": 3,
-      "SINGLE_SOURCE": 3,
-      "UNCONFIRMED": 15,
-      "TOTAL": 21
+      "DECLARATION_ONLY": 4,
+      "SINGLE_SOURCE": 2,
+      "UNCONFIRMED": 13,
+      "TOTAL": 19
     },
-    "date_label": "2026-10-24",
-    "slug": "2026-10-24.html"
+    "date_label": "2026-10-25",
+    "slug": "2026-10-25.html"
   },
   "latest_ope": {
     "report_date": "2026-08-15",

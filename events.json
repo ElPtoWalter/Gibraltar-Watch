@@ -1,7 +1,53 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-26T00:26:18.470300+00:00",
+  "generated_at": "2026-10-26T06:20:33.568823+00:00",
   "events": [
+    {
+      "event_id": "evt_b076108631883e5a",
+      "topic": "traffic",
+      "first_seen": "2026-10-26T04:30:01Z",
+      "last_seen": "2026-10-26T04:30:01Z",
+      "headline": "Los buques de guerra marroquíes que irrumpieron en aguas de Ceuta se saltaron las normas de seguridad marítima",
+      "classification": "OPERATIONAL_SIGNAL",
+      "verification_status": "SINGLE_SOURCE",
+      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
+      "sources": [
+        {
+          "source_id": "elpais",
+          "source_name": "El País",
+          "source_domain": "elpais.com",
+          "tier": 3,
+          "official": false,
+          "weight": 3.0
+        }
+      ],
+      "source_ids": [
+        "elpais"
+      ],
+      "articles": [
+        {
+          "article_id": "art_c56ff618e919de93",
+          "title": "Los buques de guerra marroquíes que irrumpieron en aguas de Ceuta se saltaron las normas de seguridad marítima",
+          "title_key": "los buques de guerra marroquies que irrumpieron en aguas de ceuta se saltaron las normas de seguridad maritima",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOalIxY2ZReDNyNFBNUUNmcG01YndrMzI5VXlTN0RHVGJ5T29pTmNNa3RBVDRUQXYwSXhtVWlqb0ZUTHVmMzZJM2QyRW8zdVlBX2l2YXpVRGltTDdPUFZ2VjI2dUlhZzAzNks5eVRKVlRNTGhGTFRFTFZYeUZXNGNLNExfVzBuX2VrVFgtUHItOEtEcFAyU0xrWEJmNXMzTUlQaTNSaktTODB3UDl5cnI4eFBLUzY2T0ttaGFNMU1STW91TGhVU3ZUazVVcUFXMDVOR3M2a1ZvYl9wakIwMTRkZTdFaHAyOUnSAfsBQVVfeXFMT3d2UTkwR09XTE90dGxkM3N4MjBNZ3Q1WkRMWGdINk12NHBzaTd3b2lvRVViM2RQQnRXclRfLWlaNWRpNEd3eVNQc2xQLUQ2eF9uX3MzZGsxeDFVTUhIcndERjlwcWtlb2x0UHhpaHo1cHpfZHc3QlhaaU1PSldBMjUxSlFhbUlBYUktdUc5RWs3LXJYSWlzWVFEeW40anJYTENURnFGZ0hPLWFVQlMteXNyWE40LTRlVFNVc09Mclg3QnNNbUNYQmx2QVdhR3pIN0g2djNxMjJXNUN6eDBLWmh4eEZaZk1QY2o5ZUMyaDZiZXE1XzFjczBOXzA",
+          "published_at": "2026-10-26T04:30:01Z",
+          "observed_at": "",
+          "source_id": "elpais",
+          "source_name": "El País",
+          "source_domain": "elpais.com",
+          "tier": 3,
+          "official": false,
+          "weight": 3.0,
+          "topic": "traffic",
+          "classification": "OPERATIONAL_SIGNAL",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 63,
+      "operational_impact": "POTENTIAL",
+      "operational_eligible": false
+    },
     {
       "event_id": "evt_b4934c47f249d462",
       "topic": "relations",
@@ -125,6 +171,24 @@
         "unknown"
       ],
       "articles": [
+        {
+          "article_id": "art_5a3401a00186834b",
+          "title": "Italy and Spain lift border controls after months of tension over Ceuta",
+          "title_key": "italy and spain lift border controls after months of tension over ceuta",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWFZ1Nl9kX3hyLXl5R3dXa1JZUzVYWk0xdXdRNlJuX1ZxQ3FtWlp1T09UMWFZaWppMFdRQlFfclRRRndqREoxS1NiSlEyYmtCcFZFSFJvc2dhS2NRaFB1T21KSUYxcVZuX0hndmlKc0QwWkpMMWNweXR2TTJiUnFTUzBWNHNNLWtZXzZpUUh4OUs0emRiaHVmUDBrdEY1RnJZWEY3dFhhMVlkeHY1YWV0X1g4c9IBuAFBVV95cUxNV29nN1RSYkFpNFpEN2dGZmswdnV4ZzVSOTB3YXdqcmttRHJ6cU5HWnJlYVVIcnc4YmRUVi1zbktFWXVvVFZqSE5BZno2aUFqY1VmejVvdVBUNExTajJSbGpaN2w2cjBMMEtjZFhYZFEtZFk1SldJaGpZdUVtZVJscV9aVHZDazBFTE5oWWJuNkxEZ2RqMmxjbGxtRjlGNmF0TEFkTnJzakQ0QllaQ3l0OU5pV2E1eHgy",
+          "published_at": "2026-10-22T16:10:37Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
         {
           "article_id": "art_2e3a739638b2234c",
           "title": "Italy and Spain end border crisis sparked by Ceuta invasion, but approximately 15,000 migrants still demand asylum",
@@ -405,56 +469,10 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_7b16798ade9b3be4",
-      "topic": "ceuta",
-      "first_seen": "2026-10-22T19:33:14Z",
-      "last_seen": "2026-10-22T19:33:14Z",
-      "headline": "La Guardia Civil lleva a cabo una redada contra una ONG que repartía espray pimienta a los inmigrantes",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_7682fba13a3e5b7e",
-          "title": "La Guardia Civil lleva a cabo una redada contra una ONG que repartía espray pimienta a los inmigrantes",
-          "title_key": "la guardia civil lleva a cabo una redada contra una ong que repartia espray pimienta a los inmigrantes",
-          "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPR0lWanVtcnNpNW9zMDhWUkFDdkdKYnR5V2ZRd0pwb2U5WDJSRGdTdEdSVEt0MlV6eHJZZ0tJcU1EZGVLa2ZmQ3JQYzJfYmR5TkRBNUNPZ0haMk9hbkFXUGhteGtrbUpEeUJyVWFmcnJSS2o1Q0lUQzlPT1ZPcDJobll3OVMzWmdoX1VZaDFqcnFkVjdZVGJSNWozMG94OHNobEcyazN5QnE1ZTZfQk91bV9lX1V0b0gxdGF1a1JzN015amJJVjJvMzhsc0tUVnN4WDF3bjZZMHRzaVQ2ZTdZM2tCMk5hNldLLUhGNVdnN0Fib212eEw0OW9mNnVQbHhraW5PR1F5Y25QZW5fTFNhdUl3MUTSAZQCQVVfeXFMUExMUVJpd2JrUjF5WF9PRzNuYWZjZE9KZF91bW9mODI0WGVaVjg2TTlqN2NIeFZkM2d5Vkt3bVlReUJkM21qRWNILWl0RW1lZlFuT1NVUThaa2VkZDRldTM5VTNHNDVLcW5hTzlkX3NoSVBsOC15eGdkRF92WU9Bb1ZfR2NDampZLWExbW9ZWjVyMU90TS1mX0VsUTlseWRpdC12THZKNGFBRF9CVEtCazBkU0JIMm9zdzF5NVBucDRQWHh6dDJTM0prRkVsaDl2YVpMNnlzSTQxRnhRcDRsSXFsbkNYUlJLV2pDZFBqcnN0SHBtNE5xMzdlb0psVDdfZ0JBRGJ0OEYzbHJXZFliS25NWERC",
-          "published_at": "2026-10-22T19:33:14Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_f2ce6141d5c1d418",
       "topic": "ceuta",
       "first_seen": "2026-10-22T20:03:23Z",
-      "last_seen": "2026-10-22T16:10:37Z",
+      "last_seen": "2026-10-22T11:00:00Z",
       "headline": "Italy and Spain scrap border checks brought in after Ceuta crisis",
       "classification": "FACT",
       "verification_status": "SINGLE_SOURCE",
@@ -483,11 +501,47 @@
       ],
       "articles": [
         {
+          "article_id": "art_f8e863445941c9b1",
+          "title": "Italy Extends Schengen Border Suspension With Spain Amid Ceuta Migration Crisis",
+          "title_key": "italy extends schengen border suspension with spain amid ceuta migration crisis",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVXdnV0R5ZE5ISlpoZ2M5bnNxMC1sNTNILVY0dVRkdDY2VmFrYXNHXzV3M3RTcENVc2ZZQ3ZfQVMtUVR1YjByd2c5M2N3ZjhHYXA3NFBIWU1qS1haNnhVeG51ZGZHUERXVlVzdzRRNktVamlrR1N2cGZSZU1wbkI5azcyM1FkYzg1bUE",
+          "published_at": "2026-10-19T11:25:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
           "article_id": "art_071dc965c99b92c0",
           "title": "Spain’s Ceuta Migration Crisis Tests EU Asylum Rules as Thousands Await Decisions",
           "title_key": "spain s ceuta migration crisis tests eu asylum rules as thousands await decisions",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9iS1c5RnRVSG00YVNnekt2bmFUYXVrcTlTOEozU01aOHB2cHppTzZVRno0a2lqMkU5NW9VQTNlLWxFTU9JRElFM1dYWUxkcVpYMXI2RGZSaFkyZnlseUdRSDdkUnpqbmJDd0ZqUHZYT3NMSWN5UE9UdjBR",
           "published_at": "2026-10-19T17:46:39Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_4dce45285aaaccf8",
+          "title": "Ceuta border crisis: Spanish High Court judge demands military files on Moroccan naval incursions",
+          "title_key": "ceuta border crisis spanish high court judge demands military files on moroccan naval incursions",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZFNRZ2xTazQ1LUdBblNfNTRqbVVHTUhjWUNHNm9KdS1jUTAzSXBvZk4yVHA0R2FnZWU5TmtDQVFMMWZPNGNrOWVITExxWTA4Rl9YbXBKS283UnhfSDd2U0VCbWZQYTVIbUxSdzlwUXB3X0tVZi1sM3dVUnd4SmlOY3ZoSjM5RzFtUVA2MjhRVdIBlAFBVV95cUxPZjhEbU40cXBqZFRUUENqWkJteGdDVWpSamNlZjl2RnFQYVlzMzI4SGt1MmY0RDJpRjIzX0RDQko4ZHRBeFZVZnYtOUVHVlQ4ZFdKVFFIWW80SDhGbFZ2RG9aX3EweUNMMjk0Z0ozOEVpYWtGSDBhMDR3WmZBNEh6ajRSbXllWllSLWtXMXBHU1RTRzF6",
+          "published_at": "2026-10-21T12:35:59Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -515,24 +569,6 @@
           "weight": 3.0,
           "topic": "ceuta",
           "classification": "FACT",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_5a3401a00186834b",
-          "title": "Italy and Spain lift border controls after months of tension over Ceuta",
-          "title_key": "italy and spain lift border controls after months of tension over ceuta",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWFZ1Nl9kX3hyLXl5R3dXa1JZUzVYWk0xdXdRNlJuX1ZxQ3FtWlp1T09UMWFZaWppMFdRQlFfclRRRndqREoxS1NiSlEyYmtCcFZFSFJvc2dhS2NRaFB1T21KSUYxcVZuX0hndmlKc0QwWkpMMWNweXR2TTJiUnFTUzBWNHNNLWtZXzZpUUh4OUs0emRiaHVmUDBrdEY1RnJZWEY3dFhhMVlkeHY1YWV0X1g4c9IBuAFBVV95cUxNV29nN1RSYkFpNFpEN2dGZmswdnV4ZzVSOTB3YXdqcmttRHJ6cU5HWnJlYVVIcnc4YmRUVi1zbktFWXVvVFZqSE5BZno2aUFqY1VmejVvdVBUNExTajJSbGpaN2w2cjBMMEtjZFhYZFEtZFk1SldJaGpZdUVtZVJscV9aVHZDazBFTE5oWWJuNkxEZ2RqMmxjbGxtRjlGNmF0TEFkTnJzakQ0QllaQ3l0OU5pV2E1eHgy",
-          "published_at": "2026-10-22T16:10:37Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
         }
@@ -922,7 +958,7 @@
       "topic": "relations",
       "first_seen": "2026-10-18T22:01:45Z",
       "last_seen": "2026-10-19T09:12:12Z",
-      "headline": "El ex cónsul español en Casablanca: \"El autor necesario de la crisis de Ceuta tuvo que ser Marruecos, esto no lo hacen las redes sociales\"",
+      "headline": "David Alvarado analizará en Ourense la crisis de Ceuta y las relaciones entre España y Marruecos el martes",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
@@ -940,24 +976,6 @@
         "unknown"
       ],
       "articles": [
-        {
-          "article_id": "art_7e03f72a30876f06",
-          "title": "El ex cónsul español en Casablanca: \"El autor necesario de la crisis de Ceuta tuvo que ser Marruecos, esto no lo hacen las redes sociales\"",
-          "title_key": "el ex consul espanol en casablanca el autor necesario de la crisis de ceuta tuvo que ser marruecos esto no lo hacen las redes sociales",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWWpyMmx3UzF4VnVMMzdZZ0Z0a1VIQzMyQmJIQlpVVzBZU1dnci03a1ZrVWlrZG9HR1laWDBUSWl5SkkxV2hWeTZOY2RfZmV4Vm5sRkJ4aktOYzdDbHFNV0FvV25HT2JMRHdsYXdWOTFLTmk1WjdhamY3R2hzZUZTbHBuaUFoZ2t1VGk0eW04VzlUZHpPWmJWUDJFRVhEVFlHc1pOZnhrSjM5SlAzTE51Y3d1R1hwQdIBuwFBVV95cUxNR1VxVXljcVBDaTI1N3BBREtTaTM2TWplZUd6RHE2RjhMQU1POE00THZIVVVjSHJzSktpMHRSUVV2cHN0ZmV2TUU0NzN2czYxWWRjRWttNUFCVmtWVFFzbDRUeTB5T3lXcjFKdVhZbG54dmxHeVcwWmRkRU9OcTYza1hraTR4ZEhMSGo1cjQwaVB0aFZRVmg4MWhZTTJPQlkxQjF1V1FDcWdUcXVuN3JiOER0X1Z4aFJPSzRr",
-          "published_at": "2026-10-18T22:01:45Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
         {
           "article_id": "art_9f0bacef8e0bddfa",
           "title": "David Alvarado analizará en Ourense la crisis de Ceuta y las relaciones entre España y Marruecos el martes",
@@ -979,52 +997,6 @@
       ],
       "importance": 4,
       "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_6487a922613f9d33",
-      "topic": "ceuta",
-      "first_seen": "2026-10-16T12:23:37Z",
-      "last_seen": "2026-10-16T12:23:37Z",
-      "headline": "Is the Ceuta crisis a Moroccan problem, or a European one?",
-      "classification": "ANALYSIS",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_dcd15350ff20fabd",
-          "title": "Is the Ceuta crisis a Moroccan problem, or a European one?",
-          "title_key": "is the ceuta crisis a moroccan problem or a european one",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObnpZOTVkRjY2WDlVYTR2YjZORGwtSE1Ldmx5TWt2YjJiWmozOU1McUdGeTRvZXhOZmVhVGk5QkJhUUttTVo2OXJUZ2hkRDZQdThyY2NvUEh5dklVQ1IxdTZXNWpweXBEMkQzYUhObHl1ZlpRVVpYbzhnbnlnTzR1ZWVQQ2tuaHB1LTlOT2NtTzJTZw",
-          "published_at": "2026-10-16T12:23:37Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "ANALYSIS",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 17,
-      "operational_impact": "CONTEXT",
       "operational_eligible": false
     },
     {
@@ -1128,52 +1100,6 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_c4319556137f4dda",
-      "topic": "relations",
-      "first_seen": "2026-10-16T07:00:00Z",
-      "last_seen": "2026-10-16T07:00:00Z",
-      "headline": "Mohamed VI seguirá marcando la política exterior de Marruecos con España pese al cambio de Gobierno",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_4f72c3a77028431d",
-          "title": "Mohamed VI seguirá marcando la política exterior de Marruecos con España pese al cambio de Gobierno",
-          "title_key": "mohamed vi seguira marcando la politica exterior de marruecos con espana pese al cambio de gobierno",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNM2dza3RDMmhhQWdFYkU5Q0xOYjN6MmFsc240Ym9DQkdiR0MyOW1HamxNdm8wenRUQmtQS21IR2dLRUJSUm5iR3pJMnh4RkZiUDNnS2ZhVkVHWThPT2U0empSckJQRDFtYjEwRVloUy01WW1pd1oxOUQ3RFdLejhxWHhnNXl0Y3lmdXQzeGhOWW1mai1raUdiaExweUZCT21rSWc2OHdnalhHVXZPbHfSAbMBQVVfeXFMT1hJMTd4SWZQYzQ0UUVKSDE2bVB6eno4bHU5eF9kRDlnNTVWekhEU216X0VuX1lSQW96RU0tQ1Vzd1NmLXlLMDZkZ3NDVWpHdEVrekwzTnQ3bGd2UHhOTk1VV0xUMXhiN2ptTlJaWkJiTlBPRDBCU2c1NUItT2NwZ0FNX1Jfem50T2dWRFBSd1NqN1FDTTZMWGVfWlVoVThVeVFsZEdzMHY3YThObWJONVFJX1U",
-          "published_at": "2026-10-16T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_3f02f9be80e81375",
       "topic": "relations",
       "first_seen": "2026-10-15T07:00:00Z",
@@ -1218,6 +1144,52 @@
       "importance": 30,
       "operational_impact": "POTENTIAL",
       "operational_eligible": false
+    },
+    {
+      "event_id": "evt_a7745d7d3c137569",
+      "topic": "relations",
+      "first_seen": "2026-10-15T02:25:13Z",
+      "last_seen": "2026-10-15T02:25:13Z",
+      "headline": "Las tradicionalmente complicadas relaciones España-Marruecos | Colaboración",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_f78c7cd9394a2633",
+          "title": "Las tradicionalmente complicadas relaciones España-Marruecos | Colaboración",
+          "title_key": "las tradicionalmente complicadas relaciones espana marruecos colaboracion",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWWZVd2RySGtRanlDNXNTVFQxTzluWGwxUjJuRDFjUzEtZUNKdGZZMndqWGN1QmRlbGxjUE4yNUpmT0p0Qy12Q2Y4aXFFSG0tSzR5amM2Rk43WFdSNTBSaEhxRmJrTXd6MHU0cXVYWkRtdjJjanl6M0xSSG50czFxbFJFdkNBR09IUHfSAY8BQVVfeXFMTjZrMHV0YlVYbGZoOFlmTlRqYkphbUVVeEhVdUtldzZ1c19Ha3ZmWjhkOTlVN1VHekJaTVMxU1dVVEVVaC1EMWdrQXVpT1JBSW1uUjdsbEVMN203Ym4yaDhMMTVwUWd6V3JHcDFqVmFfZnNLb1Q5Z2puc1pERUN4NFZ1dUl4M1EySEZhN21TX0U",
+          "published_at": "2026-10-15T02:25:13Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
     }
   ],
   "verification_summary": {
@@ -1225,10 +1197,10 @@
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 5,
-    "SINGLE_SOURCE": 2,
-    "UNCONFIRMED": 13,
-    "TOTAL": 20
+    "SINGLE_SOURCE": 3,
+    "UNCONFIRMED": 11,
+    "TOTAL": 19
   },
   "article_count": 36,
-  "event_count": 20
+  "event_count": 19
 }

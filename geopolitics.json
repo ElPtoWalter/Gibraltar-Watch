@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated_at": "2026-10-26T00:26:04.351059+00:00",
+  "generated_at": "2026-10-26T06:20:23.415622+00:00",
   "language_default": "es",
   "status": {
     "maritime_status": {
@@ -34,19 +34,29 @@
       "en": "No clear bilateral escalation is detected in recent sources."
     },
     "security_status": {
-      "es": "SIN ALERTA ESPECÍFICA",
-      "en": "NO SPECIFIC ALERT"
+      "es": "VIGILANCIA",
+      "en": "MONITORING"
     },
     "security_note": {
-      "es": "No se detectan señales suficientes para una alerta editorial.",
-      "en": "There are not enough signals for an editorial alert."
+      "es": "Existen medidas o incidentes de seguridad recientes.",
+      "en": "Recent security measures or incidents are reported."
     },
     "confidence": {
-      "es": "BAJA",
-      "en": "LOW"
+      "es": "MEDIA",
+      "en": "MEDIUM"
     }
   },
   "items": [
+    {
+      "title": "Los buques de guerra marroquíes que irrumpieron en aguas de Ceuta se saltaron las normas de seguridad marítima",
+      "source": "El País",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOalIxY2ZReDNyNFBNUUNmcG01YndrMzI5VXlTN0RHVGJ5T29pTmNNa3RBVDRUQXYwSXhtVWlqb0ZUTHVmMzZJM2QyRW8zdVlBX2l2YXpVRGltTDdPUFZ2VjI2dUlhZzAzNks5eVRKVlRNTGhGTFRFTFZYeUZXNGNLNExfVzBuX2VrVFgtUHItOEtEcFAyU0xrWEJmNXMzTUlQaTNSaktTODB3UDl5cnI4eFBLUzY2T0ttaGFNMU1STW91TGhVU3ZUazVVcUFXMDVOR3M2a1ZvYl9wakIwMTRkZTdFaHAyOUnSAfsBQVVfeXFMT3d2UTkwR09XTE90dGxkM3N4MjBNZ3Q1WkRMWGdINk12NHBzaTd3b2lvRVViM2RQQnRXclRfLWlaNWRpNEd3eVNQc2xQLUQ2eF9uX3MzZGsxeDFVTUhIcndERjlwcWtlb2x0UHhpaHo1cHpfZHc3QlhaaU1PSldBMjUxSlFhbUlBYUktdUc5RWs3LXJYSWlzWVFEeW40anJYTENURnFGZ0hPLWFVQlMteXNyWE40LTRlVFNVc09Mclg3QnNNbUNYQmx2QVdhR3pIN0g2djNxMjJXNUN6eDBLWmh4eEZaZk1QY2o5ZUMyaDZiZXE1XzFjczBOXzA",
+      "published_at": "2026-10-26T04:30:01+00:00",
+      "category": "traffic",
+      "language": "es",
+      "weight": 3,
+      "source_id": "elpais"
+    },
     {
       "title": "Marruecos sigue sin responder al retorno de menores pese a las buenas relaciones que defiende el Gobierno español",
       "source": "Teleceuta",
@@ -148,16 +158,6 @@
       "source_id": "unknown"
     },
     {
-      "title": "La Guardia Civil lleva a cabo una redada contra una ONG que repartía espray pimienta a los inmigrantes",
-      "source": "Antena 3 Noticias",
-      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPR0lWanVtcnNpNW9zMDhWUkFDdkdKYnR5V2ZRd0pwb2U5WDJSRGdTdEdSVEt0MlV6eHJZZ0tJcU1EZGVLa2ZmQ3JQYzJfYmR5TkRBNUNPZ0haMk9hbkFXUGhteGtrbUpEeUJyVWFmcnJSS2o1Q0lUQzlPT1ZPcDJobll3OVMzWmdoX1VZaDFqcnFkVjdZVGJSNWozMG94OHNobEcyazN5QnE1ZTZfQk91bV9lX1V0b0gxdGF1a1JzN015amJJVjJvMzhsc0tUVnN4WDF3bjZZMHRzaVQ2ZTdZM2tCMk5hNldLLUhGNVdnN0Fib212eEw0OW9mNnVQbHhraW5PR1F5Y25QZW5fTFNhdUl3MUTSAZQCQVVfeXFMUExMUVJpd2JrUjF5WF9PRzNuYWZjZE9KZF91bW9mODI0WGVaVjg2TTlqN2NIeFZkM2d5Vkt3bVlReUJkM21qRWNILWl0RW1lZlFuT1NVUThaa2VkZDRldTM5VTNHNDVLcW5hTzlkX3NoSVBsOC15eGdkRF92WU9Bb1ZfR2NDampZLWExbW9ZWjVyMU90TS1mX0VsUTlseWRpdC12THZKNGFBRF9CVEtCazBkU0JIMm9zdzF5NVBucDRQWHh6dDJTM0prRkVsaDl2YVpMNnlzSTQxRnhRcDRsSXFsbkNYUlJLV2pDZFBqcnN0SHBtNE5xMzdlb0psVDdfZ0JBRGJ0OEYzbHJXZFliS25NWERC",
-      "published_at": "2026-10-22T19:33:14+00:00",
-      "category": "ceuta",
-      "language": "es",
-      "weight": 2,
-      "source_id": "unknown"
-    },
-    {
       "title": "La frontera de Ceuta y Melilla en Google Maps lleva años siendo una línea de puntos. Ahora Bruselas decidirá si incumple la DSA",
       "source": "Xataka",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOYkl5X2dRSE5ET3d6VXFzLWw2TnRvR1V5aWdsYXB1X21BYWluY0RKZk9rRXVfNjdQaXR6Skl6ak4zYXU5OWhFeXZUejc0STdHWVhKUWRReEhzNzlEeTlMUmhYRm02eHcyU2oxbFp3X1VITXVudW9vX2pQdWpNeDhReHpoMG9MM2xKbWxuTUUydmF4bXVFelNDaTJ4aTA2VXF3TXlTYjQ4Zi0zYXNFbXpvQUV5MVlFekh3U2FLaE5JcEhZOGllUzlwRkQxN2XSAdIBQVVfeXFMTzZDSXYtaEdrYjNIX0tucHdNdjRDb2dGcW1WczVKcDF1UFhlSHdMd2lEMy1WaGNCRXBjclJyVGE4ak1ZZEFCNWs2cWZRWjZrQ2xXVC11U2J3QVcyT1ZNQ1Z5RFFaWG1oODlYLTZHai1QOHVyYmdhRzE1NlMwSmRaWE8wd3VSbjdjVURpMlZrcGk1eXIySFR6S3MwQUFSaUZLMXB1TkVpV2lRdEVmYk1DdnJzSlp4LUdndUZYS0NySVU0YlZSSjFTNDVBZzYxdHdBODV3",
@@ -216,6 +216,16 @@
       "language": "en",
       "weight": 3,
       "source_id": "politico"
+    },
+    {
+      "title": "Ceuta border crisis: Spanish High Court judge demands military files on Moroccan naval incursions",
+      "source": "todoalicante.es",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZFNRZ2xTazQ1LUdBblNfNTRqbVVHTUhjWUNHNm9KdS1jUTAzSXBvZk4yVHA0R2FnZWU5TmtDQVFMMWZPNGNrOWVITExxWTA4Rl9YbXBKS283UnhfSDd2U0VCbWZQYTVIbUxSdzlwUXB3X0tVZi1sM3dVUnd4SmlOY3ZoSjM5RzFtUVA2MjhRVdIBlAFBVV95cUxPZjhEbU40cXBqZFRUUENqWkJteGdDVWpSamNlZjl2RnFQYVlzMzI4SGt1MmY0RDJpRjIzX0RDQko4ZHRBeFZVZnYtOUVHVlQ4ZFdKVFFIWW80SDhGbFZ2RG9aX3EweUNMMjk0Z0ozOEVpYWtGSDBhMDR3WmZBNEh6ajRSbXllWllSLWtXMXBHU1RTRzF6",
+      "published_at": "2026-10-21T12:35:59+00:00",
+      "category": "ceuta",
+      "language": "en",
+      "weight": 2,
+      "source_id": "unknown"
     },
     {
       "title": "El Puerto de Algeciras supera los 76 millones de toneladas hasta septiembre",
@@ -308,6 +318,16 @@
       "source_id": "unknown"
     },
     {
+      "title": "Italy Extends Schengen Border Suspension With Spain Amid Ceuta Migration Crisis",
+      "source": "PravdaReport",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVXdnV0R5ZE5ISlpoZ2M5bnNxMC1sNTNILVY0dVRkdDY2VmFrYXNHXzV3M3RTcENVc2ZZQ3ZfQVMtUVR1YjByd2c5M2N3ZjhHYXA3NFBIWU1qS1haNnhVeG51ZGZHUERXVlVzdzRRNktVamlrR1N2cGZSZU1wbkI5azcyM1FkYzg1bUE",
+      "published_at": "2026-10-19T11:25:00+00:00",
+      "category": "ceuta",
+      "language": "en",
+      "weight": 2,
+      "source_id": "unknown"
+    },
+    {
       "title": "Morocco-US strategic ties challenge Spain’s influence in Washington, report says - HESPRESS English - Morocco News",
       "source": "HESPRESS English - Morocco News",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVlpNOHFSYkJsV0p1TTNpa29wZXcyYkFEcy0yalIyQ0hCRW5ZUjNpek9MR0hkVXRBbTFxRGNEUHowa0NRVGliU21WNm92ckF6bWVYTTR1YU4yU2h3WlVSalc1NGtzdWo0UVJuaFVrTjZsZXp2UWFZcjFFRXRYS01rZl9QWkdfSjQ0MDc0d19MRXJwcUN4N2NRMF9MM1I4Um9UcmNtVUhVeHpVeE5Wd0NXVW8yYk0",
@@ -322,36 +342,6 @@
       "source": "OurenseXa",
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxONDhYYUthX19TdnlCc0lLRVUtQWxvZGZzZmhqeHNhY2JhSnphVkFVT1BsWkZ5ai1aaFRHWm02ZW12X1JUOWlPVC1MWG9nWFVKZnk1NUlwZk9ielptZFJPbTZ4OHZlYWhJdzdHanNVMi1qV3lJOExnNGdYeW1vNkFxNDNXcmJpR3NXYmRCdVR0S3llb2R5czhFNU1jTUNrOGtHVHd5NTJlZWtHRWNoQk5RUnlKSER2MHNGbFZPSnBrenplOWR0MUxnMThueVlfWTZOU09HOEl5WTNRUkli",
       "published_at": "2026-10-19T09:12:12+00:00",
-      "category": "relations",
-      "language": "es",
-      "weight": 2,
-      "source_id": "unknown"
-    },
-    {
-      "title": "El ex cónsul español en Casablanca: \"El autor necesario de la crisis de Ceuta tuvo que ser Marruecos, esto no lo hacen las redes sociales\"",
-      "source": "El Independiente",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWWpyMmx3UzF4VnVMMzdZZ0Z0a1VIQzMyQmJIQlpVVzBZU1dnci03a1ZrVWlrZG9HR1laWDBUSWl5SkkxV2hWeTZOY2RfZmV4Vm5sRkJ4aktOYzdDbHFNV0FvV25HT2JMRHdsYXdWOTFLTmk1WjdhamY3R2hzZUZTbHBuaUFoZ2t1VGk0eW04VzlUZHpPWmJWUDJFRVhEVFlHc1pOZnhrSjM5SlAzTE51Y3d1R1hwQdIBuwFBVV95cUxNR1VxVXljcVBDaTI1N3BBREtTaTM2TWplZUd6RHE2RjhMQU1POE00THZIVVVjSHJzSktpMHRSUVV2cHN0ZmV2TUU0NzN2czYxWWRjRWttNUFCVmtWVFFzbDRUeTB5T3lXcjFKdVhZbG54dmxHeVcwWmRkRU9OcTYza1hraTR4ZEhMSGo1cjQwaVB0aFZRVmg4MWhZTTJPQlkxQjF1V1FDcWdUcXVuN3JiOER0X1Z4aFJPSzRr",
-      "published_at": "2026-10-18T22:01:45+00:00",
-      "category": "relations",
-      "language": "es",
-      "weight": 2,
-      "source_id": "unknown"
-    },
-    {
-      "title": "Is the Ceuta crisis a Moroccan problem, or a European one?",
-      "source": "Chatham House",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObnpZOTVkRjY2WDlVYTR2YjZORGwtSE1Ldmx5TWt2YjJiWmozOU1McUdGeTRvZXhOZmVhVGk5QkJhUUttTVo2OXJUZ2hkRDZQdThyY2NvUEh5dklVQ1IxdTZXNWpweXBEMkQzYUhObHl1ZlpRVVpYbzhnbnlnTzR1ZWVQQ2tuaHB1LTlOT2NtTzJTZw",
-      "published_at": "2026-10-16T12:23:37+00:00",
-      "category": "ceuta",
-      "language": "en",
-      "weight": 2,
-      "source_id": "unknown"
-    },
-    {
-      "title": "Mohamed VI seguirá marcando la política exterior de Marruecos con España pese al cambio de Gobierno",
-      "source": "El Faro de Ceuta",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNM2dza3RDMmhhQWdFYkU5Q0xOYjN6MmFsc240Ym9DQkdiR0MyOW1HamxNdm8wenRUQmtQS21IR2dLRUJSUm5iR3pJMnh4RkZiUDNnS2ZhVkVHWThPT2U0empSckJQRDFtYjEwRVloUy01WW1pd1oxOUQ3RFdLejhxWHhnNXl0Y3lmdXQzeGhOWW1mai1raUdiaExweUZCT21rSWc2OHdnalhHVXZPbHfSAbMBQVVfeXFMT1hJMTd4SWZQYzQ0UUVKSDE2bVB6eno4bHU5eF9kRDlnNTVWekhEU216X0VuX1lSQW96RU0tQ1Vzd1NmLXlLMDZkZ3NDVWpHdEVrekwzTnQ3bGd2UHhOTk1VV0xUMXhiN2ptTlJaWkJiTlBPRDBCU2c1NUItT2NwZ0FNX1Jfem50T2dWRFBSd1NqN1FDTTZMWGVfWlVoVThVeVFsZEdzMHY3YThObWJONVFJX1U",
-      "published_at": "2026-10-16T07:00:00+00:00",
       "category": "relations",
       "language": "es",
       "weight": 2,
@@ -404,6 +394,16 @@
       "published_at": "2026-10-15T07:00:00+00:00",
       "category": "relations",
       "language": "en",
+      "weight": 2,
+      "source_id": "unknown"
+    },
+    {
+      "title": "Las tradicionalmente complicadas relaciones España-Marruecos | Colaboración",
+      "source": "El Faro de Ceuta",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWWZVd2RySGtRanlDNXNTVFQxTzluWGwxUjJuRDFjUzEtZUNKdGZZMndqWGN1QmRlbGxjUE4yNUpmT0p0Qy12Q2Y4aXFFSG0tSzR5amM2Rk43WFdSNTBSaEhxRmJrTXd6MHU0cXVYWkRtdjJjanl6M0xSSG50czFxbFJFdkNBR09IUHfSAY8BQVVfeXFMTjZrMHV0YlVYbGZoOFlmTlRqYkphbUVVeEhVdUtldzZ1c19Ha3ZmWjhkOTlVN1VHekJaTVMxU1dVVEVVaC1EMWdrQXVpT1JBSW1uUjdsbEVMN203Ym4yaDhMMTVwUWd6V3JHcDFqVmFfZnNLb1Q5Z2puc1pERUN4NFZ1dUl4M1EySEZhN21TX0U",
+      "published_at": "2026-10-15T02:25:13+00:00",
+      "category": "relations",
+      "language": "es",
       "weight": 2,
       "source_id": "unknown"
     }

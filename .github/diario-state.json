@@ -1,11 +1,11 @@
 {
   "version": 4,
   "latest_entry": {
-    "date": "2026-10-25",
-    "headline": "España–Marruecos: qué aportan los titulares y qué falta comprobar",
-    "summary": "Selección automática de 4 referencias de 4 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
-    "url": "diario/2026-10-25.html",
-    "material_archive": true,
+    "date": "2026-10-26",
+    "headline": "Tráfico marítimo: qué aportan los titulares y qué falta comprobar",
+    "summary": "Selección automática de 1 referencias de 1 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "url": "diario/actual.html",
+    "material_archive": false,
     "status_snapshot": {
       "maritime_status": {
         "es": "SIN CONFIRMACIÓN RECIENTE",
@@ -20,52 +20,47 @@
         "en": "STABLE"
       },
       "security_status": {
-        "es": "SIN ALERTA ESPECÍFICA",
-        "en": "NO SPECIFIC ALERT"
+        "es": "VIGILANCIA",
+        "en": "MONITORING"
       }
     },
     "source_keys": [
-      "26a05b9f79b2301267c6",
-      "987c1cbad2822e66a11a",
-      "9e257f40462b6779c40c",
-      "f698d1f8ff37112aa2db"
+      "c56ff618e919de93e3a5"
     ],
-    "published_at": "2026-10-25T12:29+01:00",
-    "updated_at": "2026-10-25T12:29+01:00",
-    "published_rfc822": "Sun, 25 Oct 2026 12:29:00 +0100",
-    "source_count": 4,
-    "fingerprint": "ba9c4a0b247663bdb2a8",
-    "mode": "full",
-    "significance": 52,
+    "published_at": "2026-10-26T14:02+01:00",
+    "updated_at": "2026-10-26T14:02+01:00",
+    "published_rfc822": "Mon, 26 Oct 2026 14:02:00 +0100",
+    "source_count": 1,
+    "fingerprint": "4ce9d31736f0a577aa24",
+    "mode": "brief",
+    "significance": 28,
     "significance_reasons": [
-      "actualidad repartida en tres o más ámbitos",
       "indicadores operativos o geopolíticos fuera de la normalidad"
     ],
     "indexable": false,
-    "editor_engine": "gemini",
-    "assistant_status": "ok",
-    "editor_assistant_status": "ok",
+    "editor_engine": "rules",
+    "assistant_status": "insufficient-sources",
+    "editor_assistant_status": "insufficient-sources",
     "editorial_trace": {
       "validator_version": 2,
-      "factual_packet_sha256": "8e5dcb89e7ad13d0b630644020a4d423adb655f0b879237d421545a809c096e3",
-      "provider": "gemini",
-      "status": "ok",
-      "attempts": [
-        {
-          "provider": "gemini",
-          "model": "gemini-3.5-flash-lite"
-        }
-      ],
-      "factual_packet_hash": "8e5dcb89e7ad13d0b630644020a4d423adb655f0b879237d421545a809c096e3",
+      "factual_packet_sha256": "cf63cb4e86e8c35a23aa2b889d570fd8156645079ee8b1f759d295f6beafe646",
+      "factual_packet_hash": "cf63cb4e86e8c35a23aa2b889d570fd8156645079ee8b1f759d295f6beafe646",
+      "provider": "rules",
+      "status": "insufficient-sources",
+      "attempts": [],
+      "fallback_used": true,
       "event_ids": [
+        "evt_b076108631883e5a",
+        "evt_a152cb78d2996871",
         "evt_f2ce6141d5c1d418",
-        "evt_d0644076884bda9c",
         "evt_015c0535dc2a2eb7",
         "evt_d0e82ce8e43e0a82",
         "evt_04a63cfdd1e4e547",
-        "evt_8d91cf2cbfc597f2"
+        "evt_6a9fe1fe3dacddee",
+        "evt_3f02f9be80e81375"
       ],
       "source_ids": [
+        "elpais",
         "politico",
         "reuters",
         "unknown"
@@ -74,42 +69,44 @@
         "CONFIRMED_MULTI_SOURCE": 0,
         "CONFIRMED_PRIMARY": 0,
         "CONFLICTING": 0,
-        "DECLARATION_ONLY": 4,
-        "SINGLE_SOURCE": 2,
-        "UNCONFIRMED": 13,
+        "DECLARATION_ONLY": 5,
+        "SINGLE_SOURCE": 3,
+        "UNCONFIRMED": 11,
         "TOTAL": 19
       },
-      "timestamp": "2026-10-25T11:29:00.837296+00:00",
-      "fallback_used": false
+      "timestamp": "2026-10-26T13:02:15.039899+00:00"
     },
     "validator_version": 2,
-    "factual_packet_hash": "8e5dcb89e7ad13d0b630644020a4d423adb655f0b879237d421545a809c096e3",
+    "factual_packet_hash": "cf63cb4e86e8c35a23aa2b889d570fd8156645079ee8b1f759d295f6beafe646",
     "event_ids": [
+      "evt_b076108631883e5a",
+      "evt_a152cb78d2996871",
       "evt_f2ce6141d5c1d418",
-      "evt_d0644076884bda9c",
       "evt_015c0535dc2a2eb7",
       "evt_d0e82ce8e43e0a82",
       "evt_04a63cfdd1e4e547",
-      "evt_8d91cf2cbfc597f2"
+      "evt_6a9fe1fe3dacddee",
+      "evt_3f02f9be80e81375"
     ],
     "source_ids": [
+      "elpais",
       "politico",
       "reuters",
       "unknown"
     ],
-    "timestamp": "2026-10-25T11:29:00.837296+00:00",
-    "fallback_used": false,
+    "timestamp": "2026-10-26T13:02:15.039899+00:00",
+    "fallback_used": true,
     "verification_summary": {
       "CONFIRMED_MULTI_SOURCE": 0,
       "CONFIRMED_PRIMARY": 0,
       "CONFLICTING": 0,
-      "DECLARATION_ONLY": 4,
-      "SINGLE_SOURCE": 2,
-      "UNCONFIRMED": 13,
+      "DECLARATION_ONLY": 5,
+      "SINGLE_SOURCE": 3,
+      "UNCONFIRMED": 11,
       "TOTAL": 19
     },
-    "edition_label": "Cuaderno diplomático",
-    "edition_slug": "relations"
+    "edition_label": "Cuaderno de navegación",
+    "edition_slug": "navigation"
   },
   "entries": [
     {

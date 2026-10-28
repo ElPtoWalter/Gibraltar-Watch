@@ -1,26 +1,26 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
-  "summary": "Selección automática de 3 referencias de 3 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
-  "published_at": "2026-10-27T13:11+01:00",
-  "updated_at": "2026-10-27T13:11+01:00",
-  "source_count": 3,
+  "summary": "Selección automática de 4 referencias de 4 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+  "published_at": "2026-10-28T13:54+01:00",
+  "updated_at": "2026-10-28T13:54+01:00",
+  "source_count": 4,
   "indexable": false,
   "edition_label": "Cuaderno de las dos orillas",
   "edition_slug": "shores",
-  "fingerprint": "4632e86e8db4f9a4a207",
+  "fingerprint": "4677b691723d932fcde6",
   "editor_engine": "rules",
   "editor_assistant_status": "gemini-validation-es",
   "assistant_status": "gemini-validation-es",
   "validator_version": 2,
-  "factual_packet_hash": "d007d93f5e285d427adb663fbabd45efbbd103161fce18596031ed6ab36d5d19",
+  "factual_packet_hash": "330a4db29b7aaa50b854e3ecc98e388659a812a23b11b4bc0704ea8729129a5f",
   "event_ids": [
     "evt_b076108631883e5a",
     "evt_95e66aaa7d88bad1",
-    "evt_a152cb78d2996871",
     "evt_015c0535dc2a2eb7",
     "evt_d0e82ce8e43e0a82",
-    "evt_b27a4a98b889cc77"
+    "evt_8d91cf2cbfc597f2",
+    "evt_74128dbe283c3171"
   ],
   "source_ids": [
     "elpais",
@@ -28,7 +28,7 @@
     "reuters",
     "unknown"
   ],
-  "timestamp": "2026-10-27T12:11:33.249031+00:00",
+  "timestamp": "2026-10-28T12:54:02.169547+00:00",
   "fallback_used": true,
   "verification_summary": {
     "CONFIRMED_MULTI_SOURCE": 0,
@@ -36,9 +36,9 @@
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 3,
     "SINGLE_SOURCE": 3,
-    "UNCONFIRMED": 10,
-    "TOTAL": 16
+    "UNCONFIRMED": 11,
+    "TOTAL": 17
   },
-  "date_label": "2026-10-27",
-  "slug": "2026-10-27.html"
+  "date_label": "2026-10-28",
+  "slug": "actual.html"
 }

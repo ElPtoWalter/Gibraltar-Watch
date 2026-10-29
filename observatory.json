@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-29T10:05:36Z",
+  "generated_at": "2026-10-29T13:00:27Z",
   "state": {
     "code": "watch",
     "label_es": "VIGILANCIA",
@@ -45,8 +45,8 @@
     "ope_passengers_day": 59877,
     "ope_vehicles_day": 15464,
     "ope_rotations_day": 179,
-    "diary_date": "2026-10-28",
-    "diary_source_count": 4
+    "diary_date": "2026-10-29",
+    "diary_source_count": 2
   },
   "anomalies": [],
   "changes": {
@@ -60,50 +60,47 @@
   },
   "health": {
     "overall": "HEALTHY",
-    "generated_at": "2026-10-29T10:05:36Z"
+    "generated_at": "2026-10-29T13:00:27Z"
   },
   "latest_diary": {
-    "date": "2026-10-28",
-    "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
-    "summary": "Selección automática de 4 referencias de 4 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
-    "published_at": "2026-10-28T13:54+01:00",
-    "updated_at": "2026-10-28T13:54+01:00",
-    "source_count": 4,
+    "date": "2026-10-29",
+    "headline": "Puertos y logística: qué aportan los titulares y qué falta comprobar",
+    "summary": "Selección automática de 2 referencias de 2 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "published_at": "2026-10-29T14:00+01:00",
+    "updated_at": "2026-10-29T14:00+01:00",
+    "source_count": 2,
     "indexable": false,
-    "edition_label": "Cuaderno de las dos orillas",
-    "edition_slug": "shores",
-    "fingerprint": "4677b691723d932fcde6",
+    "edition_label": "Cuaderno portuario",
+    "edition_slug": "ports",
+    "fingerprint": "c239958e06c07cdba89e",
     "editor_engine": "rules",
     "editor_assistant_status": "gemini-validation-es",
     "assistant_status": "gemini-validation-es",
     "validator_version": 2,
-    "factual_packet_hash": "330a4db29b7aaa50b854e3ecc98e388659a812a23b11b4bc0704ea8729129a5f",
+    "factual_packet_hash": "52ff188d10af42649ef4c346e3cd9c1e2bd9b8b35c9fb3da62a3d20e3952fa28",
     "event_ids": [
       "evt_b076108631883e5a",
-      "evt_95e66aaa7d88bad1",
-      "evt_015c0535dc2a2eb7",
-      "evt_d0e82ce8e43e0a82",
-      "evt_8d91cf2cbfc597f2",
-      "evt_74128dbe283c3171"
+      "evt_6f57f5958b806ff5",
+      "evt_3fd3c35bced0fcba",
+      "evt_8d91cf2cbfc597f2"
     ],
     "source_ids": [
       "elpais",
-      "politico",
       "reuters",
       "unknown"
     ],
-    "timestamp": "2026-10-28T12:54:02.169547+00:00",
+    "timestamp": "2026-10-29T13:00:21.531798+00:00",
     "fallback_used": true,
     "verification_summary": {
       "CONFIRMED_MULTI_SOURCE": 0,
       "CONFIRMED_PRIMARY": 0,
       "CONFLICTING": 0,
-      "DECLARATION_ONLY": 3,
-      "SINGLE_SOURCE": 3,
-      "UNCONFIRMED": 11,
+      "DECLARATION_ONLY": 2,
+      "SINGLE_SOURCE": 2,
+      "UNCONFIRMED": 13,
       "TOTAL": 17
     },
-    "date_label": "2026-10-28",
+    "date_label": "2026-10-29",
     "slug": "actual.html"
   },
   "latest_ope": {

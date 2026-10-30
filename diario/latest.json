@@ -1,41 +1,43 @@
 {
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "headline": "Puertos y logística: qué aportan los titulares y qué falta comprobar",
-  "summary": "Selección automática de 2 referencias de 2 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
-  "published_at": "2026-10-29T14:00+01:00",
-  "updated_at": "2026-10-29T14:00+01:00",
-  "source_count": 2,
+  "summary": "Selección automática de 3 referencias de 3 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+  "published_at": "2026-10-30T13:55+01:00",
+  "updated_at": "2026-10-30T13:55+01:00",
+  "source_count": 3,
   "indexable": false,
   "edition_label": "Cuaderno portuario",
   "edition_slug": "ports",
-  "fingerprint": "c239958e06c07cdba89e",
+  "fingerprint": "5ef4cf0cc6661d95edfc",
   "editor_engine": "rules",
   "editor_assistant_status": "gemini-validation-es",
   "assistant_status": "gemini-validation-es",
   "validator_version": 2,
-  "factual_packet_hash": "52ff188d10af42649ef4c346e3cd9c1e2bd9b8b35c9fb3da62a3d20e3952fa28",
+  "factual_packet_hash": "7e744fe476d0baaf370711e00247276684795be004c42006c84c6f469eb1052b",
   "event_ids": [
     "evt_b076108631883e5a",
     "evt_6f57f5958b806ff5",
-    "evt_3fd3c35bced0fcba",
-    "evt_8d91cf2cbfc597f2"
+    "evt_74128dbe283c3171",
+    "evt_585780469cd0bfb3",
+    "evt_976823acaf727baa"
   ],
   "source_ids": [
+    "ap",
     "elpais",
-    "reuters",
+    "politico",
     "unknown"
   ],
-  "timestamp": "2026-10-29T13:00:21.531798+00:00",
+  "timestamp": "2026-10-30T12:55:30.207687+00:00",
   "fallback_used": true,
   "verification_summary": {
     "CONFIRMED_MULTI_SOURCE": 0,
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 2,
-    "SINGLE_SOURCE": 2,
-    "UNCONFIRMED": 13,
-    "TOTAL": 17
+    "SINGLE_SOURCE": 3,
+    "UNCONFIRMED": 11,
+    "TOTAL": 16
   },
-  "date_label": "2026-10-29",
-  "slug": "actual.html"
+  "date_label": "2026-10-30",
+  "slug": "2026-10-30.html"
 }

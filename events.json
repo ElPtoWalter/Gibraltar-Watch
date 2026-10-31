@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-31T13:41:32.738208+00:00",
+  "generated_at": "2026-10-31T18:36:37.290718+00:00",
   "events": [
     {
       "event_id": "evt_ae54daf84df73172",
@@ -579,52 +579,6 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_015c0535dc2a2eb7",
-      "topic": "ceuta",
-      "first_seen": "2026-10-22T07:00:00Z",
-      "last_seen": "2026-10-22T07:00:00Z",
-      "headline": "Serious risks at EU borders, fundamental rights agency warns - POLITICO.eu",
-      "classification": "DECLARATION",
-      "verification_status": "DECLARATION_ONLY",
-      "verification_reason": "The record is a declaration and is not treated as an operational fact.",
-      "sources": [
-        {
-          "source_id": "politico",
-          "source_name": "Politico",
-          "source_domain": "politico.eu",
-          "tier": 3,
-          "official": false,
-          "weight": 3.0
-        }
-      ],
-      "source_ids": [
-        "politico"
-      ],
-      "articles": [
-        {
-          "article_id": "art_ec4d5828d7453537",
-          "title": "Serious risks at EU borders, fundamental rights agency warns - POLITICO.eu",
-          "title_key": "serious risks at eu borders fundamental rights agency warns politico eu",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVm9pMzc3TnoyU0g1Qy00UC1BZjlCOTVZdnEzcEl4U1ZKUzMxcEhqNXUzQkc5WUZXRk5CM1BhbUFVdGYzZHRFaUxnNXZ3VERhVlRoeDN2RVZPMTE5NWZZWjVvY0w5MWNNcktLdEVFMzhWSkNCX0RVMzBJT3NqRmdSSzAySUlqWVM2RWFMbA",
-          "published_at": "2026-10-22T07:00:00Z",
-          "observed_at": "",
-          "source_id": "politico",
-          "source_name": "Politico",
-          "source_domain": "politico.eu",
-          "tier": 3,
-          "official": false,
-          "weight": 3.0,
-          "topic": "ceuta",
-          "classification": "DECLARATION",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 30,
-      "operational_impact": "POTENTIAL",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_d1f4ceed5543f379",
       "topic": "relations",
       "first_seen": "2026-10-26T13:02:01Z",
@@ -781,193 +735,11 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_4db9f96a54bd7de5",
-      "topic": "relations",
-      "first_seen": "2026-10-19T07:00:00Z",
-      "last_seen": "2026-10-19T07:00:00Z",
-      "headline": "Felipe VI’s visit to Ceuta and Melilla continues to draw criticism in Morocco",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_8c4be9e1b6437767",
-          "title": "Felipe VI’s visit to Ceuta and Melilla continues to draw criticism in Morocco",
-          "title_key": "felipe vi s visit to ceuta and melilla continues to draw criticism in morocco",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVEswRFlIb1BoQU9OX3BEaW9USWdQZllORDl3MmRzZkxyLWxnUUdrNjBFeW1VdHRKekptQkJoenA3dThwbG1XazlIaWliTDB1bWVTWTNUZThFRHVQaDdRS2RPUndKbFFqUkRkcTRjYURxN0NuWURLb2NqMmZTUWdLQUZTRnA5U0F3X2dDNQ",
-          "published_at": "2026-10-19T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_ac720fefd0b8ae43",
-      "topic": "relations",
-      "first_seen": "2026-10-14T12:33:58Z",
-      "last_seen": "2026-10-16T07:00:00Z",
-      "headline": "Sánchez reaffirms Spain’s commitment to good relations with Morocco after King’s visit to Ceuta, Melilla - HESPRESS English - Morocco News",
-      "classification": "DECLARATION",
-      "verification_status": "DECLARATION_ONLY",
-      "verification_reason": "The record is a declaration and is not treated as an operational fact.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_1a53965217fbefe5",
-          "title": "King Felipe Uses Ceuta Visit to Project Support, Tells Morocco ‘Ceuta Is Spain’",
-          "title_key": "king felipe uses ceuta visit to project support tells morocco ceuta is spain",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNc25uSXhHOFdsaVhLTGhwUUJORjI5VjVMaEp6Y2JXd0hRVUZrcFhPUHNTZ2NKZEdtZl9SQV9XckwxbUVIVW1xWXk0NXc3OFB3RmQ5enUwQlhhQzJhQmJGeW5zUkZodzV3b253LU15NUhCWmx2b0dDeUJ3aTJsR1RYNlBCd3FGMXV3ZDhWNVB2TXhnMmFjSFgzdzhpNG83OEFPTmltRURpcy1WMDhMN1dXQWYtWEh0MnZxNXZQY0VPNEZfdDA",
-          "published_at": "2026-10-14T12:33:58Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_f83115b8f662a70e",
-          "title": "Sánchez reaffirms Spain’s commitment to good relations with Morocco after King’s visit to Ceuta, Melilla - HESPRESS English - Morocco News",
-          "title_key": "sanchez reaffirms spain s commitment to good relations with morocco after king s visit to ceuta melilla hespress english morocco news",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQTEFJWGo2SEpFZUktZ2pRZVcwbk40eGJYUGZJQ0huTi1DMkRlMVNQeTQ0elkxYUoydm83NXY2eDNabERrWGhtdlBwNzlWdVI3a1IzVnFBMC1DcU03QXVMWlVudElVcVlGVURmVFpoS21SSjVvV1lGbEo0eWNMR0p4UnlJLXFSYWNpcHZmcUhtbEhOQ3I0Szd5UXYxWlVFSFJqaU5SSW5BS3JWRk9iTzVrakxCOTVaMnFadUZpVENURFFjSVlfWElISWtCZEczNTU3MEVV",
-          "published_at": "2026-10-15T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_a6726b4bb660a19d",
-          "title": "After Felipe VI’s visit to Ceuta and Melilla, Sánchez insists on constructive relations with Morocco",
-          "title_key": "after felipe vi s visit to ceuta and melilla sanchez insists on constructive relations with morocco",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOcHZNbWZJYW9tdk0taGdaRTZKZFlNUTg3ZTZSTFdfSVJ4SElFZGhPX1FhV2ZRODRzeENWc0V5WVdWZzctOU5HWF96dUlkdV9BbUVFMHNYTDZheGJqWjFyWHdKRmwyRnVmckFFTEwzeW1tazhpWWowX3BqcDNIdE9wOG90TjZGWC1kZ1E",
-          "published_at": "2026-10-15T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_19a57bef77266c85",
-          "title": "Sánchez Reaffirms Spain’s Commitment to Constructive Relations With Morocco",
-          "title_key": "sanchez reaffirms spain s commitment to constructive relations with morocco",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcUR1SUJ5Q2t6NGx5X3VyTFNmaHFwamM4dWIwdmpXVVc0NFdGcU5GTWpNRUY5bGlodmZqNXAwMTU4bUdWanhJTHZ0RjhCallKWTFxMkNpTjg0dmNNVnVmSDB2RlZwcktnX2FkaHlyWnFIM0N4eVg4ZG5MOUtzYjI2cmR2MWE4TGw2TFRMbUp5UEZWNWlHdTBtWWd2NEV5eFNKbEUxNjEyMWdNSVJFNl9NUjZzeTltaEJiY2hFN3pKdkY",
-          "published_at": "2026-10-15T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_80fede6b8aa34164",
-          "title": "EU says Moroccan warships’ entry into Ceuta waters is a matter for Spain and Morocco - HESPRESS English - Morocco News",
-          "title_key": "eu says moroccan warships entry into ceuta waters is a matter for spain and morocco hespress english morocco news",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUlJiYnByRl9ib29jTGhTQzNTN3hmQ3hhaTNMeGR4MlF5enhJbEJ1Q3YyWHIxZUkwVmVHSXJVZVJfQkN1dWpjUllOZ1RZUl9HVmVpeDRRT0lkXy1JaTI0MkZaMVpDakwzbkVObHdndTUwV2NpOTB3MjltVnBYN1ZJdDRpMDlfM0N4Ym5WOWJMZlBXSFUzbkVGa0NtRktHNG1qR1pvRnR2VS1ibVR1YlR6VXMwRkQ2VElscnpZ",
-          "published_at": "2026-10-15T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "DECLARATION",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_8ffe34e0805265c1",
-          "title": "Poll: 58% of Spaniards Say Ceuta, Melilla Tensions Could Trigger Morocco-Spain War",
-          "title_key": "poll 58 of spaniards say ceuta melilla tensions could trigger morocco spain war",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPR2ZlYU41VUthNnczZVl3LTlZcVd6SEM3ZzRjQXNxcWVHUlBJQzBOZ0lXeFYzcW1pMGsyeFNMWG4wSWZwYVloY2VESjVKSTRvVVFmMGlka0hmdnp6QVFHRHBJWFN3OXlnNmxQQUJTQlB1cHRzMFhlQTNJUzZmV2pXbTE4YVFzVGp4WDFjS1FoamN1aHZmZDhkbjZTNTF1MXFZN3QyRGtpbXJIUkFSTmxQWFhHVEl1dFVVNHBjeEk0OGdMU0tZcVc4",
-          "published_at": "2026-10-16T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "DECLARATION",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 30,
-      "operational_impact": "POTENTIAL",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_a7745d7d3c137569",
       "topic": "relations",
       "first_seen": "2026-10-15T02:25:13Z",
       "last_seen": "2026-10-15T07:00:00Z",
-      "headline": "Las tradicionalmente complicadas relaciones España-Marruecos | Colaboración",
+      "headline": "Felipe VI supedita \"la buena relación con Marruecos\" a que \"Ceuta es España\" y emplaza al Gobierno y la UE a defenderla",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
@@ -985,6 +757,96 @@
         "unknown"
       ],
       "articles": [
+        {
+          "article_id": "art_95fdf9ec5badf360",
+          "title": "Más allá de Ceuta: disuasión y cooperación con Marruecos",
+          "title_key": "mas alla de ceuta disuasion y cooperacion con marruecos",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPREZ0Q2ctblpBQWNOTS1SOEZrdVJiYXNLTm16SzNFLXBVb1Q2a3dKbU93WGN2blRkV2tKY0kxclJLQ1JON2hsT0RGY2RBUHIzOXNwRzc1ZUdURWx2ekNpMWwzUkxBWXhIc3FRRHFjeWhtQldRb3Bqc3NRVlVDNnhRVkRSUkhfTHdTbjhqSE15NmlDTEU",
+          "published_at": "2026-10-13T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_f3ea14f2d8db4ca0",
+          "title": "Felipe VI supedita \"la buena relación con Marruecos\" a que \"Ceuta es España\" y emplaza al Gobierno y la UE a defenderla",
+          "title_key": "felipe vi supedita la buena relacion con marruecos a que ceuta es espana y emplaza al gobierno y la ue a defenderla",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQN1FaQ213NWQ0VGV5MVYyUDlVMnN0SVc0UmNSb3l0a3U0allYUjFYTnROQ2d5MUtvakVMWVVpVnRHbkIwNUN5YzEtVGhqeHJpZ25PdWRzNDFiMWxZOXN5RWZwUm9HNHpqdzRnVGw0c25TV2YxdXhaeHhmWnlidTRsZWlLWkF1Um5tUTNSNnFuMmZ5YkdjRzdZbUlsdFhIZGYtUlJFcndBdHJaaWstRnExdHVtQy12NGR4QWNsXzRfYnNkN0psd2N3SkQxWVRFczV6Yk04c2ZTYlpxQ1pyaHI4b01JSGHSAeoBQVVfeXFMUHZsWGdiYWR5VzQyZ2tTcnFsUkJ5eGxuU3lsZVV1SDloeFBrYlV1SEk1a2c2V3F5ZUZzNmpwQjM4TXUtVTc5Vzg2VkxCN2twWmktYzlsdFhVeThCbTFpd01pMHlBeUoxdmwtWFJNZFJ4dnk1N1Q3UDh6X095VERBQWl3TXB6OExFU1RKc1NFVmVHYmlFODE1Ri1pandNTTREOXpPdEIwWmFEUzgxTVBKZUJ3alVseHdSRmxwaU1jTGk1Q1JWY201d29SamJyS3Vpa0NJRXlqNVZqNGdnYjI2Z2tuV05UQmltYktB",
+          "published_at": "2026-10-14T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_1a72b440c49cfc13",
+          "title": "Felipe VI reitera que las relaciones entre España y Marruecos \"exigen confianza\" y \"buena fe\"",
+          "title_key": "felipe vi reitera que las relaciones entre espana y marruecos exigen confianza y buena fe",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOLVl0QUhlSEdLUlVSUlY4NHRVTnpCSW5yUEFEM2xkN1ZZTjY4S3dHRkdXWDhaNXNJQk44N2tEY0xuSjlHT0NYV1g4NHBvWVlTZDRoZGFDMnctM0t4c0lORnZJeXVqYllQZW9ZTDdkaTZXamFsTTR4UVZDR1pxVWVnSTVVOEJEVlZxR0RlNzJRbkJMM1h1d01VSlZLMVB2ZlZ2YjRVVldTc1hkMlZRRDlnZWt0Ni1oRTJBR1R4NmRMWk0",
+          "published_at": "2026-10-14T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_f1731635fc9bc5f0",
+          "title": "El rey de España reclama a Marruecos una relación basada en la \"buena fe\"",
+          "title_key": "el rey de espana reclama a marruecos una relacion basada en la buena fe",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZzUzZ2hTU3JDUUhBalZvX1BKdUZFZ29oaGNJUDk0NEhUSGFQQnlteDQ2bVdXZFFUQ01HQjdkRVJBSDZ0RlRvQ3prN0xjalFGMG5WYkxqTEltQ0daU2kxSm5BMnltOGVPWG9pWktvSGc1T2lwa2Jrd0RlMXFrT182WGRDeUE0TWJJSVVkV0thNWtXR0V4Q1NUU1JpZDRRUGVuUEdvYnhJb1prc1RzU2xEU3FfMUJFaEdTRDZnS0l4bWhEakxxMzg2QnpWSHNUZ0FFVVFkcjBEWEIyNlRV",
+          "published_at": "2026-10-14T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_21da806133c9b359",
+          "title": "El Rey reivindica desde Melilla una relación con Marruecos basada en la confianza y la buena fe",
+          "title_key": "el rey reivindica desde melilla una relacion con marruecos basada en la confianza y la buena fe",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQVVwbVFDR01uVDUtTnhMU25wLTh5UGpRVkRDRnN4OXR6MHdUeXRSNkZHc2dhXy0wQlBja1lhZHd2NTlIc0ZlR05YOGM4N2RQbFpWUk9BSnNPWlNrMnFZLXZiOTdjaUdWNWxBTG55ZjNNT204bzBBVkoycXptemFNVUROX1diVV9SQWk4bloyRmJCcU9YWTA5d0pGa0lQeDZzNjB2OXVJdkY2SE1SUXR5VDF1TDB2Mm1SN05pMkFzMEJlZVnSAcgBQVVfeXFMUEdpQUVQYTN2ZTdxYTVGeGdIVW1FUS0xc0MxSjMzZTJmM0NDdUlXUy1MSU9NbDI3TnE4bTlsa09NRWkwMk9KSmQxV2NDUGptUHl1cnoxSm9PSnZDVTdJZllOUjFrVl9xOVoxdnVsazVaTERTaWE5bXRzaHVMU1kxNVkxdHJmNHh2ay1GZUxMd19WOWxwRnM3VHpiX1pmZlNTRG54YUxVZFJ1ZWc4RndQZGl5b2VqanNIVnM0T2J6TmJ1US1hUEU5ekE",
+          "published_at": "2026-10-14T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
         {
           "article_id": "art_f78c7cd9394a2633",
           "title": "Las tradicionalmente complicadas relaciones España-Marruecos | Colaboración",
@@ -1123,10 +985,10 @@
           "description": ""
         },
         {
-          "article_id": "art_a12cb6246eefb8bc",
-          "title": "El Rey reafirma la soberanía de Melilla y recuerda que cualquier amenaza a su frontera lo es «al conjunto de la UE»",
-          "title_key": "el rey reafirma la soberania de melilla y recuerda que cualquier amenaza a su frontera lo es al conjunto de la ue",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaXF5Q1RneGhqUFNZV1BxLXcwNjc0Q1VPMDhzeDJGOVBoc1V6VURfcC1xam9vRVFGUGdlYkhZN2FVWk1SLVZyNnE3QlZfcVhmX05NdEljelFMWVNUSHU5ZHhTbnNYTXNKOXNUSG1aTC1GQmU2VjM3aENvelI1VUlVM3lvVkFtaU5YU1NxVzVMNGs0SHlRa2NPTFR2M0p6UTZVc0xfenY3ZFR0Z9IBrwFBVV95cUxPWVk1LUk1SVhPNnJxeXNrTHJhNWY2SDRiQmlkcFVtZEVOYjlsX3E2NHZyRlRvVzFDV0lJWlpTd3Z4Vmo3UFI5NTFFUF84UVpsa0Zvb0JZamVRdjhhVWo4QWpid3hfMkQ5dXZhMWdiNWxWcVkzY3VOZkhYd2tzZDhxWUxaNC04b2pTWmp1Tm5MVEQzY3pxOVVHbEFQMEtDX1FfeVltZGdhbjQ4eUdjZ1NR",
+          "article_id": "art_aabb371072b0edf1",
+          "title": "Felipe VI pide en Melilla \"mirar por una relación de buena vecindad\" entre España y Marruecos",
+          "title_key": "felipe vi pide en melilla mirar por una relacion de buena vecindad entre espana y marruecos",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcEFoS1dsWFBocUlwMlM2eTY1aDRiZnB2cEpiVVFjYnhNQlQxTXFiU01yd0FXRXZ3V0ZZSU9SU0VpMDBBV0ZIWFdaUmotb0xuT2Z2V1F4cW9GVDI5LXJRZmRBWkdhd0VROTBCYTJSX3NEeHVjOV9zdzZ0c0RHb2xNVEpjSVh4WUlwMzNvaFRwWlNHc0Z1YW1rWWpDWFZ0UVhsdW9DMw",
           "published_at": "2026-10-14T07:00:00Z",
           "observed_at": "",
           "source_id": "unknown",
@@ -1136,15 +998,15 @@
           "official": false,
           "weight": 1.0,
           "topic": "melilla",
-          "classification": "DECLARATION",
+          "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
         },
         {
-          "article_id": "art_aabb371072b0edf1",
-          "title": "Felipe VI pide en Melilla \"mirar por una relación de buena vecindad\" entre España y Marruecos",
-          "title_key": "felipe vi pide en melilla mirar por una relacion de buena vecindad entre espana y marruecos",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcEFoS1dsWFBocUlwMlM2eTY1aDRiZnB2cEpiVVFjYnhNQlQxTXFiU01yd0FXRXZ3V0ZZSU9SU0VpMDBBV0ZIWFdaUmotb0xuT2Z2V1F4cW9GVDI5LXJRZmRBWkdhd0VROTBCYTJSX3NEeHVjOV9zdzZ0c0RHb2xNVEpjSVh4WUlwMzNvaFRwWlNHc0Z1YW1rWWpDWFZ0UVhsdW9DMw",
+          "article_id": "art_972ce9f720ca153a",
+          "title": "Felipe VI subraya que Melilla \"es España\" y pide a Marruecos \"construir y preservar una relación de buena vecindad\"",
+          "title_key": "felipe vi subraya que melilla es espana y pide a marruecos construir y preservar una relacion de buena vecindad",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbnh4RDNMOWpGM2hFX2hkVWlFQlptMmdBVUc3VHZnNFpHaEZ3Qm9ZdzlITTNFY08tTjdIYmtwd2ZSMmJVRHdxUWoyYXRTVmhUSmhqVWQwOHNDRmRNN1NCOTR3U01pOXZyVGRVVnVxUi1hRGt5YTVkNVQzdzJVbFJ6UDlsMnBDQnRTMXRsZkU1UVJydmV5NHM5NmpBUDc4d1h6bjVfbEF5SEw3SjhhSExkRnlWSFNEN0lId0paR1FzM3lkUDZuV09reXRwZ1V1T0lURE4zVnJQSTVyUdIB3wFBVV95cUxPeWRkcDlXZ2NfR3dLQVBOUVQtZHF5TmNKX3JRdmtNWG9XODZ2NENlRGpma1lkNlljU0ktbVFIN0ZZTWhSTzVFMUdkelhrWTBpQmdUdUVSNjMybVZMczRvclVSRlIxVjhnM3hvcVVCOGhsa1ZBYjQ1WTFISjkyRTEzck9TYmJEcHVNd3BvR0dweVRiNFB3clpVSy1MVG9TOC0yYThacS1uWFZvWnhIczFMbHhheUxuSzh3S0hlaXp5Qkk3YTEySUR3M0FPNDR3aVNORHhXc3lzNVpiUlJ6ODN3",
           "published_at": "2026-10-14T07:00:00Z",
           "observed_at": "",
           "source_id": "unknown",
@@ -1162,17 +1024,127 @@
       "importance": 30,
       "operational_impact": "POTENTIAL",
       "operational_eligible": false
+    },
+    {
+      "event_id": "evt_8fbde68981a2f9dc",
+      "topic": "relations",
+      "first_seen": "2026-10-13T07:00:00Z",
+      "last_seen": "2026-10-14T07:00:00Z",
+      "headline": "Rabat calla ante la visita de los Reyes a Ceuta y Melilla mientras la prensa de Marruecos habla de \"provocación\"",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_c9b54a81a7af591b",
+          "title": "Marruecos amenazó a España por la última visita de la Casa Real a Ceuta: \"Asumirán las consecuencias\"",
+          "title_key": "marruecos amenazo a espana por la ultima visita de la casa real a ceuta asumiran las consecuencias",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNdUNKUHJ2YVJiTjQtc0hqRUZ0X2xOMzc1NTUtM2JVME96X05sZzJtTlU0c2EtZjhvUmhjNjJqYVFEZkJCaFVEYUJOYkw4ZElqZ0N4Tms0WjVRTUUzaWRyTGV1UWtrUS1EaEdrNHZSZXlLU3FMYWJKWkV6ckpmNU5zbUwtY1AzWlN4cXp5VGdxTTAtUDNHOEhncVN1eGNUMzcxOTdUa1NUVloyZWlKcS1RZ1MyRXc1Wk1DTTJLRnpWOU9nalBOSGtBUFE1eWVUVEtrX2lSOWRUZ2QtOE1SelHSAfIBQVVfeXFMT3A4Z3JRVW9OUnRBaFFhQVNXUFlMTXZRS2JpRzZiUGFiVklVVnVGSjFzWUZ3ZldSUnVWOW5BNVA2YjA3YnVHM3Q3WnFOT2Z1bWRkRkJfZDBJZkFsb292YU5SYml0YldBT3pUQXB2dXRFcnJVVEt5ZVRVb3NkZVJ1RlpOeDczcEZLNl82elNtd09OU3hGTFlJLTY1NUZFbXFnVm15X0stOVBDRURnQUVnem1oWUpkbExvTXBnSVRxWk1ncVM5Y3p5dFBmeExOdU9teWtYYjRjaVpYMjlJdTJqbW92aVM2MUM1NFhQTzBaUXRtREE",
+          "published_at": "2026-10-13T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_8e636ddb58f87323",
+          "title": "Rabat calla ante la visita de los Reyes a Ceuta y Melilla mientras la prensa de Marruecos habla de \"provocación\"",
+          "title_key": "rabat calla ante la visita de los reyes a ceuta y melilla mientras la prensa de marruecos habla de provocacion",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeHQwT2ZHWHA2bDlFR2ZaNEJiMmNtaWxVN3U5SExKOG80U093ZVpMLUVnYkFCbUhvWVBzQmpSd25MNW1WSmdoZVlnbTRoQXAxV2FSVFVrZjFZenlkN2wyWWNSSkdLaHJnZjBnSWlfVG9kMjVfa0ZmdUwtQWlkTjhsUE9XVzhmaGU1UjBXRHI4OUtpdS11V1Z6UWtxRHA2V1dUbFZjbDNhQdIBrAFBVV95cUxQdjJqc0xweHRaUXpDY3RhM0Z4UlYyUVdJemNUejNfbHdGR3N6UlFpZjAzUE00VGR3NlRzRENPMHp3Vm5GaUZhSHpab3Vpb0J3VlJrNFFIVGhpSjVuRDVQSk5PSWIySVJ2M2xzQURPR1BsX3VqZVY3WnhCUnRCU201MzFHQlpXSmYwNUJ6Njg0c3YzcDhOMEtwaGlCbC0xLUhkdUY1WFFnTjQxcFJ1",
+          "published_at": "2026-10-14T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_500866aac834f53e",
+      "topic": "relations",
+      "first_seen": "2026-10-13T07:00:00Z",
+      "last_seen": "2026-10-13T07:00:00Z",
+      "headline": "¿Pueden los buques de guerra marroquíes entrar en aguas de Ceuta?",
+      "classification": "ANALYSIS",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_fc6e2b3b2cb05450",
+          "title": "¿Pueden los buques de guerra marroquíes entrar en aguas de Ceuta?",
+          "title_key": "pueden los buques de guerra marroquies entrar en aguas de ceuta",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZzNwZTZqWkFJUE1XTmRxdTNDdlV5S1M5Vlk0eGZFeUhpangyakVnZkNjemtDR2E3eGpGdnFoQUtyVEM1OXZ0QjJIUHRIaFM1ajdBVVZUcVNMdkxXOG1PVG1MRkFVVnJKek9zSThTYVpsVlhxN1VvSUhtdUlVUEdkRy1rWVRwR2dLU01wVmJTWndBTk9sdWtSTVFoWUkxd09uN1JndHlfSEpRNlAtX1l4XzhB",
+          "published_at": "2026-10-13T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "ANALYSIS",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 17,
+      "operational_impact": "CONTEXT",
+      "operational_eligible": false
     }
   ],
   "verification_summary": {
     "CONFIRMED_MULTI_SOURCE": 0,
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
-    "DECLARATION_ONLY": 3,
+    "DECLARATION_ONLY": 1,
     "SINGLE_SOURCE": 3,
-    "UNCONFIRMED": 12,
-    "TOTAL": 18
+    "UNCONFIRMED": 13,
+    "TOTAL": 17
   },
   "article_count": 36,
-  "event_count": 18
+  "event_count": 17
 }

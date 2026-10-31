@@ -1,43 +1,46 @@
 {
-  "date": "2026-10-30",
-  "headline": "Puertos y logística: qué aportan los titulares y qué falta comprobar",
-  "summary": "Selección automática de 3 referencias de 3 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
-  "published_at": "2026-10-30T13:55+01:00",
-  "updated_at": "2026-10-30T13:55+01:00",
-  "source_count": 3,
+  "date": "2026-10-31",
+  "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
+  "summary": "Selección automática de 1 referencias de 1 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+  "published_at": "2026-10-31T13:29+01:00",
+  "updated_at": "2026-10-31T13:29+01:00",
+  "source_count": 1,
   "indexable": false,
-  "edition_label": "Cuaderno portuario",
-  "edition_slug": "ports",
-  "fingerprint": "5ef4cf0cc6661d95edfc",
+  "edition_label": "Cuaderno de las dos orillas",
+  "edition_slug": "shores",
+  "fingerprint": "818273308a06e831c0d1",
   "editor_engine": "rules",
-  "editor_assistant_status": "gemini-validation-es",
-  "assistant_status": "gemini-validation-es",
+  "editor_assistant_status": "insufficient-sources",
+  "assistant_status": "insufficient-sources",
   "validator_version": 2,
-  "factual_packet_hash": "7e744fe476d0baaf370711e00247276684795be004c42006c84c6f469eb1052b",
+  "factual_packet_hash": "a512fe2473ce9da6fcbd08b40c466bd55b7e4f34e6a7c2f4eea6afba367a597b",
   "event_ids": [
     "evt_b076108631883e5a",
-    "evt_6f57f5958b806ff5",
-    "evt_74128dbe283c3171",
-    "evt_585780469cd0bfb3",
-    "evt_976823acaf727baa"
+    "evt_e9188d2168453033",
+    "evt_015c0535dc2a2eb7",
+    "evt_3fd3c35bced0fcba",
+    "evt_7422ff036b1d3fd7",
+    "evt_adda9a4589e535db",
+    "evt_29bebf1f5d16cb29"
   ],
   "source_ids": [
     "ap",
     "elpais",
     "politico",
+    "reuters",
     "unknown"
   ],
-  "timestamp": "2026-10-30T12:55:30.207687+00:00",
+  "timestamp": "2026-10-31T12:29:08.617792+00:00",
   "fallback_used": true,
   "verification_summary": {
     "CONFIRMED_MULTI_SOURCE": 0,
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 2,
-    "SINGLE_SOURCE": 3,
-    "UNCONFIRMED": 11,
-    "TOTAL": 16
+    "SINGLE_SOURCE": 5,
+    "UNCONFIRMED": 19,
+    "TOTAL": 26
   },
-  "date_label": "2026-10-30",
-  "slug": "2026-10-30.html"
+  "date_label": "2026-10-31",
+  "slug": "actual.html"
 }

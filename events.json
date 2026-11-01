@@ -1,7 +1,53 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T09:24:35.899077+00:00",
+  "generated_at": "2026-11-01T16:50:07.013296+00:00",
   "events": [
+    {
+      "event_id": "evt_89da0c977dec8cb5",
+      "topic": "melilla",
+      "first_seen": "2026-11-01T10:58:23Z",
+      "last_seen": "2026-11-01T10:58:23Z",
+      "headline": "Marruecos anuncia la modernización del paso fronterizo de Beni Enzar en Melilla",
+      "classification": "DECLARATION",
+      "verification_status": "DECLARATION_ONLY",
+      "verification_reason": "The record is a declaration and is not treated as an operational fact.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_82e438b0e3b4e471",
+          "title": "Marruecos anuncia la modernización del paso fronterizo de Beni Enzar en Melilla",
+          "title_key": "marruecos anuncia la modernizacion del paso fronterizo de beni enzar en melilla",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQdWUxZnlkR1NnenMzcHlqZlVjcTl1TjJfTEZGMnUxM0RPcTBLc3pROTB2R01xV0Z4Nzk4SmZXSUlUX1F3UDZySFFmUGxraDRfRzVycUVpS21ENmRBRDF6MUpxeG1oUFVSbURQc09QMTlGaTZ0SzI4OEVTZ2tfLXliS29tejU3eW5ZM2s3TkpJd05uYTZxWjl0OUIzb0l6SDdxbDVWWmZWQ2h3WVNCVTAySlZ5SWd6d01KZmZOUkVGSTh6VTBydllGTmQyQUVWVVXSAeMBQVVfeXFMTWtETWR1YlRsVEdYVjVQeGwydHN3MmlsMVMxODhLSTZJZU1MXzNhU0JCUG5jVWtsQmdGZ05hbnFhTHhnQzVXUFJtSE4zNUdrdUdCTThGSmlyODlYTVQzMjAxWEphZnBZbEJ4a0hOWm5ndzRudnZFcEtoVmY3UzZ3QjBxd2FPeUFQME00Y2VRY01KMjI0ZEZ5enRLdmZqZWFpMGRQMWdJT3NDU1V6RHhiaTlZam9femFSeGl5Y2F0UVhETURWVWpzOVdaQ1FzSGJOQzVoeW1ZTGFTQTRKWGVDaDlLRlU",
+          "published_at": "2026-11-01T10:58:23Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "melilla",
+          "classification": "DECLARATION",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 30,
+      "operational_impact": "POTENTIAL",
+      "operational_eligible": false
+    },
     {
       "event_id": "evt_d610dc3214d04f88",
       "topic": "relations",
@@ -46,6 +92,52 @@
       ],
       "importance": 4,
       "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_ae54daf84df73172",
+      "topic": "traffic",
+      "first_seen": "2026-10-31T05:32:13Z",
+      "last_seen": "2026-10-31T05:32:13Z",
+      "headline": "Oman rescues 25 from burning ship, Iran halts tankers",
+      "classification": "OPERATIONAL_SIGNAL",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_e7360778a5e9d901",
+          "title": "Oman rescues 25 from burning ship, Iran halts tankers",
+          "title_key": "oman rescues 25 from burning ship iran halts tankers",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMWF1ZWUzVjhPeGRxTGxaWEpVLU9QNWNKN1RoeTIxUDNnT254RTZJSEZuZnVscnRiUEFZcG1VUnpIMXdWeVVuX0N2ZzJ2c3B2Mnp0TW5VYWdxTm9kNTc1WmEzTzJ2NFl2Y3g0cjJmd0k5eW56a24wdUxCNjhpYjZmRU56cTd6YXlkckdOTkY2dlAwaUZKcTFYZURVbjVOaHJFUU5B",
+          "published_at": "2026-10-31T05:32:13Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "traffic",
+          "classification": "OPERATIONAL_SIGNAL",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 55,
+      "operational_impact": "POTENTIAL",
       "operational_eligible": false
     },
     {
@@ -246,24 +338,6 @@
           "description": ""
         },
         {
-          "article_id": "art_f2fac4980380f48d",
-          "title": "Spain’s Own Official Records on Ceuta Crisis Undercut Its Case Against Morocco",
-          "title_key": "spain s own official records on ceuta crisis undercut its case against morocco",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbk1GU241ZVFSbEYtcEpPdEdfcEhnZE5HQVFtdDNBcVdTREJmancySTJwVk5NbFBMSEhwWGYwRTZmSWdhSE4wWDRRX3plYmVXemlTa2Z1UkxPY1ZuOWpQMm1CVHMxV2J5bzdGM3VFSXE3WXhqZFpteFA4TkVVb3YwSGpuNDBKTHdNVzM0VVNGeDV5V3hvd2EyWnl2V2Vqa3o0aGxKR2lNaG9fSnV1WFUwQmh4QXdnWW9oTk9ZMVJINFQ1UzJ2",
-          "published_at": "2026-10-27T15:32:41Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
           "article_id": "art_1e41727890b9077d",
           "title": "Spain deports migrants from Ceuta in move criticised by rights group",
           "title_key": "spain deports migrants from ceuta in move criticised by rights group",
@@ -287,52 +361,6 @@
           "title_key": "spain judge orders release of ceuta intelligence files as first deportations begin",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNM2c4SHQ0TUF3dlFyM0pYLTNkRnNNX1hIZTFYa2lMbUZoVjUxcGFqUTNTOHV4NmhyZTUwaXhqcEwwdmY3cDU1cGdQcXJObUNVS0ZEWTY2RjhmN2NKRlBoVnhzMmhwMXNET3lZRnZaeFdULVowWWdlS3FyY2lzc2NPeG9nR1ZzOE5fZXYybFBQM1dBSXI1eEl5bk9sc2FqUHR1aTRtLXJ5a1RweTMxYVRmZnZ2Mkt2TkpZTmZxU0kwLXdQN2M",
           "published_at": "2026-10-28T13:42:26Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_ba6ccc78c5dfde60",
-      "topic": "ceuta",
-      "first_seen": "2026-10-27T22:14:00Z",
-      "last_seen": "2026-10-27T22:14:00Z",
-      "headline": "Court testimony points to Moroccan involvement in Ceuta events",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_4fb643115e795e71",
-          "title": "Court testimony points to Moroccan involvement in Ceuta events",
-          "title_key": "court testimony points to moroccan involvement in ceuta events",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVF9yZm9TeEg4Rk13NWt4Mi0tRjY3UjkzQ0ZURUdIZ1VJM2JyZXJsa3UxWWhhb05yZFA3RGpCeWtDUmxNRTgzeDRKQ0s2Z2JSbTUyMDNFZjNsVzMwWkhiVTBPZGJsakF4LW9VQXRyR1BwZllXVXgxcFBFYTNVRXBkX05jOGc0aU1LRkl6UGR0NnBFT1pXQ21TOXAtWThyYVNvbE5GSlBUSmo",
-          "published_at": "2026-10-27T22:14:00Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -438,6 +466,24 @@
           "description": ""
         },
         {
+          "article_id": "art_578b172542d11d94",
+          "title": "Marruecos vuelve a la carga con Ceuta y Melilla y lanza un aviso a España: \"Nuestra soberanía no es negociable\"",
+          "title_key": "marruecos vuelve a la carga con ceuta y melilla y lanza un aviso a espana nuestra soberania no es negociable",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQXzhUSXN0LWZKQ29fRUVFOFZJLVBtT281RTNoSTd3NEFxY1dRMVAtRmlqNWVKZUhZaDdjaVdfMFJsSC1Xck1lVWZBS2xtSjJyVnd1Q3V5UXRZZ29mby1DQzVQeXVudGhxc0tJd2kxd3NsLUhhZE82UWJtLW1IaHROanFTTGNfUFh1TUtRVTg3Yng2aUgzVVNrUHQ3ZkcyZWNGRFcwV1Npc215RmdmY2dHb2Z2dWktY0J0cjRuS1RrYkZldndySnA0WVlvQUtwNFh2cTZ6cFdMM3NQekxsaEJSSC11Q0d5cFXSAfsBQVVfeXFMUE9yLXJKMXNOcDY0NFJVNXBLZkpsVkI0ckprNWpuZGk3VXplOGRieWF3SHRhcDZxcnVUbFJhQUNwd1JPQktzTTFxR2tWUUQ4TVpuMjRHSW5LS01YbDVQTDZCUE5yODI2a3c3bTBsazZIemdHczJQT0YtNTc0RUphZWVTdGhfbnpZSGRCWFk3YVVHRHVNY192U2wxcDVTa1B3WmM1OF9WUm1ld3lQQWNFU002RWpjd0RZT0JMdkVYMnhhRlNqajd6WWtYcDRtOEMwU3pVM0ktcXZ0WVozM3J1eUd1Z215QlFkMHg5ZURSYzlTZjVwSTRnQThqUUE",
+          "published_at": "2026-10-23T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
           "article_id": "art_987c1cbad2822e66",
           "title": "La crisis de Ceuta pone a prueba el comercio y el valor estratégico del español en las relaciones con Marruecos",
           "title_key": "la crisis de ceuta pone a prueba el comercio y el valor estrategico del espanol en las relaciones con marruecos",
@@ -458,6 +504,79 @@
       ],
       "importance": 4,
       "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_e9188d2168453033",
+      "topic": "ceuta",
+      "first_seen": "2026-10-22T07:00:00Z",
+      "last_seen": "2026-10-22T07:00:00Z",
+      "headline": "Italy and Spain scrap border checks brought in after Ceuta crisis",
+      "classification": "FACT",
+      "verification_status": "SINGLE_SOURCE",
+      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
+      "sources": [
+        {
+          "source_id": "politico",
+          "source_name": "Politico",
+          "source_domain": "politico.eu",
+          "tier": 3,
+          "official": false,
+          "weight": 3.0
+        },
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "politico",
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_1032c030fd51dfed",
+          "title": "Italy and Spain scrap border checks brought in after Ceuta crisis",
+          "title_key": "italy and spain scrap border checks brought in after ceuta crisis",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUDJ1ZVluWklhVDVGOVZuRUxMWFZ6WkttOUVUSHBQWjVBMnFiaUJ2RDlOZFZaZmpyMnlvSmN2bW9KZFlFaGh2MHlNc2lLcmQ4UmRLX2k5NjFTeFpUUnE5TmUxNnh1X0pTcUtmaURIS0R0YTdJYkJ5RGRFaHBlS1dYTldyWVBvNHJBcG9lcXYzX1FaRzE1cWtxR25R",
+          "published_at": "2026-10-22T07:00:00Z",
+          "observed_at": "",
+          "source_id": "politico",
+          "source_name": "Politico",
+          "source_domain": "politico.eu",
+          "tier": 3,
+          "official": false,
+          "weight": 3.0,
+          "topic": "ceuta",
+          "classification": "FACT",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_5a3401a00186834b",
+          "title": "Italy and Spain lift border controls after months of tension over Ceuta",
+          "title_key": "italy and spain lift border controls after months of tension over ceuta",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWFZ1Nl9kX3hyLXl5R3dXa1JZUzVYWk0xdXdRNlJuX1ZxQ3FtWlp1T09UMWFZaWppMFdRQlFfclRRRndqREoxS1NiSlEyYmtCcFZFSFJvc2dhS2NRaFB1T21KSUYxcVZuX0hndmlKc0QwWkpMMWNweXR2TTJiUnFTUzBWNHNNLWtZXzZpUUh4OUs0emRiaHVmUDBrdEY1RnJZWEY3dFhhMVlkeHY1YWV0X1g4c9IBuAFBVV95cUxNV29nN1RSYkFpNFpEN2dGZmswdnV4ZzVSOTB3YXdqcmttRHJ6cU5HWnJlYVVIcnc4YmRUVi1zbktFWXVvVFZqSE5BZno2aUFqY1VmejVvdVBUNExTajJSbGpaN2w2cjBMMEtjZFhYZFEtZFk1SldJaGpZdUVtZVJscV9aVHZDazBFTE5oWWJuNkxEZ2RqMmxjbGxtRjlGNmF0TEFkTnJzakQ0QllaQ3l0OU5pV2E1eHgy",
+          "published_at": "2026-10-22T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 46,
+      "operational_impact": "CONTEXT",
       "operational_eligible": false
     },
     {
@@ -579,12 +698,12 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_e9188d2168453033",
-      "topic": "ceuta",
-      "first_seen": "2026-10-22T07:00:00Z",
-      "last_seen": "2026-10-22T07:00:00Z",
-      "headline": "Italy and Spain lift border controls after months of tension over Ceuta",
-      "classification": "UNCONFIRMED",
+      "event_id": "evt_e516bc242f552d2f",
+      "topic": "ports",
+      "first_seen": "2026-10-21T07:00:00Z",
+      "last_seen": "2026-10-21T11:50:36Z",
+      "headline": "El Puerto de Algeciras supera los 76 millones de toneladas hasta septiembre y compensa el descenso de febrero",
+      "classification": "OPERATIONAL_SIGNAL",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
       "sources": [
@@ -602,11 +721,11 @@
       ],
       "articles": [
         {
-          "article_id": "art_5a3401a00186834b",
-          "title": "Italy and Spain lift border controls after months of tension over Ceuta",
-          "title_key": "italy and spain lift border controls after months of tension over ceuta",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWFZ1Nl9kX3hyLXl5R3dXa1JZUzVYWk0xdXdRNlJuX1ZxQ3FtWlp1T09UMWFZaWppMFdRQlFfclRRRndqREoxS1NiSlEyYmtCcFZFSFJvc2dhS2NRaFB1T21KSUYxcVZuX0hndmlKc0QwWkpMMWNweXR2TTJiUnFTUzBWNHNNLWtZXzZpUUh4OUs0emRiaHVmUDBrdEY1RnJZWEY3dFhhMVlkeHY1YWV0X1g4c9IBuAFBVV95cUxNV29nN1RSYkFpNFpEN2dGZmswdnV4ZzVSOTB3YXdqcmttRHJ6cU5HWnJlYVVIcnc4YmRUVi1zbktFWXVvVFZqSE5BZno2aUFqY1VmejVvdVBUNExTajJSbGpaN2w2cjBMMEtjZFhYZFEtZFk1SldJaGpZdUVtZVJscV9aVHZDazBFTE5oWWJuNkxEZ2RqMmxjbGxtRjlGNmF0TEFkTnJzakQ0QllaQ3l0OU5pV2E1eHgy",
-          "published_at": "2026-10-22T07:00:00Z",
+          "article_id": "art_f1ac023bc0a740a4",
+          "title": "El Puerto de Algeciras supera los 76 millones de toneladas hasta septiembre y compensa el descenso de febrero",
+          "title_key": "el puerto de algeciras supera los 76 millones de toneladas hasta septiembre y compensa el descenso de febrero",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNSHVvVzFhSWpSbVVBYXBsNktvSkZOOWFmWWc0bUlCZllZWmpON2VLcDZGMjFMcEVnb3RVSUhxZTlxb0ZPbEhhdU1ScU5aOEkxY1Z4YWRsVmxQOGl0SDg3ZDJ3SzVfQm1ySkYtNWduOW5zN0RvcWpCd3R0UUJIMHBZZXlLb21OZ1VZZ2haMnllTlFra0gyek42ODNtd0dyWkFpa0RDU0tRN0pvbEdncTM1SUJwMlBFVlFLdUctT3ZLUmdYY202eFN0dk5ycnJFS01qYlZocWFpYVdxWkJ1TEdBc2QwV0lUbFI3anc",
+          "published_at": "2026-10-21T07:00:00Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -614,14 +733,68 @@
           "tier": 1,
           "official": false,
           "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
+          "topic": "ports",
+          "classification": "OPERATIONAL_SIGNAL",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_fc4982ee26d09b17",
+          "title": "El puerto de Algeciras acumula más de 76 millones de toneladas de tráfico total hasta septiembre",
+          "title_key": "el puerto de algeciras acumula mas de 76 millones de toneladas de trafico total hasta septiembre",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQVU9TaWJyT2xUMXdLbFRBN002Q2lrWTJGbGI0eWdfclBHTzJhRzhUVldtYnBONGkwSUFnNHBWUnVpaE1pbi12VWhxdGtEN0hlMi1yb3JHTGhUZ0l1OVZlUnFRMVlzeW91ZGd5bm9sT3FvMEJ0WWNTVjNTVjJ2S3BxTVV6U1NERUJhMjVqYmRQZEhGb193UmltczRVZTVicTlIc2VfM3luOVpvMG9vSENyWG9KaTNEeEJoeEVRUlRGRXJtUlN6US1mUUlLdzdCUHk2cTUzUjJvN0VRSkRlVFFEenkxaDZFOVpUZC1qZlhHcFhWSURJdUxwYjkzempPWlE1d1lB0gGIAkFVX3lxTE5lbDBHbEZrbVFxeGYyRUNrV3BweDhBNFRtVGZfOHVSLWJYZUFyNnpicGY1YnlYaE9mM3lFYVNlRHl5NU92VzZqdHltZEZyVm9QZ3FXZEx0cDBqRDZBM0Q4TS1RVEhDUnhzOHo5X0ZpWWhKRGNuNGwyV3R5ZkdBM2NKS2xldDhhdURoN0Z4UFRCY1JzRlFDWEt2Nlo0bmFIVnV4a3FVRm1naTd5OGFjMU1penA2NE9PbV84RjBObFFrWEpaU2o2bDI0WGdDRDJHZEY1Y3EtQkpTTjZsQXZPTDAyS05Uc1diM0NSR21hSnFKaVo1cXFiWEVUVm5EV1ppMkJibHJLaW43Qg",
+          "published_at": "2026-10-21T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ports",
+          "classification": "OPERATIONAL_SIGNAL",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_8b89912dd2889f25",
+          "title": "El Puerto de Algeciras crece un 1,1% hasta septiembre y supera los 76 millones de toneladas",
+          "title_key": "el puerto de algeciras crece un 1 1 hasta septiembre y supera los 76 millones de toneladas",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZXRNSGgxNmlpemRBZnhuZ0syUHRXMVZrd2FLQjVKczg4b1lXNUpsSllhYVVmUHlhcGd6WEwwYzFOaE03QThYUG0xM3lwT1FKM0E5dnlLSlZubVlYM0ZuaE52S0FPYW9yZ3J6M2ZXMm1wTVd4TFV4X0tMbG9YV3FVSTJMYmtLYlNfVmg5NmxJRkpnN2FsN3QyTUhKWEo1d9IBowFBVV95cUxON2tCQm5qX1ZaejJIYmJDdmhtQ0hRNkhmbEUzSDlkN2Z1NEpXZnVLRUVrTHBDcjNCX3Z5c0NYd1hlZjkxOE1rOEdrb1liMVE5RXdaNTJQWE1XZlZpVnZsVFp2T3RjeEpqWm5vLU04dEowN1R3TWQxWUx2b2RGRmY2RHpYYjV6R1ZGcWtCYWIzc0xMT2habG5SM3dNM2wwTm5fbktr",
+          "published_at": "2026-10-21T11:35:40Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ports",
+          "classification": "OPERATIONAL_SIGNAL",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_2cf563ed0912e672",
+          "title": "El Puerto de Algeciras supera los 76 millones de toneladas hasta septiembre",
+          "title_key": "el puerto de algeciras supera los 76 millones de toneladas hasta septiembre",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMU9aRl80cmlINkFWeHJYM19iajkyd2xfWlVoYkR0YTNJT1FqTnFJM21pd0p1QXc2RHRZZmlmVnoxcmpzc3VnbXVPbXRmcGZmeUFybEZjc0Y5TVlPODZEWmxYeURRYnZXN0ZscjZUdVZ2RXVTaG9Yc0IySXFxajRFREVNeTJNWnBkZEQ5Y2VLbl9zMEQwZDl4UmEzczBpUEx6UHBEblRuUzZEbU9JSjZMTg",
+          "published_at": "2026-10-21T11:50:36Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ports",
+          "classification": "OPERATIONAL_SIGNAL",
           "signal": "",
           "description": ""
         }
       ],
-      "importance": 4,
-      "operational_impact": "NONE",
+      "importance": 55,
+      "operational_impact": "POTENTIAL",
       "operational_eligible": false
     },
     {
@@ -667,6 +840,98 @@
         }
       ],
       "importance": 43,
+      "operational_impact": "CONTEXT",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_8f6965e98315ef17",
+      "topic": "melilla",
+      "first_seen": "2026-10-20T07:00:00Z",
+      "last_seen": "2026-10-20T07:00:00Z",
+      "headline": "Marruecos usó fragatas, cazas y satélites en su “guerra híbrida” contra España - El Faro de Melilla",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_a3a1ddb451546acb",
+          "title": "Marruecos usó fragatas, cazas y satélites en su “guerra híbrida” contra España - El Faro de Melilla",
+          "title_key": "marruecos uso fragatas cazas y satelites en su guerra hibrida contra espana el faro de melilla",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZXgwa0Y4UmZXQ0o1YkUzbUtwV0xOSXQ4YW1UcTZmYjlsZGQ0UmR3VTh2eUNBdVRDWDhZRTZoRzcwODJCRE94ZmFqdkFWUW1xbGN0RW8wZWZ4NzBYRk5YbVhncDBKV1BKZ3pQUjZWQkpmbDNYVWNUMFp4TFNTQml0em1ZNG1MbUxNRnU1UmJINUFvRnJUN1RncU90TGhkaVZtZi1NN3R30gGrAUFVX3lxTE5UcktHUmEteUVxUS1Wbm55aVd4UXRvYUpGcnh5OEEtcG4yS1drRFVxbWJUZUlCNWd2MWNBcWJCTGI0U0pPY1NBV2h2S0pqUWFiM2NjNEJaZVpuMU9UeXpnWXNtQUtVTlZHV0ZEQjhINGpSTUlqMzNSWllObXJVaWk2WVZKaTdPLUYtSVc5NmREWFNQck5oS3lzTEZsWDBkUVhaXzVDdmg0aTFUQQ",
+          "published_at": "2026-10-20T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "melilla",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_6487a922613f9d33",
+      "topic": "ceuta",
+      "first_seen": "2026-10-16T12:23:37Z",
+      "last_seen": "2026-10-16T12:23:37Z",
+      "headline": "Is the Ceuta crisis a Moroccan problem, or a European one?",
+      "classification": "ANALYSIS",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_dcd15350ff20fabd",
+          "title": "Is the Ceuta crisis a Moroccan problem, or a European one?",
+          "title_key": "is the ceuta crisis a moroccan problem or a european one",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObnpZOTVkRjY2WDlVYTR2YjZORGwtSE1Ldmx5TWt2YjJiWmozOU1McUdGeTRvZXhOZmVhVGk5QkJhUUttTVo2OXJUZ2hkRDZQdThyY2NvUEh5dklVQ1IxdTZXNWpweXBEMkQzYUhObHl1ZlpRVVpYbzhnbnlnTzR1ZWVQQ2tuaHB1LTlOT2NtTzJTZw",
+          "published_at": "2026-10-16T12:23:37Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "ANALYSIS",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 17,
       "operational_impact": "CONTEXT",
       "operational_eligible": false
     },
@@ -717,6 +982,52 @@
       "operational_eligible": false
     },
     {
+      "event_id": "evt_a19da3dd24d9a5ca",
+      "topic": "ceuta",
+      "first_seen": "2026-10-15T07:00:00Z",
+      "last_seen": "2026-10-15T07:00:00Z",
+      "headline": "Ceuta and the Politics of Not Naming",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_103abdc13c31fd08",
+          "title": "Ceuta and the Politics of Not Naming",
+          "title_key": "ceuta and the politics of not naming",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdlJxUTNmX0hRMHRqLXdtSTFsbWlsVVNGX2hBWnFBQ3FVYXVNbkt1ekc1bTVnTWUta1FRb3UtWXcxdDJPemFnZnQxT3FqN2FnR3dTQ25aX0pyT1dtYmZ6NUxmZDZvb1htN0hzQnJUbXdnZnJGRno4YWxuVEZvUWtHU3lITQ",
+          "published_at": "2026-10-15T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
       "event_id": "evt_07f8ed82b227c16d",
       "topic": "melilla",
       "first_seen": "2026-10-14T07:00:00Z",
@@ -733,10 +1044,19 @@
           "tier": 3,
           "official": false,
           "weight": 3.0
+        },
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
         }
       ],
       "source_ids": [
-        "elpais"
+        "elpais",
+        "unknown"
       ],
       "articles": [
         {
@@ -754,106 +1074,6 @@
           "weight": 3.0,
           "topic": "melilla",
           "classification": "FACT",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 43,
-      "operational_impact": "CONTEXT",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_07f8ed82b227c16d",
-      "topic": "melilla",
-      "first_seen": "2026-10-14T07:00:00Z",
-      "last_seen": "2026-10-14T07:00:00Z",
-      "headline": "Felipe VI exige \"cooperación\" y \"responsabilidad\" a Marruecos desde Melilla: \"Cualquier amenaza a su frontera lo es a toda la UE\"",
-      "classification": "DECLARATION",
-      "verification_status": "DECLARATION_ONLY",
-      "verification_reason": "The record is a declaration and is not treated as an operational fact.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_17b69af4d1deec8c",
-          "title": "Se espera la visita del Rey de Marruecos a la frontera con Melilla - El Faro de Melilla",
-          "title_key": "se espera la visita del rey de marruecos a la frontera con melilla el faro de melilla",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTHRybWVRY0FKYmNxOWpNeHpZc2c5QU1qWjFrQnlnYjVDVFlCc0RrYnJtcGFzV1BZQTRaNGR6RWtkUWRLb1dtb0J5dDNtSVE3ZDlxd19yZ28zS0YtZE9UOUJYU1BTNzFpd1pzaGpyMEhreFBGWVhuaFJUUGRVU3M5bU9TQzgtMGxNb0tBYXNOaFluQ2g3NG40cDJR0gGfAUFVX3lxTE1lMV9EQ25DMEF1TjVGWXVYMnlURUFRQTBwc2pkQmtRTlBDYU9KangxSmJ4bHBpRUIzelZUY01teWpSS2pMcEJOWkxtZTdkRmxJaDY1RnoxZjR2S3NHN1VBSkllMXcwSzlndXdFaXRtQTlnV2RxTUdtRVpQZGJQUW1iM1dxa0UtZUllOUNKd0NsSEZDd0ZjdzB6c1U1RWFVVQ",
-          "published_at": "2026-10-12T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_a044201ce0880ee8",
-          "title": "Mohamed VI prepara un posible movimiento en la frontera con Melilla ante la visita de los Reyes",
-          "title_key": "mohamed vi prepara un posible movimiento en la frontera con melilla ante la visita de los reyes",
-          "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOd2g4RkwtTEVjVVJ4ZlF5a0NnMVNSMHp0clZIenVUdEpZVHZOTXhaVlhrZHpjNzFpYzhhd2NPM1RYODFIM0dMVER1dUhSVE02bVRhU1JrSXMxSktPYl9GbWtqSXFnZ0hoNkNNc1psUnhRLWJhaXZRRmc1eWJNYUpMYXd2SVZkeHZDd2xMRnZiR21UQUsyazBacUpHaklyMkJsR0VTTE1OWnFQVDIwSFVZdjFjdXdRS05LbmRZenlRcWxWTEtkc0ZTd1ljeG1rdDVfQ05Qc2NmYkY0SEJOZU9oMlM1eFVaU3JxMzdqcXp1OHlmX1A0VWR2ejdKTmRybDNkQU52V2htaVhwcTVZRFp0MW1R0gGXAkFVX3lxTE0wdmhCMFRYTEtsTUlPbEpGNWpKcTJ1T1FxRkl3WXNkQkFFWW9xM0xXbTBGM1B3dXl2M1NnRU5qVWZsWGZkYV9QZFFXclBKdFdGTHoyMndlT2xSUjdYeHlxZFJwWTFoSFpOTVRHX210c2xvOUxEWENGZzVkV2gyakFqWEhieW85d2hzSTJkQXA3NFJwWmZJbUUxM1BzdHp6QzNYM1RoUXVGWjFIY1QtamUwd0VGbVZGdy10SkVLbDZnTU03Njg3elFaTEFwUVRWTnA4VjhBb3pkeWZOMHVESXhSZ05XMWFkUkk4VU5DdmNiMXhDTlZJU0ZaUTFZQnBjc2U3MFc2SE41MU5NcmZ0ZjhrbXZvUWJJQQ",
-          "published_at": "2026-10-12T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_a2428afa22d0b7d6",
-          "title": "Mohamed VI ultima una visita inmediata a la frontera con Melilla: aún no ha decidido si coincidirá con la de los Reyes",
-          "title_key": "mohamed vi ultima una visita inmediata a la frontera con melilla aun no ha decidido si coincidira con la de los reyes",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPaFJKRXBpcDVXSkNsZ2toZDB0RklETVFrNVZHRlA4bS0wWEtCVGZUMUlhOU8waDJqOExIM2hMSkxlck50TURzQjNPdjE3NUJmbTJ2alhmQWthYmNHUGhtV3FkRG8xTmgxRzYwNmtTeUo3YUJDZDh2YS15aXdPMnR3TTBpV1gtek5jWEJ5RDVLVnNwNzZILXJjLTktVlI5TW5MRm5hNmYyM2hoWV9kMU1QMHBuLUdBUTNVNEc1NEtaNkM2SmtzU2ZiTFdqNVVEZG9vNkRuUFJTRndXRUnSAeABQVVfeXFMTjBYcXBjY3RpUktzazlkeWJ3NVhYNXlCOXV2YjlkcWlQNFFtR21Ccl9rNzZMN3ZweERFMGVuSUs2MDJLeGZQN0RnVVdKOGdnSVNhRlU0czRCTUNNYnhQY3Z1clV4b04wcnozM1h3c3Rkc2ZBYW5fdXBGQk5CY3pZdTVSMVluY0ZNNW5IYUE5YjBmYl93ZVIzcE04ZzdtemV3UFd0N0RlY2FjS2RWUlV6akVBX3dVSzhocWUzZ1ZxTFkwNkQ5X1Vrcm1uRXdGMUxNNEtvbmhkQ0tWRnpmRVFvVlQ",
-          "published_at": "2026-10-12T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_668d88d02ad6aac1",
-          "title": "Felipe VI exige \"cooperación\" y \"responsabilidad\" a Marruecos desde Melilla: \"Cualquier amenaza a su frontera lo es a toda la UE\"",
-          "title_key": "felipe vi exige cooperacion y responsabilidad a marruecos desde melilla cualquier amenaza a su frontera lo es a toda la ue",
-          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOZjQ0WFhESjhHYkNYTmo4VjlPSG5LTWNYYTNtRnhjM2o3Z3dfSGtQNy1XLXRJN2Etd04wS1U1a2NlSUl3dUNHcFlsX0NtUTJmejJCZWUtNHZqRXFSMjNLcjlPN18ydmc0NndpbkhGeWRQbzhiTnd1ZjV3QkhOb0FkVTVOX2NKTzU1OFo3eXI4czVLb0NVWkI4cWhiR2ZXMkY1MkFWY2xoRkJSbEh5cjJsMFQ5ZTJZaTdzdjRTN2JobjBwMDlFMGg2d21GMWtrUnl0eVRCWGdxOVlkUlJxcnBNQXdZTFRuczh4aFhDOVFaUEJTZjJMWDdocV9LOW1TR0HSAf8BQVVfeXFMUGhZQ0M2dWxwaXIxVXM0SlA5bTBqNGdad1FzUjZyZXhBeFZTV01DRW4yMFpoMUM4UEhQc2syRTJfY3FfeUZCNUdUYlBTWHZtdTA1YTF0elNvbFNfOUZrRElJenJucEpBUnU1RHp0eWstQlVDYUd0WTU2dmJBYmlwNjhLTVJCbWRORTBQRVdkODZlYWVkRXIzRlBFRjhRNkhDeU5uZHZoX1g0c19ERWFYV19MNUhpUkxSTGhtRUxMWWVvV2xXcjNHTVQyRm05bGhUQjJHdFY3OHdjNXJxczZGNndkaEg5WXJ3NFdDZmZYZ2JWdzJkVWhsYmlWWEQ0dmRr",
-          "published_at": "2026-10-14T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "DECLARATION",
           "signal": "",
           "description": ""
         },
@@ -876,19 +1096,19 @@
           "description": ""
         }
       ],
-      "importance": 30,
+      "importance": 53,
       "operational_impact": "POTENTIAL",
       "operational_eligible": false
     },
     {
-      "event_id": "evt_14ca6b95ac3c3ec9",
+      "event_id": "evt_339e2749aeb554a3",
       "topic": "melilla",
       "first_seen": "2026-10-14T07:00:00Z",
       "last_seen": "2026-10-14T07:00:00Z",
-      "headline": "Felipe VI subraya que Melilla \"es España\" y pide a Marruecos \"construir y preservar una relación de buena vecindad\"",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "headline": "Felipe VI exige \"cooperación\" y \"responsabilidad\" a Marruecos desde Melilla: \"Cualquier amenaza a su frontera lo es a toda la UE\"",
+      "classification": "DECLARATION",
+      "verification_status": "DECLARATION_ONLY",
+      "verification_reason": "The record is a declaration and is not treated as an operational fact.",
       "sources": [
         {
           "source_id": "unknown",
@@ -904,46 +1124,10 @@
       ],
       "articles": [
         {
-          "article_id": "art_92787ea7b7c20cb3",
-          "title": "La frontera terrestre más pequeña del mundo: entre Marruecos y España",
-          "title_key": "la frontera terrestre mas pequena del mundo entre marruecos y espana",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOc2tnRkZzazJVWldDai1UQmFkUmFmaDZWSlF4Vkk2NWtRTHVSSld2Y3ZfS2R4czlsOHhpd2locWNUMW5wRG5VSzh2azRDcm1CV1lVYld6TTcwTE1fQ1F3bE9oOVN0bGZuS054VFdEY1hRQWJVaTNLTUwxSlN0QTMySFBYRzFyZ9IBiwFBVV95cUxQR2tlaHZlLTRKeXJfOHhqMmJLRkR5RjhxVzNCVkRKdmFxWm5xOHAxWERXQnZ1dC1HMXJsR2pxWTl1MVp5bGJJdzBKNGFiMl9QVFVNX1hWS09FSGNuQzhRcU1MSEFzUkhXZ2FJZHFuU25HM2pvSk15U0VkVVFSN0I3aHNvVlIwVElvRTVF",
-          "published_at": "2026-10-12T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_2aef6cd1a1d92e6d",
-          "title": "Una de las fronteras más singulares del mundo: 85 metros entre España y Marruecos - El Faro de Melilla",
-          "title_key": "una de las fronteras mas singulares del mundo 85 metros entre espana y marruecos el faro de melilla",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVUhkc3pDLWczbWJVSktLXy1heU9HMjhNZ0Rxb254eTFnVWhQaWJEb1BuV010UVFUUTRGREc5NmI2eVFIS2xkSzFQQWlkYmsxZnlFbnlrOFBzWjgwSU1LaTF5S0NvY21zWWR0eS1SdjZTbVVxSEg2d2dTUjFCNklCdHJQRWVsUkphWHdkRlVVNXpiSlRTQjB5c0pLODlqc3k4UW4zZm1nRHZGWENs0gGyAUFVX3lxTFBnM2RuQ09FUjRaZXd2clFNSDkzQkhFaWw1bDNXWi1ORXV5cm5PeVM4dzhFN0tCLUd4anJBaU1HcUVLNG9GbTdRaVltanRvcnVLdENaSTdjMkZtc2pLUGh1LUhPaUJuT21MN053cWN2Q2JTbTE0Z2ZhZzZZM2s4NnJQLUFpMXVqU1VqdUNmV21lVkRhY3hPVUhQXzBoanROUmVuQXkwZW1sbVVEXzc2ZkV2Wnc",
-          "published_at": "2026-10-12T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_797ab5865c7ec559",
-          "title": "Melilla baña de cariño a los Reyes 19 años después y señala a Marruecos: \"Escucha Mohamed: ¡que viva España, eh!\"",
-          "title_key": "melilla bana de carino a los reyes 19 anos despues y senala a marruecos escucha mohamed que viva espana eh",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9MQnVNeE5kXzc3Q2hyZDl4OXlPQTlkTUtDOWUwdWVhMXJLWDNwdlQweWpFVEVWRi1US2g1VXJfZVI3OGNhSmVPai12QnRQR0VqN2FReFVHeGNjbGhiVGFPUDBXSVNWa0Y5R2c3bGhsOFJlSm9DSVUwN0V30gF6QVVfeXFMTm0tNlVIQjVfcUlSOFhsVC1QeFpmU3NaUC1MWHJvdFhRb2s0N3VrcXJoN0NfWFhXWFJIakR4Y1ZBZmRCT2I4UHVCcGs3dzdmS2FRMzhJVTcyRUF2VTc3Z0pZUXdKSUdqZmVya0tqMERwTEV4MGZaTGFEaEE",
+          "article_id": "art_668d88d02ad6aac1",
+          "title": "Felipe VI exige \"cooperación\" y \"responsabilidad\" a Marruecos desde Melilla: \"Cualquier amenaza a su frontera lo es a toda la UE\"",
+          "title_key": "felipe vi exige cooperacion y responsabilidad a marruecos desde melilla cualquier amenaza a su frontera lo es a toda la ue",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOZjQ0WFhESjhHYkNYTmo4VjlPSG5LTWNYYTNtRnhjM2o3Z3dfSGtQNy1XLXRJN2Etd04wS1U1a2NlSUl3dUNHcFlsX0NtUTJmejJCZWUtNHZqRXFSMjNLcjlPN18ydmc0NndpbkhGeWRQbzhiTnd1ZjV3QkhOb0FkVTVOX2NKTzU1OFo3eXI4czVLb0NVWkI4cWhiR2ZXMkY1MkFWY2xoRkJSbEh5cjJsMFQ5ZTJZaTdzdjRTN2JobjBwMDlFMGg2d21GMWtrUnl0eVRCWGdxOVlkUlJxcnBNQXdZTFRuczh4aFhDOVFaUEJTZjJMWDdocV9LOW1TR0HSAf8BQVVfeXFMUGhZQ0M2dWxwaXIxVXM0SlA5bTBqNGdad1FzUjZyZXhBeFZTV01DRW4yMFpoMUM4UEhQc2syRTJfY3FfeUZCNUdUYlBTWHZtdTA1YTF0elNvbFNfOUZrRElJenJucEpBUnU1RHp0eWstQlVDYUd0WTU2dmJBYmlwNjhLTVJCbWRORTBQRVdkODZlYWVkRXIzRlBFRjhRNkhDeU5uZHZoX1g0c19ERWFYV19MNUhpUkxSTGhtRUxMWWVvV2xXcjNHTVQyRm05bGhUQjJHdFY3OHdjNXJxczZGNndkaEg5WXJ3NFdDZmZYZ2JWdzJkVWhsYmlWWEQ0dmRr",
           "published_at": "2026-10-14T07:00:00Z",
           "observed_at": "",
           "source_id": "unknown",
@@ -953,7 +1137,7 @@
           "official": false,
           "weight": 1.0,
           "topic": "melilla",
-          "classification": "UNCONFIRMED",
+          "classification": "DECLARATION",
           "signal": "",
           "description": ""
         },
@@ -994,16 +1178,16 @@
           "description": ""
         }
       ],
-      "importance": 4,
-      "operational_impact": "NONE",
+      "importance": 30,
+      "operational_impact": "POTENTIAL",
       "operational_eligible": false
     },
     {
-      "event_id": "evt_57148c1f1af1fd81",
-      "topic": "relations",
-      "first_seen": "2026-10-13T07:00:00Z",
-      "last_seen": "2026-10-13T07:00:00Z",
-      "headline": "España destaca su buena relación con Marruecos en plena visita de los Reyes a Ceuta",
+      "event_id": "evt_dd38788a5819944b",
+      "topic": "ceuta",
+      "first_seen": "2026-10-14T07:00:00Z",
+      "last_seen": "2026-10-14T07:00:00Z",
+      "headline": "'Sovereignty is non-negotiable': King Felipe VI visits Ceuta following summer border crisis",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
@@ -1022,11 +1206,11 @@
       ],
       "articles": [
         {
-          "article_id": "art_ef7ea400cc6e25b7",
-          "title": "España destaca su buena relación con Marruecos en plena visita de los Reyes a Ceuta",
-          "title_key": "espana destaca su buena relacion con marruecos en plena visita de los reyes a ceuta",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPTGhWYnRQcUt2X0NPT1E2XzdnUl8zVndaMUFVYXNLaGNzSnJSRmd2YlAySUwtRXk3dVdJVV85VzFFMFhvY3Atd0F5bUNpbjZJU21kV3pOVTJ0aXhiMWxaaHIyaWJpd2JWTmdPU0owMzVfZGllbjFOYlBOZXVseFlPeDBn0gGHAUFVX3lxTE1UVGxpR0VZZGZEVlhVTXA0dDlVVHNHMmdCWmlHM1ZUSW9MUkNuYld4YlJBWW5wQ3ZoZjJwZDJGbGI4TXhSclJmdGZ5WjhfQTNfU3h2T3AtQWlnMTB6cFUxTVl6cmhjZklnbU81LVJEQ09Xc0xSbjFZbkpud1RXcTFjdnZ3WmNFOA",
-          "published_at": "2026-10-13T07:00:00Z",
+          "article_id": "art_127279026fbeab54",
+          "title": "'Sovereignty is non-negotiable': King Felipe VI visits Ceuta following summer border crisis",
+          "title_key": "sovereignty is non negotiable king felipe vi visits ceuta following summer border crisis",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBpM1YxTnRsTHZFQ0RjYTctSzBnQ2VseTZaZWFELVZBOU5VOG9EQktSeW1qcVRPMGxKTW1OWUFVaEJTaEJBdFlkdU8wcGhRQUI2QkpvOF9CSHhraGJNWkV4UnlhT0NtdEVtZlZmQk5jSTJhd2tzc004RlhBczJEUQ",
+          "published_at": "2026-10-14T07:00:00Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -1034,145 +1218,7 @@
           "tier": 1,
           "official": false,
           "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_b519c41e65976436",
-      "topic": "melilla",
-      "first_seen": "2026-10-09T07:00:00Z",
-      "last_seen": "2026-10-09T07:00:00Z",
-      "headline": "Luis de la Corte, director de Inteligencia: \"Marruecos no reconoce la españolidad de Ceuta y Melilla, hay que preparar al país para eventuales escenarios y nuevas maniobras\"",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_5d32e6e8cab717a3",
-          "title": "Luis de la Corte, director de Inteligencia: \"Marruecos no reconoce la españolidad de Ceuta y Melilla, hay que preparar al país para eventuales escenarios y nuevas maniobras\"",
-          "title_key": "luis de la corte director de inteligencia marruecos no reconoce la espanolidad de ceuta y melilla hay que preparar al pais para eventuales escenarios y nuevas maniobras",
-          "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxNTXBYSDk0QUdrMWJ4eUdTeWQ0aGZXbml2eklIdS1pajBhZk5tcnVDMFJoSGFpVzN6UWxiWkJrOWRZUldQQmJRdnk2YTkwZ1dEMlpWdndEaXVaTGFPMldFTjY1MDNLcWFwN1BmVnJtZU5RYmhyVGNIaTV3b05WelNEM0psejZHQ2pzc3hPX01odGZWSWdjXzRIa3lCRTV4RW5QcDRtaEhHSVhkbjhid0VCaHNCakloSG8wZ3pKV0NVV1oxbHVnaUNsbkE3Mm0xM19WMG5LYWVfaFZlQ3FCRGJweW9la2l2aDdxZVpPUnIzcFp1REV1ZmlhTTZINVp1UDRQN3k5d09YY01fY3laNXdkTEhjZnh6OTBmN05hTzQ1SGtpR1VYNHR6b2J5bEx1ZjRhMHfSAbcCQVVfeXFMTmxaQ2RySWRzYTZBTlotZlZ3RFo3dW1lOG1qc1NESTVMdVJQaVlYaXVpekRtYjRzX3V1SnpsS01uWVFEb29EYlNkaHJENmk3NEYwY25zNlhCcW5BVHlteWc1OWFGRURDc045Vm9xWGJBYVg3U1dwendrS1BsR2I2b0J6Zlc0bnZvbmg4VTBaREs4aUsxTVd5aG9XUFFRSTRKekgyUDBMWTRsWC1rbWNTYXN4MkdOZWpIVE1Xdnd2Uk5BeTVrSU9lcXBBaC1PY2lyMmx0XzA5RW53Ny1pdHdhXzU1NHg3T19vMU1JOFhjM05lTkdVMVhtMXVMOEpHYV9TNHJtdmRvQVY2bmtKX2t5OVRrTzJQT29kbDhYOEZfV2E4M0JOWktpQlgtdVkxR1l5ZXpwUldPbWM",
-          "published_at": "2026-10-09T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_56414bf4c40aec20",
-      "topic": "traffic",
-      "first_seen": "2026-10-07T07:00:00Z",
-      "last_seen": "2026-10-07T07:00:00Z",
-      "headline": "The HMS Mersey makes a stop in Gibraltar after participating in maritime surveillance missions",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_a4c58d8bedbceca1",
-          "title": "The HMS Mersey makes a stop in Gibraltar after participating in maritime surveillance missions",
-          "title_key": "the hms mersey makes a stop in gibraltar after participating in maritime surveillance missions",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPM1hvblptWURsMzBrcndlajA1UER6YWVEekR4RC1VVy1tSzlNLU5wbWUyQUUzcTIzSDY1WUZsYjRsbDZqalU2cDNqT1pzRGM3TV9JaTd2SU1HZW42OUFDLXlpNTAwd0ZzZ0ZpWGpWbVJod2VjWmFra19lVmlkRDRWY094eHRnX2lEUlBPUC1DSm9UaWZ0UVljSUJlYzRXLVlKT0MzYzd2OGU3RHhHb2Job1JGdDdQNk8ydzhXemp0YU9jejNvY2R6NjRfOUtkREpJRk1mNDBoTlFUZw",
-          "published_at": "2026-10-07T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "traffic",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_cf55b4becb5999ef",
-      "topic": "melilla",
-      "first_seen": "2026-10-04T07:00:00Z",
-      "last_seen": "2026-10-04T07:00:00Z",
-      "headline": "Expertos afirman que la visita del Rey tensará las relaciones con Marruecos - El Faro de Melilla",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_5200627bfc725f7b",
-          "title": "Expertos afirman que la visita del Rey tensará las relaciones con Marruecos - El Faro de Melilla",
-          "title_key": "expertos afirman que la visita del rey tensara las relaciones con marruecos el faro de melilla",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOa3BQXzNFWFI5Nm51UDZoeUFjVWoyTHF4eEl5NlhGZzRlVnNqUlNoSGxhYlhVN052ZTdoZjBOcUI4bGVLZWUxeV9tWmhTZWV6NmFtVlFoV05felgxVTRYYXcyQWx2MVlXNTNESHAwZVpKV2cwQUNJYXFaZFN4X0t5ZTU1ZlNWMnpOcVUxelU3amh6THo3c2plWGtNdVlPWnVBQ2NSQ2NR0gGrAUFVX3lxTFBnWTlxTUs1dklGUlhVYmV2b1pua3JieFJKYTJoU1l6TjJiOEZyQ3h6STMydjhJTHhrZzRvTWtHcW9mRFI4UVhZSU00aTRtY2tCMXZBZG96QmZkVm9GazMxcktiV1ZHajNqWDZaQndtaEpiVWwwVjRXZndkamdBTnJMSE5MVlpCRy1fdUlLMHA0TnI2WmFNXzhZV1BERHZNNjVkZHByYmJVM1BsUQ",
-          "published_at": "2026-10-04T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
+          "topic": "ceuta",
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
@@ -1187,11 +1233,11 @@
     "CONFIRMED_MULTI_SOURCE": 0,
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
-    "DECLARATION_ONLY": 1,
-    "SINGLE_SOURCE": 3,
-    "UNCONFIRMED": 15,
-    "TOTAL": 19
+    "DECLARATION_ONLY": 2,
+    "SINGLE_SOURCE": 4,
+    "UNCONFIRMED": 14,
+    "TOTAL": 20
   },
   "article_count": 36,
-  "event_count": 19
+  "event_count": 20
 }

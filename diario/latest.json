@@ -1,41 +1,42 @@
 {
-  "date": "2026-11-01",
-  "headline": "España–Marruecos: qué aportan los titulares y qué falta comprobar",
-  "summary": "Selección automática de 2 referencias de 2 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
-  "published_at": "2026-11-01T14:24+01:00",
-  "updated_at": "2026-11-01T14:24+01:00",
-  "source_count": 2,
+  "date": "2026-11-02",
+  "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
+  "summary": "Selección automática de 1 referencias de 1 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+  "published_at": "2026-11-02T16:51+01:00",
+  "updated_at": "2026-11-02T16:51+01:00",
+  "source_count": 1,
   "indexable": false,
-  "edition_label": "Cuaderno diplomático",
-  "edition_slug": "relations",
-  "fingerprint": "f8e4564bd84ff36ce748",
-  "editor_engine": "gemini",
-  "editor_assistant_status": "ok",
-  "assistant_status": "ok",
+  "edition_label": "Cuaderno de las dos orillas",
+  "edition_slug": "shores",
+  "fingerprint": "3d305facf77ec973c147",
+  "editor_engine": "rules",
+  "editor_assistant_status": "insufficient-sources",
+  "assistant_status": "insufficient-sources",
   "validator_version": 2,
-  "factual_packet_hash": "ce24bd4920c772f6fb497052624c86c12ddda65217443eb29975f8e747fafbe3",
+  "factual_packet_hash": "f0cd8f5b2b875055da81cdba123090d2d4d1617c20cbf0b8e672e9705fe0cf82",
   "event_ids": [
+    "evt_89da0c977dec8cb5",
     "evt_b076108631883e5a",
     "evt_3fd3c35bced0fcba",
-    "evt_07f8ed82b227c16d",
-    "evt_07f8ed82b227c16d"
+    "evt_8d91cf2cbfc597f2",
+    "evt_86c192b4dc5659db"
   ],
   "source_ids": [
     "elpais",
     "reuters",
     "unknown"
   ],
-  "timestamp": "2026-11-01T13:24:09.840971+00:00",
-  "fallback_used": false,
+  "timestamp": "2026-11-02T15:51:37.734231+00:00",
+  "fallback_used": true,
   "verification_summary": {
     "CONFIRMED_MULTI_SOURCE": 0,
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
-    "DECLARATION_ONLY": 1,
+    "DECLARATION_ONLY": 2,
     "SINGLE_SOURCE": 3,
-    "UNCONFIRMED": 15,
-    "TOTAL": 19
+    "UNCONFIRMED": 16,
+    "TOTAL": 21
   },
-  "date_label": "2026-11-01",
+  "date_label": "2026-11-02",
   "slug": "actual.html"
 }

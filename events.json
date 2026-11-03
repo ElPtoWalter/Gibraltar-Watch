@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-03T17:52:59.267166+00:00",
+  "generated_at": "2026-11-03T23:28:06.866464+00:00",
   "events": [
     {
       "event_id": "evt_c20da21e8c2b77db",
       "topic": "traffic",
       "first_seen": "2026-11-03T13:04:09Z",
       "last_seen": "2026-11-03T15:03:45Z",
-      "headline": "El patrullero 'Atalaya' concluye su misión tras 64 días de vigilancia en el Estrecho de Gibraltar y las aguas de Ceuta",
+      "headline": "64 días en el Estrecho: el 'Atalaya' cierra su misión en Ceuta",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
@@ -26,11 +26,11 @@
       ],
       "articles": [
         {
-          "article_id": "art_3db61983cf089c43",
-          "title": "El patrullero 'Atalaya' concluye su misión tras 64 días de vigilancia en el Estrecho de Gibraltar y las aguas de Ceuta",
-          "title_key": "el patrullero atalaya concluye su mision tras 64 dias de vigilancia en el estrecho de gibraltar y las aguas de ceuta",
-          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNWW9NSDVTcUR3SDZRa1J3N28zWDZMckxqWVRIbVY4MTU2OHBWNFd0T21rSVV5dldJNjNNbGhqVUxmTjdHMTl4ZFRicHZUZktSbVdzZEc2TUNKdFJ6YVJ0QVItSkh6YUNtT2x6bVRZZDIyN0dMbV9mY1lQMkY1RG5Ed0xXdG41Szd2MUd2aFFPei00OTRBQVVWa1ZYeXJqU2xrZlR4dVZVZk1EdC1rbkNEQlVjczRKWXFCdlVTN3J6VkJPcUNVZzlPdmZzSXVXbkhvTlR5S3VkQTJ6WDRqVGozTmR3cjFFNTNzblNzQ3VPazdzRnV00gH0AUFVX3lxTE1Zb01INVNxRHdINlFrUnc3bzNYNkxyTGpZVEhtVjgxNTY4cFY0V3RPbWtJVXl2V0k2M01saGpVTGZON0cxOXhkVGJwdlRmS1JtV3NkRzZNQ0p0UnphUnRBUi1KSHphQ21PbHptVFlkMjI3R0xtX2ZjWVAyRjVEbkR3TFd0bjVLN3YxR3ZoUU96LTQ5NEFBVVZrVlh5cmpTbGtmVHh1VlVmTUR0LWtuQ0RCVWNzNEpZcUJ2VVM3cnpWQk9xQ1VnOU92ZnNJdVduSG9OVHlLdWRBMnpYNGpUajNOZHdyMUU1M3NuU3NDdU9rN3NGdXQ",
-          "published_at": "2026-11-03T13:04:09Z",
+          "article_id": "art_d49b0bc2b9e53ef0",
+          "title": "64 días en el Estrecho: el 'Atalaya' cierra su misión en Ceuta",
+          "title_key": "64 dias en el estrecho el atalaya cierra su mision en ceuta",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOQ1lXVUZFcGhyYi1oX3JLeEgwQWhBenEwb0dyc3BUZTJzazRzbmpqeGZFeGVqNGJWRlg4TUFIdVZ5OHBZcmZwWnlmMjlPV0lIZ1U2aG9PT1ZEaThOMlJoUGFGX2ZqOXBCY3JwUWpXNWFjVURBcWVlM0lGdFEzZzc1OHJPWEJGNVZRTTlZMk93UmsxNTJ4eUlhdlE1bDluQnZzWWpQTFQtOVpONmJKWXVjdkh4R1YwN2JZUXRoVEZSMHhLS0ZmY053aUdOTVRxUdIB0wFBVV95cUxOamlWZGd0QU85Z0trNWJkck5SUUhfOWZWZU1TQjl3UmwzOTE3V1V1bWJvZmxndWFyV29VZFpzWU9xVGFrZW9Zcy01Y1VGQjBBd18yU1Roa3Z2SnNQWG1udTVDb0txU1BkTDJvQVF2dVREZmFVY25IT2c5UnRVTzRYZFZkanQ2bTFRUVg2VUlrTHc5N1hVRnBndkx5U2lHeFRmUk1SQkVUWmZhTGdWNXNUS0pqNmJOS0ZLUzBSTUlkZVVTR1EtYnN2c2ltUTV2cjg0N1lZ",
+          "published_at": "2026-11-03T15:03:45Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -42,13 +42,41 @@
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
-        },
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_f5df16adfaa6aa6d",
+      "topic": "relations",
+      "first_seen": "2026-11-03T12:35:00Z",
+      "last_seen": "2026-11-03T12:35:00Z",
+      "headline": "Feijóo: \"Si Marruecos no respeta la integridad de España, va a tener enfrente a España y la UE\"",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
         {
-          "article_id": "art_dd2f297cbe75eca2",
-          "title": "64 días en el Estrecho: el 'Atalaya' cierra su misión en Ceuta",
-          "title_key": "64 dias en el estrecho el atalaya cierra su mision en ceuta",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOamlWZGd0QU85Z0trNWJkck5SUUhfOWZWZU1TQjl3UmwzOTE3V1V1bWJvZmxndWFyV29VZFpzWU9xVGFrZW9Zcy01Y1VGQjBBd18yU1Roa3Z2SnNQWG1udTVDb0txU1BkTDJvQVF2dVREZmFVY25IT2c5UnRVTzRYZFZkanQ2bTFRUVg2VUlrTHc5N1hVRnBndkx5U2lHeFRmUk1SQkVUWmZhTGdWNXNUS0pqNmJOS0ZLUzBSTUlkZVVTR1EtYnN2c2ltUTV2cjg0N1lZ0gHTAUFVX3lxTE5qaVZkZ3RBTzlnS2s1YmRyTlJRSF85ZlZlTVNCOXdSbDM5MTdXVXVtYm9mbGd1YXJXb1VkWnNZT3FUYWtlb1lzLTVjVUZCMEF3XzJTVGhrdnZKc1BYbW51NUNvS3FTUGRMMm9BUXZ1VERmYVVjbkhPZzlSdFVPNFhkVmRqdDZtMVFRWDZVSWtMdzk3WFVGcGd2THlTaUd4VGZSTVJCRVRaZmFMZ1Y1c1RLSmo2Yk5LRktTMFJNSWRlVVNHUS1ic3ZzaW1RNXZyODQ3WVk",
-          "published_at": "2026-11-03T15:03:45Z",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_dfecdf6e3d855bf2",
+          "title": "Feijóo: \"Si Marruecos no respeta la integridad de España, va a tener enfrente a España y la UE\"",
+          "title_key": "feijoo si marruecos no respeta la integridad de espana va a tener enfrente a espana y la ue",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNT1QyWDhoTEtEZXpnSWdSM2JUYUtuLWJCYTdxaGExemFCOXVRRDJyZi03UXZpZHF4S2xQTm9LeER3YUlybHJNdVFpdUNFT3Z0UUNITUY4dG53bTgtNG1ONndJNHhmaWg0RmhRQTJYQlh2MmdoaTZQRExOYkZnRElEeG5BZDlPZTc5V3lLRDg3Mzk2elR2S0YzOFRLNnp1Q3hzRlRGeVk0OURyejZ6NGc",
+          "published_at": "2026-11-03T12:35:00Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -56,7 +84,7 @@
           "tier": 1,
           "official": false,
           "weight": 1.0,
-          "topic": "traffic",
+          "topic": "relations",
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
@@ -593,8 +621,8 @@
       "event_id": "evt_0c00fb7ede67f954",
       "topic": "relations",
       "first_seen": "2026-10-23T07:00:00Z",
-      "last_seen": "2026-10-23T07:00:00Z",
-      "headline": "Marruecos vuelve a la carga con Ceuta y Melilla y lanza un aviso a España: \"Nuestra soberanía no es negociable\"",
+      "last_seen": "2026-10-24T07:00:00Z",
+      "headline": "La crisis de Ceuta pone a prueba el comercio y el valor estratégico del español en las relaciones con Marruecos",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
@@ -618,6 +646,24 @@
           "title_key": "marruecos vuelve a la carga con ceuta y melilla y lanza un aviso a espana nuestra soberania no es negociable",
           "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQXzhUSXN0LWZKQ29fRUVFOFZJLVBtT281RTNoSTd3NEFxY1dRMVAtRmlqNWVKZUhZaDdjaVdfMFJsSC1Xck1lVWZBS2xtSjJyVnd1Q3V5UXRZZ29mby1DQzVQeXVudGhxc0tJd2kxd3NsLUhhZE82UWJtLW1IaHROanFTTGNfUFh1TUtRVTg3Yng2aUgzVVNrUHQ3ZkcyZWNGRFcwV1Npc215RmdmY2dHb2Z2dWktY0J0cjRuS1RrYkZldndySnA0WVlvQUtwNFh2cTZ6cFdMM3NQekxsaEJSSC11Q0d5cFXSAfsBQVVfeXFMUE9yLXJKMXNOcDY0NFJVNXBLZkpsVkI0ckprNWpuZGk3VXplOGRieWF3SHRhcDZxcnVUbFJhQUNwd1JPQktzTTFxR2tWUUQ4TVpuMjRHSW5LS01YbDVQTDZCUE5yODI2a3c3bTBsazZIemdHczJQT0YtNTc0RUphZWVTdGhfbnpZSGRCWFk3YVVHRHVNY192U2wxcDVTa1B3WmM1OF9WUm1ld3lQQWNFU002RWpjd0RZT0JMdkVYMnhhRlNqajd6WWtYcDRtOEMwU3pVM0ktcXZ0WVozM3J1eUd1Z215QlFkMHg5ZURSYzlTZjVwSTRnQThqUUE",
           "published_at": "2026-10-23T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_987c1cbad2822e66",
+          "title": "La crisis de Ceuta pone a prueba el comercio y el valor estratégico del español en las relaciones con Marruecos",
+          "title_key": "la crisis de ceuta pone a prueba el comercio y el valor estrategico del espanol en las relaciones con marruecos",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZXhEM3dnNERicWVBeDUwX015Tm9nSFlKSXlNc3pPRk5pZ0dzenZDMXJfcnJieWdHRUFPcUxlSFlWU2Q0ZV9yUFM5OW5QeElIUzlxZE5xNVdMZUMzMXFHOHVPQVlkUWx4bXR1ZV9YY3pnajZLNlFQV3h5MTFLb2hGNHJBSzVfTTdQc2tjSWlsU3BEREpTb09fMi04UUU1YzVkMGNMVGxFdlJobnlhc2NtblFTcVJtMHUxWlE",
+          "published_at": "2026-10-24T07:00:00Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -747,6 +793,24 @@
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
+        },
+        {
+          "article_id": "art_3c568666c38b42e2",
+          "title": "Marruecos menea el avispero reclamando lo imposible: Ceuta y Melilla",
+          "title_key": "marruecos menea el avispero reclamando lo imposible ceuta y melilla",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQzBSVTlBZDY4RFpULURFc0Z0bkF1ZHItRnRURmxrUk9Qb3JUMnZXWk9BNVp4c3Z2MVkxTGlMVnVQdGFZQjJXWGVBNk1KT1I1bE5OMkFLanBfUTAzMS1BcHFTYmx2d3NHT2xHSkJ0YndFUWpUZ1hUandFMXBsdWs2TG0tTmtkYWJjOVpkX0h4TUVNcS1ISEdCTlpZazZ4YTZETjRiVF9fd1A0T040d0k0c0ZxM3VmYmk2",
+          "published_at": "2026-10-22T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "melilla",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
         }
       ],
       "importance": 17,
@@ -754,11 +818,11 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_6d4a60611ada5be4",
-      "topic": "ceuta",
-      "first_seen": "2026-10-22T07:00:00Z",
+      "event_id": "evt_f66a2f278eb76140",
+      "topic": "relations",
+      "first_seen": "2026-10-19T07:00:00Z",
       "last_seen": "2026-10-22T07:00:00Z",
-      "headline": "Juan Jesús Vivas denuncia que \"la frontera sigue estando controlada por Marruecos\" tres meses después de la crisis",
+      "headline": "Un partido de la coalición de Gobierno en Marruecos supedita las relaciones con España al asunto de Ceuta y Melilla",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
@@ -777,10 +841,28 @@
       ],
       "articles": [
         {
-          "article_id": "art_2ff3fa3eeeead5d0",
-          "title": "Juan Jesús Vivas denuncia que \"la frontera sigue estando controlada por Marruecos\" tres meses después de la crisis",
-          "title_key": "juan jesus vivas denuncia que la frontera sigue estando controlada por marruecos tres meses despues de la crisis",
-          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOSGd0MFk5aU5YZnBTSXJXdUkzSTdLS1ktbDZXQlJSNkl4Rm9ZZ3JGMHo3b1JMTWYyaEkzMDIxaGx0RE5CcVpaU0lCM3FmMlBmREdXa3Z2akloX0ZUVjlWS1NobVZZVVd2TVcxQ2VqVTVQVGJUSkxSRFlOMVZ5a3dNaFoxYktuOFMxa0NxbFpkTUtmeWI1eko3TWFab05MZFlyWVMwdXZncEU0cGJ2eENVLXcwQ1QxbVczQnlhZEFHcUhFOWc5c043d0VYLTNmS2pERWdVRVZGVnRxS3lrUEQzc0tpb0F4amduSGJVdW8zelJCa2xR0gH0AUFVX3lxTE1hVjBtY2dJcmtYYk9sN0VJZWxOem9XZkp2SGxFMWNMeHduLTREM0xTQWV0R1dWU09GQVRKekN1MjQ5ZWVZZzAtdXJlTDgtNUVMS3Y5eFVMTW5mZ1ZkZ1RhZWZWOVRad3BzazAtLXNELVFMajZaSDhjN05DWExOOXA1aTNDTjk4QUVJX1o0VVZLSFpDODBONi1xeVF4YTVwZjZUcW5CUUhSa1ZYZzRGRmFDMWJack9uTFlkbGVtNk94djduOWhaanRQUF9ud2ZCOXB1RU5lQjdvQnN5cklMWmxWSVhHOUZYeWQ0c1lBZWc0N3JNU08",
+          "article_id": "art_9f0bacef8e0bddfa",
+          "title": "David Alvarado analizará en Ourense la crisis de Ceuta y las relaciones entre España y Marruecos el martes",
+          "title_key": "david alvarado analizara en ourense la crisis de ceuta y las relaciones entre espana y marruecos el martes",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxONDhYYUthX19TdnlCc0lLRVUtQWxvZGZzZmhqeHNhY2JhSnphVkFVT1BsWkZ5ai1aaFRHWm02ZW12X1JUOWlPVC1MWG9nWFVKZnk1NUlwZk9ielptZFJPbTZ4OHZlYWhJdzdHanNVMi1qV3lJOExnNGdYeW1vNkFxNDNXcmJpR3NXYmRCdVR0S3llb2R5czhFNU1jTUNrOGtHVHd5NTJlZWtHRWNoQk5RUnlKSER2MHNGbFZPSnBrenplOWR0MUxnMThueVlfWTZOU09HOEl5WTNRUkli",
+          "published_at": "2026-10-19T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_a7a4fa6a5db988da",
+          "title": "Un partido de la coalición de Gobierno en Marruecos supedita las relaciones con España al asunto de Ceuta y Melilla",
+          "title_key": "un partido de la coalicion de gobierno en marruecos supedita las relaciones con espana al asunto de ceuta y melilla",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNNDZXbmNneS1VbEZ0cjZQVjFXWExhNTJBTUdGSzZacWw1U04wYU1maHZXR25mc1RaREU5eDRHWm9UZFFRZVlPX1YtYk5YNmNLUkEyenpkR1hteXBFRkRMYW5CVWkwYzJOWkpKZ2xHMmZjaXpsOWluaEJvT2ZjTmhYS3MtUFNGT294MXg0S2RkcE9mbjk3dUVyWDIzZmo1bmlJdG5PTWF5TzRpRXVmZzZ1UVIxM0ZqWTBNemVXY2ViRTJtQVE1X2NONlNvaDV5VDlzc3g5Q1lDRUQybE05LU5mcm0wVFI1d2vSAfsBQVVfeXFMTlhDc0dhMmI2OUI5WXdISzZwVDFBd1dmWjU2OHE1bkd3b0hZV3V6VS1DbWxfcjBmdmVtUzQ4aVljM1FzZlozRmlQbDB2VjQ5ZkpEcngtQS0xendCclNycl8zTU9lQW05cnQwdWVTa2l5YWZYU1VEbWp2ejdyRGE1LVZpSDdEdGU4VWxGd29PS3lTTGhvRjZlcFM2SkNCSTBldzZ6S25wMFV2MU9yVWxTcmFzbkkzTXNHZUt6UFFUTjJmSzdELUxMRzE5MFFWOGZvVDFKMmVUM01BS1BZRzRaYmdMSzExTGkxVmlKdXFmdkQwOFZiVHpSbWpCOHc",
           "published_at": "2026-10-22T07:00:00Z",
           "observed_at": "",
           "source_id": "unknown",
@@ -789,7 +871,7 @@
           "tier": 1,
           "official": false,
           "weight": 1.0,
-          "topic": "ceuta",
+          "topic": "relations",
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
@@ -843,88 +925,6 @@
       ],
       "importance": 4,
       "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_4f1ed28b2ebb9c68",
-      "topic": "ports",
-      "first_seen": "2026-10-21T07:00:00Z",
-      "last_seen": "2026-10-21T11:50:36Z",
-      "headline": "El Puerto de Algeciras supera los 76 millones de toneladas hasta septiembre y compensa el descenso de febrero",
-      "classification": "OPERATIONAL_SIGNAL",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_f1ac023bc0a740a4",
-          "title": "El Puerto de Algeciras supera los 76 millones de toneladas hasta septiembre y compensa el descenso de febrero",
-          "title_key": "el puerto de algeciras supera los 76 millones de toneladas hasta septiembre y compensa el descenso de febrero",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNSHVvVzFhSWpSbVVBYXBsNktvSkZOOWFmWWc0bUlCZllZWmpON2VLcDZGMjFMcEVnb3RVSUhxZTlxb0ZPbEhhdU1ScU5aOEkxY1Z4YWRsVmxQOGl0SDg3ZDJ3SzVfQm1ySkYtNWduOW5zN0RvcWpCd3R0UUJIMHBZZXlLb21OZ1VZZ2haMnllTlFra0gyek42ODNtd0dyWkFpa0RDU0tRN0pvbEdncTM1SUJwMlBFVlFLdUctT3ZLUmdYY202eFN0dk5ycnJFS01qYlZocWFpYVdxWkJ1TEdBc2QwV0lUbFI3anc",
-          "published_at": "2026-10-21T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ports",
-          "classification": "OPERATIONAL_SIGNAL",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_fc4982ee26d09b17",
-          "title": "El puerto de Algeciras acumula más de 76 millones de toneladas de tráfico total hasta septiembre",
-          "title_key": "el puerto de algeciras acumula mas de 76 millones de toneladas de trafico total hasta septiembre",
-          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQVU9TaWJyT2xUMXdLbFRBN002Q2lrWTJGbGI0eWdfclBHTzJhRzhUVldtYnBONGkwSUFnNHBWUnVpaE1pbi12VWhxdGtEN0hlMi1yb3JHTGhUZ0l1OVZlUnFRMVlzeW91ZGd5bm9sT3FvMEJ0WWNTVjNTVjJ2S3BxTVV6U1NERUJhMjVqYmRQZEhGb193UmltczRVZTVicTlIc2VfM3luOVpvMG9vSENyWG9KaTNEeEJoeEVRUlRGRXJtUlN6US1mUUlLdzdCUHk2cTUzUjJvN0VRSkRlVFFEenkxaDZFOVpUZC1qZlhHcFhWSURJdUxwYjkzempPWlE1d1lB0gGIAkFVX3lxTE5lbDBHbEZrbVFxeGYyRUNrV3BweDhBNFRtVGZfOHVSLWJYZUFyNnpicGY1YnlYaE9mM3lFYVNlRHl5NU92VzZqdHltZEZyVm9QZ3FXZEx0cDBqRDZBM0Q4TS1RVEhDUnhzOHo5X0ZpWWhKRGNuNGwyV3R5ZkdBM2NKS2xldDhhdURoN0Z4UFRCY1JzRlFDWEt2Nlo0bmFIVnV4a3FVRm1naTd5OGFjMU1penA2NE9PbV84RjBObFFrWEpaU2o2bDI0WGdDRDJHZEY1Y3EtQkpTTjZsQXZPTDAyS05Uc1diM0NSR21hSnFKaVo1cXFiWEVUVm5EV1ppMkJibHJLaW43Qg",
-          "published_at": "2026-10-21T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ports",
-          "classification": "OPERATIONAL_SIGNAL",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_2cf563ed0912e672",
-          "title": "El Puerto de Algeciras supera los 76 millones de toneladas hasta septiembre",
-          "title_key": "el puerto de algeciras supera los 76 millones de toneladas hasta septiembre",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMU9aRl80cmlINkFWeHJYM19iajkyd2xfWlVoYkR0YTNJT1FqTnFJM21pd0p1QXc2RHRZZmlmVnoxcmpzc3VnbXVPbXRmcGZmeUFybEZjc0Y5TVlPODZEWmxYeURRYnZXN0ZscjZUdVZ2RXVTaG9Yc0IySXFxajRFREVNeTJNWnBkZEQ5Y2VLbl9zMEQwZDl4UmEzczBpUEx6UHBEblRuUzZEbU9JSjZMTg",
-          "published_at": "2026-10-21T11:50:36Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ports",
-          "classification": "OPERATIONAL_SIGNAL",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 55,
-      "operational_impact": "POTENTIAL",
       "operational_eligible": false
     },
     {
@@ -1112,6 +1112,52 @@
       "operational_eligible": false
     },
     {
+      "event_id": "evt_6487a922613f9d33",
+      "topic": "ceuta",
+      "first_seen": "2026-10-16T12:23:37Z",
+      "last_seen": "2026-10-16T12:23:37Z",
+      "headline": "Is the Ceuta crisis a Moroccan problem, or a European one?",
+      "classification": "ANALYSIS",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_dcd15350ff20fabd",
+          "title": "Is the Ceuta crisis a Moroccan problem, or a European one?",
+          "title_key": "is the ceuta crisis a moroccan problem or a european one",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObnpZOTVkRjY2WDlVYTR2YjZORGwtSE1Ldmx5TWt2YjJiWmozOU1McUdGeTRvZXhOZmVhVGk5QkJhUUttTVo2OXJUZ2hkRDZQdThyY2NvUEh5dklVQ1IxdTZXNWpweXBEMkQzYUhObHl1ZlpRVVpYbzhnbnlnTzR1ZWVQQ2tuaHB1LTlOT2NtTzJTZw",
+          "published_at": "2026-10-16T12:23:37Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "ANALYSIS",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 17,
+      "operational_impact": "CONTEXT",
+      "operational_eligible": false
+    },
+    {
       "event_id": "evt_26853c0c4b865562",
       "topic": "relations",
       "first_seen": "2026-10-15T07:00:00Z",
@@ -1153,60 +1199,6 @@
           "description": ""
         },
         {
-          "article_id": "art_a6726b4bb660a19d",
-          "title": "After Felipe VI’s visit to Ceuta and Melilla, Sánchez insists on constructive relations with Morocco",
-          "title_key": "after felipe vi s visit to ceuta and melilla sanchez insists on constructive relations with morocco",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOcHZNbWZJYW9tdk0taGdaRTZKZFlNUTg3ZTZSTFdfSVJ4SElFZGhPX1FhV2ZRODRzeENWc0V5WVdWZzctOU5HWF96dUlkdV9BbUVFMHNYTDZheGJqWjFyWHdKRmwyRnVmckFFTEwzeW1tazhpWWowX3BqcDNIdE9wOG90TjZGWC1kZ1E",
-          "published_at": "2026-10-15T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_19a57bef77266c85",
-          "title": "Sánchez Reaffirms Spain’s Commitment to Constructive Relations With Morocco",
-          "title_key": "sanchez reaffirms spain s commitment to constructive relations with morocco",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcUR1SUJ5Q2t6NGx5X3VyTFNmaHFwamM4dWIwdmpXVVc0NFdGcU5GTWpNRUY5bGlodmZqNXAwMTU4bUdWanhJTHZ0RjhCallKWTFxMkNpTjg0dmNNVnVmSDB2RlZwcktnX2FkaHlyWnFIM0N4eVg4ZG5MOUtzYjI2cmR2MWE4TGw2TFRMbUp5UEZWNWlHdTBtWWd2NEV5eFNKbEUxNjEyMWdNSVJFNl9NUjZzeTltaEJiY2hFN3pKdkY",
-          "published_at": "2026-10-15T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_80fede6b8aa34164",
-          "title": "EU says Moroccan warships’ entry into Ceuta waters is a matter for Spain and Morocco - HESPRESS English - Morocco News",
-          "title_key": "eu says moroccan warships entry into ceuta waters is a matter for spain and morocco hespress english morocco news",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUlJiYnByRl9ib29jTGhTQzNTN3hmQ3hhaTNMeGR4MlF5enhJbEJ1Q3YyWHIxZUkwVmVHSXJVZVJfQkN1dWpjUllOZ1RZUl9HVmVpeDRRT0lkXy1JaTI0MkZaMVpDakwzbkVObHdndTUwV2NpOTB3MjltVnBYN1ZJdDRpMDlfM0N4Ym5WOWJMZlBXSFUzbkVGa0NtRktHNG1qR1pvRnR2VS1ibVR1YlR6VXMwRkQ2VElscnpZ",
-          "published_at": "2026-10-15T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "DECLARATION",
-          "signal": "",
-          "description": ""
-        },
-        {
           "article_id": "art_8ffe34e0805265c1",
           "title": "Poll: 58% of Spaniards Say Ceuta, Melilla Tensions Could Trigger Morocco-Spain War",
           "title_key": "poll 58 of spaniards say ceuta melilla tensions could trigger morocco spain war",
@@ -1227,6 +1219,52 @@
       ],
       "importance": 30,
       "operational_impact": "POTENTIAL",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_64ec5dc439464786",
+      "topic": "melilla",
+      "first_seen": "2026-10-16T07:00:00Z",
+      "last_seen": "2026-10-16T07:00:00Z",
+      "headline": "Convocado en Marruecos un encuentro nacional para fijar una postura común sobre Ceuta y Melilla",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_d90a61d81dad702e",
+          "title": "Convocado en Marruecos un encuentro nacional para fijar una postura común sobre Ceuta y Melilla",
+          "title_key": "convocado en marruecos un encuentro nacional para fijar una postura comun sobre ceuta y melilla",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWGtjcy1VeDZhRDY5WGExTzRQalNOdndKdDc3a1pSQV90R0tmaDFUOG5NUFh5TVdaUzRIOGNPUW1Zd2U0TTUwbGctZXotaVBnWkgtd0NENXNJTHNGd0hxenUwM0tDRVV5aVJfaHNiUndJb3pZVkVkUFFQWTA0YVN1YVFNczhHaGxfcmt5RTN2UlBOT1pnUkN3Z3htOTJQenF6S3B3LTEwa3dVTk5sSW15WXFPZm9aS0JqZzl1T0ZUWk1EUQ",
+          "published_at": "2026-10-16T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "melilla",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
       "operational_eligible": false
     },
     {
@@ -1274,6 +1312,52 @@
       "importance": 4,
       "operational_impact": "NONE",
       "operational_eligible": false
+    },
+    {
+      "event_id": "evt_a19da3dd24d9a5ca",
+      "topic": "ceuta",
+      "first_seen": "2026-10-15T07:00:00Z",
+      "last_seen": "2026-10-15T07:00:00Z",
+      "headline": "Ceuta and the Politics of Not Naming",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_103abdc13c31fd08",
+          "title": "Ceuta and the Politics of Not Naming",
+          "title_key": "ceuta and the politics of not naming",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdlJxUTNmX0hRMHRqLXdtSTFsbWlsVVNGX2hBWnFBQ3FVYXVNbkt1ekc1bTVnTWUta1FRb3UtWXcxdDJPemFnZnQxT3FqN2FnR3dTQ25aX0pyT1dtYmZ6NUxmZDZvb1htN0hzQnJUbXdnZnJGRno4YWxuVEZvUWtHU3lITQ",
+          "published_at": "2026-10-15T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
     }
   ],
   "verification_summary": {
@@ -1282,9 +1366,9 @@
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 2,
     "SINGLE_SOURCE": 3,
-    "UNCONFIRMED": 17,
-    "TOTAL": 22
+    "UNCONFIRMED": 20,
+    "TOTAL": 25
   },
   "article_count": 36,
-  "event_count": 22
+  "event_count": 25
 }

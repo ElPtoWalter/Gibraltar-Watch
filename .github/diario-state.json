@@ -1,9 +1,9 @@
 {
   "version": 4,
   "latest_entry": {
-    "date": "2026-11-02",
-    "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
-    "summary": "Selección automática de 1 referencias de 1 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "date": "2026-11-03",
+    "headline": "Puertos y logística: qué aportan los titulares y qué falta comprobar",
+    "summary": "Selección automática de 2 referencias de 2 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
     "url": "diario/actual.html",
     "material_archive": false,
     "status_snapshot": {
@@ -25,36 +25,43 @@
       }
     },
     "source_keys": [
-      "82e438b0e3b4e471f4ac"
+      "8cd2d79fe4f13c45ba63",
+      "969459655805b6384030"
     ],
-    "published_at": "2026-11-02T16:51+01:00",
-    "updated_at": "2026-11-02T16:51+01:00",
-    "published_rfc822": "Mon, 02 Nov 2026 16:51:00 +0100",
-    "source_count": 1,
-    "fingerprint": "3d305facf77ec973c147",
+    "published_at": "2026-11-03T15:14+01:00",
+    "updated_at": "2026-11-03T15:14+01:00",
+    "published_rfc822": "Tue, 03 Nov 2026 15:14:00 +0100",
+    "source_count": 2,
+    "fingerprint": "f905b5b7aab1f2ef3a96",
     "mode": "brief",
-    "significance": 8,
+    "significance": 18,
     "significance_reasons": [
       "novedades recientes sin cambio estructural"
     ],
     "indexable": false,
     "editor_engine": "rules",
-    "assistant_status": "insufficient-sources",
-    "editor_assistant_status": "insufficient-sources",
+    "assistant_status": "gemini-validation-es",
+    "editor_assistant_status": "gemini-validation-es",
     "editorial_trace": {
       "validator_version": 2,
-      "factual_packet_sha256": "f0cd8f5b2b875055da81cdba123090d2d4d1617c20cbf0b8e672e9705fe0cf82",
-      "factual_packet_hash": "f0cd8f5b2b875055da81cdba123090d2d4d1617c20cbf0b8e672e9705fe0cf82",
+      "factual_packet_sha256": "172938ef5c8949dfd6b19b0d8a183c4c19c9ea1423189246c820e468d57dd544",
       "provider": "rules",
-      "status": "insufficient-sources",
-      "attempts": [],
-      "fallback_used": true,
+      "status": "gemini-validation-es",
+      "attempts": [
+        {
+          "provider": "gemini",
+          "model": "gemini-3.5-flash-lite"
+        }
+      ],
+      "factual_packet_hash": "172938ef5c8949dfd6b19b0d8a183c4c19c9ea1423189246c820e468d57dd544",
       "event_ids": [
         "evt_89da0c977dec8cb5",
+        "evt_200ddfcdd3df29a2",
         "evt_b076108631883e5a",
         "evt_3fd3c35bced0fcba",
-        "evt_8d91cf2cbfc597f2",
-        "evt_86c192b4dc5659db"
+        "evt_26853c0c4b865562",
+        "evt_07f8ed82b227c16d",
+        "evt_839e6832de41f34b"
       ],
       "source_ids": [
         "elpais",
@@ -65,40 +72,43 @@
         "CONFIRMED_MULTI_SOURCE": 0,
         "CONFIRMED_PRIMARY": 0,
         "CONFLICTING": 0,
-        "DECLARATION_ONLY": 2,
-        "SINGLE_SOURCE": 3,
-        "UNCONFIRMED": 16,
-        "TOTAL": 21
+        "DECLARATION_ONLY": 3,
+        "SINGLE_SOURCE": 4,
+        "UNCONFIRMED": 17,
+        "TOTAL": 24
       },
-      "timestamp": "2026-11-02T15:51:37.734231+00:00"
+      "timestamp": "2026-11-03T14:14:00.068033+00:00",
+      "fallback_used": true
     },
     "validator_version": 2,
-    "factual_packet_hash": "f0cd8f5b2b875055da81cdba123090d2d4d1617c20cbf0b8e672e9705fe0cf82",
+    "factual_packet_hash": "172938ef5c8949dfd6b19b0d8a183c4c19c9ea1423189246c820e468d57dd544",
     "event_ids": [
       "evt_89da0c977dec8cb5",
+      "evt_200ddfcdd3df29a2",
       "evt_b076108631883e5a",
       "evt_3fd3c35bced0fcba",
-      "evt_8d91cf2cbfc597f2",
-      "evt_86c192b4dc5659db"
+      "evt_26853c0c4b865562",
+      "evt_07f8ed82b227c16d",
+      "evt_839e6832de41f34b"
     ],
     "source_ids": [
       "elpais",
       "reuters",
       "unknown"
     ],
-    "timestamp": "2026-11-02T15:51:37.734231+00:00",
+    "timestamp": "2026-11-03T14:14:00.068033+00:00",
     "fallback_used": true,
     "verification_summary": {
       "CONFIRMED_MULTI_SOURCE": 0,
       "CONFIRMED_PRIMARY": 0,
       "CONFLICTING": 0,
-      "DECLARATION_ONLY": 2,
-      "SINGLE_SOURCE": 3,
-      "UNCONFIRMED": 16,
-      "TOTAL": 21
+      "DECLARATION_ONLY": 3,
+      "SINGLE_SOURCE": 4,
+      "UNCONFIRMED": 17,
+      "TOTAL": 24
     },
-    "edition_label": "Cuaderno de las dos orillas",
-    "edition_slug": "shores"
+    "edition_label": "Cuaderno portuario",
+    "edition_slug": "ports"
   },
   "entries": [
     {

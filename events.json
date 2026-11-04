@@ -1,7 +1,163 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-04T15:29:17.313522+00:00",
+  "generated_at": "2026-11-04T21:55:54.514149+00:00",
   "events": [
+    {
+      "event_id": "evt_ff2ccddf28baa90f",
+      "topic": "ceuta",
+      "first_seen": "2026-11-04T19:05:58Z",
+      "last_seen": "2026-11-04T19:05:58Z",
+      "headline": "La Comisión Europea descarta suspender las ayudas a Marruecos pese a la crisis de Ceuta",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_1160a968080ad9b2",
+          "title": "La Comisión Europea descarta suspender las ayudas a Marruecos pese a la crisis de Ceuta",
+          "title_key": "la comision europea descarta suspender las ayudas a marruecos pese a la crisis de ceuta",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZE1Bal9MN2xwQ3lPejFYTFlWSHp1NnJlYnIyYkZTU0ItTTJKVHpNTEl3RXlGcGV3WnZ4TzU1c2FyeHVYOEFqM2dOeENxUDBZYlZpTkxzTXZUdGxHdzQtTmVmMmx0TjgycER3ZWlIZTd0SWlYQzJVT2lMTkZKcnNGTTJuRFV6NmpYOE1BbHhNS05qUmx0ZzJMM1NxNGo3YjZDSlRieUNkc2VIR3A5S0Fla0w5NUhrbFdheU9pcUNIbXA",
+          "published_at": "2026-11-04T19:05:58Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_c20da21e8c2b77db",
+      "topic": "traffic",
+      "first_seen": "2026-11-03T13:04:09Z",
+      "last_seen": "2026-11-04T18:26:19Z",
+      "headline": "El patrullero 'Atalaya' concluye su misión de vigilancia y seguridad marítima en el Estrecho y aguas de Ceuta",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_d49b0bc2b9e53ef0",
+          "title": "64 días en el Estrecho: el 'Atalaya' cierra su misión en Ceuta",
+          "title_key": "64 dias en el estrecho el atalaya cierra su mision en ceuta",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOQ1lXVUZFcGhyYi1oX3JLeEgwQWhBenEwb0dyc3BUZTJzazRzbmpqeGZFeGVqNGJWRlg4TUFIdVZ5OHBZcmZwWnlmMjlPV0lIZ1U2aG9PT1ZEaThOMlJoUGFGX2ZqOXBCY3JwUWpXNWFjVURBcWVlM0lGdFEzZzc1OHJPWEJGNVZRTTlZMk93UmsxNTJ4eUlhdlE1bDluQnZzWWpQTFQtOVpONmJKWXVjdkh4R1YwN2JZUXRoVEZSMHhLS0ZmY053aUdOTVRxUdIB0wFBVV95cUxOamlWZGd0QU85Z0trNWJkck5SUUhfOWZWZU1TQjl3UmwzOTE3V1V1bWJvZmxndWFyV29VZFpzWU9xVGFrZW9Zcy01Y1VGQjBBd18yU1Roa3Z2SnNQWG1udTVDb0txU1BkTDJvQVF2dVREZmFVY25IT2c5UnRVTzRYZFZkanQ2bTFRUVg2VUlrTHc5N1hVRnBndkx5U2lHeFRmUk1SQkVUWmZhTGdWNXNUS0pqNmJOS0ZLUzBSTUlkZVVTR1EtYnN2c2ltUTV2cjg0N1lZ",
+          "published_at": "2026-11-03T15:03:45Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "traffic",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_14a72cd389586322",
+          "title": "El patrullero 'Atalaya' concluye su misión de vigilancia y seguridad marítima en el Estrecho y aguas de Ceuta",
+          "title_key": "el patrullero atalaya concluye su mision de vigilancia y seguridad maritima en el estrecho y aguas de ceuta",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORXBENzAxNUc3TkdkY1U4SThYYnlOVW5tbXpMN2R0c29mZzB4eXNNa3ZhVW9sdGJsZDlHU1BGSl9MQlBybFN1ZURSNDVuWFM2SmVrS1p0YktUTU1VZlZxY1dHbkJWbmkxQnhnXzZ6TXVGTFhZaTNkZG4tRzlrTGRYVmhxcldXemptaGdxV2Z5NWFEQTBhZ29pR0RmSXN2ZHVQaVB1RV9ZNlJBV3BlRTNqSVhiajBvY1VEWlRQQzVnSlZZYW4z0gHKAUFVX3lxTE1uM1h5Mm0xSFo3MV9XQS1Cc1dfUUZMMi1lR0JSZ253UzU5REYyZndReG9admlwOHFsSG55ZEpwbWVxREFPYjQzMzZlRjNZZHJzTkdFV21mRmdvTGVqQ2tfQnZRZ0F2TEt3MXNlRF80LWVTcHZRbERNT19ET1VRcXZrQmUtZkJwZVJ2a2pZVmJITXpMMTFaQVBydVd4Z2R6dFhDbU5yMkhFZFpISHBYQU1rNDJIak1GTFExUE9VYXZRemZqU3NNLXhvQ1E",
+          "published_at": "2026-11-04T18:26:19Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "traffic",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_90f2570866f07658",
+      "topic": "relations",
+      "first_seen": "2026-11-04T18:04:53Z",
+      "last_seen": "2026-11-04T18:04:53Z",
+      "headline": "Feijóo apuesta por mantener «la mejor relación posible» con Marruecos y asegura que ambos países pueden trabajar juntos",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_3e5ff3ee48d23fc1",
+          "title": "Feijóo apuesta por mantener «la mejor relación posible» con Marruecos y asegura que ambos países pueden trabajar juntos",
+          "title_key": "feijoo apuesta por mantener la mejor relacion posible con marruecos y asegura que ambos paises pueden trabajar juntos",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQeGlZZFYteTdUTGh3b212ajgzcWcyUzJaWXhZWDBMT05yckRtVTgtU0UwUHBkQk01YkFuT0xhak5qSElteFB0YnpnRW51SzgxR05QUXdaUVdWd0Y5WE1zLWFwV2ptMjBlV2I4d180cDJRbk1sLU5oSVIzU29PSmt0cUFZUlQ2UGNROWt0Q0hYZDEwWWE4MlhlSHZxTDF0RF90RGVOZkdfb2gtTlM5NHFNLUdULTVKRDdkWWJSWkdMcjFRc0ZYaW02bkVYM1RDcGdIdndEaENwVQ",
+          "published_at": "2026-11-04T18:04:53Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
     {
       "event_id": "evt_343633c4aba2fb6a",
       "topic": "ports",
@@ -46,70 +202,6 @@
       ],
       "importance": 55,
       "operational_impact": "POTENTIAL",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_c20da21e8c2b77db",
-      "topic": "traffic",
-      "first_seen": "2026-11-03T13:04:09Z",
-      "last_seen": "2026-11-04T10:19:20Z",
-      "headline": "El patrullero ‘Atalaya’ concluye su misión de vigilancia y seguridad marítima en el Estrecho y aguas de Ceuta",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_d49b0bc2b9e53ef0",
-          "title": "64 días en el Estrecho: el 'Atalaya' cierra su misión en Ceuta",
-          "title_key": "64 dias en el estrecho el atalaya cierra su mision en ceuta",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOQ1lXVUZFcGhyYi1oX3JLeEgwQWhBenEwb0dyc3BUZTJzazRzbmpqeGZFeGVqNGJWRlg4TUFIdVZ5OHBZcmZwWnlmMjlPV0lIZ1U2aG9PT1ZEaThOMlJoUGFGX2ZqOXBCY3JwUWpXNWFjVURBcWVlM0lGdFEzZzc1OHJPWEJGNVZRTTlZMk93UmsxNTJ4eUlhdlE1bDluQnZzWWpQTFQtOVpONmJKWXVjdkh4R1YwN2JZUXRoVEZSMHhLS0ZmY053aUdOTVRxUdIB0wFBVV95cUxOamlWZGd0QU85Z0trNWJkck5SUUhfOWZWZU1TQjl3UmwzOTE3V1V1bWJvZmxndWFyV29VZFpzWU9xVGFrZW9Zcy01Y1VGQjBBd18yU1Roa3Z2SnNQWG1udTVDb0txU1BkTDJvQVF2dVREZmFVY25IT2c5UnRVTzRYZFZkanQ2bTFRUVg2VUlrTHc5N1hVRnBndkx5U2lHeFRmUk1SQkVUWmZhTGdWNXNUS0pqNmJOS0ZLUzBSTUlkZVVTR1EtYnN2c2ltUTV2cjg0N1lZ",
-          "published_at": "2026-11-03T15:03:45Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "traffic",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_951e0f34c17ff2eb",
-          "title": "El patrullero ‘Atalaya’ concluye su misión de vigilancia y seguridad marítima en el Estrecho y aguas de Ceuta",
-          "title_key": "el patrullero atalaya concluye su mision de vigilancia y seguridad maritima en el estrecho y aguas de ceuta",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNMmNWSVJDUXMwWkQxNUZNYmRQMks5T1RTdFctNTJBQzlJN0pjWHE3dU5pMTVEal9hejlpVzlyN2pTUDJUQnpEY3JGZlJVWkg1YjlBV2cwRkhOTmJBNXZrZUFnbzBxcHF5R3F4TjNneWpRdXpVR3JZZmU3NGlBVlBQd21GTS1PNG91YUF5MUd1eVc0NGxpMmlxdmRCSjIza0RXeEVBd0tuRGtpVE0tMHJiVDQtRG95ajFoRmt0SGU1MHRkU2xPWkpKRWw3MEgtY0IxUld3ZFQ5X0U",
-          "published_at": "2026-11-04T10:19:20Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "traffic",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
       "operational_eligible": false
     },
     {
@@ -202,52 +294,6 @@
       ],
       "importance": 4,
       "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_c0b5d7eb9df1c6e9",
-      "topic": "traffic",
-      "first_seen": "2026-11-02T14:14:45Z",
-      "last_seen": "2026-11-02T14:48:05Z",
-      "headline": "A Contested Mediterranean: What Role for the US?",
-      "classification": "ANALYSIS",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_8cd2d79fe4f13c45",
-          "title": "A Contested Mediterranean: What Role for the US?",
-          "title_key": "a contested mediterranean what role for the us",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1EdkVzajFwZGNNQmJ1bVlLb2FfTHBNbzdjS01mNjJ1by1vRUhNdk4yc0Z4cWFJUWdsZ1dJaXFNaWNoUk1VOEM3Vk5NdDJFa0tsV0U1TERmcl8wdU5MeXZJQl95RlNoVDRzV055V1hlai1wZ09Hcl9kVFdn",
-          "published_at": "2026-11-02T14:48:05Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "traffic",
-          "classification": "ANALYSIS",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 17,
-      "operational_impact": "CONTEXT",
       "operational_eligible": false
     },
     {
@@ -615,52 +661,6 @@
       ],
       "importance": 46,
       "operational_impact": "CONTEXT",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_adbb01061556a508",
-      "topic": "ceuta",
-      "first_seen": "2026-10-27T14:06:18Z",
-      "last_seen": "2026-10-27T14:06:18Z",
-      "headline": "Spain begins first deportations since July’s Ceuta crisis, sending Nigerian and Senegalese migrants to Morocco",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_288803c9179aa7ab",
-          "title": "Spain begins first deportations since July’s Ceuta crisis, sending Nigerian and Senegalese migrants to Morocco",
-          "title_key": "spain begins first deportations since july s ceuta crisis sending nigerian and senegalese migrants to morocco",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQU3p3MVBzMUxMeFJlaFBjdFFtZzU0NXZvVWdYQlNmQmFMLVJsalhCT2Z1eEFNY2YtcWcyTjR1U3RSbk8tQk5VM0J3QjRJMTFQS3g2V2FuMFZXYlZVVTE4N3M1bEVRQi01aWxKMzNXa1IxcG54dng2ME5qQmZTdEpDSWgzOEZZanlrQW1GYmYxUUhUaUdfNW0zaFhmc2VEWXM4ZUdyRDBFZ3l3cjNpYUdpMExkYWxPYkIzMkplNWRWRTNtMlo1MjZ2ZEdpSEJqb0Jqa2c",
-          "published_at": "2026-10-27T14:06:18Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
       "operational_eligible": false
     },
     {

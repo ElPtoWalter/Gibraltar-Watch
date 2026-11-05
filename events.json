@@ -1,58 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-05T02:30:54.180055+00:00",
+  "generated_at": "2026-11-05T11:03:44.779478+00:00",
   "events": [
-    {
-      "event_id": "evt_ff2ccddf28baa90f",
-      "topic": "ceuta",
-      "first_seen": "2026-11-04T19:05:58Z",
-      "last_seen": "2026-11-04T19:05:58Z",
-      "headline": "La Comisión Europea descarta suspender las ayudas a Marruecos pese a la crisis de Ceuta",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_1160a968080ad9b2",
-          "title": "La Comisión Europea descarta suspender las ayudas a Marruecos pese a la crisis de Ceuta",
-          "title_key": "la comision europea descarta suspender las ayudas a marruecos pese a la crisis de ceuta",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZE1Bal9MN2xwQ3lPejFYTFlWSHp1NnJlYnIyYkZTU0ItTTJKVHpNTEl3RXlGcGV3WnZ4TzU1c2FyeHVYOEFqM2dOeENxUDBZYlZpTkxzTXZUdGxHdzQtTmVmMmx0TjgycER3ZWlIZTd0SWlYQzJVT2lMTkZKcnNGTTJuRFV6NmpYOE1BbHhNS05qUmx0ZzJMM1NxNGo3YjZDSlRieUNkc2VIR3A5S0Fla0w5NUhrbFdheU9pcUNIbXA",
-          "published_at": "2026-11-04T19:05:58Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
     {
       "event_id": "evt_c20da21e8c2b77db",
       "topic": "traffic",
       "first_seen": "2026-11-03T13:04:09Z",
-      "last_seen": "2026-11-04T18:26:19Z",
+      "last_seen": "2026-11-05T01:53:40Z",
       "headline": "El patrullero 'Atalaya' concluye su misión de vigilancia y seguridad marítima en el Estrecho y aguas de Ceuta",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
@@ -103,6 +57,70 @@
           "official": false,
           "weight": 1.0,
           "topic": "traffic",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_ee041d52a982a215",
+          "title": "El patrullero ‘Atalaya’ concluye más de dos meses de vigilancia marítima en el Estrecho de Gibraltar y Ceuta",
+          "title_key": "el patrullero atalaya concluye mas de dos meses de vigilancia maritima en el estrecho de gibraltar y ceuta",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPLXdsMkEtNFV4OE9hTVZBMGc5dnV6eXFMZWV4czJVZlNHNk5VQUZRWHlkeHF6VUJUOTdQaGFia2NMOGRPNTM1NDFKREZyX3lNVEdjUUFvZFFRYkREZjJDTmY5aW1xZWU0NjJQYTkwSTZfNVVvejRsQ2lZWm5RVXlpQkFJOW54TkxyQmNIZTFDT2JhSXBwYzJCNHR3U2tLYjF3cGNlSjBUaDYzUFRkTTdaal81alp5THJnMXc5UWZ4TTFjLS1rZkdUaUcyZ3FNT1VtV3VLbXQyOFBJaW9odFY1Zkh3",
+          "published_at": "2026-11-05T01:53:40Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "traffic",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_ff2ccddf28baa90f",
+      "topic": "ceuta",
+      "first_seen": "2026-11-04T19:05:58Z",
+      "last_seen": "2026-11-04T19:05:58Z",
+      "headline": "La Comisión Europea descarta suspender las ayudas a Marruecos pese a la crisis de Ceuta",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_1160a968080ad9b2",
+          "title": "La Comisión Europea descarta suspender las ayudas a Marruecos pese a la crisis de Ceuta",
+          "title_key": "la comision europea descarta suspender las ayudas a marruecos pese a la crisis de ceuta",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZE1Bal9MN2xwQ3lPejFYTFlWSHp1NnJlYnIyYkZTU0ItTTJKVHpNTEl3RXlGcGV3WnZ4TzU1c2FyeHVYOEFqM2dOeENxUDBZYlZpTkxzTXZUdGxHdzQtTmVmMmx0TjgycER3ZWlIZTd0SWlYQzJVT2lMTkZKcnNGTTJuRFV6NmpYOE1BbHhNS05qUmx0ZzJMM1NxNGo3YjZDSlRieUNkc2VIR3A5S0Fla0w5NUhrbFdheU9pcUNIbXA",
+          "published_at": "2026-11-04T19:05:58Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
@@ -251,58 +269,12 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_89da0c977dec8cb5",
-      "topic": "melilla",
-      "first_seen": "2026-11-01T10:58:23Z",
-      "last_seen": "2026-11-02T06:42:00Z",
-      "headline": "Marruecos anuncia la modernización del paso fronterizo de Beni Enzar con Melilla",
-      "classification": "DECLARATION",
-      "verification_status": "DECLARATION_ONLY",
-      "verification_reason": "The record is a declaration and is not treated as an operational fact.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_ab02709654c6692e",
-          "title": "Marruecos anuncia la modernización del paso fronterizo de Beni Enzar con Melilla",
-          "title_key": "marruecos anuncia la modernizacion del paso fronterizo de beni enzar con melilla",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQ1VIOEIwMGhqQ2ZWN085VV9pRFNJZ0tEM1MyZHYwcDhpaVpoelVWb09icGRyV2RTdFBTTFNsekF6Z0NZM1NUSzNyQjVrcEZOa2JzTTJYbDVYVjljNzNzSHFrU1FzMG5PWXRMdDNpYVdZVnhEV0JQdUIyNTNHczZQZnU5SFBFczUwYnFrOTY0cWtDcjdVMWpZTWI1Nl8wZFhYSU11TzdB0gGrAUFVX3lxTFBHR0pfNkhJc1QzaGRXeFNXeEt2aVloOVVvN0RpV3F6OFIyTzZ4LUxWNTZpYU93ZHZPcDEtRW1ONFJSaVVkMDBramk1QXhNeGltUDdkMnJJb3ZUSUx2bXBteklYa3dhUVNodzFsMVQzQVFfQjh1aUhUV1AwcjRrZUdaeG43Ti12U2JsWDA3SmFyXzhveTAySjFQVUFmYUZwdHRKUDUyNjZ5TjBrVQ",
-          "published_at": "2026-11-02T06:42:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "DECLARATION",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 30,
-      "operational_impact": "POTENTIAL",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_d610dc3214d04f88",
-      "topic": "relations",
-      "first_seen": "2026-10-31T23:06:25Z",
-      "last_seen": "2026-10-31T23:06:25Z",
-      "headline": "Las relaciones entre España y Marruecos en la frontera las controla Rabat: \"Ellos deciden si aceptan a los suyos o no\"",
-      "classification": "UNCONFIRMED",
+      "event_id": "evt_c0b5d7eb9df1c6e9",
+      "topic": "traffic",
+      "first_seen": "2026-11-02T14:48:05Z",
+      "last_seen": "2026-11-02T14:48:05Z",
+      "headline": "A Contested Mediterranean: What Role for the US?",
+      "classification": "ANALYSIS",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
       "sources": [
@@ -320,11 +292,11 @@
       ],
       "articles": [
         {
-          "article_id": "art_ad3ec494562e7597",
-          "title": "Las relaciones entre España y Marruecos en la frontera las controla Rabat: \"Ellos deciden si aceptan a los suyos o no\"",
-          "title_key": "las relaciones entre espana y marruecos en la frontera las controla rabat ellos deciden si aceptan a los suyos o no",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPUW9YNks0V19rLU9JQzVybnQ3M0U5RUdGN3BRSGpwZFB3dlhLaWp3SnJRZWpONUtZQWRkYVZaeFh1WnhNUXU2NTV2X3RvOUE0dXRqTFhfdE42SGI0bXVVU1NoZTlIdFVvbEVmb2tUMUhfcUZhLW9OYm5NLVl0SHdLTUN2ZnNDR1NRQXZzeHlEY1A5bXp5Sk9uNnlibmhLTVN1Sl9lNjQwMlozaXpDTXp1VmMweW44SjBubXh5aDIxWmQ5UWtDVy1PUXBad0NWQ19jQjhTSkk5bXBQVzFsOUg2REVPdmtxMUd4anpxTEwxOE_SAfYBQVVfeXFMTUgyRm0xXzZLemk3RlRqeUlzTWFoeXQyOE03QzlkVUNoREY5bTd4dWw0RmsxQVcxbEJSSmJTdm5RMDRZWi1raklHMFg4QkxHeWNUVm9BaHRrbFNFWFF6enJvdGZ3ZUFXUTFXUGdTTk1VaHlmOFc2SnJTUmhOR0dPQnRtNUR5cnpOeWx4WF9RN0VuTWRJVlQxajVzQVVxMVpHVFl4TlJleHFraV9LaU5wbklLOHFoYWFhVThIamYtVVhWbjh5UTNBTF9XUWpJdzlvZDVLVUhyU0NwdWRUTVcxU2l5RG1EckNJZkNSNXFJQ3pIR3BLWUln",
-          "published_at": "2026-10-31T23:06:25Z",
+          "article_id": "art_8cd2d79fe4f13c45",
+          "title": "A Contested Mediterranean: What Role for the US?",
+          "title_key": "a contested mediterranean what role for the us",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1EdkVzajFwZGNNQmJ1bVlLb2FfTHBNbzdjS01mNjJ1by1vRUhNdk4yc0Z4cWFJUWdsZ1dJaXFNaWNoUk1VOEM3Vk5NdDJFa0tsV0U1TERmcl8wdU5MeXZJQl95RlNoVDRzV055V1hlai1wZ09Hcl9kVFdn",
+          "published_at": "2026-11-02T14:48:05Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -332,14 +304,14 @@
           "tier": 1,
           "official": false,
           "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
+          "topic": "traffic",
+          "classification": "ANALYSIS",
           "signal": "",
           "description": ""
         }
       ],
-      "importance": 4,
-      "operational_impact": "NONE",
+      "importance": 17,
+      "operational_impact": "CONTEXT",
       "operational_eligible": false
     },
     {
@@ -389,102 +361,10 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_0e3ec3f340ab12b7",
-      "topic": "ceuta",
-      "first_seen": "2026-10-31T02:01:11Z",
-      "last_seen": "2026-10-31T02:01:11Z",
-      "headline": "From Crisis Management To Strategic Partnership: Rebuilding Morocco–EU Cooperation On Migration - Analysis",
-      "classification": "ANALYSIS",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_59043bcb13484b1f",
-          "title": "From Crisis Management To Strategic Partnership: Rebuilding Morocco–EU Cooperation On Migration - Analysis",
-          "title_key": "from crisis management to strategic partnership rebuilding morocco eu cooperation on migration analysis",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPNEI3UGpwY2NocVZFWE5uS3hRWEJVR1hvZFppd1VlaHdIUmM5OG1ESHd4LTVTTENyMEpvT1RxZGh0eGRFMXBSREJ1c1RIU0FUYVZVb3dDWE1mLTM5Y0RWV204SlJsTFRvNnROOURCekVNeU8xR3AyTkRsaXowaWZTd1g5QWhJb2g4b1J1dnFvX1VVOXZFQm1QREtNUVd0aG5neGd2WXFLTGFIT2VGYlRsSDZ6YmpmSnB2a1NhUnZhLXB0RUgtUVlXcExieUI1WEl6eFFlWnZmRmNYQVU",
-          "published_at": "2026-10-31T02:01:11Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "ANALYSIS",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 17,
-      "operational_impact": "CONTEXT",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_360c995f28daacf0",
-      "topic": "traffic",
-      "first_seen": "2026-10-29T20:43:39Z",
-      "last_seen": "2026-10-29T20:43:39Z",
-      "headline": "Iran Shipping Update – October 29, 2026",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_b8a473d7e51e9e7f",
-          "title": "Iran Shipping Update – October 29, 2026",
-          "title_key": "iran shipping update october 29 2026",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPc3hLcEdCMHV4RzhmOV9weTZJZmVrNFhjSTNYbTdKLXctYXVYUUVkWDd1X3FBUWhxZ0wxUTFQNlA1UWRpS3V5REF2Rk8wS0t2SHpjTk41cEVkTHhpV185YWZKWm1wd09ZZ0xqY2gzV3Mxb0NxeDVob2twUy1BcmdvZ3gwNDNfNk1MWEVlSVBWMA",
-          "published_at": "2026-10-29T20:43:39Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "traffic",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_b2464bb7bf0f6aa9",
       "topic": "ports",
       "first_seen": "2026-10-29T03:55:00Z",
-      "last_seen": "2026-10-29T17:24:06Z",
+      "last_seen": "2026-10-29T03:55:00Z",
       "headline": "El puerto marroquí de Tánger Med prevé crecer un 50% tras superar el tráfico de Valencia y Algeciras juntos",
       "classification": "OPERATIONAL_SIGNAL",
       "verification_status": "UNCONFIRMED",
@@ -520,24 +400,6 @@
           "classification": "OPERATIONAL_SIGNAL",
           "signal": "",
           "description": ""
-        },
-        {
-          "article_id": "art_b387af903350228a",
-          "title": "Marruecos redobla la competencia sobre Algeciras con un tercer puerto en Tánger Med",
-          "title_key": "marruecos redobla la competencia sobre algeciras con un tercer puerto en tanger med",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMC1zOUgwYkYxREZ2dWhoUzFITWptTnBINGxEdGs3YThVa0p4ZDNnUkpWcm14bU1oYzYwQlAwNFRYMmlFaF9PSW12aGZ2N2FoVmRKbTZaWHJzUGVlU0ptdHhxRDFEeGw1N3dsV3VNV0ZNWVlJSDBVODUxUnRLeExCTHZvS0ZIQlEzMTY4ZTBjcjdPdUFHRlVrRHJZZmtaallLUUNsUHV1SWE2TjFsbDJIcy1JeGpNZEltYjNz0gHAAUFVX3lxTE9jUkYzNFJhZnFsbUxvbmpGaFE3djJnQ1lhUG1CVjVUV1dyZ09IdFBkZXBWT1dxSl9OUHVqZ0p6SU1vRVU2dWVGcmZaZTdrUWlZckNwdWxhNjc3VW5OVUJmaXdRN3lrV3ZaWlVBWkFKS1ozV1gyVVQ3eTFHdHhyMXhJWGpsc0doNXBDNlU4QlVzYUJscS0xaURuOE82V3VzTE90cXgzRkxkamN5cGZTNmRvRmF6S1dYeHdwZ1E0elYzbA",
-          "published_at": "2026-10-29T17:24:06Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ports",
-          "classification": "OPERATIONAL_SIGNAL",
-          "signal": "",
-          "description": ""
         }
       ],
       "importance": 55,
@@ -549,19 +411,11 @@
       "topic": "ceuta",
       "first_seen": "2026-10-28T13:42:26Z",
       "last_seen": "2026-10-27T17:19:10Z",
-      "headline": "Spain deports African, Asian asylum seekers to Morocco amid rights group outcry",
-      "classification": "FACT",
-      "verification_status": "SINGLE_SOURCE",
-      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
+      "headline": "Spain deports migrants from Ceuta in move criticised by rights group",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
       "sources": [
-        {
-          "source_id": "reuters",
-          "source_name": "Reuters",
-          "source_domain": "reuters.com",
-          "tier": 4,
-          "official": false,
-          "weight": 4.0
-        },
         {
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -572,28 +426,9 @@
         }
       ],
       "source_ids": [
-        "reuters",
         "unknown"
       ],
       "articles": [
-        {
-          "article_id": "art_2e9e03884027691b",
-          "title": "Spain deports African, Asian asylum seekers to Morocco amid rights group outcry",
-          "title_key": "spain deports african asian asylum seekers to morocco amid rights group outcry",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOOWVYbE9KZ1FlOFc1M1RnbTFCaFl3Q01EY0QxYUZOZlhGdmFGRTNHbjNzTF8xT1dCRWlOM3dwVURIeUdISF90SFZWcTBybFFVNkJpYlhxZldWN2k1NUlCOTlIUlNma0FjaXBzVlE4VU5zOHhsdVdqZU5CT3pRLUdJcllBWmg0Q2JpbHdmSElQY25hQmxzTG9SaTdFOXNxc3JTNGpSWkZYWWxueWdCMzFySUNTSDVmaE0ya2tFVkk5VFhTNUpab2hUeVhR",
-          "published_at": "2026-10-27T13:05:00Z",
-          "observed_at": "",
-          "source_id": "reuters",
-          "source_name": "Reuters",
-          "source_domain": "reuters.com",
-          "tier": 4,
-          "official": false,
-          "weight": 4.0,
-          "topic": "ceuta",
-          "classification": "FACT",
-          "signal": "",
-          "description": ""
-        },
         {
           "article_id": "art_1e41727890b9077d",
           "title": "Spain deports migrants from Ceuta in move criticised by rights group",
@@ -613,54 +448,8 @@
           "description": ""
         }
       ],
-      "importance": 46,
-      "operational_impact": "CONTEXT",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_b076108631883e5a",
-      "topic": "traffic",
-      "first_seen": "2026-10-26T04:30:01Z",
-      "last_seen": "2026-10-26T07:00:00Z",
-      "headline": "Los buques de guerra marroquíes que irrumpieron en aguas de Ceuta se saltaron las normas de seguridad marítima",
-      "classification": "OPERATIONAL_SIGNAL",
-      "verification_status": "SINGLE_SOURCE",
-      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
-      "sources": [
-        {
-          "source_id": "elpais",
-          "source_name": "El País",
-          "source_domain": "elpais.com",
-          "tier": 3,
-          "official": false,
-          "weight": 3.0
-        }
-      ],
-      "source_ids": [
-        "elpais"
-      ],
-      "articles": [
-        {
-          "article_id": "art_c56ff618e919de93",
-          "title": "Los buques de guerra marroquíes que irrumpieron en aguas de Ceuta se saltaron las normas de seguridad marítima",
-          "title_key": "los buques de guerra marroquies que irrumpieron en aguas de ceuta se saltaron las normas de seguridad maritima",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOalIxY2ZReDNyNFBNUUNmcG01YndrMzI5VXlTN0RHVGJ5T29pTmNNa3RBVDRUQXYwSXhtVWlqb0ZUTHVmMzZJM2QyRW8zdVlBX2l2YXpVRGltTDdPUFZ2VjI2dUlhZzAzNks5eVRKVlRNTGhGTFRFTFZYeUZXNGNLNExfVzBuX2VrVFgtUHItOEtEcFAyU0xrWEJmNXMzTUlQaTNSaktTODB3UDl5cnI4eFBLUzY2T0ttaGFNMU1STW91TGhVU3ZUazVVcUFXMDVOR3M2a1ZvYl9wakIwMTRkZTdFaHAyOUnSAfsBQVVfeXFMT3d2UTkwR09XTE90dGxkM3N4MjBNZ3Q1WkRMWGdINk12NHBzaTd3b2lvRVViM2RQQnRXclRfLWlaNWRpNEd3eVNQc2xQLUQ2eF9uX3MzZGsxeDFVTUhIcndERjlwcWtlb2x0UHhpaHo1cHpfZHc3QlhaaU1PSldBMjUxSlFhbUlBYUktdUc5RWs3LXJYSWlzWVFEeW40anJYTENURnFGZ0hPLWFVQlMteXNyWE40LTRlVFNVc09Mclg3QnNNbUNYQmx2QVdhR3pIN0g2djNxMjJXNUN6eDBLWmh4eEZaZk1QY2o5ZUMyaDZiZXE1XzFjczBOXzA",
-          "published_at": "2026-10-26T07:00:00Z",
-          "observed_at": "",
-          "source_id": "elpais",
-          "source_name": "El País",
-          "source_domain": "elpais.com",
-          "tier": 3,
-          "official": false,
-          "weight": 3.0,
-          "topic": "traffic",
-          "classification": "OPERATIONAL_SIGNAL",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 63,
-      "operational_impact": "POTENTIAL",
+      "importance": 4,
+      "operational_impact": "NONE",
       "operational_eligible": false
     },
     {
@@ -847,6 +636,70 @@
       "operational_eligible": false
     },
     {
+      "event_id": "evt_57f22cddd2e775e6",
+      "topic": "relations",
+      "first_seen": "2026-10-13T07:00:00Z",
+      "last_seen": "2026-10-15T07:00:00Z",
+      "headline": "Sánchez reaffirms Spain’s commitment to good relations with Morocco after King’s visit to Ceuta, Melilla - HESPRESS English - Morocco News",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_9300bb94783ac09e",
+          "title": "In first visit to Ceuta, Spain's king asks for 'good faith' from Morocco after migration crisis",
+          "title_key": "in first visit to ceuta spain s king asks for good faith from morocco after migration crisis",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdDBQbGxLajMtN29QX3JRYzE0c1RFSDZ4M1YtWDlhMzlvc194T0x1THJlX1hyRFZHQWtSczhRYnlKdlB1eUhCRnIwR0dJZFJMNU0xV01CbzlGTnd5eDhsaVpNUU4zbkFSSXd5SjVua2M1TVFRSzVZc01aQWlOdzRfTzFyanY0NE8xc0VES0VSNVhZYjREWlBDQnE4OS10ZE54eENIaUNPM1h4aUl1cXFKRk5pdmtkN0hqTnF3Y1U3NlQ1c3Rp0gHKAUFVX3lxTE1aMHNoeEpJWmpIY1BGOC1wckhldUd6bkU4bkhNanhCaW01SFRjXzJsQkxRZmp1OGdNZXgxYXNrRzNzdkxIWjQ2VFJxM1ZYVm5EbTBremM2Z01qTXVXSDRvNGVuSlVqaWJIR2FnbVFKeFptSkJ2R1NQYW5xMUh5aFNBdEs1Q2RFaUFLZDdaaDlMRml3Nkw5dEo3emJlRnEtZ1ZmSU1jb1IyZDJSVkt2WjJiYmJTemRZVGswZ1hvTlBPU1JxOU9ybi0xTkE",
+          "published_at": "2026-10-13T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_f83115b8f662a70e",
+          "title": "Sánchez reaffirms Spain’s commitment to good relations with Morocco after King’s visit to Ceuta, Melilla - HESPRESS English - Morocco News",
+          "title_key": "sanchez reaffirms spain s commitment to good relations with morocco after king s visit to ceuta melilla hespress english morocco news",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQTEFJWGo2SEpFZUktZ2pRZVcwbk40eGJYUGZJQ0huTi1DMkRlMVNQeTQ0elkxYUoydm83NXY2eDNabERrWGhtdlBwNzlWdVI3a1IzVnFBMC1DcU03QXVMWlVudElVcVlGVURmVFpoS21SSjVvV1lGbEo0eWNMR0p4UnlJLXFSYWNpcHZmcUhtbEhOQ3I0Szd5UXYxWlVFSFJqaU5SSW5BS3JWRk9iTzVrakxCOTVaMnFadUZpVENURFFjSVlfWElISWtCZEczNTU3MEVV",
+          "published_at": "2026-10-15T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
       "event_id": "evt_a7745d7d3c137569",
       "topic": "relations",
       "first_seen": "2026-10-15T02:25:13Z",
@@ -875,52 +728,6 @@
           "title_key": "las tradicionalmente complicadas relaciones espana marruecos",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcklPSXd0T3dSaW1ZaXFHN3BKdC1LNEZmenVFcS1ZVUJfeklWODV5dGw4eV9RMDEzc19yU3BIN05IeGx5UjJTSDBOQjZjUTlMNlpRVS16Skw1UlBJdHdfeHFLRUdvZS1iSF9lU3F1NVc3bkxOdUxMYmV5QUJUN2tjbWR5WEQ2cWhfRXBsUGQtaGtkVF9oT0JTRERUOVlYYXluajJieXNoOEg",
           "published_at": "2026-10-15T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_57f22cddd2e775e6",
-      "topic": "relations",
-      "first_seen": "2026-10-13T07:00:00Z",
-      "last_seen": "2026-10-13T07:00:00Z",
-      "headline": "In first visit to Ceuta, Spain's king asks for 'good faith' from Morocco after migration crisis",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_9300bb94783ac09e",
-          "title": "In first visit to Ceuta, Spain's king asks for 'good faith' from Morocco after migration crisis",
-          "title_key": "in first visit to ceuta spain s king asks for good faith from morocco after migration crisis",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdDBQbGxLajMtN29QX3JRYzE0c1RFSDZ4M1YtWDlhMzlvc194T0x1THJlX1hyRFZHQWtSczhRYnlKdlB1eUhCRnIwR0dJZFJMNU0xV01CbzlGTnd5eDhsaVpNUU4zbkFSSXd5SjVua2M1TVFRSzVZc01aQWlOdzRfTzFyanY0NE8xc0VES0VSNVhZYjREWlBDQnE4OS10ZE54eENIaUNPM1h4aUl1cXFKRk5pdmtkN0hqTnF3Y1U3NlQ1c3Rp0gHKAUFVX3lxTE1aMHNoeEpJWmpIY1BGOC1wckhldUd6bkU4bkhNanhCaW01SFRjXzJsQkxRZmp1OGdNZXgxYXNrRzNzdkxIWjQ2VFJxM1ZYVm5EbTBremM2Z01qTXVXSDRvNGVuSlVqaWJIR2FnbVFKeFptSkJ2R1NQYW5xMUh5aFNBdEs1Q2RFaUFLZDdaaDlMRml3Nkw5dEo3emJlRnEtZ1ZmSU1jb1IyZDJSVkt2WjJiYmJTemRZVGswZ1hvTlBPU1JxOU9ybi0xTkE",
-          "published_at": "2026-10-13T07:00:00Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -1413,15 +1220,199 @@
       "importance": 4,
       "operational_impact": "NONE",
       "operational_eligible": false
+    },
+    {
+      "event_id": "evt_c9e3831323db3a42",
+      "topic": "ports",
+      "first_seen": "2026-09-21T07:00:00Z",
+      "last_seen": "2026-09-21T07:00:00Z",
+      "headline": "El Puerto de Algeciras afianza la sexta plaza europea de tráfico de contenedores frente a la competencia de Tánger Med",
+      "classification": "OPERATIONAL_SIGNAL",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_b2a9caec35554a10",
+          "title": "El Puerto de Algeciras afianza la sexta plaza europea de tráfico de contenedores frente a la competencia de Tánger Med",
+          "title_key": "el puerto de algeciras afianza la sexta plaza europea de trafico de contenedores frente a la competencia de tanger med",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUFJBVEV3el9WcFZVUE1KajRwZFN6Y2hUQXAwUkVBMWNzSk1zVW5GbFh0enhDQXl6NUZhMWs3T2NBVWM5Smo0OWxROHFqemFvMXpFNXMyNG9YVmdjZHYxWjIwXzctUmtTemo0amFpWmlSZ1VKbWdxYjM0LTVHNENzV1pleXlrcUZsSnF1Z0tzcnA4WEpjTDZzNUdZQ0FpeVVUS3RDRVU0UDVRaVlWRFFHZ3BR",
+          "published_at": "2026-09-21T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ports",
+          "classification": "OPERATIONAL_SIGNAL",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 55,
+      "operational_impact": "POTENTIAL",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_dc606bd78927021e",
+      "topic": "melilla",
+      "first_seen": "2026-09-21T07:00:00Z",
+      "last_seen": "2026-09-21T07:00:00Z",
+      "headline": "El Gobierno refuerza la frontera de Melilla",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_565472c11b45f183",
+          "title": "El Gobierno refuerza la frontera de Melilla",
+          "title_key": "el gobierno refuerza la frontera de melilla",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQalRVQU12LTQ1QXdZb1hoUzZwTlR4QmE2ZFhUNUoydEdJWUg5Z2VtRy1zc2N1NkxxYm5FaWw2VkI1MjFMenlSVzdKandjT1paZ0ZrbmpnYm83Z1dYb3I1Ykd5bkx0Q01xQlRFaElNQXR0bENSZXFRRVNVaENaWG1PQkRxQy1POG5LOVZpcUdsbk01M1E",
+          "published_at": "2026-09-21T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "melilla",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_ff951d3684a19292",
+      "topic": "ports",
+      "first_seen": "2026-09-13T07:00:00Z",
+      "last_seen": "2026-09-13T07:00:00Z",
+      "headline": "Tánger Med destrona al Puerto de Algeciras como señor del Estrecho",
+      "classification": "OPERATIONAL_SIGNAL",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_e76543d2bd79577c",
+          "title": "Tánger Med destrona al Puerto de Algeciras como señor del Estrecho",
+          "title_key": "tanger med destrona al puerto de algeciras como senor del estrecho",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcjZyNnpXOWFEM01UTDlvTTZyWGFYZHhOcnBNcUpRcDQwdnJNSDZxVVdrRWU1ZTdPTWxWeEpTaFdody1GLV9OT1M5T2p6S19hdF9RZDNwYnRmdF9Ta0FfdVhFQkxCQkZ6eFdjYTNhZWFfOGVmSGxyc1V1S1lyMzFUWENsSGRDdTR1OWQ4R2tsMVp5Q2poZ1lrdExwVWRoLTNRWnZNVHFJcEhwU01PT1pjNNIBtgFBVV95cUxOVnFOd0VjRy1jTVdsOV90dEsyYi1iRHBGeXZNN0JPX0tfTVdNMURKS3dZOTRSVkNVWVpDRUJ2dGo1RVQ0aURwZFc0YWxJbnNHLVZwNkN4V2xHSkhsZzZncW5lcWp4TlB2aEhaZDBjU053Ri1Hbk4zaVQ2c3ZubWcyZmpHTF9ZaWV5Skx5VnFuSDI2YmpkenFCdUduUC0yS2xVU2tkLS1PRnJBcmwtY1VwakFTLUQwdw",
+          "published_at": "2026-09-13T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ports",
+          "classification": "OPERATIONAL_SIGNAL",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 55,
+      "operational_impact": "POTENTIAL",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_750c1701ce90a7ac",
+      "topic": "relations",
+      "first_seen": "2026-09-11T07:00:00Z",
+      "last_seen": "2026-09-11T07:00:00Z",
+      "headline": "La visita de Felipe VI a Ceuta, el último 'desafío' de España a Marruecos",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_a89e226cab0c2a1a",
+          "title": "La visita de Felipe VI a Ceuta, el último 'desafío' de España a Marruecos",
+          "title_key": "la visita de felipe vi a ceuta el ultimo desafio de espana a marruecos",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQTZyQ3d5MjJjQS1Ea0xMSWFQaGJabnVfMjF2OXh4UTFCU05mTl9ndDZHZHNSZXJpWGxaa3ZxclUyLThrT1JwMlVndVB3RmJSU0ctUXBrVUwwTWRweGk5QlR0aEZFWkEtMFlDZTY1b285VXQ5STdmNHk4QmhKS280WWFfU05iSGJZWEc3WUE3SlRTa1ZyUkk4dDVVWHdkdVV1ajZKemdnbUzSAa4BQVVfeXFMUE9VcjFSelRfRktYZV9DQXpHZ003dG05REJQMzlGMjZzdHVnelJ6QThQYzNSb253ZGp1QlltVFp4WkR1OVF1UEE5eERRMzdLbjJyNEEzTlNTZmFUenVqUDdHRS0ySHVyZmNITU9tUlFYOGxDVnE2ZXlGWERJQzRsMkZ1WjNzUmV0NUpjSjBpOG5pUk1FUXNzTHZrTjZNNjRPRWtNTktxaVVRZzl1QVlB",
+          "published_at": "2026-09-11T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
     }
   ],
   "verification_summary": {
     "CONFIRMED_MULTI_SOURCE": 1,
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
-    "DECLARATION_ONLY": 2,
-    "SINGLE_SOURCE": 5,
-    "UNCONFIRMED": 18,
+    "DECLARATION_ONLY": 1,
+    "SINGLE_SOURCE": 3,
+    "UNCONFIRMED": 21,
     "TOTAL": 26
   },
   "article_count": 36,

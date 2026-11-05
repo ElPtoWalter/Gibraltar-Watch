@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-04T21:55:54.514149+00:00",
+  "generated_at": "2026-11-05T02:30:54.180055+00:00",
   "events": [
     {
       "event_id": "evt_ff2ccddf28baa90f",
@@ -251,57 +251,11 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_f5df16adfaa6aa6d",
-      "topic": "relations",
-      "first_seen": "2026-11-03T12:35:00Z",
-      "last_seen": "2026-11-03T12:35:00Z",
-      "headline": "Feijóo: \"Si Marruecos no respeta la integridad de España, va a tener enfrente a España y la UE\"",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_dfecdf6e3d855bf2",
-          "title": "Feijóo: \"Si Marruecos no respeta la integridad de España, va a tener enfrente a España y la UE\"",
-          "title_key": "feijoo si marruecos no respeta la integridad de espana va a tener enfrente a espana y la ue",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNT1QyWDhoTEtEZXpnSWdSM2JUYUtuLWJCYTdxaGExemFCOXVRRDJyZi03UXZpZHF4S2xQTm9LeER3YUlybHJNdVFpdUNFT3Z0UUNITUY4dG53bTgtNG1ONndJNHhmaWg0RmhRQTJYQlh2MmdoaTZQRExOYkZnRElEeG5BZDlPZTc5V3lLRDg3Mzk2elR2S0YzOFRLNnp1Q3hzRlRGeVk0OURyejZ6NGc",
-          "published_at": "2026-11-03T12:35:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_89da0c977dec8cb5",
       "topic": "melilla",
       "first_seen": "2026-11-01T10:58:23Z",
-      "last_seen": "2026-11-01T10:58:23Z",
-      "headline": "Marruecos anuncia la modernización del paso fronterizo de Beni Enzar en Melilla",
+      "last_seen": "2026-11-02T06:42:00Z",
+      "headline": "Marruecos anuncia la modernización del paso fronterizo de Beni Enzar con Melilla",
       "classification": "DECLARATION",
       "verification_status": "DECLARATION_ONLY",
       "verification_reason": "The record is a declaration and is not treated as an operational fact.",
@@ -320,11 +274,11 @@
       ],
       "articles": [
         {
-          "article_id": "art_82e438b0e3b4e471",
-          "title": "Marruecos anuncia la modernización del paso fronterizo de Beni Enzar en Melilla",
-          "title_key": "marruecos anuncia la modernizacion del paso fronterizo de beni enzar en melilla",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQdWUxZnlkR1NnenMzcHlqZlVjcTl1TjJfTEZGMnUxM0RPcTBLc3pROTB2R01xV0Z4Nzk4SmZXSUlUX1F3UDZySFFmUGxraDRfRzVycUVpS21ENmRBRDF6MUpxeG1oUFVSbURQc09QMTlGaTZ0SzI4OEVTZ2tfLXliS29tejU3eW5ZM2s3TkpJd05uYTZxWjl0OUIzb0l6SDdxbDVWWmZWQ2h3WVNCVTAySlZ5SWd6d01KZmZOUkVGSTh6VTBydllGTmQyQUVWVVXSAeMBQVVfeXFMTWtETWR1YlRsVEdYVjVQeGwydHN3MmlsMVMxODhLSTZJZU1MXzNhU0JCUG5jVWtsQmdGZ05hbnFhTHhnQzVXUFJtSE4zNUdrdUdCTThGSmlyODlYTVQzMjAxWEphZnBZbEJ4a0hOWm5ndzRudnZFcEtoVmY3UzZ3QjBxd2FPeUFQME00Y2VRY01KMjI0ZEZ5enRLdmZqZWFpMGRQMWdJT3NDU1V6RHhiaTlZam9femFSeGl5Y2F0UVhETURWVWpzOVdaQ1FzSGJOQzVoeW1ZTGFTQTRKWGVDaDlLRlU",
-          "published_at": "2026-11-01T10:58:23Z",
+          "article_id": "art_ab02709654c6692e",
+          "title": "Marruecos anuncia la modernización del paso fronterizo de Beni Enzar con Melilla",
+          "title_key": "marruecos anuncia la modernizacion del paso fronterizo de beni enzar con melilla",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQ1VIOEIwMGhqQ2ZWN085VV9pRFNJZ0tEM1MyZHYwcDhpaVpoelVWb09icGRyV2RTdFBTTFNsekF6Z0NZM1NUSzNyQjVrcEZOa2JzTTJYbDVYVjljNzNzSHFrU1FzMG5PWXRMdDNpYVdZVnhEV0JQdUIyNTNHczZQZnU5SFBFczUwYnFrOTY0cWtDcjdVMWpZTWI1Nl8wZFhYSU11TzdB0gGrAUFVX3lxTFBHR0pfNkhJc1QzaGRXeFNXeEt2aVloOVVvN0RpV3F6OFIyTzZ4LUxWNTZpYU93ZHZPcDEtRW1ONFJSaVVkMDBramk1QXhNeGltUDdkMnJJb3ZUSUx2bXBteklYa3dhUVNodzFsMVQzQVFfQjh1aUhUV1AwcjRrZUdaeG43Ti12U2JsWDA3SmFyXzhveTAySjFQVUFmYUZwdHRKUDUyNjZ5TjBrVQ",
+          "published_at": "2026-11-02T06:42:00Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -778,11 +732,19 @@
       "topic": "ceuta",
       "first_seen": "2026-10-22T07:00:00Z",
       "last_seen": "2026-10-22T07:00:00Z",
-      "headline": "Italy and Spain lift border controls after months of tension over Ceuta",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "headline": "Italy and Spain scrap border checks brought in after Ceuta crisis",
+      "classification": "FACT",
+      "verification_status": "SINGLE_SOURCE",
+      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
       "sources": [
+        {
+          "source_id": "politico",
+          "source_name": "Politico",
+          "source_domain": "politico.eu",
+          "tier": 3,
+          "official": false,
+          "weight": 3.0
+        },
         {
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -793,9 +755,28 @@
         }
       ],
       "source_ids": [
+        "politico",
         "unknown"
       ],
       "articles": [
+        {
+          "article_id": "art_1032c030fd51dfed",
+          "title": "Italy and Spain scrap border checks brought in after Ceuta crisis",
+          "title_key": "italy and spain scrap border checks brought in after ceuta crisis",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUDJ1ZVluWklhVDVGOVZuRUxMWFZ6WkttOUVUSHBQWjVBMnFiaUJ2RDlOZFZaZmpyMnlvSmN2bW9KZFlFaGh2MHlNc2lLcmQ4UmRLX2k5NjFTeFpUUnE5TmUxNnh1X0pTcUtmaURIS0R0YTdJYkJ5RGRFaHBlS1dYTldyWVBvNHJBcG9lcXYzX1FaRzE1cWtxR25R",
+          "published_at": "2026-10-22T07:00:00Z",
+          "observed_at": "",
+          "source_id": "politico",
+          "source_name": "Politico",
+          "source_domain": "politico.eu",
+          "tier": 3,
+          "official": false,
+          "weight": 3.0,
+          "topic": "ceuta",
+          "classification": "FACT",
+          "signal": "",
+          "description": ""
+        },
         {
           "article_id": "art_5a3401a00186834b",
           "title": "Italy and Spain lift border controls after months of tension over Ceuta",
@@ -815,8 +796,8 @@
           "description": ""
         }
       ],
-      "importance": 4,
-      "operational_impact": "NONE",
+      "importance": 46,
+      "operational_impact": "CONTEXT",
       "operational_eligible": false
     },
     {
@@ -894,52 +875,6 @@
           "title_key": "las tradicionalmente complicadas relaciones espana marruecos",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcklPSXd0T3dSaW1ZaXFHN3BKdC1LNEZmenVFcS1ZVUJfeklWODV5dGw4eV9RMDEzc19yU3BIN05IeGx5UjJTSDBOQjZjUTlMNlpRVS16Skw1UlBJdHdfeHFLRUdvZS1iSF9lU3F1NVc3bkxOdUxMYmV5QUJUN2tjbWR5WEQ2cWhfRXBsUGQtaGtkVF9oT0JTRERUOVlYYXluajJieXNoOEg",
           "published_at": "2026-10-15T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_57148c1f1af1fd81",
-      "topic": "relations",
-      "first_seen": "2026-10-13T07:00:00Z",
-      "last_seen": "2026-10-13T07:00:00Z",
-      "headline": "España destaca su buena relación con Marruecos en plena visita de los Reyes a Ceuta",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_ef7ea400cc6e25b7",
-          "title": "España destaca su buena relación con Marruecos en plena visita de los Reyes a Ceuta",
-          "title_key": "espana destaca su buena relacion con marruecos en plena visita de los reyes a ceuta",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPTGhWYnRQcUt2X0NPT1E2XzdnUl8zVndaMUFVYXNLaGNzSnJSRmd2YlAySUwtRXk3dVdJVV85VzFFMFhvY3Atd0F5bUNpbjZJU21kV3pOVTJ0aXhiMWxaaHIyaWJpd2JWTmdPU0owMzVfZGllbjFOYlBOZXVseFlPeDBn0gGHAUFVX3lxTE1UVGxpR0VZZGZEVlhVTXA0dDlVVHNHMmdCWmlHM1ZUSW9MUkNuYld4YlJBWW5wQ3ZoZjJwZDJGbGI4TXhSclJmdGZ5WjhfQTNfU3h2T3AtQWlnMTB6cFUxTVl6cmhjZklnbU81LVJEQ09Xc0xSbjFZbkpud1RXcTFjdnZ3WmNFOA",
-          "published_at": "2026-10-13T07:00:00Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -1342,6 +1277,52 @@
       "operational_eligible": false
     },
     {
+      "event_id": "evt_f80e9b5a028cdf66",
+      "topic": "ceuta",
+      "first_seen": "2026-09-22T07:00:00Z",
+      "last_seen": "2026-09-22T07:00:00Z",
+      "headline": "Sánchez asegura que ha pedido “acciones” a Marruecos “porque su control de fronteras falló” en Ceuta",
+      "classification": "FACT",
+      "verification_status": "SINGLE_SOURCE",
+      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
+      "sources": [
+        {
+          "source_id": "elpais",
+          "source_name": "El País",
+          "source_domain": "elpais.com",
+          "tier": 3,
+          "official": false,
+          "weight": 3.0
+        }
+      ],
+      "source_ids": [
+        "elpais"
+      ],
+      "articles": [
+        {
+          "article_id": "art_d039722f1aa29444",
+          "title": "Sánchez asegura que ha pedido “acciones” a Marruecos “porque su control de fronteras falló” en Ceuta",
+          "title_key": "sanchez asegura que ha pedido acciones a marruecos porque su control de fronteras fallo en ceuta",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbFRTeDdtcUFxYWtwdFN4Z1ExekhITjRNd3ZRVWk4azVPdXU4VFZDaXZWcFFSaUxRUU1YUl9fckNlT1hmTUlWT1FwQUQ2U2d4WmFtSXRnMkQ4Ny1XRWs4aDVoUVRpMW9PZ2hqb1VNR0lXcUUzSzh2X2ZjREdmX3hyaFVDTUJ5OVlBZVdPd0RrbWpXak9PZzlzam1jQXNVNnFSR3hiRGNRRXFmek5mOXR5WC1rQ3BRMnFD0gHMAUFVX3lxTFA5bGl3b1BDWWVpb3JIN2FtRnJDZ3k0QjBiZU5aQVdCZ28xMm02WkxqMTVVdnBMX1ZsRmx4Sk5OVS1icWRjdlM5bGNfR3lQT1NPYkRITHExdmJoeHNmLTFheFFqcl9mcDBmdVVxYmZoUWtqcnM1Q3pZSWhTLTVVaEpBaFRtNjdyM3ZiZUZSN1k0eXlPN3JFSkJMWkpDV0hXdFBSc3FKbl8wUHhSWnlsdU5rUzVINktDeVhUeGZLOHVaUzdHYkdqRjdmVmtSVw",
+          "published_at": "2026-09-22T07:00:00Z",
+          "observed_at": "",
+          "source_id": "elpais",
+          "source_name": "El País",
+          "source_domain": "elpais.com",
+          "tier": 3,
+          "official": false,
+          "weight": 3.0,
+          "topic": "ceuta",
+          "classification": "FACT",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 43,
+      "operational_impact": "CONTEXT",
+      "operational_eligible": false
+    },
+    {
       "event_id": "evt_bb0c19be5f9481d2",
       "topic": "ceuta",
       "first_seen": "2026-09-22T07:00:00Z",
@@ -1439,10 +1420,10 @@
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 2,
-    "SINGLE_SOURCE": 3,
-    "UNCONFIRMED": 21,
-    "TOTAL": 27
+    "SINGLE_SOURCE": 5,
+    "UNCONFIRMED": 18,
+    "TOTAL": 26
   },
   "article_count": 36,
-  "event_count": 27
+  "event_count": 26
 }

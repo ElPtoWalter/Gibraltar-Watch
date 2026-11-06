@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-06T00:21:44.298323+00:00",
+  "generated_at": "2026-11-06T07:58:04.799682+00:00",
   "events": [
     {
       "event_id": "evt_0b88e293a4e3a238",
@@ -266,52 +266,6 @@
       ],
       "importance": 4,
       "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_bbc79bca5c5ba64e",
-      "topic": "ports",
-      "first_seen": "2026-11-02T19:39:28Z",
-      "last_seen": "2026-11-02T19:39:28Z",
-      "headline": "El Puerto de Algeciras crece un 1,09% hasta septiembre",
-      "classification": "OPERATIONAL_SIGNAL",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_969459655805b638",
-          "title": "El Puerto de Algeciras crece un 1,09% hasta septiembre",
-          "title_key": "el puerto de algeciras crece un 1 09 hasta septiembre",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5RMUZjb3hHYTlIdDZUOEhyNUZiWnN2WjJXRGg1bkVsZHgxN1ZCdlMxNDFjTTVwd0ppelpuTS1Uem1YM3doZ3g4dkItOU8teTFwRXpGZzdybTBNZGdnSWNsZjc0R21mcUdpLU15djJXX1psY05EeWVkU1JDbw",
-          "published_at": "2026-11-02T19:39:28Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ports",
-          "classification": "OPERATIONAL_SIGNAL",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 55,
-      "operational_impact": "POTENTIAL",
       "operational_eligible": false
     },
     {
@@ -1240,52 +1194,6 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_f80e9b5a028cdf66",
-      "topic": "ceuta",
-      "first_seen": "2026-09-22T07:00:00Z",
-      "last_seen": "2026-09-22T07:00:00Z",
-      "headline": "Sánchez asegura que ha pedido “acciones” a Marruecos “porque su control de fronteras falló” en Ceuta",
-      "classification": "FACT",
-      "verification_status": "SINGLE_SOURCE",
-      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
-      "sources": [
-        {
-          "source_id": "elpais",
-          "source_name": "El País",
-          "source_domain": "elpais.com",
-          "tier": 3,
-          "official": false,
-          "weight": 3.0
-        }
-      ],
-      "source_ids": [
-        "elpais"
-      ],
-      "articles": [
-        {
-          "article_id": "art_d039722f1aa29444",
-          "title": "Sánchez asegura que ha pedido “acciones” a Marruecos “porque su control de fronteras falló” en Ceuta",
-          "title_key": "sanchez asegura que ha pedido acciones a marruecos porque su control de fronteras fallo en ceuta",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbFRTeDdtcUFxYWtwdFN4Z1ExekhITjRNd3ZRVWk4azVPdXU4VFZDaXZWcFFSaUxRUU1YUl9fckNlT1hmTUlWT1FwQUQ2U2d4WmFtSXRnMkQ4Ny1XRWs4aDVoUVRpMW9PZ2hqb1VNR0lXcUUzSzh2X2ZjREdmX3hyaFVDTUJ5OVlBZVdPd0RrbWpXak9PZzlzam1jQXNVNnFSR3hiRGNRRXFmek5mOXR5WC1rQ3BRMnFD0gHMAUFVX3lxTFA5bGl3b1BDWWVpb3JIN2FtRnJDZ3k0QjBiZU5aQVdCZ28xMm02WkxqMTVVdnBMX1ZsRmx4Sk5OVS1icWRjdlM5bGNfR3lQT1NPYkRITHExdmJoeHNmLTFheFFqcl9mcDBmdVVxYmZoUWtqcnM1Q3pZSWhTLTVVaEpBaFRtNjdyM3ZiZUZSN1k0eXlPN3JFSkJMWkpDV0hXdFBSc3FKbl8wUHhSWnlsdU5rUzVINktDeVhUeGZLOHVaUzdHYkdqRjdmVmtSVw",
-          "published_at": "2026-09-22T07:00:00Z",
-          "observed_at": "",
-          "source_id": "elpais",
-          "source_name": "El País",
-          "source_domain": "elpais.com",
-          "tier": 3,
-          "official": false,
-          "weight": 3.0,
-          "topic": "ceuta",
-          "classification": "FACT",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 43,
-      "operational_impact": "CONTEXT",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_bb0c19be5f9481d2",
       "topic": "ceuta",
       "first_seen": "2026-09-22T07:00:00Z",
@@ -1376,6 +1284,98 @@
       "importance": 4,
       "operational_impact": "NONE",
       "operational_eligible": false
+    },
+    {
+      "event_id": "evt_c9e3831323db3a42",
+      "topic": "ports",
+      "first_seen": "2026-09-21T07:00:00Z",
+      "last_seen": "2026-09-21T07:00:00Z",
+      "headline": "El Puerto de Algeciras afianza la sexta plaza europea de tráfico de contenedores frente a la competencia de Tánger Med",
+      "classification": "OPERATIONAL_SIGNAL",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_b2a9caec35554a10",
+          "title": "El Puerto de Algeciras afianza la sexta plaza europea de tráfico de contenedores frente a la competencia de Tánger Med",
+          "title_key": "el puerto de algeciras afianza la sexta plaza europea de trafico de contenedores frente a la competencia de tanger med",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUFJBVEV3el9WcFZVUE1KajRwZFN6Y2hUQXAwUkVBMWNzSk1zVW5GbFh0enhDQXl6NUZhMWs3T2NBVWM5Smo0OWxROHFqemFvMXpFNXMyNG9YVmdjZHYxWjIwXzctUmtTemo0amFpWmlSZ1VKbWdxYjM0LTVHNENzV1pleXlrcUZsSnF1Z0tzcnA4WEpjTDZzNUdZQ0FpeVVUS3RDRVU0UDVRaVlWRFFHZ3BR",
+          "published_at": "2026-09-21T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ports",
+          "classification": "OPERATIONAL_SIGNAL",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 55,
+      "operational_impact": "POTENTIAL",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_dc606bd78927021e",
+      "topic": "melilla",
+      "first_seen": "2026-09-21T07:00:00Z",
+      "last_seen": "2026-09-21T07:00:00Z",
+      "headline": "El Gobierno refuerza la frontera de Melilla",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_565472c11b45f183",
+          "title": "El Gobierno refuerza la frontera de Melilla",
+          "title_key": "el gobierno refuerza la frontera de melilla",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQalRVQU12LTQ1QXdZb1hoUzZwTlR4QmE2ZFhUNUoydEdJWUg5Z2VtRy1zc2N1NkxxYm5FaWw2VkI1MjFMenlSVzdKandjT1paZ0ZrbmpnYm83Z1dYb3I1Ykd5bkx0Q01xQlRFaElNQXR0bENSZXFRRVNVaENaWG1PQkRxQy1POG5LOVZpcUdsbk01M1E",
+          "published_at": "2026-09-21T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "melilla",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
     }
   ],
   "verification_summary": {
@@ -1383,8 +1383,8 @@
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 2,
-    "SINGLE_SOURCE": 3,
-    "UNCONFIRMED": 19,
+    "SINGLE_SOURCE": 2,
+    "UNCONFIRMED": 20,
     "TOTAL": 25
   },
   "article_count": 36,

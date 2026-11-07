@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-07T08:52:21.071138+00:00",
+  "generated_at": "2026-11-07T15:42:53.601884+00:00",
   "events": [
     {
       "event_id": "evt_53b043cb3043028e",
@@ -404,52 +404,6 @@
       ],
       "importance": 17,
       "operational_impact": "CONTEXT",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_89da0c977dec8cb5",
-      "topic": "melilla",
-      "first_seen": "2026-11-01T10:58:23Z",
-      "last_seen": "2026-11-01T10:58:23Z",
-      "headline": "Marruecos anuncia la modernización del paso fronterizo de Beni Enzar en Melilla",
-      "classification": "DECLARATION",
-      "verification_status": "DECLARATION_ONLY",
-      "verification_reason": "The record is a declaration and is not treated as an operational fact.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_82e438b0e3b4e471",
-          "title": "Marruecos anuncia la modernización del paso fronterizo de Beni Enzar en Melilla",
-          "title_key": "marruecos anuncia la modernizacion del paso fronterizo de beni enzar en melilla",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQdWUxZnlkR1NnenMzcHlqZlVjcTl1TjJfTEZGMnUxM0RPcTBLc3pROTB2R01xV0Z4Nzk4SmZXSUlUX1F3UDZySFFmUGxraDRfRzVycUVpS21ENmRBRDF6MUpxeG1oUFVSbURQc09QMTlGaTZ0SzI4OEVTZ2tfLXliS29tejU3eW5ZM2s3TkpJd05uYTZxWjl0OUIzb0l6SDdxbDVWWmZWQ2h3WVNCVTAySlZ5SWd6d01KZmZOUkVGSTh6VTBydllGTmQyQUVWVVXSAeMBQVVfeXFMTWtETWR1YlRsVEdYVjVQeGwydHN3MmlsMVMxODhLSTZJZU1MXzNhU0JCUG5jVWtsQmdGZ05hbnFhTHhnQzVXUFJtSE4zNUdrdUdCTThGSmlyODlYTVQzMjAxWEphZnBZbEJ4a0hOWm5ndzRudnZFcEtoVmY3UzZ3QjBxd2FPeUFQME00Y2VRY01KMjI0ZEZ5enRLdmZqZWFpMGRQMWdJT3NDU1V6RHhiaTlZam9femFSeGl5Y2F0UVhETURWVWpzOVdaQ1FzSGJOQzVoeW1ZTGFTQTRKWGVDaDlLRlU",
-          "published_at": "2026-11-01T10:58:23Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "DECLARATION",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 30,
-      "operational_impact": "POTENTIAL",
       "operational_eligible": false
     },
     {
@@ -1323,6 +1277,52 @@
       "operational_eligible": false
     },
     {
+      "event_id": "evt_c9e3831323db3a42",
+      "topic": "ports",
+      "first_seen": "2026-09-21T07:00:00Z",
+      "last_seen": "2026-09-21T07:00:00Z",
+      "headline": "El Puerto de Algeciras afianza la sexta plaza europea de tráfico de contenedores frente a la competencia de Tánger Med",
+      "classification": "OPERATIONAL_SIGNAL",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_b2a9caec35554a10",
+          "title": "El Puerto de Algeciras afianza la sexta plaza europea de tráfico de contenedores frente a la competencia de Tánger Med",
+          "title_key": "el puerto de algeciras afianza la sexta plaza europea de trafico de contenedores frente a la competencia de tanger med",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUFJBVEV3el9WcFZVUE1KajRwZFN6Y2hUQXAwUkVBMWNzSk1zVW5GbFh0enhDQXl6NUZhMWs3T2NBVWM5Smo0OWxROHFqemFvMXpFNXMyNG9YVmdjZHYxWjIwXzctUmtTemo0amFpWmlSZ1VKbWdxYjM0LTVHNENzV1pleXlrcUZsSnF1Z0tzcnA4WEpjTDZzNUdZQ0FpeVVUS3RDRVU0UDVRaVlWRFFHZ3BR",
+          "published_at": "2026-09-21T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ports",
+          "classification": "OPERATIONAL_SIGNAL",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 55,
+      "operational_impact": "POTENTIAL",
+      "operational_eligible": false
+    },
+    {
       "event_id": "evt_dc606bd78927021e",
       "topic": "melilla",
       "first_seen": "2026-09-21T07:00:00Z",
@@ -1373,9 +1373,9 @@
     "CONFIRMED_MULTI_SOURCE": 1,
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
-    "DECLARATION_ONLY": 3,
+    "DECLARATION_ONLY": 2,
     "SINGLE_SOURCE": 1,
-    "UNCONFIRMED": 20,
+    "UNCONFIRMED": 21,
     "TOTAL": 25
   },
   "article_count": 36,

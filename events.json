@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-06T21:33:12.430506+00:00",
+  "generated_at": "2026-11-07T01:58:36.755803+00:00",
   "events": [
     {
       "event_id": "evt_53b043cb3043028e",
@@ -502,7 +502,7 @@
       "event_id": "evt_b2464bb7bf0f6aa9",
       "topic": "ports",
       "first_seen": "2026-10-29T03:55:00Z",
-      "last_seen": "2026-10-29T17:24:06Z",
+      "last_seen": "2026-10-29T07:00:00Z",
       "headline": "El puerto marroquí de Tánger Med prevé crecer un 50% tras superar el tráfico de Valencia y Algeciras juntos",
       "classification": "OPERATIONAL_SIGNAL",
       "verification_status": "UNCONFIRMED",
@@ -544,7 +544,7 @@
           "title": "Marruecos redobla la competencia sobre Algeciras con un tercer puerto en Tánger Med",
           "title_key": "marruecos redobla la competencia sobre algeciras con un tercer puerto en tanger med",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMC1zOUgwYkYxREZ2dWhoUzFITWptTnBINGxEdGs3YThVa0p4ZDNnUkpWcm14bU1oYzYwQlAwNFRYMmlFaF9PSW12aGZ2N2FoVmRKbTZaWHJzUGVlU0ptdHhxRDFEeGw1N3dsV3VNV0ZNWVlJSDBVODUxUnRLeExCTHZvS0ZIQlEzMTY4ZTBjcjdPdUFHRlVrRHJZZmtaallLUUNsUHV1SWE2TjFsbDJIcy1JeGpNZEltYjNz0gHAAUFVX3lxTE9jUkYzNFJhZnFsbUxvbmpGaFE3djJnQ1lhUG1CVjVUV1dyZ09IdFBkZXBWT1dxSl9OUHVqZ0p6SU1vRVU2dWVGcmZaZTdrUWlZckNwdWxhNjc3VW5OVUJmaXdRN3lrV3ZaWlVBWkFKS1ozV1gyVVQ3eTFHdHhyMXhJWGpsc0doNXBDNlU4QlVzYUJscS0xaURuOE82V3VzTE90cXgzRkxkamN5cGZTNmRvRmF6S1dYeHdwZ1E0elYzbA",
-          "published_at": "2026-10-29T17:24:06Z",
+          "published_at": "2026-10-29T07:00:00Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -1018,17 +1018,9 @@
       "last_seen": "2026-09-23T07:00:00Z",
       "headline": "El Gobierno refuerza la frontera en Ceuta y Melilla ante los llamamientos para una nueva entrada masiva - RTVE.es",
       "classification": "FACT",
-      "verification_status": "CONFIRMED_MULTI_SOURCE",
-      "verification_reason": "Corroborated by at least two reliable independent sources.",
+      "verification_status": "SINGLE_SOURCE",
+      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
       "sources": [
-        {
-          "source_id": "elpais",
-          "source_name": "El País",
-          "source_domain": "elpais.com",
-          "tier": 3,
-          "official": false,
-          "weight": 3.0
-        },
         {
           "source_id": "rtve",
           "source_name": "RTVE",
@@ -1047,26 +1039,25 @@
         }
       ],
       "source_ids": [
-        "elpais",
         "rtve",
         "unknown"
       ],
       "articles": [
         {
-          "article_id": "art_3a037299bd0d11a6",
-          "title": "Marlaska anuncia refuerzos en la frontera de Ceuta y Melilla ante la amenaza de otra entrada durante las elecciones de Marruecos",
-          "title_key": "marlaska anuncia refuerzos en la frontera de ceuta y melilla ante la amenaza de otra entrada durante las elecciones de marruecos",
-          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOUHlUZC0wTnBnTkZ4RjNJR0Q3MDNUOUc0aWo2X2NMQktoeWxERUU0ektRNVNDYko1OEhSV1lQbHM0cXJjN3RRZ2JJbzF0eUdhRFN1WDJSSlZtWjBGNjg1MmVHazh5T0o5bWI1cVBXN3U5Z1dwZng3ZUY5cGVBUUhGUmhsSXZnRTF2a0hXSzA0blAxTWlJbHlfZ3A4NGRGdXUxOE9uSWdyT2tfb1dINXJJdHU4NjRtLU1BdTBYYS1EbUNBNXZ3ZV8tODJqRlpuRG1RTDRMQm5hZG1SNi0zZF80NU90WjdQczhRd1NlaXRSWDZHaHdOdmktd1laOEVmcHPSAZMCQVVfeXFMT0lvU0F3NFdwZnNCaDQ0Y2E3OGVUMEU0VDNQYzBvS0l6dVlKVUwxYW9mWXExanZQSUl3STdZN3lWeGIyUkN0alhBTXFZWTNRRGZVWklnRkdXMlk3NDdhSjM5NnRuTlVFUGN6Z3lkQkx1V3ByVHhfNElOQUpGbFBmNnpnM1pBRWE3WlBBT0dTUzNHaTFUY1VXT2pOdzNvd2RoUldreTJHT2ZPb1ZMMGxzQ3pfZE9RelkxaXkzLTFxT3l4dUlkWWViU3lGUzRzeTBkSXVrZ2NuZlRHck1zQlc1MlpnNmZXdWlDMVBoYWd1QUd1MGpYNjNTbmxQaVV5dTEweUJQUHh3VDNoaFBXdGpIRWdhZnM",
+          "article_id": "art_565472c11b45f183",
+          "title": "El Gobierno refuerza la frontera de Melilla",
+          "title_key": "el gobierno refuerza la frontera de melilla",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQalRVQU12LTQ1QXdZb1hoUzZwTlR4QmE2ZFhUNUoydEdJWUg5Z2VtRy1zc2N1NkxxYm5FaWw2VkI1MjFMenlSVzdKandjT1paZ0ZrbmpnYm83Z1dYb3I1Ykd5bkx0Q01xQlRFaElNQXR0bENSZXFRRVNVaENaWG1PQkRxQy1POG5LOVZpcUdsbk01M1E",
           "published_at": "2026-09-21T07:00:00Z",
           "observed_at": "",
-          "source_id": "elpais",
-          "source_name": "El País",
-          "source_domain": "elpais.com",
-          "tier": 3,
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
           "official": false,
-          "weight": 3.0,
+          "weight": 1.0,
           "topic": "melilla",
-          "classification": "DECLARATION",
+          "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
         },
@@ -1125,8 +1116,8 @@
           "description": ""
         }
       ],
-      "importance": 72,
-      "operational_impact": "POTENTIAL",
+      "importance": 46,
+      "operational_impact": "CONTEXT",
       "operational_eligible": false
     },
     {
@@ -1268,52 +1259,6 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_dc606bd78927021e",
-      "topic": "melilla",
-      "first_seen": "2026-09-21T07:00:00Z",
-      "last_seen": "2026-09-21T07:00:00Z",
-      "headline": "El Gobierno refuerza la frontera de Melilla",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_565472c11b45f183",
-          "title": "El Gobierno refuerza la frontera de Melilla",
-          "title_key": "el gobierno refuerza la frontera de melilla",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQalRVQU12LTQ1QXdZb1hoUzZwTlR4QmE2ZFhUNUoydEdJWUg5Z2VtRy1zc2N1NkxxYm5FaWw2VkI1MjFMenlSVzdKandjT1paZ0ZrbmpnYm83Z1dYb3I1Ykd5bkx0Q01xQlRFaElNQXR0bENSZXFRRVNVaENaWG1PQkRxQy1POG5LOVZpcUdsbk01M1E",
-          "published_at": "2026-09-21T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_ff951d3684a19292",
       "topic": "ports",
       "first_seen": "2026-09-13T07:00:00Z",
@@ -1404,15 +1349,61 @@
       "importance": 4,
       "operational_impact": "NONE",
       "operational_eligible": false
+    },
+    {
+      "event_id": "evt_4506229cba188937",
+      "topic": "relations",
+      "first_seen": "2026-09-10T07:00:00Z",
+      "last_seen": "2026-09-10T07:00:00Z",
+      "headline": "Marruecos rechaza ser \"chivo expiatorio\" en la política e insiste en que no hay pruebas de su implicación en Ceuta - RTVE.es",
+      "classification": "FACT",
+      "verification_status": "SINGLE_SOURCE",
+      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
+      "sources": [
+        {
+          "source_id": "rtve",
+          "source_name": "RTVE",
+          "source_domain": "rtve.es",
+          "tier": 4,
+          "official": false,
+          "weight": 4.0
+        }
+      ],
+      "source_ids": [
+        "rtve"
+      ],
+      "articles": [
+        {
+          "article_id": "art_caaa080a8729d2f8",
+          "title": "Marruecos rechaza ser \"chivo expiatorio\" en la política e insiste en que no hay pruebas de su implicación en Ceuta - RTVE.es",
+          "title_key": "marruecos rechaza ser chivo expiatorio en la politica e insiste en que no hay pruebas de su implicacion en ceuta",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdkRQZGxjNzR1VE13TC1ZNE5TV044RE1tMm5ZR2dSNnQ2ZFgwS1ZsSDdYVlZGNVY2bVh0VTZNZEotMVpmY0lUTEQ1R09JRU9JazhzSGVqX0I1ZktrejdWTzliWmpVQ204UHFIdVVzVjhsZl80RldMRkQ1ZGxxMmxLbG4yTzJRUW1nSFU1OURQa21JYWFlYTByOA",
+          "published_at": "2026-09-10T07:00:00Z",
+          "observed_at": "",
+          "source_id": "rtve",
+          "source_name": "RTVE",
+          "source_domain": "rtve.es",
+          "tier": 4,
+          "official": false,
+          "weight": 4.0,
+          "topic": "relations",
+          "classification": "FACT",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 43,
+      "operational_impact": "CONTEXT",
+      "operational_eligible": false
     }
   ],
   "verification_summary": {
-    "CONFIRMED_MULTI_SOURCE": 1,
+    "CONFIRMED_MULTI_SOURCE": 0,
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 3,
-    "SINGLE_SOURCE": 1,
-    "UNCONFIRMED": 21,
+    "SINGLE_SOURCE": 3,
+    "UNCONFIRMED": 20,
     "TOTAL": 26
   },
   "article_count": 36,

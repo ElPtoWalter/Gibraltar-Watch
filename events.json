@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-07T20:15:58.582260+00:00",
+  "generated_at": "2026-11-07T23:41:28.329544+00:00",
   "events": [
     {
       "event_id": "evt_53b043cb3043028e",
       "topic": "traffic",
       "first_seen": "2026-11-06T16:06:04Z",
       "last_seen": "2026-11-06T16:06:04Z",
-      "headline": "64 días entre Gibraltar y Ceuta: el Atalaya concluye su vigilancia",
+      "headline": "El patrullero 'Atalaya' concluye su misión de vigilancia y seguridad marítima en el Estrecho y aguas de Ceuta",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
@@ -25,6 +25,24 @@
         "unknown"
       ],
       "articles": [
+        {
+          "article_id": "art_14a72cd389586322",
+          "title": "El patrullero 'Atalaya' concluye su misión de vigilancia y seguridad marítima en el Estrecho y aguas de Ceuta",
+          "title_key": "el patrullero atalaya concluye su mision de vigilancia y seguridad maritima en el estrecho y aguas de ceuta",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORXBENzAxNUc3TkdkY1U4SThYYnlOVW5tbXpMN2R0c29mZzB4eXNNa3ZhVW9sdGJsZDlHU1BGSl9MQlBybFN1ZURSNDVuWFM2SmVrS1p0YktUTU1VZlZxY1dHbkJWbmkxQnhnXzZ6TXVGTFhZaTNkZG4tRzlrTGRYVmhxcldXemptaGdxV2Z5NWFEQTBhZ29pR0RmSXN2ZHVQaVB1RV9ZNlJBV3BlRTNqSVhiajBvY1VEWlRQQzVnSlZZYW4z0gHKAUFVX3lxTE1uM1h5Mm0xSFo3MV9XQS1Cc1dfUUZMMi1lR0JSZ253UzU5REYyZndReG9admlwOHFsSG55ZEpwbWVxREFPYjQzMzZlRjNZZHJzTkdFV21mRmdvTGVqQ2tfQnZRZ0F2TEt3MXNlRF80LWVTcHZRbERNT19ET1VRcXZrQmUtZkJwZVJ2a2pZVmJITXpMMTFaQVBydVd4Z2R6dFhDbU5yMkhFZFpISHBYQU1rNDJIak1GTFExUE9VYXZRemZqU3NNLXhvQ1E",
+          "published_at": "2026-11-04T18:26:19Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "traffic",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
         {
           "article_id": "art_addc029f82baead1",
           "title": "64 días entre Gibraltar y Ceuta: el Atalaya concluye su vigilancia",
@@ -131,88 +149,6 @@
           "official": false,
           "weight": 1.0,
           "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_c20da21e8c2b77db",
-      "topic": "traffic",
-      "first_seen": "2026-11-03T13:04:09Z",
-      "last_seen": "2026-11-05T01:53:40Z",
-      "headline": "El patrullero 'Atalaya' concluye su misión de vigilancia y seguridad marítima en el Estrecho y aguas de Ceuta",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_d49b0bc2b9e53ef0",
-          "title": "64 días en el Estrecho: el 'Atalaya' cierra su misión en Ceuta",
-          "title_key": "64 dias en el estrecho el atalaya cierra su mision en ceuta",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOQ1lXVUZFcGhyYi1oX3JLeEgwQWhBenEwb0dyc3BUZTJzazRzbmpqeGZFeGVqNGJWRlg4TUFIdVZ5OHBZcmZwWnlmMjlPV0lIZ1U2aG9PT1ZEaThOMlJoUGFGX2ZqOXBCY3JwUWpXNWFjVURBcWVlM0lGdFEzZzc1OHJPWEJGNVZRTTlZMk93UmsxNTJ4eUlhdlE1bDluQnZzWWpQTFQtOVpONmJKWXVjdkh4R1YwN2JZUXRoVEZSMHhLS0ZmY053aUdOTVRxUdIB0wFBVV95cUxOamlWZGd0QU85Z0trNWJkck5SUUhfOWZWZU1TQjl3UmwzOTE3V1V1bWJvZmxndWFyV29VZFpzWU9xVGFrZW9Zcy01Y1VGQjBBd18yU1Roa3Z2SnNQWG1udTVDb0txU1BkTDJvQVF2dVREZmFVY25IT2c5UnRVTzRYZFZkanQ2bTFRUVg2VUlrTHc5N1hVRnBndkx5U2lHeFRmUk1SQkVUWmZhTGdWNXNUS0pqNmJOS0ZLUzBSTUlkZVVTR1EtYnN2c2ltUTV2cjg0N1lZ",
-          "published_at": "2026-11-03T15:03:45Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "traffic",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_14a72cd389586322",
-          "title": "El patrullero 'Atalaya' concluye su misión de vigilancia y seguridad marítima en el Estrecho y aguas de Ceuta",
-          "title_key": "el patrullero atalaya concluye su mision de vigilancia y seguridad maritima en el estrecho y aguas de ceuta",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORXBENzAxNUc3TkdkY1U4SThYYnlOVW5tbXpMN2R0c29mZzB4eXNNa3ZhVW9sdGJsZDlHU1BGSl9MQlBybFN1ZURSNDVuWFM2SmVrS1p0YktUTU1VZlZxY1dHbkJWbmkxQnhnXzZ6TXVGTFhZaTNkZG4tRzlrTGRYVmhxcldXemptaGdxV2Z5NWFEQTBhZ29pR0RmSXN2ZHVQaVB1RV9ZNlJBV3BlRTNqSVhiajBvY1VEWlRQQzVnSlZZYW4z0gHKAUFVX3lxTE1uM1h5Mm0xSFo3MV9XQS1Cc1dfUUZMMi1lR0JSZ253UzU5REYyZndReG9admlwOHFsSG55ZEpwbWVxREFPYjQzMzZlRjNZZHJzTkdFV21mRmdvTGVqQ2tfQnZRZ0F2TEt3MXNlRF80LWVTcHZRbERNT19ET1VRcXZrQmUtZkJwZVJ2a2pZVmJITXpMMTFaQVBydVd4Z2R6dFhDbU5yMkhFZFpISHBYQU1rNDJIak1GTFExUE9VYXZRemZqU3NNLXhvQ1E",
-          "published_at": "2026-11-04T18:26:19Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "traffic",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_ee041d52a982a215",
-          "title": "El patrullero ‘Atalaya’ concluye más de dos meses de vigilancia marítima en el Estrecho de Gibraltar y Ceuta",
-          "title_key": "el patrullero atalaya concluye mas de dos meses de vigilancia maritima en el estrecho de gibraltar y ceuta",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPLXdsMkEtNFV4OE9hTVZBMGc5dnV6eXFMZWV4czJVZlNHNk5VQUZRWHlkeHF6VUJUOTdQaGFia2NMOGRPNTM1NDFKREZyX3lNVEdjUUFvZFFRYkREZjJDTmY5aW1xZWU0NjJQYTkwSTZfNVVvejRsQ2lZWm5RVXlpQkFJOW54TkxyQmNIZTFDT2JhSXBwYzJCNHR3U2tLYjF3cGNlSjBUaDYzUFRkTTdaal81alp5THJnMXc5UWZ4TTFjLS1rZkdUaUcyZ3FNT1VtV3VLbXQyOFBJaW9odFY1Zkh3",
-          "published_at": "2026-11-05T01:53:40Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "traffic",
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
@@ -450,6 +386,52 @@
       ],
       "importance": 17,
       "operational_impact": "CONTEXT",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_89da0c977dec8cb5",
+      "topic": "melilla",
+      "first_seen": "2026-11-01T10:58:23Z",
+      "last_seen": "2026-11-01T10:58:23Z",
+      "headline": "Marruecos anuncia la modernización del paso fronterizo de Beni Enzar en Melilla",
+      "classification": "DECLARATION",
+      "verification_status": "DECLARATION_ONLY",
+      "verification_reason": "The record is a declaration and is not treated as an operational fact.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_82e438b0e3b4e471",
+          "title": "Marruecos anuncia la modernización del paso fronterizo de Beni Enzar en Melilla",
+          "title_key": "marruecos anuncia la modernizacion del paso fronterizo de beni enzar en melilla",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQdWUxZnlkR1NnenMzcHlqZlVjcTl1TjJfTEZGMnUxM0RPcTBLc3pROTB2R01xV0Z4Nzk4SmZXSUlUX1F3UDZySFFmUGxraDRfRzVycUVpS21ENmRBRDF6MUpxeG1oUFVSbURQc09QMTlGaTZ0SzI4OEVTZ2tfLXliS29tejU3eW5ZM2s3TkpJd05uYTZxWjl0OUIzb0l6SDdxbDVWWmZWQ2h3WVNCVTAySlZ5SWd6d01KZmZOUkVGSTh6VTBydllGTmQyQUVWVVXSAeMBQVVfeXFMTWtETWR1YlRsVEdYVjVQeGwydHN3MmlsMVMxODhLSTZJZU1MXzNhU0JCUG5jVWtsQmdGZ05hbnFhTHhnQzVXUFJtSE4zNUdrdUdCTThGSmlyODlYTVQzMjAxWEphZnBZbEJ4a0hOWm5ndzRudnZFcEtoVmY3UzZ3QjBxd2FPeUFQME00Y2VRY01KMjI0ZEZ5enRLdmZqZWFpMGRQMWdJT3NDU1V6RHhiaTlZam9femFSeGl5Y2F0UVhETURWVWpzOVdaQ1FzSGJOQzVoeW1ZTGFTQTRKWGVDaDlLRlU",
+          "published_at": "2026-11-01T10:58:23Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "melilla",
+          "classification": "DECLARATION",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 30,
+      "operational_impact": "POTENTIAL",
       "operational_eligible": false
     },
     {
@@ -811,6 +793,52 @@
           "title_key": "las tradicionalmente complicadas relaciones espana marruecos",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcklPSXd0T3dSaW1ZaXFHN3BKdC1LNEZmenVFcS1ZVUJfeklWODV5dGw4eV9RMDEzc19yU3BIN05IeGx5UjJTSDBOQjZjUTlMNlpRVS16Skw1UlBJdHdfeHFLRUdvZS1iSF9lU3F1NVc3bkxOdUxMYmV5QUJUN2tjbWR5WEQ2cWhfRXBsUGQtaGtkVF9oT0JTRERUOVlYYXluajJieXNoOEg",
           "published_at": "2026-10-15T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_57148c1f1af1fd81",
+      "topic": "relations",
+      "first_seen": "2026-10-13T07:00:00Z",
+      "last_seen": "2026-10-13T07:00:00Z",
+      "headline": "España destaca su buena relación con Marruecos en plena visita de los Reyes a Ceuta",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_d62369c4420ace8a",
+          "title": "España destaca su buena relación con Marruecos en plena visita de los Reyes a Ceuta",
+          "title_key": "espana destaca su buena relacion con marruecos en plena visita de los reyes a ceuta",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYnFpcTkzRjZpSXRWVkhBMnVielRpZkdVVGo1TDNNem1wQThwYkVfWGFrYk9XMkFWcjN2SFBkY0xYWFVPM3ZsSXcwQ19QMFphUjI2WU9ZakhKUzdpTklrb0JUM0lpVm5Xd09teHFaRnlGWTRZWGpCLXM4QkhRQ2Zrb3haaFcxb2xpbm1Ic2NGMGdiM2xZNENWUnllOHpjOVJ5WGwyVy1LTnlqajY4",
+          "published_at": "2026-10-13T07:00:00Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -1401,11 +1429,11 @@
     "CONFIRMED_MULTI_SOURCE": 1,
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
-    "DECLARATION_ONLY": 1,
+    "DECLARATION_ONLY": 2,
     "SINGLE_SOURCE": 1,
     "UNCONFIRMED": 23,
-    "TOTAL": 26
+    "TOTAL": 27
   },
   "article_count": 36,
-  "event_count": 26
+  "event_count": 27
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-07T15:42:53.601884+00:00",
+  "generated_at": "2026-11-07T20:15:58.582260+00:00",
   "events": [
     {
       "event_id": "evt_53b043cb3043028e",
@@ -49,52 +49,6 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_3c0182e275d0ad4e",
-      "topic": "relations",
-      "first_seen": "2026-11-06T12:12:59Z",
-      "last_seen": "2026-11-06T12:12:59Z",
-      "headline": "El nuevo director general de Vivas investigó la amenaza híbrida de Marruecos sobre Ceuta en un proyecto de tesis doctoral",
-      "classification": "DECLARATION",
-      "verification_status": "DECLARATION_ONLY",
-      "verification_reason": "The record is a declaration and is not treated as an operational fact.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_8d73fb38c4ecb6bd",
-          "title": "El nuevo director general de Vivas investigó la amenaza híbrida de Marruecos sobre Ceuta en un proyecto de tesis doctoral",
-          "title_key": "el nuevo director general de vivas investigo la amenaza hibrida de marruecos sobre ceuta en un proyecto de tesis doctoral",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNam9xMV9ieThFb0ZNX1M3Q0Y5U2JiSnhWQVZjU2ZHQl80aEZRVTdLQ1hmOWtEMWxSNXJzcHQwWEVBNkoySWg3dFo5aEZzenJENDVXMkpab3o2VzlRTWx1STMwUkRFUlM4MmF4TDZmUVYwV0FPMFNqMHBqVGtNbHdLREVqVjBjWnQ0a1pzaDZYMFYzaXNXTy1OVFYxajFuNFRkbGUtV0pSNmR0bFJyWWpTVVJucmNNX3hEWDhvTjlwLV9BRktWMWk3a0RzRWpuV2RwODlKYjVTdXU2aUNQ",
-          "published_at": "2026-11-06T12:12:59Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "DECLARATION",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 30,
-      "operational_impact": "POTENTIAL",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_662b4588a91b08b1",
       "topic": "relations",
       "first_seen": "2026-11-06T08:11:28Z",
@@ -131,6 +85,52 @@
           "official": false,
           "weight": 1.0,
           "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_0b88e293a4e3a238",
+      "topic": "ceuta",
+      "first_seen": "2026-11-05T13:53:10Z",
+      "last_seen": "2026-11-05T13:53:10Z",
+      "headline": "EU Rejects Calls to Suspend Financial Aid to Morocco Over Ceuta Crisis",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_d985d70f27243afd",
+          "title": "EU Rejects Calls to Suspend Financial Aid to Morocco Over Ceuta Crisis",
+          "title_key": "eu rejects calls to suspend financial aid to morocco over ceuta crisis",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYXZ4cXZ0bEhlWExPV3RhVjJmUVMwYUcxR3pRcW5IM0dWQTkzaGx2OW42UlVhQXBPRFhYaEIyUUpLSk1nczNPX2l6aENFNGlvZlF2eDNHTWZMdnlxVVM1VWRPVl93ODlFbVFHREIyVWxjS1huUHFURWNDQUNUYkRqS0o2a1FrRFh3WmNWZURYSnpfbWpSMEY4aVBUMkVpYll4eHlVNWxGem1KSU1HNy15d005UTJHWnR0Z3dJ",
+          "published_at": "2026-11-05T13:53:10Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
@@ -259,6 +259,52 @@
           "official": false,
           "weight": 1.0,
           "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_90f2570866f07658",
+      "topic": "relations",
+      "first_seen": "2026-11-04T18:04:53Z",
+      "last_seen": "2026-11-04T18:04:53Z",
+      "headline": "Feijóo apuesta por mantener «la mejor relación posible» con Marruecos y asegura que ambos países pueden trabajar juntos",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_3e5ff3ee48d23fc1",
+          "title": "Feijóo apuesta por mantener «la mejor relación posible» con Marruecos y asegura que ambos países pueden trabajar juntos",
+          "title_key": "feijoo apuesta por mantener la mejor relacion posible con marruecos y asegura que ambos paises pueden trabajar juntos",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQeGlZZFYteTdUTGh3b212ajgzcWcyUzJaWXhZWDBMT05yckRtVTgtU0UwUHBkQk01YkFuT0xhak5qSElteFB0YnpnRW51SzgxR05QUXdaUVdWd0Y5WE1zLWFwV2ptMjBlV2I4d180cDJRbk1sLU5oSVIzU29PSmt0cUFZUlQ2UGNROWt0Q0hYZDEwWWE4MlhlSHZxTDF0RF90RGVOZkdfb2gtTlM5NHFNLUdULTVKRDdkWWJSWkdMcjFRc0ZYaW02bkVYM1RDcGdIdndEaENwVQ",
+          "published_at": "2026-11-04T18:04:53Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
@@ -786,9 +832,9 @@
       "event_id": "evt_e446ec7b33012a04",
       "topic": "melilla",
       "first_seen": "2026-10-12T07:00:00Z",
-      "last_seen": "2026-10-13T07:00:00Z",
-      "headline": "Mientras 70.000 personas cruzaban la frontera de Ceuta, Marruecos abrió un segundo frente con cañones: sus buques de guerra entraron en España",
-      "classification": "OPERATIONAL_SIGNAL",
+      "last_seen": "2026-10-12T07:00:00Z",
+      "headline": "La frontera terrestre más pequeña del mundo: entre Marruecos y España",
+      "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
       "sources": [
@@ -822,28 +868,10 @@
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
-        },
-        {
-          "article_id": "art_7deff096c236a463",
-          "title": "Mientras 70.000 personas cruzaban la frontera de Ceuta, Marruecos abrió un segundo frente con cañones: sus buques de guerra entraron en España",
-          "title_key": "mientras 70 000 personas cruzaban la frontera de ceuta marruecos abrio un segundo frente con canones sus buques de guerra entraron en espana",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQcGwwdlg2RWw5X1l5TGcwdjFRYWVvTGQ5eVNqS1Ixa3A0a3M4Wk5vaEVhUVk0V0FVZVpfU0p0cmI3NkgyRlY2RkRvajdQcVV6eVE0UVpmdnMtTmpoLWE1V1YxbjZURXZhV1ZxVnAyNXdRd2ZXaE9mTGFBUVZ5MjZSaEk5R2FGMnBjeVE5V2JzeERvaWZQdkh4UUdjanBTWGxaVldaU3U3ZmphREpxemQyMjJzM2gxODZTanJ1cm9fWnl6bmtncmVMdjVUelZKSm1uR2hJNkkyZTFJQdIB3wFBVV95cUxPSUc1eEVsLTUyNjRmek5CQTV4ZU1JMFRTWXFlRkEwMXF6NXhaWTZDNl9CX0IxREwwS0ZlU0lLclByMFduMTJsQUtVa3ZydHM1eWhQTmQyX1BwT2N2WGVaVDlrN09ianhnUUdQVDBSWVRxWUJzbERjVmhhRVVTcU1DYUkwa1RhdFpsbXViUV9zSU1BdXU1T0sxN3JYbHFqNlNWUnBRRjdLVmhmOUkwSDdrcGJQZDUwT3VhdDQ1Vk1oQTVQTy1XczBNTERzYVZxTU1WMXdDRnl0MzA2a1VzcENV",
-          "published_at": "2026-10-13T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "OPERATIONAL_SIGNAL",
-          "signal": "",
-          "description": ""
         }
       ],
-      "importance": 55,
-      "operational_impact": "POTENTIAL",
+      "importance": 4,
+      "operational_impact": "NONE",
       "operational_eligible": false
     },
     {
@@ -1373,11 +1401,11 @@
     "CONFIRMED_MULTI_SOURCE": 1,
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
-    "DECLARATION_ONLY": 2,
+    "DECLARATION_ONLY": 1,
     "SINGLE_SOURCE": 1,
-    "UNCONFIRMED": 21,
-    "TOTAL": 25
+    "UNCONFIRMED": 23,
+    "TOTAL": 26
   },
   "article_count": 36,
-  "event_count": 25
+  "event_count": 26
 }

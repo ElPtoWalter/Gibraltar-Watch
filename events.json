@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-07T23:41:28.329544+00:00",
+  "generated_at": "2026-11-08T06:11:03.691663+00:00",
   "events": [
     {
       "event_id": "evt_53b043cb3043028e",
@@ -294,6 +294,52 @@
       ],
       "importance": 55,
       "operational_impact": "POTENTIAL",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_5cd06bb9772d9284",
+      "topic": "melilla",
+      "first_seen": "2026-11-04T06:00:27Z",
+      "last_seen": "2026-11-04T06:00:27Z",
+      "headline": "La UE solicita multar a Google Maps por mostrar a Ceuta y Melilla como ‘territorios en disputa con Marrueco...",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_9cd5dfb98ae6ed0a",
+          "title": "La UE solicita multar a Google Maps por mostrar a Ceuta y Melilla como ‘territorios en disputa con Marrueco...",
+          "title_key": "la ue solicita multar a google maps por mostrar a ceuta y melilla como territorios en disputa con marrueco",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQX1Q0WkQ5Z293YUIwcVJvQUtlWFdpbnc2VkRNVEN2MnEyWnlFWWxPV3dhYWV3Rm81bnhrOXBjalduWGZPekF1bWNSYzhnak9nX2JGZk1wd196OFQ0aGZNRWptYll6ZlBPY3VKaG1ndU9FU0pIMkktamZvNDdUQWFWR1l4WjUzY2tKeEp2TENrOU5lWHBhdjQxRTZDVGlycUR6em90RHdEM2MxaEZxa1VWYUVXMzJiU1RUcGY5amIyaUNjcFlYVFhvc3hTMNIB0AFBVV95cUxNemFtOEFwOWd2dWgzcVhTcG1KU2FDZWY0ZDZQZTZLZkdBMlhfcC1Cb3dJaU80aWp0THJhamhOTm5jUHBrMVBkOS1QNzEtV1duNUVyQVZNc1VPeENSNnhsVElEc2kzcDdpZHBNRXV0YmptbXhrU1R5eTlIMjA0cmY3UFlDWUg4TDRjLVRwc1J4Zm8tal80WUNaV1RiYVZBNFk0QU9DRENKb2JRUVpxYm1pbnRjcWRFdFVCdVlhbm90bXR4SjZ6cVVWSXhQbGUtRTNw",
+          "published_at": "2026-11-04T06:00:27Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "melilla",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
       "operational_eligible": false
     },
     {
@@ -691,6 +737,52 @@
           "official": false,
           "weight": 1.0,
           "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_c587eb2eee2ee5ea",
+      "topic": "ceuta",
+      "first_seen": "2026-10-23T07:00:00Z",
+      "last_seen": "2026-10-23T07:00:00Z",
+      "headline": "Spain and Italy end border restrictions imposed after Ceuta migration crisis - HESPRESS English - Morocco News",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_bbbdb1936eecf11a",
+          "title": "Spain and Italy end border restrictions imposed after Ceuta migration crisis - HESPRESS English - Morocco News",
+          "title_key": "spain and italy end border restrictions imposed after ceuta migration crisis hespress english morocco news",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZ0NyX2RSM2J6eUJQek93N1I3U0JlOGJUNnFFZmgxbkNIXzY1Y3E0eEUteTBvbU1nS2xfajlvWGdEUmNzY3hPVlRRRVBJMTN6QnJXdS1fTzZkY2Z5bjlybVF0ekJ0UTVUbkdEZjdLUkU0YXphdnBsZF8wMWFrRnRPVkFWV3hNY2lxQzk0NDlyT2tQSmFCeDBFdkR0SDZuMGpfamJRcjluSmRiTkVyRnVUS2pn",
+          "published_at": "2026-10-23T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
@@ -1323,98 +1415,6 @@
           "official": false,
           "weight": 1.0,
           "topic": "traffic",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_c9e3831323db3a42",
-      "topic": "ports",
-      "first_seen": "2026-09-21T07:00:00Z",
-      "last_seen": "2026-09-21T07:00:00Z",
-      "headline": "El Puerto de Algeciras afianza la sexta plaza europea de tráfico de contenedores frente a la competencia de Tánger Med",
-      "classification": "OPERATIONAL_SIGNAL",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_b2a9caec35554a10",
-          "title": "El Puerto de Algeciras afianza la sexta plaza europea de tráfico de contenedores frente a la competencia de Tánger Med",
-          "title_key": "el puerto de algeciras afianza la sexta plaza europea de trafico de contenedores frente a la competencia de tanger med",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUFJBVEV3el9WcFZVUE1KajRwZFN6Y2hUQXAwUkVBMWNzSk1zVW5GbFh0enhDQXl6NUZhMWs3T2NBVWM5Smo0OWxROHFqemFvMXpFNXMyNG9YVmdjZHYxWjIwXzctUmtTemo0amFpWmlSZ1VKbWdxYjM0LTVHNENzV1pleXlrcUZsSnF1Z0tzcnA4WEpjTDZzNUdZQ0FpeVVUS3RDRVU0UDVRaVlWRFFHZ3BR",
-          "published_at": "2026-09-21T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ports",
-          "classification": "OPERATIONAL_SIGNAL",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 55,
-      "operational_impact": "POTENTIAL",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_dc606bd78927021e",
-      "topic": "melilla",
-      "first_seen": "2026-09-21T07:00:00Z",
-      "last_seen": "2026-09-21T07:00:00Z",
-      "headline": "El Gobierno refuerza la frontera de Melilla",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_565472c11b45f183",
-          "title": "El Gobierno refuerza la frontera de Melilla",
-          "title_key": "el gobierno refuerza la frontera de melilla",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQalRVQU12LTQ1QXdZb1hoUzZwTlR4QmE2ZFhUNUoydEdJWUg5Z2VtRy1zc2N1NkxxYm5FaWw2VkI1MjFMenlSVzdKandjT1paZ0ZrbmpnYm83Z1dYb3I1Ykd5bkx0Q01xQlRFaElNQXR0bENSZXFRRVNVaENaWG1PQkRxQy1POG5LOVZpcUdsbk01M1E",
-          "published_at": "2026-09-21T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""

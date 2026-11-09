@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-09T02:42:35.943241+00:00",
+  "generated_at": "2026-11-09T11:42:25.446779+00:00",
   "events": [
     {
       "event_id": "evt_979fa2ac887de16c",
@@ -52,7 +52,7 @@
       "event_id": "evt_dba82c3af46d33b2",
       "topic": "ceuta",
       "first_seen": "2026-11-08T23:07:03Z",
-      "last_seen": "2026-11-08T23:07:03Z",
+      "last_seen": "2026-11-08T23:57:49Z",
       "headline": "Spain seeks secret intelligence files on Morocco warnings before Ceuta migration crisis - HESPRESS English - Morocco News",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
@@ -76,7 +76,7 @@
           "title": "Spain seeks secret intelligence files on Morocco warnings before Ceuta migration crisis - HESPRESS English - Morocco News",
           "title_key": "spain seeks secret intelligence files on morocco warnings before ceuta migration crisis hespress english morocco news",
           "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQV82Mlg4MzVqQzM1VGpxTHBiQXBqY2hEbXl6T0o4SjczSF9neHJpUFhMWGNDMmh4ZTB1aGlqZ09FMWxESnBCWVhubUhhRTNMdl9zandiaWNna0VzNktzRlpBelZyN2hFUEpnWWJIUl9NVzdKZGRmLUMtSzVYdktBR3A3OTFraUdIajk1VzZoTy1tUlJtYS02eUZkQk5lQkN5R1FGS0Nzblg4ejBVRG9UTWJ1N2dmeGpHT0hleVRlZHk",
-          "published_at": "2026-11-08T23:07:03Z",
+          "published_at": "2026-11-08T23:57:49Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -169,52 +169,6 @@
           "title_key": "eu rejects calls to suspend financial aid to morocco over ceuta crisis",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYXZ4cXZ0bEhlWExPV3RhVjJmUVMwYUcxR3pRcW5IM0dWQTkzaGx2OW42UlVhQXBPRFhYaEIyUUpLSk1nczNPX2l6aENFNGlvZlF2eDNHTWZMdnlxVVM1VWRPVl93ODlFbVFHREIyVWxjS1huUHFURWNDQUNUYkRqS0o2a1FrRFh3WmNWZURYSnpfbWpSMEY4aVBUMkVpYll4eHlVNWxGem1KSU1HNy15d005UTJHWnR0Z3dJ",
           "published_at": "2026-11-05T13:53:10Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_640374169022072c",
-      "topic": "ceuta",
-      "first_seen": "2026-11-04T18:42:38Z",
-      "last_seen": "2026-11-04T18:42:38Z",
-      "headline": "VOX acusa a Bruselas de respaldar a Marruecos y rechazar la suspensión de ayudas tras la crisis migratoria de Ceuta",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_ef44dc7caa0b3d10",
-          "title": "VOX acusa a Bruselas de respaldar a Marruecos y rechazar la suspensión de ayudas tras la crisis migratoria de Ceuta",
-          "title_key": "vox acusa a bruselas de respaldar a marruecos y rechazar la suspension de ayudas tras la crisis migratoria de ceuta",
-          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPaUc0ekFsRXNDUzAzbThoSk1iU3JZSDlyLXh3MXNxWm40bnNtUE9Ic0kwc1dfUzZfcFVYWXEzLUVRTlktWnBudzYyaGNBTjhsejUwUDVLUWRxYW1xUVlhYnRSQlRmNHVKenE5RldRbW9RWFNDQWlIVFpza25WQXFsdnR4LU1fcUNSTEJ6RWlxbG1xMFZFMVkxSUhDSXQtVGNNNmV2M1pOVzZHVWtDRnNJbnhDVURTM2NkRHQ1c19XNGVucjRZNGRRWjVmLWxpS0FiSTQ1NDhPQnhoZ3pDRlNDc3ZZRFk5WGph0gHuAUFVX3lxTE56U3M5VldhZ0VBNXdvOVY4WGVsNktwNTJmV1VKMGF1amVnTlRHdXZhSFlJdjhJTWRFSGhtUlMtUU40dkdULU9jdXJTZXRHZjdFRTUxTW4wN0tHdVhZRlBzTTFuRnk5SnB2aU8teVVvZjRlMEFrYm9WM0hPc095cG10bERFM3RaSGNqcHE5emhnSkNSbkJnbk9EdVhsV3hJSWE0djlaMTVDbEZpMmJsSm51bHNHSGZlTGs4SWNjVEhyQ1pMY0JwNUFDcWlyemNXTGc4TVpFOWNkSUwwejdQb20wSGdid2s2X0NrY3ptTHc",
-          "published_at": "2026-11-04T18:42:38Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -512,7 +466,7 @@
       "event_id": "evt_89da0c977dec8cb5",
       "topic": "melilla",
       "first_seen": "2026-11-01T10:58:23Z",
-      "last_seen": "2026-11-01T10:58:23Z",
+      "last_seen": "2026-11-01T07:00:00Z",
       "headline": "Marruecos anuncia la modernización del paso fronterizo de Beni Enzar en Melilla",
       "classification": "DECLARATION",
       "verification_status": "DECLARATION_ONLY",
@@ -536,7 +490,7 @@
           "title": "Marruecos anuncia la modernización del paso fronterizo de Beni Enzar en Melilla",
           "title_key": "marruecos anuncia la modernizacion del paso fronterizo de beni enzar en melilla",
           "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQdWUxZnlkR1NnenMzcHlqZlVjcTl1TjJfTEZGMnUxM0RPcTBLc3pROTB2R01xV0Z4Nzk4SmZXSUlUX1F3UDZySFFmUGxraDRfRzVycUVpS21ENmRBRDF6MUpxeG1oUFVSbURQc09QMTlGaTZ0SzI4OEVTZ2tfLXliS29tejU3eW5ZM2s3TkpJd05uYTZxWjl0OUIzb0l6SDdxbDVWWmZWQ2h3WVNCVTAySlZ5SWd6d01KZmZOUkVGSTh6VTBydllGTmQyQUVWVVXSAeMBQVVfeXFMTWtETWR1YlRsVEdYVjVQeGwydHN3MmlsMVMxODhLSTZJZU1MXzNhU0JCUG5jVWtsQmdGZ05hbnFhTHhnQzVXUFJtSE4zNUdrdUdCTThGSmlyODlYTVQzMjAxWEphZnBZbEJ4a0hOWm5ndzRudnZFcEtoVmY3UzZ3QjBxd2FPeUFQME00Y2VRY01KMjI0ZEZ5enRLdmZqZWFpMGRQMWdJT3NDU1V6RHhiaTlZam9femFSeGl5Y2F0UVhETURWVWpzOVdaQ1FzSGJOQzVoeW1ZTGFTQTRKWGVDaDlLRlU",
-          "published_at": "2026-11-01T10:58:23Z",
+          "published_at": "2026-11-01T07:00:00Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -711,6 +665,52 @@
       "operational_eligible": false
     },
     {
+      "event_id": "evt_b076108631883e5a",
+      "topic": "traffic",
+      "first_seen": "2026-10-26T07:00:00Z",
+      "last_seen": "2026-10-26T07:00:00Z",
+      "headline": "Los buques de guerra marroquíes que irrumpieron en aguas de Ceuta se saltaron las normas de seguridad marítima",
+      "classification": "OPERATIONAL_SIGNAL",
+      "verification_status": "SINGLE_SOURCE",
+      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
+      "sources": [
+        {
+          "source_id": "elpais",
+          "source_name": "El País",
+          "source_domain": "elpais.com",
+          "tier": 3,
+          "official": false,
+          "weight": 3.0
+        }
+      ],
+      "source_ids": [
+        "elpais"
+      ],
+      "articles": [
+        {
+          "article_id": "art_c56ff618e919de93",
+          "title": "Los buques de guerra marroquíes que irrumpieron en aguas de Ceuta se saltaron las normas de seguridad marítima",
+          "title_key": "los buques de guerra marroquies que irrumpieron en aguas de ceuta se saltaron las normas de seguridad maritima",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOalIxY2ZReDNyNFBNUUNmcG01YndrMzI5VXlTN0RHVGJ5T29pTmNNa3RBVDRUQXYwSXhtVWlqb0ZUTHVmMzZJM2QyRW8zdVlBX2l2YXpVRGltTDdPUFZ2VjI2dUlhZzAzNks5eVRKVlRNTGhGTFRFTFZYeUZXNGNLNExfVzBuX2VrVFgtUHItOEtEcFAyU0xrWEJmNXMzTUlQaTNSaktTODB3UDl5cnI4eFBLUzY2T0ttaGFNMU1STW91TGhVU3ZUazVVcUFXMDVOR3M2a1ZvYl9wakIwMTRkZTdFaHAyOUnSAfsBQVVfeXFMT3d2UTkwR09XTE90dGxkM3N4MjBNZ3Q1WkRMWGdINk12NHBzaTd3b2lvRVViM2RQQnRXclRfLWlaNWRpNEd3eVNQc2xQLUQ2eF9uX3MzZGsxeDFVTUhIcndERjlwcWtlb2x0UHhpaHo1cHpfZHc3QlhaaU1PSldBMjUxSlFhbUlBYUktdUc5RWs3LXJYSWlzWVFEeW40anJYTENURnFGZ0hPLWFVQlMteXNyWE40LTRlVFNVc09Mclg3QnNNbUNYQmx2QVdhR3pIN0g2djNxMjJXNUN6eDBLWmh4eEZaZk1QY2o5ZUMyaDZiZXE1XzFjczBOXzA",
+          "published_at": "2026-10-26T07:00:00Z",
+          "observed_at": "",
+          "source_id": "elpais",
+          "source_name": "El País",
+          "source_domain": "elpais.com",
+          "tier": 3,
+          "official": false,
+          "weight": 3.0,
+          "topic": "traffic",
+          "classification": "OPERATIONAL_SIGNAL",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 63,
+      "operational_impact": "POTENTIAL",
+      "operational_eligible": false
+    },
+    {
       "event_id": "evt_0c00fb7ede67f954",
       "topic": "relations",
       "first_seen": "2026-10-23T07:00:00Z",
@@ -775,6 +775,52 @@
       "operational_eligible": false
     },
     {
+      "event_id": "evt_32e3ae541840ff4b",
+      "topic": "ports",
+      "first_seen": "2026-10-21T07:00:00Z",
+      "last_seen": "2026-10-21T07:00:00Z",
+      "headline": "El puerto de Algeciras acumula más de 76 millones de toneladas de tráfico total hasta septiembre",
+      "classification": "OPERATIONAL_SIGNAL",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_fc4982ee26d09b17",
+          "title": "El puerto de Algeciras acumula más de 76 millones de toneladas de tráfico total hasta septiembre",
+          "title_key": "el puerto de algeciras acumula mas de 76 millones de toneladas de trafico total hasta septiembre",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQVU9TaWJyT2xUMXdLbFRBN002Q2lrWTJGbGI0eWdfclBHTzJhRzhUVldtYnBONGkwSUFnNHBWUnVpaE1pbi12VWhxdGtEN0hlMi1yb3JHTGhUZ0l1OVZlUnFRMVlzeW91ZGd5bm9sT3FvMEJ0WWNTVjNTVjJ2S3BxTVV6U1NERUJhMjVqYmRQZEhGb193UmltczRVZTVicTlIc2VfM3luOVpvMG9vSENyWG9KaTNEeEJoeEVRUlRGRXJtUlN6US1mUUlLdzdCUHk2cTUzUjJvN0VRSkRlVFFEenkxaDZFOVpUZC1qZlhHcFhWSURJdUxwYjkzempPWlE1d1lB0gGIAkFVX3lxTE5lbDBHbEZrbVFxeGYyRUNrV3BweDhBNFRtVGZfOHVSLWJYZUFyNnpicGY1YnlYaE9mM3lFYVNlRHl5NU92VzZqdHltZEZyVm9QZ3FXZEx0cDBqRDZBM0Q4TS1RVEhDUnhzOHo5X0ZpWWhKRGNuNGwyV3R5ZkdBM2NKS2xldDhhdURoN0Z4UFRCY1JzRlFDWEt2Nlo0bmFIVnV4a3FVRm1naTd5OGFjMU1penA2NE9PbV84RjBObFFrWEpaU2o2bDI0WGdDRDJHZEY1Y3EtQkpTTjZsQXZPTDAyS05Uc1diM0NSR21hSnFKaVo1cXFiWEVUVm5EV1ppMkJibHJLaW43Qg",
+          "published_at": "2026-10-21T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ports",
+          "classification": "OPERATIONAL_SIGNAL",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 55,
+      "operational_impact": "POTENTIAL",
+      "operational_eligible": false
+    },
+    {
       "event_id": "evt_a7745d7d3c137569",
       "topic": "relations",
       "first_seen": "2026-10-15T02:25:13Z",
@@ -824,7 +870,7 @@
       "event_id": "evt_57f22cddd2e775e6",
       "topic": "relations",
       "first_seen": "2026-10-13T07:00:00Z",
-      "last_seen": "2026-10-13T07:00:00Z",
+      "last_seen": "2026-10-14T07:00:00Z",
       "headline": "In first visit to Ceuta, Spain's king asks for 'good faith' from Morocco after migration crisis",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
@@ -849,6 +895,24 @@
           "title_key": "in first visit to ceuta spain s king asks for good faith from morocco after migration crisis",
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdDBQbGxLajMtN29QX3JRYzE0c1RFSDZ4M1YtWDlhMzlvc194T0x1THJlX1hyRFZHQWtSczhRYnlKdlB1eUhCRnIwR0dJZFJMNU0xV01CbzlGTnd5eDhsaVpNUU4zbkFSSXd5SjVua2M1TVFRSzVZc01aQWlOdzRfTzFyanY0NE8xc0VES0VSNVhZYjREWlBDQnE4OS10ZE54eENIaUNPM1h4aUl1cXFKRk5pdmtkN0hqTnF3Y1U3NlQ1c3Rp0gHKAUFVX3lxTE1aMHNoeEpJWmpIY1BGOC1wckhldUd6bkU4bkhNanhCaW01SFRjXzJsQkxRZmp1OGdNZXgxYXNrRzNzdkxIWjQ2VFJxM1ZYVm5EbTBremM2Z01qTXVXSDRvNGVuSlVqaWJIR2FnbVFKeFptSkJ2R1NQYW5xMUh5aFNBdEs1Q2RFaUFLZDdaaDlMRml3Nkw5dEo3emJlRnEtZ1ZmSU1jb1IyZDJSVkt2WjJiYmJTemRZVGswZ1hvTlBPU1JxOU9ybi0xTkE",
           "published_at": "2026-10-13T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_cfdc879e12832c43",
+          "title": "Spain’s king reasserts sovereignty over Ceuta, Melilla as Morocco remains silent",
+          "title_key": "spain s king reasserts sovereignty over ceuta melilla as morocco remains silent",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWlJUbFZoWURNNkl6VFN1UGlmU0NHa1VmUGdlY09vY3A1RFR3T1R2blV0WFRQTFN3R0llVklPV2s4ZFd0YlVqZUxMbmh5N0pibzV2dVJuWDZUVURKUjc1UUt6d1VKeERGckpaV3ljMldyVHlVckdwcXd3OTBwWUJtV0gtMnh0em9HU0pBMnQ2N21LYlh5dDJPWDl1cHJRZ1R0cnQ4Tm1qcXR1UG5OSG1kWk55QlJkbUUwTi0wTUZ6OA",
+          "published_at": "2026-10-14T07:00:00Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -1196,6 +1260,52 @@
       "operational_eligible": false
     },
     {
+      "event_id": "evt_f80e9b5a028cdf66",
+      "topic": "ceuta",
+      "first_seen": "2026-09-22T07:00:00Z",
+      "last_seen": "2026-09-22T07:00:00Z",
+      "headline": "Sánchez asegura que ha pedido “acciones” a Marruecos “porque su control de fronteras falló” en Ceuta",
+      "classification": "FACT",
+      "verification_status": "SINGLE_SOURCE",
+      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
+      "sources": [
+        {
+          "source_id": "elpais",
+          "source_name": "El País",
+          "source_domain": "elpais.com",
+          "tier": 3,
+          "official": false,
+          "weight": 3.0
+        }
+      ],
+      "source_ids": [
+        "elpais"
+      ],
+      "articles": [
+        {
+          "article_id": "art_d039722f1aa29444",
+          "title": "Sánchez asegura que ha pedido “acciones” a Marruecos “porque su control de fronteras falló” en Ceuta",
+          "title_key": "sanchez asegura que ha pedido acciones a marruecos porque su control de fronteras fallo en ceuta",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbFRTeDdtcUFxYWtwdFN4Z1ExekhITjRNd3ZRVWk4azVPdXU4VFZDaXZWcFFSaUxRUU1YUl9fckNlT1hmTUlWT1FwQUQ2U2d4WmFtSXRnMkQ4Ny1XRWs4aDVoUVRpMW9PZ2hqb1VNR0lXcUUzSzh2X2ZjREdmX3hyaFVDTUJ5OVlBZVdPd0RrbWpXak9PZzlzam1jQXNVNnFSR3hiRGNRRXFmek5mOXR5WC1rQ3BRMnFD0gHMAUFVX3lxTFA5bGl3b1BDWWVpb3JIN2FtRnJDZ3k0QjBiZU5aQVdCZ28xMm02WkxqMTVVdnBMX1ZsRmx4Sk5OVS1icWRjdlM5bGNfR3lQT1NPYkRITHExdmJoeHNmLTFheFFqcl9mcDBmdVVxYmZoUWtqcnM1Q3pZSWhTLTVVaEpBaFRtNjdyM3ZiZUZSN1k0eXlPN3JFSkJMWkpDV0hXdFBSc3FKbl8wUHhSWnlsdU5rUzVINktDeVhUeGZLOHVaUzdHYkdqRjdmVmtSVw",
+          "published_at": "2026-09-22T07:00:00Z",
+          "observed_at": "",
+          "source_id": "elpais",
+          "source_name": "El País",
+          "source_domain": "elpais.com",
+          "tier": 3,
+          "official": false,
+          "weight": 3.0,
+          "topic": "ceuta",
+          "classification": "FACT",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 43,
+      "operational_impact": "CONTEXT",
+      "operational_eligible": false
+    },
+    {
       "event_id": "evt_bb0c19be5f9481d2",
       "topic": "ceuta",
       "first_seen": "2026-09-22T07:00:00Z",
@@ -1332,97 +1442,6 @@
       "importance": 55,
       "operational_impact": "POTENTIAL",
       "operational_eligible": false
-    },
-    {
-      "event_id": "evt_e65a847d93017676",
-      "topic": "relations",
-      "first_seen": "2026-09-10T07:00:00Z",
-      "last_seen": "2026-09-11T07:00:00Z",
-      "headline": "Marruecos rechaza ser \"chivo expiatorio\" en la política e insiste en que no hay pruebas de su implicación en Ceuta - RTVE.es",
-      "classification": "FACT",
-      "verification_status": "SINGLE_SOURCE",
-      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
-      "sources": [
-        {
-          "source_id": "rtve",
-          "source_name": "RTVE",
-          "source_domain": "rtve.es",
-          "tier": 4,
-          "official": false,
-          "weight": 4.0
-        },
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "rtve",
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_caaa080a8729d2f8",
-          "title": "Marruecos rechaza ser \"chivo expiatorio\" en la política e insiste en que no hay pruebas de su implicación en Ceuta - RTVE.es",
-          "title_key": "marruecos rechaza ser chivo expiatorio en la politica e insiste en que no hay pruebas de su implicacion en ceuta",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdkRQZGxjNzR1VE13TC1ZNE5TV044RE1tMm5ZR2dSNnQ2ZFgwS1ZsSDdYVlZGNVY2bVh0VTZNZEotMVpmY0lUTEQ1R09JRU9JazhzSGVqX0I1ZktrejdWTzliWmpVQ204UHFIdVVzVjhsZl80RldMRkQ1ZGxxMmxLbG4yTzJRUW1nSFU1OURQa21JYWFlYTByOA",
-          "published_at": "2026-09-10T07:00:00Z",
-          "observed_at": "",
-          "source_id": "rtve",
-          "source_name": "RTVE",
-          "source_domain": "rtve.es",
-          "tier": 4,
-          "official": false,
-          "weight": 4.0,
-          "topic": "relations",
-          "classification": "FACT",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_04c62a76fdffd78f",
-          "title": "Marruecos defiende la relación con España y rechaza las acusaciones sobre Ceuta",
-          "title_key": "marruecos defiende la relacion con espana y rechaza las acusaciones sobre ceuta",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOa1AwN0YwMlMwSzE0N2cwTVQ3R3NlRHRGS3R2bnNkZFAwRHZnMEF5M2FKcThMelpxVnhCX1A1QU1hQVBqT3U2QmZ4YVRsa1RrbmhFX3BjdEVkY2x0NGJhWFN2NjZWSHRNNnoyMy1mZjVjZ2MwaTRKYkpqMUVDUENYTmlOYjVaWVktal9aZVhNZUNRcFF2VWVUTkF6X2Z3TEZIQl9nRW55N3F1cXM4UGlxNUQ5V0RCbzBmZDk5emNXWW14RV9QQmV1MWpB0gHPAUFVX3lxTFB5MnBQbHVNeFR6aHdqVXppa3dzeGdjTXpSc3lwWWhzS2RoR2NGMm1vQjVOeWNJeGdDNy1vcWszajlhQjFWZGQyTHdrN3BpNUJvb2VfWkIybHM1c25UZzAyU0diQUNLVG1OREg2eklSXzVsYjZCVGFBa05tcnpiU0hvN3k0MklLRVRaWXFyQzE2eFktd1c0Mk85aGpCVEtVcDVOOW5mcDVYbndydWRYQUVUdl9tVVBSZHJRaDdDUGhzb3N0QS1rMEkyVWFfd2ZZYw",
-          "published_at": "2026-09-10T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_a89e226cab0c2a1a",
-          "title": "La visita de Felipe VI a Ceuta, el último 'desafío' de España a Marruecos",
-          "title_key": "la visita de felipe vi a ceuta el ultimo desafio de espana a marruecos",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQTZyQ3d5MjJjQS1Ea0xMSWFQaGJabnVfMjF2OXh4UTFCU05mTl9ndDZHZHNSZXJpWGxaa3ZxclUyLThrT1JwMlVndVB3RmJSU0ctUXBrVUwwTWRweGk5QlR0aEZFWkEtMFlDZTY1b285VXQ5STdmNHk4QmhKS280WWFfU05iSGJZWEc3WUE3SlRTa1ZyUkk4dDVVWHdkdVV1ajZKemdnbUzSAa4BQVVfeXFMUE9VcjFSelRfRktYZV9DQXpHZ003dG05REJQMzlGMjZzdHVnelJ6QThQYzNSb253ZGp1QlltVFp4WkR1OVF1UEE5eERRMzdLbjJyNEEzTlNTZmFUenVqUDdHRS0ySHVyZmNITU9tUlFYOGxDVnE2ZXlGWERJQzRsMkZ1WjNzUmV0NUpjSjBpOG5pUk1FUXNzTHZrTjZNNjRPRWtNTktxaVVRZzl1QVlB",
-          "published_at": "2026-09-11T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 46,
-      "operational_impact": "CONTEXT",
-      "operational_eligible": false
     }
   ],
   "verification_summary": {
@@ -1430,10 +1449,10 @@
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 2,
-    "SINGLE_SOURCE": 2,
+    "SINGLE_SOURCE": 3,
     "UNCONFIRMED": 23,
-    "TOTAL": 27
+    "TOTAL": 28
   },
   "article_count": 36,
-  "event_count": 27
+  "event_count": 28
 }

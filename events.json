@@ -1,7 +1,163 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-09T11:42:25.446779+00:00",
+  "generated_at": "2026-11-09T22:27:00.786304+00:00",
   "events": [
+    {
+      "event_id": "evt_6e74bb0f7767fbf2",
+      "topic": "relations",
+      "first_seen": "2026-11-09T19:09:57Z",
+      "last_seen": "2026-11-09T22:04:37Z",
+      "headline": "Sánchez rules out talks on Ceuta and Melilla sovereignty, reaffirms Morocco autonomy support - HESPRESS English - Morocco News",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_af8cda6db9efd86a",
+          "title": "Ceuta-Melilla: Spain PM Backs Morocco Ties but Still Appeals to Domestic Pressure",
+          "title_key": "ceuta melilla spain pm backs morocco ties but still appeals to domestic pressure",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNS16ZmxmSEdPMTRfajNHMW1NWDNwVGJRR3RpSDBEa0xfZm5iRktXUTVnU2pDcF9Vamt1ZWVSVkJWZ1VJRDU2eVlFb0RFMWJZbWM4TUljOFZhUDl1RFVrM3lHTU9nQ01xTFN1Q0lLMGFheHRvcHFPU0twdUpJNktVNDZkemxTX2NQN2VsOWNoNmhfWFMwRHhsZ3NuOS1WZ2pQQVpNbHNtNmtnNWpHdDNSVHNnbVJUX0NzRG1vZXdLZHk1dUV4YVBPMw",
+          "published_at": "2026-11-09T19:09:57Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_5baeaf561d07206c",
+          "title": "Sánchez rules out talks on Ceuta and Melilla sovereignty, reaffirms Morocco autonomy support - HESPRESS English - Morocco News",
+          "title_key": "sanchez rules out talks on ceuta and melilla sovereignty reaffirms morocco autonomy support hespress english morocco news",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMXV2U1plcl9sMTFlaEh0aW9VMXhKV3dZZlcwa3Q3cThrOGdaMWc0U2plY0hlaXY5UzBzUE9rNmJjMHdGLUVJSmduTER3VWRWTEIwOVRVdGdsZkRGZ0NnT0dYa3EyeEJLbDBOTEpHazJldHQ3LWJ1RW5KRkpQczl6cGtYZjd2LWE1T1JoSDFBdXNUOS1DdDB5RUthRXF0MmpEbG5rdkxid2s0bVdwSGJvRDQ5TzBrRk91NU51MjNJUkFZZ0FTY1E",
+          "published_at": "2026-11-09T22:04:37Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_c718bac22141ac1c",
+      "topic": "ceuta",
+      "first_seen": "2026-11-09T16:01:18Z",
+      "last_seen": "2026-11-09T16:01:18Z",
+      "headline": "Sánchez reconoce el papel de Marruecos tras la crisis de Ceuta: “Sin la necesaria cooperación” de Rabat controlar la frontera “es mucho más complejo”",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_94609a24bf942b14",
+          "title": "Sánchez reconoce el papel de Marruecos tras la crisis de Ceuta: “Sin la necesaria cooperación” de Rabat controlar la frontera “es mucho más complejo”",
+          "title_key": "sanchez reconoce el papel de marruecos tras la crisis de ceuta sin la necesaria cooperacion de rabat controlar la frontera es mucho mas complejo",
+          "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNTFRLNGdxWWlTR2FycDdBY2JTM1NvT09UdFNpOHAwQXJZbDhaN0ZQNFJiX1huR0ZSY29iOXctN0R5ZjNTZUNsTmJkZFp6Y1o1Z3NiVjdRU3czbHRZVVRkelJOU01XRm93SEdlSVR6Sjh0NTlXUDlUcXU0VnkxYmYxZEhXUjNxanhxcVQxN2swX1lmSnhjWnZybTJFUGV2M2hLcXZRR2g4QmJzVXEzSkFzMEJXY0JtYk5OUkVSVkdPWlBkYjdvTlFWalMyUzdGMk92Q0ZzdTAtamtEdUo3MnpaLXAycWZUTktTOF9vSDIwS0U1LWJoQjd0RWtOUk5BV2prYlNfbnJIcWROcXhEa2hDMw",
+          "published_at": "2026-11-09T16:01:18Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_4815c4e0d1255482",
+      "topic": "relations",
+      "first_seen": "2026-11-09T12:42:00Z",
+      "last_seen": "2026-11-09T12:42:00Z",
+      "headline": "Sánchez defiende la relación entre Marruecos y España y niega cualquier «regateo» sobre la cuestión del Sáhara",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_ba57ee575cde2f33",
+          "title": "Sánchez defiende la relación entre Marruecos y España y niega cualquier «regateo» sobre la cuestión del Sáhara",
+          "title_key": "sanchez defiende la relacion entre marruecos y espana y niega cualquier regateo sobre la cuestion del sahara",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMGk1ZnNGRGxXdXpodW1aWlhuRnpaRzdCOFI3bV9ERFR2SFRSanZnUmhrVFpWVkVHT0VtbWNxNHFzLUlvN25KTDhEdEl3c25BSzZ5dVg3VGJ1ams0OE9JdElyd3ZiU3g1NXNJMVc0ZU9HaEREb3Y0Tnd0YlpqWDNNekVtdHpfWEtwcjZfZ2lzZ0NHWmFNZ2I0c1N3",
+          "published_at": "2026-11-09T12:42:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
     {
       "event_id": "evt_979fa2ac887de16c",
       "topic": "ceuta",
@@ -417,52 +573,6 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_c0b5d7eb9df1c6e9",
-      "topic": "traffic",
-      "first_seen": "2026-11-02T14:48:05Z",
-      "last_seen": "2026-11-02T14:48:05Z",
-      "headline": "A Contested Mediterranean: What Role for the US?",
-      "classification": "ANALYSIS",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_8cd2d79fe4f13c45",
-          "title": "A Contested Mediterranean: What Role for the US?",
-          "title_key": "a contested mediterranean what role for the us",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1EdkVzajFwZGNNQmJ1bVlLb2FfTHBNbzdjS01mNjJ1by1vRUhNdk4yc0Z4cWFJUWdsZ1dJaXFNaWNoUk1VOEM3Vk5NdDJFa0tsV0U1TERmcl8wdU5MeXZJQl95RlNoVDRzV055V1hlai1wZ09Hcl9kVFdn",
-          "published_at": "2026-11-02T14:48:05Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "traffic",
-          "classification": "ANALYSIS",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 17,
-      "operational_impact": "CONTEXT",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_89da0c977dec8cb5",
       "topic": "melilla",
       "first_seen": "2026-11-01T10:58:23Z",
@@ -616,52 +726,6 @@
       ],
       "importance": 55,
       "operational_impact": "POTENTIAL",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_200ddfcdd3df29a2",
-      "topic": "ceuta",
-      "first_seen": "2026-10-28T13:42:26Z",
-      "last_seen": "2026-10-27T07:00:00Z",
-      "headline": "Spain deports migrants from Ceuta in move criticised by rights group",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_1e41727890b9077d",
-          "title": "Spain deports migrants from Ceuta in move criticised by rights group",
-          "title_key": "spain deports migrants from ceuta in move criticised by rights group",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNM3RaY1ptM2pnUjRNR3RJbV9fQUc0T0xaNnRvVExFSTF3ZlA1cGNJcUJxQWthMDVBZ2hrc3ZjNDRXRGFzcUdHWTRacG1EMUhyTHhmczU1cnVJdXZEdzRDb2dfOXdCU1J6SlB4S3R3dmJPdDRsTEZHU0pub1k1alpkbTdTY3lIYmF1YnlPRE9NM21PbTk3ODh6alkwYWxIOUlxdlhMR1pwSzBmQXJaS3hn0gG0AUFVX3lxTFB5NElNYWNtamw4MFhzMlNPZmdPQk81VzhWMWZoVWtvbEZNd0t4LVZ3b1NodnVuTzBzdjFhLW41ZGlKYUZ2LVRBd2U5RWxQZnVieVRTZ2dvYWdoS1FTemViTXVveVJOU2Y2TXVBaE4zVUJpWkFndFRfSHhITGRLWGxGeWwtZjVNaEJIWDVuM1h1WExWYXFxQmVlX2ZhQXc4cExKN1RHT0xIZjhya1NxcE5uTWlEaA",
-          "published_at": "2026-10-27T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
       "operational_eligible": false
     },
     {
@@ -921,52 +985,6 @@
           "official": false,
           "weight": 1.0,
           "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_e446ec7b33012a04",
-      "topic": "melilla",
-      "first_seen": "2026-10-12T07:00:00Z",
-      "last_seen": "2026-10-12T07:00:00Z",
-      "headline": "La frontera terrestre más pequeña del mundo: entre Marruecos y España",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_92787ea7b7c20cb3",
-          "title": "La frontera terrestre más pequeña del mundo: entre Marruecos y España",
-          "title_key": "la frontera terrestre mas pequena del mundo entre marruecos y espana",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOc2tnRkZzazJVWldDai1UQmFkUmFmaDZWSlF4Vkk2NWtRTHVSSld2Y3ZfS2R4czlsOHhpd2locWNUMW5wRG5VSzh2azRDcm1CV1lVYld6TTcwTE1fQ1F3bE9oOVN0bGZuS054VFdEY1hRQWJVaTNLTUwxSlN0QTMySFBYRzFyZ9IBiwFBVV95cUxQR2tlaHZlLTRKeXJfOHhqMmJLRkR5RjhxVzNCVkRKdmFxWm5xOHAxWERXQnZ1dC1HMXJsR2pxWTl1MVp5bGJJdzBKNGFiMl9QVFVNX1hWS09FSGNuQzhRcU1MSEFzUkhXZ2FJZHFuU25HM2pvSk15U0VkVVFSN0I3aHNvVlIwVElvRTVF",
-          "published_at": "2026-10-12T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
@@ -1396,52 +1414,6 @@
       "importance": 4,
       "operational_impact": "NONE",
       "operational_eligible": false
-    },
-    {
-      "event_id": "evt_ff951d3684a19292",
-      "topic": "ports",
-      "first_seen": "2026-09-13T07:00:00Z",
-      "last_seen": "2026-09-13T07:00:00Z",
-      "headline": "Tánger Med destrona al Puerto de Algeciras como señor del Estrecho",
-      "classification": "OPERATIONAL_SIGNAL",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_e76543d2bd79577c",
-          "title": "Tánger Med destrona al Puerto de Algeciras como señor del Estrecho",
-          "title_key": "tanger med destrona al puerto de algeciras como senor del estrecho",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcjZyNnpXOWFEM01UTDlvTTZyWGFYZHhOcnBNcUpRcDQwdnJNSDZxVVdrRWU1ZTdPTWxWeEpTaFdody1GLV9OT1M5T2p6S19hdF9RZDNwYnRmdF9Ta0FfdVhFQkxCQkZ6eFdjYTNhZWFfOGVmSGxyc1V1S1lyMzFUWENsSGRDdTR1OWQ4R2tsMVp5Q2poZ1lrdExwVWRoLTNRWnZNVHFJcEhwU01PT1pjNNIBtgFBVV95cUxOVnFOd0VjRy1jTVdsOV90dEsyYi1iRHBGeXZNN0JPX0tfTVdNMURKS3dZOTRSVkNVWVpDRUJ2dGo1RVQ0aURwZFc0YWxJbnNHLVZwNkN4V2xHSkhsZzZncW5lcWp4TlB2aEhaZDBjU053Ri1Hbk4zaVQ2c3ZubWcyZmpHTF9ZaWV5Skx5VnFuSDI2YmpkenFCdUduUC0yS2xVU2tkLS1PRnJBcmwtY1VwakFTLUQwdw",
-          "published_at": "2026-09-13T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ports",
-          "classification": "OPERATIONAL_SIGNAL",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 55,
-      "operational_impact": "POTENTIAL",
-      "operational_eligible": false
     }
   ],
   "verification_summary": {
@@ -1450,9 +1422,9 @@
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 2,
     "SINGLE_SOURCE": 3,
-    "UNCONFIRMED": 23,
-    "TOTAL": 28
+    "UNCONFIRMED": 22,
+    "TOTAL": 27
   },
   "article_count": 36,
-  "event_count": 28
+  "event_count": 27
 }

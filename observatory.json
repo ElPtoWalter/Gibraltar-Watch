@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-09T11:42:25Z",
+  "generated_at": "2026-11-09T16:19:00Z",
   "state": {
     "code": "watch",
     "label_es": "VIGILANCIA",
     "color": "yellow",
     "severity": 1,
-    "summary_es": "La situación requiere seguimiento, pero no aparecen señales suficientes para elevar el nivel operativo.",
+    "summary_es": "La situación requiere seguimiento, pero no aparecen señales suficientes para elevar el nivel operativo. Parte de las fuentes necesita actualización, por lo que la lectura debe interpretarse con cautela.",
     "layers": {
       "maritime": {
         "value": "SIN CONFIRMACIÓN RECIENTE",
@@ -26,8 +26,11 @@
       }
     },
     "confidence": "BAJA",
-    "confidence_explanation_es": "Confianza baja: la información disponible no permite una corroboración reciente suficiente.",
-    "sources_pending": [],
+    "confidence_explanation_es": "Confianza baja porque necesitan actualización o revisión: Sismicidad USGS, Actualidad y geopolítica. El estado operativo se mantiene separado de la frescura de esas fuentes.",
+    "sources_pending": [
+      "Sismicidad USGS",
+      "Actualidad y geopolítica"
+    ],
     "alert_level": {
       "code": "informational",
       "label_es": "INFORMATIVO",
@@ -45,8 +48,8 @@
     "ope_passengers_day": 59877,
     "ope_vehicles_day": 15464,
     "ope_rotations_day": 179,
-    "diary_date": "2026-11-08",
-    "diary_source_count": 0
+    "diary_date": "2026-11-09",
+    "diary_source_count": 2
   },
   "anomalies": [],
   "changes": {
@@ -59,27 +62,28 @@
     "summary_es": "El nivel general se mantiene en VIGILANCIA. El monitor recoge 2 referencias más en la ventana de 24 horas."
   },
   "health": {
-    "overall": "HEALTHY",
-    "generated_at": "2026-11-09T11:42:25Z"
+    "overall": "DEGRADED",
+    "generated_at": "2026-11-09T16:19:00Z"
   },
   "latest_diary": {
-    "date": "2026-11-08",
-    "headline": "Estrecho de Gibraltar: sin novedades suficientes para una nueva crónica",
-    "summary": "Selección automática de 0 referencias de 0 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
-    "published_at": "2026-11-08T14:24+01:00",
-    "updated_at": "2026-11-08T14:24+01:00",
-    "source_count": 0,
+    "date": "2026-11-09",
+    "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
+    "summary": "Selección automática de 2 referencias de 2 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "published_at": "2026-11-09T17:18+01:00",
+    "updated_at": "2026-11-09T17:18+01:00",
+    "source_count": 2,
     "indexable": false,
-    "edition_label": "Cuaderno del Estrecho",
-    "edition_slug": "general",
-    "fingerprint": "08ceca0aa93f75bfeb0f",
+    "edition_label": "Cuaderno de las dos orillas",
+    "edition_slug": "shores",
+    "fingerprint": "7c3ad620dc518179b468",
     "editor_engine": "rules",
-    "editor_assistant_status": "insufficient-sources",
-    "assistant_status": "insufficient-sources",
+    "editor_assistant_status": "gemini-validation-es",
+    "assistant_status": "gemini-validation-es",
     "validator_version": 2,
-    "factual_packet_hash": "f667c94476ad3c3823aeaab5989dd834d3557eff43114e6fa481ad96f2bbb3f1",
+    "factual_packet_hash": "20235b943575d0c26396cd3dba27ee49637f61bafa986ae11cfde28dc084fa09",
     "event_ids": [
       "evt_89da0c977dec8cb5",
+      "evt_b076108631883e5a",
       "evt_685fb6bfca8ef427",
       "evt_f80e9b5a028cdf66",
       "evt_bb0c19be5f9481d2"
@@ -90,18 +94,18 @@
       "rtve",
       "unknown"
     ],
-    "timestamp": "2026-11-08T13:24:24.898999+00:00",
+    "timestamp": "2026-11-09T16:18:58.924140+00:00",
     "fallback_used": true,
     "verification_summary": {
-      "CONFIRMED_MULTI_SOURCE": 1,
+      "CONFIRMED_MULTI_SOURCE": 0,
       "CONFIRMED_PRIMARY": 0,
       "CONFLICTING": 0,
       "DECLARATION_ONLY": 2,
-      "SINGLE_SOURCE": 1,
+      "SINGLE_SOURCE": 3,
       "UNCONFIRMED": 23,
-      "TOTAL": 27
+      "TOTAL": 28
     },
-    "date_label": "2026-11-08",
+    "date_label": "2026-11-09",
     "slug": "actual.html"
   },
   "latest_ope": {

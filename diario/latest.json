@@ -1,21 +1,22 @@
 {
-  "date": "2026-11-08",
-  "headline": "Estrecho de Gibraltar: sin novedades suficientes para una nueva crónica",
-  "summary": "Selección automática de 0 referencias de 0 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
-  "published_at": "2026-11-08T14:24+01:00",
-  "updated_at": "2026-11-08T14:24+01:00",
-  "source_count": 0,
+  "date": "2026-11-09",
+  "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
+  "summary": "Selección automática de 2 referencias de 2 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+  "published_at": "2026-11-09T17:18+01:00",
+  "updated_at": "2026-11-09T17:18+01:00",
+  "source_count": 2,
   "indexable": false,
-  "edition_label": "Cuaderno del Estrecho",
-  "edition_slug": "general",
-  "fingerprint": "08ceca0aa93f75bfeb0f",
+  "edition_label": "Cuaderno de las dos orillas",
+  "edition_slug": "shores",
+  "fingerprint": "7c3ad620dc518179b468",
   "editor_engine": "rules",
-  "editor_assistant_status": "insufficient-sources",
-  "assistant_status": "insufficient-sources",
+  "editor_assistant_status": "gemini-validation-es",
+  "assistant_status": "gemini-validation-es",
   "validator_version": 2,
-  "factual_packet_hash": "f667c94476ad3c3823aeaab5989dd834d3557eff43114e6fa481ad96f2bbb3f1",
+  "factual_packet_hash": "20235b943575d0c26396cd3dba27ee49637f61bafa986ae11cfde28dc084fa09",
   "event_ids": [
     "evt_89da0c977dec8cb5",
+    "evt_b076108631883e5a",
     "evt_685fb6bfca8ef427",
     "evt_f80e9b5a028cdf66",
     "evt_bb0c19be5f9481d2"
@@ -26,17 +27,17 @@
     "rtve",
     "unknown"
   ],
-  "timestamp": "2026-11-08T13:24:24.898999+00:00",
+  "timestamp": "2026-11-09T16:18:58.924140+00:00",
   "fallback_used": true,
   "verification_summary": {
-    "CONFIRMED_MULTI_SOURCE": 1,
+    "CONFIRMED_MULTI_SOURCE": 0,
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 2,
-    "SINGLE_SOURCE": 1,
+    "SINGLE_SOURCE": 3,
     "UNCONFIRMED": 23,
-    "TOTAL": 27
+    "TOTAL": 28
   },
-  "date_label": "2026-11-08",
+  "date_label": "2026-11-09",
   "slug": "actual.html"
 }

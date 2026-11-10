@@ -1,7 +1,53 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-09T22:27:00.786304+00:00",
+  "generated_at": "2026-11-10T04:39:18.614882+00:00",
   "events": [
+    {
+      "event_id": "evt_95dee571b598d3e0",
+      "topic": "melilla",
+      "first_seen": "2026-11-10T00:04:10Z",
+      "last_seen": "2026-11-10T00:04:10Z",
+      "headline": "¿Qué territorios reclama Marruecos y por qué?",
+      "classification": "ANALYSIS",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_94489956ce8e505a",
+          "title": "¿Qué territorios reclama Marruecos y por qué?",
+          "title_key": "que territorios reclama marruecos y por que",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBEcFk0Z0VKTXZRcXlxSmFsWmJrak8zT252MnZvU1daZGtQQWFmTmdod3l6R2E2SmxNRWJFUjRWaVVIRVFPc29MVkNuenZ0VTU1am1VUG53VVZEVXFfMG4zM01B",
+          "published_at": "2026-11-10T00:04:10Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "melilla",
+          "classification": "ANALYSIS",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 17,
+      "operational_impact": "CONTEXT",
+      "operational_eligible": false
+    },
     {
       "event_id": "evt_6e74bb0f7767fbf2",
       "topic": "relations",
@@ -248,6 +294,52 @@
       ],
       "importance": 4,
       "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_102e4849f98142cc",
+      "topic": "traffic",
+      "first_seen": "2026-11-08T04:00:00Z",
+      "last_seen": "2026-11-08T04:00:00Z",
+      "headline": "The sea’s grip on the global economy: The chokepoints that can bring world trade to its knees - EL PAÍS English",
+      "classification": "FACT",
+      "verification_status": "SINGLE_SOURCE",
+      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
+      "sources": [
+        {
+          "source_id": "elpais",
+          "source_name": "El País",
+          "source_domain": "elpais.com",
+          "tier": 3,
+          "official": false,
+          "weight": 3.0
+        }
+      ],
+      "source_ids": [
+        "elpais"
+      ],
+      "articles": [
+        {
+          "article_id": "art_0b2db2d157884e03",
+          "title": "The sea’s grip on the global economy: The chokepoints that can bring world trade to its knees - EL PAÍS English",
+          "title_key": "the sea s grip on the global economy the chokepoints that can bring world trade to its knees el pais english",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQa25DWFdia3hYalNfSkRYek5pZ09uYzV3dmIzSnViMDZqQ2RqSVMtOWNycmYxSmNzTFIwZHJMYWUwTllsUmQ2MlhJLTBCWGRpcGdBcWRsZ2hNbkxoaG9CTVhkVkZtNmJZUV9PQU1HZkVobUlpUFhkeTJHZlNRSWkwTHNNS2FxYVV0ODN2bzFXMFp0OG4yTlpXNW4zRERXZHRYazFscFFNZm0yWm0zLWQ0OVlVRWxlMS05ZjJudmx1Tjk5SmRQRHVid1V4WGQ2TTlYb0hWLWZMVXV5cHNBM1R5cGlSY2xzeGpGNHgw0gH_AUFVX3lxTE5qNzlqa1lEOGVkWkd1TDVQb0x2TlpJdy1oNVlTUDNYLXhESW9JSTJLVkV3TG1fdHhLLVZZLVhlWGdMUXdaMWFuV0ZjVUNfWmhPRHNsR2dlS29IMDREc1RTOXRBdC1JRHZmeV9jZkt5akk5S2huSGs1ZDBscUNIckF4elZuTC1yOWtUSFQtcXZRdlpzbWIzR1JRWkVFY2hFSU8yUXZjai1QYm5GOWFvV3pnWGFPRVRDZHViU1lpTTQyQ2ZGNUVTNmZQbnJqczExTVZpOVJJeUU1YlBtME42ekdGeWR0Rm12Z0UtZTU3dl9ROXN2d2VLSWxlTnNndFhBVQ",
+          "published_at": "2026-11-08T04:00:00Z",
+          "observed_at": "",
+          "source_id": "elpais",
+          "source_name": "El País",
+          "source_domain": "elpais.com",
+          "tier": 3,
+          "official": false,
+          "weight": 3.0,
+          "topic": "traffic",
+          "classification": "FACT",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 43,
+      "operational_impact": "CONTEXT",
       "operational_eligible": false
     },
     {
@@ -616,52 +708,6 @@
       ],
       "importance": 30,
       "operational_impact": "POTENTIAL",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_d610dc3214d04f88",
-      "topic": "relations",
-      "first_seen": "2026-10-31T23:06:25Z",
-      "last_seen": "2026-10-31T23:06:25Z",
-      "headline": "Las relaciones entre España y Marruecos en la frontera las controla Rabat: \"Ellos deciden si aceptan a los suyos o no\"",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_ad3ec494562e7597",
-          "title": "Las relaciones entre España y Marruecos en la frontera las controla Rabat: \"Ellos deciden si aceptan a los suyos o no\"",
-          "title_key": "las relaciones entre espana y marruecos en la frontera las controla rabat ellos deciden si aceptan a los suyos o no",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPUW9YNks0V19rLU9JQzVybnQ3M0U5RUdGN3BRSGpwZFB3dlhLaWp3SnJRZWpONUtZQWRkYVZaeFh1WnhNUXU2NTV2X3RvOUE0dXRqTFhfdE42SGI0bXVVU1NoZTlIdFVvbEVmb2tUMUhfcUZhLW9OYm5NLVl0SHdLTUN2ZnNDR1NRQXZzeHlEY1A5bXp5Sk9uNnlibmhLTVN1Sl9lNjQwMlozaXpDTXp1VmMweW44SjBubXh5aDIxWmQ5UWtDVy1PUXBad0NWQ19jQjhTSkk5bXBQVzFsOUg2REVPdmtxMUd4anpxTEwxOE_SAfYBQVVfeXFMTUgyRm0xXzZLemk3RlRqeUlzTWFoeXQyOE03QzlkVUNoREY5bTd4dWw0RmsxQVcxbEJSSmJTdm5RMDRZWi1raklHMFg4QkxHeWNUVm9BaHRrbFNFWFF6enJvdGZ3ZUFXUTFXUGdTTk1VaHlmOFc2SnJTUmhOR0dPQnRtNUR5cnpOeWx4WF9RN0VuTWRJVlQxajVzQVVxMVpHVFl4TlJleHFraV9LaU5wbklLOHFoYWFhVThIamYtVVhWbjh5UTNBTF9XUWpJdzlvZDVLVUhyU0NwdWRUTVcxU2l5RG1EckNJZkNSNXFJQ3pIR3BLWUln",
-          "published_at": "2026-10-31T23:06:25Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
       "operational_eligible": false
     },
     {
@@ -1201,24 +1247,6 @@
       ],
       "articles": [
         {
-          "article_id": "art_565472c11b45f183",
-          "title": "El Gobierno refuerza la frontera de Melilla",
-          "title_key": "el gobierno refuerza la frontera de melilla",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQalRVQU12LTQ1QXdZb1hoUzZwTlR4QmE2ZFhUNUoydEdJWUg5Z2VtRy1zc2N1NkxxYm5FaWw2VkI1MjFMenlSVzdKandjT1paZ0ZrbmpnYm83Z1dYb3I1Ykd5bkx0Q01xQlRFaElNQXR0bENSZXFRRVNVaENaWG1PQkRxQy1POG5LOVZpcUdsbk01M1E",
-          "published_at": "2026-09-21T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
           "article_id": "art_872d0808d5207996",
           "title": "El Gobierno refuerza la frontera en Ceuta y Melilla ante los llamamientos para una nueva entrada masiva - RTVE.es",
           "title_key": "el gobierno refuerza la frontera en ceuta y melilla ante los llamamientos para una nueva entrada masiva",
@@ -1421,10 +1449,10 @@
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 2,
-    "SINGLE_SOURCE": 3,
+    "SINGLE_SOURCE": 4,
     "UNCONFIRMED": 22,
-    "TOTAL": 27
+    "TOTAL": 28
   },
   "article_count": 36,
-  "event_count": 27
+  "event_count": 28
 }

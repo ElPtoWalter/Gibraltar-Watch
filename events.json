@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-11T01:16:46.845394+00:00",
+  "generated_at": "2026-11-11T07:49:47.028417+00:00",
   "events": [
     {
       "event_id": "evt_df63874000b50c0c",
@@ -481,52 +481,6 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_102e4849f98142cc",
-      "topic": "traffic",
-      "first_seen": "2026-11-08T04:00:00Z",
-      "last_seen": "2026-11-08T04:00:00Z",
-      "headline": "The sea’s grip on the global economy: The chokepoints that can bring world trade to its knees - EL PAÍS English",
-      "classification": "FACT",
-      "verification_status": "SINGLE_SOURCE",
-      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
-      "sources": [
-        {
-          "source_id": "elpais",
-          "source_name": "El País",
-          "source_domain": "elpais.com",
-          "tier": 3,
-          "official": false,
-          "weight": 3.0
-        }
-      ],
-      "source_ids": [
-        "elpais"
-      ],
-      "articles": [
-        {
-          "article_id": "art_0b2db2d157884e03",
-          "title": "The sea’s grip on the global economy: The chokepoints that can bring world trade to its knees - EL PAÍS English",
-          "title_key": "the sea s grip on the global economy the chokepoints that can bring world trade to its knees el pais english",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQa25DWFdia3hYalNfSkRYek5pZ09uYzV3dmIzSnViMDZqQ2RqSVMtOWNycmYxSmNzTFIwZHJMYWUwTllsUmQ2MlhJLTBCWGRpcGdBcWRsZ2hNbkxoaG9CTVhkVkZtNmJZUV9PQU1HZkVobUlpUFhkeTJHZlNRSWkwTHNNS2FxYVV0ODN2bzFXMFp0OG4yTlpXNW4zRERXZHRYazFscFFNZm0yWm0zLWQ0OVlVRWxlMS05ZjJudmx1Tjk5SmRQRHVid1V4WGQ2TTlYb0hWLWZMVXV5cHNBM1R5cGlSY2xzeGpGNHgw0gH_AUFVX3lxTE5qNzlqa1lEOGVkWkd1TDVQb0x2TlpJdy1oNVlTUDNYLXhESW9JSTJLVkV3TG1fdHhLLVZZLVhlWGdMUXdaMWFuV0ZjVUNfWmhPRHNsR2dlS29IMDREc1RTOXRBdC1JRHZmeV9jZkt5akk5S2huSGs1ZDBscUNIckF4elZuTC1yOWtUSFQtcXZRdlpzbWIzR1JRWkVFY2hFSU8yUXZjai1QYm5GOWFvV3pnWGFPRVRDZHViU1lpTTQyQ2ZGNUVTNmZQbnJqczExTVZpOVJJeUU1YlBtME42ekdGeWR0Rm12Z0UtZTU3dl9ROXN2d2VLSWxlTnNndFhBVQ",
-          "published_at": "2026-11-08T04:00:00Z",
-          "observed_at": "",
-          "source_id": "elpais",
-          "source_name": "El País",
-          "source_domain": "elpais.com",
-          "tier": 3,
-          "official": false,
-          "weight": 3.0,
-          "topic": "traffic",
-          "classification": "FACT",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 43,
-      "operational_impact": "CONTEXT",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_206a79f954e6d249",
       "topic": "melilla",
       "first_seen": "2026-11-08T04:00:00Z",
@@ -754,52 +708,6 @@
       ],
       "importance": 4,
       "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_343633c4aba2fb6a",
-      "topic": "ports",
-      "first_seen": "2026-11-04T11:01:26Z",
-      "last_seen": "2026-11-04T11:01:26Z",
-      "headline": "Marruecos conquista el tráfico marítimo del Estrecho mientras el puerto de Algeciras sigue estancado esperando su tren",
-      "classification": "OPERATIONAL_SIGNAL",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_b74fa53fa2ea9d75",
-          "title": "Marruecos conquista el tráfico marítimo del Estrecho mientras el puerto de Algeciras sigue estancado esperando su tren",
-          "title_key": "marruecos conquista el trafico maritimo del estrecho mientras el puerto de algeciras sigue estancado esperando su tren",
-          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNSFhHSGtNVzFaeGRRU25lRkVwaVVtSVlQR0d6a1hDR1JnY09MVHgzN2RFRVRDNUVzb2lkUWNZWVJsRHVlMDcwakQ2ekl6NmFGVk5fUnN3VHFrTG10WlBaYVE4OE4ycDZGZUZyMTNreFg4Y2dvV3E2M1Bld2c0ZWJmcDA4OXlTNGotQTR0Qlo1SHMtUXlBVm4yZnpWNHl4T3RUb09EVnFfMHZZSEg3RWc0cmZaRWgyRlBYeEZybUVuZ29GNkEyaTdJVkdPMzIwdXUzQkozTmJVNkszRG16ZHNrelV5N3NkVTJlQlBuNzZuanZmVzFGT3c",
-          "published_at": "2026-11-04T11:01:26Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ports",
-          "classification": "OPERATIONAL_SIGNAL",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 55,
-      "operational_impact": "POTENTIAL",
       "operational_eligible": false
     },
     {
@@ -1293,6 +1201,24 @@
       ],
       "articles": [
         {
+          "article_id": "art_565472c11b45f183",
+          "title": "El Gobierno refuerza la frontera de Melilla",
+          "title_key": "el gobierno refuerza la frontera de melilla",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQalRVQU12LTQ1QXdZb1hoUzZwTlR4QmE2ZFhUNUoydEdJWUg5Z2VtRy1zc2N1NkxxYm5FaWw2VkI1MjFMenlSVzdKandjT1paZ0ZrbmpnYm83Z1dYb3I1Ykd5bkx0Q01xQlRFaElNQXR0bENSZXFRRVNVaENaWG1PQkRxQy1POG5LOVZpcUdsbk01M1E",
+          "published_at": "2026-09-21T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "melilla",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
           "article_id": "art_872d0808d5207996",
           "title": "El Gobierno refuerza la frontera en Ceuta y Melilla ante los llamamientos para una nueva entrada masiva - RTVE.es",
           "title_key": "el gobierno refuerza la frontera en ceuta y melilla ante los llamamientos para una nueva entrada masiva",
@@ -1442,6 +1368,52 @@
       "importance": 30,
       "operational_impact": "POTENTIAL",
       "operational_eligible": false
+    },
+    {
+      "event_id": "evt_4588497e633eb141",
+      "topic": "traffic",
+      "first_seen": "2026-09-22T07:00:00Z",
+      "last_seen": "2026-09-22T07:00:00Z",
+      "headline": "Houthi Leverage over the Red Sea Escalates Threats for Africa",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_1d28e373b867cf97",
+          "title": "Houthi Leverage over the Red Sea Escalates Threats for Africa",
+          "title_key": "houthi leverage over the red sea escalates threats for africa",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ja0x1Q0t3cmg1aVFDeHlXNVEwUmFwQW8wc0hpZkFFeHVzQmFsSFYxTkp5Sm9MQ3p6RE9hdy1CX0pWSWFaWEpsZGl1M2RaMTNEZjVHVEMyM3B3b3RDUUsyRXdCVnZyZWlSMktJVWFxUjc",
+          "published_at": "2026-09-22T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "traffic",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
     }
   ],
   "verification_summary": {
@@ -1449,10 +1421,10 @@
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 1,
-    "SINGLE_SOURCE": 3,
+    "SINGLE_SOURCE": 2,
     "UNCONFIRMED": 24,
-    "TOTAL": 28
+    "TOTAL": 27
   },
   "article_count": 36,
-  "event_count": 28
+  "event_count": 27
 }

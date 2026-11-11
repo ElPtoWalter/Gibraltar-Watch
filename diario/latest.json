@@ -1,41 +1,41 @@
 {
-  "date": "2026-11-10",
-  "headline": "España–Marruecos: qué aportan los titulares y qué falta comprobar",
-  "summary": "Selección automática de 8 referencias de 8 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
-  "published_at": "2026-11-10T15:52+01:00",
-  "updated_at": "2026-11-10T15:52+01:00",
-  "source_count": 8,
+  "date": "2026-11-11",
+  "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
+  "summary": "Selección automática de 4 referencias de 4 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+  "published_at": "2026-11-11T15:22+01:00",
+  "updated_at": "2026-11-11T15:22+01:00",
+  "source_count": 4,
   "indexable": false,
-  "edition_label": "Cuaderno diplomático",
-  "edition_slug": "relations",
-  "fingerprint": "3b039153ac91cfe18ceb",
+  "edition_label": "Cuaderno de las dos orillas",
+  "edition_slug": "shores",
+  "fingerprint": "03d89311759f565d185b",
   "editor_engine": "rules",
   "editor_assistant_status": "gemini-http-503",
   "assistant_status": "gemini-http-503",
   "validator_version": 2,
-  "factual_packet_hash": "77388419e6d9bbfbd141f7bdfc942e6d23999c09e46e82efe4b17229cd31a507",
+  "factual_packet_hash": "3927d0794fd65c26f6bb8f4062f822ea26962716a404de5d04c9dd6365b2af87",
   "event_ids": [
-    "evt_102e4849f98142cc",
-    "evt_89da0c977dec8cb5",
     "evt_685fb6bfca8ef427",
-    "evt_f80e9b5a028cdf66"
+    "evt_f80e9b5a028cdf66",
+    "evt_bb0c19be5f9481d2"
   ],
   "source_ids": [
     "elpais",
+    "euronews",
     "rtve",
     "unknown"
   ],
-  "timestamp": "2026-11-10T14:52:47.002143+00:00",
+  "timestamp": "2026-11-11T14:22:32.920837+00:00",
   "fallback_used": true,
   "verification_summary": {
     "CONFIRMED_MULTI_SOURCE": 0,
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 1,
-    "SINGLE_SOURCE": 3,
+    "SINGLE_SOURCE": 2,
     "UNCONFIRMED": 24,
-    "TOTAL": 28
+    "TOTAL": 27
   },
-  "date_label": "2026-11-10",
+  "date_label": "2026-11-11",
   "slug": "actual.html"
 }

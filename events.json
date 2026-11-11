@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-11T07:49:47.028417+00:00",
+  "generated_at": "2026-11-11T16:14:32.196593+00:00",
   "events": [
     {
       "event_id": "evt_df63874000b50c0c",
@@ -236,8 +236,8 @@
       "event_id": "evt_6e74bb0f7767fbf2",
       "topic": "relations",
       "first_seen": "2026-11-09T19:09:57Z",
-      "last_seen": "2026-11-09T22:04:37Z",
-      "headline": "Sánchez rules out talks on Ceuta and Melilla sovereignty, reaffirms Morocco autonomy support - HESPRESS English - Morocco News",
+      "last_seen": "2026-11-09T19:09:57Z",
+      "headline": "Ceuta-Melilla: Spain PM Backs Morocco Ties but Still Appeals to Domestic Pressure",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
@@ -261,24 +261,6 @@
           "title_key": "ceuta melilla spain pm backs morocco ties but still appeals to domestic pressure",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNS16ZmxmSEdPMTRfajNHMW1NWDNwVGJRR3RpSDBEa0xfZm5iRktXUTVnU2pDcF9Vamt1ZWVSVkJWZ1VJRDU2eVlFb0RFMWJZbWM4TUljOFZhUDl1RFVrM3lHTU9nQ01xTFN1Q0lLMGFheHRvcHFPU0twdUpJNktVNDZkemxTX2NQN2VsOWNoNmhfWFMwRHhsZ3NuOS1WZ2pQQVpNbHNtNmtnNWpHdDNSVHNnbVJUX0NzRG1vZXdLZHk1dUV4YVBPMw",
           "published_at": "2026-11-09T19:09:57Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_5baeaf561d07206c",
-          "title": "Sánchez rules out talks on Ceuta and Melilla sovereignty, reaffirms Morocco autonomy support - HESPRESS English - Morocco News",
-          "title_key": "sanchez rules out talks on ceuta and melilla sovereignty reaffirms morocco autonomy support hespress english morocco news",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMXV2U1plcl9sMTFlaEh0aW9VMXhKV3dZZlcwa3Q3cThrOGdaMWc0U2plY0hlaXY5UzBzUE9rNmJjMHdGLUVJSmduTER3VWRWTEIwOVRVdGdsZkRGZ0NnT0dYa3EyeEJLbDBOTEpHazJldHQ3LWJ1RW5KRkpQczl6cGtYZjd2LWE1T1JoSDFBdXNUOS1DdDB5RUthRXF0MmpEbG5rdkxid2s0bVdwSGJvRDQ5TzBrRk91NU51MjNJUkFZZ0FTY1E",
-          "published_at": "2026-11-09T22:04:37Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -333,6 +315,52 @@
           "official": false,
           "weight": 1.0,
           "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_a0b23dd320db0835",
+      "topic": "melilla",
+      "first_seen": "2026-11-09T12:45:57Z",
+      "last_seen": "2026-11-09T12:45:57Z",
+      "headline": "Cuca Gamarra promete que un Gobierno del PP asumirá el control de las fronteras sin delegarlo en Marruecos -",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_33b95be755ef84c5",
+          "title": "Cuca Gamarra promete que un Gobierno del PP asumirá el control de las fronteras sin delegarlo en Marruecos -",
+          "title_key": "cuca gamarra promete que un gobierno del pp asumira el control de las fronteras sin delegarlo en marruecos",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSHlJWTlfeHowRHB0V0RJQ3Y4QmYwcl9BRmlxZHdpOEI4V3hBMVg3WFRwUk9MaE05TTdDTVQ2X2hDZGN6X2RIbUNZaTRCRjdmUDl4SFVpRXI4Yzl4S3d6SG9uRnl6QzZuTG5IZVkxSFoyUms3S2NMVm10dl83X3hXMWhMaUVBRjNKMTV3MjRCcVBGY2ltWXl6c0JRMEoxVDFUUmVNX1d5MncxYTB5ZWNlaUZuOFFEeVJRQno4dDhZWDRyS3pFdEFpdXZiUUZUTGvSAdQBQVVfeXFMUHVxLXA4QkhSVlo0cm9NRmROd3htaFpYR01ybTRTTGcyVmZDeDN5a01NSFRNWVBYdVQzLUlJWjFZSWoxY29YdWk2WFdFX3NFbXhvcGZvaFpVYkdFNHFSNFNJU1JrVHJ3SVBZR2FBWXFFcWl1ZFBuY2hRaTV4THN2bGU4a0VHeGpsSXpLUGstTGN1N2trUWdKU0sxeURsZWZiS3poeFZqQVRGNzltRzZNVW1nb3pwSGR6cVlaejhCXzlFVVRubF84d3VQQzF2b3JPVVpaYkQ",
+          "published_at": "2026-11-09T12:45:57Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "melilla",
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
@@ -757,6 +785,52 @@
       "operational_eligible": false
     },
     {
+      "event_id": "evt_c0b5d7eb9df1c6e9",
+      "topic": "traffic",
+      "first_seen": "2026-11-02T08:00:00Z",
+      "last_seen": "2026-11-02T08:00:00Z",
+      "headline": "A Contested Mediterranean: What Role for the US?",
+      "classification": "ANALYSIS",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_8cd2d79fe4f13c45",
+          "title": "A Contested Mediterranean: What Role for the US?",
+          "title_key": "a contested mediterranean what role for the us",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1EdkVzajFwZGNNQmJ1bVlLb2FfTHBNbzdjS01mNjJ1by1vRUhNdk4yc0Z4cWFJUWdsZ1dJaXFNaWNoUk1VOEM3Vk5NdDJFa0tsV0U1TERmcl8wdU5MeXZJQl95RlNoVDRzV055V1hlai1wZ09Hcl9kVFdn",
+          "published_at": "2026-11-02T08:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "traffic",
+          "classification": "ANALYSIS",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 17,
+      "operational_impact": "CONTEXT",
+      "operational_eligible": false
+    },
+    {
       "event_id": "evt_b2464bb7bf0f6aa9",
       "topic": "ports",
       "first_seen": "2026-10-29T03:55:00Z",
@@ -995,6 +1069,52 @@
       "operational_eligible": false
     },
     {
+      "event_id": "evt_57148c1f1af1fd81",
+      "topic": "relations",
+      "first_seen": "2026-10-13T07:00:00Z",
+      "last_seen": "2026-10-13T07:00:00Z",
+      "headline": "España destaca su buena relación con Marruecos en plena visita de los Reyes a Ceuta",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_d62369c4420ace8a",
+          "title": "España destaca su buena relación con Marruecos en plena visita de los Reyes a Ceuta",
+          "title_key": "espana destaca su buena relacion con marruecos en plena visita de los reyes a ceuta",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYnFpcTkzRjZpSXRWVkhBMnVielRpZkdVVGo1TDNNem1wQThwYkVfWGFrYk9XMkFWcjN2SFBkY0xYWFVPM3ZsSXcwQ19QMFphUjI2WU9ZakhKUzdpTklrb0JUM0lpVm5Xd09teHFaRnlGWTRZWGpCLXM4QkhRQ2Zrb3haaFcxb2xpbm1Ic2NGMGdiM2xZNENWUnllOHpjOVJ5WGwyVy1LTnlqajY4",
+          "published_at": "2026-10-13T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
       "event_id": "evt_56414bf4c40aec20",
       "topic": "traffic",
       "first_seen": "2026-10-07T07:00:00Z",
@@ -1201,24 +1321,6 @@
       ],
       "articles": [
         {
-          "article_id": "art_565472c11b45f183",
-          "title": "El Gobierno refuerza la frontera de Melilla",
-          "title_key": "el gobierno refuerza la frontera de melilla",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQalRVQU12LTQ1QXdZb1hoUzZwTlR4QmE2ZFhUNUoydEdJWUg5Z2VtRy1zc2N1NkxxYm5FaWw2VkI1MjFMenlSVzdKandjT1paZ0ZrbmpnYm83Z1dYb3I1Ykd5bkx0Q01xQlRFaElNQXR0bENSZXFRRVNVaENaWG1PQkRxQy1POG5LOVZpcUdsbk01M1E",
-          "published_at": "2026-09-21T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
           "article_id": "art_872d0808d5207996",
           "title": "El Gobierno refuerza la frontera en Ceuta y Melilla ante los llamamientos para una nueva entrada masiva - RTVE.es",
           "title_key": "el gobierno refuerza la frontera en ceuta y melilla ante los llamamientos para una nueva entrada masiva",
@@ -1368,52 +1470,6 @@
       "importance": 30,
       "operational_impact": "POTENTIAL",
       "operational_eligible": false
-    },
-    {
-      "event_id": "evt_4588497e633eb141",
-      "topic": "traffic",
-      "first_seen": "2026-09-22T07:00:00Z",
-      "last_seen": "2026-09-22T07:00:00Z",
-      "headline": "Houthi Leverage over the Red Sea Escalates Threats for Africa",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_1d28e373b867cf97",
-          "title": "Houthi Leverage over the Red Sea Escalates Threats for Africa",
-          "title_key": "houthi leverage over the red sea escalates threats for africa",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ja0x1Q0t3cmg1aVFDeHlXNVEwUmFwQW8wc0hpZkFFeHVzQmFsSFYxTkp5Sm9MQ3p6RE9hdy1CX0pWSWFaWEpsZGl1M2RaMTNEZjVHVEMyM3B3b3RDUUsyRXdCVnZyZWlSMktJVWFxUjc",
-          "published_at": "2026-09-22T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "traffic",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
     }
   ],
   "verification_summary": {
@@ -1422,9 +1478,9 @@
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 1,
     "SINGLE_SOURCE": 2,
-    "UNCONFIRMED": 24,
-    "TOTAL": 27
+    "UNCONFIRMED": 26,
+    "TOTAL": 29
   },
   "article_count": 36,
-  "event_count": 27
+  "event_count": 29
 }

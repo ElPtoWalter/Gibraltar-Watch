@@ -1,7 +1,53 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-12T03:51:28.848715+00:00",
+  "generated_at": "2026-11-12T12:49:57.752898+00:00",
   "events": [
+    {
+      "event_id": "evt_908ae1c8999ca620",
+      "topic": "traffic",
+      "first_seen": "2026-11-12T04:22:01Z",
+      "last_seen": "2026-11-12T04:22:01Z",
+      "headline": "ENGINE: Europe & Africa Bunker Fuel Availability Outlook (11 Nov 2026)",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_1ca745dca1b36bd2",
+          "title": "ENGINE: Europe & Africa Bunker Fuel Availability Outlook (11 Nov 2026)",
+          "title_key": "engine europe africa bunker fuel availability outlook 11 nov 2026",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNVBWZ2VNbTlUdnFfOFRHekk2R2x3bFVmdHRmZzAzZnVYTDdLRUQzUzEtZWx2cUk4RmV2NVVYTXVlYnVhREZaTkJ5YnJGSF9JVkRWVGo3UU5HSGxrTkJSNXI1Y0hOSklsNU05UklzSi1QTlZkRXhNQ1QwZ3VqbXpWaXlielhuSjNDZm1RZnpuOGl2bFNEcEUtOE5QRXJJQ2I4RDZF",
+          "published_at": "2026-11-12T04:22:01Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "traffic",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
     {
       "event_id": "evt_ed9995e5ddd8b1ce",
       "topic": "relations",
@@ -297,52 +343,6 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_95dee571b598d3e0",
-      "topic": "melilla",
-      "first_seen": "2026-11-10T00:04:10Z",
-      "last_seen": "2026-11-10T00:04:10Z",
-      "headline": "¿Qué territorios reclama Marruecos y por qué?",
-      "classification": "ANALYSIS",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_94489956ce8e505a",
-          "title": "¿Qué territorios reclama Marruecos y por qué?",
-          "title_key": "que territorios reclama marruecos y por que",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBEcFk0Z0VKTXZRcXlxSmFsWmJrak8zT252MnZvU1daZGtQQWFmTmdod3l6R2E2SmxNRWJFUjRWaVVIRVFPc29MVkNuenZ0VTU1am1VUG53VVZEVXFfMG4zM01B",
-          "published_at": "2026-11-10T00:04:10Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "ANALYSIS",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 17,
-      "operational_impact": "CONTEXT",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_6e74bb0f7767fbf2",
       "topic": "relations",
       "first_seen": "2026-11-09T19:09:57Z",
@@ -573,11 +573,11 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_662b4588a91b08b1",
-      "topic": "relations",
-      "first_seen": "2026-11-06T08:11:28Z",
-      "last_seen": "2026-11-06T08:11:28Z",
-      "headline": "España y Marruecos, entre la cooperación necesaria y la desconfianza tras la crisis de Ceuta",
+      "event_id": "evt_0b88e293a4e3a238",
+      "topic": "ceuta",
+      "first_seen": "2026-11-05T13:53:10Z",
+      "last_seen": "2026-11-05T13:53:10Z",
+      "headline": "EU Rejects Calls to Suspend Financial Aid to Morocco Over Ceuta Crisis",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
@@ -596,11 +596,11 @@
       ],
       "articles": [
         {
-          "article_id": "art_5dc0fa6dda299573",
-          "title": "España y Marruecos, entre la cooperación necesaria y la desconfianza tras la crisis de Ceuta",
-          "title_key": "espana y marruecos entre la cooperacion necesaria y la desconfianza tras la crisis de ceuta",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPa2F2VzlYWVhIczctV0VkTjJjTHo4bmwtS0F3RW9GZDByUDNOZ09hc2xNTy1jM3BFdnVINm9CWVo0SjlhRklxX2VuMlo0ZzZTSDRQT1VxakRmdHIzVkRILU5ab0RpLTlDeUNjRm0tSDdORDJTeEhMSkgzMlZhWENqcWczRmhjbVN6QWo0d0lXUXBjREtNUlNMUy1mdmYteUtOWThRekY2NHlicjJHRDlaZ3JQTzE",
-          "published_at": "2026-11-06T08:11:28Z",
+          "article_id": "art_d985d70f27243afd",
+          "title": "EU Rejects Calls to Suspend Financial Aid to Morocco Over Ceuta Crisis",
+          "title_key": "eu rejects calls to suspend financial aid to morocco over ceuta crisis",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYXZ4cXZ0bEhlWExPV3RhVjJmUVMwYUcxR3pRcW5IM0dWQTkzaGx2OW42UlVhQXBPRFhYaEIyUUpLSk1nczNPX2l6aENFNGlvZlF2eDNHTWZMdnlxVVM1VWRPVl93ODlFbVFHREIyVWxjS1huUHFURWNDQUNUYkRqS0o2a1FrRFh3WmNWZURYSnpfbWpSMEY4aVBUMkVpYll4eHlVNWxGem1KSU1HNy15d005UTJHWnR0Z3dJ",
+          "published_at": "2026-11-05T13:53:10Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -608,7 +608,7 @@
           "tier": 1,
           "official": false,
           "weight": 1.0,
-          "topic": "relations",
+          "topic": "ceuta",
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
@@ -910,6 +910,52 @@
       ],
       "importance": 4,
       "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_32e3ae541840ff4b",
+      "topic": "ports",
+      "first_seen": "2026-10-21T07:00:00Z",
+      "last_seen": "2026-10-21T07:00:00Z",
+      "headline": "El puerto de Algeciras acumula más de 76 millones de toneladas de tráfico total hasta septiembre",
+      "classification": "OPERATIONAL_SIGNAL",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_fc4982ee26d09b17",
+          "title": "El puerto de Algeciras acumula más de 76 millones de toneladas de tráfico total hasta septiembre",
+          "title_key": "el puerto de algeciras acumula mas de 76 millones de toneladas de trafico total hasta septiembre",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQVU9TaWJyT2xUMXdLbFRBN002Q2lrWTJGbGI0eWdfclBHTzJhRzhUVldtYnBONGkwSUFnNHBWUnVpaE1pbi12VWhxdGtEN0hlMi1yb3JHTGhUZ0l1OVZlUnFRMVlzeW91ZGd5bm9sT3FvMEJ0WWNTVjNTVjJ2S3BxTVV6U1NERUJhMjVqYmRQZEhGb193UmltczRVZTVicTlIc2VfM3luOVpvMG9vSENyWG9KaTNEeEJoeEVRUlRGRXJtUlN6US1mUUlLdzdCUHk2cTUzUjJvN0VRSkRlVFFEenkxaDZFOVpUZC1qZlhHcFhWSURJdUxwYjkzempPWlE1d1lB0gGIAkFVX3lxTE5lbDBHbEZrbVFxeGYyRUNrV3BweDhBNFRtVGZfOHVSLWJYZUFyNnpicGY1YnlYaE9mM3lFYVNlRHl5NU92VzZqdHltZEZyVm9QZ3FXZEx0cDBqRDZBM0Q4TS1RVEhDUnhzOHo5X0ZpWWhKRGNuNGwyV3R5ZkdBM2NKS2xldDhhdURoN0Z4UFRCY1JzRlFDWEt2Nlo0bmFIVnV4a3FVRm1naTd5OGFjMU1penA2NE9PbV84RjBObFFrWEpaU2o2bDI0WGdDRDJHZEY1Y3EtQkpTTjZsQXZPTDAyS05Uc1diM0NSR21hSnFKaVo1cXFiWEVUVm5EV1ppMkJibHJLaW43Qg",
+          "published_at": "2026-10-21T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ports",
+          "classification": "OPERATIONAL_SIGNAL",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 55,
+      "operational_impact": "POTENTIAL",
       "operational_eligible": false
     },
     {
@@ -1339,6 +1385,42 @@
           "description": ""
         },
         {
+          "article_id": "art_7152aa4e0bfb687c",
+          "title": "Marruecos celebra elecciones con la frontera de Ceuta y Melilla en alerta",
+          "title_key": "marruecos celebra elecciones con la frontera de ceuta y melilla en alerta",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdWgtYmtQUERnZFFESldldTk2QXVTTC0zQUh4ZG1OX3pCdEVSdVVBNTMtMjZrOGcyQnhmcG9wMG1BVE8xSURYS1Y1djNWRkN1V3ctM3JHSzFVSXJYRG5oaW5IM21NdmF0Q2lqdnFPY0xGS2plVkZWZ0M0MkF2OUp1M0RGdy1rV3NjNjB6Sk1xWWlteGdwYmlZb0Y3NVRwWWM",
+          "published_at": "2026-09-23T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "melilla",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_2e6083360d5cd455",
+          "title": "Ceuta y Melilla en calma en fronteras con Marruecos",
+          "title_key": "ceuta y melilla en calma en fronteras con marruecos",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORGRRbDZWU1FiTjNaM3MwZC05SS1Kb1JBUVdReGVXeS10NTVBM0FTVVh2N2lPN1A4ejlwcFRNaFpDVFJ0TlQ0cGVrQmlzQmd4eTR5LVRQaHpTdWJMR0FobEdsMVp0WVVZOGlMREFqUlU0RU0wNlZnb3YxeHh3d0dQWEZ0YmNxeE5fN1JYaFFDY2NPU1BtM0RV",
+          "published_at": "2026-09-23T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "melilla",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
           "article_id": "art_a308188179b1e800",
           "title": "Google Maps representa la frontera de Ceuta y Melilla con Marruecos con una línea discontinua: ¿qué significa?",
           "title_key": "google maps representa la frontera de ceuta y melilla con marruecos con una linea discontinua que significa",
@@ -1355,120 +1437,10 @@
           "classification": "ANALYSIS",
           "signal": "",
           "description": ""
-        },
-        {
-          "article_id": "art_df9c2719c9976164",
-          "title": "La frontera de Ceuta y Melilla, blindadas y en calma el día de las elecciones en Marruecos",
-          "title_key": "la frontera de ceuta y melilla blindadas y en calma el dia de las elecciones en marruecos",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQlc1VFhTTlVTcWJTTXQzLUtTOHc1RkU2UUJQRFdVUXRfQ29Xd0F2c09uM1ZDRHQtSDNVMzF2NDhGc2RwNGVUa2JydnBHVkhxZ3F0bHM2bEpPa0p2WHpaS19MZFI5amZnam9aY0R2azc1NGIxOUFabUQ2VVFLQmpjWkJrNVFYUGtqTkRLUnZJbUpYSWdiUGFz",
-          "published_at": "2026-09-23T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
         }
       ],
       "importance": 46,
       "operational_impact": "CONTEXT",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_bb0c19be5f9481d2",
-      "topic": "ceuta",
-      "first_seen": "2026-09-22T07:00:00Z",
-      "last_seen": "2026-09-22T07:00:00Z",
-      "headline": "EPP leader warns Morocco of 'obvious consequences' over Ceuta crisis - Euronews.com",
-      "classification": "DECLARATION",
-      "verification_status": "DECLARATION_ONLY",
-      "verification_reason": "The record is a declaration and is not treated as an operational fact.",
-      "sources": [
-        {
-          "source_id": "euronews",
-          "source_name": "Euronews",
-          "source_domain": "euronews.com",
-          "tier": 3,
-          "official": false,
-          "weight": 3.0
-        }
-      ],
-      "source_ids": [
-        "euronews"
-      ],
-      "articles": [
-        {
-          "article_id": "art_3e50f3f910bb010a",
-          "title": "EPP leader warns Morocco of 'obvious consequences' over Ceuta crisis - Euronews.com",
-          "title_key": "epp leader warns morocco of obvious consequences over ceuta crisis",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPV0pJY1U5TVNNSHRaQzZJNDVIQTEzdjBTV1RwTmpHX3d4eDdiRHNjU3dleWZsLWZXclZZM2xmakJaWEN5YnJ0N3oxZXFySU50a0EwdzJrZmJSVXNGaDAzQ3ljMWtFQWNUcGNzWEpwS3ZFQ01vN0NYNnFzR09kLWZ3T0FWN2JLNjNJOWhwYWxucVNDZ0RfWGtTY252U01kZ0RaWVZfdTBJWQ",
-          "published_at": "2026-09-22T07:00:00Z",
-          "observed_at": "",
-          "source_id": "euronews",
-          "source_name": "Euronews",
-          "source_domain": "euronews.com",
-          "tier": 3,
-          "official": false,
-          "weight": 3.0,
-          "topic": "ceuta",
-          "classification": "DECLARATION",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 30,
-      "operational_impact": "POTENTIAL",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_4588497e633eb141",
-      "topic": "traffic",
-      "first_seen": "2026-09-22T07:00:00Z",
-      "last_seen": "2026-09-22T07:00:00Z",
-      "headline": "Houthi Leverage over the Red Sea Escalates Threats for Africa",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_1d28e373b867cf97",
-          "title": "Houthi Leverage over the Red Sea Escalates Threats for Africa",
-          "title_key": "houthi leverage over the red sea escalates threats for africa",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ja0x1Q0t3cmg1aVFDeHlXNVEwUmFwQW8wc0hpZkFFeHVzQmFsSFYxTkp5Sm9MQ3p6RE9hdy1CX0pWSWFaWEpsZGl1M2RaMTNEZjVHVEMyM3B3b3RDUUsyRXdCVnZyZWlSMktJVWFxUjc",
-          "published_at": "2026-09-22T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "traffic",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
       "operational_eligible": false
     }
   ],
@@ -1476,11 +1448,11 @@
     "CONFIRMED_MULTI_SOURCE": 0,
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
-    "DECLARATION_ONLY": 1,
+    "DECLARATION_ONLY": 0,
     "SINGLE_SOURCE": 1,
     "UNCONFIRMED": 27,
-    "TOTAL": 29
+    "TOTAL": 28
   },
   "article_count": 36,
-  "event_count": 29
+  "event_count": 28
 }

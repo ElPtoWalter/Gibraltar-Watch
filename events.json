@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-12T20:52:38.414272+00:00",
+  "generated_at": "2026-11-13T01:53:19.627773+00:00",
   "events": [
     {
       "event_id": "evt_ed9995e5ddd8b1ce",
@@ -95,52 +95,6 @@
           "title_key": "albert rivera reaparece y alerta de una accion hibrida de marruecos para invadir ceuta y melilla",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUUNsSk9aMy1KTnplRG1pc0RVY2FISEJ3RnZtYnlYVEhLMHZKSnRZR1NXbU45M0FTM2RPeW02NmtMMFByZ0g3SC1WY0hZMXUza05ibDFyTWxzZEtNN0pBa0J4dmpmV1lsZnB3Nm5rUWZPYklXNVNHcDRwbUhhWU1fUVFLQURRVG1WbzhVVjZKSzZBS04tYXRDQmV0ZFZSUm5uMkI4OEU1am8zZDhidEtfY0JwTEQ",
           "published_at": "2026-11-11T19:01:47Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_df63874000b50c0c",
-      "topic": "melilla",
-      "first_seen": "2026-11-10T15:01:23Z",
-      "last_seen": "2026-11-10T15:01:23Z",
-      "headline": "Problemas para los marroquíes que necesitan trabajar en Melilla",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_4b67297227666b70",
-          "title": "Problemas para los marroquíes que necesitan trabajar en Melilla",
-          "title_key": "problemas para los marroquies que necesitan trabajar en melilla",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUEp3cWpueXEzS2phWEpyRmh3RjV2cmVvbnFUUlZ1OC1GVTA2WjN4X0szNnhCa0xIRy1UQzQ0UERaM3Bkc0FXQ0IxUGt6MExzZWtVdndobHFvVGt1V0xJazluSEhTTGZmZFo5YVMxNlRPSFpSZWNPbEtIck8xZDZYMl94ZjdmWGZtWWwwcndqb1J5SEUzSjlhQlhzRGdyRjZ2Q0p6NmVOMTlhRE52RFdTdmc1Y0J2UlBtSkx30gHPAUFVX3lxTE5xZ2ZJMzhmajRwRXpsZWotdU93ZXBfWnYzN0xKV0VDVmpIWGIyREozYks0SG9hZ2xfTG5va3dHMEhWaWw3Y21JbTFqNlgyZmJRN0NrX0thR1N0cXBEUEtQUjNpbDFmWURmajgyNVRCZUZhckZwd1oyTnZwVHdGN3MyRFh6ZEhJVGs3ZkdMUmRZd1ZkNklHU0xaeDBmSkFrUDVfeDRjSGlzMVpadXgta3ZiTFpuM2FjVGVOanlHWS1VbWhiZmMyRjB5T3BwV2pqVQ",
-          "published_at": "2026-11-10T15:01:23Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -527,52 +481,6 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_343633c4aba2fb6a",
-      "topic": "ports",
-      "first_seen": "2026-11-04T11:01:26Z",
-      "last_seen": "2026-11-04T11:01:26Z",
-      "headline": "Marruecos conquista el tráfico marítimo del Estrecho mientras el puerto de Algeciras sigue estancado esperando su tren",
-      "classification": "OPERATIONAL_SIGNAL",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_b74fa53fa2ea9d75",
-          "title": "Marruecos conquista el tráfico marítimo del Estrecho mientras el puerto de Algeciras sigue estancado esperando su tren",
-          "title_key": "marruecos conquista el trafico maritimo del estrecho mientras el puerto de algeciras sigue estancado esperando su tren",
-          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNSFhHSGtNVzFaeGRRU25lRkVwaVVtSVlQR0d6a1hDR1JnY09MVHgzN2RFRVRDNUVzb2lkUWNZWVJsRHVlMDcwakQ2ekl6NmFGVk5fUnN3VHFrTG10WlBaYVE4OE4ycDZGZUZyMTNreFg4Y2dvV3E2M1Bld2c0ZWJmcDA4OXlTNGotQTR0Qlo1SHMtUXlBVm4yZnpWNHl4T3RUb09EVnFfMHZZSEg3RWc0cmZaRWgyRlBYeEZybUVuZ29GNkEyaTdJVkdPMzIwdXUzQkozTmJVNkszRG16ZHNrelV5N3NkVTJlQlBuNzZuanZmVzFGT3c",
-          "published_at": "2026-11-04T11:01:26Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ports",
-          "classification": "OPERATIONAL_SIGNAL",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 55,
-      "operational_impact": "POTENTIAL",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_c0b5d7eb9df1c6e9",
       "topic": "traffic",
       "first_seen": "2026-11-02T08:00:00Z",
@@ -726,6 +634,52 @@
       ],
       "importance": 4,
       "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_32e3ae541840ff4b",
+      "topic": "ports",
+      "first_seen": "2026-10-21T07:00:00Z",
+      "last_seen": "2026-10-21T07:00:00Z",
+      "headline": "El puerto de Algeciras acumula más de 76 millones de toneladas de tráfico total hasta septiembre",
+      "classification": "OPERATIONAL_SIGNAL",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_fc4982ee26d09b17",
+          "title": "El puerto de Algeciras acumula más de 76 millones de toneladas de tráfico total hasta septiembre",
+          "title_key": "el puerto de algeciras acumula mas de 76 millones de toneladas de trafico total hasta septiembre",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQVU9TaWJyT2xUMXdLbFRBN002Q2lrWTJGbGI0eWdfclBHTzJhRzhUVldtYnBONGkwSUFnNHBWUnVpaE1pbi12VWhxdGtEN0hlMi1yb3JHTGhUZ0l1OVZlUnFRMVlzeW91ZGd5bm9sT3FvMEJ0WWNTVjNTVjJ2S3BxTVV6U1NERUJhMjVqYmRQZEhGb193UmltczRVZTVicTlIc2VfM3luOVpvMG9vSENyWG9KaTNEeEJoeEVRUlRGRXJtUlN6US1mUUlLdzdCUHk2cTUzUjJvN0VRSkRlVFFEenkxaDZFOVpUZC1qZlhHcFhWSURJdUxwYjkzempPWlE1d1lB0gGIAkFVX3lxTE5lbDBHbEZrbVFxeGYyRUNrV3BweDhBNFRtVGZfOHVSLWJYZUFyNnpicGY1YnlYaE9mM3lFYVNlRHl5NU92VzZqdHltZEZyVm9QZ3FXZEx0cDBqRDZBM0Q4TS1RVEhDUnhzOHo5X0ZpWWhKRGNuNGwyV3R5ZkdBM2NKS2xldDhhdURoN0Z4UFRCY1JzRlFDWEt2Nlo0bmFIVnV4a3FVRm1naTd5OGFjMU1penA2NE9PbV84RjBObFFrWEpaU2o2bDI0WGdDRDJHZEY1Y3EtQkpTTjZsQXZPTDAyS05Uc1diM0NSR21hSnFKaVo1cXFiWEVUVm5EV1ppMkJibHJLaW43Qg",
+          "published_at": "2026-10-21T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ports",
+          "classification": "OPERATIONAL_SIGNAL",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 55,
+      "operational_impact": "POTENTIAL",
       "operational_eligible": false
     },
     {
@@ -1385,6 +1339,52 @@
       ],
       "importance": 4,
       "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_ff951d3684a19292",
+      "topic": "ports",
+      "first_seen": "2026-09-13T07:00:00Z",
+      "last_seen": "2026-09-13T07:00:00Z",
+      "headline": "Tánger Med destrona al Puerto de Algeciras como señor del Estrecho",
+      "classification": "OPERATIONAL_SIGNAL",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_e76543d2bd79577c",
+          "title": "Tánger Med destrona al Puerto de Algeciras como señor del Estrecho",
+          "title_key": "tanger med destrona al puerto de algeciras como senor del estrecho",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcjZyNnpXOWFEM01UTDlvTTZyWGFYZHhOcnBNcUpRcDQwdnJNSDZxVVdrRWU1ZTdPTWxWeEpTaFdody1GLV9OT1M5T2p6S19hdF9RZDNwYnRmdF9Ta0FfdVhFQkxCQkZ6eFdjYTNhZWFfOGVmSGxyc1V1S1lyMzFUWENsSGRDdTR1OWQ4R2tsMVp5Q2poZ1lrdExwVWRoLTNRWnZNVHFJcEhwU01PT1pjNNIBtgFBVV95cUxOVnFOd0VjRy1jTVdsOV90dEsyYi1iRHBGeXZNN0JPX0tfTVdNMURKS3dZOTRSVkNVWVpDRUJ2dGo1RVQ0aURwZFc0YWxJbnNHLVZwNkN4V2xHSkhsZzZncW5lcWp4TlB2aEhaZDBjU053Ri1Hbk4zaVQ2c3ZubWcyZmpHTF9ZaWV5Skx5VnFuSDI2YmpkenFCdUduUC0yS2xVU2tkLS1PRnJBcmwtY1VwakFTLUQwdw",
+          "published_at": "2026-09-13T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ports",
+          "classification": "OPERATIONAL_SIGNAL",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 55,
+      "operational_impact": "POTENTIAL",
       "operational_eligible": false
     }
   ],

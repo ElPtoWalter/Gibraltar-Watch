@@ -1,37 +1,40 @@
 {
-  "date": "2026-11-12",
-  "headline": "España–Marruecos: qué aportan los titulares y qué falta comprobar",
-  "summary": "Selección automática de 4 referencias de 4 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
-  "published_at": "2026-11-12T16:14+01:00",
-  "updated_at": "2026-11-12T16:14+01:00",
-  "source_count": 4,
+  "date": "2026-11-13",
+  "headline": "Estrecho de Gibraltar: sin novedades suficientes para una nueva crónica",
+  "summary": "Selección automática de 0 referencias de 0 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+  "published_at": "2026-11-13T15:34+01:00",
+  "updated_at": "2026-11-13T15:34+01:00",
+  "source_count": 0,
   "indexable": false,
-  "edition_label": "Cuaderno diplomático",
-  "edition_slug": "relations",
-  "fingerprint": "4cbab00095cddce839af",
+  "edition_label": "Cuaderno del Estrecho",
+  "edition_slug": "general",
+  "fingerprint": "8084d964f404da90f211",
   "editor_engine": "rules",
-  "editor_assistant_status": "gemini-http-503",
-  "assistant_status": "gemini-http-503",
+  "editor_assistant_status": "insufficient-sources",
+  "assistant_status": "insufficient-sources",
   "validator_version": 2,
-  "factual_packet_hash": "d11564667fc4dfeeb4ff0361f14f6c002548b8f9bf57ea6a7d4725c12ddb3fc1",
+  "factual_packet_hash": "66eb1937c8f4b4de07e662bebde7fb1f2ed916a0188f8b040a7a0764a83a58ae",
   "event_ids": [
-    "evt_685fb6bfca8ef427"
+    "evt_685fb6bfca8ef427",
+    "evt_bb0c19be5f9481d2",
+    "evt_f71c9674a17bfc23"
   ],
   "source_ids": [
+    "euronews",
     "rtve",
     "unknown"
   ],
-  "timestamp": "2026-11-12T15:14:32.020696+00:00",
+  "timestamp": "2026-11-13T14:34:47.010421+00:00",
   "fallback_used": true,
   "verification_summary": {
     "CONFIRMED_MULTI_SOURCE": 0,
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
-    "DECLARATION_ONLY": 0,
-    "SINGLE_SOURCE": 1,
-    "UNCONFIRMED": 27,
-    "TOTAL": 28
+    "DECLARATION_ONLY": 1,
+    "SINGLE_SOURCE": 2,
+    "UNCONFIRMED": 22,
+    "TOTAL": 25
   },
-  "date_label": "2026-11-12",
+  "date_label": "2026-11-13",
   "slug": "actual.html"
 }

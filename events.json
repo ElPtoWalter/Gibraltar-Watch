@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-14T14:13:51.229587+00:00",
+  "generated_at": "2026-11-14T19:14:04.462276+00:00",
   "events": [
     {
       "event_id": "evt_378e33a1cf270138",
@@ -167,52 +167,6 @@
           "official": false,
           "weight": 1.0,
           "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_df63874000b50c0c",
-      "topic": "melilla",
-      "first_seen": "2026-11-10T15:01:23Z",
-      "last_seen": "2026-11-10T15:01:23Z",
-      "headline": "Problemas para los marroquíes que necesitan trabajar en Melilla",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_4b67297227666b70",
-          "title": "Problemas para los marroquíes que necesitan trabajar en Melilla",
-          "title_key": "problemas para los marroquies que necesitan trabajar en melilla",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUEp3cWpueXEzS2phWEpyRmh3RjV2cmVvbnFUUlZ1OC1GVTA2WjN4X0szNnhCa0xIRy1UQzQ0UERaM3Bkc0FXQ0IxUGt6MExzZWtVdndobHFvVGt1V0xJazluSEhTTGZmZFo5YVMxNlRPSFpSZWNPbEtIck8xZDZYMl94ZjdmWGZtWWwwcndqb1J5SEUzSjlhQlhzRGdyRjZ2Q0p6NmVOMTlhRE52RFdTdmc1Y0J2UlBtSkx30gHPAUFVX3lxTE5xZ2ZJMzhmajRwRXpsZWotdU93ZXBfWnYzN0xKV0VDVmpIWGIyREozYks0SG9hZ2xfTG5va3dHMEhWaWw3Y21JbTFqNlgyZmJRN0NrX0thR1N0cXBEUEtQUjNpbDFmWURmajgyNVRCZUZhckZwd1oyTnZwVHdGN3MyRFh6ZEhJVGs3ZkdMUmRZd1ZkNklHU0xaeDBmSkFrUDVfeDRjSGlzMVpadXgta3ZiTFpuM2FjVGVOanlHWS1VbWhiZmMyRjB5T3BwV2pqVQ",
-          "published_at": "2026-11-10T15:01:23Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
@@ -591,52 +545,6 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_206a79f954e6d249",
-      "topic": "melilla",
-      "first_seen": "2026-11-08T04:00:00Z",
-      "last_seen": "2026-11-08T04:00:00Z",
-      "headline": "General Ballesteros, exjefe de Seguridad Nacional: \"Marruecos tiene una estrategia híbrida para Ceuta y Melilla y se está rearmando hasta los dientes\"",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_3a5d442a886063d0",
-          "title": "General Ballesteros, exjefe de Seguridad Nacional: \"Marruecos tiene una estrategia híbrida para Ceuta y Melilla y se está rearmando hasta los dientes\"",
-          "title_key": "general ballesteros exjefe de seguridad nacional marruecos tiene una estrategia hibrida para ceuta y melilla y se esta rearmando hasta los dientes",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZU1PMnpCNWdSYldQclM2UjVYaXc5R1VmTE1FYURvUDk4a0pGQW1ZazBjaXF1cFh2OGM3MHlxQ19lNFhVZXRZd0EwWV9TQnIxMGpfaUhaR1NtU3RxT1VsdEFoM1JsY2hZd3lzT1huSi1mS0RaaFBNLVQyYWxTM1pOSTRWUERWd245UEgyQW1ZZF8tMHBVc25WWTFZaVhGOVBlV1ZFN1M4eHBjNGVMSnVTWjlNU2U",
-          "published_at": "2026-11-08T04:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_343633c4aba2fb6a",
       "topic": "ports",
       "first_seen": "2026-11-04T08:00:00Z",
@@ -775,6 +683,52 @@
       "operational_eligible": false
     },
     {
+      "event_id": "evt_32e3ae541840ff4b",
+      "topic": "ports",
+      "first_seen": "2026-10-21T07:00:00Z",
+      "last_seen": "2026-10-21T07:00:00Z",
+      "headline": "El puerto de Algeciras acumula más de 76 millones de toneladas de tráfico total hasta septiembre",
+      "classification": "OPERATIONAL_SIGNAL",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_fc4982ee26d09b17",
+          "title": "El puerto de Algeciras acumula más de 76 millones de toneladas de tráfico total hasta septiembre",
+          "title_key": "el puerto de algeciras acumula mas de 76 millones de toneladas de trafico total hasta septiembre",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQVU9TaWJyT2xUMXdLbFRBN002Q2lrWTJGbGI0eWdfclBHTzJhRzhUVldtYnBONGkwSUFnNHBWUnVpaE1pbi12VWhxdGtEN0hlMi1yb3JHTGhUZ0l1OVZlUnFRMVlzeW91ZGd5bm9sT3FvMEJ0WWNTVjNTVjJ2S3BxTVV6U1NERUJhMjVqYmRQZEhGb193UmltczRVZTVicTlIc2VfM3luOVpvMG9vSENyWG9KaTNEeEJoeEVRUlRGRXJtUlN6US1mUUlLdzdCUHk2cTUzUjJvN0VRSkRlVFFEenkxaDZFOVpUZC1qZlhHcFhWSURJdUxwYjkzempPWlE1d1lB0gGIAkFVX3lxTE5lbDBHbEZrbVFxeGYyRUNrV3BweDhBNFRtVGZfOHVSLWJYZUFyNnpicGY1YnlYaE9mM3lFYVNlRHl5NU92VzZqdHltZEZyVm9QZ3FXZEx0cDBqRDZBM0Q4TS1RVEhDUnhzOHo5X0ZpWWhKRGNuNGwyV3R5ZkdBM2NKS2xldDhhdURoN0Z4UFRCY1JzRlFDWEt2Nlo0bmFIVnV4a3FVRm1naTd5OGFjMU1penA2NE9PbV84RjBObFFrWEpaU2o2bDI0WGdDRDJHZEY1Y3EtQkpTTjZsQXZPTDAyS05Uc1diM0NSR21hSnFKaVo1cXFiWEVUVm5EV1ppMkJibHJLaW43Qg",
+          "published_at": "2026-10-21T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ports",
+          "classification": "OPERATIONAL_SIGNAL",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 55,
+      "operational_impact": "POTENTIAL",
+      "operational_eligible": false
+    },
+    {
       "event_id": "evt_57f22cddd2e775e6",
       "topic": "relations",
       "first_seen": "2026-10-13T07:00:00Z",
@@ -803,24 +757,6 @@
           "title_key": "in first visit to ceuta spain s king asks for good faith from morocco after migration crisis",
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdDBQbGxLajMtN29QX3JRYzE0c1RFSDZ4M1YtWDlhMzlvc194T0x1THJlX1hyRFZHQWtSczhRYnlKdlB1eUhCRnIwR0dJZFJMNU0xV01CbzlGTnd5eDhsaVpNUU4zbkFSSXd5SjVua2M1TVFRSzVZc01aQWlOdzRfTzFyanY0NE8xc0VES0VSNVhZYjREWlBDQnE4OS10ZE54eENIaUNPM1h4aUl1cXFKRk5pdmtkN0hqTnF3Y1U3NlQ1c3Rp0gHKAUFVX3lxTE1aMHNoeEpJWmpIY1BGOC1wckhldUd6bkU4bkhNanhCaW01SFRjXzJsQkxRZmp1OGdNZXgxYXNrRzNzdkxIWjQ2VFJxM1ZYVm5EbTBremM2Z01qTXVXSDRvNGVuSlVqaWJIR2FnbVFKeFptSkJ2R1NQYW5xMUh5aFNBdEs1Q2RFaUFLZDdaaDlMRml3Nkw5dEo3emJlRnEtZ1ZmSU1jb1IyZDJSVkt2WjJiYmJTemRZVGswZ1hvTlBPU1JxOU9ybi0xTkE",
           "published_at": "2026-10-13T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_cfdc879e12832c43",
-          "title": "Spain’s king reasserts sovereignty over Ceuta, Melilla as Morocco remains silent",
-          "title_key": "spain s king reasserts sovereignty over ceuta melilla as morocco remains silent",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWlJUbFZoWURNNkl6VFN1UGlmU0NHa1VmUGdlY09vY3A1RFR3T1R2blV0WFRQTFN3R0llVklPV2s4ZFd0YlVqZUxMbmh5N0pibzV2dVJuWDZUVURKUjc1UUt6d1VKeERGckpaV3ljMldyVHlVckdwcXd3OTBwWUJtV0gtMnh0em9HU0pBMnQ2N21LYlh5dDJPWDl1cHJRZ1R0cnQ4Tm1qcXR1UG5OSG1kWk55QlJkbUUwTi0wTUZ6OA",
-          "published_at": "2026-10-14T07:00:00Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -1414,6 +1350,79 @@
       "importance": 55,
       "operational_impact": "POTENTIAL",
       "operational_eligible": false
+    },
+    {
+      "event_id": "evt_f71c9674a17bfc23",
+      "topic": "relations",
+      "first_seen": "2026-09-10T07:00:00Z",
+      "last_seen": "2026-09-10T07:00:00Z",
+      "headline": "Marruecos rechaza ser \"chivo expiatorio\" en la política e insiste en que no hay pruebas de su implicación en Ceuta - RTVE.es",
+      "classification": "FACT",
+      "verification_status": "SINGLE_SOURCE",
+      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
+      "sources": [
+        {
+          "source_id": "rtve",
+          "source_name": "RTVE",
+          "source_domain": "rtve.es",
+          "tier": 4,
+          "official": false,
+          "weight": 4.0
+        },
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "rtve",
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_caaa080a8729d2f8",
+          "title": "Marruecos rechaza ser \"chivo expiatorio\" en la política e insiste en que no hay pruebas de su implicación en Ceuta - RTVE.es",
+          "title_key": "marruecos rechaza ser chivo expiatorio en la politica e insiste en que no hay pruebas de su implicacion en ceuta",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdkRQZGxjNzR1VE13TC1ZNE5TV044RE1tMm5ZR2dSNnQ2ZFgwS1ZsSDdYVlZGNVY2bVh0VTZNZEotMVpmY0lUTEQ1R09JRU9JazhzSGVqX0I1ZktrejdWTzliWmpVQ204UHFIdVVzVjhsZl80RldMRkQ1ZGxxMmxLbG4yTzJRUW1nSFU1OURQa21JYWFlYTByOA",
+          "published_at": "2026-09-10T07:00:00Z",
+          "observed_at": "",
+          "source_id": "rtve",
+          "source_name": "RTVE",
+          "source_domain": "rtve.es",
+          "tier": 4,
+          "official": false,
+          "weight": 4.0,
+          "topic": "relations",
+          "classification": "FACT",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_04c62a76fdffd78f",
+          "title": "Marruecos defiende la relación con España y rechaza las acusaciones sobre Ceuta",
+          "title_key": "marruecos defiende la relacion con espana y rechaza las acusaciones sobre ceuta",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOa1AwN0YwMlMwSzE0N2cwTVQ3R3NlRHRGS3R2bnNkZFAwRHZnMEF5M2FKcThMelpxVnhCX1A1QU1hQVBqT3U2QmZ4YVRsa1RrbmhFX3BjdEVkY2x0NGJhWFN2NjZWSHRNNnoyMy1mZjVjZ2MwaTRKYkpqMUVDUENYTmlOYjVaWVktal9aZVhNZUNRcFF2VWVUTkF6X2Z3TEZIQl9nRW55N3F1cXM4UGlxNUQ5V0RCbzBmZDk5emNXWW14RV9QQmV1MWpB0gHPAUFVX3lxTFB5MnBQbHVNeFR6aHdqVXppa3dzeGdjTXpSc3lwWWhzS2RoR2NGMm1vQjVOeWNJeGdDNy1vcWszajlhQjFWZGQyTHdrN3BpNUJvb2VfWkIybHM1c25UZzAyU0diQUNLVG1OREg2eklSXzVsYjZCVGFBa05tcnpiU0hvN3k0MklLRVRaWXFyQzE2eFktd1c0Mk85aGpCVEtVcDVOOW5mcDVYbndydWRYQUVUdl9tVVBSZHJRaDdDUGhzb3N0QS1rMEkyVWFfd2ZZYw",
+          "published_at": "2026-09-10T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 46,
+      "operational_impact": "CONTEXT",
+      "operational_eligible": false
     }
   ],
   "verification_summary": {
@@ -1421,8 +1430,8 @@
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 1,
-    "SINGLE_SOURCE": 2,
-    "UNCONFIRMED": 24,
+    "SINGLE_SOURCE": 3,
+    "UNCONFIRMED": 23,
     "TOTAL": 27
   },
   "article_count": 36,

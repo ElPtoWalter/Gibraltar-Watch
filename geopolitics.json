@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generated_at": "2026-11-14T06:35:06.378722+00:00",
+  "generated_at": "2026-11-14T14:13:46.002168+00:00",
   "language_default": "es",
   "status": {
     "maritime_status": {
@@ -20,9 +20,9 @@
       "en": "There are not enough recent signals to raise the level."
     },
     "border_watch": {
-      "last_signal_at": "2026-11-11T19:01:47+00:00",
-      "hold_until": "2026-11-13T19:01:47+00:00",
-      "signal_sources": 1,
+      "last_signal_at": null,
+      "hold_until": null,
+      "signal_sources": 0,
       "hold_hours": 48
     },
     "bilateral_tension": {
@@ -83,16 +83,6 @@
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQNXc3emlqR0ppT0k0ckJFMDBrdXNIN0hiN2RPR0owdF94MGhyQUtXbDAxLUU3bVJJZGVCZk0wRnBleS0wVDlMaEFlRWkwWVBZSk83MUFmWHpRbzRBelJIXzJSOERjQVBEOXhjZUNZTHhGa001VjU0LVlRQVRaazA1N0dSZV9zbDB3cG81VjNTdDFLSkRQd2ltY3k5SVhCWHA4S2F0NlRsOXRzaXF5TmZ1OFFxTE9Fd3JJckVJU1l5QjN6V1ljY1FRdTFxcEQxajB2OVJqMkRDZFAtQkNadW9Z0gHkAUFVX3lxTE1ldEItd3d6OE5tYUI0MG05Ql9wZVJ0dDg1Wlk4clZiYkRsQkpabHRscWhnVEtoNHQycTNFNU1uYVZpSzdOa2I0b1ZfSnlYeU42S0c1bFBtTlhwei1hc0NvR19EU2d0MTlPYl96SnJlR3hSSnl0Zmt6N2MtOW5fY2dwTExReVpYMjFIY0g2ZzZ6cFBuVWlXYnhEXzhFVGtMWUVQbHpBMkQtUzVPSXg5SG9UZ0FYOFlEdkJtTkZ5ZVRWdFpOVnNVS1NSQU9oenB6RmhrZ1RaZnZ0eGxBaHFPX0FPNkptTQ",
       "published_at": "2026-11-11T23:22:39+00:00",
       "category": "relations",
-      "language": "es",
-      "weight": 2,
-      "source_id": "unknown"
-    },
-    {
-      "title": "Albert Rivera reaparece y alerta de una “acción híbrida de Marruecos para invadir Ceuta y Melilla”",
-      "source": "El Faro de Ceuta",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUUNsSk9aMy1KTnplRG1pc0RVY2FISEJ3RnZtYnlYVEhLMHZKSnRZR1NXbU45M0FTM2RPeW02NmtMMFByZ0g3SC1WY0hZMXUza05ibDFyTWxzZEtNN0pBa0J4dmpmV1lsZnB3Nm5rUWZPYklXNVNHcDRwbUhhWU1fUVFLQURRVG1WbzhVVjZKSzZBS04tYXRDQmV0ZFZSUm5uMkI4OEU1am8zZDhidEtfY0JwTEQ",
-      "published_at": "2026-11-11T19:01:47+00:00",
-      "category": "melilla",
       "language": "es",
       "weight": 2,
       "source_id": "unknown"
@@ -208,12 +198,12 @@
       "source_id": "unknown"
     },
     {
-      "title": "EU Rejects Calls to Suspend Financial Aid to Morocco Over Ceuta Crisis",
-      "source": "Morocco World News",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYXZ4cXZ0bEhlWExPV3RhVjJmUVMwYUcxR3pRcW5IM0dWQTkzaGx2OW42UlVhQXBPRFhYaEIyUUpLSk1nczNPX2l6aENFNGlvZlF2eDNHTWZMdnlxVVM1VWRPVl93ODlFbVFHREIyVWxjS1huUHFURWNDQUNUYkRqS0o2a1FrRFh3WmNWZURYSnpfbWpSMEY4aVBUMkVpYll4eHlVNWxGem1KSU1HNy15d005UTJHWnR0Z3dJ",
-      "published_at": "2026-11-05T13:53:10+00:00",
-      "category": "ceuta",
-      "language": "en",
+      "title": "Marruecos conquista el tráfico marítimo del Estrecho mientras el puerto de Algeciras sigue estancado esperando su tren",
+      "source": "Diario Área Campo de Gibraltar",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNSFhHSGtNVzFaeGRRU25lRkVwaVVtSVlQR0d6a1hDR1JnY09MVHgzN2RFRVRDNUVzb2lkUWNZWVJsRHVlMDcwakQ2ekl6NmFGVk5fUnN3VHFrTG10WlBaYVE4OE4ycDZGZUZyMTNreFg4Y2dvV3E2M1Bld2c0ZWJmcDA4OXlTNGotQTR0Qlo1SHMtUXlBVm4yZnpWNHl4T3RUb09EVnFfMHZZSEg3RWc0cmZaRWgyRlBYeEZybUVuZ29GNkEyaTdJVkdPMzIwdXUzQkozTmJVNkszRG16ZHNrelV5N3NkVTJlQlBuNzZuanZmVzFGT3c",
+      "published_at": "2026-11-04T08:00:00+00:00",
+      "category": "ports",
+      "language": "es",
       "weight": 2,
       "source_id": "unknown"
     },
@@ -404,6 +394,16 @@
       "published_at": "2026-09-22T07:00:00+00:00",
       "category": "traffic",
       "language": "en",
+      "weight": 2,
+      "source_id": "unknown"
+    },
+    {
+      "title": "Tánger Med destrona al Puerto de Algeciras como señor del Estrecho",
+      "source": "El Diario Vasco",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcjZyNnpXOWFEM01UTDlvTTZyWGFYZHhOcnBNcUpRcDQwdnJNSDZxVVdrRWU1ZTdPTWxWeEpTaFdody1GLV9OT1M5T2p6S19hdF9RZDNwYnRmdF9Ta0FfdVhFQkxCQkZ6eFdjYTNhZWFfOGVmSGxyc1V1S1lyMzFUWENsSGRDdTR1OWQ4R2tsMVp5Q2poZ1lrdExwVWRoLTNRWnZNVHFJcEhwU01PT1pjNNIBtgFBVV95cUxOVnFOd0VjRy1jTVdsOV90dEsyYi1iRHBGeXZNN0JPX0tfTVdNMURKS3dZOTRSVkNVWVpDRUJ2dGo1RVQ0aURwZFc0YWxJbnNHLVZwNkN4V2xHSkhsZzZncW5lcWp4TlB2aEhaZDBjU053Ri1Hbk4zaVQ2c3ZubWcyZmpHTF9ZaWV5Skx5VnFuSDI2YmpkenFCdUduUC0yS2xVU2tkLS1PRnJBcmwtY1VwakFTLUQwdw",
+      "published_at": "2026-09-13T07:00:00+00:00",
+      "category": "ports",
+      "language": "es",
       "weight": 2,
       "source_id": "unknown"
     }

@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-13T23:38:10.618133+00:00",
+  "generated_at": "2026-11-14T06:35:12.146414+00:00",
   "events": [
     {
       "event_id": "evt_378e33a1cf270138",
       "topic": "ceuta",
       "first_seen": "2026-11-13T14:18:13Z",
-      "last_seen": "2026-11-13T14:18:13Z",
+      "last_seen": "2026-11-13T14:15:00Z",
       "headline": "Ceuta crisis: People’s Party leader raises prospect of deploying troops to the border with Morocco",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
@@ -30,7 +30,7 @@
           "title": "Ceuta crisis: People’s Party leader raises prospect of deploying troops to the border with Morocco",
           "title_key": "ceuta crisis people s party leader raises prospect of deploying troops to the border with morocco",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQ0Q5bEdoSHVKaFBTWnF6dS1FeHlIeHFPQVd5cnpDRmNudm5vOHJFVHo5MDRMR2tDN2Z3alFzVHYxMzlTSnZzWXViVHFvSmhNSFVOeUE2eE9XOUpWYTZjOFpwMEF5MWFLSlZ4cUh2YnR0TEdZUlk4SExwZUJfTUN1ay0xZGJOaDZrQmNrMFJySXg",
-          "published_at": "2026-11-13T14:18:13Z",
+          "published_at": "2026-11-13T14:15:00Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -98,8 +98,8 @@
       "event_id": "evt_ed9995e5ddd8b1ce",
       "topic": "relations",
       "first_seen": "2026-11-11T10:19:00Z",
-      "last_seen": "2026-11-11T23:22:39Z",
-      "headline": "La reflexión de Santiago Abascal sobre las relaciones entre España y Marruecos: «Es imposible cuando entran...",
+      "last_seen": "2026-11-13T08:37:00Z",
+      "headline": "Ada Colau, en la entrevista con Jordi Wild, sobre el papel de Marruecos en la crisis de Ceuta: \"Hay que revisar las relaciones. Quiero pensar que se esté haciendo desde la discreción\"",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
@@ -152,6 +152,24 @@
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
+        },
+        {
+          "article_id": "art_f6addf665c8e577d",
+          "title": "Ada Colau, en la entrevista con Jordi Wild, sobre el papel de Marruecos en la crisis de Ceuta: \"Hay que revisar las relaciones. Quiero pensar que se esté haciendo desde la discreción\"",
+          "title_key": "ada colau en la entrevista con jordi wild sobre el papel de marruecos en la crisis de ceuta hay que revisar las relaciones quiero pensar que se este haciendo desde la discrecion",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNN1AyMFZZQlY5M1c1UHlvdkl3RXBwMXFlZnByVkI5dFUwTjRVVG5lS2dPblh2X0xGNnV0UzhyZlZndDYzOHVfc0VETmNKS1BZNVJLWlotUGw4NUE5UUdia2FrVHZSSDdSYTZXSnVxZFFsdVNfNi1qckVncmlqRHltdzBGTU9tV1ZBYXJGWUJNT3dDQkxxYkZPQV9KV1FNQ2dJWHVnRVFaRzBmYmc3Nmdz",
+          "published_at": "2026-11-13T08:37:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
         }
       ],
       "importance": 4,
@@ -187,6 +205,52 @@
           "title_key": "albert rivera reaparece y alerta de una accion hibrida de marruecos para invadir ceuta y melilla",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUUNsSk9aMy1KTnplRG1pc0RVY2FISEJ3RnZtYnlYVEhLMHZKSnRZR1NXbU45M0FTM2RPeW02NmtMMFByZ0g3SC1WY0hZMXUza05ibDFyTWxzZEtNN0pBa0J4dmpmV1lsZnB3Nm5rUWZPYklXNVNHcDRwbUhhWU1fUVFLQURRVG1WbzhVVjZKSzZBS04tYXRDQmV0ZFZSUm5uMkI4OEU1am8zZDhidEtfY0JwTEQ",
           "published_at": "2026-11-11T19:01:47Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "melilla",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_df63874000b50c0c",
+      "topic": "melilla",
+      "first_seen": "2026-11-10T15:01:23Z",
+      "last_seen": "2026-11-10T15:01:23Z",
+      "headline": "Problemas para los marroquíes que necesitan trabajar en Melilla",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_4b67297227666b70",
+          "title": "Problemas para los marroquíes que necesitan trabajar en Melilla",
+          "title_key": "problemas para los marroquies que necesitan trabajar en melilla",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUEp3cWpueXEzS2phWEpyRmh3RjV2cmVvbnFUUlZ1OC1GVTA2WjN4X0szNnhCa0xIRy1UQzQ0UERaM3Bkc0FXQ0IxUGt6MExzZWtVdndobHFvVGt1V0xJazluSEhTTGZmZFo5YVMxNlRPSFpSZWNPbEtIck8xZDZYMl94ZjdmWGZtWWwwcndqb1J5SEUzSjlhQlhzRGdyRjZ2Q0p6NmVOMTlhRE52RFdTdmc1Y0J2UlBtSkx30gHPAUFVX3lxTE5xZ2ZJMzhmajRwRXpsZWotdU93ZXBfWnYzN0xKV0VDVmpIWGIyREozYks0SG9hZ2xfTG5va3dHMEhWaWw3Y21JbTFqNlgyZmJRN0NrX0thR1N0cXBEUEtQUjNpbDFmWURmajgyNVRCZUZhckZwd1oyTnZwVHdGN3MyRFh6ZEhJVGs3ZkdMUmRZd1ZkNklHU0xaeDBmSkFrUDVfeDRjSGlzMVpadXgta3ZiTFpuM2FjVGVOanlHWS1VbWhiZmMyRjB5T3BwV2pqVQ",
+          "published_at": "2026-11-10T15:01:23Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -527,6 +591,52 @@
       "operational_eligible": false
     },
     {
+      "event_id": "evt_102e4849f98142cc",
+      "topic": "traffic",
+      "first_seen": "2026-11-08T04:00:00Z",
+      "last_seen": "2026-11-08T04:00:00Z",
+      "headline": "The sea’s grip on the global economy: The chokepoints that can bring world trade to its knees - EL PAÍS English",
+      "classification": "FACT",
+      "verification_status": "SINGLE_SOURCE",
+      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
+      "sources": [
+        {
+          "source_id": "elpais",
+          "source_name": "El País",
+          "source_domain": "elpais.com",
+          "tier": 3,
+          "official": false,
+          "weight": 3.0
+        }
+      ],
+      "source_ids": [
+        "elpais"
+      ],
+      "articles": [
+        {
+          "article_id": "art_0b2db2d157884e03",
+          "title": "The sea’s grip on the global economy: The chokepoints that can bring world trade to its knees - EL PAÍS English",
+          "title_key": "the sea s grip on the global economy the chokepoints that can bring world trade to its knees el pais english",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQa25DWFdia3hYalNfSkRYek5pZ09uYzV3dmIzSnViMDZqQ2RqSVMtOWNycmYxSmNzTFIwZHJMYWUwTllsUmQ2MlhJLTBCWGRpcGdBcWRsZ2hNbkxoaG9CTVhkVkZtNmJZUV9PQU1HZkVobUlpUFhkeTJHZlNRSWkwTHNNS2FxYVV0ODN2bzFXMFp0OG4yTlpXNW4zRERXZHRYazFscFFNZm0yWm0zLWQ0OVlVRWxlMS05ZjJudmx1Tjk5SmRQRHVid1V4WGQ2TTlYb0hWLWZMVXV5cHNBM1R5cGlSY2xzeGpGNHgw0gH_AUFVX3lxTE5qNzlqa1lEOGVkWkd1TDVQb0x2TlpJdy1oNVlTUDNYLXhESW9JSTJLVkV3TG1fdHhLLVZZLVhlWGdMUXdaMWFuV0ZjVUNfWmhPRHNsR2dlS29IMDREc1RTOXRBdC1JRHZmeV9jZkt5akk5S2huSGs1ZDBscUNIckF4elZuTC1yOWtUSFQtcXZRdlpzbWIzR1JRWkVFY2hFSU8yUXZjai1QYm5GOWFvV3pnWGFPRVRDZHViU1lpTTQyQ2ZGNUVTNmZQbnJqczExTVZpOVJJeUU1YlBtME42ekdGeWR0Rm12Z0UtZTU3dl9ROXN2d2VLSWxlTnNndFhBVQ",
+          "published_at": "2026-11-08T04:00:00Z",
+          "observed_at": "",
+          "source_id": "elpais",
+          "source_name": "El País",
+          "source_domain": "elpais.com",
+          "tier": 3,
+          "official": false,
+          "weight": 3.0,
+          "topic": "traffic",
+          "classification": "FACT",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 43,
+      "operational_impact": "CONTEXT",
+      "operational_eligible": false
+    },
+    {
       "event_id": "evt_206a79f954e6d249",
       "topic": "melilla",
       "first_seen": "2026-11-08T04:00:00Z",
@@ -573,52 +683,6 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_4dfec5a69ec64e56",
-      "topic": "traffic",
-      "first_seen": "2026-11-07T08:00:00Z",
-      "last_seen": "2026-11-07T08:00:00Z",
-      "headline": "The patrol vessel \"Serviola\" (P-71) replaces its twin \"Atalaya\" (P-74) in monitoring the Strait of Gibraltar and Ceuta",
-      "classification": "OPERATIONAL_SIGNAL",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_80495fde1a7c92d1",
-          "title": "The patrol vessel \"Serviola\" (P-71) replaces its twin \"Atalaya\" (P-74) in monitoring the Strait of Gibraltar and Ceuta",
-          "title_key": "the patrol vessel serviola p 71 replaces its twin atalaya p 74 in monitoring the strait of gibraltar and ceuta",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQa08tcGlPVWJ5dEh6bVFmWGE5Xy1qYTVQcTRyV1NjZUxIQ1AwUUxUYkdsbnFma0diVzNfVWxNTWYtOVlIRFhnQUVKeUVKZ1lzeUxHS1R5bjU0Wmd4N2tieUpKd2kyUkN2WXJ3MmNqZkJmbWVOd1Z6WnVhZkx1WlhsUTNn",
-          "published_at": "2026-11-07T08:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "traffic",
-          "classification": "OPERATIONAL_SIGNAL",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 55,
-      "operational_impact": "POTENTIAL",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_0b88e293a4e3a238",
       "topic": "ceuta",
       "first_seen": "2026-11-05T13:53:10Z",
@@ -655,52 +719,6 @@
           "official": false,
           "weight": 1.0,
           "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_072e5ab8d97c55eb",
-      "topic": "traffic",
-      "first_seen": "2026-10-30T07:00:00Z",
-      "last_seen": "2026-10-30T07:00:00Z",
-      "headline": "The geopolitics of the straits",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_2bed0f704f059d0a",
-          "title": "The geopolitics of the straits",
-          "title_key": "the geopolitics of the straits",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNWtsNTBXYS1IYzViSW9CTjhFd2pfVzJLdE83dTJiX1pQMzFfVDBrS04wdmJkRVRzZV84R1RqU0dOZVVDR2I0Tmt4RXozeWdtVUloYXJTNkRGYlE3ZWpjaVh2RHFJaEFEeENBQ1hyQUVpVGo2YkNXclh4LVBsYTZrdGMxSXlxQTl6b1FnTlpJeTVKdVZwclpZ",
-          "published_at": "2026-10-30T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "traffic",
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
@@ -1306,52 +1324,6 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_f80e9b5a028cdf66",
-      "topic": "ceuta",
-      "first_seen": "2026-09-22T07:00:00Z",
-      "last_seen": "2026-09-22T07:00:00Z",
-      "headline": "Sánchez asegura que ha pedido “acciones” a Marruecos “porque su control de fronteras falló” en Ceuta",
-      "classification": "FACT",
-      "verification_status": "SINGLE_SOURCE",
-      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
-      "sources": [
-        {
-          "source_id": "elpais",
-          "source_name": "El País",
-          "source_domain": "elpais.com",
-          "tier": 3,
-          "official": false,
-          "weight": 3.0
-        }
-      ],
-      "source_ids": [
-        "elpais"
-      ],
-      "articles": [
-        {
-          "article_id": "art_d039722f1aa29444",
-          "title": "Sánchez asegura que ha pedido “acciones” a Marruecos “porque su control de fronteras falló” en Ceuta",
-          "title_key": "sanchez asegura que ha pedido acciones a marruecos porque su control de fronteras fallo en ceuta",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbFRTeDdtcUFxYWtwdFN4Z1ExekhITjRNd3ZRVWk4azVPdXU4VFZDaXZWcFFSaUxRUU1YUl9fckNlT1hmTUlWT1FwQUQ2U2d4WmFtSXRnMkQ4Ny1XRWs4aDVoUVRpMW9PZ2hqb1VNR0lXcUUzSzh2X2ZjREdmX3hyaFVDTUJ5OVlBZVdPd0RrbWpXak9PZzlzam1jQXNVNnFSR3hiRGNRRXFmek5mOXR5WC1rQ3BRMnFD0gHMAUFVX3lxTFA5bGl3b1BDWWVpb3JIN2FtRnJDZ3k0QjBiZU5aQVdCZ28xMm02WkxqMTVVdnBMX1ZsRmx4Sk5OVS1icWRjdlM5bGNfR3lQT1NPYkRITHExdmJoeHNmLTFheFFqcl9mcDBmdVVxYmZoUWtqcnM1Q3pZSWhTLTVVaEpBaFRtNjdyM3ZiZUZSN1k0eXlPN3JFSkJMWkpDV0hXdFBSc3FKbl8wUHhSWnlsdU5rUzVINktDeVhUeGZLOHVaUzdHYkdqRjdmVmtSVw",
-          "published_at": "2026-09-22T07:00:00Z",
-          "observed_at": "",
-          "source_id": "elpais",
-          "source_name": "El País",
-          "source_domain": "elpais.com",
-          "tier": 3,
-          "official": false,
-          "weight": 3.0,
-          "topic": "ceuta",
-          "classification": "FACT",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 43,
-      "operational_impact": "CONTEXT",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_bb0c19be5f9481d2",
       "topic": "ceuta",
       "first_seen": "2026-09-22T07:00:00Z",
@@ -1450,9 +1422,9 @@
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 1,
     "SINGLE_SOURCE": 2,
-    "UNCONFIRMED": 25,
-    "TOTAL": 28
+    "UNCONFIRMED": 24,
+    "TOTAL": 27
   },
   "article_count": 36,
-  "event_count": 28
+  "event_count": 27
 }

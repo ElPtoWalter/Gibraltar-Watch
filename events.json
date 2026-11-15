@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T11:05:08.876303+00:00",
+  "generated_at": "2026-11-15T17:47:04.151251+00:00",
   "events": [
     {
       "event_id": "evt_f3a905bdc861aaee",
@@ -555,6 +555,70 @@
       "operational_eligible": false
     },
     {
+      "event_id": "evt_57f22cddd2e775e6",
+      "topic": "relations",
+      "first_seen": "2026-10-13T07:00:00Z",
+      "last_seen": "2026-10-15T07:00:00Z",
+      "headline": "Sánchez reaffirms Spain’s commitment to good relations with Morocco after King’s visit to Ceuta, Melilla - HESPRESS English - Morocco News",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_cfdc879e12832c43",
+          "title": "Spain’s king reasserts sovereignty over Ceuta, Melilla as Morocco remains silent",
+          "title_key": "spain s king reasserts sovereignty over ceuta melilla as morocco remains silent",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWlJUbFZoWURNNkl6VFN1UGlmU0NHa1VmUGdlY09vY3A1RFR3T1R2blV0WFRQTFN3R0llVklPV2s4ZFd0YlVqZUxMbmh5N0pibzV2dVJuWDZUVURKUjc1UUt6d1VKeERGckpaV3ljMldyVHlVckdwcXd3OTBwWUJtV0gtMnh0em9HU0pBMnQ2N21LYlh5dDJPWDl1cHJRZ1R0cnQ4Tm1qcXR1UG5OSG1kWk55QlJkbUUwTi0wTUZ6OA",
+          "published_at": "2026-10-14T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_f83115b8f662a70e",
+          "title": "Sánchez reaffirms Spain’s commitment to good relations with Morocco after King’s visit to Ceuta, Melilla - HESPRESS English - Morocco News",
+          "title_key": "sanchez reaffirms spain s commitment to good relations with morocco after king s visit to ceuta melilla hespress english morocco news",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQTEFJWGo2SEpFZUktZ2pRZVcwbk40eGJYUGZJQ0huTi1DMkRlMVNQeTQ0elkxYUoydm83NXY2eDNabERrWGhtdlBwNzlWdVI3a1IzVnFBMC1DcU03QXVMWlVudElVcVlGVURmVFpoS21SSjVvV1lGbEo0eWNMR0p4UnlJLXFSYWNpcHZmcUhtbEhOQ3I0Szd5UXYxWlVFSFJqaU5SSW5BS3JWRk9iTzVrakxCOTVaMnFadUZpVENURFFjSVlfWElISWtCZEczNTU3MEVV",
+          "published_at": "2026-10-15T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
       "event_id": "evt_a7745d7d3c137569",
       "topic": "relations",
       "first_seen": "2026-10-15T02:25:13Z",
@@ -582,52 +646,6 @@
           "title": "Las tradicionalmente complicadas relaciones España-Marruecos",
           "title_key": "las tradicionalmente complicadas relaciones espana marruecos",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcklPSXd0T3dSaW1ZaXFHN3BKdC1LNEZmenVFcS1ZVUJfeklWODV5dGw4eV9RMDEzc19yU3BIN05IeGx5UjJTSDBOQjZjUTlMNlpRVS16Skw1UlBJdHdfeHFLRUdvZS1iSF9lU3F1NVc3bkxOdUxMYmV5QUJUN2tjbWR5WEQ2cWhfRXBsUGQtaGtkVF9oT0JTRERUOVlYYXluajJieXNoOEg",
-          "published_at": "2026-10-15T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_57f22cddd2e775e6",
-      "topic": "relations",
-      "first_seen": "2026-10-13T07:00:00Z",
-      "last_seen": "2026-10-15T07:00:00Z",
-      "headline": "Sánchez reaffirms Spain’s commitment to good relations with Morocco after King’s visit to Ceuta, Melilla - HESPRESS English - Morocco News",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_f83115b8f662a70e",
-          "title": "Sánchez reaffirms Spain’s commitment to good relations with Morocco after King’s visit to Ceuta, Melilla - HESPRESS English - Morocco News",
-          "title_key": "sanchez reaffirms spain s commitment to good relations with morocco after king s visit to ceuta melilla hespress english morocco news",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQTEFJWGo2SEpFZUktZ2pRZVcwbk40eGJYUGZJQ0huTi1DMkRlMVNQeTQ0elkxYUoydm83NXY2eDNabERrWGhtdlBwNzlWdVI3a1IzVnFBMC1DcU03QXVMWlVudElVcVlGVURmVFpoS21SSjVvV1lGbEo0eWNMR0p4UnlJLXFSYWNpcHZmcUhtbEhOQ3I0Szd5UXYxWlVFSFJqaU5SSW5BS3JWRk9iTzVrakxCOTVaMnFadUZpVENURFFjSVlfWElISWtCZEczNTU3MEVV",
           "published_at": "2026-10-15T07:00:00Z",
           "observed_at": "",
           "source_id": "unknown",
@@ -979,35 +997,7 @@
           "classification": "ANALYSIS",
           "signal": "",
           "description": ""
-        }
-      ],
-      "importance": 46,
-      "operational_impact": "CONTEXT",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_fd01f76e50978874",
-      "topic": "melilla",
-      "first_seen": "2026-09-23T07:00:00Z",
-      "last_seen": "2026-09-23T07:00:00Z",
-      "headline": "Ceuta y Melilla en calma en fronteras con Marruecos",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
+        },
         {
           "article_id": "art_2e6083360d5cd455",
           "title": "Ceuta y Melilla en calma en fronteras con Marruecos",
@@ -1027,8 +1017,8 @@
           "description": ""
         }
       ],
-      "importance": 4,
-      "operational_impact": "NONE",
+      "importance": 46,
+      "operational_impact": "CONTEXT",
       "operational_eligible": false
     },
     {
@@ -1470,52 +1460,6 @@
       "importance": 43,
       "operational_impact": "CONTEXT",
       "operational_eligible": false
-    },
-    {
-      "event_id": "evt_3880c3e744ffa7bd",
-      "topic": "relations",
-      "first_seen": "2026-09-07T07:00:00Z",
-      "last_seen": "2026-09-07T07:00:00Z",
-      "headline": "Morocco grows bolder thanks to Trump’s (and Israel’s) support - EL PAÍS English",
-      "classification": "FACT",
-      "verification_status": "SINGLE_SOURCE",
-      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
-      "sources": [
-        {
-          "source_id": "elpais",
-          "source_name": "El País",
-          "source_domain": "elpais.com",
-          "tier": 3,
-          "official": false,
-          "weight": 3.0
-        }
-      ],
-      "source_ids": [
-        "elpais"
-      ],
-      "articles": [
-        {
-          "article_id": "art_7b76b1d784f33c0a",
-          "title": "Morocco grows bolder thanks to Trump’s (and Israel’s) support - EL PAÍS English",
-          "title_key": "morocco grows bolder thanks to trump s and israel s support el pais english",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcXZzQUF0cHVPMDZMUHlJN1ptTjBud3lDaEJoS0xjOGR0Y3NJclhFNHVzaWVkYk4xVUtZTG01MnFKVXdOZkVCQ0Q5N2d0S250NTExbTdxZWJaS1pnMnpBaThVeUpxYnZEbTc0STQwanR1cFhMM3F2UUpVUmpPYlR2ZktIS0lCUnBxcTFmZEdleG1YbElqWXZUakJSOTdNN0pOa0plTjNUVU9ZdDdWWUd6Z0NSUVjSAcgBQVVfeXFMT2NqSy1zNU1vQ0tyWWVoNXM4SmpHVHhfWkQzeDRWN283X2t6UkZ2QlY4Yzl1a3VmdnRscGJRdHJ6bmVFYmdJRDBhX1dlajhEdW1OaGs5QXpVaHdyYjFDVDFxNVp3SjdLdnZDSU1NTFB0QmVtcno1RmxzYTJsd1RZanhiM3FZc1NBdVRDWUZzZ2dBYVdnS285NU9FcGl3NjN2bU1zRDVHcjNxM1BjQnkxZm1RZFYtd0szSy1NZnA0ZVFXUzFxMXdzdHo",
-          "published_at": "2026-09-07T07:00:00Z",
-          "observed_at": "",
-          "source_id": "elpais",
-          "source_name": "El País",
-          "source_domain": "elpais.com",
-          "tier": 3,
-          "official": false,
-          "weight": 3.0,
-          "topic": "relations",
-          "classification": "FACT",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 43,
-      "operational_impact": "CONTEXT",
-      "operational_eligible": false
     }
   ],
   "verification_summary": {
@@ -1523,10 +1467,10 @@
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 2,
-    "SINGLE_SOURCE": 5,
-    "UNCONFIRMED": 23,
-    "TOTAL": 30
+    "SINGLE_SOURCE": 4,
+    "UNCONFIRMED": 22,
+    "TOTAL": 28
   },
   "article_count": 36,
-  "event_count": 30
+  "event_count": 28
 }

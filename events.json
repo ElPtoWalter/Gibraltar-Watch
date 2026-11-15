@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T17:47:04.151251+00:00",
+  "generated_at": "2026-11-15T22:54:29.465853+00:00",
   "events": [
     {
       "event_id": "evt_f3a905bdc861aaee",
@@ -279,6 +279,52 @@
       "operational_eligible": false
     },
     {
+      "event_id": "evt_d4889e6fc2d53ddc",
+      "topic": "melilla",
+      "first_seen": "2026-11-09T18:19:50Z",
+      "last_seen": "2026-11-09T18:19:50Z",
+      "headline": "¿Qué territorios reclama Marruecos y por qué?",
+      "classification": "ANALYSIS",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_94489956ce8e505a",
+          "title": "¿Qué territorios reclama Marruecos y por qué?",
+          "title_key": "que territorios reclama marruecos y por que",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBEcFk0Z0VKTXZRcXlxSmFsWmJrak8zT252MnZvU1daZGtQQWFmTmdod3l6R2E2SmxNRWJFUjRWaVVIRVFPc29MVkNuenZ0VTU1am1VUG53VVZEVXFfMG4zM01B",
+          "published_at": "2026-11-09T18:19:50Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "melilla",
+          "classification": "ANALYSIS",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 17,
+      "operational_impact": "CONTEXT",
+      "operational_eligible": false
+    },
+    {
       "event_id": "evt_a0b23dd320db0835",
       "topic": "melilla",
       "first_seen": "2026-11-09T12:45:57Z",
@@ -315,52 +361,6 @@
           "official": false,
           "weight": 1.0,
           "topic": "melilla",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_979fa2ac887de16c",
-      "topic": "ceuta",
-      "first_seen": "2026-11-09T00:15:46Z",
-      "last_seen": "2026-11-09T00:15:46Z",
-      "headline": "The Truth About The Crisis In Ceuta – OpEd",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_d0738cd8b45d6534",
-          "title": "The Truth About The Crisis In Ceuta – OpEd",
-          "title_key": "the truth about the crisis in ceuta oped",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPRzFKOUw0RGVFRXcyUkwydWJBRVRYcXpwVXV1U0Q2ME9ZMm13a0FIYlhIajNXZmlUdUN2NzVKSndZVU9uUzdYWWg3ODFMMC1rUjhCaTBoQmVZZ04taHhtMW4tWENYRExlYzZlLTFuaE9BMERXTExuZEU4azNxTmUxSGtPNlU2WkE",
-          "published_at": "2026-11-09T00:15:46Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
@@ -456,6 +456,24 @@
           "classification": "OPERATIONAL_SIGNAL",
           "signal": "",
           "description": ""
+        },
+        {
+          "article_id": "art_b387af903350228a",
+          "title": "Marruecos redobla la competencia sobre Algeciras con un tercer puerto en Tánger Med",
+          "title_key": "marruecos redobla la competencia sobre algeciras con un tercer puerto en tanger med",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMC1zOUgwYkYxREZ2dWhoUzFITWptTnBINGxEdGs3YThVa0p4ZDNnUkpWcm14bU1oYzYwQlAwNFRYMmlFaF9PSW12aGZ2N2FoVmRKbTZaWHJzUGVlU0ptdHhxRDFEeGw1N3dsV3VNV0ZNWVlJSDBVODUxUnRLeExCTHZvS0ZIQlEzMTY4ZTBjcjdPdUFHRlVrRHJZZmtaallLUUNsUHV1SWE2TjFsbDJIcy1JeGpNZEltYjNz0gHAAUFVX3lxTE9jUkYzNFJhZnFsbUxvbmpGaFE3djJnQ1lhUG1CVjVUV1dyZ09IdFBkZXBWT1dxSl9OUHVqZ0p6SU1vRVU2dWVGcmZaZTdrUWlZckNwdWxhNjc3VW5OVUJmaXdRN3lrV3ZaWlVBWkFKS1ozV1gyVVQ3eTFHdHhyMXhJWGpsc0doNXBDNlU4QlVzYUJscS0xaURuOE82V3VzTE90cXgzRkxkamN5cGZTNmRvRmF6S1dYeHdwZ1E0elYzbA",
+          "published_at": "2026-10-29T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ports",
+          "classification": "OPERATIONAL_SIGNAL",
+          "signal": "",
+          "description": ""
         }
       ],
       "importance": 55,
@@ -506,52 +524,6 @@
       ],
       "importance": 4,
       "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_32e3ae541840ff4b",
-      "topic": "ports",
-      "first_seen": "2026-10-21T07:00:00Z",
-      "last_seen": "2026-10-21T07:00:00Z",
-      "headline": "El puerto de Algeciras acumula más de 76 millones de toneladas de tráfico total hasta septiembre",
-      "classification": "OPERATIONAL_SIGNAL",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_fc4982ee26d09b17",
-          "title": "El puerto de Algeciras acumula más de 76 millones de toneladas de tráfico total hasta septiembre",
-          "title_key": "el puerto de algeciras acumula mas de 76 millones de toneladas de trafico total hasta septiembre",
-          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQVU9TaWJyT2xUMXdLbFRBN002Q2lrWTJGbGI0eWdfclBHTzJhRzhUVldtYnBONGkwSUFnNHBWUnVpaE1pbi12VWhxdGtEN0hlMi1yb3JHTGhUZ0l1OVZlUnFRMVlzeW91ZGd5bm9sT3FvMEJ0WWNTVjNTVjJ2S3BxTVV6U1NERUJhMjVqYmRQZEhGb193UmltczRVZTVicTlIc2VfM3luOVpvMG9vSENyWG9KaTNEeEJoeEVRUlRGRXJtUlN6US1mUUlLdzdCUHk2cTUzUjJvN0VRSkRlVFFEenkxaDZFOVpUZC1qZlhHcFhWSURJdUxwYjkzempPWlE1d1lB0gGIAkFVX3lxTE5lbDBHbEZrbVFxeGYyRUNrV3BweDhBNFRtVGZfOHVSLWJYZUFyNnpicGY1YnlYaE9mM3lFYVNlRHl5NU92VzZqdHltZEZyVm9QZ3FXZEx0cDBqRDZBM0Q4TS1RVEhDUnhzOHo5X0ZpWWhKRGNuNGwyV3R5ZkdBM2NKS2xldDhhdURoN0Z4UFRCY1JzRlFDWEt2Nlo0bmFIVnV4a3FVRm1naTd5OGFjMU1penA2NE9PbV84RjBObFFrWEpaU2o2bDI0WGdDRDJHZEY1Y3EtQkpTTjZsQXZPTDAyS05Uc1diM0NSR21hSnFKaVo1cXFiWEVUVm5EV1ppMkJibHJLaW43Qg",
-          "published_at": "2026-10-21T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ports",
-          "classification": "OPERATIONAL_SIGNAL",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 55,
-      "operational_impact": "POTENTIAL",
       "operational_eligible": false
     },
     {
@@ -1114,6 +1086,52 @@
       "operational_eligible": false
     },
     {
+      "event_id": "evt_c9e3831323db3a42",
+      "topic": "ports",
+      "first_seen": "2026-09-21T07:00:00Z",
+      "last_seen": "2026-09-21T07:00:00Z",
+      "headline": "El Puerto de Algeciras afianza la sexta plaza europea de tráfico de contenedores frente a la competencia de Tánger Med",
+      "classification": "OPERATIONAL_SIGNAL",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_b2a9caec35554a10",
+          "title": "El Puerto de Algeciras afianza la sexta plaza europea de tráfico de contenedores frente a la competencia de Tánger Med",
+          "title_key": "el puerto de algeciras afianza la sexta plaza europea de trafico de contenedores frente a la competencia de tanger med",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUFJBVEV3el9WcFZVUE1KajRwZFN6Y2hUQXAwUkVBMWNzSk1zVW5GbFh0enhDQXl6NUZhMWs3T2NBVWM5Smo0OWxROHFqemFvMXpFNXMyNG9YVmdjZHYxWjIwXzctUmtTemo0amFpWmlSZ1VKbWdxYjM0LTVHNENzV1pleXlrcUZsSnF1Z0tzcnA4WEpjTDZzNUdZQ0FpeVVUS3RDRVU0UDVRaVlWRFFHZ3BR",
+          "published_at": "2026-09-21T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ports",
+          "classification": "OPERATIONAL_SIGNAL",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 55,
+      "operational_impact": "POTENTIAL",
+      "operational_eligible": false
+    },
+    {
       "event_id": "evt_ff951d3684a19292",
       "topic": "ports",
       "first_seen": "2026-09-13T07:00:00Z",
@@ -1414,52 +1432,6 @@
       "importance": 30,
       "operational_impact": "POTENTIAL",
       "operational_eligible": false
-    },
-    {
-      "event_id": "evt_f469c835c7efd2ba",
-      "topic": "melilla",
-      "first_seen": "2026-09-07T07:00:00Z",
-      "last_seen": "2026-09-07T07:00:00Z",
-      "headline": "No son migrantes cruzando de Marruecos a Melilla en la actualidad, son imágenes del 30 de julio - RTVE.es",
-      "classification": "FACT",
-      "verification_status": "SINGLE_SOURCE",
-      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
-      "sources": [
-        {
-          "source_id": "rtve",
-          "source_name": "RTVE",
-          "source_domain": "rtve.es",
-          "tier": 4,
-          "official": false,
-          "weight": 4.0
-        }
-      ],
-      "source_ids": [
-        "rtve"
-      ],
-      "articles": [
-        {
-          "article_id": "art_c4e0171f6b0fc2c5",
-          "title": "No son migrantes cruzando de Marruecos a Melilla en la actualidad, son imágenes del 30 de julio - RTVE.es",
-          "title_key": "no son migrantes cruzando de marruecos a melilla en la actualidad son imagenes del 30 de julio",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbkZRRFdTVXY3ek5abzhMc2ZPNS1vOEhwWEN6LTNuU09YOXRvN3dUdnFsTHdnTnNKZG51NUlZQmNIakx2WXdUUnMxcWpxQlQ4bnBhdlpHbHlmMl81V1BsZWlqM3lzdzVUVENJN0o3a3I4dDE5YjBUWFFHOXUwbjhlaHZ6UkZlNG5SNkhhaGtCdnBDb2pENnlOZ0xnckVDZTl1eXpaM0xGcVpHUQ",
-          "published_at": "2026-09-07T07:00:00Z",
-          "observed_at": "",
-          "source_id": "rtve",
-          "source_name": "RTVE",
-          "source_domain": "rtve.es",
-          "tier": 4,
-          "official": false,
-          "weight": 4.0,
-          "topic": "melilla",
-          "classification": "FACT",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 43,
-      "operational_impact": "CONTEXT",
-      "operational_eligible": false
     }
   ],
   "verification_summary": {
@@ -1467,10 +1439,10 @@
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 2,
-    "SINGLE_SOURCE": 4,
+    "SINGLE_SOURCE": 3,
     "UNCONFIRMED": 22,
-    "TOTAL": 28
+    "TOTAL": 27
   },
   "article_count": 36,
-  "event_count": 28
+  "event_count": 27
 }

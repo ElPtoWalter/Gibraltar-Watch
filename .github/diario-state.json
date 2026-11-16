@@ -1,9 +1,9 @@
 {
   "version": 4,
   "latest_entry": {
-    "date": "2026-11-15",
-    "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
-    "summary": "Selección automática de 1 referencias de 1 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "date": "2026-11-16",
+    "headline": "Tráfico marítimo: qué aportan los titulares y qué falta comprobar",
+    "summary": "Selección automática de 2 referencias de 2 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
     "url": "diario/actual.html",
     "material_archive": false,
     "status_snapshot": {
@@ -25,38 +25,41 @@
       }
     },
     "source_keys": [
-      "31b7d94e63bc372c8797"
+      "31b7d94e63bc372c8797",
+      "abded2f2f3b77180de26"
     ],
-    "published_at": "2026-11-15T14:55+01:00",
-    "updated_at": "2026-11-15T14:55+01:00",
-    "published_rfc822": "Sun, 15 Nov 2026 14:55:00 +0100",
-    "source_count": 1,
-    "fingerprint": "e8a2f2491d86559311ee",
+    "published_at": "2026-11-16T16:46+01:00",
+    "updated_at": "2026-11-16T16:46+01:00",
+    "published_rfc822": "Mon, 16 Nov 2026 16:46:00 +0100",
+    "source_count": 2,
+    "fingerprint": "555055daf9c3bdb05afd",
     "mode": "brief",
-    "significance": 11,
+    "significance": 21,
     "significance_reasons": [
       "novedades recientes sin cambio estructural"
     ],
     "indexable": false,
     "editor_engine": "rules",
-    "assistant_status": "insufficient-sources",
-    "editor_assistant_status": "insufficient-sources",
+    "assistant_status": "gemini-validation-es",
+    "editor_assistant_status": "gemini-validation-es",
     "editorial_trace": {
       "validator_version": 2,
-      "factual_packet_sha256": "742e994f6d89a927017dc7f84f729994bab5437a0915b299940533ce85520f46",
-      "factual_packet_hash": "742e994f6d89a927017dc7f84f729994bab5437a0915b299940533ce85520f46",
+      "factual_packet_sha256": "36f995683fe6fd71517ed68517d43c2fc63c87fd92f40db24af9ccffabf60fa2",
       "provider": "rules",
-      "status": "insufficient-sources",
-      "attempts": [],
-      "fallback_used": true,
+      "status": "gemini-validation-es",
+      "attempts": [
+        {
+          "provider": "gemini",
+          "model": "gemini-3.5-flash-lite"
+        }
+      ],
+      "factual_packet_hash": "36f995683fe6fd71517ed68517d43c2fc63c87fd92f40db24af9ccffabf60fa2",
       "event_ids": [
+        "evt_102e4849f98142cc",
         "evt_685fb6bfca8ef427",
         "evt_bb0c19be5f9481d2",
         "evt_976fca781ccc1289",
-        "evt_f71c9674a17bfc23",
-        "evt_9545997925e718b9",
-        "evt_f469c835c7efd2ba",
-        "evt_3880c3e744ffa7bd"
+        "evt_f71c9674a17bfc23"
       ],
       "source_ids": [
         "bbc",
@@ -69,23 +72,22 @@
         "CONFIRMED_MULTI_SOURCE": 0,
         "CONFIRMED_PRIMARY": 0,
         "CONFLICTING": 0,
-        "DECLARATION_ONLY": 2,
-        "SINGLE_SOURCE": 5,
-        "UNCONFIRMED": 23,
-        "TOTAL": 30
+        "DECLARATION_ONLY": 1,
+        "SINGLE_SOURCE": 4,
+        "UNCONFIRMED": 22,
+        "TOTAL": 27
       },
-      "timestamp": "2026-11-15T13:55:55.486061+00:00"
+      "timestamp": "2026-11-16T15:46:17.795302+00:00",
+      "fallback_used": true
     },
     "validator_version": 2,
-    "factual_packet_hash": "742e994f6d89a927017dc7f84f729994bab5437a0915b299940533ce85520f46",
+    "factual_packet_hash": "36f995683fe6fd71517ed68517d43c2fc63c87fd92f40db24af9ccffabf60fa2",
     "event_ids": [
+      "evt_102e4849f98142cc",
       "evt_685fb6bfca8ef427",
       "evt_bb0c19be5f9481d2",
       "evt_976fca781ccc1289",
-      "evt_f71c9674a17bfc23",
-      "evt_9545997925e718b9",
-      "evt_f469c835c7efd2ba",
-      "evt_3880c3e744ffa7bd"
+      "evt_f71c9674a17bfc23"
     ],
     "source_ids": [
       "bbc",
@@ -94,19 +96,19 @@
       "rtve",
       "unknown"
     ],
-    "timestamp": "2026-11-15T13:55:55.486061+00:00",
+    "timestamp": "2026-11-16T15:46:17.795302+00:00",
     "fallback_used": true,
     "verification_summary": {
       "CONFIRMED_MULTI_SOURCE": 0,
       "CONFIRMED_PRIMARY": 0,
       "CONFLICTING": 0,
-      "DECLARATION_ONLY": 2,
-      "SINGLE_SOURCE": 5,
-      "UNCONFIRMED": 23,
-      "TOTAL": 30
+      "DECLARATION_ONLY": 1,
+      "SINGLE_SOURCE": 4,
+      "UNCONFIRMED": 22,
+      "TOTAL": 27
     },
-    "edition_label": "Cuaderno de las dos orillas",
-    "edition_slug": "shores"
+    "edition_label": "Cuaderno de navegación",
+    "edition_slug": "navigation"
   },
   "entries": [
     {

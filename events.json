@@ -1,7 +1,53 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-16T02:47:59.367944+00:00",
+  "generated_at": "2026-11-16T11:34:15.914204+00:00",
   "events": [
+    {
+      "event_id": "evt_83ac3ed45a1616aa",
+      "topic": "traffic",
+      "first_seen": "2026-11-16T10:10:39Z",
+      "last_seen": "2026-11-16T10:10:39Z",
+      "headline": "The 4th Coast Artillery Regiment intensifies surveillance in the Strait of Gibraltar",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_abded2f2f3b77180",
+          "title": "The 4th Coast Artillery Regiment intensifies surveillance in the Strait of Gibraltar",
+          "title_key": "the 4th coast artillery regiment intensifies surveillance in the strait of gibraltar",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNd0pQNDRzek93eEFJN2lfdFU3aWRMR1RPekZZUU13QmQ3YUhTRldBSFJYV1NEZnZLVFRsWWlyaXBhalZtSTlIejdFMVJPTDNSeFhwNjVvZVpQZVNGVi1LSFpySnZOYVJYVjJZcFlteWd6bEkza0JYMUFwNnczbkkxRTF0WHp6R2RLeHRHem1zS0Y4SjFWTmM0N3pGRFpVYmJSRHhiU28wSWV6ZHhiUVVqRlhnbUxtbWE0TGpneExPQdIBxAFBVV95cUxQVFJPaWpLV0ljU1BBaGVwUDhXSVpCbmNkMmVONHBzdlVwakFpTW1jb18zd0Voa3JCZ0pKNlNOMm5xTl82ZkhRdG9HQ1A1el9nc1pzc01YdnV2MzlMZzAxRzNJRnNjWUdIVmJsTEM0dmYzS1d3dTJzVzlYbjNSNFdBa0duWlo3NjVnOE9tYlNnN2JfQjR4ak1hOFRaOEVFbnVldE5JUDVxZ1RKQ3lXcjN2YVdETWZTeGJmWVlKOXNyZjQ4ZFBq",
+          "published_at": "2026-11-16T10:10:39Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "traffic",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
     {
       "event_id": "evt_f3a905bdc861aaee",
       "topic": "ceuta",
@@ -49,11 +95,11 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_ed9995e5ddd8b1ce",
-      "topic": "relations",
-      "first_seen": "2026-11-11T10:19:00Z",
-      "last_seen": "2026-11-13T08:37:00Z",
-      "headline": "Ada Colau, en la entrevista con Jordi Wild, sobre el papel de Marruecos en la crisis de Ceuta: \"Hay que revisar las relaciones. Quiero pensar que se esté haciendo desde la discreción\"",
+      "event_id": "evt_629ffdd77a5c8374",
+      "topic": "ceuta",
+      "first_seen": "2026-11-13T10:02:00Z",
+      "last_seen": "2026-11-13T10:02:00Z",
+      "headline": "Alberto Núñez Feijóo en la entrevista con Jordi Wild, sobre la crisis de Ceuta: \"Si Marruecos no blinda la frontera, desplegaría al Ejército\"",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
@@ -72,11 +118,11 @@
       ],
       "articles": [
         {
-          "article_id": "art_f6addf665c8e577d",
-          "title": "Ada Colau, en la entrevista con Jordi Wild, sobre el papel de Marruecos en la crisis de Ceuta: \"Hay que revisar las relaciones. Quiero pensar que se esté haciendo desde la discreción\"",
-          "title_key": "ada colau en la entrevista con jordi wild sobre el papel de marruecos en la crisis de ceuta hay que revisar las relaciones quiero pensar que se este haciendo desde la discrecion",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNN1AyMFZZQlY5M1c1UHlvdkl3RXBwMXFlZnByVkI5dFUwTjRVVG5lS2dPblh2X0xGNnV0UzhyZlZndDYzOHVfc0VETmNKS1BZNVJLWlotUGw4NUE5UUdia2FrVHZSSDdSYTZXSnVxZFFsdVNfNi1qckVncmlqRHltdzBGTU9tV1ZBYXJGWUJNT3dDQkxxYkZPQV9KV1FNQ2dJWHVnRVFaRzBmYmc3Nmdz",
-          "published_at": "2026-11-13T08:37:00Z",
+          "article_id": "art_8998832cb47de94d",
+          "title": "Alberto Núñez Feijóo en la entrevista con Jordi Wild, sobre la crisis de Ceuta: \"Si Marruecos no blinda la frontera, desplegaría al Ejército\"",
+          "title_key": "alberto nunez feijoo en la entrevista con jordi wild sobre la crisis de ceuta si marruecos no blinda la frontera desplegaria al ejercito",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPckRCVmJzaV9odmxMaWVPbUJVakV6WnlIc1ZBWnVVdGlLV2dpU1ZXR0dfVGkwZ0FiQzlQME5xUWExbGpNZ0xzYWVneW1pMXpvSmZTcl95MmtIX01sQ0NjNFRQYk04WnhwU1U4WTJSWDFTMUtTSGw2MzVIX1dnd1ZJbzZ4RUVleVZ4end2Q2RLbDdsVjVkXzNxQVBxYW4",
+          "published_at": "2026-11-13T10:02:00Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -84,7 +130,53 @@
           "tier": 1,
           "official": false,
           "weight": 1.0,
-          "topic": "relations",
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_7968fe9323e3c5ba",
+      "topic": "melilla",
+      "first_seen": "2026-11-11T19:01:47Z",
+      "last_seen": "2026-11-11T19:01:47Z",
+      "headline": "Albert Rivera reaparece y alerta de una “acción híbrida de Marruecos para invadir Ceuta y Melilla”",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_061462ba38ed226a",
+          "title": "Albert Rivera reaparece y alerta de una “acción híbrida de Marruecos para invadir Ceuta y Melilla”",
+          "title_key": "albert rivera reaparece y alerta de una accion hibrida de marruecos para invadir ceuta y melilla",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUUNsSk9aMy1KTnplRG1pc0RVY2FISEJ3RnZtYnlYVEhLMHZKSnRZR1NXbU45M0FTM2RPeW02NmtMMFByZ0g3SC1WY0hZMXUza05ibDFyTWxzZEtNN0pBa0J4dmpmV1lsZnB3Nm5rUWZPYklXNVNHcDRwbUhhWU1fUVFLQURRVG1WbzhVVjZKSzZBS04tYXRDQmV0ZFZSUm5uMkI4OEU1am8zZDhidEtfY0JwTEQ",
+          "published_at": "2026-11-11T19:01:47Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "melilla",
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
@@ -138,6 +230,52 @@
       ],
       "importance": 55,
       "operational_impact": "POTENTIAL",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_aff0409b842aa481",
+      "topic": "melilla",
+      "first_seen": "2026-11-10T06:37:00Z",
+      "last_seen": "2026-11-10T06:37:00Z",
+      "headline": "El PP reclama que Melilla sea considerada territorio frontera de Europa y promete que se hará cargo de la defensa de la misma",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_e630cb397556a97f",
+          "title": "El PP reclama que Melilla sea considerada territorio frontera de Europa y promete que se hará cargo de la defensa de la misma",
+          "title_key": "el pp reclama que melilla sea considerada territorio frontera de europa y promete que se hara cargo de la defensa de la misma",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOa0s1UUE1VmtaVFpqQjFDc1JOLTZIQWNncURtcWJIUlNON0g0UFMzM3czYThwb0cwVjBWY0VXb1d5NmpKLTJmSDRkV2pfWW5FRzFmaU5PSmRWb0haR1gxYW5fbzdtZ3AteUF2R1BROUlMYTlOY1ZHMV9PZWtUSFFOVlRGVTVBc2k1TldVR3BoMXFCcnpRa29hRVZqdXI0elZQc2tyd0dncFcxZlc3c3pieTcyQmZId0tpSTZJRnRPVlhHNmstS2NRc2RRRlMyUE1Id0wzMllVc1JWNUpmNC1ZR1Z30gHnAUFVX3lxTE5fOEdsZ3Z5eHAxQ051a1RKdWdZcjRHdWNMN0RqQ3AtZHJZVFp1RUxfRHZkZ3V6SE9oNVNkNDlNaWRWOTVZRS1iM3d2UzRNTExXdW41WFI0bjBSX25Md2syU2c4dk16RlJhZ0pUMVVpLVdvdVR3cnhvWkFjVEZkQS1kYU93WGpyNEhqWkpQNjlaeVpzM0hUUVM3ZUw2OHBFZk8wZDdMdV92b2F6YmJwOEhBb2x2VGdPaGYybkhnX2RSVnFOVHJCLTFNaUFlUWQ2eDlNbXhLd2hGeUhYMkVGM18zcHNFcDdoQQ",
+          "published_at": "2026-11-10T06:37:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "melilla",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
       "operational_eligible": false
     },
     {
@@ -229,6 +367,98 @@
         }
       ],
       "importance": 17,
+      "operational_impact": "CONTEXT",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_a0b23dd320db0835",
+      "topic": "melilla",
+      "first_seen": "2026-11-09T12:45:57Z",
+      "last_seen": "2026-11-09T12:45:57Z",
+      "headline": "Cuca Gamarra promete que un Gobierno del PP asumirá el control de las fronteras sin delegarlo en Marruecos -",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_33b95be755ef84c5",
+          "title": "Cuca Gamarra promete que un Gobierno del PP asumirá el control de las fronteras sin delegarlo en Marruecos -",
+          "title_key": "cuca gamarra promete que un gobierno del pp asumira el control de las fronteras sin delegarlo en marruecos",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSHlJWTlfeHowRHB0V0RJQ3Y4QmYwcl9BRmlxZHdpOEI4V3hBMVg3WFRwUk9MaE05TTdDTVQ2X2hDZGN6X2RIbUNZaTRCRjdmUDl4SFVpRXI4Yzl4S3d6SG9uRnl6QzZuTG5IZVkxSFoyUms3S2NMVm10dl83X3hXMWhMaUVBRjNKMTV3MjRCcVBGY2ltWXl6c0JRMEoxVDFUUmVNX1d5MncxYTB5ZWNlaUZuOFFEeVJRQno4dDhZWDRyS3pFdEFpdXZiUUZUTGvSAdQBQVVfeXFMUHVxLXA4QkhSVlo0cm9NRmROd3htaFpYR01ybTRTTGcyVmZDeDN5a01NSFRNWVBYdVQzLUlJWjFZSWoxY29YdWk2WFdFX3NFbXhvcGZvaFpVYkdFNHFSNFNJU1JrVHJ3SVBZR2FBWXFFcWl1ZFBuY2hRaTV4THN2bGU4a0VHeGpsSXpLUGstTGN1N2trUWdKU0sxeURsZWZiS3poeFZqQVRGNzltRzZNVW1nb3pwSGR6cVlaejhCXzlFVVRubF84d3VQQzF2b3JPVVpaYkQ",
+          "published_at": "2026-11-09T12:45:57Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "melilla",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_102e4849f98142cc",
+      "topic": "traffic",
+      "first_seen": "2026-11-08T04:00:00Z",
+      "last_seen": "2026-11-08T04:00:00Z",
+      "headline": "The sea’s grip on the global economy: The chokepoints that can bring world trade to its knees - EL PAÍS English",
+      "classification": "FACT",
+      "verification_status": "SINGLE_SOURCE",
+      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
+      "sources": [
+        {
+          "source_id": "elpais",
+          "source_name": "El País",
+          "source_domain": "elpais.com",
+          "tier": 3,
+          "official": false,
+          "weight": 3.0
+        }
+      ],
+      "source_ids": [
+        "elpais"
+      ],
+      "articles": [
+        {
+          "article_id": "art_0b2db2d157884e03",
+          "title": "The sea’s grip on the global economy: The chokepoints that can bring world trade to its knees - EL PAÍS English",
+          "title_key": "the sea s grip on the global economy the chokepoints that can bring world trade to its knees el pais english",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQa25DWFdia3hYalNfSkRYek5pZ09uYzV3dmIzSnViMDZqQ2RqSVMtOWNycmYxSmNzTFIwZHJMYWUwTllsUmQ2MlhJLTBCWGRpcGdBcWRsZ2hNbkxoaG9CTVhkVkZtNmJZUV9PQU1HZkVobUlpUFhkeTJHZlNRSWkwTHNNS2FxYVV0ODN2bzFXMFp0OG4yTlpXNW4zRERXZHRYazFscFFNZm0yWm0zLWQ0OVlVRWxlMS05ZjJudmx1Tjk5SmRQRHVid1V4WGQ2TTlYb0hWLWZMVXV5cHNBM1R5cGlSY2xzeGpGNHgw0gH_AUFVX3lxTE5qNzlqa1lEOGVkWkd1TDVQb0x2TlpJdy1oNVlTUDNYLXhESW9JSTJLVkV3TG1fdHhLLVZZLVhlWGdMUXdaMWFuV0ZjVUNfWmhPRHNsR2dlS29IMDREc1RTOXRBdC1JRHZmeV9jZkt5akk5S2huSGs1ZDBscUNIckF4elZuTC1yOWtUSFQtcXZRdlpzbWIzR1JRWkVFY2hFSU8yUXZjai1QYm5GOWFvV3pnWGFPRVRDZHViU1lpTTQyQ2ZGNUVTNmZQbnJqczExTVZpOVJJeUU1YlBtME42ekdGeWR0Rm12Z0UtZTU3dl9ROXN2d2VLSWxlTnNndFhBVQ",
+          "published_at": "2026-11-08T04:00:00Z",
+          "observed_at": "",
+          "source_id": "elpais",
+          "source_name": "El País",
+          "source_domain": "elpais.com",
+          "tier": 3,
+          "official": false,
+          "weight": 3.0,
+          "topic": "traffic",
+          "classification": "FACT",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 43,
       "operational_impact": "CONTEXT",
       "operational_eligible": false
     },
@@ -347,7 +577,7 @@
       "topic": "relations",
       "first_seen": "2026-10-23T07:00:00Z",
       "last_seen": "2026-10-23T07:00:00Z",
-      "headline": "Marruecos vuelve a la carga con Ceuta y Melilla y lanza un aviso a España: \"Nuestra soberanía no es negociable\"",
+      "headline": "Un partido de la coalición de Gobierno en Marruecos supedita las relaciones con España al asunto de Ceuta y Melilla",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
@@ -366,57 +596,11 @@
       ],
       "articles": [
         {
-          "article_id": "art_578b172542d11d94",
-          "title": "Marruecos vuelve a la carga con Ceuta y Melilla y lanza un aviso a España: \"Nuestra soberanía no es negociable\"",
-          "title_key": "marruecos vuelve a la carga con ceuta y melilla y lanza un aviso a espana nuestra soberania no es negociable",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQXzhUSXN0LWZKQ29fRUVFOFZJLVBtT281RTNoSTd3NEFxY1dRMVAtRmlqNWVKZUhZaDdjaVdfMFJsSC1Xck1lVWZBS2xtSjJyVnd1Q3V5UXRZZ29mby1DQzVQeXVudGhxc0tJd2kxd3NsLUhhZE82UWJtLW1IaHROanFTTGNfUFh1TUtRVTg3Yng2aUgzVVNrUHQ3ZkcyZWNGRFcwV1Npc215RmdmY2dHb2Z2dWktY0J0cjRuS1RrYkZldndySnA0WVlvQUtwNFh2cTZ6cFdMM3NQekxsaEJSSC11Q0d5cFXSAfsBQVVfeXFMUE9yLXJKMXNOcDY0NFJVNXBLZkpsVkI0ckprNWpuZGk3VXplOGRieWF3SHRhcDZxcnVUbFJhQUNwd1JPQktzTTFxR2tWUUQ4TVpuMjRHSW5LS01YbDVQTDZCUE5yODI2a3c3bTBsazZIemdHczJQT0YtNTc0RUphZWVTdGhfbnpZSGRCWFk3YVVHRHVNY192U2wxcDVTa1B3WmM1OF9WUm1ld3lQQWNFU002RWpjd0RZT0JMdkVYMnhhRlNqajd6WWtYcDRtOEMwU3pVM0ktcXZ0WVozM3J1eUd1Z215QlFkMHg5ZURSYzlTZjVwSTRnQThqUUE",
-          "published_at": "2026-10-23T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_57f22cddd2e775e6",
-      "topic": "relations",
-      "first_seen": "2026-10-13T07:00:00Z",
-      "last_seen": "2026-10-15T07:00:00Z",
-      "headline": "Sánchez reaffirms Spain’s commitment to good relations with Morocco after King’s visit to Ceuta, Melilla - HESPRESS English - Morocco News",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_cfdc879e12832c43",
-          "title": "Spain’s king reasserts sovereignty over Ceuta, Melilla as Morocco remains silent",
-          "title_key": "spain s king reasserts sovereignty over ceuta melilla as morocco remains silent",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWlJUbFZoWURNNkl6VFN1UGlmU0NHa1VmUGdlY09vY3A1RFR3T1R2blV0WFRQTFN3R0llVklPV2s4ZFd0YlVqZUxMbmh5N0pibzV2dVJuWDZUVURKUjc1UUt6d1VKeERGckpaV3ljMldyVHlVckdwcXd3OTBwWUJtV0gtMnh0em9HU0pBMnQ2N21LYlh5dDJPWDl1cHJRZ1R0cnQ4Tm1qcXR1UG5OSG1kWk55QlJkbUUwTi0wTUZ6OA",
-          "published_at": "2026-10-14T07:00:00Z",
+          "article_id": "art_a7a4fa6a5db988da",
+          "title": "Un partido de la coalición de Gobierno en Marruecos supedita las relaciones con España al asunto de Ceuta y Melilla",
+          "title_key": "un partido de la coalicion de gobierno en marruecos supedita las relaciones con espana al asunto de ceuta y melilla",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNNDZXbmNneS1VbEZ0cjZQVjFXWExhNTJBTUdGSzZacWw1U04wYU1maHZXR25mc1RaREU5eDRHWm9UZFFRZVlPX1YtYk5YNmNLUkEyenpkR1hteXBFRkRMYW5CVWkwYzJOWkpKZ2xHMmZjaXpsOWluaEJvT2ZjTmhYS3MtUFNGT294MXg0S2RkcE9mbjk3dUVyWDIzZmo1bmlJdG5PTWF5TzRpRXVmZzZ1UVIxM0ZqWTBNemVXY2ViRTJtQVE1X2NONlNvaDV5VDlzc3g5Q1lDRUQybE05LU5mcm0wVFI1d2vSAfsBQVVfeXFMTlhDc0dhMmI2OUI5WXdISzZwVDFBd1dmWjU2OHE1bkd3b0hZV3V6VS1DbWxfcjBmdmVtUzQ4aVljM1FzZlozRmlQbDB2VjQ5ZkpEcngtQS0xendCclNycl8zTU9lQW05cnQwdWVTa2l5YWZYU1VEbWp2ejdyRGE1LVZpSDdEdGU4VWxGd29PS3lTTGhvRjZlcFM2SkNCSTBldzZ6S25wMFV2MU9yVWxTcmFzbkkzTXNHZUt6UFFUTjJmSzdELUxMRzE5MFFWOGZvVDFKMmVUM01BS1BZRzRaYmdMSzExTGkxVmlKdXFmdkQwOFZiVHpSbWpCOHc",
+          "published_at": "2026-10-22T07:00:00Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -430,11 +614,11 @@
           "description": ""
         },
         {
-          "article_id": "art_f83115b8f662a70e",
-          "title": "Sánchez reaffirms Spain’s commitment to good relations with Morocco after King’s visit to Ceuta, Melilla - HESPRESS English - Morocco News",
-          "title_key": "sanchez reaffirms spain s commitment to good relations with morocco after king s visit to ceuta melilla hespress english morocco news",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQTEFJWGo2SEpFZUktZ2pRZVcwbk40eGJYUGZJQ0huTi1DMkRlMVNQeTQ0elkxYUoydm83NXY2eDNabERrWGhtdlBwNzlWdVI3a1IzVnFBMC1DcU03QXVMWlVudElVcVlGVURmVFpoS21SSjVvV1lGbEo0eWNMR0p4UnlJLXFSYWNpcHZmcUhtbEhOQ3I0Szd5UXYxWlVFSFJqaU5SSW5BS3JWRk9iTzVrakxCOTVaMnFadUZpVENURFFjSVlfWElISWtCZEczNTU3MEVV",
-          "published_at": "2026-10-15T07:00:00Z",
+          "article_id": "art_578b172542d11d94",
+          "title": "Marruecos vuelve a la carga con Ceuta y Melilla y lanza un aviso a España: \"Nuestra soberanía no es negociable\"",
+          "title_key": "marruecos vuelve a la carga con ceuta y melilla y lanza un aviso a espana nuestra soberania no es negociable",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQXzhUSXN0LWZKQ29fRUVFOFZJLVBtT281RTNoSTd3NEFxY1dRMVAtRmlqNWVKZUhZaDdjaVdfMFJsSC1Xck1lVWZBS2xtSjJyVnd1Q3V5UXRZZ29mby1DQzVQeXVudGhxc0tJd2kxd3NsLUhhZE82UWJtLW1IaHROanFTTGNfUFh1TUtRVTg3Yng2aUgzVVNrUHQ3ZkcyZWNGRFcwV1Npc215RmdmY2dHb2Z2dWktY0J0cjRuS1RrYkZldndySnA0WVlvQUtwNFh2cTZ6cFdMM3NQekxsaEJSSC11Q0d5cFXSAfsBQVVfeXFMUE9yLXJKMXNOcDY0NFJVNXBLZkpsVkI0ckprNWpuZGk3VXplOGRieWF3SHRhcDZxcnVUbFJhQUNwd1JPQktzTTFxR2tWUUQ4TVpuMjRHSW5LS01YbDVQTDZCUE5yODI2a3c3bTBsazZIemdHczJQT0YtNTc0RUphZWVTdGhfbnpZSGRCWFk3YVVHRHVNY192U2wxcDVTa1B3WmM1OF9WUm1ld3lQQWNFU002RWpjd0RZT0JMdkVYMnhhRlNqajd6WWtYcDRtOEMwU3pVM0ktcXZ0WVozM3J1eUd1Z215QlFkMHg5ZURSYzlTZjVwSTRnQThqUUE",
+          "published_at": "2026-10-23T07:00:00Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -480,6 +664,52 @@
           "title": "Las tradicionalmente complicadas relaciones España-Marruecos",
           "title_key": "las tradicionalmente complicadas relaciones espana marruecos",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcklPSXd0T3dSaW1ZaXFHN3BKdC1LNEZmenVFcS1ZVUJfeklWODV5dGw4eV9RMDEzc19yU3BIN05IeGx5UjJTSDBOQjZjUTlMNlpRVS16Skw1UlBJdHdfeHFLRUdvZS1iSF9lU3F1NVc3bkxOdUxMYmV5QUJUN2tjbWR5WEQ2cWhfRXBsUGQtaGtkVF9oT0JTRERUOVlYYXluajJieXNoOEg",
+          "published_at": "2026-10-15T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_57f22cddd2e775e6",
+      "topic": "relations",
+      "first_seen": "2026-10-13T07:00:00Z",
+      "last_seen": "2026-10-15T07:00:00Z",
+      "headline": "Sánchez reaffirms Spain’s commitment to good relations with Morocco after King’s visit to Ceuta, Melilla - HESPRESS English - Morocco News",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_f83115b8f662a70e",
+          "title": "Sánchez reaffirms Spain’s commitment to good relations with Morocco after King’s visit to Ceuta, Melilla - HESPRESS English - Morocco News",
+          "title_key": "sanchez reaffirms spain s commitment to good relations with morocco after king s visit to ceuta melilla hespress english morocco news",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQTEFJWGo2SEpFZUktZ2pRZVcwbk40eGJYUGZJQ0huTi1DMkRlMVNQeTQ0elkxYUoydm83NXY2eDNabERrWGhtdlBwNzlWdVI3a1IzVnFBMC1DcU03QXVMWlVudElVcVlGVURmVFpoS21SSjVvV1lGbEo0eWNMR0p4UnlJLXFSYWNpcHZmcUhtbEhOQ3I0Szd5UXYxWlVFSFJqaU5SSW5BS3JWRk9iTzVrakxCOTVaMnFadUZpVENURFFjSVlfWElISWtCZEczNTU3MEVV",
           "published_at": "2026-10-15T07:00:00Z",
           "observed_at": "",
           "source_id": "unknown",
@@ -1202,219 +1432,17 @@
       "importance": 46,
       "operational_impact": "CONTEXT",
       "operational_eligible": false
-    },
-    {
-      "event_id": "evt_7b3efe74d2a7d175",
-      "topic": "traffic",
-      "first_seen": "2026-09-08T07:00:00Z",
-      "last_seen": "2026-09-08T07:00:00Z",
-      "headline": "The Spanish Navy is monitoring a Russian military vessel in the Strait of Gibraltar.",
-      "classification": "OPERATIONAL_SIGNAL",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_b873f5085d9161d7",
-          "title": "The Spanish Navy is monitoring a Russian military vessel in the Strait of Gibraltar.",
-          "title_key": "the spanish navy is monitoring a russian military vessel in the strait of gibraltar",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNS0ZBVXNZSWVNYmlDU1VLVDRfVkU4NXJqbGV6S3JSOXlib2l2QW4tLTNnRGZFX0lidk0zRGlzZjEwN3pFNXRDb245bmd4ZHBjWU1ZM1YzeWFpUUtVeGVrVjN3ZGdOQU00ZjAyaE9nZnhZR05HME92SGJBTzhUYjR4VjhKTTMxRnF0RGQwVXphTk5LUzd4NG81eVpzWXA1TjdfZzVkX1QtN1FIMl9HZnNGYmh2bWE4ZG9wSjFaeXBtNklsQnR2YUHSAcsBQVVfeXFMUGlwZHRkcTZ5Rmh6anFyUVpNVG5oUmtfUHBUNldFSlRUenZNM045VzlxMGlFYkw1cVpTY3hOeWNnUlhwTVFpUlVITGNlLVM2d1VCc1RyYzVCM1VQVk1FMUhpWkUtUERRcWJJYUoxbGhHMHRJX2RPXzdCczRLdy1oempBOFUwRTdfN3ZvTEhkRUxaMzJWYVRBSXoyaUQ0RWc1WTN5SWFmdW82dDNTVVZZSDVsalBNTklCdmlKdk5tRE4yc2FUTHp0bkYxcms",
-          "published_at": "2026-09-08T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "traffic",
-          "classification": "OPERATIONAL_SIGNAL",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 55,
-      "operational_impact": "POTENTIAL",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_9545997925e718b9",
-      "topic": "relations",
-      "first_seen": "2026-09-08T07:00:00Z",
-      "last_seen": "2026-09-08T07:00:00Z",
-      "headline": "Spain hardens stance towards Morocco: 'Its claims over Ceuta and Melilla damage bilateral relations'",
-      "classification": "DECLARATION",
-      "verification_status": "DECLARATION_ONLY",
-      "verification_reason": "The record is a declaration and is not treated as an operational fact.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_218a5bb82fcee339",
-          "title": "Spain hardens stance towards Morocco: 'Its claims over Ceuta and Melilla damage bilateral relations'",
-          "title_key": "spain hardens stance towards morocco its claims over ceuta and melilla damage bilateral relations",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVUZFTW93VEU0aVExVFVST3VLU1JwRkxMV1NuMVJud0Z6Zm4zNThleUF0TFBzMDl4dzR2cUprWlF0cGpLdTZPWnEzVzVNMEV5dkEyZVpnWldEQ0lPSFhqM05HQzdHOVZzMTRQQ3BqcGV5V0NLQV9oUVRCNGROUFhXTE5oOVcwbGFFaHc",
-          "published_at": "2026-09-07T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "DECLARATION",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_4bf33684d9a1ff3e",
-          "title": "Albares Warns Moroccan Ceuta, Melilla Claims Could Strain Spain-Morocco Ties",
-          "title_key": "albares warns moroccan ceuta melilla claims could strain spain morocco ties",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbkR4RmpzMlZVY0hNdFR0T2VXYXZ6VnJUVzY2Rk96eVpUaHcycHlGWHdHeHM5WXlNQm9JREZaUkhUTjlJWUFSWlp2cWhOdGsxbTU4Nlg2Q3BjT21Yak5QQWxJUGgzUlplRGlfVnV2S2VveU5zZTNZRktqUkVfbjQ1aEtXbTNpZ3B4RGpoZFFPeEdpd2NFeXIwRFlIaFFUUVU2WEtWeXdsbXJ2QVpGbWVWN2g0a1hBZFZScV9uZHEyZjUyUQ",
-          "published_at": "2026-09-08T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "DECLARATION",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 30,
-      "operational_impact": "POTENTIAL",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_f469c835c7efd2ba",
-      "topic": "melilla",
-      "first_seen": "2026-09-07T07:00:00Z",
-      "last_seen": "2026-09-07T07:00:00Z",
-      "headline": "No son migrantes cruzando de Marruecos a Melilla en la actualidad, son imágenes del 30 de julio - RTVE.es",
-      "classification": "FACT",
-      "verification_status": "SINGLE_SOURCE",
-      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
-      "sources": [
-        {
-          "source_id": "rtve",
-          "source_name": "RTVE",
-          "source_domain": "rtve.es",
-          "tier": 4,
-          "official": false,
-          "weight": 4.0
-        }
-      ],
-      "source_ids": [
-        "rtve"
-      ],
-      "articles": [
-        {
-          "article_id": "art_c4e0171f6b0fc2c5",
-          "title": "No son migrantes cruzando de Marruecos a Melilla en la actualidad, son imágenes del 30 de julio - RTVE.es",
-          "title_key": "no son migrantes cruzando de marruecos a melilla en la actualidad son imagenes del 30 de julio",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbkZRRFdTVXY3ek5abzhMc2ZPNS1vOEhwWEN6LTNuU09YOXRvN3dUdnFsTHdnTnNKZG51NUlZQmNIakx2WXdUUnMxcWpxQlQ4bnBhdlpHbHlmMl81V1BsZWlqM3lzdzVUVENJN0o3a3I4dDE5YjBUWFFHOXUwbjhlaHZ6UkZlNG5SNkhhaGtCdnBDb2pENnlOZ0xnckVDZTl1eXpaM0xGcVpHUQ",
-          "published_at": "2026-09-07T07:00:00Z",
-          "observed_at": "",
-          "source_id": "rtve",
-          "source_name": "RTVE",
-          "source_domain": "rtve.es",
-          "tier": 4,
-          "official": false,
-          "weight": 4.0,
-          "topic": "melilla",
-          "classification": "FACT",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 43,
-      "operational_impact": "CONTEXT",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_3880c3e744ffa7bd",
-      "topic": "relations",
-      "first_seen": "2026-09-07T07:00:00Z",
-      "last_seen": "2026-09-07T07:00:00Z",
-      "headline": "Morocco grows bolder thanks to Trump’s (and Israel’s) support - EL PAÍS English",
-      "classification": "FACT",
-      "verification_status": "SINGLE_SOURCE",
-      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
-      "sources": [
-        {
-          "source_id": "elpais",
-          "source_name": "El País",
-          "source_domain": "elpais.com",
-          "tier": 3,
-          "official": false,
-          "weight": 3.0
-        }
-      ],
-      "source_ids": [
-        "elpais"
-      ],
-      "articles": [
-        {
-          "article_id": "art_7b76b1d784f33c0a",
-          "title": "Morocco grows bolder thanks to Trump’s (and Israel’s) support - EL PAÍS English",
-          "title_key": "morocco grows bolder thanks to trump s and israel s support el pais english",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcXZzQUF0cHVPMDZMUHlJN1ptTjBud3lDaEJoS0xjOGR0Y3NJclhFNHVzaWVkYk4xVUtZTG01MnFKVXdOZkVCQ0Q5N2d0S250NTExbTdxZWJaS1pnMnpBaThVeUpxYnZEbTc0STQwanR1cFhMM3F2UUpVUmpPYlR2ZktIS0lCUnBxcTFmZEdleG1YbElqWXZUakJSOTdNN0pOa0plTjNUVU9ZdDdWWUd6Z0NSUVjSAcgBQVVfeXFMT2NqSy1zNU1vQ0tyWWVoNXM4SmpHVHhfWkQzeDRWN283X2t6UkZ2QlY4Yzl1a3VmdnRscGJRdHJ6bmVFYmdJRDBhX1dlajhEdW1OaGs5QXpVaHdyYjFDVDFxNVp3SjdLdnZDSU1NTFB0QmVtcno1RmxzYTJsd1RZanhiM3FZc1NBdVRDWUZzZ2dBYVdnS285NU9FcGl3NjN2bU1zRDVHcjNxM1BjQnkxZm1RZFYtd0szSy1NZnA0ZVFXUzFxMXdzdHo",
-          "published_at": "2026-09-07T07:00:00Z",
-          "observed_at": "",
-          "source_id": "elpais",
-          "source_name": "El País",
-          "source_domain": "elpais.com",
-          "tier": 3,
-          "official": false,
-          "weight": 3.0,
-          "topic": "relations",
-          "classification": "FACT",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 43,
-      "operational_impact": "CONTEXT",
-      "operational_eligible": false
     }
   ],
   "verification_summary": {
     "CONFIRMED_MULTI_SOURCE": 0,
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
-    "DECLARATION_ONLY": 2,
-    "SINGLE_SOURCE": 5,
-    "UNCONFIRMED": 19,
-    "TOTAL": 26
+    "DECLARATION_ONLY": 1,
+    "SINGLE_SOURCE": 4,
+    "UNCONFIRMED": 22,
+    "TOTAL": 27
   },
   "article_count": 36,
-  "event_count": 26
+  "event_count": 27
 }

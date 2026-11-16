@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T22:54:29.465853+00:00",
+  "generated_at": "2026-11-16T02:47:59.367944+00:00",
   "events": [
     {
       "event_id": "evt_f3a905bdc861aaee",
       "topic": "ceuta",
       "first_seen": "2026-11-15T09:00:00Z",
-      "last_seen": "2026-11-15T09:00:00Z",
+      "last_seen": "2026-11-15T22:55:41Z",
       "headline": "3 months after mass entry, some 15,000 migrants remain in Ceuta",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
@@ -30,53 +30,7 @@
           "title": "3 months after mass entry, some 15,000 migrants remain in Ceuta",
           "title_key": "3 months after mass entry some 15 000 migrants remain in ceuta",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMzZxRWxscVNUS2s3dW16S0lTLUVoVTE2Y3pxdnk2enEtbkctbzJBZFFQMHhTYi1zWUViMGp4MWoxRG12QW51UVphMEM2YU0wWnZOU2Rmb09KekE0NHE4ZDgyb1JiSGlTaERBV0FtWWpvay1DWF9najNUNlNIZ2N0WFNR",
-          "published_at": "2026-11-15T09:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_629ffdd77a5c8374",
-      "topic": "ceuta",
-      "first_seen": "2026-11-13T10:02:00Z",
-      "last_seen": "2026-11-13T10:02:00Z",
-      "headline": "Alberto Núñez Feijóo en la entrevista con Jordi Wild, sobre la crisis de Ceuta: \"Si Marruecos no blinda la frontera, desplegaría al Ejército\"",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_8998832cb47de94d",
-          "title": "Alberto Núñez Feijóo en la entrevista con Jordi Wild, sobre la crisis de Ceuta: \"Si Marruecos no blinda la frontera, desplegaría al Ejército\"",
-          "title_key": "alberto nunez feijoo en la entrevista con jordi wild sobre la crisis de ceuta si marruecos no blinda la frontera desplegaria al ejercito",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPckRCVmJzaV9odmxMaWVPbUJVakV6WnlIc1ZBWnVVdGlLV2dpU1ZXR0dfVGkwZ0FiQzlQME5xUWExbGpNZ0xzYWVneW1pMXpvSmZTcl95MmtIX01sQ0NjNFRQYk04WnhwU1U4WTJSWDFTMUtTSGw2MzVIX1dnd1ZJbzZ4RUVleVZ4end2Q2RLbDdsVjVkXzNxQVBxYW4",
-          "published_at": "2026-11-13T10:02:00Z",
+          "published_at": "2026-11-15T22:55:41Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -187,52 +141,6 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_aff0409b842aa481",
-      "topic": "melilla",
-      "first_seen": "2026-11-10T06:37:00Z",
-      "last_seen": "2026-11-10T06:37:00Z",
-      "headline": "El PP reclama que Melilla sea considerada territorio frontera de Europa y promete que se hará cargo de la defensa de la misma",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_e630cb397556a97f",
-          "title": "El PP reclama que Melilla sea considerada territorio frontera de Europa y promete que se hará cargo de la defensa de la misma",
-          "title_key": "el pp reclama que melilla sea considerada territorio frontera de europa y promete que se hara cargo de la defensa de la misma",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOa0s1UUE1VmtaVFpqQjFDc1JOLTZIQWNncURtcWJIUlNON0g0UFMzM3czYThwb0cwVjBWY0VXb1d5NmpKLTJmSDRkV2pfWW5FRzFmaU5PSmRWb0haR1gxYW5fbzdtZ3AteUF2R1BROUlMYTlOY1ZHMV9PZWtUSFFOVlRGVTVBc2k1TldVR3BoMXFCcnpRa29hRVZqdXI0elZQc2tyd0dncFcxZlc3c3pieTcyQmZId0tpSTZJRnRPVlhHNmstS2NRc2RRRlMyUE1Id0wzMllVc1JWNUpmNC1ZR1Z30gHnAUFVX3lxTE5fOEdsZ3Z5eHAxQ051a1RKdWdZcjRHdWNMN0RqQ3AtZHJZVFp1RUxfRHZkZ3V6SE9oNVNkNDlNaWRWOTVZRS1iM3d2UzRNTExXdW41WFI0bjBSX25Md2syU2c4dk16RlJhZ0pUMVVpLVdvdVR3cnhvWkFjVEZkQS1kYU93WGpyNEhqWkpQNjlaeVpzM0hUUVM3ZUw2OHBFZk8wZDdMdV92b2F6YmJwOEhBb2x2VGdPaGYybkhnX2RSVnFOVHJCLTFNaUFlUWQ2eDlNbXhLd2hGeUhYMkVGM18zcHNFcDdoQQ",
-          "published_at": "2026-11-10T06:37:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_6e74bb0f7767fbf2",
       "topic": "relations",
       "first_seen": "2026-11-09T19:09:57Z",
@@ -322,52 +230,6 @@
       ],
       "importance": 17,
       "operational_impact": "CONTEXT",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_a0b23dd320db0835",
-      "topic": "melilla",
-      "first_seen": "2026-11-09T12:45:57Z",
-      "last_seen": "2026-11-09T12:45:57Z",
-      "headline": "Cuca Gamarra promete que un Gobierno del PP asumirá el control de las fronteras sin delegarlo en Marruecos -",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_33b95be755ef84c5",
-          "title": "Cuca Gamarra promete que un Gobierno del PP asumirá el control de las fronteras sin delegarlo en Marruecos -",
-          "title_key": "cuca gamarra promete que un gobierno del pp asumira el control de las fronteras sin delegarlo en marruecos",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSHlJWTlfeHowRHB0V0RJQ3Y4QmYwcl9BRmlxZHdpOEI4V3hBMVg3WFRwUk9MaE05TTdDTVQ2X2hDZGN6X2RIbUNZaTRCRjdmUDl4SFVpRXI4Yzl4S3d6SG9uRnl6QzZuTG5IZVkxSFoyUms3S2NMVm10dl83X3hXMWhMaUVBRjNKMTV3MjRCcVBGY2ltWXl6c0JRMEoxVDFUUmVNX1d5MncxYTB5ZWNlaUZuOFFEeVJRQno4dDhZWDRyS3pFdEFpdXZiUUZUTGvSAdQBQVVfeXFMUHVxLXA4QkhSVlo0cm9NRmROd3htaFpYR01ybTRTTGcyVmZDeDN5a01NSFRNWVBYdVQzLUlJWjFZSWoxY29YdWk2WFdFX3NFbXhvcGZvaFpVYkdFNHFSNFNJU1JrVHJ3SVBZR2FBWXFFcWl1ZFBuY2hRaTV4THN2bGU4a0VHeGpsSXpLUGstTGN1N2trUWdKU0sxeURsZWZiS3poeFZqQVRGNzltRzZNVW1nb3pwSGR6cVlaejhCXzlFVVRubF84d3VQQzF2b3JPVVpaYkQ",
-          "published_at": "2026-11-09T12:45:57Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
       "operational_eligible": false
     },
     {
@@ -1392,7 +1254,7 @@
       "topic": "relations",
       "first_seen": "2026-09-08T07:00:00Z",
       "last_seen": "2026-09-08T07:00:00Z",
-      "headline": "Albares Warns Moroccan Ceuta, Melilla Claims Could Strain Spain-Morocco Ties",
+      "headline": "Spain hardens stance towards Morocco: 'Its claims over Ceuta and Melilla damage bilateral relations'",
       "classification": "DECLARATION",
       "verification_status": "DECLARATION_ONLY",
       "verification_reason": "The record is a declaration and is not treated as an operational fact.",
@@ -1410,6 +1272,24 @@
         "unknown"
       ],
       "articles": [
+        {
+          "article_id": "art_218a5bb82fcee339",
+          "title": "Spain hardens stance towards Morocco: 'Its claims over Ceuta and Melilla damage bilateral relations'",
+          "title_key": "spain hardens stance towards morocco its claims over ceuta and melilla damage bilateral relations",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVUZFTW93VEU0aVExVFVST3VLU1JwRkxMV1NuMVJud0Z6Zm4zNThleUF0TFBzMDl4dzR2cUprWlF0cGpLdTZPWnEzVzVNMEV5dkEyZVpnWldEQ0lPSFhqM05HQzdHOVZzMTRQQ3BqcGV5V0NLQV9oUVRCNGROUFhXTE5oOVcwbGFFaHc",
+          "published_at": "2026-09-07T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "DECLARATION",
+          "signal": "",
+          "description": ""
+        },
         {
           "article_id": "art_4bf33684d9a1ff3e",
           "title": "Albares Warns Moroccan Ceuta, Melilla Claims Could Strain Spain-Morocco Ties",
@@ -1432,6 +1312,98 @@
       "importance": 30,
       "operational_impact": "POTENTIAL",
       "operational_eligible": false
+    },
+    {
+      "event_id": "evt_f469c835c7efd2ba",
+      "topic": "melilla",
+      "first_seen": "2026-09-07T07:00:00Z",
+      "last_seen": "2026-09-07T07:00:00Z",
+      "headline": "No son migrantes cruzando de Marruecos a Melilla en la actualidad, son imágenes del 30 de julio - RTVE.es",
+      "classification": "FACT",
+      "verification_status": "SINGLE_SOURCE",
+      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
+      "sources": [
+        {
+          "source_id": "rtve",
+          "source_name": "RTVE",
+          "source_domain": "rtve.es",
+          "tier": 4,
+          "official": false,
+          "weight": 4.0
+        }
+      ],
+      "source_ids": [
+        "rtve"
+      ],
+      "articles": [
+        {
+          "article_id": "art_c4e0171f6b0fc2c5",
+          "title": "No son migrantes cruzando de Marruecos a Melilla en la actualidad, son imágenes del 30 de julio - RTVE.es",
+          "title_key": "no son migrantes cruzando de marruecos a melilla en la actualidad son imagenes del 30 de julio",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbkZRRFdTVXY3ek5abzhMc2ZPNS1vOEhwWEN6LTNuU09YOXRvN3dUdnFsTHdnTnNKZG51NUlZQmNIakx2WXdUUnMxcWpxQlQ4bnBhdlpHbHlmMl81V1BsZWlqM3lzdzVUVENJN0o3a3I4dDE5YjBUWFFHOXUwbjhlaHZ6UkZlNG5SNkhhaGtCdnBDb2pENnlOZ0xnckVDZTl1eXpaM0xGcVpHUQ",
+          "published_at": "2026-09-07T07:00:00Z",
+          "observed_at": "",
+          "source_id": "rtve",
+          "source_name": "RTVE",
+          "source_domain": "rtve.es",
+          "tier": 4,
+          "official": false,
+          "weight": 4.0,
+          "topic": "melilla",
+          "classification": "FACT",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 43,
+      "operational_impact": "CONTEXT",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_3880c3e744ffa7bd",
+      "topic": "relations",
+      "first_seen": "2026-09-07T07:00:00Z",
+      "last_seen": "2026-09-07T07:00:00Z",
+      "headline": "Morocco grows bolder thanks to Trump’s (and Israel’s) support - EL PAÍS English",
+      "classification": "FACT",
+      "verification_status": "SINGLE_SOURCE",
+      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
+      "sources": [
+        {
+          "source_id": "elpais",
+          "source_name": "El País",
+          "source_domain": "elpais.com",
+          "tier": 3,
+          "official": false,
+          "weight": 3.0
+        }
+      ],
+      "source_ids": [
+        "elpais"
+      ],
+      "articles": [
+        {
+          "article_id": "art_7b76b1d784f33c0a",
+          "title": "Morocco grows bolder thanks to Trump’s (and Israel’s) support - EL PAÍS English",
+          "title_key": "morocco grows bolder thanks to trump s and israel s support el pais english",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcXZzQUF0cHVPMDZMUHlJN1ptTjBud3lDaEJoS0xjOGR0Y3NJclhFNHVzaWVkYk4xVUtZTG01MnFKVXdOZkVCQ0Q5N2d0S250NTExbTdxZWJaS1pnMnpBaThVeUpxYnZEbTc0STQwanR1cFhMM3F2UUpVUmpPYlR2ZktIS0lCUnBxcTFmZEdleG1YbElqWXZUakJSOTdNN0pOa0plTjNUVU9ZdDdWWUd6Z0NSUVjSAcgBQVVfeXFMT2NqSy1zNU1vQ0tyWWVoNXM4SmpHVHhfWkQzeDRWN283X2t6UkZ2QlY4Yzl1a3VmdnRscGJRdHJ6bmVFYmdJRDBhX1dlajhEdW1OaGs5QXpVaHdyYjFDVDFxNVp3SjdLdnZDSU1NTFB0QmVtcno1RmxzYTJsd1RZanhiM3FZc1NBdVRDWUZzZ2dBYVdnS285NU9FcGl3NjN2bU1zRDVHcjNxM1BjQnkxZm1RZFYtd0szSy1NZnA0ZVFXUzFxMXdzdHo",
+          "published_at": "2026-09-07T07:00:00Z",
+          "observed_at": "",
+          "source_id": "elpais",
+          "source_name": "El País",
+          "source_domain": "elpais.com",
+          "tier": 3,
+          "official": false,
+          "weight": 3.0,
+          "topic": "relations",
+          "classification": "FACT",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 43,
+      "operational_impact": "CONTEXT",
+      "operational_eligible": false
     }
   ],
   "verification_summary": {
@@ -1439,10 +1411,10 @@
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 2,
-    "SINGLE_SOURCE": 3,
-    "UNCONFIRMED": 22,
-    "TOTAL": 27
+    "SINGLE_SOURCE": 5,
+    "UNCONFIRMED": 19,
+    "TOTAL": 26
   },
   "article_count": 36,
-  "event_count": 27
+  "event_count": 26
 }

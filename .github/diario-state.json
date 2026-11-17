@@ -1,9 +1,9 @@
 {
   "version": 4,
   "latest_entry": {
-    "date": "2026-11-16",
-    "headline": "Tráfico marítimo: qué aportan los titulares y qué falta comprobar",
-    "summary": "Selección automática de 2 referencias de 2 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "date": "2026-11-17",
+    "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
+    "summary": "Selección automática de 6 referencias de 5 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
     "url": "diario/actual.html",
     "material_archive": false,
     "status_snapshot": {
@@ -25,46 +25,46 @@
       }
     },
     "source_keys": [
-      "31b7d94e63bc372c8797",
-      "abded2f2f3b77180de26"
+      "2033d4e1686930cd339e",
+      "3422561b7667613a54c4",
+      "453cd21f3ff9cc65a6ab",
+      "4ab1f05bd2134aea23a5",
+      "5b4a996ec0f88e5be616",
+      "9ffc98b4a4345609d395"
     ],
-    "published_at": "2026-11-16T16:46+01:00",
-    "updated_at": "2026-11-16T16:46+01:00",
-    "published_rfc822": "Mon, 16 Nov 2026 16:46:00 +0100",
-    "source_count": 2,
-    "fingerprint": "555055daf9c3bdb05afd",
-    "mode": "brief",
-    "significance": 21,
+    "published_at": "2026-11-17T16:59+01:00",
+    "updated_at": "2026-11-17T16:59+01:00",
+    "published_rfc822": "Tue, 17 Nov 2026 16:59:00 +0100",
+    "source_count": 6,
+    "fingerprint": "bf243ef96c05c9aeb6df",
+    "mode": "full",
+    "significance": 61,
     "significance_reasons": [
-      "novedades recientes sin cambio estructural"
+      "actualidad repartida en tres o más ámbitos",
+      "volumen informativo relevante"
     ],
     "indexable": false,
     "editor_engine": "rules",
-    "assistant_status": "gemini-validation-es",
-    "editor_assistant_status": "gemini-validation-es",
+    "assistant_status": "gemini-http-503",
+    "editor_assistant_status": "gemini-http-503",
     "editorial_trace": {
       "validator_version": 2,
-      "factual_packet_sha256": "36f995683fe6fd71517ed68517d43c2fc63c87fd92f40db24af9ccffabf60fa2",
+      "factual_packet_sha256": "ae0ea2624ee5703b94fa2e14077c5b743857d9b858dc5d6db55b643d0333d8b4",
       "provider": "rules",
-      "status": "gemini-validation-es",
+      "status": "gemini-http-503",
       "attempts": [
         {
           "provider": "gemini",
           "model": "gemini-3.5-flash-lite"
         }
       ],
-      "factual_packet_hash": "36f995683fe6fd71517ed68517d43c2fc63c87fd92f40db24af9ccffabf60fa2",
+      "factual_packet_hash": "ae0ea2624ee5703b94fa2e14077c5b743857d9b858dc5d6db55b643d0333d8b4",
       "event_ids": [
         "evt_102e4849f98142cc",
-        "evt_685fb6bfca8ef427",
-        "evt_bb0c19be5f9481d2",
-        "evt_976fca781ccc1289",
-        "evt_f71c9674a17bfc23"
+        "evt_685fb6bfca8ef427"
       ],
       "source_ids": [
-        "bbc",
         "elpais",
-        "euronews",
         "rtve",
         "unknown"
       ],
@@ -72,43 +72,38 @@
         "CONFIRMED_MULTI_SOURCE": 0,
         "CONFIRMED_PRIMARY": 0,
         "CONFLICTING": 0,
-        "DECLARATION_ONLY": 1,
-        "SINGLE_SOURCE": 4,
-        "UNCONFIRMED": 22,
+        "DECLARATION_ONLY": 0,
+        "SINGLE_SOURCE": 2,
+        "UNCONFIRMED": 25,
         "TOTAL": 27
       },
-      "timestamp": "2026-11-16T15:46:17.795302+00:00",
+      "timestamp": "2026-11-17T15:59:16.182495+00:00",
       "fallback_used": true
     },
     "validator_version": 2,
-    "factual_packet_hash": "36f995683fe6fd71517ed68517d43c2fc63c87fd92f40db24af9ccffabf60fa2",
+    "factual_packet_hash": "ae0ea2624ee5703b94fa2e14077c5b743857d9b858dc5d6db55b643d0333d8b4",
     "event_ids": [
       "evt_102e4849f98142cc",
-      "evt_685fb6bfca8ef427",
-      "evt_bb0c19be5f9481d2",
-      "evt_976fca781ccc1289",
-      "evt_f71c9674a17bfc23"
+      "evt_685fb6bfca8ef427"
     ],
     "source_ids": [
-      "bbc",
       "elpais",
-      "euronews",
       "rtve",
       "unknown"
     ],
-    "timestamp": "2026-11-16T15:46:17.795302+00:00",
+    "timestamp": "2026-11-17T15:59:16.182495+00:00",
     "fallback_used": true,
     "verification_summary": {
       "CONFIRMED_MULTI_SOURCE": 0,
       "CONFIRMED_PRIMARY": 0,
       "CONFLICTING": 0,
-      "DECLARATION_ONLY": 1,
-      "SINGLE_SOURCE": 4,
-      "UNCONFIRMED": 22,
+      "DECLARATION_ONLY": 0,
+      "SINGLE_SOURCE": 2,
+      "UNCONFIRMED": 25,
       "TOTAL": 27
     },
-    "edition_label": "Cuaderno de navegación",
-    "edition_slug": "navigation"
+    "edition_label": "Cuaderno de las dos orillas",
+    "edition_slug": "shores"
   },
   "entries": [
     {

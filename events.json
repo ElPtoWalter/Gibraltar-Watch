@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-18T14:08:21.131680+00:00",
+  "generated_at": "2026-11-18T22:01:52.693349+00:00",
   "events": [
     {
       "event_id": "evt_f91bead29d924ae2",
       "topic": "traffic",
       "first_seen": "2026-11-16T17:08:48Z",
-      "last_seen": "2026-11-18T11:03:00Z",
+      "last_seen": "2026-11-18T16:37:00Z",
       "headline": "El patrullero Serviola regresa a Ferrol tras reforzar la seguridad marítima en Ceuta y estrecho de Gibraltar",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
@@ -48,7 +48,7 @@
           "title": "El patrullero Serviola regresa a Ferrol tras reforzar la seguridad marítima en Ceuta y estrecho de Gibraltar",
           "title_key": "el patrullero serviola regresa a ferrol tras reforzar la seguridad maritima en ceuta y estrecho de gibraltar",
           "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOdTV0cDBsSklTU3JUcFN0RXJDWDBqMEhobFJQS1hMMzdJSWlYYUozRFNmXzFZMy10WG9RaTNSejRKNzlMSEtMczdZd3VIRVRvSmNwUVZjN0tacHR1dHMyVUE5Yl83ejFETjROenJoVlNETGJ4ZTAySnBmQkFaWEpubVhhMGtWQm0wZXNlTTl6OTV0Nmp6RGdBT3pxTGFqaG4zMEc3eG5YbFlNckFwT2o3UU1jbC1ISTZBSjFibnQ2U0pxQUtxYjhKb2JTdGt3Skgya1h6RzRUMmpFTDgtTEpfb0dsR2YtZFE",
-          "published_at": "2026-11-18T11:03:00Z",
+          "published_at": "2026-11-18T16:37:00Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -57,6 +57,52 @@
           "official": false,
           "weight": 1.0,
           "topic": "traffic",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_a869dda15c10f07f",
+      "topic": "ceuta",
+      "first_seen": "2026-11-18T14:17:43Z",
+      "last_seen": "2026-11-18T14:17:43Z",
+      "headline": "Ceuta: Tardón Turns Suspicions into Evidence of Moroccan ‘Hybrid Warfare’",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_e1e2b7b19f8a89c3",
+          "title": "Ceuta: Tardón Turns Suspicions into Evidence of Moroccan ‘Hybrid Warfare’",
+          "title_key": "ceuta tardon turns suspicions into evidence of moroccan hybrid warfare",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQeTdEem5oQmd1MWtIZHRRMUN6dmktZ1VMeXhsaHY3aWNKaUFZZkNvNDBRNUFzUVlmc1U0SjRvODUyNzNlbTA2TTdPZ3pKNXNVWi1ySEVmZmlTTDN0Zzg1blBSMXljb2p2Zy1Jc3BQR3pxZTR5V3I3MG1KTDFrUDdIUVJ2aHBJdVcwNzFYbHBnOEdWWUR4SlV1SjVyYUdvVkxLMTZya1AtWG9SSm5zc2RBRGtsUmtsMVM5Yzhj",
+          "published_at": "2026-11-18T14:17:43Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
@@ -369,6 +415,52 @@
       "operational_eligible": false
     },
     {
+      "event_id": "evt_fd1fe1b197a8498a",
+      "topic": "relations",
+      "first_seen": "2026-11-16T15:00:16Z",
+      "last_seen": "2026-11-16T15:00:16Z",
+      "headline": "Inocencio Arias, exembajador de España ante la ONU: \"Ceuta es una ciudad española desde hace siglos y hay que protegerla sin remilgos\"",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_3422561b7667613a",
+          "title": "Inocencio Arias, exembajador de España ante la ONU: \"Ceuta es una ciudad española desde hace siglos y hay que protegerla sin remilgos\"",
+          "title_key": "inocencio arias exembajador de espana ante la onu ceuta es una ciudad espanola desde hace siglos y hay que protegerla sin remilgos",
+          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQRDBmOUhERGZHd182ZWVmc3hTazlYR2haT1g2WHZxMWhQLVBiUkVwaGRaS215MTFjYlZGQ0dSZlZ1dE8zMmo5Vkhsd25YZVBCVHQ4d2lDM0pmV1NiZWVrQWtvZmx1SkY0WGFwTmVvaGtrZUUwOEZNaGJfQjBTZTdBZ0k2YWEycU40a2FmY0h1RUhZMi1ZdzhNcW0zSFVtTWZMb19sZWM0NEhBWGZidWZaRzV5MzVjWk1kR2FnNVVkNWFBV1BNb2hyX19KNFZwR245aWYtMm5LWkt6QUFhOUdrZjFBdWJ5V3ZHQ2VjZG1WMmh0NTVPWnR3bXRIMmXSAZACQVVfeXFMT28xZ3M4SXZKMXBrbDZWeWM5TGxSdVFoZWx4VFlvbV9GcHM5bXdzcjl2MDNBNWdmZ0dOeUlhQ0h0WXFTRWRZdF9WS1pJaWtHcjc2NzBlSzU5b0x6RnNGRmpvTHdHa2JUVUlOQlZheGJqdldVNlJBYng4SWZ3Vk41Z1h2U0k1OTd3MS1FYU9oYzRBQVZvNmRfUjdrcVV2YkNYQ2dNcE5DUzlvZ2JDM01Fbkl5ci1HVW1QZ2tSZVJaSnhveEx4MnRRa2R0MkR1RTlFOGVSWDlIakF1NERkTUJOX2VEZWpRRlFReEpOVWdhVXFXQjVMdVdLcHV3Z3dZendodnRIQXB2NFVTcVROYUxxZm4",
+          "published_at": "2026-11-16T15:00:16Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
       "event_id": "evt_83ac3ed45a1616aa",
       "topic": "traffic",
       "first_seen": "2026-11-16T10:10:39Z",
@@ -418,7 +510,7 @@
       "event_id": "evt_0117af9c93796ddb",
       "topic": "relations",
       "first_seen": "2026-11-13T08:37:00Z",
-      "last_seen": "2026-11-13T08:37:00Z",
+      "last_seen": "2026-11-15T08:00:00Z",
       "headline": "Ada Colau, en la entrevista con Jordi Wild, sobre el papel de Marruecos en la crisis de Ceuta: \"Hay que revisar las relaciones. Quiero pensar que se esté haciendo desde la discreción\"",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
@@ -443,6 +535,24 @@
           "title_key": "ada colau en la entrevista con jordi wild sobre el papel de marruecos en la crisis de ceuta hay que revisar las relaciones quiero pensar que se este haciendo desde la discrecion",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNN1AyMFZZQlY5M1c1UHlvdkl3RXBwMXFlZnByVkI5dFUwTjRVVG5lS2dPblh2X0xGNnV0UzhyZlZndDYzOHVfc0VETmNKS1BZNVJLWlotUGw4NUE5UUdia2FrVHZSSDdSYTZXSnVxZFFsdVNfNi1qckVncmlqRHltdzBGTU9tV1ZBYXJGWUJNT3dDQkxxYkZPQV9KV1FNQ2dJWHVnRVFaRzBmYmc3Nmdz",
           "published_at": "2026-11-13T08:37:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_dffeb70979e99b9b",
+          "title": "Feijóo, sobre la relación de España con Marruecos: «No podemos considerarlo un aliado. Si no nos respeta, aplicaría la Constitución para desplegar el Ejército en la frontera»",
+          "title_key": "feijoo sobre la relacion de espana con marruecos no podemos considerarlo un aliado si no nos respeta aplicaria la constitucion para desplegar el ejercito en la frontera",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbjBPVHcxNHk2OHZ2V0NYNVlHOWYzQ21DOTlsU2s3WHhGbTFSTzZBY3l0azVTdzNPUlNvWkpYckY1NWRJQ1VHdjRtUkV6Tkhpek9naDI1M0RHbUNEelJKVUdMUDIza2h1d0ZmajVUZ3dOMHh3eDREdjJ5SlNCcDlQa1NLbnp4VEtwajdRZDV0MUdab1J5OE92V0JFN3Ftb21zamtUMDNCNk1nODdS0gGyAUFVX3lxTFBGN0tpWXFVNjE1SHZ3X0lBUURTdlZwNUxEOGxiX1FueHpmSTVkVmdVcnk0R2RUbTFNa2RUQ201U215Uk1GUENkRkFUZDlvVkdsenJOV2NWeXY4YVFJZ3dsd1JNMWtDRGNpM1JfZThBTmhrQ2xYdUQwTXNuUThCaHhGTkQ4eXA1VGVGU252V053WlYxX2ZyQ2NNN1NDSDBSMlNNR1k3a19ORVMxTHdxS25iY2c",
+          "published_at": "2026-11-15T08:00:00Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -550,52 +660,6 @@
       ],
       "importance": 4,
       "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_102e4849f98142cc",
-      "topic": "traffic",
-      "first_seen": "2026-11-08T04:00:00Z",
-      "last_seen": "2026-11-08T04:00:00Z",
-      "headline": "The sea’s grip on the global economy: The chokepoints that can bring world trade to its knees - EL PAÍS English",
-      "classification": "FACT",
-      "verification_status": "SINGLE_SOURCE",
-      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
-      "sources": [
-        {
-          "source_id": "elpais",
-          "source_name": "El País",
-          "source_domain": "elpais.com",
-          "tier": 3,
-          "official": false,
-          "weight": 3.0
-        }
-      ],
-      "source_ids": [
-        "elpais"
-      ],
-      "articles": [
-        {
-          "article_id": "art_0b2db2d157884e03",
-          "title": "The sea’s grip on the global economy: The chokepoints that can bring world trade to its knees - EL PAÍS English",
-          "title_key": "the sea s grip on the global economy the chokepoints that can bring world trade to its knees el pais english",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQa25DWFdia3hYalNfSkRYek5pZ09uYzV3dmIzSnViMDZqQ2RqSVMtOWNycmYxSmNzTFIwZHJMYWUwTllsUmQ2MlhJLTBCWGRpcGdBcWRsZ2hNbkxoaG9CTVhkVkZtNmJZUV9PQU1HZkVobUlpUFhkeTJHZlNRSWkwTHNNS2FxYVV0ODN2bzFXMFp0OG4yTlpXNW4zRERXZHRYazFscFFNZm0yWm0zLWQ0OVlVRWxlMS05ZjJudmx1Tjk5SmRQRHVid1V4WGQ2TTlYb0hWLWZMVXV5cHNBM1R5cGlSY2xzeGpGNHgw0gH_AUFVX3lxTE5qNzlqa1lEOGVkWkd1TDVQb0x2TlpJdy1oNVlTUDNYLXhESW9JSTJLVkV3TG1fdHhLLVZZLVhlWGdMUXdaMWFuV0ZjVUNfWmhPRHNsR2dlS29IMDREc1RTOXRBdC1JRHZmeV9jZkt5akk5S2huSGs1ZDBscUNIckF4elZuTC1yOWtUSFQtcXZRdlpzbWIzR1JRWkVFY2hFSU8yUXZjai1QYm5GOWFvV3pnWGFPRVRDZHViU1lpTTQyQ2ZGNUVTNmZQbnJqczExTVZpOVJJeUU1YlBtME42ekdGeWR0Rm12Z0UtZTU3dl9ROXN2d2VLSWxlTnNndFhBVQ",
-          "published_at": "2026-11-08T04:00:00Z",
-          "observed_at": "",
-          "source_id": "elpais",
-          "source_name": "El País",
-          "source_domain": "elpais.com",
-          "tier": 3,
-          "official": false,
-          "weight": 3.0,
-          "topic": "traffic",
-          "classification": "FACT",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 43,
-      "operational_impact": "CONTEXT",
       "operational_eligible": false
     },
     {
@@ -911,57 +975,11 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_56414bf4c40aec20",
-      "topic": "traffic",
-      "first_seen": "2026-10-07T07:00:00Z",
-      "last_seen": "2026-10-07T07:00:00Z",
-      "headline": "The HMS Mersey makes a stop in Gibraltar after participating in maritime surveillance missions",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_a4c58d8bedbceca1",
-          "title": "The HMS Mersey makes a stop in Gibraltar after participating in maritime surveillance missions",
-          "title_key": "the hms mersey makes a stop in gibraltar after participating in maritime surveillance missions",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPM1hvblptWURsMzBrcndlajA1UER6YWVEekR4RC1VVy1tSzlNLU5wbWUyQUUzcTIzSDY1WUZsYjRsbDZqalU2cDNqT1pzRGM3TV9JaTd2SU1HZW42OUFDLXlpNTAwd0ZzZ0ZpWGpWbVJod2VjWmFra19lVmlkRDRWY094eHRnX2lEUlBPUC1DSm9UaWZ0UVljSUJlYzRXLVlKT0MzYzd2OGU3RHhHb2Job1JGdDdQNk8ydzhXemp0YU9jejNvY2R6NjRfOUtkREpJRk1mNDBoTlFUZw",
-          "published_at": "2026-10-07T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "traffic",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_288ebffca2fe80af",
       "topic": "relations",
       "first_seen": "2026-10-01T07:00:00Z",
       "last_seen": "2026-10-03T07:00:00Z",
-      "headline": "¿Qué revela la crisis de Ceuta sobre la relación con Marruecos?",
+      "headline": "El periodista que ha desnudado a los espías de Marruecos: “Lo que pasó en Ceuta fue fruto de una guerra soterrada entre servicios secretos, un toque de atención a España”",
       "classification": "ANALYSIS",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
@@ -1014,35 +1032,7 @@
           "classification": "ANALYSIS",
           "signal": "",
           "description": ""
-        }
-      ],
-      "importance": 17,
-      "operational_impact": "CONTEXT",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_6312498409e8aa52",
-      "topic": "relations",
-      "first_seen": "2026-10-03T07:00:00Z",
-      "last_seen": "2026-10-03T07:00:00Z",
-      "headline": "El periodista que ha desnudado a los espías de Marruecos: “Lo que pasó en Ceuta fue fruto de una guerra soterrada entre servicios secretos, un toque de atención a España”",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
+        },
         {
           "article_id": "art_dff3e9f177583ed7",
           "title": "El periodista que ha desnudado a los espías de Marruecos: “Lo que pasó en Ceuta fue fruto de una guerra soterrada entre servicios secretos, un toque de atención a España”",
@@ -1062,8 +1052,8 @@
           "description": ""
         }
       ],
-      "importance": 4,
-      "operational_impact": "NONE",
+      "importance": 17,
+      "operational_impact": "CONTEXT",
       "operational_eligible": false
     },
     {
@@ -1261,24 +1251,6 @@
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
-        },
-        {
-          "article_id": "art_df9c2719c9976164",
-          "title": "La frontera de Ceuta y Melilla, blindadas y en calma el día de las elecciones en Marruecos",
-          "title_key": "la frontera de ceuta y melilla blindadas y en calma el dia de las elecciones en marruecos",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQlc1VFhTTlVTcWJTTXQzLUtTOHc1RkU2UUJQRFdVUXRfQ29Xd0F2c09uM1ZDRHQtSDNVMzF2NDhGc2RwNGVUa2JydnBHVkhxZ3F0bHM2bEpPa0p2WHpaS19MZFI5amZnam9aY0R2azc1NGIxOUFabUQ2VVFLQmpjWkJrNVFYUGtqTkRLUnZJbUpYSWdiUGFz",
-          "published_at": "2026-09-23T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
         }
       ],
       "importance": 46,
@@ -1337,10 +1309,10 @@
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 1,
-    "SINGLE_SOURCE": 2,
+    "SINGLE_SOURCE": 1,
     "UNCONFIRMED": 21,
-    "TOTAL": 24
+    "TOTAL": 23
   },
   "article_count": 36,
-  "event_count": 24
+  "event_count": 23
 }

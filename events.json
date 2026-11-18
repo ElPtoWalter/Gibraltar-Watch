@@ -1,7 +1,117 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-18T04:28:45.058932+00:00",
+  "generated_at": "2026-11-18T14:08:21.131680+00:00",
   "events": [
+    {
+      "event_id": "evt_f91bead29d924ae2",
+      "topic": "traffic",
+      "first_seen": "2026-11-16T17:08:48Z",
+      "last_seen": "2026-11-18T11:03:00Z",
+      "headline": "El patrullero Serviola regresa a Ferrol tras reforzar la seguridad marítima en Ceuta y estrecho de Gibraltar",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_5b4a996ec0f88e5b",
+          "title": "El Ejército despliega artillería de costa en ambas orillas del Estrecho para reforzar su seguridad",
+          "title_key": "el ejercito despliega artilleria de costa en ambas orillas del estrecho para reforzar su seguridad",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOaGt0M2JOYy1fdWlVT1hOU1J1TmQ0aTA0eC05SWdDSmtyOXRPUmUtN25zUXd6TUtZQ3JxRnZfQ1NWeUphdjl3aENIQ3hfd012VGVDdWdrWmd0Y0sySDhTTDNZcDNqZFVGR3FvbTFPdDh2blB6THZJc3VSY2hFcnU0WFBWZ0FZQ3gxdXR2ZENQVUJ4SWxhejMwa1FtNkt5MENkQW1RXzE2a0Nrb01ueExINDJtVFFMeUVmdEE3NkgwYnFtT3h1X3BoaW9fNDVud2g1bUFlMEhPSTRFZ2pEX2MxNHhhNA",
+          "published_at": "2026-11-16T17:08:48Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "traffic",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_1955a1f728bf237d",
+          "title": "El patrullero Serviola regresa a Ferrol tras reforzar la seguridad marítima en Ceuta y estrecho de Gibraltar",
+          "title_key": "el patrullero serviola regresa a ferrol tras reforzar la seguridad maritima en ceuta y estrecho de gibraltar",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOdTV0cDBsSklTU3JUcFN0RXJDWDBqMEhobFJQS1hMMzdJSWlYYUozRFNmXzFZMy10WG9RaTNSejRKNzlMSEtMczdZd3VIRVRvSmNwUVZjN0tacHR1dHMyVUE5Yl83ejFETjROenJoVlNETGJ4ZTAySnBmQkFaWEpubVhhMGtWQm0wZXNlTTl6OTV0Nmp6RGdBT3pxTGFqaG4zMEc3eG5YbFlNckFwT2o3UU1jbC1ISTZBSjFibnQ2U0pxQUtxYjhKb2JTdGt3Skgya1h6RzRUMmpFTDgtTEpfb0dsR2YtZFE",
+          "published_at": "2026-11-18T11:03:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "traffic",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_61308ebda2194c44",
+      "topic": "traffic",
+      "first_seen": "2026-11-18T10:34:24Z",
+      "last_seen": "2026-11-18T10:34:24Z",
+      "headline": "The patrol boat Serviola returns to Ferrol after reinforcing maritime security in Ceuta and the Strait",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_8bdd501f58c2fd3c",
+          "title": "The patrol boat Serviola returns to Ferrol after reinforcing maritime security in Ceuta and the Strait",
+          "title_key": "the patrol boat serviola returns to ferrol after reinforcing maritime security in ceuta and the strait",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQVnlsZGZySmN5bmY0ZGlyVC0yQjhvTFJacS12emVkdDdtMGhrdDl1VklPdDhuMmotcHJhQThzdmlKZzYtS3Rhc29Vc3psUUpGT2lPZzBmUmp2NEhYVTFtOURpWUk4UEt1WmxvNHIwanlOc0FyYkQydElNSm52dXVWeU9sRE5UQ1Y0TWQ4ak5wdzVMQ1BsQkNidXBfTWxzVlJ3YV9DOTh3WmZvdnl3cnlBbWswU2o0VUdOM0hKOEFscENvOF9sN2FUSzE5OUFUc0o2b003TzdIONIB3AFBVV95cUxNUzZJODdWbG14M2NmT2Z5QVVPU25lMXJJRzFwRUhlbWtDQmtPRVdtbGVuMHgwTFAyVVd5WlJsZlZkcEpUTENZVG5PU3NCXzlNU3hGUGFKek5xY09mUkxuSXhMQ3ZqLWFTTnZLb0NrWF9BVmVKaHI2TUwxYWo2RVFYYmVfcEhNN2ZHSF9kbHlOeGJCc0d4aUZBeHU2LURzT2k5N0s5VjBxV1JGNkFKemxGcTI5STI2QU1WeThlRnAyNTBVTERoYzh5QVZJbVBtMVQ3RHVQcWZJYnMyV2Zv",
+          "published_at": "2026-11-18T10:34:24Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "traffic",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
     {
       "event_id": "evt_d2a7e9189339728c",
       "topic": "ceuta",
@@ -70,9 +180,9 @@
       "event_id": "evt_0308adade4a8b54a",
       "topic": "traffic",
       "first_seen": "2026-11-17T10:17:25Z",
-      "last_seen": "2026-11-17T10:17:25Z",
-      "headline": "Marina Mercante aprueba dos nuevas zonas de fondeo en Algeciras para mejorar la seguridad en el Estrecho de Gibraltar",
-      "classification": "UNCONFIRMED",
+      "last_seen": "2026-11-17T11:49:37Z",
+      "headline": "Marina Mercante establece dos nuevas zonas de fondeo en Algeciras para despejar la separación del tráfico de El Estrecho",
+      "classification": "OPERATIONAL_SIGNAL",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
       "sources": [
@@ -103,6 +213,106 @@
           "official": false,
           "weight": 1.0,
           "topic": "traffic",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_445b6a9f6af5a7ba",
+          "title": "Marina Mercante establece dos nuevas zonas de fondeo en Algeciras para despejar la separación del tráfico de El Estrecho",
+          "title_key": "marina mercante establece dos nuevas zonas de fondeo en algeciras para despejar la separacion del trafico de el estrecho",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPY0h6QndmYTlZUEwwOEcxS3lxVXl6bFlrUnVqVGtnUkM0bmlxQTZrRWl3TUZPMlROdGFWSEV3eUJKRmwwY0kzNXRFSkpFWVJhamJOT3g3THN6Um82U2gyOFB4cTVRa3JMQTFCUmFQdW1WaEtuc0VoY0RGdVNuNGJubFNua3BkRU5YRmtibHpLYW0zQV9XSk1pNlZzZzhJaGt0dXN0bUFKTmdVdHdCUWhxeElYWkZyS2NDRXNoZUMyYTMzVVU",
+          "published_at": "2026-11-17T11:49:37Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "traffic",
+          "classification": "OPERATIONAL_SIGNAL",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 55,
+      "operational_impact": "POTENTIAL",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_97bb1cf3948f9204",
+      "topic": "ceuta",
+      "first_seen": "2026-11-16T12:03:42Z",
+      "last_seen": "2026-11-17T08:15:00Z",
+      "headline": "Sánchez defends his management of the Ceuta crisis and assures that he was preparing a maritime border with Morocco since June",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_e3aa50428eb9f1ed",
+          "title": "Spanish police and CNI intelligence service clash over Moroccan responsibility for Ceuta border surge",
+          "title_key": "spanish police and cni intelligence service clash over moroccan responsibility for ceuta border surge",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVmJ5MHpMZTBEOHB5ZlV6c1E2dEdHN0RGMTdld3FjR2VBWV9Qa2oyTzBhUndaVGdvTWhCaENsWlpiZ1NkaWVUR2tFSy1kemd6anNXNTJYQ182SzZFaEVackdRUlh4LUZlbXZsUlN2UXFTcEFGcGF3TmxVSlNnUFpyYmNwZ1VOZmhod3hMQkNBMks",
+          "published_at": "2026-11-16T12:03:42Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_00a1f4f29327bdd2",
+          "title": "Spanish intelligence finds no evidence that Morocco orchestrated Ceuta migration crisis",
+          "title_key": "spanish intelligence finds no evidence that morocco orchestrated ceuta migration crisis",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdVV6WnRNZ0k4ckJnYUNfRnB1TzZQMDJMaUhNQXZqVWRUS1pzNmJ5Nms1dmt6ZUVwMXpuc1NFb01faUUzR0Y1cExFc24wZ1cwOEpDNUItZ3MtOVJFVXY4SkR1Ym9HTkdKU1V3N2V4VlRVbzlwYWtCUVk4ZjlBcnNYdktwWnktZG15MXhGVWRYSmxRT0otT0czcg",
+          "published_at": "2026-11-16T15:09:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_2033d4e1686930cd",
+          "title": "Sánchez defends his management of the Ceuta crisis and assures that he was preparing a maritime border with Morocco since June",
+          "title_key": "sanchez defends his management of the ceuta crisis and assures that he was preparing a maritime border with morocco since june",
+          "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOOWhsZl9aUUZhVzA1ZE5PbVhVZDBhcDNHMFp4Q0lwTEtPMXJwSUNaemVMUkZNcmRYRnd1cndEbFVqS0p5dEJmWnNaOThwejFyMVQ1TnhHZTAwX0k2eElhUlZwVTI1OWoyUTRYVG5IY25BYUNKOVl1eGIwbVl6ZWxJUWM2M2p1S3J2VHpiTHppeE5PUC1uUjBRa3NtQWF2clEwSlRIc3RnQzFFUHJkSk9ZdHRGcVh3TGE4WFJkYmxpOXBscEMzZWcwd0w5NkMtV2hYeWVRUWpqYUdLM1JUcl9CZ0JoRkh0MnZkZ0lZRDFpeFlRVGZsT2ozN3NsNmZ0c1J3SGZiM2JIT2rSAY4CQVVfeXFMTnJkRC1pS2pCVm44TElKZ1k3alo4Y085NFVMcnJXZms1ZnJWbzByMHpVRkUyV05MZDZCdFI3WGw5b1lhNllSUEtPRFNUWC1FZ0JDbDgxZl9XU0V4cmFSWHdXZ3I1MUJqNTRoM01Hazg5MmdxM1NDY1VweDFwRFo0andpSGJmcl8xWWItTUVWWnFWdTEwaTluUlZPNGVzTVh0a2o2c2RwcWxONmNSMUpEVndhb1BRZG1rLURjY3ZGdWZoS3Ruc2NqeXF4VHVTWFYwOEFzU3VGYkVQaHFwT2RJS0tELWtqU21nUUE3UWNjMXhuMFNsTmZhY3VhRWh4dDZrWExpZVMxM1FVOFZaSjJ3",
+          "published_at": "2026-11-17T08:15:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
@@ -159,162 +369,6 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_f91bead29d924ae2",
-      "topic": "traffic",
-      "first_seen": "2026-11-16T17:08:48Z",
-      "last_seen": "2026-11-16T17:08:48Z",
-      "headline": "El Ejército despliega artillería de costa en ambas orillas del Estrecho para reforzar su seguridad",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_5b4a996ec0f88e5b",
-          "title": "El Ejército despliega artillería de costa en ambas orillas del Estrecho para reforzar su seguridad",
-          "title_key": "el ejercito despliega artilleria de costa en ambas orillas del estrecho para reforzar su seguridad",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOaGt0M2JOYy1fdWlVT1hOU1J1TmQ0aTA0eC05SWdDSmtyOXRPUmUtN25zUXd6TUtZQ3JxRnZfQ1NWeUphdjl3aENIQ3hfd012VGVDdWdrWmd0Y0sySDhTTDNZcDNqZFVGR3FvbTFPdDh2blB6THZJc3VSY2hFcnU0WFBWZ0FZQ3gxdXR2ZENQVUJ4SWxhejMwa1FtNkt5MENkQW1RXzE2a0Nrb01ueExINDJtVFFMeUVmdEE3NkgwYnFtT3h1X3BoaW9fNDVud2g1bUFlMEhPSTRFZ2pEX2MxNHhhNA",
-          "published_at": "2026-11-16T17:08:48Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "traffic",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_d2a7e9189339728c",
-      "topic": "ceuta",
-      "first_seen": "2026-11-16T12:03:42Z",
-      "last_seen": "2026-11-16T15:09:00Z",
-      "headline": "Spanish police and CNI intelligence service clash over Moroccan responsibility for Ceuta border surge",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_e3aa50428eb9f1ed",
-          "title": "Spanish police and CNI intelligence service clash over Moroccan responsibility for Ceuta border surge",
-          "title_key": "spanish police and cni intelligence service clash over moroccan responsibility for ceuta border surge",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVmJ5MHpMZTBEOHB5ZlV6c1E2dEdHN0RGMTdld3FjR2VBWV9Qa2oyTzBhUndaVGdvTWhCaENsWlpiZ1NkaWVUR2tFSy1kemd6anNXNTJYQ182SzZFaEVackdRUlh4LUZlbXZsUlN2UXFTcEFGcGF3TmxVSlNnUFpyYmNwZ1VOZmhod3hMQkNBMks",
-          "published_at": "2026-11-16T12:03:42Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_00a1f4f29327bdd2",
-          "title": "Spanish intelligence finds no evidence that Morocco orchestrated Ceuta migration crisis",
-          "title_key": "spanish intelligence finds no evidence that morocco orchestrated ceuta migration crisis",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdVV6WnRNZ0k4ckJnYUNfRnB1TzZQMDJMaUhNQXZqVWRUS1pzNmJ5Nms1dmt6ZUVwMXpuc1NFb01faUUzR0Y1cExFc24wZ1cwOEpDNUItZ3MtOVJFVXY4SkR1Ym9HTkdKU1V3N2V4VlRVbzlwYWtCUVk4ZjlBcnNYdktwWnktZG15MXhGVWRYSmxRT0otT0czcg",
-          "published_at": "2026-11-16T15:09:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_fd1fe1b197a8498a",
-      "topic": "relations",
-      "first_seen": "2026-11-16T15:00:16Z",
-      "last_seen": "2026-11-16T15:00:16Z",
-      "headline": "Inocencio Arias, exembajador de España ante la ONU: \"Ceuta es una ciudad española desde hace siglos y hay que protegerla sin remilgos\"",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_3422561b7667613a",
-          "title": "Inocencio Arias, exembajador de España ante la ONU: \"Ceuta es una ciudad española desde hace siglos y hay que protegerla sin remilgos\"",
-          "title_key": "inocencio arias exembajador de espana ante la onu ceuta es una ciudad espanola desde hace siglos y hay que protegerla sin remilgos",
-          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQRDBmOUhERGZHd182ZWVmc3hTazlYR2haT1g2WHZxMWhQLVBiUkVwaGRaS215MTFjYlZGQ0dSZlZ1dE8zMmo5Vkhsd25YZVBCVHQ4d2lDM0pmV1NiZWVrQWtvZmx1SkY0WGFwTmVvaGtrZUUwOEZNaGJfQjBTZTdBZ0k2YWEycU40a2FmY0h1RUhZMi1ZdzhNcW0zSFVtTWZMb19sZWM0NEhBWGZidWZaRzV5MzVjWk1kR2FnNVVkNWFBV1BNb2hyX19KNFZwR245aWYtMm5LWkt6QUFhOUdrZjFBdWJ5V3ZHQ2VjZG1WMmh0NTVPWnR3bXRIMmXSAZACQVVfeXFMT28xZ3M4SXZKMXBrbDZWeWM5TGxSdVFoZWx4VFlvbV9GcHM5bXdzcjl2MDNBNWdmZ0dOeUlhQ0h0WXFTRWRZdF9WS1pJaWtHcjc2NzBlSzU5b0x6RnNGRmpvTHdHa2JUVUlOQlZheGJqdldVNlJBYng4SWZ3Vk41Z1h2U0k1OTd3MS1FYU9oYzRBQVZvNmRfUjdrcVV2YkNYQ2dNcE5DUzlvZ2JDM01Fbkl5ci1HVW1QZ2tSZVJaSnhveEx4MnRRa2R0MkR1RTlFOGVSWDlIakF1NERkTUJOX2VEZWpRRlFReEpOVWdhVXFXQjVMdVdLcHV3Z3dZendodnRIQXB2NFVTcVROYUxxZm4",
-          "published_at": "2026-11-16T15:00:16Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_83ac3ed45a1616aa",
       "topic": "traffic",
       "first_seen": "2026-11-16T10:10:39Z",
@@ -351,52 +405,6 @@
           "official": false,
           "weight": 1.0,
           "topic": "traffic",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_629ffdd77a5c8374",
-      "topic": "ceuta",
-      "first_seen": "2026-11-13T10:02:00Z",
-      "last_seen": "2026-11-13T10:02:00Z",
-      "headline": "Alberto Núñez Feijóo en la entrevista con Jordi Wild, sobre la crisis de Ceuta: \"Si Marruecos no blinda la frontera, desplegaría al Ejército\"",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_8998832cb47de94d",
-          "title": "Alberto Núñez Feijóo en la entrevista con Jordi Wild, sobre la crisis de Ceuta: \"Si Marruecos no blinda la frontera, desplegaría al Ejército\"",
-          "title_key": "alberto nunez feijoo en la entrevista con jordi wild sobre la crisis de ceuta si marruecos no blinda la frontera desplegaria al ejercito",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPckRCVmJzaV9odmxMaWVPbUJVakV6WnlIc1ZBWnVVdGlLV2dpU1ZXR0dfVGkwZ0FiQzlQME5xUWExbGpNZ0xzYWVneW1pMXpvSmZTcl95MmtIX01sQ0NjNFRQYk04WnhwU1U4WTJSWDFTMUtTSGw2MzVIX1dnd1ZJbzZ4RUVleVZ4end2Q2RLbDdsVjVkXzNxQVBxYW4",
-          "published_at": "2026-11-13T10:02:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
@@ -453,56 +461,10 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_7968fe9323e3c5ba",
-      "topic": "melilla",
-      "first_seen": "2026-11-11T19:01:47Z",
-      "last_seen": "2026-11-11T19:01:47Z",
-      "headline": "Albert Rivera reaparece y alerta de una “acción híbrida de Marruecos para invadir Ceuta y Melilla”",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_061462ba38ed226a",
-          "title": "Albert Rivera reaparece y alerta de una “acción híbrida de Marruecos para invadir Ceuta y Melilla”",
-          "title_key": "albert rivera reaparece y alerta de una accion hibrida de marruecos para invadir ceuta y melilla",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUUNsSk9aMy1KTnplRG1pc0RVY2FISEJ3RnZtYnlYVEhLMHZKSnRZR1NXbU45M0FTM2RPeW02NmtMMFByZ0g3SC1WY0hZMXUza05ibDFyTWxzZEtNN0pBa0J4dmpmV1lsZnB3Nm5rUWZPYklXNVNHcDRwbUhhWU1fUVFLQURRVG1WbzhVVjZKSzZBS04tYXRDQmV0ZFZSUm5uMkI4OEU1am8zZDhidEtfY0JwTEQ",
-          "published_at": "2026-11-11T19:01:47Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_b7454aece121a6c2",
       "topic": "traffic",
       "first_seen": "2026-11-10T09:39:25Z",
-      "last_seen": "2026-11-10T09:39:25Z",
+      "last_seen": "2026-11-10T08:00:00Z",
       "headline": "Ordenar los buques del Estrecho de Gibraltar: una tarea que parecía imposible hasta ahora",
       "classification": "OPERATIONAL_SIGNAL",
       "verification_status": "UNCONFIRMED",
@@ -526,7 +488,7 @@
           "title": "Ordenar los buques del Estrecho de Gibraltar: una tarea que parecía imposible hasta ahora",
           "title_key": "ordenar los buques del estrecho de gibraltar una tarea que parecia imposible hasta ahora",
           "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPXzkzdWVNVVVxb3JadUVoQjVoZVhvRWhOdlpNb1BWdFdwcE5pcG1CSTdKbHVIYW1WTjJFU0RCekRrMmFFTnpHTlhYZ1lCQzY1cDZKdlJxNFNiY1RZMEJsT0JNSmJtYTdEN21tS1FPdDJNYTNGUmRZSC1MbkV3THhOYzMxeVE2d0hkeTJQUjI2akFvZ2dJMHV0RHFsQWxTQ1UxY29UX0tOcTRzbmxuenpWZnpXZkZUbzNEa3l4YUViOElYQWJ3Z3doRnktbjV3WHpYaDRXS0F4eU9KcFRGRXdTeGdYRWc0X0J0OWdN0gHWAUFVX3lxTFAycVZBa1hwNVBiRWR5Vk5hY2hQcFpnbFF5MlBpN3ZNZmpPVWxHV2dod3Z5SjA2MzF2RXdXdnhMZlZ2STFSQzVScXdxMU4tbzhOdTZveW1tODNPTXJuZWViMmM1a0RjOGhhbFhuRWdPYXpUeGh4ZXRPci04bDdnOVJSaGVSNGJrTkdXSUNUUkJfbVdEX1EyWUxvbDUzdzZuX0ZRWUItRElUMDZnWlJ5NjlCQi1EbzZXdG5BZGNFYlFsdHZyZ0w4YUVRUUhrQzI3aERSV0R5NXc",
-          "published_at": "2026-11-10T09:39:25Z",
+          "published_at": "2026-11-10T08:00:00Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -999,7 +961,7 @@
       "topic": "relations",
       "first_seen": "2026-10-01T07:00:00Z",
       "last_seen": "2026-10-03T07:00:00Z",
-      "headline": "El periodista que ha desnudado a los espías de Marruecos: “Lo que pasó en Ceuta fue fruto de una guerra soterrada entre servicios secretos, un toque de atención a España”",
+      "headline": "¿Qué revela la crisis de Ceuta sobre la relación con Marruecos?",
       "classification": "ANALYSIS",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
@@ -1052,7 +1014,35 @@
           "classification": "ANALYSIS",
           "signal": "",
           "description": ""
-        },
+        }
+      ],
+      "importance": 17,
+      "operational_impact": "CONTEXT",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_6312498409e8aa52",
+      "topic": "relations",
+      "first_seen": "2026-10-03T07:00:00Z",
+      "last_seen": "2026-10-03T07:00:00Z",
+      "headline": "El periodista que ha desnudado a los espías de Marruecos: “Lo que pasó en Ceuta fue fruto de una guerra soterrada entre servicios secretos, un toque de atención a España”",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
         {
           "article_id": "art_dff3e9f177583ed7",
           "title": "El periodista que ha desnudado a los espías de Marruecos: “Lo que pasó en Ceuta fue fruto de una guerra soterrada entre servicios secretos, un toque de atención a España”",
@@ -1072,8 +1062,8 @@
           "description": ""
         }
       ],
-      "importance": 17,
-      "operational_impact": "CONTEXT",
+      "importance": 4,
+      "operational_impact": "NONE",
       "operational_eligible": false
     },
     {
@@ -1340,52 +1330,6 @@
       "importance": 30,
       "operational_impact": "POTENTIAL",
       "operational_eligible": false
-    },
-    {
-      "event_id": "evt_4588497e633eb141",
-      "topic": "traffic",
-      "first_seen": "2026-09-22T07:00:00Z",
-      "last_seen": "2026-09-22T07:00:00Z",
-      "headline": "Houthi Leverage over the Red Sea Escalates Threats for Africa",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_1d28e373b867cf97",
-          "title": "Houthi Leverage over the Red Sea Escalates Threats for Africa",
-          "title_key": "houthi leverage over the red sea escalates threats for africa",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ja0x1Q0t3cmg1aVFDeHlXNVEwUmFwQW8wc0hpZkFFeHVzQmFsSFYxTkp5Sm9MQ3p6RE9hdy1CX0pWSWFaWEpsZGl1M2RaMTNEZjVHVEMyM3B3b3RDUUsyRXdCVnZyZWlSMktJVWFxUjc",
-          "published_at": "2026-09-22T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "traffic",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
     }
   ],
   "verification_summary": {
@@ -1394,9 +1338,9 @@
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 1,
     "SINGLE_SOURCE": 2,
-    "UNCONFIRMED": 23,
-    "TOTAL": 26
+    "UNCONFIRMED": 21,
+    "TOTAL": 24
   },
   "article_count": 36,
-  "event_count": 26
+  "event_count": 24
 }

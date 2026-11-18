@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-17T22:56:36.710047+00:00",
+  "generated_at": "2026-11-18T04:28:45.058932+00:00",
   "events": [
     {
       "event_id": "evt_d2a7e9189339728c",
       "topic": "ceuta",
       "first_seen": "2026-11-16T12:03:42Z",
       "last_seen": "2026-11-17T18:55:00Z",
-      "headline": "Sánchez defends his management of the Ceuta crisis and assures that he was preparing a maritime border with Morocco since June",
-      "classification": "UNCONFIRMED",
+      "headline": "Spanish intelligence absolves Morocco of orchestrating massive Ceuta border breach as 80,000 migrants crossed in two days",
+      "classification": "OPERATIONAL_SIGNAL",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
       "sources": [
@@ -26,47 +26,11 @@
       ],
       "articles": [
         {
-          "article_id": "art_e3aa50428eb9f1ed",
-          "title": "Spanish police and CNI intelligence service clash over Moroccan responsibility for Ceuta border surge",
-          "title_key": "spanish police and cni intelligence service clash over moroccan responsibility for ceuta border surge",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVmJ5MHpMZTBEOHB5ZlV6c1E2dEdHN0RGMTdld3FjR2VBWV9Qa2oyTzBhUndaVGdvTWhCaENsWlpiZ1NkaWVUR2tFSy1kemd6anNXNTJYQ182SzZFaEVackdRUlh4LUZlbXZsUlN2UXFTcEFGcGF3TmxVSlNnUFpyYmNwZ1VOZmhod3hMQkNBMks",
-          "published_at": "2026-11-16T12:03:42Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_00a1f4f29327bdd2",
-          "title": "Spanish intelligence finds no evidence that Morocco orchestrated Ceuta migration crisis",
-          "title_key": "spanish intelligence finds no evidence that morocco orchestrated ceuta migration crisis",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdVV6WnRNZ0k4ckJnYUNfRnB1TzZQMDJMaUhNQXZqVWRUS1pzNmJ5Nms1dmt6ZUVwMXpuc1NFb01faUUzR0Y1cExFc24wZ1cwOEpDNUItZ3MtOVJFVXY4SkR1Ym9HTkdKU1V3N2V4VlRVbzlwYWtCUVk4ZjlBcnNYdktwWnktZG15MXhGVWRYSmxRT0otT0czcg",
-          "published_at": "2026-11-16T15:09:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_2033d4e1686930cd",
-          "title": "Sánchez defends his management of the Ceuta crisis and assures that he was preparing a maritime border with Morocco since June",
-          "title_key": "sanchez defends his management of the ceuta crisis and assures that he was preparing a maritime border with morocco since june",
-          "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOOWhsZl9aUUZhVzA1ZE5PbVhVZDBhcDNHMFp4Q0lwTEtPMXJwSUNaemVMUkZNcmRYRnd1cndEbFVqS0p5dEJmWnNaOThwejFyMVQ1TnhHZTAwX0k2eElhUlZwVTI1OWoyUTRYVG5IY25BYUNKOVl1eGIwbVl6ZWxJUWM2M2p1S3J2VHpiTHppeE5PUC1uUjBRa3NtQWF2clEwSlRIc3RnQzFFUHJkSk9ZdHRGcVh3TGE4WFJkYmxpOXBscEMzZWcwd0w5NkMtV2hYeWVRUWpqYUdLM1JUcl9CZ0JoRkh0MnZkZ0lZRDFpeFlRVGZsT2ozN3NsNmZ0c1J3SGZiM2JIT2rSAY4CQVVfeXFMTnJkRC1pS2pCVm44TElKZ1k3alo4Y085NFVMcnJXZms1ZnJWbzByMHpVRkUyV05MZDZCdFI3WGw5b1lhNllSUEtPRFNUWC1FZ0JDbDgxZl9XU0V4cmFSWHdXZ3I1MUJqNTRoM01Hazg5MmdxM1NDY1VweDFwRFo0andpSGJmcl8xWWItTUVWWnFWdTEwaTluUlZPNGVzTVh0a2o2c2RwcWxONmNSMUpEVndhb1BRZG1rLURjY3ZGdWZoS3Ruc2NqeXF4VHVTWFYwOEFzU3VGYkVQaHFwT2RJS0tELWtqU21nUUE3UWNjMXhuMFNsTmZhY3VhRWh4dDZrWExpZVMxM1FVOFZaSjJ3",
-          "published_at": "2026-11-17T08:15:00Z",
+          "article_id": "art_31b7d94e63bc372c",
+          "title": "3 months after mass entry, some 15,000 migrants remain in Ceuta",
+          "title_key": "3 months after mass entry some 15 000 migrants remain in ceuta",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMzZxRWxscVNUS2s3dW16S0lTLUVoVTE2Y3pxdnk2enEtbkctbzJBZFFQMHhTYi1zWUViMGp4MWoxRG12QW51UVphMEM2YU0wWnZOU2Rmb09KekE0NHE4ZDgyb1JiSGlTaERBV0FtWWpvay1DWF9najNUNlNIZ2N0WFNR",
+          "published_at": "2026-11-15T22:55:41Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -81,8 +45,8 @@
         },
         {
           "article_id": "art_400efcf88bb88383",
-          "title": "Spain clears Morocco of orchestrating huge Ceuta border breach",
-          "title_key": "spain clears morocco of orchestrating huge ceuta border breach",
+          "title": "Spanish intelligence absolves Morocco of orchestrating massive Ceuta border breach as 80,000 migrants crossed in two days",
+          "title_key": "spanish intelligence absolves morocco of orchestrating massive ceuta border breach as 80 000 migrants crossed in two days",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdHNTRXBYdWhhdVR0VmtEZnNocjdhZmYxX1lzV1djX3A2eFhVbkFFV0U3RXQzY0lOQmR4WGNJTncxLUpEc3VETXl3WWI0TmJqTDE1bktsdEtrbk5KS2JzNmhWQ0U2TzAycG5nbzNIYTkwOW9aeGlzRmpwSkltUzJORFE5dlhaVjVNWGhHU3B2X2k5eXlhNlRF",
           "published_at": "2026-11-17T18:55:00Z",
           "observed_at": "",
@@ -93,13 +57,13 @@
           "official": false,
           "weight": 1.0,
           "topic": "ceuta",
-          "classification": "UNCONFIRMED",
+          "classification": "OPERATIONAL_SIGNAL",
           "signal": "",
           "description": ""
         }
       ],
-      "importance": 4,
-      "operational_impact": "NONE",
+      "importance": 55,
+      "operational_impact": "POTENTIAL",
       "operational_eligible": false
     },
     {
@@ -241,6 +205,70 @@
       "operational_eligible": false
     },
     {
+      "event_id": "evt_d2a7e9189339728c",
+      "topic": "ceuta",
+      "first_seen": "2026-11-16T12:03:42Z",
+      "last_seen": "2026-11-16T15:09:00Z",
+      "headline": "Spanish police and CNI intelligence service clash over Moroccan responsibility for Ceuta border surge",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_e3aa50428eb9f1ed",
+          "title": "Spanish police and CNI intelligence service clash over Moroccan responsibility for Ceuta border surge",
+          "title_key": "spanish police and cni intelligence service clash over moroccan responsibility for ceuta border surge",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVmJ5MHpMZTBEOHB5ZlV6c1E2dEdHN0RGMTdld3FjR2VBWV9Qa2oyTzBhUndaVGdvTWhCaENsWlpiZ1NkaWVUR2tFSy1kemd6anNXNTJYQ182SzZFaEVackdRUlh4LUZlbXZsUlN2UXFTcEFGcGF3TmxVSlNnUFpyYmNwZ1VOZmhod3hMQkNBMks",
+          "published_at": "2026-11-16T12:03:42Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_00a1f4f29327bdd2",
+          "title": "Spanish intelligence finds no evidence that Morocco orchestrated Ceuta migration crisis",
+          "title_key": "spanish intelligence finds no evidence that morocco orchestrated ceuta migration crisis",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdVV6WnRNZ0k4ckJnYUNfRnB1TzZQMDJMaUhNQXZqVWRUS1pzNmJ5Nms1dmt6ZUVwMXpuc1NFb01faUUzR0Y1cExFc24wZ1cwOEpDNUItZ3MtOVJFVXY4SkR1Ym9HTkdKU1V3N2V4VlRVbzlwYWtCUVk4ZjlBcnNYdktwWnktZG15MXhGVWRYSmxRT0otT0czcg",
+          "published_at": "2026-11-16T15:09:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
       "event_id": "evt_fd1fe1b197a8498a",
       "topic": "relations",
       "first_seen": "2026-11-16T15:00:16Z",
@@ -323,98 +351,6 @@
           "official": false,
           "weight": 1.0,
           "topic": "traffic",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_f3a905bdc861aaee",
-      "topic": "ceuta",
-      "first_seen": "2026-11-15T09:00:00Z",
-      "last_seen": "2026-11-15T22:55:41Z",
-      "headline": "3 months after mass entry, some 15,000 migrants remain in Ceuta",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_31b7d94e63bc372c",
-          "title": "3 months after mass entry, some 15,000 migrants remain in Ceuta",
-          "title_key": "3 months after mass entry some 15 000 migrants remain in ceuta",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMzZxRWxscVNUS2s3dW16S0lTLUVoVTE2Y3pxdnk2enEtbkctbzJBZFFQMHhTYi1zWUViMGp4MWoxRG12QW51UVphMEM2YU0wWnZOU2Rmb09KekE0NHE4ZDgyb1JiSGlTaERBV0FtWWpvay1DWF9najNUNlNIZ2N0WFNR",
-          "published_at": "2026-11-15T22:55:41Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_378e33a1cf270138",
-      "topic": "ceuta",
-      "first_seen": "2026-11-13T14:15:00Z",
-      "last_seen": "2026-11-13T14:15:00Z",
-      "headline": "Ceuta crisis: People’s Party leader raises prospect of deploying troops to the border with Morocco",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_bfe572e5301c1874",
-          "title": "Ceuta crisis: People’s Party leader raises prospect of deploying troops to the border with Morocco",
-          "title_key": "ceuta crisis people s party leader raises prospect of deploying troops to the border with morocco",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQ0Q5bEdoSHVKaFBTWnF6dS1FeHlIeHFPQVd5cnpDRmNudm5vOHJFVHo5MDRMR2tDN2Z3alFzVHYxMzlTSnZzWXViVHFvSmhNSFVOeUE2eE9XOUpWYTZjOFpwMEF5MWFLSlZ4cUh2YnR0TEdZUlk4SExwZUJfTUN1ay0xZGJOaDZrQmNrMFJySXg",
-          "published_at": "2026-11-13T14:15:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
@@ -655,52 +591,6 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_a0b23dd320db0835",
-      "topic": "melilla",
-      "first_seen": "2026-11-09T12:45:57Z",
-      "last_seen": "2026-11-09T12:45:57Z",
-      "headline": "Cuca Gamarra promete que un Gobierno del PP asumirá el control de las fronteras sin delegarlo en Marruecos -",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_33b95be755ef84c5",
-          "title": "Cuca Gamarra promete que un Gobierno del PP asumirá el control de las fronteras sin delegarlo en Marruecos -",
-          "title_key": "cuca gamarra promete que un gobierno del pp asumira el control de las fronteras sin delegarlo en marruecos",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSHlJWTlfeHowRHB0V0RJQ3Y4QmYwcl9BRmlxZHdpOEI4V3hBMVg3WFRwUk9MaE05TTdDTVQ2X2hDZGN6X2RIbUNZaTRCRjdmUDl4SFVpRXI4Yzl4S3d6SG9uRnl6QzZuTG5IZVkxSFoyUms3S2NMVm10dl83X3hXMWhMaUVBRjNKMTV3MjRCcVBGY2ltWXl6c0JRMEoxVDFUUmVNX1d5MncxYTB5ZWNlaUZuOFFEeVJRQno4dDhZWDRyS3pFdEFpdXZiUUZUTGvSAdQBQVVfeXFMUHVxLXA4QkhSVlo0cm9NRmROd3htaFpYR01ybTRTTGcyVmZDeDN5a01NSFRNWVBYdVQzLUlJWjFZSWoxY29YdWk2WFdFX3NFbXhvcGZvaFpVYkdFNHFSNFNJU1JrVHJ3SVBZR2FBWXFFcWl1ZFBuY2hRaTV4THN2bGU4a0VHeGpsSXpLUGstTGN1N2trUWdKU0sxeURsZWZiS3poeFZqQVRGNzltRzZNVW1nb3pwSGR6cVlaejhCXzlFVVRubF84d3VQQzF2b3JPVVpaYkQ",
-          "published_at": "2026-11-09T12:45:57Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_102e4849f98142cc",
       "topic": "traffic",
       "first_seen": "2026-11-08T04:00:00Z",
@@ -854,6 +744,52 @@
       ],
       "importance": 55,
       "operational_impact": "POTENTIAL",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_8d7b7e74c84ba84d",
+      "topic": "ceuta",
+      "first_seen": "2026-10-27T07:00:00Z",
+      "last_seen": "2026-10-27T07:00:00Z",
+      "headline": "Spain deports migrants from Ceuta in move criticised by rights group",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_1e41727890b9077d",
+          "title": "Spain deports migrants from Ceuta in move criticised by rights group",
+          "title_key": "spain deports migrants from ceuta in move criticised by rights group",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNM3RaY1ptM2pnUjRNR3RJbV9fQUc0T0xaNnRvVExFSTF3ZlA1cGNJcUJxQWthMDVBZ2hrc3ZjNDRXRGFzcUdHWTRacG1EMUhyTHhmczU1cnVJdXZEdzRDb2dfOXdCU1J6SlB4S3R3dmJPdDRsTEZHU0pub1k1alpkbTdTY3lIYmF1YnlPRE9NM21PbTk3ODh6alkwYWxIOUlxdlhMR1pwSzBmQXJaS3hn0gG0AUFVX3lxTFB5NElNYWNtamw4MFhzMlNPZmdPQk81VzhWMWZoVWtvbEZNd0t4LVZ3b1NodnVuTzBzdjFhLW41ZGlKYUZ2LVRBd2U5RWxQZnVieVRTZ2dvYWdoS1FTemViTXVveVJOU2Y2TXVBaE4zVUJpWkFndFRfSHhITGRLWGxGeWwtZjVNaEJIWDVuM1h1WExWYXFxQmVlX2ZhQXc4cExKN1RHT0xIZjhya1NxcE5uTWlEaA",
+          "published_at": "2026-10-27T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
       "operational_eligible": false
     },
     {
@@ -1063,7 +999,7 @@
       "topic": "relations",
       "first_seen": "2026-10-01T07:00:00Z",
       "last_seen": "2026-10-03T07:00:00Z",
-      "headline": "¿Qué revela la crisis de Ceuta sobre la relación con Marruecos?",
+      "headline": "El periodista que ha desnudado a los espías de Marruecos: “Lo que pasó en Ceuta fue fruto de una guerra soterrada entre servicios secretos, un toque de atención a España”",
       "classification": "ANALYSIS",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
@@ -1114,6 +1050,24 @@
           "weight": 1.0,
           "topic": "relations",
           "classification": "ANALYSIS",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_dff3e9f177583ed7",
+          "title": "El periodista que ha desnudado a los espías de Marruecos: “Lo que pasó en Ceuta fue fruto de una guerra soterrada entre servicios secretos, un toque de atención a España”",
+          "title_key": "el periodista que ha desnudado a los espias de marruecos lo que paso en ceuta fue fruto de una guerra soterrada entre servicios secretos un toque de atencion a espana",
+          "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNQl9ScTJzSTBscnJJbDNtVU56d0cxNDVUM0JJUXRzaW1CaXRLbW82OGxOdUZtRjJKdDI3U2VFTVZWNmp3UG4zUXBfb1AtZ0FXa3lsbzBpak5HSEszOVgzRzIwbVpRV3RXTFc0bTlPdlY3Sm9ZZk56YjFqbUUySkZWem92WkNkRDkzenptdjhHT2NsdVo1U0QxSU1oT242MmRyVktDaWVSZWlnRVJkZUNxb2RzTFNOeEY4bEhBODQ2RWdyaVVMUm1ldGlpQW0xY3diVFZIOWJOUVRXS2p6STFoVXJJdUUzTkc5RU5lQWZkUV9kMTgteG1zRWZzZXJ4My1uMzY5dWZsSVFRc09mdTZYY3JNTFJqd19aaVFua2JFTVB5a0FhZWdxcHlCZzAzaVQySUtF0gHOAkFVX3lxTE85MGpUczhmN1lTZnc1cTNhY09XcW1UZTVVc1B3emd1a3ZwbnV6MGgwUDk4R1RpNGhoYkIyN0RRMWh6YVBzLWlJcmdwM0Y3Sm1UaTJWNnE5US1uSW00RGpkbHJsQVE3VXc2SVJ0WXpqQVRfSjQ0MGpsTHVoNkZDbzJKbEhITjlqSHJCOEZvR28xbk90MEJTelhtLU1YOTU1aTBZSndIc0hFbzhuSVJIeUZZNi16QXFmcmhRTW5ZV2JiUWIxSHVLZXNaRTVvTnJvd0tIaGpKYkM0VVVTa0tqaTJYaUtXZ0ZCaEVjekFZQS14YnNSTkRrMFJqTjNLOUdsSnNISGtaZGtnQXlOMnh3ZkRBNE9OUkR0RzMzUHI4T0RKOTM3bGhCTzNrdWtTMzFkRW9aVFc0YWt2WlQ3T0t0QnFfeUw0ejU3S2JPaDhLYnc",
+          "published_at": "2026-10-03T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
         }
@@ -1283,24 +1237,6 @@
           "description": ""
         },
         {
-          "article_id": "art_df9c2719c9976164",
-          "title": "La frontera de Ceuta y Melilla, blindadas y en calma el día de las elecciones en Marruecos",
-          "title_key": "la frontera de ceuta y melilla blindadas y en calma el dia de las elecciones en marruecos",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQlc1VFhTTlVTcWJTTXQzLUtTOHc1RkU2UUJQRFdVUXRfQ29Xd0F2c09uM1ZDRHQtSDNVMzF2NDhGc2RwNGVUa2JydnBHVkhxZ3F0bHM2bEpPa0p2WHpaS19MZFI5amZnam9aY0R2azc1NGIxOUFabUQ2VVFLQmpjWkJrNVFYUGtqTkRLUnZJbUpYSWdiUGFz",
-          "published_at": "2026-09-23T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
           "article_id": "art_a308188179b1e800",
           "title": "Google Maps representa la frontera de Ceuta y Melilla con Marruecos con una línea discontinua: ¿qué significa?",
           "title_key": "google maps representa la frontera de ceuta y melilla con marruecos con una linea discontinua que significa",
@@ -1317,35 +1253,7 @@
           "classification": "ANALYSIS",
           "signal": "",
           "description": ""
-        }
-      ],
-      "importance": 46,
-      "operational_impact": "CONTEXT",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_fd01f76e50978874",
-      "topic": "melilla",
-      "first_seen": "2026-09-23T07:00:00Z",
-      "last_seen": "2026-09-23T07:00:00Z",
-      "headline": "Ceuta y Melilla en calma en fronteras con Marruecos",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
+        },
         {
           "article_id": "art_2e6083360d5cd455",
           "title": "Ceuta y Melilla en calma en fronteras con Marruecos",
@@ -1363,10 +1271,28 @@
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
+        },
+        {
+          "article_id": "art_df9c2719c9976164",
+          "title": "La frontera de Ceuta y Melilla, blindadas y en calma el día de las elecciones en Marruecos",
+          "title_key": "la frontera de ceuta y melilla blindadas y en calma el dia de las elecciones en marruecos",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQlc1VFhTTlVTcWJTTXQzLUtTOHc1RkU2UUJQRFdVUXRfQ29Xd0F2c09uM1ZDRHQtSDNVMzF2NDhGc2RwNGVUa2JydnBHVkhxZ3F0bHM2bEpPa0p2WHpaS19MZFI5amZnam9aY0R2azc1NGIxOUFabUQ2VVFLQmpjWkJrNVFYUGtqTkRLUnZJbUpYSWdiUGFz",
+          "published_at": "2026-09-23T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "melilla",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
         }
       ],
-      "importance": 4,
-      "operational_impact": "NONE",
+      "importance": 46,
+      "operational_impact": "CONTEXT",
       "operational_eligible": false
     },
     {
@@ -1414,6 +1340,52 @@
       "importance": 30,
       "operational_impact": "POTENTIAL",
       "operational_eligible": false
+    },
+    {
+      "event_id": "evt_4588497e633eb141",
+      "topic": "traffic",
+      "first_seen": "2026-09-22T07:00:00Z",
+      "last_seen": "2026-09-22T07:00:00Z",
+      "headline": "Houthi Leverage over the Red Sea Escalates Threats for Africa",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_1d28e373b867cf97",
+          "title": "Houthi Leverage over the Red Sea Escalates Threats for Africa",
+          "title_key": "houthi leverage over the red sea escalates threats for africa",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ja0x1Q0t3cmg1aVFDeHlXNVEwUmFwQW8wc0hpZkFFeHVzQmFsSFYxTkp5Sm9MQ3p6RE9hdy1CX0pWSWFaWEpsZGl1M2RaMTNEZjVHVEMyM3B3b3RDUUsyRXdCVnZyZWlSMktJVWFxUjc",
+          "published_at": "2026-09-22T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "traffic",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
     }
   ],
   "verification_summary": {
@@ -1422,9 +1394,9 @@
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 1,
     "SINGLE_SOURCE": 2,
-    "UNCONFIRMED": 24,
-    "TOTAL": 27
+    "UNCONFIRMED": 23,
+    "TOTAL": 26
   },
   "article_count": 36,
-  "event_count": 27
+  "event_count": 26
 }

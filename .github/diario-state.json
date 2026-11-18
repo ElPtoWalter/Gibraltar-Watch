@@ -1,9 +1,9 @@
 {
   "version": 4,
   "latest_entry": {
-    "date": "2026-11-17",
-    "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
-    "summary": "Selección automática de 6 referencias de 5 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "date": "2026-11-18",
+    "headline": "Tráfico marítimo: qué aportan los titulares y qué falta comprobar",
+    "summary": "Selección automática de 5 referencias de 4 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
     "url": "diario/actual.html",
     "material_archive": false,
     "status_snapshot": {
@@ -25,22 +25,20 @@
       }
     },
     "source_keys": [
-      "2033d4e1686930cd339e",
-      "3422561b7667613a54c4",
-      "453cd21f3ff9cc65a6ab",
-      "4ab1f05bd2134aea23a5",
-      "5b4a996ec0f88e5be616",
+      "1955a1f728bf237db061",
+      "400efcf88bb883835288",
+      "445b6a9f6af5a7ba75e8",
+      "8bdd501f58c2fd3ccb13",
       "9ffc98b4a4345609d395"
     ],
-    "published_at": "2026-11-17T16:59+01:00",
-    "updated_at": "2026-11-17T16:59+01:00",
-    "published_rfc822": "Tue, 17 Nov 2026 16:59:00 +0100",
-    "source_count": 6,
-    "fingerprint": "bf243ef96c05c9aeb6df",
+    "published_at": "2026-11-18T16:39+01:00",
+    "updated_at": "2026-11-18T16:39+01:00",
+    "published_rfc822": "Wed, 18 Nov 2026 16:39:00 +0100",
+    "source_count": 5,
+    "fingerprint": "f1a901f47c0eb4b4370c",
     "mode": "full",
-    "significance": 61,
+    "significance": 49,
     "significance_reasons": [
-      "actualidad repartida en tres o más ámbitos",
       "volumen informativo relevante"
     ],
     "indexable": false,
@@ -49,7 +47,7 @@
     "editor_assistant_status": "gemini-http-503",
     "editorial_trace": {
       "validator_version": 2,
-      "factual_packet_sha256": "ae0ea2624ee5703b94fa2e14077c5b743857d9b858dc5d6db55b643d0333d8b4",
+      "factual_packet_sha256": "163541efdee686c4a3484b4438e16a5d5e525f4496067e8e6f11e0fab1a25c60",
       "provider": "rules",
       "status": "gemini-http-503",
       "attempts": [
@@ -58,13 +56,15 @@
           "model": "gemini-3.5-flash-lite"
         }
       ],
-      "factual_packet_hash": "ae0ea2624ee5703b94fa2e14077c5b743857d9b858dc5d6db55b643d0333d8b4",
+      "factual_packet_hash": "163541efdee686c4a3484b4438e16a5d5e525f4496067e8e6f11e0fab1a25c60",
       "event_ids": [
         "evt_102e4849f98142cc",
-        "evt_685fb6bfca8ef427"
+        "evt_685fb6bfca8ef427",
+        "evt_bb0c19be5f9481d2"
       ],
       "source_ids": [
         "elpais",
+        "euronews",
         "rtve",
         "unknown"
       ],
@@ -72,38 +72,40 @@
         "CONFIRMED_MULTI_SOURCE": 0,
         "CONFIRMED_PRIMARY": 0,
         "CONFLICTING": 0,
-        "DECLARATION_ONLY": 0,
+        "DECLARATION_ONLY": 1,
         "SINGLE_SOURCE": 2,
-        "UNCONFIRMED": 25,
-        "TOTAL": 27
+        "UNCONFIRMED": 21,
+        "TOTAL": 24
       },
-      "timestamp": "2026-11-17T15:59:16.182495+00:00",
+      "timestamp": "2026-11-18T15:39:24.503382+00:00",
       "fallback_used": true
     },
     "validator_version": 2,
-    "factual_packet_hash": "ae0ea2624ee5703b94fa2e14077c5b743857d9b858dc5d6db55b643d0333d8b4",
+    "factual_packet_hash": "163541efdee686c4a3484b4438e16a5d5e525f4496067e8e6f11e0fab1a25c60",
     "event_ids": [
       "evt_102e4849f98142cc",
-      "evt_685fb6bfca8ef427"
+      "evt_685fb6bfca8ef427",
+      "evt_bb0c19be5f9481d2"
     ],
     "source_ids": [
       "elpais",
+      "euronews",
       "rtve",
       "unknown"
     ],
-    "timestamp": "2026-11-17T15:59:16.182495+00:00",
+    "timestamp": "2026-11-18T15:39:24.503382+00:00",
     "fallback_used": true,
     "verification_summary": {
       "CONFIRMED_MULTI_SOURCE": 0,
       "CONFIRMED_PRIMARY": 0,
       "CONFLICTING": 0,
-      "DECLARATION_ONLY": 0,
+      "DECLARATION_ONLY": 1,
       "SINGLE_SOURCE": 2,
-      "UNCONFIRMED": 25,
-      "TOTAL": 27
+      "UNCONFIRMED": 21,
+      "TOTAL": 24
     },
-    "edition_label": "Cuaderno de las dos orillas",
-    "edition_slug": "shores"
+    "edition_label": "Cuaderno de navegación",
+    "edition_slug": "navigation"
   },
   "entries": [
     {

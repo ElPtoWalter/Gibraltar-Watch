@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-18T14:08:21Z",
+  "generated_at": "2026-11-18T15:39:32Z",
   "state": {
     "code": "watch",
     "label_es": "VIGILANCIA",
@@ -45,8 +45,8 @@
     "ope_passengers_day": 59877,
     "ope_vehicles_day": 15464,
     "ope_rotations_day": 179,
-    "diary_date": "2026-11-17",
-    "diary_source_count": 6
+    "diary_date": "2026-11-18",
+    "diary_source_count": 5
   },
   "anomalies": [],
   "changes": {
@@ -60,45 +60,47 @@
   },
   "health": {
     "overall": "HEALTHY",
-    "generated_at": "2026-11-18T14:08:21Z"
+    "generated_at": "2026-11-18T15:39:32Z"
   },
   "latest_diary": {
-    "date": "2026-11-17",
-    "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
-    "summary": "Selección automática de 6 referencias de 5 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
-    "published_at": "2026-11-17T16:59+01:00",
-    "updated_at": "2026-11-17T16:59+01:00",
-    "source_count": 6,
+    "date": "2026-11-18",
+    "headline": "Tráfico marítimo: qué aportan los titulares y qué falta comprobar",
+    "summary": "Selección automática de 5 referencias de 4 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "published_at": "2026-11-18T16:39+01:00",
+    "updated_at": "2026-11-18T16:39+01:00",
+    "source_count": 5,
     "indexable": false,
-    "edition_label": "Cuaderno de las dos orillas",
-    "edition_slug": "shores",
-    "fingerprint": "bf243ef96c05c9aeb6df",
+    "edition_label": "Cuaderno de navegación",
+    "edition_slug": "navigation",
+    "fingerprint": "f1a901f47c0eb4b4370c",
     "editor_engine": "rules",
     "editor_assistant_status": "gemini-http-503",
     "assistant_status": "gemini-http-503",
     "validator_version": 2,
-    "factual_packet_hash": "ae0ea2624ee5703b94fa2e14077c5b743857d9b858dc5d6db55b643d0333d8b4",
+    "factual_packet_hash": "163541efdee686c4a3484b4438e16a5d5e525f4496067e8e6f11e0fab1a25c60",
     "event_ids": [
       "evt_102e4849f98142cc",
-      "evt_685fb6bfca8ef427"
+      "evt_685fb6bfca8ef427",
+      "evt_bb0c19be5f9481d2"
     ],
     "source_ids": [
       "elpais",
+      "euronews",
       "rtve",
       "unknown"
     ],
-    "timestamp": "2026-11-17T15:59:16.182495+00:00",
+    "timestamp": "2026-11-18T15:39:24.503382+00:00",
     "fallback_used": true,
     "verification_summary": {
       "CONFIRMED_MULTI_SOURCE": 0,
       "CONFIRMED_PRIMARY": 0,
       "CONFLICTING": 0,
-      "DECLARATION_ONLY": 0,
+      "DECLARATION_ONLY": 1,
       "SINGLE_SOURCE": 2,
-      "UNCONFIRMED": 25,
-      "TOTAL": 27
+      "UNCONFIRMED": 21,
+      "TOTAL": 24
     },
-    "date_label": "2026-11-17",
+    "date_label": "2026-11-18",
     "slug": "actual.html"
   },
   "latest_ope": {

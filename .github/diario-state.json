@@ -1,9 +1,9 @@
 {
   "version": 4,
   "latest_entry": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "headline": "Tráfico marítimo: qué aportan los titulares y qué falta comprobar",
-    "summary": "Selección automática de 5 referencias de 4 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "summary": "Selección automática de 2 referencias de 2 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
     "url": "diario/actual.html",
     "material_archive": false,
     "status_snapshot": {
@@ -26,20 +26,17 @@
     },
     "source_keys": [
       "1955a1f728bf237db061",
-      "400efcf88bb883835288",
-      "445b6a9f6af5a7ba75e8",
-      "8bdd501f58c2fd3ccb13",
-      "9ffc98b4a4345609d395"
+      "e1e2b7b19f8a89c35028"
     ],
-    "published_at": "2026-11-18T16:39+01:00",
-    "updated_at": "2026-11-18T16:39+01:00",
-    "published_rfc822": "Wed, 18 Nov 2026 16:39:00 +0100",
-    "source_count": 5,
-    "fingerprint": "f1a901f47c0eb4b4370c",
-    "mode": "full",
-    "significance": 49,
+    "published_at": "2026-11-19T16:44+01:00",
+    "updated_at": "2026-11-19T16:44+01:00",
+    "published_rfc822": "Thu, 19 Nov 2026 16:44:00 +0100",
+    "source_count": 2,
+    "fingerprint": "93973f31f5063a665b38",
+    "mode": "brief",
+    "significance": 18,
     "significance_reasons": [
-      "volumen informativo relevante"
+      "novedades recientes sin cambio estructural"
     ],
     "indexable": false,
     "editor_engine": "rules",
@@ -47,7 +44,7 @@
     "editor_assistant_status": "gemini-http-503",
     "editorial_trace": {
       "validator_version": 2,
-      "factual_packet_sha256": "163541efdee686c4a3484b4438e16a5d5e525f4496067e8e6f11e0fab1a25c60",
+      "factual_packet_sha256": "2fd5e4f635005851eb94d783bd850bae09210618f97ddfb203442442b5f7befb",
       "provider": "rules",
       "status": "gemini-http-503",
       "attempts": [
@@ -56,14 +53,13 @@
           "model": "gemini-3.5-flash-lite"
         }
       ],
-      "factual_packet_hash": "163541efdee686c4a3484b4438e16a5d5e525f4496067e8e6f11e0fab1a25c60",
+      "factual_packet_hash": "2fd5e4f635005851eb94d783bd850bae09210618f97ddfb203442442b5f7befb",
       "event_ids": [
-        "evt_102e4849f98142cc",
         "evt_685fb6bfca8ef427",
-        "evt_bb0c19be5f9481d2"
+        "evt_bb0c19be5f9481d2",
+        "evt_f71c9674a17bfc23"
       ],
       "source_ids": [
-        "elpais",
         "euronews",
         "rtve",
         "unknown"
@@ -74,26 +70,25 @@
         "CONFLICTING": 0,
         "DECLARATION_ONLY": 1,
         "SINGLE_SOURCE": 2,
-        "UNCONFIRMED": 21,
-        "TOTAL": 24
+        "UNCONFIRMED": 22,
+        "TOTAL": 25
       },
-      "timestamp": "2026-11-18T15:39:24.503382+00:00",
+      "timestamp": "2026-11-19T15:44:17.876113+00:00",
       "fallback_used": true
     },
     "validator_version": 2,
-    "factual_packet_hash": "163541efdee686c4a3484b4438e16a5d5e525f4496067e8e6f11e0fab1a25c60",
+    "factual_packet_hash": "2fd5e4f635005851eb94d783bd850bae09210618f97ddfb203442442b5f7befb",
     "event_ids": [
-      "evt_102e4849f98142cc",
       "evt_685fb6bfca8ef427",
-      "evt_bb0c19be5f9481d2"
+      "evt_bb0c19be5f9481d2",
+      "evt_f71c9674a17bfc23"
     ],
     "source_ids": [
-      "elpais",
       "euronews",
       "rtve",
       "unknown"
     ],
-    "timestamp": "2026-11-18T15:39:24.503382+00:00",
+    "timestamp": "2026-11-19T15:44:17.876113+00:00",
     "fallback_used": true,
     "verification_summary": {
       "CONFIRMED_MULTI_SOURCE": 0,
@@ -101,8 +96,8 @@
       "CONFLICTING": 0,
       "DECLARATION_ONLY": 1,
       "SINGLE_SOURCE": 2,
-      "UNCONFIRMED": 21,
-      "TOTAL": 24
+      "UNCONFIRMED": 22,
+      "TOTAL": 25
     },
     "edition_label": "Cuaderno de navegación",
     "edition_slug": "navigation"

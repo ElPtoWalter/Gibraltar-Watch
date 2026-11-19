@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-18T22:01:52.693349+00:00",
+  "generated_at": "2026-11-19T03:35:48.630989+00:00",
   "events": [
     {
       "event_id": "evt_f91bead29d924ae2",
       "topic": "traffic",
       "first_seen": "2026-11-16T17:08:48Z",
-      "last_seen": "2026-11-18T16:37:00Z",
+      "last_seen": "2026-11-18T22:38:00Z",
       "headline": "El patrullero Serviola regresa a Ferrol tras reforzar la seguridad marítima en Ceuta y estrecho de Gibraltar",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
@@ -48,7 +48,7 @@
           "title": "El patrullero Serviola regresa a Ferrol tras reforzar la seguridad marítima en Ceuta y estrecho de Gibraltar",
           "title_key": "el patrullero serviola regresa a ferrol tras reforzar la seguridad maritima en ceuta y estrecho de gibraltar",
           "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOdTV0cDBsSklTU3JUcFN0RXJDWDBqMEhobFJQS1hMMzdJSWlYYUozRFNmXzFZMy10WG9RaTNSejRKNzlMSEtMczdZd3VIRVRvSmNwUVZjN0tacHR1dHMyVUE5Yl83ejFETjROenJoVlNETGJ4ZTAySnBmQkFaWEpubVhhMGtWQm0wZXNlTTl6OTV0Nmp6RGdBT3pxTGFqaG4zMEc3eG5YbFlNckFwT2o3UU1jbC1ISTZBSjFibnQ2U0pxQUtxYjhKb2JTdGt3Skgya1h6RzRUMmpFTDgtTEpfb0dsR2YtZFE",
-          "published_at": "2026-11-18T16:37:00Z",
+          "published_at": "2026-11-18T22:38:00Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -103,52 +103,6 @@
           "official": false,
           "weight": 1.0,
           "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_61308ebda2194c44",
-      "topic": "traffic",
-      "first_seen": "2026-11-18T10:34:24Z",
-      "last_seen": "2026-11-18T10:34:24Z",
-      "headline": "The patrol boat Serviola returns to Ferrol after reinforcing maritime security in Ceuta and the Strait",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_8bdd501f58c2fd3c",
-          "title": "The patrol boat Serviola returns to Ferrol after reinforcing maritime security in Ceuta and the Strait",
-          "title_key": "the patrol boat serviola returns to ferrol after reinforcing maritime security in ceuta and the strait",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQVnlsZGZySmN5bmY0ZGlyVC0yQjhvTFJacS12emVkdDdtMGhrdDl1VklPdDhuMmotcHJhQThzdmlKZzYtS3Rhc29Vc3psUUpGT2lPZzBmUmp2NEhYVTFtOURpWUk4UEt1WmxvNHIwanlOc0FyYkQydElNSm52dXVWeU9sRE5UQ1Y0TWQ4ak5wdzVMQ1BsQkNidXBfTWxzVlJ3YV9DOTh3WmZvdnl3cnlBbWswU2o0VUdOM0hKOEFscENvOF9sN2FUSzE5OUFUc0o2b003TzdIONIB3AFBVV95cUxNUzZJODdWbG14M2NmT2Z5QVVPU25lMXJJRzFwRUhlbWtDQmtPRVdtbGVuMHgwTFAyVVd5WlJsZlZkcEpUTENZVG5PU3NCXzlNU3hGUGFKek5xY09mUkxuSXhMQ3ZqLWFTTnZLb0NrWF9BVmVKaHI2TUwxYWo2RVFYYmVfcEhNN2ZHSF9kbHlOeGJCc0d4aUZBeHU2LURzT2k5N0s5VjBxV1JGNkFKemxGcTI5STI2QU1WeThlRnAyNTBVTERoYzh5QVZJbVBtMVQ3RHVQcWZJYnMyV2Zv",
-          "published_at": "2026-11-18T10:34:24Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "traffic",
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
@@ -507,70 +461,6 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_0117af9c93796ddb",
-      "topic": "relations",
-      "first_seen": "2026-11-13T08:37:00Z",
-      "last_seen": "2026-11-15T08:00:00Z",
-      "headline": "Ada Colau, en la entrevista con Jordi Wild, sobre el papel de Marruecos en la crisis de Ceuta: \"Hay que revisar las relaciones. Quiero pensar que se esté haciendo desde la discreción\"",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_f6addf665c8e577d",
-          "title": "Ada Colau, en la entrevista con Jordi Wild, sobre el papel de Marruecos en la crisis de Ceuta: \"Hay que revisar las relaciones. Quiero pensar que se esté haciendo desde la discreción\"",
-          "title_key": "ada colau en la entrevista con jordi wild sobre el papel de marruecos en la crisis de ceuta hay que revisar las relaciones quiero pensar que se este haciendo desde la discrecion",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNN1AyMFZZQlY5M1c1UHlvdkl3RXBwMXFlZnByVkI5dFUwTjRVVG5lS2dPblh2X0xGNnV0UzhyZlZndDYzOHVfc0VETmNKS1BZNVJLWlotUGw4NUE5UUdia2FrVHZSSDdSYTZXSnVxZFFsdVNfNi1qckVncmlqRHltdzBGTU9tV1ZBYXJGWUJNT3dDQkxxYkZPQV9KV1FNQ2dJWHVnRVFaRzBmYmc3Nmdz",
-          "published_at": "2026-11-13T08:37:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_dffeb70979e99b9b",
-          "title": "Feijóo, sobre la relación de España con Marruecos: «No podemos considerarlo un aliado. Si no nos respeta, aplicaría la Constitución para desplegar el Ejército en la frontera»",
-          "title_key": "feijoo sobre la relacion de espana con marruecos no podemos considerarlo un aliado si no nos respeta aplicaria la constitucion para desplegar el ejercito en la frontera",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbjBPVHcxNHk2OHZ2V0NYNVlHOWYzQ21DOTlsU2s3WHhGbTFSTzZBY3l0azVTdzNPUlNvWkpYckY1NWRJQ1VHdjRtUkV6Tkhpek9naDI1M0RHbUNEelJKVUdMUDIza2h1d0ZmajVUZ3dOMHh3eDREdjJ5SlNCcDlQa1NLbnp4VEtwajdRZDV0MUdab1J5OE92V0JFN3Ftb21zamtUMDNCNk1nODdS0gGyAUFVX3lxTFBGN0tpWXFVNjE1SHZ3X0lBUURTdlZwNUxEOGxiX1FueHpmSTVkVmdVcnk0R2RUbTFNa2RUQ201U215Uk1GUENkRkFUZDlvVkdsenJOV2NWeXY4YVFJZ3dsd1JNMWtDRGNpM1JfZThBTmhrQ2xYdUQwTXNuUThCaHhGTkQ4eXA1VGVGU252V053WlYxX2ZyQ2NNN1NDSDBSMlNNR1k3a19ORVMxTHdxS25iY2c",
-          "published_at": "2026-11-15T08:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_b7454aece121a6c2",
       "topic": "traffic",
       "first_seen": "2026-11-10T09:39:25Z",
@@ -653,6 +543,52 @@
           "official": false,
           "weight": 1.0,
           "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_206a79f954e6d249",
+      "topic": "melilla",
+      "first_seen": "2026-11-08T08:00:00Z",
+      "last_seen": "2026-11-08T08:00:00Z",
+      "headline": "General Ballesteros, exjefe de Seguridad Nacional: \"Marruecos tiene una estrategia híbrida para Ceuta y Melilla y se está rearmando hasta los dientes\"",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_3a5d442a886063d0",
+          "title": "General Ballesteros, exjefe de Seguridad Nacional: \"Marruecos tiene una estrategia híbrida para Ceuta y Melilla y se está rearmando hasta los dientes\"",
+          "title_key": "general ballesteros exjefe de seguridad nacional marruecos tiene una estrategia hibrida para ceuta y melilla y se esta rearmando hasta los dientes",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZU1PMnpCNWdSYldQclM2UjVYaXc5R1VmTE1FYURvUDk4a0pGQW1ZazBjaXF1cFh2OGM3MHlxQ19lNFhVZXRZd0EwWV9TQnIxMGpfaUhaR1NtU3RxT1VsdEFoM1JsY2hZd3lzT1huSi1mS0RaaFBNLVQyYWxTM1pOSTRWUERWd245UEgyQW1ZZF8tMHBVc25WWTFZaVhGOVBlV1ZFN1M4eHBjNGVMSnVTWjlNU2U",
+          "published_at": "2026-11-08T08:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "melilla",
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
@@ -979,7 +915,7 @@
       "topic": "relations",
       "first_seen": "2026-10-01T07:00:00Z",
       "last_seen": "2026-10-03T07:00:00Z",
-      "headline": "El periodista que ha desnudado a los espías de Marruecos: “Lo que pasó en Ceuta fue fruto de una guerra soterrada entre servicios secretos, un toque de atención a España”",
+      "headline": "¿Qué revela la crisis de Ceuta sobre la relación con Marruecos?",
       "classification": "ANALYSIS",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
@@ -1030,24 +966,6 @@
           "weight": 1.0,
           "topic": "relations",
           "classification": "ANALYSIS",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_dff3e9f177583ed7",
-          "title": "El periodista que ha desnudado a los espías de Marruecos: “Lo que pasó en Ceuta fue fruto de una guerra soterrada entre servicios secretos, un toque de atención a España”",
-          "title_key": "el periodista que ha desnudado a los espias de marruecos lo que paso en ceuta fue fruto de una guerra soterrada entre servicios secretos un toque de atencion a espana",
-          "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNQl9ScTJzSTBscnJJbDNtVU56d0cxNDVUM0JJUXRzaW1CaXRLbW82OGxOdUZtRjJKdDI3U2VFTVZWNmp3UG4zUXBfb1AtZ0FXa3lsbzBpak5HSEszOVgzRzIwbVpRV3RXTFc0bTlPdlY3Sm9ZZk56YjFqbUUySkZWem92WkNkRDkzenptdjhHT2NsdVo1U0QxSU1oT242MmRyVktDaWVSZWlnRVJkZUNxb2RzTFNOeEY4bEhBODQ2RWdyaVVMUm1ldGlpQW0xY3diVFZIOWJOUVRXS2p6STFoVXJJdUUzTkc5RU5lQWZkUV9kMTgteG1zRWZzZXJ4My1uMzY5dWZsSVFRc09mdTZYY3JNTFJqd19aaVFua2JFTVB5a0FhZWdxcHlCZzAzaVQySUtF0gHOAkFVX3lxTE85MGpUczhmN1lTZnc1cTNhY09XcW1UZTVVc1B3emd1a3ZwbnV6MGgwUDk4R1RpNGhoYkIyN0RRMWh6YVBzLWlJcmdwM0Y3Sm1UaTJWNnE5US1uSW00RGpkbHJsQVE3VXc2SVJ0WXpqQVRfSjQ0MGpsTHVoNkZDbzJKbEhITjlqSHJCOEZvR28xbk90MEJTelhtLU1YOTU1aTBZSndIc0hFbzhuSVJIeUZZNi16QXFmcmhRTW5ZV2JiUWIxSHVLZXNaRTVvTnJvd0tIaGpKYkM0VVVTa0tqaTJYaUtXZ0ZCaEVjekFZQS14YnNSTkRrMFJqTjNLOUdsSnNISGtaZGtnQXlOMnh3ZkRBNE9OUkR0RzMzUHI4T0RKOTM3bGhCTzNrdWtTMzFkRW9aVFc0YWt2WlQ3T0t0QnFfeUw0ejU3S2JPaDhLYnc",
-          "published_at": "2026-10-03T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
         }
@@ -1235,6 +1153,52 @@
           "description": ""
         },
         {
+          "article_id": "art_df9c2719c9976164",
+          "title": "La frontera de Ceuta y Melilla, blindadas y en calma el día de las elecciones en Marruecos",
+          "title_key": "la frontera de ceuta y melilla blindadas y en calma el dia de las elecciones en marruecos",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQlc1VFhTTlVTcWJTTXQzLUtTOHc1RkU2UUJQRFdVUXRfQ29Xd0F2c09uM1ZDRHQtSDNVMzF2NDhGc2RwNGVUa2JydnBHVkhxZ3F0bHM2bEpPa0p2WHpaS19MZFI5amZnam9aY0R2azc1NGIxOUFabUQ2VVFLQmpjWkJrNVFYUGtqTkRLUnZJbUpYSWdiUGFz",
+          "published_at": "2026-09-23T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "melilla",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 46,
+      "operational_impact": "CONTEXT",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_fd01f76e50978874",
+      "topic": "melilla",
+      "first_seen": "2026-09-23T07:00:00Z",
+      "last_seen": "2026-09-23T07:00:00Z",
+      "headline": "Ceuta y Melilla en calma en fronteras con Marruecos",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
           "article_id": "art_2e6083360d5cd455",
           "title": "Ceuta y Melilla en calma en fronteras con Marruecos",
           "title_key": "ceuta y melilla en calma en fronteras con marruecos",
@@ -1253,8 +1217,8 @@
           "description": ""
         }
       ],
-      "importance": 46,
-      "operational_impact": "CONTEXT",
+      "importance": 4,
+      "operational_impact": "NONE",
       "operational_eligible": false
     },
     {
@@ -1302,6 +1266,98 @@
       "importance": 30,
       "operational_impact": "POTENTIAL",
       "operational_eligible": false
+    },
+    {
+      "event_id": "evt_4588497e633eb141",
+      "topic": "traffic",
+      "first_seen": "2026-09-22T07:00:00Z",
+      "last_seen": "2026-09-22T07:00:00Z",
+      "headline": "Houthi Leverage over the Red Sea Escalates Threats for Africa",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_1d28e373b867cf97",
+          "title": "Houthi Leverage over the Red Sea Escalates Threats for Africa",
+          "title_key": "houthi leverage over the red sea escalates threats for africa",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ja0x1Q0t3cmg1aVFDeHlXNVEwUmFwQW8wc0hpZkFFeHVzQmFsSFYxTkp5Sm9MQ3p6RE9hdy1CX0pWSWFaWEpsZGl1M2RaMTNEZjVHVEMyM3B3b3RDUUsyRXdCVnZyZWlSMktJVWFxUjc",
+          "published_at": "2026-09-22T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "traffic",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_c9e3831323db3a42",
+      "topic": "ports",
+      "first_seen": "2026-09-21T07:00:00Z",
+      "last_seen": "2026-09-21T07:00:00Z",
+      "headline": "El Puerto de Algeciras afianza la sexta plaza europea de tráfico de contenedores frente a la competencia de Tánger Med",
+      "classification": "OPERATIONAL_SIGNAL",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_b2a9caec35554a10",
+          "title": "El Puerto de Algeciras afianza la sexta plaza europea de tráfico de contenedores frente a la competencia de Tánger Med",
+          "title_key": "el puerto de algeciras afianza la sexta plaza europea de trafico de contenedores frente a la competencia de tanger med",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUFJBVEV3el9WcFZVUE1KajRwZFN6Y2hUQXAwUkVBMWNzSk1zVW5GbFh0enhDQXl6NUZhMWs3T2NBVWM5Smo0OWxROHFqemFvMXpFNXMyNG9YVmdjZHYxWjIwXzctUmtTemo0amFpWmlSZ1VKbWdxYjM0LTVHNENzV1pleXlrcUZsSnF1Z0tzcnA4WEpjTDZzNUdZQ0FpeVVUS3RDRVU0UDVRaVlWRFFHZ3BR",
+          "published_at": "2026-09-21T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ports",
+          "classification": "OPERATIONAL_SIGNAL",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 55,
+      "operational_impact": "POTENTIAL",
+      "operational_eligible": false
     }
   ],
   "verification_summary": {
@@ -1310,9 +1366,9 @@
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 1,
     "SINGLE_SOURCE": 1,
-    "UNCONFIRMED": 21,
-    "TOTAL": 23
+    "UNCONFIRMED": 23,
+    "TOTAL": 25
   },
   "article_count": 36,
-  "event_count": 23
+  "event_count": 25
 }

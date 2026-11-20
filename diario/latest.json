@@ -1,21 +1,21 @@
 {
-  "date": "2026-11-19",
-  "headline": "Tráfico marítimo: qué aportan los titulares y qué falta comprobar",
-  "summary": "Selección automática de 2 referencias de 2 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
-  "published_at": "2026-11-19T16:44+01:00",
-  "updated_at": "2026-11-19T16:44+01:00",
-  "source_count": 2,
+  "date": "2026-11-20",
+  "headline": "Puertos y logística: qué aportan los titulares y qué falta comprobar",
+  "summary": "Selección automática de 3 referencias de 3 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+  "published_at": "2026-11-20T16:26+01:00",
+  "updated_at": "2026-11-20T16:26+01:00",
+  "source_count": 3,
   "indexable": false,
-  "edition_label": "Cuaderno de navegación",
-  "edition_slug": "navigation",
-  "fingerprint": "93973f31f5063a665b38",
+  "edition_label": "Cuaderno portuario",
+  "edition_slug": "ports",
+  "fingerprint": "a3675faceb45524d4096",
   "editor_engine": "rules",
   "editor_assistant_status": "gemini-http-503",
   "assistant_status": "gemini-http-503",
   "validator_version": 2,
-  "factual_packet_hash": "2fd5e4f635005851eb94d783bd850bae09210618f97ddfb203442442b5f7befb",
+  "factual_packet_hash": "72c44243731c40cb0f96e14f9da67a104e1a5e89bad5e5aec7e40e9fa4413c6b",
   "event_ids": [
-    "evt_685fb6bfca8ef427",
+    "evt_395f17d3592ec269",
     "evt_bb0c19be5f9481d2",
     "evt_f71c9674a17bfc23"
   ],
@@ -24,7 +24,7 @@
     "rtve",
     "unknown"
   ],
-  "timestamp": "2026-11-19T15:44:17.876113+00:00",
+  "timestamp": "2026-11-20T15:26:56.131993+00:00",
   "fallback_used": true,
   "verification_summary": {
     "CONFIRMED_MULTI_SOURCE": 0,
@@ -32,9 +32,9 @@
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 1,
     "SINGLE_SOURCE": 2,
-    "UNCONFIRMED": 22,
-    "TOTAL": 25
+    "UNCONFIRMED": 20,
+    "TOTAL": 23
   },
-  "date_label": "2026-11-19",
+  "date_label": "2026-11-20",
   "slug": "actual.html"
 }

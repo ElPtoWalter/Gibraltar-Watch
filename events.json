@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-20T13:01:27.593953+00:00",
+  "generated_at": "2026-11-20T21:12:38.259471+00:00",
   "events": [
     {
       "event_id": "evt_d62caefaad75b115",
@@ -387,6 +387,70 @@
       "operational_eligible": false
     },
     {
+      "event_id": "evt_8395bcd6e97c5cf6",
+      "topic": "traffic",
+      "first_seen": "2026-11-17T10:17:25Z",
+      "last_seen": "2026-11-17T11:49:37Z",
+      "headline": "Marina Mercante establece dos nuevas zonas de fondeo en Algeciras para despejar la separación del tráfico de El Estrecho",
+      "classification": "OPERATIONAL_SIGNAL",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_4ab1f05bd2134aea",
+          "title": "Marina Mercante aprueba dos nuevas zonas de fondeo en Algeciras para mejorar la seguridad en el Estrecho de Gibraltar",
+          "title_key": "marina mercante aprueba dos nuevas zonas de fondeo en algeciras para mejorar la seguridad en el estrecho de gibraltar",
+          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPSncyWkI5TnBXLTUzWGJram1EbEQ3ZmFCSmoxVUpRQjFCUEoyWDJsQ1RsZy0zTExmMG1sUzFsS19Lc050bm5aZkZ6ekxtd3ZiUVdSUXdVYU9ndjhMRU9PZlVnZGZ4N0VCVFFxa1FNNk5jdzFUSTFtT3hNZ1prc0ZKSVBOS1ZxTzR2R19LaXQ2Y2l0OXNGa3R6VnFmYktKRTNQY29pNlhtb21TaUExRWV3Z2FmM25HdVVINjZGS1JCR09LdXdVanVRWHR6N1M4SU5HeUxjZWJERGUwZS15RVUzMklOTmYyZzlFWk03aE1rWktVSWF5",
+          "published_at": "2026-11-17T10:17:25Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "traffic",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_445b6a9f6af5a7ba",
+          "title": "Marina Mercante establece dos nuevas zonas de fondeo en Algeciras para despejar la separación del tráfico de El Estrecho",
+          "title_key": "marina mercante establece dos nuevas zonas de fondeo en algeciras para despejar la separacion del trafico de el estrecho",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPY0h6QndmYTlZUEwwOEcxS3lxVXl6bFlrUnVqVGtnUkM0bmlxQTZrRWl3TUZPMlROdGFWSEV3eUJKRmwwY0kzNXRFSkpFWVJhamJOT3g3THN6Um82U2gyOFB4cTVRa3JMQTFCUmFQdW1WaEtuc0VoY0RGdVNuNGJubFNua3BkRU5YRmtibHpLYW0zQV9XSk1pNlZzZzhJaGt0dXN0bUFKTmdVdHdCUWhxeElYWkZyS2NDRXNoZUMyYTMzVVU",
+          "published_at": "2026-11-17T11:49:37Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "traffic",
+          "classification": "OPERATIONAL_SIGNAL",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 55,
+      "operational_impact": "POTENTIAL",
+      "operational_eligible": false
+    },
+    {
       "event_id": "evt_b7454aece121a6c2",
       "topic": "traffic",
       "first_seen": "2026-11-10T09:39:25Z",
@@ -483,7 +547,7 @@
       "topic": "traffic",
       "first_seen": "2026-11-04T08:00:00Z",
       "last_seen": "2026-11-04T08:00:00Z",
-      "headline": "La Armada refuerza la seguridad marítima en aguas de Ceuta y el Estrecho de Gibraltar",
+      "headline": "El patrullero 'Atalaya' concluye su misión de vigilancia y seguridad marítima en el Estrecho y aguas de Ceuta",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
@@ -501,6 +565,24 @@
         "unknown"
       ],
       "articles": [
+        {
+          "article_id": "art_14a72cd389586322",
+          "title": "El patrullero 'Atalaya' concluye su misión de vigilancia y seguridad marítima en el Estrecho y aguas de Ceuta",
+          "title_key": "el patrullero atalaya concluye su mision de vigilancia y seguridad maritima en el estrecho y aguas de ceuta",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORXBENzAxNUc3TkdkY1U4SThYYnlOVW5tbXpMN2R0c29mZzB4eXNNa3ZhVW9sdGJsZDlHU1BGSl9MQlBybFN1ZURSNDVuWFM2SmVrS1p0YktUTU1VZlZxY1dHbkJWbmkxQnhnXzZ6TXVGTFhZaTNkZG4tRzlrTGRYVmhxcldXemptaGdxV2Z5NWFEQTBhZ29pR0RmSXN2ZHVQaVB1RV9ZNlJBV3BlRTNqSVhiajBvY1VEWlRQQzVnSlZZYW4z0gHKAUFVX3lxTE1uM1h5Mm0xSFo3MV9XQS1Cc1dfUUZMMi1lR0JSZ253UzU5REYyZndReG9admlwOHFsSG55ZEpwbWVxREFPYjQzMzZlRjNZZHJzTkdFV21mRmdvTGVqQ2tfQnZRZ0F2TEt3MXNlRF80LWVTcHZRbERNT19ET1VRcXZrQmUtZkJwZVJ2a2pZVmJITXpMMTFaQVBydVd4Z2R6dFhDbU5yMkhFZFpISHBYQU1rNDJIak1GTFExUE9VYXZRemZqU3NNLXhvQ1E",
+          "published_at": "2026-11-04T08:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "traffic",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
         {
           "article_id": "art_de44f2c7c23e93ba",
           "title": "La Armada refuerza la seguridad marítima en aguas de Ceuta y el Estrecho de Gibraltar",
@@ -681,11 +763,11 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_57f22cddd2e775e6",
-      "topic": "relations",
-      "first_seen": "2026-10-13T07:00:00Z",
-      "last_seen": "2026-10-14T07:00:00Z",
-      "headline": "Spain’s king reasserts sovereignty over Ceuta, Melilla as Morocco remains silent",
+      "event_id": "evt_56414bf4c40aec20",
+      "topic": "traffic",
+      "first_seen": "2026-10-07T07:00:00Z",
+      "last_seen": "2026-10-07T07:00:00Z",
+      "headline": "The HMS Mersey makes a stop in Gibraltar after participating in maritime surveillance missions",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
@@ -704,11 +786,11 @@
       ],
       "articles": [
         {
-          "article_id": "art_cfdc879e12832c43",
-          "title": "Spain’s king reasserts sovereignty over Ceuta, Melilla as Morocco remains silent",
-          "title_key": "spain s king reasserts sovereignty over ceuta melilla as morocco remains silent",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWlJUbFZoWURNNkl6VFN1UGlmU0NHa1VmUGdlY09vY3A1RFR3T1R2blV0WFRQTFN3R0llVklPV2s4ZFd0YlVqZUxMbmh5N0pibzV2dVJuWDZUVURKUjc1UUt6d1VKeERGckpaV3ljMldyVHlVckdwcXd3OTBwWUJtV0gtMnh0em9HU0pBMnQ2N21LYlh5dDJPWDl1cHJRZ1R0cnQ4Tm1qcXR1UG5OSG1kWk55QlJkbUUwTi0wTUZ6OA",
-          "published_at": "2026-10-14T07:00:00Z",
+          "article_id": "art_a4c58d8bedbceca1",
+          "title": "The HMS Mersey makes a stop in Gibraltar after participating in maritime surveillance missions",
+          "title_key": "the hms mersey makes a stop in gibraltar after participating in maritime surveillance missions",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPM1hvblptWURsMzBrcndlajA1UER6YWVEekR4RC1VVy1tSzlNLU5wbWUyQUUzcTIzSDY1WUZsYjRsbDZqalU2cDNqT1pzRGM3TV9JaTd2SU1HZW42OUFDLXlpNTAwd0ZzZ0ZpWGpWbVJod2VjWmFra19lVmlkRDRWY094eHRnX2lEUlBPUC1DSm9UaWZ0UVljSUJlYzRXLVlKT0MzYzd2OGU3RHhHb2Job1JGdDdQNk8ydzhXemp0YU9jejNvY2R6NjRfOUtkREpJRk1mNDBoTlFUZw",
+          "published_at": "2026-10-07T07:00:00Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -716,7 +798,7 @@
           "tier": 1,
           "official": false,
           "weight": 1.0,
-          "topic": "relations",
+          "topic": "traffic",
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
@@ -1084,12 +1166,12 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_c9e3831323db3a42",
-      "topic": "ports",
-      "first_seen": "2026-09-21T07:00:00Z",
-      "last_seen": "2026-09-21T07:00:00Z",
-      "headline": "El Puerto de Algeciras afianza la sexta plaza europea de tráfico de contenedores frente a la competencia de Tánger Med",
-      "classification": "OPERATIONAL_SIGNAL",
+      "event_id": "evt_4588497e633eb141",
+      "topic": "traffic",
+      "first_seen": "2026-09-22T07:00:00Z",
+      "last_seen": "2026-09-22T07:00:00Z",
+      "headline": "Houthi Leverage over the Red Sea Escalates Threats for Africa",
+      "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
       "sources": [
@@ -1107,11 +1189,11 @@
       ],
       "articles": [
         {
-          "article_id": "art_b2a9caec35554a10",
-          "title": "El Puerto de Algeciras afianza la sexta plaza europea de tráfico de contenedores frente a la competencia de Tánger Med",
-          "title_key": "el puerto de algeciras afianza la sexta plaza europea de trafico de contenedores frente a la competencia de tanger med",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUFJBVEV3el9WcFZVUE1KajRwZFN6Y2hUQXAwUkVBMWNzSk1zVW5GbFh0enhDQXl6NUZhMWs3T2NBVWM5Smo0OWxROHFqemFvMXpFNXMyNG9YVmdjZHYxWjIwXzctUmtTemo0amFpWmlSZ1VKbWdxYjM0LTVHNENzV1pleXlrcUZsSnF1Z0tzcnA4WEpjTDZzNUdZQ0FpeVVUS3RDRVU0UDVRaVlWRFFHZ3BR",
-          "published_at": "2026-09-21T07:00:00Z",
+          "article_id": "art_1d28e373b867cf97",
+          "title": "Houthi Leverage over the Red Sea Escalates Threats for Africa",
+          "title_key": "houthi leverage over the red sea escalates threats for africa",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ja0x1Q0t3cmg1aVFDeHlXNVEwUmFwQW8wc0hpZkFFeHVzQmFsSFYxTkp5Sm9MQ3p6RE9hdy1CX0pWSWFaWEpsZGl1M2RaMTNEZjVHVEMyM3B3b3RDUUsyRXdCVnZyZWlSMktJVWFxUjc",
+          "published_at": "2026-09-22T07:00:00Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -1119,14 +1201,14 @@
           "tier": 1,
           "official": false,
           "weight": 1.0,
-          "topic": "ports",
-          "classification": "OPERATIONAL_SIGNAL",
+          "topic": "traffic",
+          "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
         }
       ],
-      "importance": 55,
-      "operational_impact": "POTENTIAL",
+      "importance": 4,
+      "operational_impact": "NONE",
       "operational_eligible": false
     },
     {
@@ -1192,19 +1274,10 @@
           "tier": 4,
           "official": false,
           "weight": 4.0
-        },
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
         }
       ],
       "source_ids": [
-        "rtve",
-        "unknown"
+        "rtve"
       ],
       "articles": [
         {
@@ -1224,92 +1297,10 @@
           "classification": "FACT",
           "signal": "",
           "description": ""
-        },
-        {
-          "article_id": "art_04c62a76fdffd78f",
-          "title": "Marruecos defiende la relación con España y rechaza las acusaciones sobre Ceuta",
-          "title_key": "marruecos defiende la relacion con espana y rechaza las acusaciones sobre ceuta",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOa1AwN0YwMlMwSzE0N2cwTVQ3R3NlRHRGS3R2bnNkZFAwRHZnMEF5M2FKcThMelpxVnhCX1A1QU1hQVBqT3U2QmZ4YVRsa1RrbmhFX3BjdEVkY2x0NGJhWFN2NjZWSHRNNnoyMy1mZjVjZ2MwaTRKYkpqMUVDUENYTmlOYjVaWVktal9aZVhNZUNRcFF2VWVUTkF6X2Z3TEZIQl9nRW55N3F1cXM4UGlxNUQ5V0RCbzBmZDk5emNXWW14RV9QQmV1MWpB0gHPAUFVX3lxTFB5MnBQbHVNeFR6aHdqVXppa3dzeGdjTXpSc3lwWWhzS2RoR2NGMm1vQjVOeWNJeGdDNy1vcWszajlhQjFWZGQyTHdrN3BpNUJvb2VfWkIybHM1c25UZzAyU0diQUNLVG1OREg2eklSXzVsYjZCVGFBa05tcnpiU0hvN3k0MklLRVRaWXFyQzE2eFktd1c0Mk85aGpCVEtVcDVOOW5mcDVYbndydWRYQUVUdl9tVVBSZHJRaDdDUGhzb3N0QS1rMEkyVWFfd2ZZYw",
-          "published_at": "2026-09-10T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
         }
       ],
-      "importance": 46,
+      "importance": 43,
       "operational_impact": "CONTEXT",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_2347d40910379f36",
-      "topic": "ceuta",
-      "first_seen": "2026-09-10T07:00:00Z",
-      "last_seen": "2026-09-10T07:00:00Z",
-      "headline": "Spain’s spy agency warned of mass crossings into Ceuta before border crisis",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_0200a9d21d49b08d",
-          "title": "Spain’s spy agency warned of mass crossings into Ceuta before border crisis",
-          "title_key": "spain s spy agency warned of mass crossings into ceuta before border crisis",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVFo5SEY5aEFkOUE1cm5HcGw2Z3NVN0w4NGNfT21HSnhyaDdvdWk0cDRKejN0ZjdpMXdaalJEYjEyZ2VfT2tzWjhyc0Y5WmtsOUxXNEVIMzZKSUhPWno4SHlKM3gwa25vcXVKUjZHVFN6ODdnMEYydlBpSEpDVXM2TG14TWlCamk4Sk5TOEVheHNPcS1QVTJLZlhlOXNDcTdlVG5CR1p0VnpkamtxeERjRGp5a9IBuAFBVV95cUxNRHVJS3I4Vy1lX0RpWjNHdzNNVzFIRkZqWGRfZWc1d29xSGpYQl9ZelQ3LUYwU3BQQmQzeUVvWFYtQUkwd202Q3MwZHQxZm5veTNNVnYyUW5PbFpDSVJLUVNNX253MFgteVYzcEtrZkxRWEVtclhVV0U1WGtpZ2pEUl9yQ2ZwbnVXWjFDdmZIeE9mVzI5dzFKVTl5NjRGY3Y1VFl2TmhCSXdweFFJUGJweWxPS1pXQ3Ba",
-          "published_at": "2026-09-10T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_9d875732a97773c7",
-          "title": "Morocco denies involvement in migrant surge into Spain’s Ceuta",
-          "title_key": "morocco denies involvement in migrant surge into spain s ceuta",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSl9qSm1KZDBmZm1aNWp1STZZQ29LczVJa1hERTkwaEtJZ3U0RjdmancwUFRQVEpTVVN5am5DbVlUR2NYaUhEZGZzakFOMnpSRG0tR0hpVUtvcHVoYnpQRkxqQkV5V2VkY1I2RU1Zck0xakVvX0dPajVTUHM3T05wQXFoMmw1RUdfNGplaHRUWXh0VDVMX1NYaXpSeG02Z1QyYUNnaNIBqgFBVV95cUxOaVgxam41dmRNWlJxUDV6SU1wTy10S1RJVl9mUWs1bEFQOHBGbWJPNWtKVWtTWkZ3VG54Q2ZwXzRuMmJJdzY0a2h0LTRoUFZrY3ZRQW5ZclhJb0luQlluazZhTkI4OWdFWFdqY1N3QlpORC1hZzZLZ0d0R2hNXzJ1bERndHZCS1llUENzdnQyRWR0VkpDY2l6VHc4TFBiRmxqT0t5a1BrcW5HQQ",
-          "published_at": "2026-09-10T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
       "operational_eligible": false
     }
   ],

@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21T11:15:24.622071+00:00",
+  "generated_at": "2026-11-21T18:03:51.664548+00:00",
   "events": [
     {
       "event_id": "evt_5a677c102c6c162f",
       "topic": "ceuta",
       "first_seen": "2026-11-21T03:44:35Z",
-      "last_seen": "2026-11-21T03:44:35Z",
+      "last_seen": "2026-11-21T13:39:38Z",
       "headline": "Ceuta’s Jews wary as migrant crisis strains – but doesn’t break – long history of coexistence",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
@@ -30,7 +30,7 @@
           "title": "Ceuta’s Jews wary as migrant crisis strains – but doesn’t break – long history of coexistence",
           "title_key": "ceuta s jews wary as migrant crisis strains but doesn t break long history of coexistence",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQYWlHTXRaUW0wRFJIUjVlODE1dFRTcURXbnhqUjBHWmQtZGxqM2dJN0JuSVgzcDJMSkM4Z0dYQUpxU2F0R2tWSGdZeWpQc3A3MmtqUF93QWFGVUhxemRKZC1kd25MRmVwZUxZMFFwUVZWUzhCN1NPNnRDNWxlQUJqQTQwekVLeTdNc0EzUmJLMzBOdjR3ZUxyUzBzcVNhTFo3RUNLZmlCU3diQ182TVUwR08wRUY0SFBMRHfSAb8BQVVfeXFMTlF6TkhZNlA2QXdqek03M1ZNWEJwd2VTVUlkOUdIY3AxR1lueFFhOF9JNWlCN011ZVpHS283eDQzNlJWUDQtdHYyRW5yOXc4Ym1JTVdyVXNIVUk1QXJNdUNEaHA3MC1CQ2tJZWR3bDVrdlFwYktjVHRwdVdkR3RwRU4tdWtqX2RjaHdIZHN4Ylo4VFIzb3N3Y0EtR1l6TkcxYzJmZ1NieFhhMXBwdl8td0RPTVdqWFVRRGh0Y0pyTWM",
-          "published_at": "2026-11-21T03:44:35Z",
+          "published_at": "2026-11-21T13:39:38Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -251,6 +251,52 @@
       "operational_eligible": false
     },
     {
+      "event_id": "evt_61308ebda2194c44",
+      "topic": "traffic",
+      "first_seen": "2026-11-18T10:34:24Z",
+      "last_seen": "2026-11-18T10:34:24Z",
+      "headline": "The patrol boat Serviola returns to Ferrol after reinforcing maritime security in Ceuta and the Strait",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_8bdd501f58c2fd3c",
+          "title": "The patrol boat Serviola returns to Ferrol after reinforcing maritime security in Ceuta and the Strait",
+          "title_key": "the patrol boat serviola returns to ferrol after reinforcing maritime security in ceuta and the strait",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQVnlsZGZySmN5bmY0ZGlyVC0yQjhvTFJacS12emVkdDdtMGhrdDl1VklPdDhuMmotcHJhQThzdmlKZzYtS3Rhc29Vc3psUUpGT2lPZzBmUmp2NEhYVTFtOURpWUk4UEt1WmxvNHIwanlOc0FyYkQydElNSm52dXVWeU9sRE5UQ1Y0TWQ4ak5wdzVMQ1BsQkNidXBfTWxzVlJ3YV9DOTh3WmZvdnl3cnlBbWswU2o0VUdOM0hKOEFscENvOF9sN2FUSzE5OUFUc0o2b003TzdIONIB3AFBVV95cUxNUzZJODdWbG14M2NmT2Z5QVVPU25lMXJJRzFwRUhlbWtDQmtPRVdtbGVuMHgwTFAyVVd5WlJsZlZkcEpUTENZVG5PU3NCXzlNU3hGUGFKek5xY09mUkxuSXhMQ3ZqLWFTTnZLb0NrWF9BVmVKaHI2TUwxYWo2RVFYYmVfcEhNN2ZHSF9kbHlOeGJCc0d4aUZBeHU2LURzT2k5N0s5VjBxV1JGNkFKemxGcTI5STI2QU1WeThlRnAyNTBVTERoYzh5QVZJbVBtMVQ3RHVQcWZJYnMyV2Zv",
+          "published_at": "2026-11-18T10:34:24Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "traffic",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
       "event_id": "evt_d2a7e9189339728c",
       "topic": "ceuta",
       "first_seen": "2026-11-16T12:03:42Z",
@@ -433,6 +479,52 @@
           "official": false,
           "weight": 1.0,
           "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_fd1fe1b197a8498a",
+      "topic": "relations",
+      "first_seen": "2026-11-16T15:00:16Z",
+      "last_seen": "2026-11-16T15:00:16Z",
+      "headline": "Inocencio Arias, exembajador de España ante la ONU: \"Ceuta es una ciudad española desde hace siglos y hay que protegerla sin remilgos\"",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_3422561b7667613a",
+          "title": "Inocencio Arias, exembajador de España ante la ONU: \"Ceuta es una ciudad española desde hace siglos y hay que protegerla sin remilgos\"",
+          "title_key": "inocencio arias exembajador de espana ante la onu ceuta es una ciudad espanola desde hace siglos y hay que protegerla sin remilgos",
+          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQRDBmOUhERGZHd182ZWVmc3hTazlYR2haT1g2WHZxMWhQLVBiUkVwaGRaS215MTFjYlZGQ0dSZlZ1dE8zMmo5Vkhsd25YZVBCVHQ4d2lDM0pmV1NiZWVrQWtvZmx1SkY0WGFwTmVvaGtrZUUwOEZNaGJfQjBTZTdBZ0k2YWEycU40a2FmY0h1RUhZMi1ZdzhNcW0zSFVtTWZMb19sZWM0NEhBWGZidWZaRzV5MzVjWk1kR2FnNVVkNWFBV1BNb2hyX19KNFZwR245aWYtMm5LWkt6QUFhOUdrZjFBdWJ5V3ZHQ2VjZG1WMmh0NTVPWnR3bXRIMmXSAZACQVVfeXFMT28xZ3M4SXZKMXBrbDZWeWM5TGxSdVFoZWx4VFlvbV9GcHM5bXdzcjl2MDNBNWdmZ0dOeUlhQ0h0WXFTRWRZdF9WS1pJaWtHcjc2NzBlSzU5b0x6RnNGRmpvTHdHa2JUVUlOQlZheGJqdldVNlJBYng4SWZ3Vk41Z1h2U0k1OTd3MS1FYU9oYzRBQVZvNmRfUjdrcVV2YkNYQ2dNcE5DUzlvZ2JDM01Fbkl5ci1HVW1QZ2tSZVJaSnhveEx4MnRRa2R0MkR1RTlFOGVSWDlIakF1NERkTUJOX2VEZWpRRlFReEpOVWdhVXFXQjVMdVdLcHV3Z3dZendodnRIQXB2NFVTcVROYUxxZm4",
+          "published_at": "2026-11-16T15:00:16Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
@@ -668,10 +760,10 @@
       ],
       "articles": [
         {
-          "article_id": "art_b387af903350228a",
-          "title": "Marruecos redobla la competencia sobre Algeciras con un tercer puerto en Tánger Med",
-          "title_key": "marruecos redobla la competencia sobre algeciras con un tercer puerto en tanger med",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMC1zOUgwYkYxREZ2dWhoUzFITWptTnBINGxEdGs3YThVa0p4ZDNnUkpWcm14bU1oYzYwQlAwNFRYMmlFaF9PSW12aGZ2N2FoVmRKbTZaWHJzUGVlU0ptdHhxRDFEeGw1N3dsV3VNV0ZNWVlJSDBVODUxUnRLeExCTHZvS0ZIQlEzMTY4ZTBjcjdPdUFHRlVrRHJZZmtaallLUUNsUHV1SWE2TjFsbDJIcy1JeGpNZEltYjNz0gHAAUFVX3lxTE9jUkYzNFJhZnFsbUxvbmpGaFE3djJnQ1lhUG1CVjVUV1dyZ09IdFBkZXBWT1dxSl9OUHVqZ0p6SU1vRVU2dWVGcmZaZTdrUWlZckNwdWxhNjc3VW5OVUJmaXdRN3lrV3ZaWlVBWkFKS1ozV1gyVVQ3eTFHdHhyMXhJWGpsc0doNXBDNlU4QlVzYUJscS0xaURuOE82V3VzTE90cXgzRkxkamN5cGZTNmRvRmF6S1dYeHdwZ1E0elYzbA",
+          "article_id": "art_b9a6e0e89c22fb4b",
+          "title": "El puerto marroquí de Tánger Med prevé crecer un 50% tras superar el tráfico de Valencia y Algeciras juntos",
+          "title_key": "el puerto marroqui de tanger med preve crecer un 50 tras superar el trafico de valencia y algeciras juntos",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQT25Uek9qdU5Hc09zcUxzTE1jWXF6VkxhZElYdkJ3SVRMNmtuWXVCRlZpczg1UXJGd3dBVUpXRFVock4ycGlVLWRwUUVkVnB1d0Q4eTFCRjNpRzQzYWFQMzNaN3ZMZEhkZlBnSjAySXNqaTg2eWdSSXlvZE5NeWNhN0drRDk4WUNIZ1l4SXI3QmpMRDNyZnJoS1RHVDE0eXdTX3lQVDVIdWdLelFBa3NLTlJaTUp0OElKcFV5SFMxZmtPUUMtM2l3QTdqV1dreVNTTmFFa9IB2gFBVV95cUxPejU3SDk4aFozTFpOZTZvcjRKUWZlM3B4SjNhVW1xd2J6TXlvcUUwVWp2bjA2U1FaQ2JiUGtzampobUp5MERCTU5oZjdvSzh6OFNSMlJXQ0RkWmsyTjZSTlI2MzhiR3FvSEoxaXZtcXVmemJsU0pTYmdEeVNKa3ZrVFhEUThTbzRvYkFiSllUODVOdlBrN1B0NmRFZk9Ua1EtLVoyckE3aGNzV2R0dDQyNFhvYUh6d0M2amNUU2ZWUjNhaEhaVkNmVU8zVl9feVc5a0hwQ2RsUnpLUQ",
           "published_at": "2026-10-29T07:00:00Z",
           "observed_at": "",
           "source_id": "unknown",
@@ -686,10 +778,10 @@
           "description": ""
         },
         {
-          "article_id": "art_b9a6e0e89c22fb4b",
-          "title": "El puerto marroquí de Tánger Med prevé crecer un 50% tras superar el tráfico de Valencia y Algeciras juntos",
-          "title_key": "el puerto marroqui de tanger med preve crecer un 50 tras superar el trafico de valencia y algeciras juntos",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQT25Uek9qdU5Hc09zcUxzTE1jWXF6VkxhZElYdkJ3SVRMNmtuWXVCRlZpczg1UXJGd3dBVUpXRFVock4ycGlVLWRwUUVkVnB1d0Q4eTFCRjNpRzQzYWFQMzNaN3ZMZEhkZlBnSjAySXNqaTg2eWdSSXlvZE5NeWNhN0drRDk4WUNIZ1l4SXI3QmpMRDNyZnJoS1RHVDE0eXdTX3lQVDVIdWdLelFBa3NLTlJaTUp0OElKcFV5SFMxZmtPUUMtM2l3QTdqV1dreVNTTmFFa9IB2gFBVV95cUxPejU3SDk4aFozTFpOZTZvcjRKUWZlM3B4SjNhVW1xd2J6TXlvcUUwVWp2bjA2U1FaQ2JiUGtzampobUp5MERCTU5oZjdvSzh6OFNSMlJXQ0RkWmsyTjZSTlI2MzhiR3FvSEoxaXZtcXVmemJsU0pTYmdEeVNKa3ZrVFhEUThTbzRvYkFiSllUODVOdlBrN1B0NmRFZk9Ua1EtLVoyckE3aGNzV2R0dDQyNFhvYUh6d0M2amNUU2ZWUjNhaEhaVkNmVU8zVl9feVc5a0hwQ2RsUnpLUQ",
+          "article_id": "art_b387af903350228a",
+          "title": "Marruecos redobla la competencia sobre Algeciras con un tercer puerto en Tánger Med",
+          "title_key": "marruecos redobla la competencia sobre algeciras con un tercer puerto en tanger med",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMC1zOUgwYkYxREZ2dWhoUzFITWptTnBINGxEdGs3YThVa0p4ZDNnUkpWcm14bU1oYzYwQlAwNFRYMmlFaF9PSW12aGZ2N2FoVmRKbTZaWHJzUGVlU0ptdHhxRDFEeGw1N3dsV3VNV0ZNWVlJSDBVODUxUnRLeExCTHZvS0ZIQlEzMTY4ZTBjcjdPdUFHRlVrRHJZZmtaallLUUNsUHV1SWE2TjFsbDJIcy1JeGpNZEltYjNz0gHAAUFVX3lxTE9jUkYzNFJhZnFsbUxvbmpGaFE3djJnQ1lhUG1CVjVUV1dyZ09IdFBkZXBWT1dxSl9OUHVqZ0p6SU1vRVU2dWVGcmZaZTdrUWlZckNwdWxhNjc3VW5OVUJmaXdRN3lrV3ZaWlVBWkFKS1ozV1gyVVQ3eTFHdHhyMXhJWGpsc0doNXBDNlU4QlVzYUJscS0xaURuOE82V3VzTE90cXgzRkxkamN5cGZTNmRvRmF6S1dYeHdwZ1E0elYzbA",
           "published_at": "2026-10-29T07:00:00Z",
           "observed_at": "",
           "source_id": "unknown",
@@ -1048,6 +1140,52 @@
       "operational_eligible": false
     },
     {
+      "event_id": "evt_f5dbc4d4fff9da51",
+      "topic": "ceuta",
+      "first_seen": "2026-10-12T07:00:00Z",
+      "last_seen": "2026-10-12T07:00:00Z",
+      "headline": "Ceuta or Sebta? Why one city has two names and a disputed status",
+      "classification": "ANALYSIS",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_0c1e380786cc3eaf",
+          "title": "Ceuta or Sebta? Why one city has two names and a disputed status",
+          "title_key": "ceuta or sebta why one city has two names and a disputed status",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQY0JMU0hEVl9xSDYzNHBzdzItYkdkNi1GNUQ3WVlYZndGOVk2X2VEWW4xV2JXUmU2YjNsWGVjMF9SOHd5RGJHaEtla21qWW5Ib0lsLXMtNXNRVVg1d0hyMTJMcUxLYnVXNWNyVVNtYXllZ3hVdFpHYWxHXzcxNllCaDFtYUk4ZHcyNTREZEhpWmh3MUFWNUd1VXozOGF6blhrOTVGNkRON0nSAa4BQVVfeXFMTUdoNUpCYi10d2JxcGZpckNYTzFXTGR1RE9mVzZ3NjhJS05MckZIeXFpd2RudWlaMi1CMVlCeDFnZ0hZQUJheUQtOGdnX05QNHA5X2dTSVVnS0w0c2pmYnBDSmRMNHVDSmo5b2N6UFNfUUZpUExoM3ZrSEdNNVQ5YzJ3NWc0OUE2OWFoTHljZmZEa2Nyc25VWVZCUG56aTNfeFE1eE9DRFNRS2RTQUt3",
+          "published_at": "2026-10-12T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "ANALYSIS",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 17,
+      "operational_impact": "CONTEXT",
+      "operational_eligible": false
+    },
+    {
       "event_id": "evt_e8dcb8dadcff34fb",
       "topic": "ceuta",
       "first_seen": "2026-10-08T07:00:00Z",
@@ -1199,24 +1337,6 @@
       ],
       "articles": [
         {
-          "article_id": "art_e61b9161ddbb2156",
-          "title": "La relación de España con Marruecos también pasa por Europa",
-          "title_key": "la relacion de espana con marruecos tambien pasa por europa",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaDU0ZmkwV3lyZVM0RUYwZlNxbER2UEJ2ZnVUTDhuT2x0SjNNY19rT2FUa1VhWmkzMzlHY3N2SVM4VXN6QVIyUW0yb0k5QUVPSEM4bTNTRmZRemlYQWxfT1ZGZEk3b0QxUVFlOHFJNk5wTlJMREJvUFlSVWZwTWxGQ05nLWw4LW1LMlhyX3I4cDhQUUdyQVZWY2l6cnJDUlNIZTJxalV4cWplTTFnejVFQ2ZtcjREMXlQQkI1ZjVCNm8",
-          "published_at": "2026-10-01T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
           "article_id": "art_bf1b1e49f336af67",
           "title": "¿Qué revela la crisis de Ceuta sobre la relación con Marruecos?",
           "title_key": "que revela la crisis de ceuta sobre la relacion con marruecos",
@@ -1238,98 +1358,6 @@
       "importance": 17,
       "operational_impact": "CONTEXT",
       "operational_eligible": false
-    },
-    {
-      "event_id": "evt_5d29b0dd6acdb6c6",
-      "topic": "ceuta",
-      "first_seen": "2026-09-30T07:00:00Z",
-      "last_seen": "2026-09-30T07:00:00Z",
-      "headline": "[Interview] Ceuta crisis shows how EU border outsourcing puts children at risk, says German lawyer",
-      "classification": "ANALYSIS",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_cee01779eec56055",
-          "title": "[Interview] Ceuta crisis shows how EU border outsourcing puts children at risk, says German lawyer",
-          "title_key": "interview ceuta crisis shows how eu border outsourcing puts children at risk says german lawyer",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQVUNCX0ZUc0RyMVlpdHU4LVl6MVJKZFRnazlwV2lUd01UMjE4ZDFrWWlSOC1QOXZVWGd4Um5EamtNNHJuNl9zM3VZcEhhVndsTE5faUs0Y0RHTmx1OGNPckd2SWZxZkpMdGFKODdueFlEbjNoN09SeFNJRGpab1RfMVQtNFFXazVzdXNNWmw4bk1FNzM3VjA5VlVEVVJzdi1tUWRxd0R0UWd3NXdWSUI5RE1iaGI4QXpTa3JKSlF0ZFBnTUdxa2d3ZkZ1U09CSDhmMXQwdEtMaw",
-          "published_at": "2026-09-30T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "ANALYSIS",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 17,
-      "operational_impact": "CONTEXT",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_7e07647799132850",
-      "topic": "ceuta",
-      "first_seen": "2026-09-30T07:00:00Z",
-      "last_seen": "2026-09-30T07:00:00Z",
-      "headline": "Ceuta crisis exposes challenges and tensions in EU’s response to migration",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_01c1b458a25142a7",
-          "title": "Ceuta crisis exposes challenges and tensions in EU’s response to migration",
-          "title_key": "ceuta crisis exposes challenges and tensions in eu s response to migration",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUHlVTnVpb2NtSjhXUnBLWUVGYkpnenozejc0QWU1Ui02czhzNlAzMXdrZS0ySHZUX3VVNjVvLWE4WmdVREE0YWV4NXVfZ2V3X2U4VWxaMFdJZ0REYWJlVHh0VUw0ZjZ0TG1neEthVTJMYzdqUEVoS1NGemR4dThTWlFUTjhkNWNQWjNzZ3cxT2c5SnhwcHJwd0d4OXE",
-          "published_at": "2026-09-30T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
     }
   ],
   "verification_summary": {
@@ -1338,9 +1366,9 @@
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 1,
     "SINGLE_SOURCE": 1,
-    "UNCONFIRMED": 22,
-    "TOTAL": 24
+    "UNCONFIRMED": 23,
+    "TOTAL": 25
   },
   "article_count": 36,
-  "event_count": 24
+  "event_count": 25
 }

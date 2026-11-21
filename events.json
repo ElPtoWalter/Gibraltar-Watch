@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-20T21:12:38.259471+00:00",
+  "generated_at": "2026-11-21T02:24:18.815748+00:00",
   "events": [
     {
       "event_id": "evt_d62caefaad75b115",
@@ -118,24 +118,6 @@
       ],
       "articles": [
         {
-          "article_id": "art_9ffc98b4a4345609",
-          "title": "Sánchez defiende su gestión de la crisis de Ceuta y asegura que preparaba una frontera marítima con Marruecos desde junio",
-          "title_key": "sanchez defiende su gestion de la crisis de ceuta y asegura que preparaba una frontera maritima con marruecos desde junio",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUkNzaFdLSWppVWJna0dtM0VWa3ZudExmUlVoTVFibGhhRTFkd1FRUm1NMV8xeXZNT25ZZnhtX2tia0dzTHIxYnFvVXhOZWhJdkRkMzR6ck1SWU9ZeWlFQmJ5M2JFWElWZldvLXpiZ2pmZGdpR0hWVDBDb0ZPRy01Z0JiM0I0Z1hxTVNuX2FVVFRjdWJaNE9GaWF6eVgtcm1haWp4WUxXUUxEUkJUcVBtcEdXR2pObWZGVnZjWVhmUdIBxAFBVV95cUxQWWM1U2loaVFjRlJlNnJmZWJVLWllaWlhb2c2WlNjZ0JzaktlalVIQWtBRWl1V3pnX05PcklxcjVaZW0yTFR4c2V5R19OQS1pWHFiaE1lMzB0V1VPdWt6V1YyblFXQTZzQS1VcThIdXltU0Jkd2x0aXBHQ2JJaXpUZnN4NjJsYXlMWTNDX0pDUnY2VlFhNzdGX3hxTFdTM05qTmhUbEVTUU9CdjFuTjJBQlUtLVdlNDZhWk5hV1RkdXFQalBr",
-          "published_at": "2026-11-17T08:15:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
           "article_id": "art_dc64efc9da3fe032",
           "title": "Vivas carga contra Sánchez por \"irse de vacaciones\" y denuncia el papel de Marruecos en la crisis de Ceuta: \"Decidió cuántos y hasta qué hora entraban\"",
           "title_key": "vivas carga contra sanchez por irse de vacaciones y denuncia el papel de marruecos en la crisis de ceuta decidio cuantos y hasta que hora entraban",
@@ -213,52 +195,6 @@
           "official": false,
           "weight": 1.0,
           "topic": "traffic",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_a869dda15c10f07f",
-      "topic": "ceuta",
-      "first_seen": "2026-11-18T14:17:43Z",
-      "last_seen": "2026-11-18T14:17:43Z",
-      "headline": "Ceuta: Tardón Turns Suspicions into Evidence of Moroccan ‘Hybrid Warfare’",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_e1e2b7b19f8a89c3",
-          "title": "Ceuta: Tardón Turns Suspicions into Evidence of Moroccan ‘Hybrid Warfare’",
-          "title_key": "ceuta tardon turns suspicions into evidence of moroccan hybrid warfare",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQeTdEem5oQmd1MWtIZHRRMUN6dmktZ1VMeXhsaHY3aWNKaUFZZkNvNDBRNUFzUVlmc1U0SjRvODUyNzNlbTA2TTdPZ3pKNXNVWi1ySEVmZmlTTDN0Zzg1blBSMXljb2p2Zy1Jc3BQR3pxZTR5V3I3MG1KTDFrUDdIUVJ2aHBJdVcwNzFYbHBnOEdWWUR4SlV1SjVyYUdvVkxLMTZya1AtWG9SSm5zc2RBRGtsUmtsMVM5Yzhj",
-          "published_at": "2026-11-18T14:17:43Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
@@ -1274,10 +1210,19 @@
           "tier": 4,
           "official": false,
           "weight": 4.0
+        },
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
         }
       ],
       "source_ids": [
-        "rtve"
+        "rtve",
+        "unknown"
       ],
       "articles": [
         {
@@ -1297,10 +1242,74 @@
           "classification": "FACT",
           "signal": "",
           "description": ""
+        },
+        {
+          "article_id": "art_04c62a76fdffd78f",
+          "title": "Marruecos defiende la relación con España y rechaza las acusaciones sobre Ceuta",
+          "title_key": "marruecos defiende la relacion con espana y rechaza las acusaciones sobre ceuta",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOa1AwN0YwMlMwSzE0N2cwTVQ3R3NlRHRGS3R2bnNkZFAwRHZnMEF5M2FKcThMelpxVnhCX1A1QU1hQVBqT3U2QmZ4YVRsa1RrbmhFX3BjdEVkY2x0NGJhWFN2NjZWSHRNNnoyMy1mZjVjZ2MwaTRKYkpqMUVDUENYTmlOYjVaWVktal9aZVhNZUNRcFF2VWVUTkF6X2Z3TEZIQl9nRW55N3F1cXM4UGlxNUQ5V0RCbzBmZDk5emNXWW14RV9QQmV1MWpB0gHPAUFVX3lxTFB5MnBQbHVNeFR6aHdqVXppa3dzeGdjTXpSc3lwWWhzS2RoR2NGMm1vQjVOeWNJeGdDNy1vcWszajlhQjFWZGQyTHdrN3BpNUJvb2VfWkIybHM1c25UZzAyU0diQUNLVG1OREg2eklSXzVsYjZCVGFBa05tcnpiU0hvN3k0MklLRVRaWXFyQzE2eFktd1c0Mk85aGpCVEtVcDVOOW5mcDVYbndydWRYQUVUdl9tVVBSZHJRaDdDUGhzb3N0QS1rMEkyVWFfd2ZZYw",
+          "published_at": "2026-09-10T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
         }
       ],
-      "importance": 43,
+      "importance": 46,
       "operational_impact": "CONTEXT",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_d9ceba435d3638f9",
+      "topic": "ceuta",
+      "first_seen": "2026-09-10T07:00:00Z",
+      "last_seen": "2026-09-10T07:00:00Z",
+      "headline": "Spain’s spy agency warned of mass crossings into Ceuta before border crisis",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_0200a9d21d49b08d",
+          "title": "Spain’s spy agency warned of mass crossings into Ceuta before border crisis",
+          "title_key": "spain s spy agency warned of mass crossings into ceuta before border crisis",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVFo5SEY5aEFkOUE1cm5HcGw2Z3NVN0w4NGNfT21HSnhyaDdvdWk0cDRKejN0ZjdpMXdaalJEYjEyZ2VfT2tzWjhyc0Y5WmtsOUxXNEVIMzZKSUhPWno4SHlKM3gwa25vcXVKUjZHVFN6ODdnMEYydlBpSEpDVXM2TG14TWlCamk4Sk5TOEVheHNPcS1QVTJLZlhlOXNDcTdlVG5CR1p0VnpkamtxeERjRGp5a9IBuAFBVV95cUxNRHVJS3I4Vy1lX0RpWjNHdzNNVzFIRkZqWGRfZWc1d29xSGpYQl9ZelQ3LUYwU3BQQmQzeUVvWFYtQUkwd202Q3MwZHQxZm5veTNNVnYyUW5PbFpDSVJLUVNNX253MFgteVYzcEtrZkxRWEVtclhVV0U1WGtpZ2pEUl9yQ2ZwbnVXWjFDdmZIeE9mVzI5dzFKVTl5NjRGY3Y1VFl2TmhCSXdweFFJUGJweWxPS1pXQ3Ba",
+          "published_at": "2026-09-10T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
       "operational_eligible": false
     }
   ],

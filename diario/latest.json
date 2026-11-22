@@ -1,29 +1,29 @@
 {
-  "date": "2026-11-21",
+  "date": "2026-11-22",
   "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
-  "summary": "Selección automática de 2 referencias de 2 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
-  "published_at": "2026-11-21T15:39+01:00",
-  "updated_at": "2026-11-21T15:39+01:00",
-  "source_count": 2,
+  "summary": "Selección automática de 1 referencias de 1 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+  "published_at": "2026-11-22T15:34+01:00",
+  "updated_at": "2026-11-22T15:34+01:00",
+  "source_count": 1,
   "indexable": false,
   "edition_label": "Cuaderno de las dos orillas",
   "edition_slug": "shores",
-  "fingerprint": "d9e64ae07414e183c2aa",
+  "fingerprint": "c93a3ee956c8a5aa3435",
   "editor_engine": "rules",
-  "editor_assistant_status": "gemini-validation-es",
-  "assistant_status": "gemini-validation-es",
+  "editor_assistant_status": "insufficient-sources",
+  "assistant_status": "insufficient-sources",
   "validator_version": 2,
-  "factual_packet_hash": "8e40494e608f101d7dc3374db2eb8f55b3412eb6dfaa52c4c8af474036f50636",
+  "factual_packet_hash": "ef3fd7fccf9bb143047a35c856560cf524e3100708a00a4966a2fc6cdbaa9639",
   "event_ids": [
-    "evt_8d7b7e74c84ba84d",
-    "evt_976823acaf727baa"
+    "evt_395f17d3592ec269",
+    "evt_bb0c19be5f9481d2"
   ],
   "source_ids": [
-    "politico",
-    "reuters",
+    "euronews",
+    "rtve",
     "unknown"
   ],
-  "timestamp": "2026-11-21T14:39:13.204920+00:00",
+  "timestamp": "2026-11-22T14:34:15.945784+00:00",
   "fallback_used": true,
   "verification_summary": {
     "CONFIRMED_MULTI_SOURCE": 0,
@@ -31,9 +31,9 @@
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 1,
     "SINGLE_SOURCE": 1,
-    "UNCONFIRMED": 22,
-    "TOTAL": 24
+    "UNCONFIRMED": 20,
+    "TOTAL": 22
   },
-  "date_label": "2026-11-21",
+  "date_label": "2026-11-22",
   "slug": "actual.html"
 }

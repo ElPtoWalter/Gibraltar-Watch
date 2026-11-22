@@ -1,12 +1,12 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-11-22T06:58:54Z",
+  "generated_at": "2026-11-22T14:34:16Z",
   "state": {
     "code": "watch",
     "label_es": "VIGILANCIA",
     "color": "yellow",
     "severity": 1,
-    "summary_es": "La situación requiere seguimiento, pero no aparecen señales suficientes para elevar el nivel operativo.",
+    "summary_es": "La situación requiere seguimiento, pero no aparecen señales suficientes para elevar el nivel operativo. Parte de las fuentes necesita actualización, por lo que la lectura debe interpretarse con cautela.",
     "layers": {
       "maritime": {
         "value": "SIN CONFIRMACIÓN RECIENTE",
@@ -26,8 +26,11 @@
       }
     },
     "confidence": "BAJA",
-    "confidence_explanation_es": "Confianza baja: la información disponible no permite una corroboración reciente suficiente.",
-    "sources_pending": [],
+    "confidence_explanation_es": "Confianza baja porque necesitan actualización o revisión: Sismicidad USGS, Actualidad y geopolítica. El estado operativo se mantiene separado de la frescura de esas fuentes.",
+    "sources_pending": [
+      "Sismicidad USGS",
+      "Actualidad y geopolítica"
+    ],
     "alert_level": {
       "code": "informational",
       "label_es": "INFORMATIVO",
@@ -45,8 +48,8 @@
     "ope_passengers_day": 59877,
     "ope_vehicles_day": 15464,
     "ope_rotations_day": 179,
-    "diary_date": "2026-11-21",
-    "diary_source_count": 2
+    "diary_date": "2026-11-22",
+    "diary_source_count": 1
   },
   "anomalies": [],
   "changes": {
@@ -59,35 +62,35 @@
     "summary_es": "El nivel general se mantiene en VIGILANCIA. El monitor recoge 1 referencias menos en la ventana de 24 horas."
   },
   "health": {
-    "overall": "HEALTHY",
-    "generated_at": "2026-11-22T06:58:54Z"
+    "overall": "DEGRADED",
+    "generated_at": "2026-11-22T14:34:16Z"
   },
   "latest_diary": {
-    "date": "2026-11-21",
+    "date": "2026-11-22",
     "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
-    "summary": "Selección automática de 2 referencias de 2 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
-    "published_at": "2026-11-21T15:39+01:00",
-    "updated_at": "2026-11-21T15:39+01:00",
-    "source_count": 2,
+    "summary": "Selección automática de 1 referencias de 1 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "published_at": "2026-11-22T15:34+01:00",
+    "updated_at": "2026-11-22T15:34+01:00",
+    "source_count": 1,
     "indexable": false,
     "edition_label": "Cuaderno de las dos orillas",
     "edition_slug": "shores",
-    "fingerprint": "d9e64ae07414e183c2aa",
+    "fingerprint": "c93a3ee956c8a5aa3435",
     "editor_engine": "rules",
-    "editor_assistant_status": "gemini-validation-es",
-    "assistant_status": "gemini-validation-es",
+    "editor_assistant_status": "insufficient-sources",
+    "assistant_status": "insufficient-sources",
     "validator_version": 2,
-    "factual_packet_hash": "8e40494e608f101d7dc3374db2eb8f55b3412eb6dfaa52c4c8af474036f50636",
+    "factual_packet_hash": "ef3fd7fccf9bb143047a35c856560cf524e3100708a00a4966a2fc6cdbaa9639",
     "event_ids": [
-      "evt_8d7b7e74c84ba84d",
-      "evt_976823acaf727baa"
+      "evt_395f17d3592ec269",
+      "evt_bb0c19be5f9481d2"
     ],
     "source_ids": [
-      "politico",
-      "reuters",
+      "euronews",
+      "rtve",
       "unknown"
     ],
-    "timestamp": "2026-11-21T14:39:13.204920+00:00",
+    "timestamp": "2026-11-22T14:34:15.945784+00:00",
     "fallback_used": true,
     "verification_summary": {
       "CONFIRMED_MULTI_SOURCE": 0,
@@ -95,10 +98,10 @@
       "CONFLICTING": 0,
       "DECLARATION_ONLY": 1,
       "SINGLE_SOURCE": 1,
-      "UNCONFIRMED": 22,
-      "TOTAL": 24
+      "UNCONFIRMED": 20,
+      "TOTAL": 22
     },
-    "date_label": "2026-11-21",
+    "date_label": "2026-11-22",
     "slug": "actual.html"
   },
   "latest_ope": {

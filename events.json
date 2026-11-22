@@ -1,53 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-22T06:58:53.813046+00:00",
+  "generated_at": "2026-11-22T15:25:23.457961+00:00",
   "events": [
-    {
-      "event_id": "evt_5a677c102c6c162f",
-      "topic": "ceuta",
-      "first_seen": "2026-11-21T03:44:35Z",
-      "last_seen": "2026-11-21T03:41:00Z",
-      "headline": "Ceuta’s Jews wary as migrant crisis strains – but doesn’t break – long history of coexistence",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_3871c40910666fc2",
-          "title": "Ceuta’s Jews wary as migrant crisis strains – but doesn’t break – long history of coexistence",
-          "title_key": "ceuta s jews wary as migrant crisis strains but doesn t break long history of coexistence",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQYWlHTXRaUW0wRFJIUjVlODE1dFRTcURXbnhqUjBHWmQtZGxqM2dJN0JuSVgzcDJMSkM4Z0dYQUpxU2F0R2tWSGdZeWpQc3A3MmtqUF93QWFGVUhxemRKZC1kd25MRmVwZUxZMFFwUVZWUzhCN1NPNnRDNWxlQUJqQTQwekVLeTdNc0EzUmJLMzBOdjR3ZUxyUzBzcVNhTFo3RUNLZmlCU3diQ182TVUwR08wRUY0SFBMRHfSAb8BQVVfeXFMTlF6TkhZNlA2QXdqek03M1ZNWEJwd2VTVUlkOUdIY3AxR1lueFFhOF9JNWlCN011ZVpHS283eDQzNlJWUDQtdHYyRW5yOXc4Ym1JTVdyVXNIVUk1QXJNdUNEaHA3MC1CQ2tJZWR3bDVrdlFwYktjVHRwdVdkR3RwRU4tdWtqX2RjaHdIZHN4Ylo4VFIzb3N3Y0EtR1l6TkcxYzJmZ1NieFhhMXBwdl8td0RPTVdqWFVRRGh0Y0pyTWM",
-          "published_at": "2026-11-21T03:41:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
     {
       "event_id": "evt_d62caefaad75b115",
       "topic": "ports",
@@ -190,7 +144,7 @@
       "event_id": "evt_f91bead29d924ae2",
       "topic": "traffic",
       "first_seen": "2026-11-16T17:08:48Z",
-      "last_seen": "2026-11-18T10:34:24Z",
+      "last_seen": "2026-11-18T10:21:00Z",
       "headline": "El patrullero Serviola regresa a Ferrol tras reforzar la seguridad marítima en Ceuta y estrecho de Gibraltar",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
@@ -233,24 +187,6 @@
           "title_key": "el patrullero serviola regresa a ferrol tras reforzar la seguridad maritima en ceuta y estrecho de gibraltar",
           "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPcG9qRkJOcnZ6M0NBOHBicTNXdUdJNm5ZQWxNOGtjazc5NW9HcVZGV3Z6d25nUU4xQUt1Z09ONVczV196ZGk4Tm1Tb1ZtUHdER2NDNjI1QUtEYVZrWXlIVVlCOGJNRkU1R3BGTHZWQTRhSUFLWldqRXVPOG1FY05fc080OWg2RTJNQzlQMDNWRThDNWdtQUNtMEtyNzhnbUZQN0NYTlZIdVZwUEJOVkp3ZXBDU1BRT3dwNHpEdlZVX3dtRTJXUzFScnRvMGw2SlpJSDVEX0NVbld2czZDNXF1LTRRRkFTeFU",
           "published_at": "2026-11-18T10:21:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "traffic",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_8bdd501f58c2fd3c",
-          "title": "The patrol boat Serviola returns to Ferrol after reinforcing maritime security in Ceuta and the Strait",
-          "title_key": "the patrol boat serviola returns to ferrol after reinforcing maritime security in ceuta and the strait",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQVnlsZGZySmN5bmY0ZGlyVC0yQjhvTFJacS12emVkdDdtMGhrdDl1VklPdDhuMmotcHJhQThzdmlKZzYtS3Rhc29Vc3psUUpGT2lPZzBmUmp2NEhYVTFtOURpWUk4UEt1WmxvNHIwanlOc0FyYkQydElNSm52dXVWeU9sRE5UQ1Y0TWQ4ak5wdzVMQ1BsQkNidXBfTWxzVlJ3YV9DOTh3WmZvdnl3cnlBbWswU2o0VUdOM0hKOEFscENvOF9sN2FUSzE5OUFUc0o2b003TzdIONIB3AFBVV95cUxNUzZJODdWbG14M2NmT2Z5QVVPU25lMXJJRzFwRUhlbWtDQmtPRVdtbGVuMHgwTFAyVVd5WlJsZlZkcEpUTENZVG5PU3NCXzlNU3hGUGFKek5xY09mUkxuSXhMQ3ZqLWFTTnZLb0NrWF9BVmVKaHI2TUwxYWo2RVFYYmVfcEhNN2ZHSF9kbHlOeGJCc0d4aUZBeHU2LURzT2k5N0s5VjBxV1JGNkFKemxGcTI5STI2QU1WeThlRnAyNTBVTERoYzh5QVZJbVBtMVQ3RHVQcWZJYnMyV2Zv",
-          "published_at": "2026-11-18T10:34:24Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -451,6 +387,52 @@
       "operational_eligible": false
     },
     {
+      "event_id": "evt_fd1fe1b197a8498a",
+      "topic": "relations",
+      "first_seen": "2026-11-16T15:00:16Z",
+      "last_seen": "2026-11-16T15:00:16Z",
+      "headline": "Inocencio Arias, exembajador de España ante la ONU: \"Ceuta es una ciudad española desde hace siglos y hay que protegerla sin remilgos\"",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_3422561b7667613a",
+          "title": "Inocencio Arias, exembajador de España ante la ONU: \"Ceuta es una ciudad española desde hace siglos y hay que protegerla sin remilgos\"",
+          "title_key": "inocencio arias exembajador de espana ante la onu ceuta es una ciudad espanola desde hace siglos y hay que protegerla sin remilgos",
+          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQRDBmOUhERGZHd182ZWVmc3hTazlYR2haT1g2WHZxMWhQLVBiUkVwaGRaS215MTFjYlZGQ0dSZlZ1dE8zMmo5Vkhsd25YZVBCVHQ4d2lDM0pmV1NiZWVrQWtvZmx1SkY0WGFwTmVvaGtrZUUwOEZNaGJfQjBTZTdBZ0k2YWEycU40a2FmY0h1RUhZMi1ZdzhNcW0zSFVtTWZMb19sZWM0NEhBWGZidWZaRzV5MzVjWk1kR2FnNVVkNWFBV1BNb2hyX19KNFZwR245aWYtMm5LWkt6QUFhOUdrZjFBdWJ5V3ZHQ2VjZG1WMmh0NTVPWnR3bXRIMmXSAZACQVVfeXFMT28xZ3M4SXZKMXBrbDZWeWM5TGxSdVFoZWx4VFlvbV9GcHM5bXdzcjl2MDNBNWdmZ0dOeUlhQ0h0WXFTRWRZdF9WS1pJaWtHcjc2NzBlSzU5b0x6RnNGRmpvTHdHa2JUVUlOQlZheGJqdldVNlJBYng4SWZ3Vk41Z1h2U0k1OTd3MS1FYU9oYzRBQVZvNmRfUjdrcVV2YkNYQ2dNcE5DUzlvZ2JDM01Fbkl5ci1HVW1QZ2tSZVJaSnhveEx4MnRRa2R0MkR1RTlFOGVSWDlIakF1NERkTUJOX2VEZWpRRlFReEpOVWdhVXFXQjVMdVdLcHV3Z3dZendodnRIQXB2NFVTcVROYUxxZm4",
+          "published_at": "2026-11-16T15:00:16Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
       "event_id": "evt_b7454aece121a6c2",
       "topic": "traffic",
       "first_seen": "2026-11-10T09:39:25Z",
@@ -543,6 +525,52 @@
       "operational_eligible": false
     },
     {
+      "event_id": "evt_5cd06bb9772d9284",
+      "topic": "melilla",
+      "first_seen": "2026-11-04T08:00:00Z",
+      "last_seen": "2026-11-04T08:00:00Z",
+      "headline": "La UE solicita multar a Google Maps por mostrar a Ceuta y Melilla como ‘territorios en disputa con Marrueco...",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_9cd5dfb98ae6ed0a",
+          "title": "La UE solicita multar a Google Maps por mostrar a Ceuta y Melilla como ‘territorios en disputa con Marrueco...",
+          "title_key": "la ue solicita multar a google maps por mostrar a ceuta y melilla como territorios en disputa con marrueco",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQX1Q0WkQ5Z293YUIwcVJvQUtlWFdpbnc2VkRNVEN2MnEyWnlFWWxPV3dhYWV3Rm81bnhrOXBjalduWGZPekF1bWNSYzhnak9nX2JGZk1wd196OFQ0aGZNRWptYll6ZlBPY3VKaG1ndU9FU0pIMkktamZvNDdUQWFWR1l4WjUzY2tKeEp2TENrOU5lWHBhdjQxRTZDVGlycUR6em90RHdEM2MxaEZxa1VWYUVXMzJiU1RUcGY5amIyaUNjcFlYVFhvc3hTMNIB0AFBVV95cUxNemFtOEFwOWd2dWgzcVhTcG1KU2FDZWY0ZDZQZTZLZkdBMlhfcC1Cb3dJaU80aWp0THJhamhOTm5jUHBrMVBkOS1QNzEtV1duNUVyQVZNc1VPeENSNnhsVElEc2kzcDdpZHBNRXV0YmptbXhrU1R5eTlIMjA0cmY3UFlDWUg4TDRjLVRwc1J4Zm8tal80WUNaV1RiYVZBNFk0QU9DRENKb2JRUVpxYm1pbnRjcWRFdFVCdVlhbm90bXR4SjZ6cVVWSXhQbGUtRTNw",
+          "published_at": "2026-11-04T08:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "melilla",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
       "event_id": "evt_97ce7746ec6d8683",
       "topic": "traffic",
       "first_seen": "2026-11-04T08:00:00Z",
@@ -597,52 +625,6 @@
           "official": false,
           "weight": 1.0,
           "topic": "traffic",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_3efdd5ddeedfba7f",
-      "topic": "relations",
-      "first_seen": "2026-11-01T07:00:00Z",
-      "last_seen": "2026-11-01T07:00:00Z",
-      "headline": "Las relaciones entre España y Marruecos en la frontera las controla Rabat: \"Ellos deciden si aceptan a los suyos o no\"",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_ad3ec494562e7597",
-          "title": "Las relaciones entre España y Marruecos en la frontera las controla Rabat: \"Ellos deciden si aceptan a los suyos o no\"",
-          "title_key": "las relaciones entre espana y marruecos en la frontera las controla rabat ellos deciden si aceptan a los suyos o no",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPUW9YNks0V19rLU9JQzVybnQ3M0U5RUdGN3BRSGpwZFB3dlhLaWp3SnJRZWpONUtZQWRkYVZaeFh1WnhNUXU2NTV2X3RvOUE0dXRqTFhfdE42SGI0bXVVU1NoZTlIdFVvbEVmb2tUMUhfcUZhLW9OYm5NLVl0SHdLTUN2ZnNDR1NRQXZzeHlEY1A5bXp5Sk9uNnlibmhLTVN1Sl9lNjQwMlozaXpDTXp1VmMweW44SjBubXh5aDIxWmQ5UWtDVy1PUXBad0NWQ19jQjhTSkk5bXBQVzFsOUg2REVPdmtxMUd4anpxTEwxOE_SAfYBQVVfeXFMTUgyRm0xXzZLemk3RlRqeUlzTWFoeXQyOE03QzlkVUNoREY5bTd4dWw0RmsxQVcxbEJSSmJTdm5RMDRZWi1raklHMFg4QkxHeWNUVm9BaHRrbFNFWFF6enJvdGZ3ZUFXUTFXUGdTTk1VaHlmOFc2SnJTUmhOR0dPQnRtNUR5cnpOeWx4WF9RN0VuTWRJVlQxajVzQVVxMVpHVFl4TlJleHFraV9LaU5wbklLOHFoYWFhVThIamYtVVhWbjh5UTNBTF9XUWpJdzlvZDVLVUhyU0NwdWRUTVcxU2l5RG1EckNJZkNSNXFJQ3pIR3BLWUln",
-          "published_at": "2026-11-01T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
@@ -763,6 +745,52 @@
       "operational_eligible": false
     },
     {
+      "event_id": "evt_b74fb3b8f92af160",
+      "topic": "relations",
+      "first_seen": "2026-10-23T07:00:00Z",
+      "last_seen": "2026-10-23T07:00:00Z",
+      "headline": "Marruecos vuelve a la carga con Ceuta y Melilla y lanza un aviso a España: \"Nuestra soberanía no es negociable\"",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_578b172542d11d94",
+          "title": "Marruecos vuelve a la carga con Ceuta y Melilla y lanza un aviso a España: \"Nuestra soberanía no es negociable\"",
+          "title_key": "marruecos vuelve a la carga con ceuta y melilla y lanza un aviso a espana nuestra soberania no es negociable",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQXzhUSXN0LWZKQ29fRUVFOFZJLVBtT281RTNoSTd3NEFxY1dRMVAtRmlqNWVKZUhZaDdjaVdfMFJsSC1Xck1lVWZBS2xtSjJyVnd1Q3V5UXRZZ29mby1DQzVQeXVudGhxc0tJd2kxd3NsLUhhZE82UWJtLW1IaHROanFTTGNfUFh1TUtRVTg3Yng2aUgzVVNrUHQ3ZkcyZWNGRFcwV1Npc215RmdmY2dHb2Z2dWktY0J0cjRuS1RrYkZldndySnA0WVlvQUtwNFh2cTZ6cFdMM3NQekxsaEJSSC11Q0d5cFXSAfsBQVVfeXFMUE9yLXJKMXNOcDY0NFJVNXBLZkpsVkI0ckprNWpuZGk3VXplOGRieWF3SHRhcDZxcnVUbFJhQUNwd1JPQktzTTFxR2tWUUQ4TVpuMjRHSW5LS01YbDVQTDZCUE5yODI2a3c3bTBsazZIemdHczJQT0YtNTc0RUphZWVTdGhfbnpZSGRCWFk3YVVHRHVNY192U2wxcDVTa1B3WmM1OF9WUm1ld3lQQWNFU002RWpjd0RZT0JMdkVYMnhhRlNqajd6WWtYcDRtOEMwU3pVM0ktcXZ0WVozM3J1eUd1Z215QlFkMHg5ZURSYzlTZjVwSTRnQThqUUE",
+          "published_at": "2026-10-23T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
       "event_id": "evt_a7745d7d3c137569",
       "topic": "relations",
       "first_seen": "2026-10-15T02:25:13Z",
@@ -809,11 +837,11 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_646765ea13de6431",
+      "event_id": "evt_26853c0c4b865562",
       "topic": "relations",
-      "first_seen": "2026-10-14T07:00:00Z",
-      "last_seen": "2026-10-14T07:00:00Z",
-      "headline": "Spain’s king reasserts sovereignty over Ceuta, Melilla as Morocco remains silent",
+      "first_seen": "2026-10-15T07:00:00Z",
+      "last_seen": "2026-10-15T07:00:00Z",
+      "headline": "Sánchez reaffirms Spain’s commitment to good relations with Morocco after King’s visit to Ceuta, Melilla - HESPRESS English - Morocco News",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
@@ -832,11 +860,11 @@
       ],
       "articles": [
         {
-          "article_id": "art_cfdc879e12832c43",
-          "title": "Spain’s king reasserts sovereignty over Ceuta, Melilla as Morocco remains silent",
-          "title_key": "spain s king reasserts sovereignty over ceuta melilla as morocco remains silent",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWlJUbFZoWURNNkl6VFN1UGlmU0NHa1VmUGdlY09vY3A1RFR3T1R2blV0WFRQTFN3R0llVklPV2s4ZFd0YlVqZUxMbmh5N0pibzV2dVJuWDZUVURKUjc1UUt6d1VKeERGckpaV3ljMldyVHlVckdwcXd3OTBwWUJtV0gtMnh0em9HU0pBMnQ2N21LYlh5dDJPWDl1cHJRZ1R0cnQ4Tm1qcXR1UG5OSG1kWk55QlJkbUUwTi0wTUZ6OA",
-          "published_at": "2026-10-14T07:00:00Z",
+          "article_id": "art_f83115b8f662a70e",
+          "title": "Sánchez reaffirms Spain’s commitment to good relations with Morocco after King’s visit to Ceuta, Melilla - HESPRESS English - Morocco News",
+          "title_key": "sanchez reaffirms spain s commitment to good relations with morocco after king s visit to ceuta melilla hespress english morocco news",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQTEFJWGo2SEpFZUktZ2pRZVcwbk40eGJYUGZJQ0huTi1DMkRlMVNQeTQ0elkxYUoydm83NXY2eDNabERrWGhtdlBwNzlWdVI3a1IzVnFBMC1DcU03QXVMWlVudElVcVlGVURmVFpoS21SSjVvV1lGbEo0eWNMR0p4UnlJLXFSYWNpcHZmcUhtbEhOQ3I0Szd5UXYxWlVFSFJqaU5SSW5BS3JWRk9iTzVrakxCOTVaMnFadUZpVENURFFjSVlfWElISWtCZEczNTU3MEVV",
+          "published_at": "2026-10-15T07:00:00Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -905,7 +933,7 @@
       "topic": "relations",
       "first_seen": "2026-10-01T07:00:00Z",
       "last_seen": "2026-10-03T07:00:00Z",
-      "headline": "El periodista que ha desnudado a los espías de Marruecos: “Lo que pasó en Ceuta fue fruto de una guerra soterrada entre servicios secretos, un toque de atención a España”",
+      "headline": "¿Qué revela la crisis de Ceuta sobre la relación con Marruecos?",
       "classification": "ANALYSIS",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
@@ -956,24 +984,6 @@
           "weight": 1.0,
           "topic": "relations",
           "classification": "ANALYSIS",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_dff3e9f177583ed7",
-          "title": "El periodista que ha desnudado a los espías de Marruecos: “Lo que pasó en Ceuta fue fruto de una guerra soterrada entre servicios secretos, un toque de atención a España”",
-          "title_key": "el periodista que ha desnudado a los espias de marruecos lo que paso en ceuta fue fruto de una guerra soterrada entre servicios secretos un toque de atencion a espana",
-          "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNQl9ScTJzSTBscnJJbDNtVU56d0cxNDVUM0JJUXRzaW1CaXRLbW82OGxOdUZtRjJKdDI3U2VFTVZWNmp3UG4zUXBfb1AtZ0FXa3lsbzBpak5HSEszOVgzRzIwbVpRV3RXTFc0bTlPdlY3Sm9ZZk56YjFqbUUySkZWem92WkNkRDkzenptdjhHT2NsdVo1U0QxSU1oT242MmRyVktDaWVSZWlnRVJkZUNxb2RzTFNOeEY4bEhBODQ2RWdyaVVMUm1ldGlpQW0xY3diVFZIOWJOUVRXS2p6STFoVXJJdUUzTkc5RU5lQWZkUV9kMTgteG1zRWZzZXJ4My1uMzY5dWZsSVFRc09mdTZYY3JNTFJqd19aaVFua2JFTVB5a0FhZWdxcHlCZzAzaVQySUtF0gHOAkFVX3lxTE85MGpUczhmN1lTZnc1cTNhY09XcW1UZTVVc1B3emd1a3ZwbnV6MGgwUDk4R1RpNGhoYkIyN0RRMWh6YVBzLWlJcmdwM0Y3Sm1UaTJWNnE5US1uSW00RGpkbHJsQVE3VXc2SVJ0WXpqQVRfSjQ0MGpsTHVoNkZDbzJKbEhITjlqSHJCOEZvR28xbk90MEJTelhtLU1YOTU1aTBZSndIc0hFbzhuSVJIeUZZNi16QXFmcmhRTW5ZV2JiUWIxSHVLZXNaRTVvTnJvd0tIaGpKYkM0VVVTa0tqaTJYaUtXZ0ZCaEVjekFZQS14YnNSTkRrMFJqTjNLOUdsSnNISGtaZGtnQXlOMnh3ZkRBNE9OUkR0RzMzUHI4T0RKOTM3bGhCTzNrdWtTMzFkRW9aVFc0YWt2WlQ3T0t0QnFfeUw0ejU3S2JPaDhLYnc",
-          "published_at": "2026-10-03T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
         }
@@ -1274,6 +1284,52 @@
       "importance": 30,
       "operational_impact": "POTENTIAL",
       "operational_eligible": false
+    },
+    {
+      "event_id": "evt_4588497e633eb141",
+      "topic": "traffic",
+      "first_seen": "2026-09-22T07:00:00Z",
+      "last_seen": "2026-09-22T07:00:00Z",
+      "headline": "Houthi Leverage over the Red Sea Escalates Threats for Africa",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_1d28e373b867cf97",
+          "title": "Houthi Leverage over the Red Sea Escalates Threats for Africa",
+          "title_key": "houthi leverage over the red sea escalates threats for africa",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ja0x1Q0t3cmg1aVFDeHlXNVEwUmFwQW8wc0hpZkFFeHVzQmFsSFYxTkp5Sm9MQ3p6RE9hdy1CX0pWSWFaWEpsZGl1M2RaMTNEZjVHVEMyM3B3b3RDUUsyRXdCVnZyZWlSMktJVWFxUjc",
+          "published_at": "2026-09-22T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "traffic",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
     }
   ],
   "verification_summary": {
@@ -1282,9 +1338,9 @@
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 1,
     "SINGLE_SOURCE": 1,
-    "UNCONFIRMED": 20,
-    "TOTAL": 22
+    "UNCONFIRMED": 22,
+    "TOTAL": 24
   },
   "article_count": 36,
-  "event_count": 22
+  "event_count": 24
 }

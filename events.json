@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-23T02:52:02.208555+00:00",
+  "generated_at": "2026-11-23T12:59:40.448056+00:00",
   "events": [
     {
       "event_id": "evt_5a677c102c6c162f",
@@ -336,9 +336,9 @@
       "event_id": "evt_d2a7e9189339728c",
       "topic": "ceuta",
       "first_seen": "2026-11-16T12:03:42Z",
-      "last_seen": "2026-11-17T18:55:00Z",
-      "headline": "Spanish intelligence absolves Morocco of orchestrating massive Ceuta border breach as 80,000 migrants crossed in two days",
-      "classification": "OPERATIONAL_SIGNAL",
+      "last_seen": "2026-11-15T22:55:41Z",
+      "headline": "3 months after mass entry, some 15,000 migrants remain in Ceuta",
+      "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
       "sources": [
@@ -356,24 +356,6 @@
       ],
       "articles": [
         {
-          "article_id": "art_1ab5c8bb37322832",
-          "title": "Ceuta: the Police report that identifies 18 Moroccan suspects during the mass entry of migrants",
-          "title_key": "ceuta the police report that identifies 18 moroccan suspects during the mass entry of migrants",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQcjNwdEpscnZ5aVl3YlV0MlNjSklIZGNDZU5rNzc4WE5ObW1Od3duSU5ESG0wU3h4eWZoeUdZM2k0SHhtczY0aHBTSksyVVh2Z1dtSUJreHlSREZaV24ydWZvcGgtckR2QlE5Rzg4bXBrRVBBeG8yWE9vZjMtVl80QmN1U09WZTZUcFJFX0FOMGIzOTNUeTBsd3htQVN4MlJsSG5ZYWFhUkdMeWpDU3p2TjY5NEYwR20tSGdITmhjaUxwMnZ3U3VBVXl4OWo5S0xZZGxIYmdKSWhtUdIB3wFBVV95cUxNc0E2Y2VvOHpqeUxXTTJfb3NObl82Tm56b3VCTDVNYmphbmluYzR1V0JwZEY1OGpUdFkwdExCdXIzcmoyZHJDbnVvN21OcENWY3Y5Z0xBOGt0UFlJaEZPOE5VX3U2WDVvODJTVHNzTjhMVGt2WmNoUWY3VUJsREFFZkJXUmtjYmw3YktrZ0FHdFFFejRYUlVacjVXXzV2WnFNTzF4WTNINmlocDgtdk9GeWk0WkhIdkk2TURyWUF4RUhIY3hNY1NxNnVWUlQwYkN0UVFSZVhyTzc0SnNOY1lF",
-          "published_at": "2026-11-15T16:43:48Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
           "article_id": "art_31b7d94e63bc372c",
           "title": "3 months after mass entry, some 15,000 migrants remain in Ceuta",
           "title_key": "3 months after mass entry some 15 000 migrants remain in ceuta",
@@ -390,64 +372,10 @@
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
-        },
-        {
-          "article_id": "art_e3aa50428eb9f1ed",
-          "title": "Spanish police and CNI intelligence service clash over Moroccan responsibility for Ceuta border surge",
-          "title_key": "spanish police and cni intelligence service clash over moroccan responsibility for ceuta border surge",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVmJ5MHpMZTBEOHB5ZlV6c1E2dEdHN0RGMTdld3FjR2VBWV9Qa2oyTzBhUndaVGdvTWhCaENsWlpiZ1NkaWVUR2tFSy1kemd6anNXNTJYQ182SzZFaEVackdRUlh4LUZlbXZsUlN2UXFTcEFGcGF3TmxVSlNnUFpyYmNwZ1VOZmhod3hMQkNBMks",
-          "published_at": "2026-11-16T12:03:42Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_00a1f4f29327bdd2",
-          "title": "Spanish intelligence finds no evidence that Morocco orchestrated Ceuta migration crisis",
-          "title_key": "spanish intelligence finds no evidence that morocco orchestrated ceuta migration crisis",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdVV6WnRNZ0k4ckJnYUNfRnB1TzZQMDJMaUhNQXZqVWRUS1pzNmJ5Nms1dmt6ZUVwMXpuc1NFb01faUUzR0Y1cExFc24wZ1cwOEpDNUItZ3MtOVJFVXY4SkR1Ym9HTkdKU1V3N2V4VlRVbzlwYWtCUVk4ZjlBcnNYdktwWnktZG15MXhGVWRYSmxRT0otT0czcg",
-          "published_at": "2026-11-16T15:09:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_400efcf88bb88383",
-          "title": "Spanish intelligence absolves Morocco of orchestrating massive Ceuta border breach as 80,000 migrants crossed in two days",
-          "title_key": "spanish intelligence absolves morocco of orchestrating massive ceuta border breach as 80 000 migrants crossed in two days",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdHNTRXBYdWhhdVR0VmtEZnNocjdhZmYxX1lzV1djX3A2eFhVbkFFV0U3RXQzY0lOQmR4WGNJTncxLUpEc3VETXl3WWI0TmJqTDE1bktsdEtrbk5KS2JzNmhWQ0U2TzAycG5nbzNIYTkwOW9aeGlzRmpwSkltUzJORFE5dlhaVjVNWGhHU3B2X2k5eXlhNlRF",
-          "published_at": "2026-11-17T18:55:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "OPERATIONAL_SIGNAL",
-          "signal": "",
-          "description": ""
         }
       ],
-      "importance": 55,
-      "operational_impact": "POTENTIAL",
+      "importance": 4,
+      "operational_impact": "NONE",
       "operational_eligible": false
     },
     {
@@ -630,24 +558,6 @@
       ],
       "articles": [
         {
-          "article_id": "art_b9a6e0e89c22fb4b",
-          "title": "El puerto marroquí de Tánger Med prevé crecer un 50% tras superar el tráfico de Valencia y Algeciras juntos",
-          "title_key": "el puerto marroqui de tanger med preve crecer un 50 tras superar el trafico de valencia y algeciras juntos",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQT25Uek9qdU5Hc09zcUxzTE1jWXF6VkxhZElYdkJ3SVRMNmtuWXVCRlZpczg1UXJGd3dBVUpXRFVock4ycGlVLWRwUUVkVnB1d0Q4eTFCRjNpRzQzYWFQMzNaN3ZMZEhkZlBnSjAySXNqaTg2eWdSSXlvZE5NeWNhN0drRDk4WUNIZ1l4SXI3QmpMRDNyZnJoS1RHVDE0eXdTX3lQVDVIdWdLelFBa3NLTlJaTUp0OElKcFV5SFMxZmtPUUMtM2l3QTdqV1dreVNTTmFFa9IB2gFBVV95cUxPejU3SDk4aFozTFpOZTZvcjRKUWZlM3B4SjNhVW1xd2J6TXlvcUUwVWp2bjA2U1FaQ2JiUGtzampobUp5MERCTU5oZjdvSzh6OFNSMlJXQ0RkWmsyTjZSTlI2MzhiR3FvSEoxaXZtcXVmemJsU0pTYmdEeVNKa3ZrVFhEUThTbzRvYkFiSllUODVOdlBrN1B0NmRFZk9Ua1EtLVoyckE3aGNzV2R0dDQyNFhvYUh6d0M2amNUU2ZWUjNhaEhaVkNmVU8zVl9feVc5a0hwQ2RsUnpLUQ",
-          "published_at": "2026-10-29T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ports",
-          "classification": "OPERATIONAL_SIGNAL",
-          "signal": "",
-          "description": ""
-        },
-        {
           "article_id": "art_b387af903350228a",
           "title": "Marruecos redobla la competencia sobre Algeciras con un tercer puerto en Tánger Med",
           "title_key": "marruecos redobla la competencia sobre algeciras con un tercer puerto en tanger med",
@@ -664,41 +574,13 @@
           "classification": "OPERATIONAL_SIGNAL",
           "signal": "",
           "description": ""
-        }
-      ],
-      "importance": 55,
-      "operational_impact": "POTENTIAL",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_8d7b7e74c84ba84d",
-      "topic": "ceuta",
-      "first_seen": "2026-10-27T07:00:00Z",
-      "last_seen": "2026-10-27T07:00:00Z",
-      "headline": "Spain deports migrants from Ceuta in move criticised by rights group",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
+        },
         {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_1e41727890b9077d",
-          "title": "Spain deports migrants from Ceuta in move criticised by rights group",
-          "title_key": "spain deports migrants from ceuta in move criticised by rights group",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNM3RaY1ptM2pnUjRNR3RJbV9fQUc0T0xaNnRvVExFSTF3ZlA1cGNJcUJxQWthMDVBZ2hrc3ZjNDRXRGFzcUdHWTRacG1EMUhyTHhmczU1cnVJdXZEdzRDb2dfOXdCU1J6SlB4S3R3dmJPdDRsTEZHU0pub1k1alpkbTdTY3lIYmF1YnlPRE9NM21PbTk3ODh6alkwYWxIOUlxdlhMR1pwSzBmQXJaS3hn0gG0AUFVX3lxTFB5NElNYWNtamw4MFhzMlNPZmdPQk81VzhWMWZoVWtvbEZNd0t4LVZ3b1NodnVuTzBzdjFhLW41ZGlKYUZ2LVRBd2U5RWxQZnVieVRTZ2dvYWdoS1FTemViTXVveVJOU2Y2TXVBaE4zVUJpWkFndFRfSHhITGRLWGxGeWwtZjVNaEJIWDVuM1h1WExWYXFxQmVlX2ZhQXc4cExKN1RHT0xIZjhya1NxcE5uTWlEaA",
-          "published_at": "2026-10-27T07:00:00Z",
+          "article_id": "art_b9a6e0e89c22fb4b",
+          "title": "El puerto marroquí de Tánger Med prevé crecer un 50% tras superar el tráfico de Valencia y Algeciras juntos",
+          "title_key": "el puerto marroqui de tanger med preve crecer un 50 tras superar el trafico de valencia y algeciras juntos",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQT25Uek9qdU5Hc09zcUxzTE1jWXF6VkxhZElYdkJ3SVRMNmtuWXVCRlZpczg1UXJGd3dBVUpXRFVock4ycGlVLWRwUUVkVnB1d0Q4eTFCRjNpRzQzYWFQMzNaN3ZMZEhkZlBnSjAySXNqaTg2eWdSSXlvZE5NeWNhN0drRDk4WUNIZ1l4SXI3QmpMRDNyZnJoS1RHVDE0eXdTX3lQVDVIdWdLelFBa3NLTlJaTUp0OElKcFV5SFMxZmtPUUMtM2l3QTdqV1dreVNTTmFFa9IB2gFBVV95cUxPejU3SDk4aFozTFpOZTZvcjRKUWZlM3B4SjNhVW1xd2J6TXlvcUUwVWp2bjA2U1FaQ2JiUGtzampobUp5MERCTU5oZjdvSzh6OFNSMlJXQ0RkWmsyTjZSTlI2MzhiR3FvSEoxaXZtcXVmemJsU0pTYmdEeVNKa3ZrVFhEUThTbzRvYkFiSllUODVOdlBrN1B0NmRFZk9Ua1EtLVoyckE3aGNzV2R0dDQyNFhvYUh6d0M2amNUU2ZWUjNhaEhaVkNmVU8zVl9feVc5a0hwQ2RsUnpLUQ",
+          "published_at": "2026-10-29T07:00:00Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -706,14 +588,14 @@
           "tier": 1,
           "official": false,
           "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
+          "topic": "ports",
+          "classification": "OPERATIONAL_SIGNAL",
           "signal": "",
           "description": ""
         }
       ],
-      "importance": 4,
-      "operational_impact": "NONE",
+      "importance": 55,
+      "operational_impact": "POTENTIAL",
       "operational_eligible": false
     },
     {
@@ -845,52 +727,6 @@
           "official": false,
           "weight": 1.0,
           "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_56414bf4c40aec20",
-      "topic": "traffic",
-      "first_seen": "2026-10-07T07:00:00Z",
-      "last_seen": "2026-10-07T07:00:00Z",
-      "headline": "The HMS Mersey makes a stop in Gibraltar after participating in maritime surveillance missions",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_a4c58d8bedbceca1",
-          "title": "The HMS Mersey makes a stop in Gibraltar after participating in maritime surveillance missions",
-          "title_key": "the hms mersey makes a stop in gibraltar after participating in maritime surveillance missions",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPM1hvblptWURsMzBrcndlajA1UER6YWVEekR4RC1VVy1tSzlNLU5wbWUyQUUzcTIzSDY1WUZsYjRsbDZqalU2cDNqT1pzRGM3TV9JaTd2SU1HZW42OUFDLXlpNTAwd0ZzZ0ZpWGpWbVJod2VjWmFra19lVmlkRDRWY094eHRnX2lEUlBPUC1DSm9UaWZ0UVljSUJlYzRXLVlKT0MzYzd2OGU3RHhHb2Job1JGdDdQNk8ydzhXemp0YU9jejNvY2R6NjRfOUtkREpJRk1mNDBoTlFUZw",
-          "published_at": "2026-10-07T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "traffic",
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
@@ -1081,9 +917,17 @@
       "last_seen": "2026-09-23T07:00:00Z",
       "headline": "El Gobierno refuerza la frontera en Ceuta y Melilla ante los llamamientos para una nueva entrada masiva - RTVE.es",
       "classification": "FACT",
-      "verification_status": "SINGLE_SOURCE",
-      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
+      "verification_status": "CONFIRMED_MULTI_SOURCE",
+      "verification_reason": "Corroborated by at least two reliable independent sources.",
       "sources": [
+        {
+          "source_id": "elpais",
+          "source_name": "El País",
+          "source_domain": "elpais.com",
+          "tier": 3,
+          "official": false,
+          "weight": 3.0
+        },
         {
           "source_id": "rtve",
           "source_name": "RTVE",
@@ -1102,10 +946,29 @@
         }
       ],
       "source_ids": [
+        "elpais",
         "rtve",
         "unknown"
       ],
       "articles": [
+        {
+          "article_id": "art_3a037299bd0d11a6",
+          "title": "Marlaska anuncia refuerzos en la frontera de Ceuta y Melilla ante la amenaza de otra entrada durante las elecciones de Marruecos",
+          "title_key": "marlaska anuncia refuerzos en la frontera de ceuta y melilla ante la amenaza de otra entrada durante las elecciones de marruecos",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOUHlUZC0wTnBnTkZ4RjNJR0Q3MDNUOUc0aWo2X2NMQktoeWxERUU0ektRNVNDYko1OEhSV1lQbHM0cXJjN3RRZ2JJbzF0eUdhRFN1WDJSSlZtWjBGNjg1MmVHazh5T0o5bWI1cVBXN3U5Z1dwZng3ZUY5cGVBUUhGUmhsSXZnRTF2a0hXSzA0blAxTWlJbHlfZ3A4NGRGdXUxOE9uSWdyT2tfb1dINXJJdHU4NjRtLU1BdTBYYS1EbUNBNXZ3ZV8tODJqRlpuRG1RTDRMQm5hZG1SNi0zZF80NU90WjdQczhRd1NlaXRSWDZHaHdOdmktd1laOEVmcHPSAZMCQVVfeXFMT0lvU0F3NFdwZnNCaDQ0Y2E3OGVUMEU0VDNQYzBvS0l6dVlKVUwxYW9mWXExanZQSUl3STdZN3lWeGIyUkN0alhBTXFZWTNRRGZVWklnRkdXMlk3NDdhSjM5NnRuTlVFUGN6Z3lkQkx1V3ByVHhfNElOQUpGbFBmNnpnM1pBRWE3WlBBT0dTUzNHaTFUY1VXT2pOdzNvd2RoUldreTJHT2ZPb1ZMMGxzQ3pfZE9RelkxaXkzLTFxT3l4dUlkWWViU3lGUzRzeTBkSXVrZ2NuZlRHck1zQlc1MlpnNmZXdWlDMVBoYWd1QUd1MGpYNjNTbmxQaVV5dTEweUJQUHh3VDNoaFBXdGpIRWdhZnM",
+          "published_at": "2026-09-21T07:00:00Z",
+          "observed_at": "",
+          "source_id": "elpais",
+          "source_name": "El País",
+          "source_domain": "elpais.com",
+          "tier": 3,
+          "official": false,
+          "weight": 3.0,
+          "topic": "melilla",
+          "classification": "DECLARATION",
+          "signal": "",
+          "description": ""
+        },
         {
           "article_id": "art_872d0808d5207996",
           "title": "El Gobierno refuerza la frontera en Ceuta y Melilla ante los llamamientos para una nueva entrada masiva - RTVE.es",
@@ -1125,10 +988,10 @@
           "description": ""
         },
         {
-          "article_id": "art_df9c2719c9976164",
-          "title": "La frontera de Ceuta y Melilla, blindadas y en calma el día de las elecciones en Marruecos",
-          "title_key": "la frontera de ceuta y melilla blindadas y en calma el dia de las elecciones en marruecos",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQlc1VFhTTlVTcWJTTXQzLUtTOHc1RkU2UUJQRFdVUXRfQ29Xd0F2c09uM1ZDRHQtSDNVMzF2NDhGc2RwNGVUa2JydnBHVkhxZ3F0bHM2bEpPa0p2WHpaS19MZFI5amZnam9aY0R2azc1NGIxOUFabUQ2VVFLQmpjWkJrNVFYUGtqTkRLUnZJbUpYSWdiUGFz",
+          "article_id": "art_2e6083360d5cd455",
+          "title": "Ceuta y Melilla en calma en fronteras con Marruecos",
+          "title_key": "ceuta y melilla en calma en fronteras con marruecos",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORGRRbDZWU1FiTjNaM3MwZC05SS1Kb1JBUVdReGVXeS10NTVBM0FTVVh2N2lPN1A4ejlwcFRNaFpDVFJ0TlQ0cGVrQmlzQmd4eTR5LVRQaHpTdWJMR0FobEdsMVp0WVVZOGlMREFqUlU0RU0wNlZnb3YxeHh3d0dQWEZ0YmNxeE5fN1JYaFFDY2NPU1BtM0RV",
           "published_at": "2026-09-23T07:00:00Z",
           "observed_at": "",
           "source_id": "unknown",
@@ -1161,54 +1024,8 @@
           "description": ""
         }
       ],
-      "importance": 46,
-      "operational_impact": "CONTEXT",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_fd01f76e50978874",
-      "topic": "melilla",
-      "first_seen": "2026-09-23T07:00:00Z",
-      "last_seen": "2026-09-23T07:00:00Z",
-      "headline": "Ceuta y Melilla en calma en fronteras con Marruecos",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_2e6083360d5cd455",
-          "title": "Ceuta y Melilla en calma en fronteras con Marruecos",
-          "title_key": "ceuta y melilla en calma en fronteras con marruecos",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORGRRbDZWU1FiTjNaM3MwZC05SS1Kb1JBUVdReGVXeS10NTVBM0FTVVh2N2lPN1A4ejlwcFRNaFpDVFJ0TlQ0cGVrQmlzQmd4eTR5LVRQaHpTdWJMR0FobEdsMVp0WVVZOGlMREFqUlU0RU0wNlZnb3YxeHh3d0dQWEZ0YmNxeE5fN1JYaFFDY2NPU1BtM0RV",
-          "published_at": "2026-09-23T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
+      "importance": 72,
+      "operational_impact": "POTENTIAL",
       "operational_eligible": false
     },
     {
@@ -1302,17 +1119,255 @@
       "importance": 4,
       "operational_impact": "NONE",
       "operational_eligible": false
+    },
+    {
+      "event_id": "evt_ff951d3684a19292",
+      "topic": "ports",
+      "first_seen": "2026-09-13T07:00:00Z",
+      "last_seen": "2026-09-13T07:00:00Z",
+      "headline": "Tánger Med destrona al Puerto de Algeciras como señor del Estrecho",
+      "classification": "OPERATIONAL_SIGNAL",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_738ef01aa15a5f93",
+          "title": "Tánger Med destrona al Puerto de Algeciras como señor del Estrecho",
+          "title_key": "tanger med destrona al puerto de algeciras como senor del estrecho",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZFF4SFdiY1Y2YlRBOXJscjNvd2M2TVVkYmlpaVFHR0JZN2hyQ3ZTbnZRclVXUkxRdE1WN3BWMG5QTGFYNEpCa2dkbUtHSHR2eDh2a3lhWWh1Q3VaeHk4M1ptbkNzNk5iVHJfcjM3SkdVY3h6LU1LZmlUOTdzYVFKQnE5aUdnbks1RndGcmFFQzJsVWE5ME9QWEo4UmgzQWVuRXhvb0IzR0dEd1JW0gGyAUFVX3lxTFBZY3UxWkUyUmpOUlVDYUVINlJ2UlBfT0ZSZTk4MjE5QTFmRGVEaXFLUjZqUEVDTHhiV0tkZEs0bjBkMzViaGRsYWEyb1drQkR4NzA3UVZybll0US1Cc0Zub2lyTTNhZzBTS21KR0NtbDJ0LUpydnVnZmZtZXJNVC0zcWpGT3dYLVlFN3Jfdy13UVJ1eVF0LV93YklwbW9rSWZ3VkJQcjVTb3NjSlVBMVRVTEE",
+          "published_at": "2026-09-13T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ports",
+          "classification": "OPERATIONAL_SIGNAL",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 55,
+      "operational_impact": "POTENTIAL",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_081324078e790e58",
+      "topic": "ceuta",
+      "first_seen": "2026-09-09T07:00:00Z",
+      "last_seen": "2026-09-10T07:00:00Z",
+      "headline": "Spanish intelligence warned of Ceuta mass crossing plans before surge",
+      "classification": "OPERATIONAL_SIGNAL",
+      "verification_status": "SINGLE_SOURCE",
+      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
+      "sources": [
+        {
+          "source_id": "bbc",
+          "source_name": "BBC",
+          "source_domain": "bbc.com",
+          "tier": 4,
+          "official": false,
+          "weight": 4.0
+        },
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "bbc",
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_c628eace590febed",
+          "title": "Spanish intelligence warned of Ceuta mass crossing plans before surge",
+          "title_key": "spanish intelligence warned of ceuta mass crossing plans before surge",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9VNmQ3LXpEX3BIaS16RzdfMEl5WHJwVHlkVzJHcjdLTHoxNHVCenNYQUJOQ2VaSTAtTlp1UGstVVVXeS1sTXJxR3Y3UFlPLVdsNzM2VEtUa1I3Zw",
+          "published_at": "2026-09-09T07:00:00Z",
+          "observed_at": "",
+          "source_id": "bbc",
+          "source_name": "BBC",
+          "source_domain": "bbc.com",
+          "tier": 4,
+          "official": false,
+          "weight": 4.0,
+          "topic": "ceuta",
+          "classification": "OPERATIONAL_SIGNAL",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_0200a9d21d49b08d",
+          "title": "Spain’s spy agency warned of mass crossings into Ceuta before border crisis",
+          "title_key": "spain s spy agency warned of mass crossings into ceuta before border crisis",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVFo5SEY5aEFkOUE1cm5HcGw2Z3NVN0w4NGNfT21HSnhyaDdvdWk0cDRKejN0ZjdpMXdaalJEYjEyZ2VfT2tzWjhyc0Y5WmtsOUxXNEVIMzZKSUhPWno4SHlKM3gwa25vcXVKUjZHVFN6ODdnMEYydlBpSEpDVXM2TG14TWlCamk4Sk5TOEVheHNPcS1QVTJLZlhlOXNDcTdlVG5CR1p0VnpkamtxeERjRGp5a9IBuAFBVV95cUxNRHVJS3I4Vy1lX0RpWjNHdzNNVzFIRkZqWGRfZWc1d29xSGpYQl9ZelQ3LUYwU3BQQmQzeUVvWFYtQUkwd202Q3MwZHQxZm5veTNNVnYyUW5PbFpDSVJLUVNNX253MFgteVYzcEtrZkxRWEVtclhVV0U1WGtpZ2pEUl9yQ2ZwbnVXWjFDdmZIeE9mVzI5dzFKVTl5NjRGY3Y1VFl2TmhCSXdweFFJUGJweWxPS1pXQ3Ba",
+          "published_at": "2026-09-10T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 66,
+      "operational_impact": "POTENTIAL",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_f71c9674a17bfc23",
+      "topic": "relations",
+      "first_seen": "2026-09-10T07:00:00Z",
+      "last_seen": "2026-09-10T07:00:00Z",
+      "headline": "Marruecos rechaza ser \"chivo expiatorio\" en la política e insiste en que no hay pruebas de su implicación en Ceuta - RTVE.es",
+      "classification": "FACT",
+      "verification_status": "SINGLE_SOURCE",
+      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
+      "sources": [
+        {
+          "source_id": "rtve",
+          "source_name": "RTVE",
+          "source_domain": "rtve.es",
+          "tier": 4,
+          "official": false,
+          "weight": 4.0
+        },
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "rtve",
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_caaa080a8729d2f8",
+          "title": "Marruecos rechaza ser \"chivo expiatorio\" en la política e insiste en que no hay pruebas de su implicación en Ceuta - RTVE.es",
+          "title_key": "marruecos rechaza ser chivo expiatorio en la politica e insiste en que no hay pruebas de su implicacion en ceuta",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdkRQZGxjNzR1VE13TC1ZNE5TV044RE1tMm5ZR2dSNnQ2ZFgwS1ZsSDdYVlZGNVY2bVh0VTZNZEotMVpmY0lUTEQ1R09JRU9JazhzSGVqX0I1ZktrejdWTzliWmpVQ204UHFIdVVzVjhsZl80RldMRkQ1ZGxxMmxLbG4yTzJRUW1nSFU1OURQa21JYWFlYTByOA",
+          "published_at": "2026-09-10T07:00:00Z",
+          "observed_at": "",
+          "source_id": "rtve",
+          "source_name": "RTVE",
+          "source_domain": "rtve.es",
+          "tier": 4,
+          "official": false,
+          "weight": 4.0,
+          "topic": "relations",
+          "classification": "FACT",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_04c62a76fdffd78f",
+          "title": "Marruecos defiende la relación con España y rechaza las acusaciones sobre Ceuta",
+          "title_key": "marruecos defiende la relacion con espana y rechaza las acusaciones sobre ceuta",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOa1AwN0YwMlMwSzE0N2cwTVQ3R3NlRHRGS3R2bnNkZFAwRHZnMEF5M2FKcThMelpxVnhCX1A1QU1hQVBqT3U2QmZ4YVRsa1RrbmhFX3BjdEVkY2x0NGJhWFN2NjZWSHRNNnoyMy1mZjVjZ2MwaTRKYkpqMUVDUENYTmlOYjVaWVktal9aZVhNZUNRcFF2VWVUTkF6X2Z3TEZIQl9nRW55N3F1cXM4UGlxNUQ5V0RCbzBmZDk5emNXWW14RV9QQmV1MWpB0gHPAUFVX3lxTFB5MnBQbHVNeFR6aHdqVXppa3dzeGdjTXpSc3lwWWhzS2RoR2NGMm1vQjVOeWNJeGdDNy1vcWszajlhQjFWZGQyTHdrN3BpNUJvb2VfWkIybHM1c25UZzAyU0diQUNLVG1OREg2eklSXzVsYjZCVGFBa05tcnpiU0hvN3k0MklLRVRaWXFyQzE2eFktd1c0Mk85aGpCVEtVcDVOOW5mcDVYbndydWRYQUVUdl9tVVBSZHJRaDdDUGhzb3N0QS1rMEkyVWFfd2ZZYw",
+          "published_at": "2026-09-10T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 46,
+      "operational_impact": "CONTEXT",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_9545997925e718b9",
+      "topic": "relations",
+      "first_seen": "2026-09-08T07:00:00Z",
+      "last_seen": "2026-09-08T07:00:00Z",
+      "headline": "Albares Warns Moroccan Ceuta, Melilla Claims Could Strain Spain-Morocco Ties",
+      "classification": "DECLARATION",
+      "verification_status": "DECLARATION_ONLY",
+      "verification_reason": "The record is a declaration and is not treated as an operational fact.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_4bf33684d9a1ff3e",
+          "title": "Albares Warns Moroccan Ceuta, Melilla Claims Could Strain Spain-Morocco Ties",
+          "title_key": "albares warns moroccan ceuta melilla claims could strain spain morocco ties",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbkR4RmpzMlZVY0hNdFR0T2VXYXZ6VnJUVzY2Rk96eVpUaHcycHlGWHdHeHM5WXlNQm9JREZaUkhUTjlJWUFSWlp2cWhOdGsxbTU4Nlg2Q3BjT21Yak5QQWxJUGgzUlplRGlfVnV2S2VveU5zZTNZRktqUkVfbjQ1aEtXbTNpZ3B4RGpoZFFPeEdpd2NFeXIwRFlIaFFUUVU2WEtWeXdsbXJ2QVpGbWVWN2g0a1hBZFZScV9uZHEyZjUyUQ",
+          "published_at": "2026-09-08T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "DECLARATION",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 30,
+      "operational_impact": "POTENTIAL",
+      "operational_eligible": false
     }
   ],
   "verification_summary": {
-    "CONFIRMED_MULTI_SOURCE": 0,
+    "CONFIRMED_MULTI_SOURCE": 1,
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
-    "DECLARATION_ONLY": 1,
-    "SINGLE_SOURCE": 1,
-    "UNCONFIRMED": 21,
-    "TOTAL": 23
+    "DECLARATION_ONLY": 2,
+    "SINGLE_SOURCE": 2,
+    "UNCONFIRMED": 19,
+    "TOTAL": 24
   },
   "article_count": 36,
-  "event_count": 23
+  "event_count": 24
 }

@@ -1,9 +1,9 @@
 {
   "version": 4,
   "latest_entry": {
-    "date": "2026-11-23",
-    "headline": "Estrecho de Gibraltar: sin novedades suficientes para una nueva crónica",
-    "summary": "Selección automática de 0 referencias de 0 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
+    "date": "2026-11-24",
+    "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
+    "summary": "Selección automática de 3 referencias de 3 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
     "url": "diario/actual.html",
     "material_archive": false,
     "status_snapshot": {
@@ -24,84 +24,86 @@
         "en": "NO SPECIFIC ALERT"
       }
     },
-    "source_keys": [],
-    "published_at": "2026-11-23T19:07+01:00",
-    "updated_at": "2026-11-23T19:07+01:00",
-    "published_rfc822": "Mon, 23 Nov 2026 19:07:00 +0100",
-    "source_count": 0,
-    "fingerprint": "1b8167c9ab87a03b4515",
-    "mode": "full",
-    "significance": 72,
+    "source_keys": [
+      "4afb8dcb25cfa2875987",
+      "5d50b4b2e5e53137e18c",
+      "c605b9b97d654624f049"
+    ],
+    "published_at": "2026-11-24T18:44+01:00",
+    "updated_at": "2026-11-24T18:44+01:00",
+    "published_rfc822": "Tue, 24 Nov 2026 18:44:00 +0100",
+    "source_count": 3,
+    "fingerprint": "1452a3cf6ad03e19c1c0",
+    "mode": "brief",
+    "significance": 27,
     "significance_reasons": [
-      "1 acontecimiento(s) verificado(s) de importancia material",
-      "sin señales recientes suficientes"
+      "novedades recientes sin cambio estructural"
     ],
     "indexable": false,
     "editor_engine": "rules",
-    "assistant_status": "insufficient-sources",
-    "editor_assistant_status": "insufficient-sources",
+    "assistant_status": "gemini-http-503",
+    "editor_assistant_status": "gemini-http-503",
     "editorial_trace": {
       "validator_version": 2,
-      "factual_packet_sha256": "545fbae2043f01ed4f2c07531eae3be91674e1531aa4093770dde4de0d325f0a",
-      "factual_packet_hash": "545fbae2043f01ed4f2c07531eae3be91674e1531aa4093770dde4de0d325f0a",
+      "factual_packet_sha256": "22928a159efbafea5d3b1e0d74009c434b706d962bb4be52d963edcd757876da",
       "provider": "rules",
-      "status": "insufficient-sources",
-      "attempts": [],
-      "fallback_used": true,
+      "status": "gemini-http-503",
+      "attempts": [
+        {
+          "provider": "gemini",
+          "model": "gemini-3.5-flash-lite"
+        }
+      ],
+      "factual_packet_hash": "22928a159efbafea5d3b1e0d74009c434b706d962bb4be52d963edcd757876da",
       "event_ids": [
-        "evt_395f17d3592ec269",
-        "evt_bb0c19be5f9481d2",
-        "evt_081324078e790e58",
-        "evt_f71c9674a17bfc23",
-        "evt_9545997925e718b9"
+        "evt_0ba262843db1e136",
+        "evt_51d2db1925ae9f70",
+        "evt_046164a6a69f3449",
+        "evt_3c0182e275d0ad4e"
       ],
       "source_ids": [
-        "bbc",
         "elpais",
-        "euronews",
-        "rtve",
+        "gibraltar_chronicle",
         "unknown"
       ],
       "verification_summary": {
-        "CONFIRMED_MULTI_SOURCE": 1,
+        "CONFIRMED_MULTI_SOURCE": 0,
         "CONFIRMED_PRIMARY": 0,
         "CONFLICTING": 0,
         "DECLARATION_ONLY": 2,
         "SINGLE_SOURCE": 2,
-        "UNCONFIRMED": 19,
-        "TOTAL": 24
+        "UNCONFIRMED": 22,
+        "TOTAL": 26
       },
-      "timestamp": "2026-11-23T18:07:51.756614+00:00"
+      "timestamp": "2026-11-24T17:44:19.833973+00:00",
+      "fallback_used": true
     },
     "validator_version": 2,
-    "factual_packet_hash": "545fbae2043f01ed4f2c07531eae3be91674e1531aa4093770dde4de0d325f0a",
+    "factual_packet_hash": "22928a159efbafea5d3b1e0d74009c434b706d962bb4be52d963edcd757876da",
     "event_ids": [
-      "evt_395f17d3592ec269",
-      "evt_bb0c19be5f9481d2",
-      "evt_081324078e790e58",
-      "evt_f71c9674a17bfc23",
-      "evt_9545997925e718b9"
+      "evt_0ba262843db1e136",
+      "evt_51d2db1925ae9f70",
+      "evt_046164a6a69f3449",
+      "evt_3c0182e275d0ad4e"
     ],
     "source_ids": [
-      "bbc",
       "elpais",
-      "euronews",
-      "rtve",
+      "gibraltar_chronicle",
       "unknown"
     ],
-    "timestamp": "2026-11-23T18:07:51.756614+00:00",
+    "timestamp": "2026-11-24T17:44:19.833973+00:00",
     "fallback_used": true,
     "verification_summary": {
-      "CONFIRMED_MULTI_SOURCE": 1,
+      "CONFIRMED_MULTI_SOURCE": 0,
       "CONFIRMED_PRIMARY": 0,
       "CONFLICTING": 0,
       "DECLARATION_ONLY": 2,
       "SINGLE_SOURCE": 2,
-      "UNCONFIRMED": 19,
-      "TOTAL": 24
+      "UNCONFIRMED": 22,
+      "TOTAL": 26
     },
-    "edition_label": "Cuaderno del Estrecho",
-    "edition_slug": "general"
+    "edition_label": "Cuaderno de las dos orillas",
+    "edition_slug": "shores"
   },
   "entries": [
     {

@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-24T00:58:34.796933+00:00",
+  "generated_at": "2026-11-24T11:01:48.937677+00:00",
   "events": [
     {
-      "event_id": "evt_3421efae4a39c4f0",
-      "topic": "traffic",
-      "first_seen": "2026-11-24T00:27:15Z",
-      "last_seen": "2026-11-24T00:27:15Z",
-      "headline": "Report: Iran suspected in wave of cyberattacks on dozens of oil and gas tankers as US investigates",
-      "classification": "OPERATIONAL_SIGNAL",
+      "event_id": "evt_132f03ac0cc21800",
+      "topic": "melilla",
+      "first_seen": "2026-11-23T20:40:10Z",
+      "last_seen": "2026-11-23T20:40:10Z",
+      "headline": "Vivas trabaja con Melilla para reclamar el cambio de mando en las fronteras: de Marruecos a Europa",
+      "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
       "sources": [
@@ -26,11 +26,11 @@
       ],
       "articles": [
         {
-          "article_id": "art_14f66c2c03b19ff5",
-          "title": "Report: Iran suspected in wave of cyberattacks on dozens of oil and gas tankers as US investigates",
-          "title_key": "report iran suspected in wave of cyberattacks on dozens of oil and gas tankers as us investigates",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBYRnQ0aVpTWm5GYjZnOWUyblhhOE5NUVZ5UE92TU1wMHNWcmhXOWVyLWlHXzRfOVQ4c1NkYktPMDNSc2VlR2ZySVRxMlVlWHh1X19sOEdlZw",
-          "published_at": "2026-11-24T00:27:15Z",
+          "article_id": "art_c605b9b97d654624",
+          "title": "Vivas trabaja con Melilla para reclamar el cambio de mando en las fronteras: de Marruecos a Europa",
+          "title_key": "vivas trabaja con melilla para reclamar el cambio de mando en las fronteras de marruecos a europa",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNQVJaMXJYb0tfcmdjcGIwWnBIMWpfVmlaSEV3UG8zX0t5WUEyVTVzMy1SMkI0THJpN0VQS1hfMG00Q0tJNkFraXo2SkIyRmdFVkwtdGItdzNXMUJvZGhxb1VfNUpYQS1ZZk1NM0traml4SjVwUGY0ckJ3Tjd0Q3k3RDNxYmRWTUpZMTRqeUhaZnRNMzlkRWRpbFctWFVmZFNrblhXeTdrRS1vMFNkelhBNHV4NUhXdjlfdllQWTJjWGNXVEUzSFhDUTZNTjRpOUlfZmFGRNIB2gFBVV95cUxPbmJVQ1dQVXBvRERhNEcxRkpZTG0xOWJIc3dSb19sYThwSkpOdndaLXB1d0RUc2hZVjQyYkpfSjRxRFk3azZOT3A2TG5hTjU2cFlKS0FrNWxqVGEyR3lUWURJQW5xMU1aV1UyTnAyM2dTYXdUdnlzWC1FV1Q5MlA2Y2hxZWEyeWpIWXRIMHNwRkJ6ZG9uTzZkRG1UcnFkSTZzX0N1c2RXby1DZXc1eE5wRWNJYnZKLWZGWndHT0E2WDgzcldNRGN0LUEtVHZmeEczNEVfbjNLRDZ1Zw",
+          "published_at": "2026-11-23T20:40:10Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -38,14 +38,14 @@
           "tier": 1,
           "official": false,
           "weight": 1.0,
-          "topic": "traffic",
-          "classification": "OPERATIONAL_SIGNAL",
+          "topic": "melilla",
+          "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
         }
       ],
-      "importance": 55,
-      "operational_impact": "POTENTIAL",
+      "importance": 4,
+      "operational_impact": "NONE",
       "operational_eligible": false
     },
     {
@@ -392,7 +392,7 @@
       "event_id": "evt_f91bead29d924ae2",
       "topic": "traffic",
       "first_seen": "2026-11-16T17:08:48Z",
-      "last_seen": "2026-11-18T10:21:00Z",
+      "last_seen": "2026-11-18T10:34:24Z",
       "headline": "El patrullero Serviola regresa a Ferrol tras reforzar la seguridad marítima en Ceuta y estrecho de Gibraltar",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
@@ -435,6 +435,24 @@
           "title_key": "el patrullero serviola regresa a ferrol tras reforzar la seguridad maritima en ceuta y estrecho de gibraltar",
           "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPcG9qRkJOcnZ6M0NBOHBicTNXdUdJNm5ZQWxNOGtjazc5NW9HcVZGV3Z6d25nUU4xQUt1Z09ONVczV196ZGk4Tm1Tb1ZtUHdER2NDNjI1QUtEYVZrWXlIVVlCOGJNRkU1R3BGTHZWQTRhSUFLWldqRXVPOG1FY05fc080OWg2RTJNQzlQMDNWRThDNWdtQUNtMEtyNzhnbUZQN0NYTlZIdVZwUEJOVkp3ZXBDU1BRT3dwNHpEdlZVX3dtRTJXUzFScnRvMGw2SlpJSDVEX0NVbld2czZDNXF1LTRRRkFTeFU",
           "published_at": "2026-11-18T10:21:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "traffic",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_8bdd501f58c2fd3c",
+          "title": "The patrol boat Serviola returns to Ferrol after reinforcing maritime security in Ceuta and the Strait",
+          "title_key": "the patrol boat serviola returns to ferrol after reinforcing maritime security in ceuta and the strait",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQVnlsZGZySmN5bmY0ZGlyVC0yQjhvTFJacS12emVkdDdtMGhrdDl1VklPdDhuMmotcHJhQThzdmlKZzYtS3Rhc29Vc3psUUpGT2lPZzBmUmp2NEhYVTFtOURpWUk4UEt1WmxvNHIwanlOc0FyYkQydElNSm52dXVWeU9sRE5UQ1Y0TWQ4ak5wdzVMQ1BsQkNidXBfTWxzVlJ3YV9DOTh3WmZvdnl3cnlBbWswU2o0VUdOM0hKOEFscENvOF9sN2FUSzE5OUFUc0o2b003TzdIONIB3AFBVV95cUxNUzZJODdWbG14M2NmT2Z5QVVPU25lMXJJRzFwRUhlbWtDQmtPRVdtbGVuMHgwTFAyVVd5WlJsZlZkcEpUTENZVG5PU3NCXzlNU3hGUGFKek5xY09mUkxuSXhMQ3ZqLWFTTnZLb0NrWF9BVmVKaHI2TUwxYWo2RVFYYmVfcEhNN2ZHSF9kbHlOeGJCc0d4aUZBeHU2LURzT2k5N0s5VjBxV1JGNkFKemxGcTI5STI2QU1WeThlRnAyNTBVTERoYzh5QVZJbVBtMVQ3RHVQcWZJYnMyV2Zv",
+          "published_at": "2026-11-18T10:34:24Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -709,52 +727,6 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_629ffdd77a5c8374",
-      "topic": "ceuta",
-      "first_seen": "2026-11-13T08:00:00Z",
-      "last_seen": "2026-11-13T08:00:00Z",
-      "headline": "Alberto Núñez Feijóo en la entrevista con Jordi Wild, sobre la crisis de Ceuta: \"Si Marruecos no blinda la frontera, desplegaría al Ejército\"",
-      "classification": "UNCONFIRMED",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_8998832cb47de94d",
-          "title": "Alberto Núñez Feijóo en la entrevista con Jordi Wild, sobre la crisis de Ceuta: \"Si Marruecos no blinda la frontera, desplegaría al Ejército\"",
-          "title_key": "alberto nunez feijoo en la entrevista con jordi wild sobre la crisis de ceuta si marruecos no blinda la frontera desplegaria al ejercito",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPckRCVmJzaV9odmxMaWVPbUJVakV6WnlIc1ZBWnVVdGlLV2dpU1ZXR0dfVGkwZ0FiQzlQME5xUWExbGpNZ0xzYWVneW1pMXpvSmZTcl95MmtIX01sQ0NjNFRQYk04WnhwU1U4WTJSWDFTMUtTSGw2MzVIX1dnd1ZJbzZ4RUVleVZ4end2Q2RLbDdsVjVkXzNxQVBxYW4",
-          "published_at": "2026-11-13T08:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 4,
-      "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_78088d2f62a7fd8b",
       "topic": "relations",
       "first_seen": "2026-11-12T08:00:00Z",
@@ -828,6 +800,52 @@
           "title": "Ordenar los buques del Estrecho de Gibraltar: una tarea que parecía imposible hasta ahora",
           "title_key": "ordenar los buques del estrecho de gibraltar una tarea que parecia imposible hasta ahora",
           "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPXzkzdWVNVVVxb3JadUVoQjVoZVhvRWhOdlpNb1BWdFdwcE5pcG1CSTdKbHVIYW1WTjJFU0RCekRrMmFFTnpHTlhYZ1lCQzY1cDZKdlJxNFNiY1RZMEJsT0JNSmJtYTdEN21tS1FPdDJNYTNGUmRZSC1MbkV3THhOYzMxeVE2d0hkeTJQUjI2akFvZ2dJMHV0RHFsQWxTQ1UxY29UX0tOcTRzbmxuenpWZnpXZkZUbzNEa3l4YUViOElYQWJ3Z3doRnktbjV3WHpYaDRXS0F4eU9KcFRGRXdTeGdYRWc0X0J0OWdN0gHWAUFVX3lxTFAycVZBa1hwNVBiRWR5Vk5hY2hQcFpnbFF5MlBpN3ZNZmpPVWxHV2dod3Z5SjA2MzF2RXdXdnhMZlZ2STFSQzVScXdxMU4tbzhOdTZveW1tODNPTXJuZWViMmM1a0RjOGhhbFhuRWdPYXpUeGh4ZXRPci04bDdnOVJSaGVSNGJrTkdXSUNUUkJfbVdEX1EyWUxvbDUzdzZuX0ZRWUItRElUMDZnWlJ5NjlCQi1EbzZXdG5BZGNFYlFsdHZyZ0w4YUVRUUhrQzI3aERSV0R5NXc",
+          "published_at": "2026-11-10T08:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "traffic",
+          "classification": "OPERATIONAL_SIGNAL",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 55,
+      "operational_impact": "POTENTIAL",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_e703bb670be3e56a",
+      "topic": "traffic",
+      "first_seen": "2026-11-10T08:00:00Z",
+      "last_seen": "2026-11-10T08:00:00Z",
+      "headline": "AESBA welcomes the authorization of the Algeciras Port outer anchorage after years of advocacy",
+      "classification": "OPERATIONAL_SIGNAL",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_0fb5ccdc9b6b08f1",
+          "title": "AESBA welcomes the authorization of the Algeciras Port outer anchorage after years of advocacy",
+          "title_key": "aesba welcomes the authorization of the algeciras port outer anchorage after years of advocacy",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUlVWOWRRMHREdUs4cXhNRGZMUkk4Vm5zTmZEOWRuQktqVHQ3RTk0S2NoOW1qYklfMFM1Ry1pUGFPU3o5b21QY1JxVTNxMzN2OUVQZlVCdXgzM0RUQWprX0luZkhBcmJaOGFGcE8xNk9TeC15SVEwRnVaVVRnMElLcHZOZndycXoxTzE0SlZ4aGJnVVBNMjVxZWUzaWVsWGw1cDFEUUc4RTdSbEN1Nk9kOXozQWRkM1V3MzFiZzNhYzg2YVlVUEs1OUVjYkl3QmYzQm5Gdklqd1NFQQ",
           "published_at": "2026-11-10T08:00:00Z",
           "observed_at": "",
           "source_id": "unknown",
@@ -989,7 +1007,7 @@
       "topic": "relations",
       "first_seen": "2026-11-09T19:09:57Z",
       "last_seen": "2026-11-09T08:00:00Z",
-      "headline": "Sánchez rules out talks on Ceuta and Melilla sovereignty, reaffirms Morocco autonomy support - HESPRESS English - Morocco News",
+      "headline": "Ceuta-Melilla: Spain PM Backs Morocco Ties but Still Appeals to Domestic Pressure",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
@@ -1007,24 +1025,6 @@
         "unknown"
       ],
       "articles": [
-        {
-          "article_id": "art_5baeaf561d07206c",
-          "title": "Sánchez rules out talks on Ceuta and Melilla sovereignty, reaffirms Morocco autonomy support - HESPRESS English - Morocco News",
-          "title_key": "sanchez rules out talks on ceuta and melilla sovereignty reaffirms morocco autonomy support hespress english morocco news",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMXV2U1plcl9sMTFlaEh0aW9VMXhKV3dZZlcwa3Q3cThrOGdaMWc0U2plY0hlaXY5UzBzUE9rNmJjMHdGLUVJSmduTER3VWRWTEIwOVRVdGdsZkRGZ0NnT0dYa3EyeEJLbDBOTEpHazJldHQ3LWJ1RW5KRkpQczl6cGtYZjd2LWE1T1JoSDFBdXNUOS1DdDB5RUthRXF0MmpEbG5rdkxid2s0bVdwSGJvRDQ5TzBrRk91NU51MjNJUkFZZ0FTY1E",
-          "published_at": "2026-11-09T08:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
         {
           "article_id": "art_af8cda6db9efd86a",
           "title": "Ceuta-Melilla: Spain PM Backs Morocco Ties but Still Appeals to Domestic Pressure",
@@ -1046,6 +1046,52 @@
       ],
       "importance": 4,
       "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_046164a6a69f3449",
+      "topic": "traffic",
+      "first_seen": "2026-11-07T08:00:00Z",
+      "last_seen": "2026-11-07T08:00:00Z",
+      "headline": "The sea’s grip on the global economy: The chokepoints that can bring world trade to its knees - EL PAÍS English",
+      "classification": "FACT",
+      "verification_status": "SINGLE_SOURCE",
+      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
+      "sources": [
+        {
+          "source_id": "elpais",
+          "source_name": "El País",
+          "source_domain": "elpais.com",
+          "tier": 3,
+          "official": false,
+          "weight": 3.0
+        }
+      ],
+      "source_ids": [
+        "elpais"
+      ],
+      "articles": [
+        {
+          "article_id": "art_0b2db2d157884e03",
+          "title": "The sea’s grip on the global economy: The chokepoints that can bring world trade to its knees - EL PAÍS English",
+          "title_key": "the sea s grip on the global economy the chokepoints that can bring world trade to its knees el pais english",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQa25DWFdia3hYalNfSkRYek5pZ09uYzV3dmIzSnViMDZqQ2RqSVMtOWNycmYxSmNzTFIwZHJMYWUwTllsUmQ2MlhJLTBCWGRpcGdBcWRsZ2hNbkxoaG9CTVhkVkZtNmJZUV9PQU1HZkVobUlpUFhkeTJHZlNRSWkwTHNNS2FxYVV0ODN2bzFXMFp0OG4yTlpXNW4zRERXZHRYazFscFFNZm0yWm0zLWQ0OVlVRWxlMS05ZjJudmx1Tjk5SmRQRHVid1V4WGQ2TTlYb0hWLWZMVXV5cHNBM1R5cGlSY2xzeGpGNHgw0gH_AUFVX3lxTE5qNzlqa1lEOGVkWkd1TDVQb0x2TlpJdy1oNVlTUDNYLXhESW9JSTJLVkV3TG1fdHhLLVZZLVhlWGdMUXdaMWFuV0ZjVUNfWmhPRHNsR2dlS29IMDREc1RTOXRBdC1JRHZmeV9jZkt5akk5S2huSGs1ZDBscUNIckF4elZuTC1yOWtUSFQtcXZRdlpzbWIzR1JRWkVFY2hFSU8yUXZjai1QYm5GOWFvV3pnWGFPRVRDZHViU1lpTTQyQ2ZGNUVTNmZQbnJqczExTVZpOVJJeUU1YlBtME42ekdGeWR0Rm12Z0UtZTU3dl9ROXN2d2VLSWxlTnNndFhBVQ",
+          "published_at": "2026-11-07T08:00:00Z",
+          "observed_at": "",
+          "source_id": "elpais",
+          "source_name": "El País",
+          "source_domain": "elpais.com",
+          "tier": 3,
+          "official": false,
+          "weight": 3.0,
+          "topic": "traffic",
+          "classification": "FACT",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 43,
+      "operational_impact": "CONTEXT",
       "operational_eligible": false
     },
     {
@@ -1331,60 +1377,14 @@
       "importance": 4,
       "operational_impact": "NONE",
       "operational_eligible": false
-    },
-    {
-      "event_id": "evt_89da0c977dec8cb5",
-      "topic": "melilla",
-      "first_seen": "2026-11-01T07:00:00Z",
-      "last_seen": "2026-11-01T07:00:00Z",
-      "headline": "Marruecos anuncia la modernización del paso fronterizo de Beni Enzar en Melilla",
-      "classification": "DECLARATION",
-      "verification_status": "DECLARATION_ONLY",
-      "verification_reason": "The record is a declaration and is not treated as an operational fact.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_82e438b0e3b4e471",
-          "title": "Marruecos anuncia la modernización del paso fronterizo de Beni Enzar en Melilla",
-          "title_key": "marruecos anuncia la modernizacion del paso fronterizo de beni enzar en melilla",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQdWUxZnlkR1NnenMzcHlqZlVjcTl1TjJfTEZGMnUxM0RPcTBLc3pROTB2R01xV0Z4Nzk4SmZXSUlUX1F3UDZySFFmUGxraDRfRzVycUVpS21ENmRBRDF6MUpxeG1oUFVSbURQc09QMTlGaTZ0SzI4OEVTZ2tfLXliS29tejU3eW5ZM2s3TkpJd05uYTZxWjl0OUIzb0l6SDdxbDVWWmZWQ2h3WVNCVTAySlZ5SWd6d01KZmZOUkVGSTh6VTBydllGTmQyQUVWVVXSAeMBQVVfeXFMTWtETWR1YlRsVEdYVjVQeGwydHN3MmlsMVMxODhLSTZJZU1MXzNhU0JCUG5jVWtsQmdGZ05hbnFhTHhnQzVXUFJtSE4zNUdrdUdCTThGSmlyODlYTVQzMjAxWEphZnBZbEJ4a0hOWm5ndzRudnZFcEtoVmY3UzZ3QjBxd2FPeUFQME00Y2VRY01KMjI0ZEZ5enRLdmZqZWFpMGRQMWdJT3NDU1V6RHhiaTlZam9femFSeGl5Y2F0UVhETURWVWpzOVdaQ1FzSGJOQzVoeW1ZTGFTQTRKWGVDaDlLRlU",
-          "published_at": "2026-11-01T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "melilla",
-          "classification": "DECLARATION",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 30,
-      "operational_impact": "POTENTIAL",
-      "operational_eligible": false
     }
   ],
   "verification_summary": {
     "CONFIRMED_MULTI_SOURCE": 0,
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
-    "DECLARATION_ONLY": 3,
-    "SINGLE_SOURCE": 1,
+    "DECLARATION_ONLY": 2,
+    "SINGLE_SOURCE": 2,
     "UNCONFIRMED": 22,
     "TOTAL": 26
   },

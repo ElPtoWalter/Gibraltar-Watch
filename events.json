@@ -1,117 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-24T21:18:48.588160+00:00",
+  "generated_at": "2026-11-25T04:55:14.143053+00:00",
   "events": [
-    {
-      "event_id": "evt_5cdca77db5c3b089",
-      "topic": "ports",
-      "first_seen": "2026-11-24T15:26:57Z",
-      "last_seen": "2026-11-24T15:27:34Z",
-      "headline": "El tráfico de camiones entre Algeciras y Tánger Med sigue creciendo y refuerza el comercio con Marruecos",
-      "classification": "OPERATIONAL_SIGNAL",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_874afef809ba2ec7",
-          "title": "Tánger Med y Nador West Med aceleran mientras Algeciras afronta el freno de su conexión ferroviaria",
-          "title_key": "tanger med y nador west med aceleran mientras algeciras afronta el freno de su conexion ferroviaria",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOb1ktQkNoVU80ZW9TcDNJN1RvY1JjRy04UHh6ZnJpMGF5RVd5RmNlLW1rTVJPLUVidzU3ODZ5ZmpJNlBvaWJ2Z2hyZE5NQjNDWk53ZldvbTRaUDJLclNnbGFydW53X1VKUktQZW9Tdjl0Q3BDRGE3X25rMXNWYlBPd2VxMl9qX2dKYXBSZGZKZERBV1otMW9PTW9xT1ZyOHFzazZ2eE1UYmN4SFNlOUcwWmZYQlRjZXplWXhZd0RaazBjZ1FiZXEtVWhOa2RkWE0",
-          "published_at": "2026-11-24T15:26:57Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ports",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_7785142aeb02bcc8",
-          "title": "El tráfico de camiones entre Algeciras y Tánger Med sigue creciendo y refuerza el comercio con Marruecos",
-          "title_key": "el trafico de camiones entre algeciras y tanger med sigue creciendo y refuerza el comercio con marruecos",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOSEdFWkNMV3FFaGNsWURrNmZvLU5iTkpXdzEzVzBkZ0dkTVR6UDFnX19RZDlqUzMxb01lZ2ViVy1WZE9HX053Wkkyanpta2xDZzZ4blczNmhDZ3Y4SVNDNFZRLWhneEx2VUQtaFc5VGVVU1dldjJEMEZnbmppZUtOc2JlaklBdUNNTHY0WlF5LVhKN3E4LU94VlN4X1dHYVVzN2ZQcEQzZzBaamVaQ2JaV29XeV9YT1J0M1Q1RmZhX2Z1LXRZTHhkay04ZzdsTU9XUmxIUThn",
-          "published_at": "2026-11-24T15:27:34Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ports",
-          "classification": "OPERATIONAL_SIGNAL",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 55,
-      "operational_impact": "POTENTIAL",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_c6c6a9a73c8b72f0",
-      "topic": "ports",
-      "first_seen": "2026-11-24T15:26:43Z",
-      "last_seen": "2026-11-24T15:26:43Z",
-      "headline": "El Puerto de Algeciras supera los 85 millones de toneladas y encara otro año por encima de los 100 millones",
-      "classification": "OPERATIONAL_SIGNAL",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_1246c03a42b3d7d0",
-          "title": "El Puerto de Algeciras supera los 85 millones de toneladas y encara otro año por encima de los 100 millones",
-          "title_key": "el puerto de algeciras supera los 85 millones de toneladas y encara otro ano por encima de los 100 millones",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNM2o4bW52T2xmZzg0Z242eUt3dmpYVDNscEY2YVdJQ2Q3YXZsd3U5a19KSGFrNXl2UGVJOFl6aUZVdElzUEJWUTAwZi02bUMtS2p2NVgya0VvT1V1b1JpVFZXZ04zejBnRl9FZmF5Nlo5MVI3M1lNcDVndHEzeE1ZT3g5ZXFubk01MHRHNGFPb1JjSl9wWFA3QjhKamx6M1pfV256UkJwc3BjNTJOSWx2TGdWc0dHVTJfQlY2TzFSOTdMSU9QaGhhT2YzaWhXNnBSTksteWlZNk1XUQ",
-          "published_at": "2026-11-24T15:26:43Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ports",
-          "classification": "OPERATIONAL_SIGNAL",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 55,
-      "operational_impact": "POTENTIAL",
-      "operational_eligible": false
-    },
     {
       "event_id": "evt_132f03ac0cc21800",
       "topic": "melilla",
@@ -156,6 +46,70 @@
       ],
       "importance": 4,
       "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_5cdca77db5c3b089",
+      "topic": "ports",
+      "first_seen": "2026-11-24T15:26:57Z",
+      "last_seen": "2026-11-23T16:54:56Z",
+      "headline": "El tráfico de camiones entre Algeciras y Tánger Med sigue creciendo y refuerza el comercio con Marruecos",
+      "classification": "OPERATIONAL_SIGNAL",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_874afef809ba2ec7",
+          "title": "Tánger Med y Nador West Med aceleran mientras Algeciras afronta el freno de su conexión ferroviaria",
+          "title_key": "tanger med y nador west med aceleran mientras algeciras afronta el freno de su conexion ferroviaria",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOb1ktQkNoVU80ZW9TcDNJN1RvY1JjRy04UHh6ZnJpMGF5RVd5RmNlLW1rTVJPLUVidzU3ODZ5ZmpJNlBvaWJ2Z2hyZE5NQjNDWk53ZldvbTRaUDJLclNnbGFydW53X1VKUktQZW9Tdjl0Q3BDRGE3X25rMXNWYlBPd2VxMl9qX2dKYXBSZGZKZERBV1otMW9PTW9xT1ZyOHFzazZ2eE1UYmN4SFNlOUcwWmZYQlRjZXplWXhZd0RaazBjZ1FiZXEtVWhOa2RkWE0",
+          "published_at": "2026-11-23T12:50:24Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ports",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_7785142aeb02bcc8",
+          "title": "El tráfico de camiones entre Algeciras y Tánger Med sigue creciendo y refuerza el comercio con Marruecos",
+          "title_key": "el trafico de camiones entre algeciras y tanger med sigue creciendo y refuerza el comercio con marruecos",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOSEdFWkNMV3FFaGNsWURrNmZvLU5iTkpXdzEzVzBkZ0dkTVR6UDFnX19RZDlqUzMxb01lZ2ViVy1WZE9HX053Wkkyanpta2xDZzZ4blczNmhDZ3Y4SVNDNFZRLWhneEx2VUQtaFc5VGVVU1dldjJEMEZnbmppZUtOc2JlaklBdUNNTHY0WlF5LVhKN3E4LU94VlN4X1dHYVVzN2ZQcEQzZzBaamVaQ2JaV29XeV9YT1J0M1Q1RmZhX2Z1LXRZTHhkay04ZzdsTU9XUmxIUThn",
+          "published_at": "2026-11-23T16:54:56Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ports",
+          "classification": "OPERATIONAL_SIGNAL",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 55,
+      "operational_impact": "POTENTIAL",
       "operational_eligible": false
     },
     {
@@ -517,12 +471,58 @@
       "operational_eligible": false
     },
     {
+      "event_id": "evt_d395c56b5a8e5d78",
+      "topic": "traffic",
+      "first_seen": "2026-11-17T12:00:00Z",
+      "last_seen": "2026-11-17T12:00:00Z",
+      "headline": "Marina Mercante establishes two new anchorage areas in Algeciras to improve security in the traffic separation device",
+      "classification": "OPERATIONAL_SIGNAL",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_529c1542661d0dd3",
+          "title": "Marina Mercante establishes two new anchorage areas in Algeciras to improve security in the traffic separation device",
+          "title_key": "marina mercante establishes two new anchorage areas in algeciras to improve security in the traffic separation device",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNNEhwdWc2QVpadUhBX0ZZSEc2UzRkTmdidWpyb0xuaXpTSGJpQlhmNmU2WG9sZUhYQWlkM282S0Q4ZXlDSXJ6Zlk2WEtob2NSWW5WVDVBN1UzUHhTM3o0TGo0cDlSN1dORGw1TUduOU1BcndKM2JZdHVVaXY4bXQxREJpMU9OdmtXUllCZThEcEw",
+          "published_at": "2026-11-17T12:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "traffic",
+          "classification": "OPERATIONAL_SIGNAL",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 55,
+      "operational_impact": "POTENTIAL",
+      "operational_eligible": false
+    },
+    {
       "event_id": "evt_d2a7e9189339728c",
       "topic": "ceuta",
       "first_seen": "2026-11-16T12:03:42Z",
-      "last_seen": "2026-11-17T18:55:00Z",
-      "headline": "Spanish intelligence absolves Morocco of orchestrating massive Ceuta border breach as 80,000 migrants crossed in two days",
-      "classification": "OPERATIONAL_SIGNAL",
+      "last_seen": "2026-11-15T16:43:48Z",
+      "headline": "Ceuta: the Police report that identifies 18 Moroccan suspects during the mass entry of migrants",
+      "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
       "sources": [
@@ -574,13 +574,41 @@
           "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
-        },
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_51d2db1925ae9f70",
+      "topic": "relations",
+      "first_seen": "2026-11-10T08:00:00Z",
+      "last_seen": "2026-11-13T08:00:00Z",
+      "headline": "Ada Colau, en la entrevista con Jordi Wild, sobre el papel de Marruecos en la crisis de Ceuta: \"Hay que revisar las relaciones. Quiero pensar que se esté haciendo desde la discreción\"",
+      "classification": "DECLARATION",
+      "verification_status": "DECLARATION_ONLY",
+      "verification_reason": "The record is a declaration and is not treated as an operational fact.",
+      "sources": [
         {
-          "article_id": "art_400efcf88bb88383",
-          "title": "Spanish intelligence absolves Morocco of orchestrating massive Ceuta border breach as 80,000 migrants crossed in two days",
-          "title_key": "spanish intelligence absolves morocco of orchestrating massive ceuta border breach as 80 000 migrants crossed in two days",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdHNTRXBYdWhhdVR0VmtEZnNocjdhZmYxX1lzV1djX3A2eFhVbkFFV0U3RXQzY0lOQmR4WGNJTncxLUpEc3VETXl3WWI0TmJqTDE1bktsdEtrbk5KS2JzNmhWQ0U2TzAycG5nbzNIYTkwOW9aeGlzRmpwSkltUzJORFE5dlhaVjVNWGhHU3B2X2k5eXlhNlRF",
-          "published_at": "2026-11-17T18:55:00Z",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_9b02b8f2e85f3f40",
+          "title": "Dezcallar, exdirector del CNI, advierte que Marruecos volverá a reivindicar Ceuta y Melilla",
+          "title_key": "dezcallar exdirector del cni advierte que marruecos volvera a reivindicar ceuta y melilla",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNX1JPYTd4WFVneUwzRTFqVE1xM2s0RFMxVnM2ejVLV2RRT3dYbnJHN0l5bXVkQWxZSHBWejVGOGRHMkNaUThYRHRJVXZWN3N0cURZTDl5TFd3RTFFMXUzaERTbnRQUlg4bjMzVnVzbkV1UFh5RzJveG1acW4zMWpvTC1jcFVfVlFfZWdBNjZ2MFY2N1JJ",
+          "published_at": "2026-11-10T08:00:00Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -588,23 +616,41 @@
           "tier": 1,
           "official": false,
           "weight": 1.0,
-          "topic": "ceuta",
-          "classification": "OPERATIONAL_SIGNAL",
+          "topic": "relations",
+          "classification": "DECLARATION",
+          "signal": "",
+          "description": ""
+        },
+        {
+          "article_id": "art_f6addf665c8e577d",
+          "title": "Ada Colau, en la entrevista con Jordi Wild, sobre el papel de Marruecos en la crisis de Ceuta: \"Hay que revisar las relaciones. Quiero pensar que se esté haciendo desde la discreción\"",
+          "title_key": "ada colau en la entrevista con jordi wild sobre el papel de marruecos en la crisis de ceuta hay que revisar las relaciones quiero pensar que se este haciendo desde la discrecion",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNN1AyMFZZQlY5M1c1UHlvdkl3RXBwMXFlZnByVkI5dFUwTjRVVG5lS2dPblh2X0xGNnV0UzhyZlZndDYzOHVfc0VETmNKS1BZNVJLWlotUGw4NUE5UUdia2FrVHZSSDdSYTZXSnVxZFFsdVNfNi1qckVncmlqRHltdzBGTU9tV1ZBYXJGWUJNT3dDQkxxYkZPQV9KV1FNQ2dJWHVnRVFaRzBmYmc3Nmdz",
+          "published_at": "2026-11-13T08:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
         }
       ],
-      "importance": 55,
+      "importance": 30,
       "operational_impact": "POTENTIAL",
       "operational_eligible": false
     },
     {
-      "event_id": "evt_d395c56b5a8e5d78",
-      "topic": "traffic",
-      "first_seen": "2026-11-17T12:00:00Z",
-      "last_seen": "2026-11-17T12:00:00Z",
-      "headline": "Marina Mercante establishes two new anchorage areas in Algeciras to improve security in the traffic separation device",
-      "classification": "OPERATIONAL_SIGNAL",
+      "event_id": "evt_629ffdd77a5c8374",
+      "topic": "ceuta",
+      "first_seen": "2026-11-13T08:00:00Z",
+      "last_seen": "2026-11-13T08:00:00Z",
+      "headline": "Alberto Núñez Feijóo en la entrevista con Jordi Wild, sobre la crisis de Ceuta: \"Si Marruecos no blinda la frontera, desplegaría al Ejército\"",
+      "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
       "sources": [
@@ -622,11 +668,11 @@
       ],
       "articles": [
         {
-          "article_id": "art_529c1542661d0dd3",
-          "title": "Marina Mercante establishes two new anchorage areas in Algeciras to improve security in the traffic separation device",
-          "title_key": "marina mercante establishes two new anchorage areas in algeciras to improve security in the traffic separation device",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNNEhwdWc2QVpadUhBX0ZZSEc2UzRkTmdidWpyb0xuaXpTSGJpQlhmNmU2WG9sZUhYQWlkM282S0Q4ZXlDSXJ6Zlk2WEtob2NSWW5WVDVBN1UzUHhTM3o0TGo0cDlSN1dORGw1TUduOU1BcndKM2JZdHVVaXY4bXQxREJpMU9OdmtXUllCZThEcEw",
-          "published_at": "2026-11-17T12:00:00Z",
+          "article_id": "art_8998832cb47de94d",
+          "title": "Alberto Núñez Feijóo en la entrevista con Jordi Wild, sobre la crisis de Ceuta: \"Si Marruecos no blinda la frontera, desplegaría al Ejército\"",
+          "title_key": "alberto nunez feijoo en la entrevista con jordi wild sobre la crisis de ceuta si marruecos no blinda la frontera desplegaria al ejercito",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPckRCVmJzaV9odmxMaWVPbUJVakV6WnlIc1ZBWnVVdGlLV2dpU1ZXR0dfVGkwZ0FiQzlQME5xUWExbGpNZ0xzYWVneW1pMXpvSmZTcl95MmtIX01sQ0NjNFRQYk04WnhwU1U4WTJSWDFTMUtTSGw2MzVIX1dnd1ZJbzZ4RUVleVZ4end2Q2RLbDdsVjVkXzNxQVBxYW4",
+          "published_at": "2026-11-13T08:00:00Z",
           "observed_at": "",
           "source_id": "unknown",
           "source_name": "Unknown source",
@@ -634,14 +680,14 @@
           "tier": 1,
           "official": false,
           "weight": 1.0,
-          "topic": "traffic",
-          "classification": "OPERATIONAL_SIGNAL",
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
           "signal": "",
           "description": ""
         }
       ],
-      "importance": 55,
-      "operational_impact": "POTENTIAL",
+      "importance": 4,
+      "operational_impact": "NONE",
       "operational_eligible": false
     },
     {
@@ -737,98 +783,6 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_e703bb670be3e56a",
-      "topic": "traffic",
-      "first_seen": "2026-11-10T08:00:00Z",
-      "last_seen": "2026-11-10T08:00:00Z",
-      "headline": "AESBA welcomes the authorization of the Algeciras Port outer anchorage after years of advocacy",
-      "classification": "OPERATIONAL_SIGNAL",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_0fb5ccdc9b6b08f1",
-          "title": "AESBA welcomes the authorization of the Algeciras Port outer anchorage after years of advocacy",
-          "title_key": "aesba welcomes the authorization of the algeciras port outer anchorage after years of advocacy",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUlVWOWRRMHREdUs4cXhNRGZMUkk4Vm5zTmZEOWRuQktqVHQ3RTk0S2NoOW1qYklfMFM1Ry1pUGFPU3o5b21QY1JxVTNxMzN2OUVQZlVCdXgzM0RUQWprX0luZkhBcmJaOGFGcE8xNk9TeC15SVEwRnVaVVRnMElLcHZOZndycXoxTzE0SlZ4aGJnVVBNMjVxZWUzaWVsWGw1cDFEUUc4RTdSbEN1Nk9kOXozQWRkM1V3MzFiZzNhYzg2YVlVUEs1OUVjYkl3QmYzQm5Gdklqd1NFQQ",
-          "published_at": "2026-11-10T08:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "traffic",
-          "classification": "OPERATIONAL_SIGNAL",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 55,
-      "operational_impact": "POTENTIAL",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_51d2db1925ae9f70",
-      "topic": "relations",
-      "first_seen": "2026-11-10T08:00:00Z",
-      "last_seen": "2026-11-10T08:00:00Z",
-      "headline": "Dezcallar, exdirector del CNI, advierte que Marruecos volverá a reivindicar Ceuta y Melilla",
-      "classification": "DECLARATION",
-      "verification_status": "DECLARATION_ONLY",
-      "verification_reason": "The record is a declaration and is not treated as an operational fact.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_9b02b8f2e85f3f40",
-          "title": "Dezcallar, exdirector del CNI, advierte que Marruecos volverá a reivindicar Ceuta y Melilla",
-          "title_key": "dezcallar exdirector del cni advierte que marruecos volvera a reivindicar ceuta y melilla",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNX1JPYTd4WFVneUwzRTFqVE1xM2s0RFMxVnM2ejVLV2RRT3dYbnJHN0l5bXVkQWxZSHBWejVGOGRHMkNaUThYRHRJVXZWN3N0cURZTDl5TFd3RTFFMXUzaERTbnRQUlg4bjMzVnVzbkV1UFh5RzJveG1acW4zMWpvTC1jcFVfVlFfZWdBNjZ2MFY2N1JJ",
-          "published_at": "2026-11-10T08:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "DECLARATION",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 30,
-      "operational_impact": "POTENTIAL",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_ae45f977aaa65c13",
       "topic": "ports",
       "first_seen": "2026-11-10T08:00:00Z",
@@ -918,52 +872,6 @@
       ],
       "importance": 4,
       "operational_impact": "NONE",
-      "operational_eligible": false
-    },
-    {
-      "event_id": "evt_046164a6a69f3449",
-      "topic": "traffic",
-      "first_seen": "2026-11-07T08:00:00Z",
-      "last_seen": "2026-11-07T08:00:00Z",
-      "headline": "The sea’s grip on the global economy: The chokepoints that can bring world trade to its knees - EL PAÍS English",
-      "classification": "FACT",
-      "verification_status": "SINGLE_SOURCE",
-      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
-      "sources": [
-        {
-          "source_id": "elpais",
-          "source_name": "El País",
-          "source_domain": "elpais.com",
-          "tier": 3,
-          "official": false,
-          "weight": 3.0
-        }
-      ],
-      "source_ids": [
-        "elpais"
-      ],
-      "articles": [
-        {
-          "article_id": "art_0b2db2d157884e03",
-          "title": "The sea’s grip on the global economy: The chokepoints that can bring world trade to its knees - EL PAÍS English",
-          "title_key": "the sea s grip on the global economy the chokepoints that can bring world trade to its knees el pais english",
-          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQa25DWFdia3hYalNfSkRYek5pZ09uYzV3dmIzSnViMDZqQ2RqSVMtOWNycmYxSmNzTFIwZHJMYWUwTllsUmQ2MlhJLTBCWGRpcGdBcWRsZ2hNbkxoaG9CTVhkVkZtNmJZUV9PQU1HZkVobUlpUFhkeTJHZlNRSWkwTHNNS2FxYVV0ODN2bzFXMFp0OG4yTlpXNW4zRERXZHRYazFscFFNZm0yWm0zLWQ0OVlVRWxlMS05ZjJudmx1Tjk5SmRQRHVid1V4WGQ2TTlYb0hWLWZMVXV5cHNBM1R5cGlSY2xzeGpGNHgw0gH_AUFVX3lxTE5qNzlqa1lEOGVkWkd1TDVQb0x2TlpJdy1oNVlTUDNYLXhESW9JSTJLVkV3TG1fdHhLLVZZLVhlWGdMUXdaMWFuV0ZjVUNfWmhPRHNsR2dlS29IMDREc1RTOXRBdC1JRHZmeV9jZkt5akk5S2huSGs1ZDBscUNIckF4elZuTC1yOWtUSFQtcXZRdlpzbWIzR1JRWkVFY2hFSU8yUXZjai1QYm5GOWFvV3pnWGFPRVRDZHViU1lpTTQyQ2ZGNUVTNmZQbnJqczExTVZpOVJJeUU1YlBtME42ekdGeWR0Rm12Z0UtZTU3dl9ROXN2d2VLSWxlTnNndFhBVQ",
-          "published_at": "2026-11-07T08:00:00Z",
-          "observed_at": "",
-          "source_id": "elpais",
-          "source_name": "El País",
-          "source_domain": "elpais.com",
-          "tier": 3,
-          "official": false,
-          "weight": 3.0,
-          "topic": "traffic",
-          "classification": "FACT",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 43,
-      "operational_impact": "CONTEXT",
       "operational_eligible": false
     },
     {
@@ -1375,7 +1283,7 @@
       "topic": "relations",
       "first_seen": "2026-10-23T07:00:00Z",
       "last_seen": "2026-10-24T07:00:00Z",
-      "headline": "La crisis de Ceuta pone a prueba el comercio y el valor estratégico del español en las relaciones con Marruecos",
+      "headline": "Un partido de la coalición de Gobierno en Marruecos supedita las relaciones con España al asunto de Ceuta y Melilla",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
@@ -1393,6 +1301,24 @@
         "unknown"
       ],
       "articles": [
+        {
+          "article_id": "art_a7a4fa6a5db988da",
+          "title": "Un partido de la coalición de Gobierno en Marruecos supedita las relaciones con España al asunto de Ceuta y Melilla",
+          "title_key": "un partido de la coalicion de gobierno en marruecos supedita las relaciones con espana al asunto de ceuta y melilla",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNNDZXbmNneS1VbEZ0cjZQVjFXWExhNTJBTUdGSzZacWw1U04wYU1maHZXR25mc1RaREU5eDRHWm9UZFFRZVlPX1YtYk5YNmNLUkEyenpkR1hteXBFRkRMYW5CVWkwYzJOWkpKZ2xHMmZjaXpsOWluaEJvT2ZjTmhYS3MtUFNGT294MXg0S2RkcE9mbjk3dUVyWDIzZmo1bmlJdG5PTWF5TzRpRXVmZzZ1UVIxM0ZqWTBNemVXY2ViRTJtQVE1X2NONlNvaDV5VDlzc3g5Q1lDRUQybE05LU5mcm0wVFI1d2vSAfsBQVVfeXFMTlhDc0dhMmI2OUI5WXdISzZwVDFBd1dmWjU2OHE1bkd3b0hZV3V6VS1DbWxfcjBmdmVtUzQ4aVljM1FzZlozRmlQbDB2VjQ5ZkpEcngtQS0xendCclNycl8zTU9lQW05cnQwdWVTa2l5YWZYU1VEbWp2ejdyRGE1LVZpSDdEdGU4VWxGd29PS3lTTGhvRjZlcFM2SkNCSTBldzZ6S25wMFV2MU9yVWxTcmFzbkkzTXNHZUt6UFFUTjJmSzdELUxMRzE5MFFWOGZvVDFKMmVUM01BS1BZRzRaYmdMSzExTGkxVmlKdXFmdkQwOFZiVHpSbWpCOHc",
+          "published_at": "2026-10-22T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        },
         {
           "article_id": "art_578b172542d11d94",
           "title": "Marruecos vuelve a la carga con Ceuta y Melilla y lanza un aviso a España: \"Nuestra soberanía no es negociable\"",
@@ -1433,6 +1359,52 @@
       "importance": 4,
       "operational_impact": "NONE",
       "operational_eligible": false
+    },
+    {
+      "event_id": "evt_6d4a60611ada5be4",
+      "topic": "ceuta",
+      "first_seen": "2026-10-22T07:00:00Z",
+      "last_seen": "2026-10-22T07:00:00Z",
+      "headline": "Juan Jesús Vivas denuncia que \"la frontera sigue estando controlada por Marruecos\" tres meses después de la crisis",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_2ff3fa3eeeead5d0",
+          "title": "Juan Jesús Vivas denuncia que \"la frontera sigue estando controlada por Marruecos\" tres meses después de la crisis",
+          "title_key": "juan jesus vivas denuncia que la frontera sigue estando controlada por marruecos tres meses despues de la crisis",
+          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOSGd0MFk5aU5YZnBTSXJXdUkzSTdLS1ktbDZXQlJSNkl4Rm9ZZ3JGMHo3b1JMTWYyaEkzMDIxaGx0RE5CcVpaU0lCM3FmMlBmREdXa3Z2akloX0ZUVjlWS1NobVZZVVd2TVcxQ2VqVTVQVGJUSkxSRFlOMVZ5a3dNaFoxYktuOFMxa0NxbFpkTUtmeWI1eko3TWFab05MZFlyWVMwdXZncEU0cGJ2eENVLXcwQ1QxbVczQnlhZEFHcUhFOWc5c043d0VYLTNmS2pERWdVRVZGVnRxS3lrUEQzc0tpb0F4amduSGJVdW8zelJCa2xR0gH0AUFVX3lxTE1hVjBtY2dJcmtYYk9sN0VJZWxOem9XZkp2SGxFMWNMeHduLTREM0xTQWV0R1dWU09GQVRKekN1MjQ5ZWVZZzAtdXJlTDgtNUVMS3Y5eFVMTW5mZ1ZkZ1RhZWZWOVRad3BzazAtLXNELVFMajZaSDhjN05DWExOOXA1aTNDTjk4QUVJX1o0VVZLSFpDODBONi1xeVF4YTVwZjZUcW5CUUhSa1ZYZzRGRmFDMWJack9uTFlkbGVtNk94djduOWhaanRQUF9ud2ZCOXB1RU5lQjdvQnN5cklMWmxWSVhHOUZYeWQ0c1lBZWc0N3JNU08",
+          "published_at": "2026-10-22T07:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
     }
   ],
   "verification_summary": {
@@ -1440,10 +1412,10 @@
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 2,
-    "SINGLE_SOURCE": 1,
+    "SINGLE_SOURCE": 0,
     "UNCONFIRMED": 25,
-    "TOTAL": 28
+    "TOTAL": 27
   },
   "article_count": 36,
-  "event_count": 28
+  "event_count": 27
 }

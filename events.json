@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T04:55:14.143053+00:00",
+  "generated_at": "2026-11-25T15:42:49.644219+00:00",
   "events": [
     {
       "event_id": "evt_132f03ac0cc21800",
@@ -159,6 +159,52 @@
       "operational_eligible": false
     },
     {
+      "event_id": "evt_4d7e1394fd0ef009",
+      "topic": "ceuta",
+      "first_seen": "2026-11-21T17:05:35Z",
+      "last_seen": "2026-11-21T17:05:35Z",
+      "headline": "Así será la ampliación del espigón del Tarajal",
+      "classification": "UNCONFIRMED",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_8c00e568cdfef094",
+          "title": "Así será la ampliación del espigón del Tarajal",
+          "title_key": "asi sera la ampliacion del espigon del tarajal",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOWxfQlZ0TjdTandxSHJ6VEVwZG5fWlhHdXRPRkxPSmEtOThFbFVuenh5SldiNWpiT0h6U1R6MDRWT1MxemJWT05vbXo0bktpUWU5c0lNellpdGZta2d4NHkyWk5RZHpJUVgwelBLZndxVVdwamtkUDNjbnNMNnlKNTVjTFhzLWc4MUwyQmt4b1ZsQnlOd2tNdTFQYmlSUEgta05fUE5KRGtGazJ6NGQ5T2tMZ3RpQdIBtgFBVV95cUxPdHkzcGNnajZmd2RTVmhJbnpCb1JUY1N6c3p1aVZqZFhFdWgxdV83QWJEc3ZBMUtiOXpCcktnT0o3TEY3YklZQ1JWRjJKTEVZb1E0UDFTeG5Ia2ZJQ2tfNDlvaVc1VjRYbHZVQllRbDA5d3lsbjVsdnBkNVhlR2NmTk81MDBudTV6clkwaHBGZko4RTlMSUFhUnk0TVEwU1REdWFLQ2NwZzlPbFUxeTlhTU9zOXYydw",
+          "published_at": "2026-11-21T17:05:35Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "ceuta",
+          "classification": "UNCONFIRMED",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 4,
+      "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
       "event_id": "evt_5a677c102c6c162f",
       "topic": "ceuta",
       "first_seen": "2026-11-21T03:41:00Z",
@@ -209,7 +255,7 @@
       "topic": "ports",
       "first_seen": "2026-11-20T09:15:00Z",
       "last_seen": "2026-11-20T09:15:00Z",
-      "headline": "El tráfico de camiones en el Estrecho de Gibraltar crece un 5,3% en octubre",
+      "headline": "El tráfico de camiones en el puerto de Algeciras crece un 5,3% en octubre",
       "classification": "OPERATIONAL_SIGNAL",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
@@ -229,8 +275,8 @@
       "articles": [
         {
           "article_id": "art_3ab10af2c61d679b",
-          "title": "El tráfico de camiones en el Estrecho de Gibraltar crece un 5,3% en octubre",
-          "title_key": "el trafico de camiones en el estrecho de gibraltar crece un 5 3 en octubre",
+          "title": "El tráfico de camiones en el puerto de Algeciras crece un 5,3% en octubre",
+          "title_key": "el trafico de camiones en el puerto de algeciras crece un 5 3 en octubre",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdUh6dFlmVTJuSnZlWXUxdXF6SFpreWZIMUZIVW1CWkYzY1VXR0NyX3RZcWpTZjJXUjhVOUt4ZUl0TWh5MjFCWlBhZXNRWllfZWJQcUFJTFZXUV9ISE5jNTZMdlhKemtSS1ZUY1lZMFpaWTJsZmYzd2NfYkN0dEZKdGtsTmliVzdaQVdIVDVSeHNNc0g0OEpvNVhCRlIyRG5FZkJ1RGhyajlNcXRiTEtVd0JvTQ",
           "published_at": "2026-11-20T09:15:00Z",
           "observed_at": "",
@@ -581,70 +627,6 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_51d2db1925ae9f70",
-      "topic": "relations",
-      "first_seen": "2026-11-10T08:00:00Z",
-      "last_seen": "2026-11-13T08:00:00Z",
-      "headline": "Ada Colau, en la entrevista con Jordi Wild, sobre el papel de Marruecos en la crisis de Ceuta: \"Hay que revisar las relaciones. Quiero pensar que se esté haciendo desde la discreción\"",
-      "classification": "DECLARATION",
-      "verification_status": "DECLARATION_ONLY",
-      "verification_reason": "The record is a declaration and is not treated as an operational fact.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_9b02b8f2e85f3f40",
-          "title": "Dezcallar, exdirector del CNI, advierte que Marruecos volverá a reivindicar Ceuta y Melilla",
-          "title_key": "dezcallar exdirector del cni advierte que marruecos volvera a reivindicar ceuta y melilla",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNX1JPYTd4WFVneUwzRTFqVE1xM2s0RFMxVnM2ejVLV2RRT3dYbnJHN0l5bXVkQWxZSHBWejVGOGRHMkNaUThYRHRJVXZWN3N0cURZTDl5TFd3RTFFMXUzaERTbnRQUlg4bjMzVnVzbkV1UFh5RzJveG1acW4zMWpvTC1jcFVfVlFfZWdBNjZ2MFY2N1JJ",
-          "published_at": "2026-11-10T08:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "DECLARATION",
-          "signal": "",
-          "description": ""
-        },
-        {
-          "article_id": "art_f6addf665c8e577d",
-          "title": "Ada Colau, en la entrevista con Jordi Wild, sobre el papel de Marruecos en la crisis de Ceuta: \"Hay que revisar las relaciones. Quiero pensar que se esté haciendo desde la discreción\"",
-          "title_key": "ada colau en la entrevista con jordi wild sobre el papel de marruecos en la crisis de ceuta hay que revisar las relaciones quiero pensar que se este haciendo desde la discrecion",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNN1AyMFZZQlY5M1c1UHlvdkl3RXBwMXFlZnByVkI5dFUwTjRVVG5lS2dPblh2X0xGNnV0UzhyZlZndDYzOHVfc0VETmNKS1BZNVJLWlotUGw4NUE5UUdia2FrVHZSSDdSYTZXSnVxZFFsdVNfNi1qckVncmlqRHltdzBGTU9tV1ZBYXJGWUJNT3dDQkxxYkZPQV9KV1FNQ2dJWHVnRVFaRzBmYmc3Nmdz",
-          "published_at": "2026-11-13T08:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 30,
-      "operational_impact": "POTENTIAL",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_629ffdd77a5c8374",
       "topic": "ceuta",
       "first_seen": "2026-11-13T08:00:00Z",
@@ -783,6 +765,98 @@
       "operational_eligible": false
     },
     {
+      "event_id": "evt_e703bb670be3e56a",
+      "topic": "traffic",
+      "first_seen": "2026-11-10T08:00:00Z",
+      "last_seen": "2026-11-10T08:00:00Z",
+      "headline": "AESBA welcomes the authorization of the Algeciras Port outer anchorage after years of advocacy",
+      "classification": "OPERATIONAL_SIGNAL",
+      "verification_status": "UNCONFIRMED",
+      "verification_reason": "The available records do not meet the confirmation threshold.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_0fb5ccdc9b6b08f1",
+          "title": "AESBA welcomes the authorization of the Algeciras Port outer anchorage after years of advocacy",
+          "title_key": "aesba welcomes the authorization of the algeciras port outer anchorage after years of advocacy",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUlVWOWRRMHREdUs4cXhNRGZMUkk4Vm5zTmZEOWRuQktqVHQ3RTk0S2NoOW1qYklfMFM1Ry1pUGFPU3o5b21QY1JxVTNxMzN2OUVQZlVCdXgzM0RUQWprX0luZkhBcmJaOGFGcE8xNk9TeC15SVEwRnVaVVRnMElLcHZOZndycXoxTzE0SlZ4aGJnVVBNMjVxZWUzaWVsWGw1cDFEUUc4RTdSbEN1Nk9kOXozQWRkM1V3MzFiZzNhYzg2YVlVUEs1OUVjYkl3QmYzQm5Gdklqd1NFQQ",
+          "published_at": "2026-11-10T08:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "traffic",
+          "classification": "OPERATIONAL_SIGNAL",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 55,
+      "operational_impact": "POTENTIAL",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_51d2db1925ae9f70",
+      "topic": "relations",
+      "first_seen": "2026-11-10T08:00:00Z",
+      "last_seen": "2026-11-10T08:00:00Z",
+      "headline": "Dezcallar, exdirector del CNI, advierte que Marruecos volverá a reivindicar Ceuta y Melilla",
+      "classification": "DECLARATION",
+      "verification_status": "DECLARATION_ONLY",
+      "verification_reason": "The record is a declaration and is not treated as an operational fact.",
+      "sources": [
+        {
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0
+        }
+      ],
+      "source_ids": [
+        "unknown"
+      ],
+      "articles": [
+        {
+          "article_id": "art_9b02b8f2e85f3f40",
+          "title": "Dezcallar, exdirector del CNI, advierte que Marruecos volverá a reivindicar Ceuta y Melilla",
+          "title_key": "dezcallar exdirector del cni advierte que marruecos volvera a reivindicar ceuta y melilla",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNX1JPYTd4WFVneUwzRTFqVE1xM2s0RFMxVnM2ejVLV2RRT3dYbnJHN0l5bXVkQWxZSHBWejVGOGRHMkNaUThYRHRJVXZWN3N0cURZTDl5TFd3RTFFMXUzaERTbnRQUlg4bjMzVnVzbkV1UFh5RzJveG1acW4zMWpvTC1jcFVfVlFfZWdBNjZ2MFY2N1JJ",
+          "published_at": "2026-11-10T08:00:00Z",
+          "observed_at": "",
+          "source_id": "unknown",
+          "source_name": "Unknown source",
+          "source_domain": "",
+          "tier": 1,
+          "official": false,
+          "weight": 1.0,
+          "topic": "relations",
+          "classification": "DECLARATION",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 30,
+      "operational_impact": "POTENTIAL",
+      "operational_eligible": false
+    },
+    {
       "event_id": "evt_ae45f977aaa65c13",
       "topic": "ports",
       "first_seen": "2026-11-10T08:00:00Z",
@@ -872,6 +946,52 @@
       ],
       "importance": 4,
       "operational_impact": "NONE",
+      "operational_eligible": false
+    },
+    {
+      "event_id": "evt_046164a6a69f3449",
+      "topic": "traffic",
+      "first_seen": "2026-11-07T08:00:00Z",
+      "last_seen": "2026-11-07T08:00:00Z",
+      "headline": "The sea’s grip on the global economy: The chokepoints that can bring world trade to its knees - EL PAÍS English",
+      "classification": "FACT",
+      "verification_status": "SINGLE_SOURCE",
+      "verification_reason": "Supported by one usable source; independent corroboration is pending.",
+      "sources": [
+        {
+          "source_id": "elpais",
+          "source_name": "El País",
+          "source_domain": "elpais.com",
+          "tier": 3,
+          "official": false,
+          "weight": 3.0
+        }
+      ],
+      "source_ids": [
+        "elpais"
+      ],
+      "articles": [
+        {
+          "article_id": "art_0b2db2d157884e03",
+          "title": "The sea’s grip on the global economy: The chokepoints that can bring world trade to its knees - EL PAÍS English",
+          "title_key": "the sea s grip on the global economy the chokepoints that can bring world trade to its knees el pais english",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQa25DWFdia3hYalNfSkRYek5pZ09uYzV3dmIzSnViMDZqQ2RqSVMtOWNycmYxSmNzTFIwZHJMYWUwTllsUmQ2MlhJLTBCWGRpcGdBcWRsZ2hNbkxoaG9CTVhkVkZtNmJZUV9PQU1HZkVobUlpUFhkeTJHZlNRSWkwTHNNS2FxYVV0ODN2bzFXMFp0OG4yTlpXNW4zRERXZHRYazFscFFNZm0yWm0zLWQ0OVlVRWxlMS05ZjJudmx1Tjk5SmRQRHVid1V4WGQ2TTlYb0hWLWZMVXV5cHNBM1R5cGlSY2xzeGpGNHgw0gH_AUFVX3lxTE5qNzlqa1lEOGVkWkd1TDVQb0x2TlpJdy1oNVlTUDNYLXhESW9JSTJLVkV3TG1fdHhLLVZZLVhlWGdMUXdaMWFuV0ZjVUNfWmhPRHNsR2dlS29IMDREc1RTOXRBdC1JRHZmeV9jZkt5akk5S2huSGs1ZDBscUNIckF4elZuTC1yOWtUSFQtcXZRdlpzbWIzR1JRWkVFY2hFSU8yUXZjai1QYm5GOWFvV3pnWGFPRVRDZHViU1lpTTQyQ2ZGNUVTNmZQbnJqczExTVZpOVJJeUU1YlBtME42ekdGeWR0Rm12Z0UtZTU3dl9ROXN2d2VLSWxlTnNndFhBVQ",
+          "published_at": "2026-11-07T08:00:00Z",
+          "observed_at": "",
+          "source_id": "elpais",
+          "source_name": "El País",
+          "source_domain": "elpais.com",
+          "tier": 3,
+          "official": false,
+          "weight": 3.0,
+          "topic": "traffic",
+          "classification": "FACT",
+          "signal": "",
+          "description": ""
+        }
+      ],
+      "importance": 43,
+      "operational_impact": "CONTEXT",
       "operational_eligible": false
     },
     {
@@ -1077,52 +1197,6 @@
       "operational_eligible": false
     },
     {
-      "event_id": "evt_f388f027df3e0ce6",
-      "topic": "ports",
-      "first_seen": "2026-11-02T08:00:00Z",
-      "last_seen": "2026-11-02T08:00:00Z",
-      "headline": "Puerto de Algeciras: el tráfico crece un 1,09% hasta septiembre",
-      "classification": "OPERATIONAL_SIGNAL",
-      "verification_status": "UNCONFIRMED",
-      "verification_reason": "The available records do not meet the confirmation threshold.",
-      "sources": [
-        {
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0
-        }
-      ],
-      "source_ids": [
-        "unknown"
-      ],
-      "articles": [
-        {
-          "article_id": "art_969459655805b638",
-          "title": "Puerto de Algeciras: el tráfico crece un 1,09% hasta septiembre",
-          "title_key": "puerto de algeciras el trafico crece un 1 09 hasta septiembre",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5RMUZjb3hHYTlIdDZUOEhyNUZiWnN2WjJXRGg1bkVsZHgxN1ZCdlMxNDFjTTVwd0ppelpuTS1Uem1YM3doZ3g4dkItOU8teTFwRXpGZzdybTBNZGdnSWNsZjc0R21mcUdpLU15djJXX1psY05EeWVkU1JDbw",
-          "published_at": "2026-11-02T08:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "ports",
-          "classification": "OPERATIONAL_SIGNAL",
-          "signal": "",
-          "description": ""
-        }
-      ],
-      "importance": 55,
-      "operational_impact": "POTENTIAL",
-      "operational_eligible": false
-    },
-    {
       "event_id": "evt_3efdd5ddeedfba7f",
       "topic": "relations",
       "first_seen": "2026-11-01T07:00:00Z",
@@ -1283,7 +1357,7 @@
       "topic": "relations",
       "first_seen": "2026-10-23T07:00:00Z",
       "last_seen": "2026-10-24T07:00:00Z",
-      "headline": "Un partido de la coalición de Gobierno en Marruecos supedita las relaciones con España al asunto de Ceuta y Melilla",
+      "headline": "La crisis de Ceuta pone a prueba el comercio y el valor estratégico del español en las relaciones con Marruecos",
       "classification": "UNCONFIRMED",
       "verification_status": "UNCONFIRMED",
       "verification_reason": "The available records do not meet the confirmation threshold.",
@@ -1301,24 +1375,6 @@
         "unknown"
       ],
       "articles": [
-        {
-          "article_id": "art_a7a4fa6a5db988da",
-          "title": "Un partido de la coalición de Gobierno en Marruecos supedita las relaciones con España al asunto de Ceuta y Melilla",
-          "title_key": "un partido de la coalicion de gobierno en marruecos supedita las relaciones con espana al asunto de ceuta y melilla",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNNDZXbmNneS1VbEZ0cjZQVjFXWExhNTJBTUdGSzZacWw1U04wYU1maHZXR25mc1RaREU5eDRHWm9UZFFRZVlPX1YtYk5YNmNLUkEyenpkR1hteXBFRkRMYW5CVWkwYzJOWkpKZ2xHMmZjaXpsOWluaEJvT2ZjTmhYS3MtUFNGT294MXg0S2RkcE9mbjk3dUVyWDIzZmo1bmlJdG5PTWF5TzRpRXVmZzZ1UVIxM0ZqWTBNemVXY2ViRTJtQVE1X2NONlNvaDV5VDlzc3g5Q1lDRUQybE05LU5mcm0wVFI1d2vSAfsBQVVfeXFMTlhDc0dhMmI2OUI5WXdISzZwVDFBd1dmWjU2OHE1bkd3b0hZV3V6VS1DbWxfcjBmdmVtUzQ4aVljM1FzZlozRmlQbDB2VjQ5ZkpEcngtQS0xendCclNycl8zTU9lQW05cnQwdWVTa2l5YWZYU1VEbWp2ejdyRGE1LVZpSDdEdGU4VWxGd29PS3lTTGhvRjZlcFM2SkNCSTBldzZ6S25wMFV2MU9yVWxTcmFzbkkzTXNHZUt6UFFUTjJmSzdELUxMRzE5MFFWOGZvVDFKMmVUM01BS1BZRzRaYmdMSzExTGkxVmlKdXFmdkQwOFZiVHpSbWpCOHc",
-          "published_at": "2026-10-22T07:00:00Z",
-          "observed_at": "",
-          "source_id": "unknown",
-          "source_name": "Unknown source",
-          "source_domain": "",
-          "tier": 1,
-          "official": false,
-          "weight": 1.0,
-          "topic": "relations",
-          "classification": "UNCONFIRMED",
-          "signal": "",
-          "description": ""
-        },
         {
           "article_id": "art_578b172542d11d94",
           "title": "Marruecos vuelve a la carga con Ceuta y Melilla y lanza un aviso a España: \"Nuestra soberanía no es negociable\"",
@@ -1412,10 +1468,10 @@
     "CONFIRMED_PRIMARY": 0,
     "CONFLICTING": 0,
     "DECLARATION_ONLY": 2,
-    "SINGLE_SOURCE": 0,
-    "UNCONFIRMED": 25,
-    "TOTAL": 27
+    "SINGLE_SOURCE": 1,
+    "UNCONFIRMED": 26,
+    "TOTAL": 29
   },
   "article_count": 36,
-  "event_count": 27
+  "event_count": 29
 }

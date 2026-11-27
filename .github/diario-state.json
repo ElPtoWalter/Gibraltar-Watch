@@ -1,8 +1,8 @@
 {
   "version": 4,
   "latest_entry": {
-    "date": "2026-11-26",
-    "headline": "Ceuta y Melilla: qué aportan los titulares y qué falta comprobar",
+    "date": "2026-11-27",
+    "headline": "España–Marruecos: qué aportan los titulares y qué falta comprobar",
     "summary": "Selección automática de 1 referencias de 1 medios. Separamos noticias y declaraciones de mediciones: ningún titular aislado confirma el estado del corredor.",
     "url": "diario/actual.html",
     "material_archive": false,
@@ -25,17 +25,17 @@
       }
     },
     "source_keys": [
-      "65bf8f3aca21c9f7aaf9"
+      "c221515af785a530e1a9"
     ],
-    "published_at": "2026-11-26T17:53+01:00",
-    "updated_at": "2026-11-26T17:53+01:00",
-    "published_rfc822": "Thu, 26 Nov 2026 17:53:00 +0100",
+    "published_at": "2026-11-27T17:39+01:00",
+    "updated_at": "2026-11-27T17:39+01:00",
+    "published_rfc822": "Fri, 27 Nov 2026 17:39:00 +0100",
     "source_count": 1,
-    "fingerprint": "eb04b50af42563cdfef5",
-    "mode": "brief",
-    "significance": 8,
+    "fingerprint": "3da35b5ae22ac54079e6",
+    "mode": "full",
+    "significance": 62,
     "significance_reasons": [
-      "novedades recientes sin cambio estructural"
+      "1 acontecimiento(s) verificado(s) de importancia material"
     ],
     "indexable": false,
     "editor_engine": "rules",
@@ -43,58 +43,56 @@
     "editor_assistant_status": "insufficient-sources",
     "editorial_trace": {
       "validator_version": 2,
-      "factual_packet_sha256": "5c77d6b89f26601afe1a3ff58d5b9c5063ceff10dcbb7c444c82cd6d0dfec501",
-      "factual_packet_hash": "5c77d6b89f26601afe1a3ff58d5b9c5063ceff10dcbb7c444c82cd6d0dfec501",
+      "factual_packet_sha256": "1dab1134c49c4a12cc40bdb9503ad2c019766dd5b72761b000b753e061e32725",
+      "factual_packet_hash": "1dab1134c49c4a12cc40bdb9503ad2c019766dd5b72761b000b753e061e32725",
       "provider": "rules",
       "status": "insufficient-sources",
       "attempts": [],
       "fallback_used": true,
       "event_ids": [
-        "evt_51d2db1925ae9f70",
-        "evt_3c0182e275d0ad4e",
-        "evt_89da0c977dec8cb5",
-        "evt_902fc87b751b9608"
+        "evt_046164a6a69f3449",
+        "evt_9a88e2111ccc3dde",
+        "evt_5f857ce0bc4f686d"
       ],
       "source_ids": [
-        "reuters",
-        "unknown"
+        "elpais",
+        "rtve"
       ],
       "verification_summary": {
-        "CONFIRMED_MULTI_SOURCE": 0,
+        "CONFIRMED_MULTI_SOURCE": 1,
         "CONFIRMED_PRIMARY": 0,
         "CONFLICTING": 0,
-        "DECLARATION_ONLY": 3,
-        "SINGLE_SOURCE": 1,
-        "UNCONFIRMED": 24,
+        "DECLARATION_ONLY": 0,
+        "SINGLE_SOURCE": 2,
+        "UNCONFIRMED": 25,
         "TOTAL": 28
       },
-      "timestamp": "2026-11-26T16:53:47.302164+00:00"
+      "timestamp": "2026-11-27T16:39:57.631959+00:00"
     },
     "validator_version": 2,
-    "factual_packet_hash": "5c77d6b89f26601afe1a3ff58d5b9c5063ceff10dcbb7c444c82cd6d0dfec501",
+    "factual_packet_hash": "1dab1134c49c4a12cc40bdb9503ad2c019766dd5b72761b000b753e061e32725",
     "event_ids": [
-      "evt_51d2db1925ae9f70",
-      "evt_3c0182e275d0ad4e",
-      "evt_89da0c977dec8cb5",
-      "evt_902fc87b751b9608"
+      "evt_046164a6a69f3449",
+      "evt_9a88e2111ccc3dde",
+      "evt_5f857ce0bc4f686d"
     ],
     "source_ids": [
-      "reuters",
-      "unknown"
+      "elpais",
+      "rtve"
     ],
-    "timestamp": "2026-11-26T16:53:47.302164+00:00",
+    "timestamp": "2026-11-27T16:39:57.631959+00:00",
     "fallback_used": true,
     "verification_summary": {
-      "CONFIRMED_MULTI_SOURCE": 0,
+      "CONFIRMED_MULTI_SOURCE": 1,
       "CONFIRMED_PRIMARY": 0,
       "CONFLICTING": 0,
-      "DECLARATION_ONLY": 3,
-      "SINGLE_SOURCE": 1,
-      "UNCONFIRMED": 24,
+      "DECLARATION_ONLY": 0,
+      "SINGLE_SOURCE": 2,
+      "UNCONFIRMED": 25,
       "TOTAL": 28
     },
-    "edition_label": "Cuaderno de las dos orillas",
-    "edition_slug": "shores"
+    "edition_label": "Cuaderno diplomático",
+    "edition_slug": "relations"
   },
   "entries": [
     {
